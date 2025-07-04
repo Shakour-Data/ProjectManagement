@@ -1,0 +1,17 @@
+# Implementation Plan for Project Management Tool
+
+## Current Tasks
+- Implement virtual environment exclusion in .gitignore and setup scripts.
+- Create prioritized task execution and reporting.
+- Develop and run tests for setup, GitHub integration, progress reporting, and importance/urgency reports.
+- Automate project management report updates after each commit operation.
+
+## New Task to Add
+- Integrate automatic update of project management reports (progress report and importance/urgency report) after every commit operation in the main project workflow.
+- Extend CLI commands or relevant modules to support commit operations and trigger report updates.
+- Ensure this integration is documented and tested to avoid being forgotten.
+
+## Notes
+- This task is critical to maintain up-to-date project status and task prioritization.
+- Coordination with auto_commit.py and CLI command handling is required.
+- User requested to add this task explicitly to the implementation plan to avoid forgetting it.
