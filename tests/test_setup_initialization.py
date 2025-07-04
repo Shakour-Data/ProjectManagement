@@ -2,7 +2,7 @@ import os
 import subprocess
 import sys
 import pytest
-import setup_initialization
+import src.setup_initialization as setup_initialization
 
 def test_create_virtualenv():
     env_dir = 'test_venv'
