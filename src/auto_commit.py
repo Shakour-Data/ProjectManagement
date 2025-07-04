@@ -1,4 +1,4 @@
-import os
+اimport os
 import subprocess
 from collections import defaultdict
 
