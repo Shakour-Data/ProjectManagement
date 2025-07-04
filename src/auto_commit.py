@@ -1,4 +1,4 @@
-اimport os
+import os
 import subprocess
 from collections import defaultdict
 
@@ -84,8 +84,6 @@ def categorize_files(files):
             categories["Other"].append(file)
 
     return categories
-
-import subprocess
 
 def get_file_diff_summary(file_path):
     """Get a short summary of changes for a file."""
@@ -178,6 +176,7 @@ def generate_commit_message(group_name, category_name, files):
 
 def auto_commit_and_push():
     """Automate Git commit and push process for each changed file separately."""
+    import progress_report as progress_report
     changes = get_git_changes()
     if not changes or (len(changes) == 1 and changes[0] == ''):
         print("No changes detected.")
@@ -215,6 +214,35 @@ def auto_commit_and_push():
                     continue
 
                 print(f"Committed and pushed changes for file: {f} in group: {group_name} - {category_name}")
+
+    # After all commits and pushes, update project management reports and commit them
+    try:
+        tm = progress_report.TaskManagement()
+        tm.generate_wbs_from_idea("Develop Project Management Tool")
+        progress_report.generate_report(tm)
+        progress_report.generate_importance_urgency_report(tm)
+
+        # Stage and commit updated reports
+        report_files = [progress_report.DASHBOARD_PATH, progress_report.IMPORTANCE_URGENCY_REPORT_PATH]
+        for report_file in report_files:
+            success, _ = run_git_command(["add", report_file])
+            if not success:
+                print(f"Failed to stage report file {report_file}.")
+                continue
+            commit_msg = f"chore: update project management report {report_file}"
+            success, _ = run_git_command(["commit", "-m", commit_msg])
+            if not success:
+                print(f"Failed to commit report file {report_file}.")
+                continue
+            success, _ = run_git_command(["push"])
+            if not success:
+                print(f"Failed to push commit for report file {report_file}.")
+                continue
+            print(f"Committed and pushed updated report file: {report_file}")
+
+        print("Project management reports updated and committed after commit.")
+    except Exception as e:
+        print(f"Failed to update project management reports: {e}")
 
 if __name__ == "__main__":
     auto_commit_and_push()
