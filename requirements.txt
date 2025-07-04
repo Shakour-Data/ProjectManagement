@@ -1,0 +1,4 @@
+# Initial dependencies for the project management tool
+requests
+PyGithub
+pytest
