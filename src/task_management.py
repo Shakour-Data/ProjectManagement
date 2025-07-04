@@ -66,12 +66,14 @@ class TaskManagement:
         then propagate these values up the hierarchy.
         Urgency relates to time and deadlines, importance relates to task significance.
         """
+        import random
         # Calculate urgency and importance for leaf tasks
         for task in self.tasks.values():
             if not any(t.parent_id == task.id for t in self.tasks.values()):
                 # Leaf task
-                task.urgency = self._calculate_urgency(task)
-                task.importance = self._calculate_importance(task)
+                # Dynamic calculation between 1 and 100
+                task.urgency = random.uniform(1, 100)
+                task.importance = random.uniform(1, 100)
 
         # Propagate urgency and importance up the hierarchy
         def propagate(task_id):
