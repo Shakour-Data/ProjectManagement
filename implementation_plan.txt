@@ -11,6 +11,9 @@
 - Extend CLI commands or relevant modules to support commit operations and trigger report updates.
 - Ensure this integration is documented and tested to avoid being forgotten.
 
+- Implement dynamic task prioritization and filtering logic in the main task management module, allowing user-configurable numbers of tasks to be reported (default to 15 important not in testing, 15 urgent not in testing, 10 important in testing, 10 urgent in testing).
+- Ensure this dynamic prioritization is integrated consistently across the project and exposed for user configuration.
+
 ## Notes
 - This task is critical to maintain up-to-date project status and task prioritization.
 - Coordination with auto_commit.py and CLI command handling is required.
