@@ -25,9 +25,31 @@ def install_dependencies(env_dir='venv', requirements_file='requirements.txt'):
     subprocess.check_call([pip_executable, 'install', '-r', requirements_file])
     print("Dependencies installed.")
 
+def ensure_gitignore_excludes_venv(gitignore_path='.gitignore', venv_dirs=None):
+    if venv_dirs is None:
+        venv_dirs = ['venv/', '.venv/', 'ENV/', 'env/']
+    if not os.path.exists(gitignore_path):
+        print(f"{gitignore_path} not found. Creating a new one.")
+        lines = []
+    else:
+        with open(gitignore_path, 'r') as f:
+            lines = f.read().splitlines()
+    updated = False
+    for venv_dir in venv_dirs:
+        if venv_dir not in lines:
+            lines.append(venv_dir)
+            updated = True
+    if updated:
+        with open(gitignore_path, 'w') as f:
+            f.write('\n'.join(lines) + '\n')
+        print(f"Updated {gitignore_path} to exclude virtual environment directories.")
+    else:
+        print(f"{gitignore_path} already excludes virtual environment directories.")
+
 def main():
     create_virtualenv()
     install_dependencies()
+    ensure_gitignore_excludes_venv()
 
 if __name__ == '__main__':
     main()
