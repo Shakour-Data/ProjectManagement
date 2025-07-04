@@ -4,7 +4,7 @@
 
 | Phase | Description                          | Completed Tasks | Total Tasks | Progress (%) |
 |-------|------------------------------------|-----------------|-------------|--------------|
-| 1     | Setup and Initialization            | 0               | 5           | 0%           |
+| 1     | Setup and Initialization            | 1               | 5           | 20%          |
 | 2     | GitHub Integration                  | 0               | 5           | 0%           |
 | 3     | Task Management                    | 0               | 5           | 0%           |
 | 4     | Documentation and Reporting         | 0               | 7           | 0%           |
