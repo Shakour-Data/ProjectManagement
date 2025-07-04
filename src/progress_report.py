@@ -1,6 +1,6 @@
 import os
 import datetime
-from src.task_management import TaskManagement
+from task_management import TaskManagement
 
 DASHBOARD_PATH = os.path.join('docs', 'project_management', 'detailed_progress_dashboard.md')
 IMPORTANCE_URGENCY_REPORT_PATH = os.path.join('docs', 'project_management', 'importance_urgency_report.md')
@@ -73,3 +73,4 @@ if __name__ == "__main__":
     # For demonstration, generate WBS from example idea
     tm.generate_wbs_from_idea("Develop Project Management Tool")
     generate_report(tm)
+    generate_importance_urgency_report(tm)
