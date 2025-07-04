@@ -24,10 +24,30 @@ class GitHubIntegration:
 
     # Placeholder methods for future implementation
     def create_issue(self, title, body=None, labels=None):
-        pass
+        url = f"{self.api_url}/repos/{self.repo}/issues"
+        data = {'title': title}
+        if body:
+            data['body'] = body
+        if labels:
+            data['labels'] = labels
+        response = requests.post(url, headers=self.headers, json=data)
+        response.raise_for_status()
+        return response.json()
 
     def update_issue(self, issue_number, state=None, title=None, body=None, labels=None):
-        pass
+        url = f"{self.api_url}/repos/{self.repo}/issues/{issue_number}"
+        data = {}
+        if state:
+            data['state'] = state
+        if title:
+            data['title'] = title
+        if body:
+            data['body'] = body
+        if labels is not None:
+            data['labels'] = labels
+        response = requests.patch(url, headers=self.headers, json=data)
+        response.raise_for_status()
+        return response.json()
 
     def close_issue(self, issue_number):
         pass
@@ -40,3 +60,33 @@ class GitHubIntegration:
 
     def update_wiki(self, content, page='Home'):
         pass
+
+    def sync_tasks_to_github(self, tasks):
+        """
+        Sync a list of Task objects to GitHub issues.
+        Creates new issues for tasks without linked GitHub issues,
+        updates existing issues for tasks with github_issue_number.
+        """
+        for task in tasks:
+            title = task.title
+            body = task.description or ""
+            labels = []
+            if task.status == "completed":
+                state = "closed"
+            else:
+                state = "open"
+
+            if task.github_issue_number:
+                # Update existing issue
+                self.update_issue(
+                    issue_number=task.github_issue_number,
+                    state=state,
+                    title=title,
+                    body=body,
+                    labels=labels
+                )
+            else:
+                # Create new issue
+                issue = self.create_issue(title=title, body=body, labels=labels)
+                task.github_issue_number = issue.get('number')
+        return tasks
