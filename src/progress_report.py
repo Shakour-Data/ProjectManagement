@@ -43,15 +43,27 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     tm.calculate_urgency_importance()
     tasks = tm.prioritize_tasks()
 
-    # Group tasks by phase (simulate phases based on parent_id or other logic)
-    # For simplicity, group by first digit of task id as phase
+    # Group tasks by phase using parent_id to reflect hierarchy
     phase_summary = {}
+    phase_descriptions = {
+        None: "Initial phase, project setup and architecture design.",
+        1: "Early development, security and access control.",
+        2: "Core functionality development.",
+        3: "Integration and testing.",
+        4: "Documentation and reporting.",
+        5: "User engagement and communication.",
+        6: "Performance tuning and optimization.",
+        7: "DevOps and automation.",
+        8: "Backup and recovery.",
+        9: "Final testing and deployment.",
+    }
+
     for task in tasks:
-        phase = str(task.id)[0] if task.id else "0"
+        phase = task.parent_id if task.parent_id in phase_descriptions else None
         if phase not in phase_summary:
-            phase_summary[phase] = {"completed": 0, "total": 0, "description": f"Phase {phase} description"}
+            phase_summary[phase] = {"completed": 0, "total": 0, "description": phase_descriptions.get(phase, "Other")}
         phase_summary[phase]["total"] += 1
-        if task.status == "completed":
+        if task.status.lower() == "completed":
             phase_summary[phase]["completed"] += 1
 
     # Build markdown content
@@ -59,13 +71,13 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     md += "## Current Progress Summary\n\n"
     md += "| Phase | Description | Completed Tasks | Total Tasks | Progress (%) |\n"
     md += "|-------|-------------|-----------------|-------------|--------------|\n"
-    for phase, data in sorted(phase_summary.items()):
+    for phase, data in sorted(phase_summary.items(), key=lambda x: (x[0] is None, x[0])):
         progress_percent = (data["completed"] / data["total"] * 100) if data["total"] > 0 else 0
-        md += f"| {phase} | {data['description']} | {data['completed']} | {data['total']} | {progress_percent:.0f}% |\n"
+        phase_name = f"Phase {phase}" if phase is not None else "Unassigned"
+        md += f"| {phase_name} | {data['description']} | {data['completed']} | {data['total']} | {progress_percent:.0f}% |\n"
 
     md += "\n## Current Workflow Status\n\n"
-    md += "- No tasks have been started yet.\n"
-    md += '- Workflow steps per task are defined in "workflow_definition.txt".\n\n'
+    md += "- Workflow steps per task are defined in \"workflow_definition.txt\".\n\n"
 
     md += "## Task Details with Urgency and Importance\n\n"
     md += "| Task ID | Title | Urgency | Importance | Status |\n"
@@ -75,7 +87,7 @@ def generate_progress_dashboard_report(tm: TaskManagement):
 
     md += "\n## Notes\n\n"
     md += "- Update this dashboard regularly to reflect progress.\n"
-    md += '- Use commit messages to update task statuses in "project_management_state.txt".\n'
+    md += "- Use commit messages to update task statuses in \"project_management_state.txt\".\n"
     md += "- This dashboard provides a real-time overview of project progress and workflow status.\n\n"
 
     md += "## Test Coverage Summary\n\n"
