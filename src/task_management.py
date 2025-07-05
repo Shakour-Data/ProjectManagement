@@ -236,3 +236,12 @@ class TaskManagement:
             self.tasks[task_id].assigned_to = users
             return True
         return False
+
+    def mark_task_completed(self, task_id: int):
+        """
+        Mark a task as completed by its ID.
+        """
+        if task_id in self.tasks:
+            self.tasks[task_id].status = 'completed'
+            return True
+        return False
