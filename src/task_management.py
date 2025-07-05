@@ -67,13 +67,51 @@ class TaskManagement:
         Urgency relates to time and deadlines, importance relates to task significance.
         """
         import random
+
+        def calculate_importance_factors(task: Task) -> float:
+            # Simulate importance factors with weighted random values between 1 and 100
+            factors = {
+                "dependency": random.uniform(1, 10),
+                "critical_path": random.uniform(1, 10),
+                "schedule_impact": random.uniform(1, 10),
+                "cost_impact": random.uniform(1, 10),
+                "key_objectives": random.uniform(1, 10),
+                "risk_complexity": random.uniform(1, 10),
+                "resource_rarity": random.uniform(1, 10),
+                "stakeholder_priority": random.uniform(1, 10),
+                "milestone_role": random.uniform(1, 10),
+                "quality_impact": random.uniform(1, 10),
+                "bottleneck_potential": random.uniform(1, 10),
+                "reuse_frequency": random.uniform(1, 10),
+            }
+            importance_score = sum(factors.values())
+            # Scale to 1-100
+            return max(1, min(100, importance_score))
+
+        def calculate_urgency_factors(task: Task) -> float:
+            # Simulate urgency factors with weighted random values between 1 and 100
+            factors = {
+                "deadline_proximity": random.uniform(1, 10),
+                "next_activity_dependency": random.uniform(1, 10),
+                "high_delay_risk": random.uniform(1, 10),
+                "immediate_decision": random.uniform(1, 10),
+                "stakeholder_pressure": random.uniform(1, 10),
+                "limited_resource_time": random.uniform(1, 10),
+                "competitive_advantage": random.uniform(1, 10),
+                "critical_issue_fix": random.uniform(1, 10),
+                "external_schedule_coordination": random.uniform(1, 10),
+                "high_compensatory_cost": random.uniform(1, 10),
+            }
+            urgency_score = sum(factors.values())
+            # Scale to 1-100
+            return max(1, min(100, urgency_score))
+
         # Calculate urgency and importance for leaf tasks
         for task in self.tasks.values():
             if not any(t.parent_id == task.id for t in self.tasks.values()):
                 # Leaf task
-                # Dynamic calculation between 1 and 100
-                task.urgency = random.uniform(1, 100)
-                task.importance = random.uniform(1, 100)
+                task.importance = calculate_importance_factors(task)
+                task.urgency = calculate_urgency_factors(task)
 
         # Propagate urgency and importance up the hierarchy
         def propagate(task_id):
@@ -95,6 +133,48 @@ class TaskManagement:
         root_tasks = [t for t in self.tasks.values() if t.parent_id is None]
         for root in root_tasks:
             propagate(root.id)
+
+    def classify_tasks_eisenhower(self):
+        """
+        Classify tasks into Eisenhower matrix quadrants based on importance and urgency.
+        Returns a dict with keys: 'do_now', 'schedule', 'delegate', 'eliminate'
+        """
+        do_now = []
+        schedule = []
+        delegate = []
+        eliminate = []
+
+        for task in self.tasks.values():
+            if task.importance is None or task.urgency is None:
+                continue
+            if task.importance >= 70 and task.urgency >= 70:
+                do_now.append(task)
+            elif task.importance >= 70 and task.urgency < 70:
+                schedule.append(task)
+            elif task.importance < 70 and task.urgency >= 70:
+                delegate.append(task)
+            else:
+                eliminate.append(task)
+
+        return {
+            "do_now": do_now,
+            "schedule": schedule,
+            "delegate": delegate,
+            "eliminate": eliminate,
+        }
+
+    def prioritize_tasks(self):
+        """
+        Prioritize tasks based on calculated urgency and importance.
+        """
+        self.calculate_urgency_importance()
+
+        def task_priority(task: Task):
+            # Combine urgency and importance with different weights
+            return (task.importance * 0.7 + task.urgency * 0.3, task.deadline or datetime.date.max)
+
+        sorted_tasks = sorted(self.tasks.values(), key=task_priority, reverse=True)
+        return sorted_tasks
 
     def _calculate_urgency(self, task: Task) -> float:
         """
