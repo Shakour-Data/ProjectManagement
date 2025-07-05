@@ -1,125 +1,125 @@
-# Importance and Urgency Report - 2025-07-05 00:14:36
+# Importance and Urgency Report - 2025-07-05 00:39:53
 
 ## Top 15 Important Tasks Not in Testing Phase
 - **Develop Project Management Tool** (ID: 1)
-  - Importance: 373.82
-  - Urgency: 310.39
-  - Status: pending
-  - Description: 
-
-- **Develop Project Management Tool - Subtask Level 1.1** (ID: 2)
-  - Importance: 141.21
-  - Urgency: 124.33
+  - Importance: 364.44
+  - Urgency: 316.57
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 1.3** (ID: 8)
-  - Importance: 128.00
-  - Urgency: 94.05
+  - Importance: 134.57
+  - Urgency: 92.60
+  - Status: pending
+  - Description: 
+
+- **Develop Project Management Tool - Subtask Level 1.1** (ID: 2)
+  - Importance: 123.43
+  - Urgency: 118.53
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 1.2** (ID: 5)
-  - Importance: 104.62
-  - Urgency: 92.01
-  - Status: pending
-  - Description: 
-
-- **Develop Project Management Tool - Subtask Level 2.1.2** (ID: 4)
-  - Importance: 75.37
-  - Urgency: 55.31
+  - Importance: 106.44
+  - Urgency: 105.44
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.3.2** (ID: 10)
-  - Importance: 69.94
-  - Urgency: 52.78
-  - Status: pending
-  - Description: 
-
-- **Develop Project Management Tool - Subtask Level 2.1.1** (ID: 3)
-  - Importance: 65.84
-  - Urgency: 69.02
+  - Importance: 70.46
+  - Urgency: 50.66
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.3.1** (ID: 9)
-  - Importance: 58.06
-  - Urgency: 41.28
+  - Importance: 64.11
+  - Urgency: 41.94
   - Status: pending
   - Description: 
 
-- **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
-  - Importance: 54.78
-  - Urgency: 49.01
+- **Develop Project Management Tool - Subtask Level 2.1.1** (ID: 3)
+  - Importance: 62.14
+  - Urgency: 56.39
+  - Status: pending
+  - Description: 
+
+- **Develop Project Management Tool - Subtask Level 2.1.2** (ID: 4)
+  - Importance: 61.29
+  - Urgency: 62.14
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.2.2** (ID: 7)
-  - Importance: 49.83
-  - Urgency: 43.01
+  - Importance: 58.04
+  - Urgency: 50.46
+  - Status: pending
+  - Description: 
+
+- **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
+  - Importance: 48.41
+  - Urgency: 54.99
   - Status: pending
   - Description: 
 
 
 ## Top 15 Urgent Tasks Not in Testing Phase
 - **Develop Project Management Tool** (ID: 1)
-  - Importance: 373.82
-  - Urgency: 310.39
+  - Importance: 364.44
+  - Urgency: 316.57
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 1.1** (ID: 2)
-  - Importance: 141.21
-  - Urgency: 124.33
-  - Status: pending
-  - Description: 
-
-- **Develop Project Management Tool - Subtask Level 1.3** (ID: 8)
-  - Importance: 128.00
-  - Urgency: 94.05
+  - Importance: 123.43
+  - Urgency: 118.53
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 1.2** (ID: 5)
-  - Importance: 104.62
-  - Urgency: 92.01
+  - Importance: 106.44
+  - Urgency: 105.44
   - Status: pending
   - Description: 
 
-- **Develop Project Management Tool - Subtask Level 2.1.1** (ID: 3)
-  - Importance: 65.84
-  - Urgency: 69.02
+- **Develop Project Management Tool - Subtask Level 1.3** (ID: 8)
+  - Importance: 134.57
+  - Urgency: 92.60
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.1.2** (ID: 4)
-  - Importance: 75.37
-  - Urgency: 55.31
+  - Importance: 61.29
+  - Urgency: 62.14
   - Status: pending
   - Description: 
 
-- **Develop Project Management Tool - Subtask Level 2.3.2** (ID: 10)
-  - Importance: 69.94
-  - Urgency: 52.78
+- **Develop Project Management Tool - Subtask Level 2.1.1** (ID: 3)
+  - Importance: 62.14
+  - Urgency: 56.39
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
-  - Importance: 54.78
-  - Urgency: 49.01
+  - Importance: 48.41
+  - Urgency: 54.99
+  - Status: pending
+  - Description: 
+
+- **Develop Project Management Tool - Subtask Level 2.3.2** (ID: 10)
+  - Importance: 70.46
+  - Urgency: 50.66
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.2.2** (ID: 7)
-  - Importance: 49.83
-  - Urgency: 43.01
+  - Importance: 58.04
+  - Urgency: 50.46
   - Status: pending
   - Description: 
 
 - **Develop Project Management Tool - Subtask Level 2.3.1** (ID: 9)
-  - Importance: 58.06
-  - Urgency: 41.28
+  - Importance: 64.11
+  - Urgency: 41.94
   - Status: pending
   - Description: 
 
