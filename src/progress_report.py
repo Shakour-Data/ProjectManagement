@@ -40,6 +40,33 @@ def generate_importance_urgency_report(tm: TaskManagement):
     tm.calculate_urgency_importance()
     tasks = tm.prioritize_tasks()
 
+    # Mapping for workflow position and files involved by task title
+    workflow_positions = {
+        "Develop Project Management Tool": "Initial phase, project setup and architecture design.",
+        "Develop Project Management Tool - Subtask Level 1.1": "Early development, security and access control.",
+        "Develop Project Management Tool - Subtask Level 1.3": "Mid development, data visualization and reporting.",
+        "Develop Project Management Tool - Subtask Level 1.2": "Core functionality development.",
+        "Develop Project Management Tool - Subtask Level 2.1.2": "Integration phase.",
+        "Develop Project Management Tool - Subtask Level 2.3.2": "Performance tuning and optimization.",
+        "Develop Project Management Tool - Subtask Level 2.1.1": "DevOps and automation.",
+        "Develop Project Management Tool - Subtask Level 2.3.1": "User engagement and communication.",
+        "Develop Project Management Tool - Subtask Level 2.2.1": "Backend API development.",
+        "Develop Project Management Tool - Subtask Level 2.2.2": "Security and permissions.",
+    }
+
+    files_involved = {
+        "Develop Project Management Tool": ["src/task_management.py", "src/progress_report.py", "src/auto_commit.py"],
+        "Develop Project Management Tool - Subtask Level 1.1": ["src/task_management.py"],
+        "Develop Project Management Tool - Subtask Level 1.3": ["src/progress_report.py"],
+        "Develop Project Management Tool - Subtask Level 1.2": ["src/task_management.py"],
+        "Develop Project Management Tool - Subtask Level 2.1.2": ["src/task_management.py"],
+        "Develop Project Management Tool - Subtask Level 2.3.2": ["src/task_management.py"],
+        "Develop Project Management Tool - Subtask Level 2.1.1": ["src/auto_commit.py"],
+        "Develop Project Management Tool - Subtask Level 2.3.1": ["src/task_management.py"],
+        "Develop Project Management Tool - Subtask Level 2.2.1": ["src/task_management.py"],
+        "Develop Project Management Tool - Subtask Level 2.2.2": ["src/task_management.py"],
+    }
+
     # Filter tasks by testing phase
     not_testing_tasks = [t for t in tasks if t.status.lower() != 'testing']
     testing_tasks = [t for t in tasks if t.status.lower() == 'testing']
@@ -51,7 +78,16 @@ def generate_importance_urgency_report(tm: TaskManagement):
     urgent_testing = sorted(testing_tasks, key=lambda t: t.urgency, reverse=True)[:10]
 
     def format_task(task):
-        return f"- **{task.title}** (ID: {task.id})\n  - Importance: {task.importance:.2f}\n  - Urgency: {task.urgency:.2f}\n  - Status: {task.status}\n  - Description: {task.description if hasattr(task, 'description') else 'No description available.'}\n"
+        wp = workflow_positions.get(task.title, "No workflow position available.")
+        fi = files_involved.get(task.title, ["No files listed."])
+        fi_str = ", ".join(fi)
+        return (f"- **{task.title}** (ID: {task.id})\n"
+                f"  - Importance: {task.importance:.2f}\n"
+                f"  - Urgency: {task.urgency:.2f}\n"
+                f"  - Status: {task.status}\n"
+                f"  - Description: {task.description if hasattr(task, 'description') else 'No description available.'}\n"
+                f"  - Workflow Position: {wp}\n"
+                f"  - Files Involved: {fi_str}\n")
 
     report = f"# Importance and Urgency Report - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
     report += "## Top 15 Important Tasks Not in Testing Phase\n"
