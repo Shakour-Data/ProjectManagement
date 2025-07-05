@@ -61,8 +61,11 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     for task in tasks:
         phase = task.parent_id if task.parent_id in phase_descriptions else None
         if phase not in phase_summary:
-            phase_summary[phase] = {"completed": 0, "total": 0, "description": phase_descriptions.get(phase, "Other")}
+            phase_summary[phase] = {"completed": 0, "total": 0, "description": phase_descriptions.get(phase, "Other"), "progress_sum": 0.0}
         phase_summary[phase]["total"] += 1
+        # Use workflow progress percentage instead of status completed count
+        progress = getattr(task, "workflow_progress_percentage", lambda: 0)()
+        phase_summary[phase]["progress_sum"] += progress
         if task.status.lower() == "completed":
             phase_summary[phase]["completed"] += 1
 
@@ -72,7 +75,8 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     md += "| Phase | Description | Completed Tasks | Total Tasks | Progress (%) |\n"
     md += "|-------|-------------|-----------------|-------------|--------------|\n"
     for phase, data in sorted(phase_summary.items(), key=lambda x: (x[0] is None, x[0])):
-        progress_percent = (data["completed"] / data["total"] * 100) if data["total"] > 0 else 0
+        # Calculate average workflow progress percentage per phase
+        progress_percent = (data["progress_sum"] / data["total"]) if data["total"] > 0 else 0
         phase_name = f"Phase {phase}" if phase is not None else "Unassigned"
         md += f"| {phase_name} | {data['description']} | {data['completed']} | {data['total']} | {progress_percent:.0f}% |\n"
 
