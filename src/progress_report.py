@@ -63,7 +63,12 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     for task in tasks:
         phase = task.parent_id if task.parent_id in phase_descriptions else None
         if phase not in phase_summary:
-            phase = None
+            phase_summary[phase] = {
+                "total": 0,
+                "progress_sum": 0,
+                "completed": 0,
+                "description": phase_descriptions.get(phase, "No description available.")
+            }
         phase_summary[phase]["total"] += 1
         progress = getattr(task, "workflow_progress_percentage", lambda: 0)()
         phase_summary[phase]["progress_sum"] += progress
@@ -174,6 +179,59 @@ def generate_importance_urgency_report(tm: TaskManagement):
     print(f"Importance and Urgency report updated at {IMPORTANCE_URGENCY_REPORT_PATH}")
 
 if __name__ == "__main__":
+    import openpyxl
+    from openpyxl.styles import Font, Alignment
+
+    def generate_comprehensive_excel_report(tm: TaskManagement, output_path="docs/project_management/comprehensive_report.xlsx"):
+        """
+        Generate a comprehensive Excel report with columns:
+        Level (لول), Description (شرح), Priority (اولویت), Urgency (فوریت), Status (وضعیت), Progress Percentage (درصد پیشرفت)
+        """
+        tasks = tm.prioritize_tasks()
+
+        wb = openpyxl.Workbook()
+        ws = wb.active
+        ws.title = "Comprehensive Report"
+
+        headers = ["Level", "Description", "Priority", "Urgency", "Status", "Progress Percentage"]
+        ws.append(headers)
+
+        # Set header styles
+        for col_num, header in enumerate(headers, 1):
+            cell = ws.cell(row=1, column=col_num)
+            cell.font = Font(bold=True)
+            cell.alignment = Alignment(horizontal="center")
+
+        for task in tasks:
+            # Extract level from task title if possible, e.g. "Subtask Level 1.1" -> "1.1"
+            level = "1"
+            import re
+            match = re.search(r"Level ([\\d\\.]+)", task.title)
+            if match:
+                level = match.group(1)
+
+            description = getattr(task, "description", "") or ""
+            priority = round(task.importance, 2) if hasattr(task, "importance") else ""
+            urgency = round(task.urgency, 2) if hasattr(task, "urgency") else ""
+            status = task.status if hasattr(task, "status") else ""
+            progress = 0
+            if hasattr(task, "workflow_progress_percentage"):
+                if callable(task.workflow_progress_percentage):
+                    progress = task.workflow_progress_percentage()
+                else:
+                    progress = task.workflow_progress_percentage
+
+            row = [level, description, priority, urgency, status, progress]
+            ws.append(row)
+
+        # Adjust column widths
+        column_widths = [10, 50, 15, 15, 15, 20]
+        for i, width in enumerate(column_widths, 1):
+            ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = width
+
+        wb.save(output_path)
+        print(f"Comprehensive Excel report generated at {output_path}")
+
     tm = TaskManagement()
     # For demonstration, generate WBS from example idea
     tm.generate_wbs_from_idea("Develop Project Management Tool")
@@ -188,3 +246,4 @@ if __name__ == "__main__":
     generate_report(tm)
     generate_importance_urgency_report(tm)
     generate_progress_dashboard_report(tm)
+    generate_comprehensive_excel_report(tm)
