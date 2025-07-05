@@ -31,6 +31,9 @@ This file tracks the testing status of various modules and features in the proje
 - [x] Dynamic progress report generation including urgency and importance
 - [x] Dashboard updates with task-level urgency and importance
 - [x] Comprehensive Excel report generation
+- [x] Two-level progress summary table generation
+- [x] Urgent tasks grouping by hierarchical levels
+- [x] Eisenhower matrix categorization
 
 ### Setup and Initialization
 - [x] Virtual environment creation and dependency installation
