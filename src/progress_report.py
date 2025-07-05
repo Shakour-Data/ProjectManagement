@@ -43,31 +43,40 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     tm.calculate_urgency_importance()
     tasks = tm.prioritize_tasks()
 
-    # Group tasks by phase using parent_id to reflect hierarchy
-    phase_summary = {}
+    # Phase descriptions for 11 phases
     phase_descriptions = {
         None: "Initial phase, project setup and architecture design.",
-        1: "Early development, security and access control.",
-        2: "Core functionality development.",
-        3: "Integration and testing.",
-        4: "Documentation and reporting.",
-        5: "User engagement and communication.",
-        6: "Performance tuning and optimization.",
-        7: "DevOps and automation.",
-        8: "Backup and recovery.",
-        9: "Final testing and deployment.",
+        1: "Setup and Initialization",
+        2: "GitHub Integration",
+        3: "Task Management",
+        4: "Documentation and Reporting",
+        5: "Communication and Feedback",
+        6: "Automation and Extensibility",
+        7: "Security and Permissions",
+        8: "Usability and CLI",
+        9: "Backup and Recovery",
+        10: "Standards Compliance and Multi-Method Support",
+        11: "Final Testing, Deployment, and Maintenance",
     }
+
+    # Group tasks by phase and subtasks by parent_id
+    phase_summary = {}
+    subtasks_summary = {}
 
     for task in tasks:
         phase = task.parent_id if task.parent_id in phase_descriptions else None
         if phase not in phase_summary:
             phase_summary[phase] = {"completed": 0, "total": 0, "description": phase_descriptions.get(phase, "Other"), "progress_sum": 0.0}
         phase_summary[phase]["total"] += 1
-        # Use workflow progress percentage instead of status completed count
         progress = getattr(task, "workflow_progress_percentage", lambda: 0)()
         phase_summary[phase]["progress_sum"] += progress
         if task.status.lower() == "completed":
             phase_summary[phase]["completed"] += 1
+
+        # Collect subtasks grouped by phase
+        if phase not in subtasks_summary:
+            subtasks_summary[phase] = []
+        subtasks_summary[phase].append(task)
 
     # Build markdown content
     md = "# Project Management Dashboard\n\n"
@@ -75,10 +84,14 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     md += "| Phase | Description | Completed Tasks | Total Tasks | Progress (%) |\n"
     md += "|-------|-------------|-----------------|-------------|--------------|\n"
     for phase, data in sorted(phase_summary.items(), key=lambda x: (x[0] is None, x[0])):
-        # Calculate average workflow progress percentage per phase
         progress_percent = (data["progress_sum"] / data["total"]) if data["total"] > 0 else 0
         phase_name = f"Phase {phase}" if phase is not None else "Unassigned"
         md += f"| {phase_name} | {data['description']} | {data['completed']} | {data['total']} | {progress_percent:.0f}% |\n"
+        # Add subtasks rows indented
+        for task in subtasks_summary.get(phase, []):
+            if task.parent_id == phase:
+                sub_progress = getattr(task, "workflow_progress_percentage", lambda: 0)()
+                md += f"| &nbsp;&nbsp;&nbsp;{task.title} | Subtask | {'1' if task.status.lower() == 'completed' else '0'} | 1 | {sub_progress:.0f}% |\n"
 
     md += "\n## Current Workflow Status\n\n"
     md += "- Workflow steps per task are defined in \"workflow_definition.txt\".\n\n"
@@ -88,6 +101,50 @@ def generate_progress_dashboard_report(tm: TaskManagement):
     md += "|---------|-------|---------|------------|--------|\n"
     for task in tasks:
         md += f"| {task.id} | {task.title} | {task.urgency:.2f} | {task.importance:.2f} | {task.status} |\n"
+
+    # Urgent tasks grouped by level
+    md += "\n## Top Urgent Tasks by Level\n\n"
+    levels = {}
+    for task in tasks:
+        level = task.title.count('.') + 1  # crude level estimation by counting dots in title
+        if level not in levels:
+            levels[level] = []
+        levels[level].append(task)
+    for level in sorted(levels.keys()):
+        md += f"### Level {level} Urgent Tasks\n\n"
+        md += "| Task ID | Title | Urgency | Importance | Status |\n"
+        md += "|---------|-------|---------|------------|--------|\n"
+        for task in sorted(levels[level], key=lambda t: t.urgency, reverse=True)[:10]:
+            md += f"| {task.id} | {task.title} | {task.urgency:.2f} | {task.importance:.2f} | {task.status} |\n"
+        md += "\n"
+
+    # Eisenhower matrix
+    urgent_important = []
+    not_urgent_important = []
+    urgent_not_important = []
+    not_urgent_not_important = []
+
+    for task in tasks:
+        urgent = task.urgency > 50
+        important = task.importance > 50
+        if urgent and important:
+            urgent_important.append(task)
+        elif not urgent and important:
+            not_urgent_important.append(task)
+        elif urgent and not important:
+            urgent_not_important.append(task)
+        else:
+            not_urgent_not_important.append(task)
+
+    md += "## Eisenhower Matrix (Urgency vs Importance)\n\n"
+    md += "| Quadrant | Description | Tasks |\n"
+    md += "|----------|-------------|-------|\n"
+    def format_tasks(tasks_list):
+        return "<br>".join([f"- {t.title} (ID: {t.id})" for t in tasks_list]) if tasks_list else "None"
+    md += f"| Urgent and Important | Tasks that are both urgent and important, requiring immediate attention. | {format_tasks(urgent_important)} |\n"
+    md += f"| Not Urgent but Important | Tasks important for long-term success but not urgent. | {format_tasks(not_urgent_important)} |\n"
+    md += f"| Urgent but Not Important | Tasks urgent but less important, consider delegation. | {format_tasks(urgent_not_important)} |\n"
+    md += f"| Not Urgent and Not Important | Tasks neither urgent nor important, consider dropping or postponing. | {format_tasks(not_urgent_not_important)} |\n"
 
     md += "\n## Notes\n\n"
     md += "- Update this dashboard regularly to reflect progress.\n"
