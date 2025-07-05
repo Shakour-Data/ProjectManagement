@@ -1,5 +1,6 @@
 import os
 import subprocess
+import datetime
 from collections import defaultdict
 
 def run_git_command(args):
@@ -26,12 +27,10 @@ def group_related_files(changes):
     for change in changes:
         if not change:
             continue
-        # Handle untracked files starting with '??'
         if change.startswith("??"):
             status = "??"
             file_path = change[2:].lstrip()
         else:
-            # Split line into status and file path
             parts = change.split(None, 1)
             if len(parts) == 2:
                 status, file_path = parts[0], parts[1].lstrip()
@@ -39,27 +38,20 @@ def group_related_files(changes):
                 status = parts[0]
                 file_path = ""
 
-        # For renamed files, file_path contains "old_path -> new_path"
         if status == "R":
             parts = file_path.split("->")
             if len(parts) == 2:
                 old_path = parts[0].strip()
                 new_path = parts[1].strip()
-                # Group by new_path
                 file_path = new_path
             else:
-                # fallback
                 file_path = file_path.strip()
 
-        # Determine top-level directory or root if none
         parts = file_path.split(os.sep)
         if len(parts) > 1:
             top_level_dir = parts[0]
         else:
             top_level_dir = "root"
-
-        # Debug print to verify file paths
-        print(f"Status: {status}, File path: '{file_path}'")
 
         groups[top_level_dir].append((status, file_path))
 
@@ -95,8 +87,7 @@ def get_file_diff_summary(file_path):
             check=True,
         )
         diff_lines = result.stdout.strip().splitlines()
-        # Return first 5 lines or less as summary
-        summary = "\n    ".join(diff_lines[:5]) if diff_lines else "No diff available."
+        summary = "\\n    ".join(diff_lines[:5]) if diff_lines else "No diff available."
         return summary
     except subprocess.CalledProcessError:
         return "Could not retrieve diff."
@@ -144,10 +135,9 @@ def generate_commit_message(group_name, category_name, files):
         subject += f"({scope})"
     subject += f": {category_name} files updated"
 
-    # Add timestamp to commit message for clarity
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-    body = f"Changes included (as of {timestamp}):\n"
+    body = f"Changes included (as of {timestamp}):\\n"
     for f in files:
         desc = {
             "Added": "This file was newly added to the project and is now tracked.",
@@ -172,17 +162,24 @@ def generate_commit_message(group_name, category_name, files):
             "Both Modified": "This file was modified in both the index and working tree.",
         }.get(category_name, "")
         diff_summary = get_file_diff_summary(f)
-        body += f"- {f}: {desc}\n  Summary:\n    {diff_summary}\n"
+        body += f"- {f}: {desc}\\n  Summary:\\n    {diff_summary}\\n"
 
-    footer = "\nPlease describe the reason or issue addressed by these changes."
+    footer = "\\nPlease describe the reason or issue addressed by these changes."
 
-    message = f"{subject}\n\n{body}\n{footer}"
+    message = f"{subject}\\n\\n{body}\\n{footer}"
     return message
 
 def auto_commit_and_push():
     """Automate Git commit and push process for each changed file separately."""
-    import progress_report as progress_report
+    import progress_report
     from task_management import TaskManagement
+
+    # First, pull latest changes from origin/main to sync local main branch with fast-forward only
+    success_pull, output_pull = run_git_command(["pull", "--ff-only", "origin", "main"])
+    if not success_pull:
+        print(f"Failed to pull latest changes from origin/main: {output_pull}")
+        # Optionally, handle merge conflicts or abort
+        return
 
     changes = get_git_changes()
     if not changes or (len(changes) == 1 and changes[0] == ''):
@@ -238,7 +235,7 @@ def auto_commit_and_push():
         # Get recent commit messages (last 10 commits)
         success_log, log_output = run_git_command(["log", "-10", "--pretty=%B"])
         if success_log:
-            commit_messages = log_output.strip().split("\n\n")
+            commit_messages = log_output.strip().split("\\n\\n")
             for msg in commit_messages:
                 tm.update_workflow_steps_from_commit_message(msg)
 
