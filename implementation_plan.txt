@@ -18,3 +18,10 @@
 - This task is critical to maintain up-to-date project status and task prioritization.
 - Coordination with auto_commit.py and CLI command handling is required.
 - User requested to add this task explicitly to the implementation plan to avoid forgetting it.
+
+- Update task management logic to calculate importance and urgency scores between 1 and 100 based on weighted factors reflecting project management criteria.
+- Implement Eisenhower matrix classification of tasks based on importance and urgency thresholds.
+- Prioritize tasks using combined weighted scores of importance and urgency.
+- Ensure dynamic recalculation of these values after each commit.
+- Update progress and importance/urgency reports to reflect these calculations, listing 15 important, 15 urgent, 10 important in testing, and 10 urgent in testing tasks.
+- Integrate these changes into the main project codebase and CLI commands for seamless operation.
