@@ -239,9 +239,16 @@ def auto_commit_and_push():
         # Stage and commit updated reports
         report_files = [progress_report.DASHBOARD_PATH, progress_report.IMPORTANCE_URGENCY_REPORT_PATH, os.path.join('docs', 'project_management', 'progress_dashboard.md')]
         for report_file in report_files:
+            print(f"Staging report file: {report_file}")
             success, _ = run_git_command(["add", report_file])
             if not success:
                 print(f"Failed to stage report file {report_file}.")
+                continue
+            # Check git status for the file
+            success_status, status_output = run_git_command(["status", "--short", report_file])
+            print(f"Git status for {report_file}: {status_output}")
+            if not status_output:
+                print(f"No changes detected for {report_file}, skipping commit.")
                 continue
             commit_msg = f"chore: update project management report {report_file}"
             success, _ = run_git_command(["commit", "-m", commit_msg])
