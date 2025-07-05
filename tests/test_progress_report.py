@@ -1,6 +1,9 @@
 import pytest
-from src import progress_report
-from src.task_management import TaskManagement
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+import progress_report
+from task_management import TaskManagement
 
 def test_generate_progress_report():
     tm = TaskManagement()
