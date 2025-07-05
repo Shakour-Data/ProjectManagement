@@ -4,26 +4,26 @@
 
 | Phase | Description | Completed Tasks | Total Tasks | Progress (%) |
 |-------|-------------|-----------------|-------------|--------------|
-| Phase 1 | Early development, security and access control. | 3 | 3 | 0% |
-| Phase 2 | Core functionality development. | 2 | 2 | 0% |
-| Phase 5 | User engagement and communication. | 2 | 2 | 0% |
-| Phase 8 | Backup and recovery. | 2 | 2 | 0% |
-| Unassigned | Initial phase, project setup and architecture design. | 1 | 1 | 0% |
+| Phase 1 | Early development, security and access control. | 0 | 3 | 0% |
+| Phase 2 | Core functionality development. | 0 | 2 | 0% |
+| Phase 5 | User engagement and communication. | 0 | 2 | 0% |
+| Phase 8 | Backup and recovery. | 0 | 2 | 0% |
+| Unassigned | Initial phase, project setup and architecture design. | 0 | 1 | 0% |
 
 ## Task Details with Urgency and Importance
 
 | Task ID | Title | Urgency | Importance | Status |
 |---------|-------|---------|------------|--------|
-| 1 | Develop Project Management Tool | 324.02 | 424.93 | completed |
-| 8 | Develop Project Management Tool - Subtask Level 1.3 | 108.04 | 152.34 | completed |
-| 5 | Develop Project Management Tool - Subtask Level 1.2 | 110.49 | 146.26 | completed |
-| 2 | Develop Project Management Tool - Subtask Level 1.1 | 105.49 | 126.33 | completed |
-| 7 | Develop Project Management Tool - Subtask Level 2.2.2 | 60.00 | 78.33 | completed |
-| 9 | Develop Project Management Tool - Subtask Level 2.3.1 | 51.70 | 78.49 | completed |
-| 10 | Develop Project Management Tool - Subtask Level 2.3.2 | 56.35 | 73.85 | completed |
-| 4 | Develop Project Management Tool - Subtask Level 2.1.2 | 59.50 | 66.26 | completed |
-| 6 | Develop Project Management Tool - Subtask Level 2.2.1 | 50.49 | 67.93 | completed |
-| 3 | Develop Project Management Tool - Subtask Level 2.1.1 | 45.99 | 60.07 | completed |
+| 1 | Develop Project Management Tool | 314.00 | 402.28 | pending |
+| 8 | Develop Project Management Tool - Subtask Level 1.3 | 103.86 | 144.72 | pending |
+| 5 | Develop Project Management Tool - Subtask Level 1.2 | 102.24 | 141.27 | pending |
+| 2 | Develop Project Management Tool - Subtask Level 1.1 | 107.90 | 116.29 | pending |
+| 9 | Develop Project Management Tool - Subtask Level 2.3.1 | 59.54 | 70.47 | pending |
+| 6 | Develop Project Management Tool - Subtask Level 2.2.1 | 47.03 | 73.56 | pending |
+| 10 | Develop Project Management Tool - Subtask Level 2.3.2 | 44.32 | 74.24 | pending |
+| 7 | Develop Project Management Tool - Subtask Level 2.2.2 | 55.21 | 67.72 | pending |
+| 3 | Develop Project Management Tool - Subtask Level 2.1.1 | 51.19 | 59.95 | pending |
+| 4 | Develop Project Management Tool - Subtask Level 2.1.2 | 56.71 | 56.34 | pending |
 
 ## Notes
 
