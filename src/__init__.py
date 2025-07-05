@@ -1,1 +1,1 @@
-# This file makes the src directory a Python package
+# auto_project_manager package initialization
