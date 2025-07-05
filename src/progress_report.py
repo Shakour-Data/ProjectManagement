@@ -277,7 +277,9 @@ if __name__ == "__main__":
         """
         Generate a comprehensive Excel report with columns:
         Level (لول), Description (شرح), Priority (اولویت), Urgency (فوریت), Status (وضعیت), Progress Percentage (درصد پیشرفت)
+        Reflecting full WBS hierarchical levels.
         """
+        import re
         tasks = tm.prioritize_tasks()
 
         wb = openpyxl.Workbook()
@@ -293,14 +295,29 @@ if __name__ == "__main__":
             cell.font = Font(bold=True)
             cell.alignment = Alignment(horizontal="center")
 
-        for task in tasks:
-            # Extract level from task title if possible, e.g. "Subtask Level 1.1" -> "1.1"
-            level = "1"
-            import re
+        # Helper function to get level from task title or parent hierarchy
+        def get_task_level(task):
+            # Try to extract level from title e.g. "Level 1.1.2"
             match = re.search(r"Level ([\\d\\.]+)", task.title)
             if match:
-                level = match.group(1)
+                return match.group(1)
+            # Fallback: count dots in parent_id chain or use 1
+            level = 1
+            current = task
+            while hasattr(current, "parent_task_id") and current.parent_task_id is not None:
+                level += 1
+                # Find parent task object
+                parent = next((t for t in tasks if t.id == current.parent_task_id), None)
+                if parent is None or parent == current:
+                    break
+                current = parent
+            return str(level)
 
+        # Sort tasks by level and id for consistent ordering
+        tasks_sorted = sorted(tasks, key=lambda t: (get_task_level(t), t.id))
+
+        for task in tasks_sorted:
+            level = get_task_level(task)
             description = getattr(task, "description", "") or ""
             priority = round(task.importance, 2) if hasattr(task, "importance") else ""
             urgency = round(task.urgency, 2) if hasattr(task, "urgency") else ""
@@ -316,7 +333,7 @@ if __name__ == "__main__":
             ws.append(row)
 
         # Adjust column widths
-        column_widths = [10, 50, 15, 15, 15, 20]
+        column_widths = [15, 50, 15, 15, 15, 20]
         for i, width in enumerate(column_widths, 1):
             ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = width
 
