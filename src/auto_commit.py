@@ -103,6 +103,8 @@ def get_file_diff_summary(file_path):
 
 def generate_commit_message(group_name, category_name, files):
     """Generate a professional conventional commit style message."""
+    import datetime
+
     type_map = {
         "Added": "feat",
         "Modified": "fix",
@@ -142,7 +144,10 @@ def generate_commit_message(group_name, category_name, files):
         subject += f"({scope})"
     subject += f": {category_name} files updated"
 
-    body = "Changes included:\n"
+    # Add timestamp to commit message for clarity
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+    body = f"Changes included (as of {timestamp}):\n"
     for f in files:
         desc = {
             "Added": "This file was newly added to the project and is now tracked.",
@@ -184,11 +189,20 @@ def auto_commit_and_push():
 
     grouped_files = group_related_files(changes)
 
+    if not grouped_files:
+        print("No grouped files found. Exiting.")
+        return
+
     for group_name, files in grouped_files.items():
         categories = categorize_files(files)
 
+        if not categories:
+            print(f"No categories found for group {group_name}. Continuing.")
+            continue
+
         for category_name, category_files in categories.items():
             if not category_files:
+                print(f"No files in category {category_name} for group {group_name}. Continuing.")
                 continue
 
             for f in category_files:
