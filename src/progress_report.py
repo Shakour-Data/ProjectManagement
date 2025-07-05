@@ -36,6 +36,61 @@ def generate_report(tm: TaskManagement):
         f.write(report)
     print(f"Progress report updated at {DASHBOARD_PATH}")
 
+def generate_progress_dashboard_report(tm: TaskManagement):
+    """
+    Generate the progress dashboard markdown file at docs/project_management/progress_dashboard.md
+    """
+    tm.calculate_urgency_importance()
+    tasks = tm.prioritize_tasks()
+
+    # Group tasks by phase (simulate phases based on parent_id or other logic)
+    # For simplicity, group by first digit of task id as phase
+    phase_summary = {}
+    for task in tasks:
+        phase = str(task.id)[0] if task.id else "0"
+        if phase not in phase_summary:
+            phase_summary[phase] = {"completed": 0, "total": 0, "description": f"Phase {phase} description"}
+        phase_summary[phase]["total"] += 1
+        if task.status == "completed":
+            phase_summary[phase]["completed"] += 1
+
+    # Build markdown content
+    md = "# Project Management Dashboard\n\n"
+    md += "## Current Progress Summary\n\n"
+    md += "| Phase | Description | Completed Tasks | Total Tasks | Progress (%) |\n"
+    md += "|-------|-------------|-----------------|-------------|--------------|\n"
+    for phase, data in sorted(phase_summary.items()):
+        progress_percent = (data["completed"] / data["total"] * 100) if data["total"] > 0 else 0
+        md += f"| {phase} | {data['description']} | {data['completed']} | {data['total']} | {progress_percent:.0f}% |\n"
+
+    md += "\n## Current Workflow Status\n\n"
+    md += "- No tasks have been started yet.\n"
+    md += '- Workflow steps per task are defined in "workflow_definition.txt".\n\n'
+
+    md += "## Task Details with Urgency and Importance\n\n"
+    md += "| Task ID | Title | Urgency | Importance | Status |\n"
+    md += "|---------|-------|---------|------------|--------|\n"
+    for task in tasks:
+        md += f"| {task.id} | {task.title} | {task.urgency:.2f} | {task.importance:.2f} | {task.status} |\n"
+
+    md += "\n## Notes\n\n"
+    md += "- Update this dashboard regularly to reflect progress.\n"
+    md += '- Use commit messages to update task statuses in "project_management_state.txt".\n'
+    md += "- This dashboard provides a real-time overview of project progress and workflow status.\n\n"
+
+    md += "## Test Coverage Summary\n\n"
+    md += "| Module/Feature | Status |\n"
+    md += "|---------------|--------|\n"
+    md += "| Task Management Module | Mostly Complete |\n"
+    md += "| GitHub Integration Module | Partial |\n"
+    md += "| Progress Reporting | Pending |\n"
+    md += "| Cross-project Compatibility | Pending |\n\n"
+    md += "*See TEST_COVERAGE.txt for detailed test coverage tracking.*\n"
+
+    with open(os.path.join('docs', 'project_management', 'progress_dashboard.md'), 'w', encoding='utf-8') as f:
+        f.write(md)
+    print("Progress dashboard report updated at docs/project_management/progress_dashboard.md")
+
 def generate_importance_urgency_report(tm: TaskManagement):
     tm.calculate_urgency_importance()
     tasks = tm.prioritize_tasks()
