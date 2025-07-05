@@ -182,6 +182,8 @@ def generate_commit_message(group_name, category_name, files):
 def auto_commit_and_push():
     """Automate Git commit and push process for each changed file separately."""
     import progress_report as progress_report
+    from task_management import TaskManagement
+
     changes = get_git_changes()
     if not changes or (len(changes) == 1 and changes[0] == ''):
         print("No changes detected.")
@@ -229,12 +231,21 @@ def auto_commit_and_push():
 
                 print(f"Committed and pushed changes for file: {f} in group: {group_name} - {category_name}")
 
-    # After all commits and pushes, update project management reports and commit them
+    # After all commits and pushes, update workflow steps from commit messages
     try:
-        tm = progress_report.TaskManagement()
+        tm = TaskManagement()
+
+        # Get recent commit messages (last 10 commits)
+        success_log, log_output = run_git_command(["log", "-10", "--pretty=%B"])
+        if success_log:
+            commit_messages = log_output.strip().split("\n\n")
+            for msg in commit_messages:
+                tm.update_workflow_steps_from_commit_message(msg)
+
         tm.generate_wbs_from_idea("Develop Project Management Tool")
         progress_report.generate_report(tm)
         progress_report.generate_importance_urgency_report(tm)
+        progress_report.generate_progress_dashboard_report(tm)
 
         # Stage and commit updated reports
         report_files = [progress_report.DASHBOARD_PATH, progress_report.IMPORTANCE_URGENCY_REPORT_PATH, os.path.join('docs', 'project_management', 'progress_dashboard.md')]
