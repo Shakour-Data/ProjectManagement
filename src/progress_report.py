@@ -39,58 +39,149 @@ def generate_report(tm: TaskManagement):
 def generate_progress_dashboard_report(tm: TaskManagement):
     """
     Generate the progress dashboard markdown file at docs/project_management/progress_dashboard.md
+    with two-level progress summary, urgent tasks by level, and Eisenhower matrix.
     """
+    import os
     import re
 
     tm.calculate_urgency_importance()
     tasks = tm.prioritize_tasks()
 
-    # Group tasks by phase using parent_id to reflect hierarchy
-    phase_summary = {}
+    # Define all 11 phases with descriptions
     phase_descriptions = {
-        None: "Initial phase, project setup and architecture design.",
-        1: "Early development, security and access control.",
-        2: "Core functionality development.",
-        3: "Integration and testing.",
-        4: "Documentation and reporting.",
-        5: "User engagement and communication.",
-        6: "Performance tuning and optimization.",
-        7: "DevOps and automation.",
-        8: "Backup and recovery.",
-        9: "Final testing and deployment.",
+        1: "Setup and Initialization",
+        2: "GitHub Integration",
+        3: "Task Management",
+        4: "Documentation and Reporting",
+        5: "Communication and Feedback",
+        6: "Automation and Extensibility",
+        7: "Security and Permissions",
+        8: "Usability and CLI",
+        9: "Backup and Recovery",
+        10: "Standards Compliance and Multi-Method Support",
+        11: "Final Testing, Deployment, and Maintenance",
+        None: "Unassigned or Initial phase"
     }
 
+    # Build hierarchical structure: phases and their subtasks
+    phases = {phase: {"description": desc, "tasks": []} for phase, desc in phase_descriptions.items()}
+
+    # Assign tasks to phases based on parent_id or None
     for task in tasks:
-        phase = task.parent_id if task.parent_id in phase_descriptions else None
-        if phase not in phase_summary:
-            phase_summary[phase] = {
-                "total": 0,
-                "progress_sum": 0,
-                "completed": 0,
-                "description": phase_descriptions.get(phase, "No description available.")
-            }
-        phase_summary[phase]["total"] += 1
-        progress = getattr(task, "workflow_progress_percentage", lambda: 0)()
-        phase_summary[phase]["progress_sum"] += progress
-        if task.status.lower() == "completed":
-            phase_summary[phase]["completed"] += 1
+        phase_id = task.parent_id if task.parent_id in phase_descriptions else None
+        phases[phase_id]["tasks"].append(task)
+
+    # Function to calculate progress for a list of tasks
+    def calculate_progress(task_list):
+        total = len(task_list)
+        if total == 0:
+            return 0, 0, 0  # completed, total, percent
+        completed = sum(1 for t in task_list if t.status.lower() == "completed")
+        # If workflow_progress_percentage method exists, average it
+        progress_sum = 0
+        count_with_progress = 0
+        for t in task_list:
+            prog = 0
+            if hasattr(t, "workflow_progress_percentage"):
+                if callable(t.workflow_progress_percentage):
+                    prog = t.workflow_progress_percentage()
+                else:
+                    prog = t.workflow_progress_percentage
+            if prog > 0:
+                progress_sum += prog
+                count_with_progress += 1
+        avg_progress = (progress_sum / count_with_progress) if count_with_progress > 0 else (completed / total) * 100
+        return completed, total, avg_progress
 
     # Build markdown content
     md = "# Project Management Dashboard\n\n"
     md += "## Current Progress Summary\n\n"
     md += "| Phase | Description | Completed Tasks | Total Tasks | Progress (%) |\n"
     md += "|-------|-------------|-----------------|-------------|--------------|\n"
-    for phase, data in sorted(phase_summary.items(), key=lambda x: (x[0] is None, x[0])):
-        # Calculate average workflow progress percentage per phase
-        progress_percent = (data["progress_sum"] / data["total"]) if data["total"] > 0 else 0
-        phase_name = f"Phase {phase}" if phase is not None else "Unassigned"
-        md += f"| {phase_name} | {data['description']} | {data['completed']} | {data['total']} | {progress_percent:.0f}% |\n"
 
+    # Add phases and subtasks with indentation
+    for phase_id in sorted(phase_descriptions.keys(), key=lambda x: (x is None, x)):
+        phase = phases[phase_id]
+        completed, total, progress_percent = calculate_progress(phase["tasks"])
+        phase_name = f"Phase {phase_id}" if phase_id is not None else "Unassigned"
+        md += f"| **{phase_name}** | {phase['description']} | {completed} | {total} | {progress_percent:.0f}% |\n"
+
+        # Group subtasks by their parent task id if any (simulate two-level)
+        subtasks_map = {}
+        for t in phase["tasks"]:
+            parent = getattr(t, "parent_task_id", None)
+            if parent not in subtasks_map:
+                subtasks_map[parent] = []
+            subtasks_map[parent].append(t)
+
+        # Show subtasks under phase (those with parent_task_id == None are top-level tasks)
+        for parent_id, subtasks in subtasks_map.items():
+            if parent_id is None:
+                continue  # skip top-level tasks here
+            # Calculate progress for subtasks group
+            c, tot, p = calculate_progress(subtasks)
+            # Find parent task title for display
+            parent_title = next((t.title for t in phase["tasks"] if t.id == parent_id), "Subtasks")
+            md += f"| &nbsp;&nbsp;&nbsp;{parent_title} | Subtasks | {c} | {tot} | {p:.0f}% |\n"
+
+    # Task Details with Urgency and Importance
     md += "\n## Task Details with Urgency and Importance\n\n"
     md += "| Task ID | Title | Urgency | Importance | Status |\n"
     md += "|---------|-------|---------|------------|--------|\n"
     for task in tasks:
         md += f"| {task.id} | {task.title} | {task.urgency:.2f} | {task.importance:.2f} | {task.status} |\n"
+
+    # Urgent Tasks grouped by hierarchical levels
+    md += "\n## Urgent Tasks by Hierarchical Levels\n\n"
+    # Group tasks by level extracted from title e.g. "Level 1.1"
+    level_map = {}
+    level_pattern = re.compile(r"Level ([\\d\\.]+)")
+    for task in tasks:
+        match = level_pattern.search(task.title)
+        level = match.group(1) if match else "1"
+        if level not in level_map:
+            level_map[level] = []
+        level_map[level].append(task)
+
+    for level in sorted(level_map.keys()):
+        md += f"### Level {level}\n\n"
+        md += "| Task ID | Title | Urgency | Importance | Status |\n"
+        md += "|---------|-------|---------|------------|--------|\n"
+        for task in level_map[level]:
+            md += f"| {task.id} | {task.title} | {task.urgency:.2f} | {task.importance:.2f} | {task.status} |\n"
+        md += "\n"
+
+    # Eisenhower Matrix
+    md += "## Eisenhower Matrix (Urgency vs Importance)\n\n"
+    quadrants = {
+        "Urgent and Important": [],
+        "Not Urgent but Important": [],
+        "Urgent but Not Important": [],
+        "Not Urgent and Not Important": []
+    }
+
+    for task in tasks:
+        urgent = task.urgency >= 50
+        important = task.importance >= 50
+        if urgent and important:
+            quadrants["Urgent and Important"].append(task)
+        elif not urgent and important:
+            quadrants["Not Urgent but Important"].append(task)
+        elif urgent and not important:
+            quadrants["Urgent but Not Important"].append(task)
+        else:
+            quadrants["Not Urgent and Not Important"].append(task)
+
+    for quadrant, qtasks in quadrants.items():
+        md += f"### {quadrant}\n\n"
+        if qtasks:
+            md += "| Task ID | Title | Urgency | Importance | Status |\n"
+            md += "|---------|-------|---------|------------|--------|\n"
+            for task in qtasks:
+                md += f"| {task.id} | {task.title} | {task.urgency:.2f} | {task.importance:.2f} | {task.status} |\n"
+        else:
+            md += "- None\n"
+        md += "\n"
 
     md += "\n## Notes\n\n"
     md += "- Update this dashboard regularly to reflect progress.\n"
