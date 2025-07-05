@@ -53,7 +53,7 @@ def generate_importance_urgency_report(tm: TaskManagement):
     def format_task(task):
         return f"- **{task.title}** (ID: {task.id})\n  - Importance: {task.importance:.2f}\n  - Urgency: {task.urgency:.2f}\n  - Status: {task.status}\n  - Description: {task.description if hasattr(task, 'description') else 'No description available.'}\n"
 
-    report = "# Importance and Urgency Report - {}\n\n".format(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    report = f"# Importance and Urgency Report - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
     report += "## Top 15 Important Tasks Not in Testing Phase\n"
     report += "\n".join(format_task(t) for t in important_not_testing) if important_not_testing else "- None"
     report += "\n\n## Top 15 Urgent Tasks Not in Testing Phase\n"
