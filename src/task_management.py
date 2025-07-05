@@ -19,11 +19,50 @@ class Task:
         self.urgency = urgency
         self.importance = importance
         self.github_issue_number = github_issue_number
+        # Workflow steps completion status: dict of step name to bool
+        self.workflow_steps = {
+            "Coding": False,
+            "Testing": False,
+            "Documentation": False,
+            "Code Review": False,
+            "Merge and Deployment": False,
+            "Verification": False,
+        }
+
+    def mark_workflow_step_completed(self, step_name: str):
+        if step_name in self.workflow_steps:
+            self.workflow_steps[step_name] = True
+
+    def is_workflow_completed(self):
+        return all(self.workflow_steps.values())
+
+    def workflow_progress_percentage(self):
+        total_steps = len(self.workflow_steps)
+        completed_steps = sum(1 for completed in self.workflow_steps.values() if completed)
+        return (completed_steps / total_steps) * 100 if total_steps > 0 else 0
 
 class TaskManagement:
     def __init__(self):
         self.tasks: Dict[int, Task] = {}
         self.next_task_id = 1
+
+    def update_workflow_steps_from_commit_message(self, commit_message: str):
+        """
+        Parse commit message to update workflow steps of tasks.
+        Expected format: "Task <id>: <step> done" or similar.
+        """
+        import re
+        pattern = r"Task (\d+): (\w+(?: \w+)*) done"
+        matches = re.findall(pattern, commit_message, re.IGNORECASE)
+        for task_id_str, step_name in matches:
+            try:
+                task_id = int(task_id_str)
+                step_name = step_name.strip().title()
+                if task_id in self.tasks:
+                    self.tasks[task_id].mark_workflow_step_completed(step_name)
+                    print(f"Marked workflow step '{step_name}' as completed for Task {task_id}")
+            except ValueError:
+                continue
 
     def parse_creative_input(self, input_text: str) -> Task:
         """
