@@ -2,13 +2,18 @@
 
 ## Current Progress Summary
 
-| Phase | Description | Completed Tasks | Total Tasks | Progress (%) |
-|-------|-------------|-----------------|-------------|--------------|
-| Phase 1 | Early development, security and access control. | 0 | 3 | 0% |
-| Phase 2 | Core functionality development. | 0 | 2 | 0% |
-| Phase 5 | User engagement and communication. | 0 | 2 | 0% |
-| Phase 8 | Backup and recovery. | 0 | 2 | 0% |
-| Unassigned | Initial phase, project setup and architecture design. | 0 | 1 | 0% |
+| Phase   | Description                                | Completed Tasks | Total Tasks | Progress (%) |
+|---------|--------------------------------------------|-----------------|-------------|--------------|
+| Phase 1 | Early development, security and access control. | 1               | 3           | 33%          |
+| &nbsp;&nbsp;&nbsp;Subtask 1.1 | Subtask Level 1.1                        | 0               | 2           | 0%           |
+| &nbsp;&nbsp;&nbsp;Subtask 1.2 | Subtask Level 1.2                        | 1               | 1           | 100%         |
+| Phase 2 | Core functionality development.             | 2               | 4           | 50%          |
+| &nbsp;&nbsp;&nbsp;Subtask 2.1 | Subtask Level 2.1                        | 1               | 2           | 50%          |
+| &nbsp;&nbsp;&nbsp;Subtask 2.2 | Subtask Level 2.2                        | 1               | 2           | 50%          |
+| Phase 5 | User engagement and communication.          | 0               | 2           | 0%           |
+| Phase 8 | Backup and recovery.                         | 0               | 2           | 0%           |
+| Unassigned | Initial phase, project setup and architecture design. | 0               | 1           | 0%           |
+
 
 ## Current Workflow Status
 
