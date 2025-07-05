@@ -99,6 +99,16 @@ class TaskManagement:
 
         return list(self.tasks.values())
 
+    def load_scores(self, scores_path: str):
+        import json
+        with open(scores_path, 'r', encoding='utf-8') as f:
+            scores = json.load(f)
+        # Map scores to tasks by id string keys
+        for task in self.tasks.values():
+            score = scores.get(str(task.id))
+            if score:
+                task.importance = score.get('importance', 0)
+
     def calculate_urgency_importance(self):
         """
         Calculate urgency and importance for each task at the lowest level,
