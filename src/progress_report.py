@@ -114,6 +114,11 @@ def generate_importance_urgency_report(tm: TaskManagement):
     tm.calculate_urgency_importance()
     tasks = tm.prioritize_tasks()
 
+    # Ensure tasks are loaded and valid
+    if not tasks:
+        print("Warning: No tasks found to generate report.")
+        return
+
     # Mapping for workflow position and files involved by task title
     workflow_positions = {
         "Develop Project Management Tool": "Initial phase, project setup and architecture design.",
@@ -145,11 +150,28 @@ def generate_importance_urgency_report(tm: TaskManagement):
     not_testing_tasks = [t for t in tasks if t.status.lower() != 'testing']
     testing_tasks = [t for t in tasks if t.status.lower() == 'testing']
 
-    # Sort tasks by importance and urgency separately
-    important_not_testing = sorted(not_testing_tasks, key=lambda t: t.importance, reverse=True)[:15]
-    urgent_not_testing = sorted(not_testing_tasks, key=lambda t: t.urgency, reverse=True)[:15]
-    important_testing = sorted(testing_tasks, key=lambda t: t.importance, reverse=True)[:10]
-    urgent_testing = sorted(testing_tasks, key=lambda t: t.urgency, reverse=True)[:10]
+    # Classify tasks into Eisenhower matrix quadrants
+    do_now = []
+    schedule = []
+    delegate = []
+    eliminate = []
+
+    for task in tasks:
+        if task.importance is None or task.urgency is None:
+            continue
+        if task.importance >= 70 and task.urgency >= 70:
+            do_now.append(task)
+        elif task.importance >= 70 and task.urgency < 70:
+            schedule.append(task)
+        elif task.importance < 70 and task.urgency >= 70:
+            delegate.append(task)
+        else:
+            eliminate.append(task)
+
+    # Sort each quadrant by importance and urgency
+    do_now_sorted = sorted(do_now, key=lambda t: (t.importance, t.urgency), reverse=True)
+    schedule_sorted = sorted(schedule, key=lambda t: t.importance, reverse=True)
+    delegate_sorted = sorted(delegate, key=lambda t: t.urgency, reverse=True)
 
     def format_task(task):
         wp = workflow_positions.get(task.title, "No workflow position available.")
@@ -164,15 +186,13 @@ def generate_importance_urgency_report(tm: TaskManagement):
                 f"  - Files Involved: {fi_str}\n")
 
     report = f"# Importance and Urgency Report - {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
-    report += "## Top 15 Important Tasks Not in Testing Phase\n"
-    report += "\n".join(format_task(t) for t in important_not_testing) if important_not_testing else "- None"
-    report += "\n\n## Top 15 Urgent Tasks Not in Testing Phase\n"
-    report += "\n".join(format_task(t) for t in urgent_not_testing) if urgent_not_testing else "- None"
-    report += "\n\n## Top 10 Important Tasks In Testing Phase\n"
-    report += "\n".join(format_task(t) for t in important_testing) if important_testing else "- None"
-    report += "\n\n## Top 10 Urgent Tasks In Testing Phase\n"
-    report += "\n".join(format_task(t) for t in urgent_testing) if urgent_testing else "- None"
-    report += "\n\n*This report is generated automatically and lists the top important and urgent tasks with details and current workflow status, separated by testing phase.*\n"
+    report += "## 1. Top 15 Tasks That Are Both Important and Urgent\n"
+    report += "\n".join(format_task(t) for t in do_now_sorted) if do_now_sorted else "- None"
+    report += "\n\n## 2. Top 15 Tasks That Are Only Important\n"
+    report += "\n".join(format_task(t) for t in schedule_sorted) if schedule_sorted else "- None"
+    report += "\n\n## 3. Top 15 Tasks That Are Only Urgent\n"
+    report += "\n".join(format_task(t) for t in delegate_sorted) if delegate_sorted else "- None"
+    report += "\n\n*This report is generated automatically and lists the top important and urgent tasks with details and current workflow status, separated by Eisenhower matrix quadrants.*\n"
 
     with open(IMPORTANCE_URGENCY_REPORT_PATH, 'w', encoding='utf-8') as f:
         f.write(report)
