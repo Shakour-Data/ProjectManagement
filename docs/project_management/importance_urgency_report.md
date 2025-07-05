@@ -1,97 +1,81 @@
-# Importance and Urgency Report - 2025-07-05 08:24:43
+# Importance and Urgency Report - 2025-07-05 09:21:03
 
 ## Top 15 Important Tasks Not in Testing Phase
 - **Develop Project Management Tool** (ID: 1)
-  - Importance: 392.64
-  - Urgency: 304.90
-  - Status: completed
+  - Importance: 359.01
+  - Urgency: 351.62
+  - Status: pending
   - Description: 
   - Workflow Position: Initial phase, project setup and architecture design.
   - Files Involved: src/task_management.py, src/progress_report.py, src/auto_commit.py
 
+- **Develop Project Management Tool - Subtask Level 1.1** (ID: 2)
+  - Importance: 126.85
+  - Urgency: 117.22
+  - Status: pending
+  - Description: 
+  - Workflow Position: Early development, security and access control.
+  - Files Involved: src/task_management.py
+
 - **Develop Project Management Tool - Subtask Level 1.3** (ID: 8)
-  - Importance: 134.51
-  - Urgency: 103.80
-  - Status: completed
+  - Importance: 124.68
+  - Urgency: 96.33
+  - Status: pending
   - Description: 
   - Workflow Position: Mid development, data visualization and reporting.
   - Files Involved: src/progress_report.py
 
 - **Develop Project Management Tool - Subtask Level 1.2** (ID: 5)
-  - Importance: 114.59
-  - Urgency: 128.99
+  - Importance: 107.48
+  - Urgency: 138.07
   - Status: pending
   - Description: 
   - Workflow Position: Core functionality development.
   - Files Involved: src/task_management.py
 
-- **Develop Project Management Tool - Subtask Level 1.1** (ID: 2)
-  - Importance: 124.92
-  - Urgency: 99.63
-  - Status: completed
-  - Description: 
-  - Workflow Position: Early development, security and access control.
-  - Files Involved: src/task_management.py
-
-- **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
-  - Importance: 74.03
-  - Urgency: 47.52
-  - Status: completed
-  - Description: 
-  - Workflow Position: Backend API development.
-  - Files Involved: src/task_management.py
-
-- **Develop Project Management Tool - Subtask Level 2.3.1** (ID: 9)
-  - Importance: 69.21
-  - Urgency: 44.98
-  - Status: completed
-  - Description: 
-  - Workflow Position: User engagement and communication.
-  - Files Involved: src/task_management.py
-
 - **Develop Project Management Tool - Subtask Level 2.1.1** (ID: 3)
-  - Importance: 65.42
-  - Urgency: 50.30
-  - Status: completed
+  - Importance: 68.69
+  - Urgency: 64.13
+  - Status: pending
   - Description: 
   - Workflow Position: DevOps and automation.
   - Files Involved: src/auto_commit.py
 
-- **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
-  - Importance: 67.41
-  - Urgency: 48.62
+- **Develop Project Management Tool - Subtask Level 2.3.1** (ID: 9)
+  - Importance: 62.66
+  - Urgency: 50.86
   - Status: pending
   - Description: 
-  - Workflow Position: Backend API development.
+  - Workflow Position: User engagement and communication.
   - Files Involved: src/task_management.py
 
 - **Develop Project Management Tool - Subtask Level 2.3.2** (ID: 10)
-  - Importance: 65.31
-  - Urgency: 58.82
-  - Status: completed
+  - Importance: 62.02
+  - Urgency: 45.47
+  - Status: pending
   - Description: 
   - Workflow Position: Performance tuning and optimization.
   - Files Involved: src/task_management.py
 
 - **Develop Project Management Tool - Subtask Level 2.1.2** (ID: 4)
-  - Importance: 59.50
-  - Urgency: 49.33
-  - Status: completed
+  - Importance: 58.16
+  - Urgency: 53.10
+  - Status: pending
   - Description: 
-  - Workflow Position: Backend API development.
+  - Workflow Position: Integration phase.
   - Files Involved: src/task_management.py
 
 - **Develop Project Management Tool - Subtask Level 2.2.2** (ID: 7)
-  - Importance: 59.17
-  - Urgency: 53.94
-  - Status: completed
+  - Importance: 57.32
+  - Urgency: 63.41
+  - Status: pending
   - Description: 
   - Workflow Position: Security and permissions.
   - Files Involved: src/task_management.py
 
 - **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
-  - Importance: 56.75
-  - Urgency: 74.07
+  - Importance: 50.16
+  - Urgency: 74.66
   - Status: pending
   - Description: 
   - Workflow Position: Backend API development.
@@ -100,91 +84,83 @@
 
 ## Top 15 Urgent Tasks Not in Testing Phase
 - **Develop Project Management Tool** (ID: 1)
-  - Importance: 392.64
-  - Urgency: 304.90
-  - Status: completed
+  - Importance: 359.01
+  - Urgency: 351.62
+  - Status: pending
   - Description: 
   - Workflow Position: Initial phase, project setup and architecture design.
   - Files Involved: src/task_management.py, src/progress_report.py, src/auto_commit.py
 
 - **Develop Project Management Tool - Subtask Level 1.2** (ID: 5)
-  - Importance: 114.59
-  - Urgency: 128.99
+  - Importance: 107.48
+  - Urgency: 138.07
   - Status: pending
   - Description: 
   - Workflow Position: Core functionality development.
   - Files Involved: src/task_management.py
 
-- **Develop Project Management Tool - Subtask Level 1.3** (ID: 8)
-  - Importance: 134.51
-  - Urgency: 103.80
-  - Status: completed
-  - Description: 
-  - Workflow Position: Mid development, data visualization and reporting.
-  - Files Involved: src/progress_report.py
-
-- **Develop Project Management Tool - Subtask Level 1.2** (ID: 5)
-  - Importance: 133.20
-  - Urgency: 101.47
-  - Status: completed
-  - Description: 
-  - Workflow Position: Core functionality development.
-  - Files Involved: src/task_management.py
-
 - **Develop Project Management Tool - Subtask Level 1.1** (ID: 2)
-  - Importance: 124.92
-  - Urgency: 99.63
-  - Status: completed
+  - Importance: 126.85
+  - Urgency: 117.22
+  - Status: pending
   - Description: 
   - Workflow Position: Early development, security and access control.
   - Files Involved: src/task_management.py
 
-- **Develop Project Management Tool - Subtask Level 2.3.2** (ID: 10)
-  - Importance: 65.31
-  - Urgency: 58.82
-  - Status: completed
+- **Develop Project Management Tool - Subtask Level 1.3** (ID: 8)
+  - Importance: 124.68
+  - Urgency: 96.33
+  - Status: pending
+  - Description: 
+  - Workflow Position: Mid development, data visualization and reporting.
+  - Files Involved: src/progress_report.py
+
+- **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
+  - Importance: 50.16
+  - Urgency: 74.66
+  - Status: pending
   - Description: 
   - Workflow Position: Backend API development.
   - Files Involved: src/task_management.py
 
-- **Develop Project Management Tool - Subtask Level 2.2.2** (ID: 7)
-  - Importance: 59.17
-  - Urgency: 53.94
-  - Status: completed
-  - Description: 
-  - Workflow Position: Security and permissions.
-  - Files Involved: src/task_management.py
-
 - **Develop Project Management Tool - Subtask Level 2.1.1** (ID: 3)
-  - Importance: 65.42
-  - Urgency: 50.30
-  - Status: completed
+  - Importance: 68.69
+  - Urgency: 64.13
+  - Status: pending
   - Description: 
   - Workflow Position: DevOps and automation.
   - Files Involved: src/auto_commit.py
 
+- **Develop Project Management Tool - Subtask Level 2.2.2** (ID: 7)
+  - Importance: 57.32
+  - Urgency: 63.41
+  - Status: pending
+  - Description: 
+  - Workflow Position: Security and permissions.
+  - Files Involved: src/task_management.py
+
 - **Develop Project Management Tool - Subtask Level 2.1.2** (ID: 4)
-  - Importance: 59.50
-  - Urgency: 49.33
-  - Status: completed
+  - Importance: 58.16
+  - Urgency: 53.10
+  - Status: pending
   - Description: 
   - Workflow Position: Integration phase.
   - Files Involved: src/task_management.py
 
-- **Develop Project Management Tool - Subtask Level 2.2.1** (ID: 6)
-  - Importance: 74.03
-  - Urgency: 47.52
-  - Status: completed
-  - Description: 
-  - Workflow Position: Backend API development.
-  - Files Involved: src/task_management.py
-
 - **Develop Project Management Tool - Subtask Level 2.3.1** (ID: 9)
-  - Importance: 69.21
-  - Urgency: 44.98
-  - Status: completed
+  - Importance: 62.66
+  - Urgency: 50.86
+  - Status: pending
   - Description: 
   - Workflow Position: User engagement and communication.
+  - Files Involved: src/task_management.py
+
+- **Develop Project Management Tool - Subtask Level 2.3.2** (ID: 10)
+  - Importance: 62.02
+  - Urgency: 45.47
+  - Status: pending
+  - Description: 
+  - Workflow Position: Performance tuning and optimization.
   - Files Involved: src/task_management.py
 
 
