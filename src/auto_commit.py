@@ -237,7 +237,7 @@ def auto_commit_and_push():
         progress_report.generate_importance_urgency_report(tm)
 
         # Stage and commit updated reports
-        report_files = [progress_report.DASHBOARD_PATH, progress_report.IMPORTANCE_URGENCY_REPORT_PATH]
+        report_files = [progress_report.DASHBOARD_PATH, progress_report.IMPORTANCE_URGENCY_REPORT_PATH, os.path.join('docs', 'project_management', 'progress_dashboard.md')]
         for report_file in report_files:
             success, _ = run_git_command(["add", report_file])
             if not success:
