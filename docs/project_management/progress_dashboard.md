@@ -18,16 +18,16 @@
 
 | Task ID | Title | Urgency | Importance | Status |
 |---------|-------|---------|------------|--------|
-| 1 | Develop Project Management Tool | 317.31 | 378.73 | pending |
-| 8 | Develop Project Management Tool - Subtask Level 1.3 | 106.90 | 141.15 | pending |
-| 2 | Develop Project Management Tool - Subtask Level 1.1 | 111.48 | 120.02 | pending |
-| 5 | Develop Project Management Tool - Subtask Level 1.2 | 98.93 | 117.56 | pending |
-| 9 | Develop Project Management Tool - Subtask Level 2.3.1 | 51.54 | 77.96 | pending |
-| 6 | Develop Project Management Tool - Subtask Level 2.2.1 | 59.89 | 66.28 | pending |
-| 4 | Develop Project Management Tool - Subtask Level 2.1.2 | 58.89 | 66.35 | pending |
-| 10 | Develop Project Management Tool - Subtask Level 2.3.2 | 55.36 | 63.19 | pending |
-| 3 | Develop Project Management Tool - Subtask Level 2.1.1 | 52.59 | 53.67 | pending |
-| 7 | Develop Project Management Tool - Subtask Level 2.2.2 | 39.04 | 51.28 | pending |
+| 1 | Develop Project Management Tool | 290.07 | 406.50 | pending |
+| 2 | Develop Project Management Tool - Subtask Level 1.1 | 91.25 | 154.23 | pending |
+| 5 | Develop Project Management Tool - Subtask Level 1.2 | 87.07 | 146.75 | pending |
+| 8 | Develop Project Management Tool - Subtask Level 1.3 | 111.74 | 105.52 | pending |
+| 4 | Develop Project Management Tool - Subtask Level 2.1.2 | 54.53 | 80.16 | pending |
+| 7 | Develop Project Management Tool - Subtask Level 2.2.2 | 43.98 | 75.48 | pending |
+| 3 | Develop Project Management Tool - Subtask Level 2.1.1 | 36.73 | 74.07 | pending |
+| 6 | Develop Project Management Tool - Subtask Level 2.2.1 | 43.10 | 71.27 | pending |
+| 9 | Develop Project Management Tool - Subtask Level 2.3.1 | 56.47 | 65.40 | pending |
+| 10 | Develop Project Management Tool - Subtask Level 2.3.2 | 55.27 | 40.12 | pending |
 
 ## Notes
 
