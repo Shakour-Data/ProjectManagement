@@ -97,6 +97,7 @@ Usage Workflow Implementation
 - Enable real-time progress tracking and automatic updates
 - Provide regular reports and notifications to collaborators
 - Seamlessly handle feedback and adjustments via GitHub and chat
+- Create comprehensive Excel report including all levels with columns: level, description, priority, urgency, status, and progress percentage for the general project
 
 Task Breakdown and Workflow
 ---------------------------
