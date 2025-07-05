@@ -72,5 +72,13 @@ if __name__ == "__main__":
     tm = TaskManagement()
     # For demonstration, generate WBS from example idea
     tm.generate_wbs_from_idea("Develop Project Management Tool")
+
+    # Mark top 15 important tasks not in testing as completed
+    tasks = tm.prioritize_tasks()
+    important_not_testing = [t for t in tasks if t.status.lower() != 'testing']
+    important_not_testing_sorted = sorted(important_not_testing, key=lambda t: t.importance, reverse=True)[:15]
+    for task in important_not_testing_sorted:
+        tm.mark_task_completed(task.id)
+
     generate_report(tm)
     generate_importance_urgency_report(tm)
