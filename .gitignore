@@ -58,3 +58,4 @@ tests/test_project_management_tool.py
 .env
 .envrc
 venv/
+venv
