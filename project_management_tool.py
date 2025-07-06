@@ -23,6 +23,17 @@ class SetupInstallation:
     def create_virtualenv(self):
         """Create a Python virtual environment."""
         subprocess.run(["python3", "-m", "venv", self.venv_dir], check=True)
+        # Create .gitignore file to exclude venv directory from git tracking
+        gitignore_path = ".gitignore"
+        if os.path.exists(gitignore_path):
+            with open(gitignore_path, "r") as f:
+                lines = f.read().splitlines()
+        else:
+            lines = []
+        if self.venv_dir not in lines:
+            lines.append(self.venv_dir)
+            with open(gitignore_path, "w") as f:
+                f.write("\n".join(lines) + "\n")
 
     def install_dependencies(self, requirements_file="requirements.txt"):
         """Install dependencies inside the virtual environment."""
