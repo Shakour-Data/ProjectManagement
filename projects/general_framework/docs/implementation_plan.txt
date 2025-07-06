@@ -53,3 +53,9 @@ Additional Details:
 Summary:
 --------
 This implementation plan provides a detailed roadmap for building a modular, scalable, and fully automated project management tool. Leveraging modern technologies and best practices, the tool aims to maximize productivity, minimize manual overhead, and deliver a seamless user experience integrated deeply with GitHub and VS Code.
+
+Important Note on Project Creation and Updates:
+-----------------------------------------------
+- Installation of this package by the user who created the GitHub repository automatically triggers the creation of a project within GitHub.
+- The system leverages GitHub's free project features to their fullest extent.
+- The project is continuously and automatically updated by this system, ensuring synchronization and up-to-date project management.
