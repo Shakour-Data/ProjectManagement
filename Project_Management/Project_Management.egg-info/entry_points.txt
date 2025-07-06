@@ -1,0 +1,2 @@
+[console_scripts]
+project_management = Project_Management.cli:main
