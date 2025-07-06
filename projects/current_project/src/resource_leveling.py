@@ -47,7 +47,9 @@ class ResourceLeveler:
         # Map resource_id to list of assigned tasks
         resource_tasks = defaultdict(list)
         for alloc in self.allocations:
-            resource_tasks[alloc['resource_id']].append(alloc['task_id'])
+            # Use 'task_id' and 'role' from allocation to assign resource_id as role for demo
+            resource_id = alloc.get('role', 'unknown')
+            resource_tasks[resource_id].append(alloc['task_id'])
 
         # Assign start and end times per resource
         resource_schedules = {}
