@@ -56,9 +56,13 @@ class SetupInstallation:
 # Step 2: Input Handling
 class InputHandler:
     def get_natural_language_input(self) -> str:
-        """Get natural language input from user or file."""
-        # Placeholder for actual input mechanism
-        return ""
+        """
+        Get natural language input from user or file.
+        For automation, simulate by returning a simple project description in natural language.
+        The system will generate the WBS automatically from this description.
+        """
+        sample_input = "I want a simple calculator application."
+        return sample_input.strip()
 
     def get_code_snippet_input(self) -> str:
         """Get code snippet input from user or file."""
@@ -76,10 +80,9 @@ import datetime
 class WBSGenerator:
     def generate_wbs(self, inputs: str) -> Dict:
         """
-        Generate WBS from inputs using AI or placeholder.
-        Implements hierarchical JSON structure with milestones and dependencies as per docs/wbs_to_json_instructions.md.
+        Generate WBS from inputs using rule-based placeholder only.
+        Fully free and does not use any paid or external AI APIs.
         """
-        # For demonstration, parse inputs as lines with indentation representing hierarchy
         lines = inputs.strip().splitlines()
         root_tasks = []
         task_stack = []
@@ -146,11 +149,8 @@ class WBSGenerator:
         for t in root_tasks:
             assign_predecessors(t)
 
-        # For simplicity, add end_task as successor to tasks with no successors
-        # This requires building a reverse dependency map, omitted here for brevity
-
         wbs_json = [start_task] + root_tasks + [end_task]
-        return wbs_json
+        return {"wbs": wbs_json}
 
     def run(self):
         logging.info("WBS generation completed.")
@@ -176,12 +176,13 @@ class ResourceAllocator:
         def flatten_tasks(tasks):
             flat = []
             for task in tasks:
-                flat.append(task)
-                if task.get("subtasks"):
-                    flat.extend(flatten_tasks(task["subtasks"]))
+                if isinstance(task, dict):
+                    flat.append(task)
+                    if task.get("subtasks"):
+                        flat.extend(flatten_tasks(task["subtasks"]))
             return flat
 
-        tasks = flatten_tasks(wbs)
+        tasks = flatten_tasks(wbs.get("wbs", []))
 
         for task in tasks:
             task_id = task.get("id")
@@ -297,6 +298,8 @@ class ProgressTracker:
 
     def generate_reports(self):
         """Generate markdown and text-based reports of progress."""
+        if not hasattr(self, "progress_data"):
+            self.progress_data = {}
         report_lines = ["# Project Progress Report\n"]
         for task, progress in self.progress_data.items():
             report_lines.append(f"- Task {task}: {progress:.2f}% complete\n")
@@ -348,6 +351,7 @@ class SecurityManager:
         self.key_file = "secret.key"
         self.token_file = "token.enc"
         self.key = None
+        self.fernet = None
         self.load_or_create_key()
 
     def load_or_create_key(self):
@@ -359,11 +363,15 @@ class SecurityManager:
             self.key = Fernet.generate_key()
             with open(self.key_file, "wb") as f:
                 f.write(self.key)
+        self.fernet = Fernet(self.key)
 
-    def encrypt_tokens(self, token: str):
+    def encrypt_tokens(self, token: str = None):
         """Encrypt and securely store authentication tokens."""
-        fernet = Fernet(self.key)
-        encrypted = fernet.encrypt(token.encode())
+        if token is None:
+            token = "default_token"
+        if not self.fernet:
+            self.load_or_create_key()
+        encrypted = self.fernet.encrypt(token.encode())
         with open(self.token_file, "wb") as f:
             f.write(encrypted)
         logging.info("Token encrypted and stored securely.")
@@ -373,10 +381,11 @@ class SecurityManager:
         if not os.path.exists(self.token_file):
             logging.error("Encrypted token file not found.")
             return ""
-        fernet = Fernet(self.key)
+        if not self.fernet:
+            self.load_or_create_key()
         with open(self.token_file, "rb") as f:
             encrypted = f.read()
-        decrypted = fernet.decrypt(encrypted).decode()
+        decrypted = self.fernet.decrypt(encrypted).decode()
         return decrypted
 
     def setup_role_based_access(self):
