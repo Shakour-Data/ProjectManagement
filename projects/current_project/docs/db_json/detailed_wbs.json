@@ -21,7 +21,8 @@
             "optimistic_hours": 2,
             "normal_hours": 4,
             "pessimistic_hours": 6,
-            "predecessors": ["0"]
+            "predecessors": ["0"],
+            "subtasks": []
           },
           {
             "id": "1.1.2",
@@ -29,7 +30,8 @@
             "optimistic_hours": 3,
             "normal_hours": 5,
             "pessimistic_hours": 8,
-            "predecessors": ["1.1.1"]
+            "predecessors": ["1.1.1"],
+            "subtasks": []
           },
           {
             "id": "1.1.3",
@@ -37,7 +39,8 @@
             "optimistic_hours": 3,
             "normal_hours": 6,
             "pessimistic_hours": 9,
-            "predecessors": ["1.1.2"]
+            "predecessors": ["1.1.2"],
+            "subtasks": []
           },
           {
             "id": "1.1.4",
@@ -45,7 +48,8 @@
             "optimistic_hours": 2,
             "normal_hours": 4,
             "pessimistic_hours": 6,
-            "predecessors": ["1.1.3"]
+            "predecessors": ["1.1.3"],
+            "subtasks": []
           },
           {
             "id": "1.1.5",
@@ -53,7 +57,8 @@
             "optimistic_hours": 3,
             "normal_hours": 5,
             "pessimistic_hours": 7,
-            "predecessors": ["1.1.4"]
+            "predecessors": ["1.1.4"],
+            "subtasks": []
           }
         ]
       },
@@ -67,7 +72,8 @@
             "optimistic_hours": 10,
             "normal_hours": 15,
             "pessimistic_hours": 20,
-            "predecessors": ["1.1.5"]
+            "predecessors": ["1.1.5"],
+            "subtasks": []
           },
           {
             "id": "1.2.2",
@@ -75,7 +81,8 @@
             "optimistic_hours": 5,
             "normal_hours": 8,
             "pessimistic_hours": 12,
-            "predecessors": ["1.2.1"]
+            "predecessors": ["1.2.1"],
+            "subtasks": []
           },
           {
             "id": "1.2.3",
@@ -83,7 +90,8 @@
             "optimistic_hours": 6,
             "normal_hours": 10,
             "pessimistic_hours": 15,
-            "predecessors": ["1.2.2"]
+            "predecessors": ["1.2.2"],
+            "subtasks": []
           }
         ]
       },
@@ -97,7 +105,8 @@
             "optimistic_hours": 8,
             "normal_hours": 12,
             "pessimistic_hours": 18,
-            "predecessors": ["1.2.3"]
+            "predecessors": ["1.2.3"],
+            "subtasks": []
           },
           {
             "id": "1.3.2",
@@ -105,7 +114,8 @@
             "optimistic_hours": 6,
             "normal_hours": 9,
             "pessimistic_hours": 14,
-            "predecessors": ["1.3.1"]
+            "predecessors": ["1.3.1"],
+            "subtasks": []
           },
           {
             "id": "1.3.3",
@@ -113,7 +123,8 @@
             "optimistic_hours": 5,
             "normal_hours": 8,
             "pessimistic_hours": 12,
-            "predecessors": ["1.3.2"]
+            "predecessors": ["1.3.2"],
+            "subtasks": []
           }
         ]
       }
@@ -129,7 +140,8 @@
         "optimistic_hours": 8,
         "normal_hours": 12,
         "pessimistic_hours": 16,
-        "predecessors": ["1.3.3"]
+        "predecessors": ["1.3.3"],
+        "subtasks": []
       },
       {
         "id": "2.2",
@@ -137,7 +149,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["2.1"]
+        "predecessors": ["2.1"],
+        "subtasks": []
       },
       {
         "id": "2.3",
@@ -145,7 +158,8 @@
         "optimistic_hours": 5,
         "normal_hours": 8,
         "pessimistic_hours": 12,
-        "predecessors": ["2.2"]
+        "predecessors": ["2.2"],
+        "subtasks": []
       },
       {
         "id": "2.4",
@@ -153,7 +167,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["2.3"]
+        "predecessors": ["2.3"],
+        "subtasks": []
       },
       {
         "id": "2.5",
@@ -161,7 +176,8 @@
         "optimistic_hours": 7,
         "normal_hours": 10,
         "pessimistic_hours": 14,
-        "predecessors": ["2.4"]
+        "predecessors": ["2.4"],
+        "subtasks": []
       }
     ]
   },
@@ -175,7 +191,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["2.5"]
+        "predecessors": ["2.5"],
+        "subtasks": []
       },
       {
         "id": "3.2",
@@ -183,7 +200,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["3.1"]
+        "predecessors": ["3.1"],
+        "subtasks": []
       },
       {
         "id": "3.3",
@@ -191,7 +209,8 @@
         "optimistic_hours": 5,
         "normal_hours": 8,
         "pessimistic_hours": 12,
-        "predecessors": ["3.2"]
+        "predecessors": ["3.2"],
+        "subtasks": []
       },
       {
         "id": "3.4",
@@ -199,7 +218,8 @@
         "optimistic_hours": 4,
         "normal_hours": 7,
         "pessimistic_hours": 10,
-        "predecessors": ["3.3"]
+        "predecessors": ["3.3"],
+        "subtasks": []
       },
       {
         "id": "3.5",
@@ -207,7 +227,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["3.4"]
+        "predecessors": ["3.4"],
+        "subtasks": []
       }
     ]
   },
@@ -221,7 +242,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["3.5"]
+        "predecessors": ["3.5"],
+        "subtasks": []
       },
       {
         "id": "4.2",
@@ -229,7 +251,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["4.1"]
+        "predecessors": ["4.1"],
+        "subtasks": []
       },
       {
         "id": "4.3",
@@ -237,7 +260,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["4.2"]
+        "predecessors": ["4.2"],
+        "subtasks": []
       },
       {
         "id": "4.4",
@@ -245,7 +269,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["4.3"]
+        "predecessors": ["4.3"],
+        "subtasks": []
       },
       {
         "id": "4.5",
@@ -253,7 +278,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["4.4"]
+        "predecessors": ["4.4"],
+        "subtasks": []
       },
       {
         "id": "4.6",
@@ -261,7 +287,8 @@
         "optimistic_hours": 5,
         "normal_hours": 8,
         "pessimistic_hours": 12,
-        "predecessors": ["4.5"]
+        "predecessors": ["4.5"],
+        "subtasks": []
       },
       {
         "id": "4.7",
@@ -269,7 +296,8 @@
         "optimistic_hours": 4,
         "normal_hours": 7,
         "pessimistic_hours": 10,
-        "predecessors": ["4.6"]
+        "predecessors": ["4.6"],
+        "subtasks": []
       }
     ]
   },
@@ -283,7 +311,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["4.7"]
+        "predecessors": ["4.7"],
+        "subtasks": []
       },
       {
         "id": "5.2",
@@ -291,7 +320,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["5.1"]
+        "predecessors": ["5.1"],
+        "subtasks": []
       },
       {
         "id": "5.3",
@@ -299,7 +329,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["5.2"]
+        "predecessors": ["5.2"],
+        "subtasks": []
       }
     ]
   },
@@ -313,7 +344,8 @@
         "optimistic_hours": 5,
         "normal_hours": 8,
         "pessimistic_hours": 12,
-        "predecessors": ["5.3"]
+        "predecessors": ["5.3"],
+        "subtasks": []
       },
       {
         "id": "6.2",
@@ -321,7 +353,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["6.1"]
+        "predecessors": ["6.1"],
+        "subtasks": []
       },
       {
         "id": "6.3",
@@ -329,7 +362,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["6.2"]
+        "predecessors": ["6.2"],
+        "subtasks": []
       }
     ]
   },
@@ -343,7 +377,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["6.3"]
+        "predecessors": ["6.3"],
+        "subtasks": []
       },
       {
         "id": "7.2",
@@ -351,7 +386,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["7.1"]
+        "predecessors": ["7.1"],
+        "subtasks": []
       },
       {
         "id": "7.3",
@@ -359,7 +395,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["7.2"]
+        "predecessors": ["7.2"],
+        "subtasks": []
       }
     ]
   },
@@ -373,7 +410,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["7.3"]
+        "predecessors": ["7.3"],
+        "subtasks": []
       },
       {
         "id": "8.2",
@@ -381,7 +419,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["8.1"]
+        "predecessors": ["8.1"],
+        "subtasks": []
       },
       {
         "id": "8.3",
@@ -389,7 +428,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["8.2"]
+        "predecessors": ["8.2"],
+        "subtasks": []
       }
     ]
   },
@@ -403,7 +443,8 @@
         "optimistic_hours": 3,
         "normal_hours": 5,
         "pessimistic_hours": 8,
-        "predecessors": ["8.3"]
+        "predecessors": ["8.3"],
+        "subtasks": []
       },
       {
         "id": "9.2",
@@ -411,7 +452,8 @@
         "optimistic_hours": 4,
         "normal_hours": 6,
         "pessimistic_hours": 9,
-        "predecessors": ["9.1"]
+        "predecessors": ["9.1"],
+        "subtasks": []
       }
     ]
   },
@@ -425,7 +467,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["9.2"]
+        "predecessors": ["9.2"],
+        "subtasks": []
       },
       {
         "id": "10.2",
@@ -433,7 +476,8 @@
         "optimistic_hours": 7,
         "normal_hours": 10,
         "pessimistic_hours": 14,
-        "predecessors": ["10.1"]
+        "predecessors": ["10.1"],
+        "subtasks": []
       },
       {
         "id": "10.3",
@@ -441,7 +485,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["10.2"]
+        "predecessors": ["10.2"],
+        "subtasks": []
       },
       {
         "id": "10.4",
@@ -449,7 +494,8 @@
         "optimistic_hours": 7,
         "normal_hours": 10,
         "pessimistic_hours": 14,
-        "predecessors": ["10.3"]
+        "predecessors": ["10.3"],
+        "subtasks": []
       },
       {
         "id": "10.5",
@@ -457,7 +503,8 @@
         "optimistic_hours": 6,
         "normal_hours": 9,
         "pessimistic_hours": 13,
-        "predecessors": ["10.4"]
+        "predecessors": ["10.4"],
+        "subtasks": []
       },
       {
         "id": "10.6",
@@ -465,45 +512,8 @@
         "optimistic_hours": 7,
         "normal_hours": 10,
         "pessimistic_hours": 14,
-        "predecessors": ["10.5"]
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "title": "Testing and Maintenance",
-    "subtasks": [
-      {
-        "id": "11.1",
-        "title": "Conduct unit, integration, and end-to-end testing",
-        "optimistic_hours": 6,
-        "normal_hours": 9,
-        "pessimistic_hours": 13,
-        "predecessors": ["10.6"]
-      },
-      {
-        "id": "11.2",
-        "title": "Set up automated testing and deployment pipelines with GitHub Actions",
-        "optimistic_hours": 5,
-        "normal_hours": 8,
-        "pessimistic_hours": 12,
-        "predecessors": ["11.1"]
-      },
-      {
-        "id": "11.3",
-        "title": "Prepare user documentation and onboarding materials",
-        "optimistic_hours": 4,
-        "normal_hours": 6,
-        "pessimistic_hours": 9,
-        "predecessors": ["11.2"]
-      },
-      {
-        "id": "11.4",
-        "title": "Plan for ongoing maintenance, updates, and user support",
-        "optimistic_hours": 5,
-        "normal_hours": 8,
-        "pessimistic_hours": 12,
-        "predecessors": ["11.3"]
+        "predecessors": ["10.5"],
+        "subtasks": []
       }
     ]
   },
