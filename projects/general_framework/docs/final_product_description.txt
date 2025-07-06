@@ -55,3 +55,9 @@ Extensibility and Automation:
 Summary:
 --------
 This tool is a powerful, fully automated project management assistant that integrates deeply with GitHub and VS Code. It manages all phases of software projects, streamlining planning, execution, monitoring, and closure. Users simply start chatting in VS Code, and the tool handles the rest, providing powerful automation, real-time tracking, and flexible reporting to enhance productivity and collaboration.
+
+Important Note on Project Creation and Updates:
+-----------------------------------------------
+- Installation of this package by the user who created the GitHub repository automatically triggers the creation of a project within GitHub.
+- The system leverages GitHub's free project features to their fullest extent.
+- The project is continuously and automatically updated by this system, ensuring synchronization and up-to-date project management.
