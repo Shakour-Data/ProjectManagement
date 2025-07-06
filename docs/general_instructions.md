@@ -55,20 +55,20 @@ This document provides comprehensive instructions for building, setting up, and 
 ## Resource Management and Allocation
 
 - Resources (e.g., human resources) are assigned to project tasks using a standardized process.
-- Database design includes Resource, Task, and Resource Allocation tables supporting many-to-many relationships.
+- Resource management includes Resource, Task, and Resource Allocation entities supporting many-to-many relationships, managed directly via JSON files without a database.
 - Resource allocation JSON files link resources to tasks with allocation percentages, roles, and optional start/end dates.
 - Best practices include ensuring resource availability, documenting roles, regularly updating allocations, and following PMBOK and PRINCE2 standards.
 - Resource allocation integrates with project workflows and supports automated synchronization and reporting.
 
 ---
 
-## JSON Resource File Design and Database Mapping
+## JSON Resource File Design and Usage
 
-- JSON resource files are structured to map directly to database tables for automation.
-- Each JSON object corresponds to a database row with keys matching column names.
+- JSON resource files are structured for direct use by the project management tool for automation.
+- Each JSON object corresponds to a project entity with keys matching attribute names.
 - Supported data types include strings, integers, floats, booleans, and dates in ISO 8601 format.
-- Hierarchical data should be flattened or stored in related tables.
-- JSON files must be validated against schemas before import.
+- Hierarchical data should be represented using parent-child relationships via IDs.
+- JSON files must be validated against schemas before use.
 - Maintain version control and schedule regular synchronization.
 - Follow best practices for formatting, naming conventions, and documentation.
 
