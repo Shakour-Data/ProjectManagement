@@ -88,6 +88,29 @@ To establish a clear, repeatable process for resource allocation that supports p
 
 Following this guideline ensures consistent, transparent, and efficient resource allocation across projects, supporting better project outcomes and resource management while maintaining compliance with established project management methodologies.
 
+---
+
+## 7. Practical Example: Resource Allocation for a Project
+
+This section demonstrates a practical example of resource allocation based on a real project’s task and human resource data.
+
+### Task Resource Allocation Files
+
+- `task_resource_allocation.md` and `task_resource_allocation.json` files contain a detailed list of project tasks, including task IDs, titles, and for lowest-level tasks, assigned departments and roles.
+- Higher-level tasks are listed without resource assignments to maintain clarity in project hierarchy.
+
+### Allocation Approach
+
+- Resources are assigned to tasks based on matching roles and departments.
+- Allocation percentages are set to 100% for simplicity but can be adjusted as needed.
+- This approach ensures that resource assignments align with project management best practices and support effective project tracking.
+
+### Usage
+
+- Use these files as templates or references for resource allocation in similar projects.
+- Integrate with project management tools or databases to automate resource tracking and reporting.
+- Update allocations regularly to reflect project progress and changes.
+
 For further assistance, please contact the project management office.
 
 ---
