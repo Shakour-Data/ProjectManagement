@@ -36,6 +36,7 @@ class TestTaskManagement(unittest.TestCase):
         self.assertAlmostEqual(self.tm.tasks[1].importance, self.tm.tasks[2].importance + self.tm.tasks[3].importance)
 
     def test_prioritize_tasks(self):
+        import datetime
         # Create tasks with urgency and importance
         t1 = Task(id=1, title="Task 1", priority=1, deadline=datetime.date.today() + datetime.timedelta(days=3))
         t2 = Task(id=2, title="Task 2", priority=5, deadline=datetime.date.today() + datetime.timedelta(days=1))
