@@ -1,34 +1,34 @@
-# Instructions for Designing JSON Resource Files for Automatic Database Table Creation
+# Instructions for Designing JSON Resource Files for Direct Project Management Usage
 
-This document provides a detailed, standardized guideline for structuring JSON resource files so that they can be automatically mapped to and populate database tables. The instructions are aligned with project management best practices and ensure compatibility with relational database schemas.
+This document provides a detailed, standardized guideline for structuring JSON resource files so that they can be directly used by the project management tool without requiring a database. The instructions ensure compatibility with the tool's workflows and enable seamless automation.
 
 ---
 
 ## 1. Purpose
 
-To enable seamless integration of JSON resource files with database systems by defining a clear, consistent JSON schema that corresponds directly to database table structures. This facilitates automation in data import, validation, and project management workflows.
+To enable seamless integration of JSON resource files with the project management system by defining a clear, consistent JSON schema that corresponds directly to the tool's data structures. This facilitates automation in data import, validation, and project management workflows.
 
 ---
 
-## 2. JSON Structure and Database Mapping Principles
+## 2. JSON Structure and Usage Principles
 
-- Each JSON object represents a row in the database table.
-- JSON keys correspond to database column names.
-- Data types in JSON should align with database column data types (e.g., string, integer, real/float, boolean).
-- Hierarchical or nested data should be flattened or stored in related tables with foreign keys.
+- Each JSON object represents a task, resource, or other project entity.
+- JSON keys correspond to attributes used by the project management tool.
+- Data types in JSON should align with expected attribute types (e.g., string, integer, real/float, boolean).
+- Hierarchical or nested data should be represented using parent-child relationships via IDs.
 
 ---
 
 ## 3. Defining JSON Keys and Data Types
 
-- Use consistent and descriptive key names matching the database column names.
+- Use consistent and descriptive key names matching the tool's attribute names.
 - Supported data types:
   - **String**: For textual data (e.g., task titles, descriptions).
   - **Integer**: For whole numbers (e.g., IDs, levels).
   - **Real/Float**: For decimal numbers (e.g., progress, importance).
   - **Boolean**: For true/false flags (if applicable).
-  - **Array**: For lists of related items (should be handled via related tables or JSON columns if supported).
-- Avoid complex nested objects unless the database supports JSON columns.
+  - **Array**: For lists of related items.
+- Avoid complex nested JSON objects; use flat structures with references.
 
 ---
 
@@ -36,12 +36,12 @@ To enable seamless integration of JSON resource files with database systems by d
 
 - For hierarchical data like tasks and subtasks:
   - Use a parent-child relationship with a `parent_id` field referencing the parent task's ID.
-  - Alternatively, store subtasks as separate entries with a foreign key to the parent.
-- Avoid deeply nested JSON objects for relational databases.
+  - Store subtasks as separate entries with a reference to the parent.
+- Avoid deeply nested JSON objects.
 
 ---
 
-## 5. Example JSON Schema for a Tasks Table
+## 5. Example JSON Schema for Tasks
 
 ```json
 [
@@ -72,44 +72,28 @@ To enable seamless integration of JSON resource files with database systems by d
 
 ---
 
-## 6. Database Table Schema Correspondence
+## 6. Validation and Synchronization
 
-| Column Name | Data Type | Description                          |
-|-------------|-----------|----------------------------------|
-| id          | TEXT      | Unique identifier for the task    |
-| title       | TEXT      | Task name                        |
-| description | TEXT      | Detailed task description         |
-| level       | INTEGER   | Hierarchy level in the WBS        |
-| importance  | REAL      | Importance score (0.0 to 1.0)     |
-| urgency     | REAL      | Urgency score (0.0 to 1.0)        |
-| status      | TEXT      | Current status of the task         |
-| progress    | REAL      | Completion percentage (0.0 to 1.0)|
-| parent_id   | TEXT      | ID of the parent task (nullable)  |
-
----
-
-## 7. Validation and Synchronization
-
-- Validate JSON files against the defined schema before importing.
-- Use automated scripts or ETL tools to parse JSON and insert/update database tables.
+- Validate JSON files against the defined schema before use.
+- Use automated scripts to parse JSON and update project state.
 - Maintain version control for JSON files to track changes.
-- Schedule regular synchronization between JSON resources and database tables.
+- Schedule regular synchronization between JSON resources and project workflows.
 
 ---
 
-## 8. Best Practices
+## 7. Best Practices
 
 - Keep JSON files well-formatted and human-readable.
-- Use consistent naming conventions for keys and database columns.
-- Document the JSON schema and database mapping clearly.
-- Handle missing or optional fields gracefully in the database.
+- Use consistent naming conventions for keys.
+- Document the JSON schema clearly.
+- Handle missing or optional fields gracefully.
 - For large datasets, consider batch processing and incremental updates.
 
 ---
 
-## 9. Summary
+## 8. Summary
 
-Designing JSON resource files with clear schema definitions aligned to database tables enables efficient automation, data integrity, and project management effectiveness. Following these guidelines ensures that JSON files can be reliably used to create and populate database tables, supporting dynamic project workflows.
+Designing JSON resource files with clear schema definitions enables efficient automation, data integrity, and project management effectiveness. Following these guidelines ensures that JSON files can be reliably used directly by the project management tool, supporting dynamic project workflows.
 
 For further assistance, please contact the project management office.
 
