@@ -1,4 +1,4 @@
-from Project_Management.input_handler import InputHandler
+from modules.input_handler import InputHandler
 
 input_handler = InputHandler()
 
@@ -23,10 +23,43 @@ def start(input_dir=None):
         print("Failed to load input files. Please check the input directory and JSON files.")
         return
 
-    # Placeholder for processing inputs and managing project
+    # Process inputs and generate reports
     print(f"Loaded input files: {list(inputs.keys())}")
     print("Starting project management automation...")
-    # TODO: Implement task management, GitHub integration, progress tracking, reporting, etc.
+
+    # Import reporting functions
+    from modules import reporting
+
+    # Extract tasks from inputs - assuming tasks are in wbs_data.json or detailed_wbs.json
+    tasks = []
+    if 'wbs_data.json' in inputs:
+        tasks = inputs['wbs_data.json']
+    elif 'detailed_wbs.json' in inputs:
+        tasks = inputs['detailed_wbs.json']
+
+    if not tasks:
+        print("No task data found in input files.")
+        return
+
+    # Generate top 10 important tasks
+    top_important = reporting.top_n_by_importance(tasks, 10)
+    print("\nTop 10 Important Tasks:")
+    for t in top_important:
+        print(f"- {t.get('title', 'No Title')} (Importance: {t.get('importance', 0)})")
+
+    # Generate top 10 urgent tasks
+    top_urgent = reporting.top_n_by_urgency(tasks, 10)
+    print("\nTop 10 Urgent Tasks:")
+    for t in top_urgent:
+        print(f"- {t.get('title', 'No Title')} (Urgency: {t.get('urgency', 0)})")
+
+    # Generate Eisenhower matrix
+    matrix = reporting.eisenhower_matrix(tasks)
+    print("\nEisenhower Matrix:")
+    for quadrant, items in matrix.items():
+        print(f"\n{quadrant.replace('_', ' ').title()} ({len(items)} tasks):")
+        for t in items:
+            print(f"  - {t.get('title', 'No Title')} (Importance: {t.get('importance', 0)}, Urgency: {t.get('urgency', 0)})")
 
 def status():
     """
