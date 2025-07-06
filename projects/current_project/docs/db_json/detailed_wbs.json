@@ -1,0 +1,518 @@
+[
+  {
+    "id": "0",
+    "title": "Start",
+    "optimistic_hours": 0,
+    "normal_hours": 0,
+    "pessimistic_hours": 0,
+    "subtasks": []
+  },
+  {
+    "id": "1",
+    "title": "Project Management System Development",
+    "subtasks": [
+      {
+        "id": "1.1",
+        "title": "Python Package and Environment Setup",
+        "subtasks": [
+          {
+            "id": "1.1.1",
+            "title": "Create Python package structure",
+            "optimistic_hours": 2,
+            "normal_hours": 4,
+            "pessimistic_hours": 6,
+            "predecessors": ["0"]
+          },
+          {
+            "id": "1.1.2",
+            "title": "Implement virtual environment creation and dependency installation",
+            "optimistic_hours": 3,
+            "normal_hours": 5,
+            "pessimistic_hours": 8,
+            "predecessors": ["1.1.1"]
+          },
+          {
+            "id": "1.1.3",
+            "title": "Automate configuration setup and secure GitHub token storage",
+            "optimistic_hours": 3,
+            "normal_hours": 6,
+            "pessimistic_hours": 9,
+            "predecessors": ["1.1.2"]
+          },
+          {
+            "id": "1.1.4",
+            "title": "Implement automatic VS Code extension installation (BLACKBOX AI, etc.)",
+            "optimistic_hours": 2,
+            "normal_hours": 4,
+            "pessimistic_hours": 6,
+            "predecessors": ["1.1.3"]
+          },
+          {
+            "id": "1.1.5",
+            "title": "Develop initial CLI commands for setup and status checks",
+            "optimistic_hours": 3,
+            "normal_hours": 5,
+            "pessimistic_hours": 7,
+            "predecessors": ["1.1.4"]
+          }
+        ]
+      },
+      {
+        "id": "1.2",
+        "title": "Core Python Development",
+        "subtasks": [
+          {
+            "id": "1.2.1",
+            "title": "Develop core Python modules for task management, database interaction, progress calculation, and automation",
+            "optimistic_hours": 10,
+            "normal_hours": 15,
+            "pessimistic_hours": 20,
+            "predecessors": ["1.1.5"]
+          },
+          {
+            "id": "1.2.2",
+            "title": "Implement unit and integration tests for Python modules",
+            "optimistic_hours": 5,
+            "normal_hours": 8,
+            "pessimistic_hours": 12,
+            "predecessors": ["1.2.1"]
+          },
+          {
+            "id": "1.2.3",
+            "title": "Develop Python scripts for GitHub integration and workflow automation",
+            "optimistic_hours": 6,
+            "normal_hours": 10,
+            "pessimistic_hours": 15,
+            "predecessors": ["1.2.2"]
+          }
+        ]
+      },
+      {
+        "id": "1.3",
+        "title": "Database Design and Management",
+        "subtasks": [
+          {
+            "id": "1.3.1",
+            "title": "Design and implement the project management database schema",
+            "optimistic_hours": 8,
+            "normal_hours": 12,
+            "pessimistic_hours": 18,
+            "predecessors": ["1.2.3"]
+          },
+          {
+            "id": "1.3.2",
+            "title": "Develop scripts for database creation, migration, and data import/export",
+            "optimistic_hours": 6,
+            "normal_hours": 9,
+            "pessimistic_hours": 14,
+            "predecessors": ["1.3.1"]
+          },
+          {
+            "id": "1.3.3",
+            "title": "Implement database access layers and utilities",
+            "optimistic_hours": 5,
+            "normal_hours": 8,
+            "pessimistic_hours": 12,
+            "predecessors": ["1.3.2"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "GitHub Integration",
+    "subtasks": [
+      {
+        "id": "2.1",
+        "title": "Integrate GitHub API for Issues, Projects, Pull Requests, and Wikis",
+        "optimistic_hours": 8,
+        "normal_hours": 12,
+        "pessimistic_hours": 16,
+        "predecessors": ["1.3.3"]
+      },
+      {
+        "id": "2.2",
+        "title": "Implement automatic creation, updating, and closing of GitHub Issues",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["2.1"]
+      },
+      {
+        "id": "2.3",
+        "title": "Synchronize task status with GitHub Project boards",
+        "optimistic_hours": 5,
+        "normal_hours": 8,
+        "pessimistic_hours": 12,
+        "predecessors": ["2.2"]
+      },
+      {
+        "id": "2.4",
+        "title": "Link tasks to Pull Requests and update statuses based on PR reviews and merges",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["2.3"]
+      },
+      {
+        "id": "2.5",
+        "title": "Integrate GitHub Actions for workflow automation and notifications",
+        "optimistic_hours": 7,
+        "normal_hours": 10,
+        "pessimistic_hours": 14,
+        "predecessors": ["2.4"]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Task Management and Prioritization",
+    "subtasks": [
+      {
+        "id": "3.1",
+        "title": "Parse creative user inputs into formal tasks",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["2.5"]
+      },
+      {
+        "id": "3.2",
+        "title": "Implement intelligent task prioritization (deadlines, dependencies, importance)",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["3.1"]
+      },
+      {
+        "id": "3.3",
+        "title": "Develop task scheduling suggestions and automatic deadline reminders",
+        "optimistic_hours": 5,
+        "normal_hours": 8,
+        "pessimistic_hours": 12,
+        "predecessors": ["3.2"]
+      },
+      {
+        "id": "3.4",
+        "title": "Support task dependencies and conflict detection",
+        "optimistic_hours": 4,
+        "normal_hours": 7,
+        "pessimistic_hours": 10,
+        "predecessors": ["3.3"]
+      },
+      {
+        "id": "3.5",
+        "title": "Enable multi-project and multi-user task assignment and tracking",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["3.4"]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Documentation and Reporting",
+    "subtasks": [
+      {
+        "id": "4.1",
+        "title": "Manage SOPs and project documentation in markdown/text files",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["3.5"]
+      },
+      {
+        "id": "4.2",
+        "title": "Implement automatic versioning and updating of documentation",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["4.1"]
+      },
+      {
+        "id": "4.3",
+        "title": "Generate changelogs and decision logs",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["4.2"]
+      },
+      {
+        "id": "4.4",
+        "title": "Integrate with GitHub Wiki for extended documentation",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["4.3"]
+      },
+      {
+        "id": "4.5",
+        "title": "Develop real-time progress tracking and automated report generation",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["4.4"]
+      },
+      {
+        "id": "4.6",
+        "title": "Create visual summaries/dashboards stored in repo",
+        "optimistic_hours": 5,
+        "normal_hours": 8,
+        "pessimistic_hours": 12,
+        "predecessors": ["4.5"]
+      },
+      {
+        "id": "4.7",
+        "title": "Implement notifications for stalled tasks, deadlines, and reviews",
+        "optimistic_hours": 4,
+        "normal_hours": 7,
+        "pessimistic_hours": 10,
+        "predecessors": ["4.6"]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Communication and Feedback",
+    "subtasks": [
+      {
+        "id": "5.1",
+        "title": "Use GitHub issue comments, PR reviews, and VS Code chat for communication",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["4.7"]
+      },
+      {
+        "id": "5.2",
+        "title": "Automate summaries of progress and next steps",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["5.1"]
+      },
+      {
+        "id": "5.3",
+        "title": "Integrate feedback loops into task and PR workflows",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["5.2"]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Workflow Automation and Extensions",
+    "subtasks": [
+      {
+        "id": "6.1",
+        "title": "Utilize GitHub Actions and internal bots for workflow automation",
+        "optimistic_hours": 5,
+        "normal_hours": 8,
+        "pessimistic_hours": 12,
+        "predecessors": ["5.3"]
+      },
+      {
+        "id": "6.2",
+        "title": "Design plugin/extension system for feature additions and integrations",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["6.1"]
+      },
+      {
+        "id": "6.3",
+        "title": "Minimize manual input beyond creative task descriptions",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["6.2"]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Security and Access Control",
+    "subtasks": [
+      {
+        "id": "7.1",
+        "title": "Secure handling of GitHub authentication tokens",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["6.3"]
+      },
+      {
+        "id": "7.2",
+        "title": "Implement role-based access control for multi-user scenarios",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["7.1"]
+      },
+      {
+        "id": "7.3",
+        "title": "Ensure compliance with GitHub API rate limits and best practices",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["7.2"]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "CLI and User Guidance",
+    "subtasks": [
+      {
+        "id": "8.1",
+        "title": "Develop simple CLI commands for setup, status, task updates, and reports",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["7.3"]
+      },
+      {
+        "id": "8.2",
+        "title": "Implement clear error handling and user guidance",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["8.1"]
+      },
+      {
+        "id": "8.3",
+        "title": "Provide comprehensive logging for audit and troubleshooting",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["8.2"]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Data Backup and Recovery",
+    "subtasks": [
+      {
+        "id": "9.1",
+        "title": "Automate backups of project management state and documentation",
+        "optimistic_hours": 3,
+        "normal_hours": 5,
+        "pessimistic_hours": 8,
+        "predecessors": ["8.3"]
+      },
+      {
+        "id": "9.2",
+        "title": "Implement recovery mechanisms for data loss or corruption",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["9.1"]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "PMBOK Compliance and Advanced Features",
+    "subtasks": [
+      {
+        "id": "10.1",
+        "title": "Ensure full compliance with PMBOK standards (resource, cost, risk, quality management)",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["9.2"]
+      },
+      {
+        "id": "10.2",
+        "title": "Implement detailed resource allocation and management features",
+        "optimistic_hours": 7,
+        "normal_hours": 10,
+        "pessimistic_hours": 14,
+        "predecessors": ["10.1"]
+      },
+      {
+        "id": "10.3",
+        "title": "Develop comprehensive cost management capabilities",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["10.2"]
+      },
+      {
+        "id": "10.4",
+        "title": "Support Agile methodologies with Scrum framework (ceremonies, roles, artifacts)",
+        "optimistic_hours": 7,
+        "normal_hours": 10,
+        "pessimistic_hours": 14,
+        "predecessors": ["10.3"]
+      },
+      {
+        "id": "10.5",
+        "title": "Provide Kanban boards and Gantt charts for task and workflow management",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["10.4"]
+      },
+      {
+        "id": "10.6",
+        "title": "Enable multi-method project management with switching/combining methodologies",
+        "optimistic_hours": 7,
+        "normal_hours": 10,
+        "pessimistic_hours": 14,
+        "predecessors": ["10.5"]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Testing and Maintenance",
+    "subtasks": [
+      {
+        "id": "11.1",
+        "title": "Conduct unit, integration, and end-to-end testing",
+        "optimistic_hours": 6,
+        "normal_hours": 9,
+        "pessimistic_hours": 13,
+        "predecessors": ["10.6"]
+      },
+      {
+        "id": "11.2",
+        "title": "Set up automated testing and deployment pipelines with GitHub Actions",
+        "optimistic_hours": 5,
+        "normal_hours": 8,
+        "pessimistic_hours": 12,
+        "predecessors": ["11.1"]
+      },
+      {
+        "id": "11.3",
+        "title": "Prepare user documentation and onboarding materials",
+        "optimistic_hours": 4,
+        "normal_hours": 6,
+        "pessimistic_hours": 9,
+        "predecessors": ["11.2"]
+      },
+      {
+        "id": "11.4",
+        "title": "Plan for ongoing maintenance, updates, and user support",
+        "optimistic_hours": 5,
+        "normal_hours": 8,
+        "pessimistic_hours": 12,
+        "predecessors": ["11.3"]
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "title": "End",
+    "optimistic_hours": 0,
+    "normal_hours": 0,
+    "pessimistic_hours": 0,
+    "subtasks": []
+  }
+]
