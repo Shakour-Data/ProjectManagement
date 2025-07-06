@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="8" skipped="0" tests="32" time="0.387" timestamp="2025-07-06T13:54:07.401999+00:00" hostname="codespaces-79752a"><testcase classname="projects.current_project.src.test_auto_commit.TestAutoCommit" name="test_auto_commit_and_push_no_changes" time="0.002" /><testcase classname="projects.current_project.src.test_auto_commit.TestAutoCommit" name="test_auto_commit_and_push_with_changes" time="0.005" /><testcase classname="projects.current_project.src.test_do_important_tasks.TestImportantTasks" name="test_all_tasks_completed" time="0.001" /><testcase classname="projects.current_project.src.test_do_important_tasks.TestImportantTasks" name="test_all_tasks_created" time="0.000" /><testcase classname="projects.current_project.src.test_do_important_tasks.TestImportantTasks" name="test_mark_nonexistent_task_completed" time="0.000" /><testcase classname="projects.current_project.src.test_do_important_tasks.TestImportantTasks" name="test_task_titles_match" time="0.000" /><testcase classname="projects.current_project.src.test_do_urgent_tasks.TestUrgentTasks" name="test_all_tasks_completed" time="0.001" /><testcase classname="projects.current_project.src.test_do_urgent_tasks.TestUrgentTasks" name="test_all_tasks_created" time="0.000" /><testcase classname="projects.current_project.src.test_do_urgent_tasks.TestUrgentTasks" name="test_mark_nonexistent_task_completed" time="0.000" /><testcase classname="projects.current_project.src.test_do_urgent_tasks.TestUrgentTasks" name="test_task_titles_match" time="0.001" /><testcase classname="projects.current_project.tests.test_basic.BasicTest" name="test_example" time="0.001" /><testcase classname="projects.current_project.tests.test_cli_commands" name="test_cli_help" time="0.035" /><testcase classname="projects.current_project.tests.test_cli_commands" name="test_cli_setup" time="0.033" /><testcase classname="projects.current_project.tests.test_cli_commands" name="test_cli_status" time="0.038" /><testcase classname="projects.current_project.tests.test_github_integration.TestGitHubIntegration" name="test_get_issues_http_error" time="0.002" /><testcase classname="projects.current_project.tests.test_github_integration.TestGitHubIntegration" name="test_get_issues_success" time="0.001" /><testcase classname="projects.current_project.tests.test_github_integration.TestGitHubIntegration" name="test_init_without_repo_raises" time="0.001" /><testcase classname="projects.current_project.tests.test_github_integration.TestGitHubIntegration" name="test_init_without_token_raises" time="0.001" /><testcase classname="projects.current_project.tests.test_github_integration.TestGitHubIntegration" name="test_placeholder_methods_exist" time="0.000" /><testcase classname="projects.current_project.tests.test_importance_urgency_report.TestImportanceUrgencyReport" name="test_classification_counts" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'docs/project_management/wbs_scores.json'">self = &lt;tests.test_importance_urgency_report.TestImportanceUrgencyReport testMethod=test_classification_counts&gt;
+
+    def setUp(self):
+        self.tm = TaskManagement()
+        # Generate WBS and load scores
+        self.tm.generate_wbs_from_idea('Develop Project Management Tool')
+        scores_path = os.path.join('docs', 'project_management', 'wbs_scores.json')
+&gt;       self.tm.load_scores(scores_path)
+
+projects/current_project/tests/test_importance_urgency_report.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;task_management.TaskManagement object at 0x7e0ccb543800&gt;, scores_path = 'docs/project_management/wbs_scores.json'
+
+    def load_scores(self, scores_path: str):
+        import json
+&gt;       with open(scores_path, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'docs/project_management/wbs_scores.json'
+
+projects/current_project/src/task_management.py:104: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_importance_urgency_report.TestImportanceUrgencyReport" name="test_report_generation" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'docs/project_management/wbs_scores.json'">self = &lt;tests.test_importance_urgency_report.TestImportanceUrgencyReport testMethod=test_report_generation&gt;
+
+    def setUp(self):
+        self.tm = TaskManagement()
+        # Generate WBS and load scores
+        self.tm.generate_wbs_from_idea('Develop Project Management Tool')
+        scores_path = os.path.join('docs', 'project_management', 'wbs_scores.json')
+&gt;       self.tm.load_scores(scores_path)
+
+projects/current_project/tests/test_importance_urgency_report.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;task_management.TaskManagement object at 0x7e0ccb542cc0&gt;, scores_path = 'docs/project_management/wbs_scores.json'
+
+    def load_scores(self, scores_path: str):
+        import json
+&gt;       with open(scores_path, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'docs/project_management/wbs_scores.json'
+
+projects/current_project/src/task_management.py:104: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_importance_urgency_report.TestImportanceUrgencyReport" name="test_task_counts" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'docs/project_management/wbs_scores.json'">self = &lt;tests.test_importance_urgency_report.TestImportanceUrgencyReport testMethod=test_task_counts&gt;
+
+    def setUp(self):
+        self.tm = TaskManagement()
+        # Generate WBS and load scores
+        self.tm.generate_wbs_from_idea('Develop Project Management Tool')
+        scores_path = os.path.join('docs', 'project_management', 'wbs_scores.json')
+&gt;       self.tm.load_scores(scores_path)
+
+projects/current_project/tests/test_importance_urgency_report.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;task_management.TaskManagement object at 0x7e0ccb541af0&gt;, scores_path = 'docs/project_management/wbs_scores.json'
+
+    def load_scores(self, scores_path: str):
+        import json
+&gt;       with open(scores_path, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'docs/project_management/wbs_scores.json'
+
+projects/current_project/src/task_management.py:104: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_progress_report" name="test_generate_progress_report" time="0.001" /><testcase classname="projects.current_project.tests.test_progress_report" name="test_progress_report_contains_urgency_importance" time="0.001" /><testcase classname="projects.current_project.tests.test_resource_leveling.TestResourceLeveler" name="test_load_and_flatten_tasks" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'">self = &lt;tests.test_resource_leveling.TestResourceLeveler testMethod=test_load_and_flatten_tasks&gt;
+
+    def test_load_and_flatten_tasks(self):
+        leveler = ResourceLeveler(self.tasks_filepath, self.allocations_filepath, self.output_filepath)
+&gt;       leveler.tasks = leveler.load_json_file(self.tasks_filepath)
+
+projects/current_project/tests/test_resource_leveling.py:32: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;src.resource_leveling.ResourceLeveler object at 0x7e0ccb5426c0&gt;
+filepath = 'projects/current_project/docs/detailed_wbs.json'
+
+    def load_json_file(self, filepath):
+&gt;       with open(filepath, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'
+
+projects/current_project/src/resource_leveling.py:17: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_resource_leveling.TestResourceLeveler" name="test_resource_leveling_normal_duration" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'">self = &lt;tests.test_resource_leveling.TestResourceLeveler testMethod=test_resource_leveling_normal_duration&gt;
+
+    def test_resource_leveling_normal_duration(self):
+        leveler = ResourceLeveler(self.tasks_filepath, self.allocations_filepath, self.output_filepath, duration_type='normal')
+&gt;       leveler.tasks = leveler.load_json_file(self.tasks_filepath)
+
+projects/current_project/tests/test_resource_leveling.py:42: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;src.resource_leveling.ResourceLeveler object at 0x7e0ccb5424b0&gt;
+filepath = 'projects/current_project/docs/detailed_wbs.json'
+
+    def load_json_file(self, filepath):
+&gt;       with open(filepath, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'
+
+projects/current_project/src/resource_leveling.py:17: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_resource_leveling.TestResourceLeveler" name="test_resource_leveling_optimistic_duration" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'">self = &lt;tests.test_resource_leveling.TestResourceLeveler testMethod=test_resource_leveling_optimistic_duration&gt;
+
+    def test_resource_leveling_optimistic_duration(self):
+        leveler = ResourceLeveler(self.tasks_filepath, self.allocations_filepath, self.output_filepath, duration_type='optimistic')
+&gt;       leveler.tasks = leveler.load_json_file(self.tasks_filepath)
+
+projects/current_project/tests/test_resource_leveling.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;src.resource_leveling.ResourceLeveler object at 0x7e0ccb5416a0&gt;
+filepath = 'projects/current_project/docs/detailed_wbs.json'
+
+    def load_json_file(self, filepath):
+&gt;       with open(filepath, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'
+
+projects/current_project/src/resource_leveling.py:17: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_resource_leveling.TestResourceLeveler" name="test_run_method_creates_output_file" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'">self = &lt;tests.test_resource_leveling.TestResourceLeveler testMethod=test_run_method_creates_output_file&gt;
+
+    def test_run_method_creates_output_file(self):
+        leveler = ResourceLeveler(self.tasks_filepath, self.allocations_filepath, self.output_filepath)
+&gt;       leveler.run()
+
+projects/current_project/tests/test_resource_leveling.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+projects/current_project/src/resource_leveling.py:75: in run
+    self.tasks = self.load_json_file(self.tasks_filepath)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;src.resource_leveling.ResourceLeveler object at 0x7e0ccb540f80&gt;
+filepath = 'projects/current_project/docs/detailed_wbs.json'
+
+    def load_json_file(self, filepath):
+&gt;       with open(filepath, 'r', encoding='utf-8') as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'projects/current_project/docs/detailed_wbs.json'
+
+projects/current_project/src/resource_leveling.py:17: FileNotFoundError</failure></testcase><testcase classname="projects.current_project.tests.test_task_management.TestTaskManagement" name="test_assign_task" time="0.001" /><testcase classname="projects.current_project.tests.test_task_management.TestTaskManagement" name="test_generate_wbs_from_idea" time="0.001" /><testcase classname="projects.current_project.tests.test_task_management.TestTaskManagement" name="test_prioritize_tasks" time="0.001"><failure message="AssertionError: 1 != 2">self = &lt;tests.test_task_management.TestTaskManagement testMethod=test_prioritize_tasks&gt;
+
+    def test_prioritize_tasks(self):
+        # Create tasks with urgency and importance
+        t1 = Task(id=1, title="Task 1", priority=1, deadline=datetime.date.today() + datetime.timedelta(days=3))
+        t2 = Task(id=2, title="Task 2", priority=5, deadline=datetime.date.today() + datetime.timedelta(days=1))
+        self.tm.tasks = {1: t1, 2: t2}
+        sorted_tasks = self.tm.prioritize_tasks()
+        # Task 2 should have higher priority due to higher importance and urgency
+&gt;       self.assertEqual(sorted_tasks[0].id, 2)
+E       AssertionError: 1 != 2
+
+projects/current_project/tests/test_task_management.py:45: AssertionError</failure></testcase><testcase classname="projects.current_project.tests.test_task_management.TestTaskManagement" name="test_urgency_importance_calculation" time="0.001" /></testsuite></testsuites>
