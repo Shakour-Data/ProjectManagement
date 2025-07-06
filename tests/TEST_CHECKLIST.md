@@ -1,65 +1,19 @@
-# Test Checklist for Project Management Automation Script
+# Test Checklist for Project_Management Package
 
-This checklist documents the tests performed for the automation script implementing the Project Management Tool.
+## Initial Tests
 
-## Tests to be performed
+| Test Case                  | Description                                      | Status  | Notes                                      |
+|----------------------------|------------------------------------------------|---------|--------------------------------------------|
+| Install Command            | Run `project_management install` to create PM_Input folder | Passed  | PM_Input folder created or already exists  |
+| PM_Input Folder Creation   | Check if PM_Input folder is created after install | Passed  | Verified folder exists                      |
+| Start Command With Inputs  | Run `project_management start` with sample JSON file | Passed  | Sample JSON loaded and printed              |
+| Start Command With Malformed JSON | Run `project_management start` with malformed JSON file | Passed  | Detected JSON decode error and handled gracefully |
+| Status Command            | Run `project_management status` command         | Passed  | Status message printed                       |
 
-1. Setup and Installation
-   - Verify virtual environment creation
-   - Verify dependency installation
-   - Verify VS Code extensions installation
+## Further Tests
 
-2. Input Handling
-   - Test natural language input parsing
-   - Test code snippet input handling
+| Test Case                        | Description                                      | Status  | Notes                                      |
+|---------------------------------|------------------------------------------------|---------|--------------------------------------------|
+| Real Project Test with project_test/PM_Input | Run start command with full project_test input folder | Passed  | Loaded all JSON input files successfully and started automation |
 
-3. Work Breakdown Structure (WBS) Generation
-   - Test AI-assisted WBS generation (or placeholder)
-   - Validate WBS JSON output format
-
-4. Resource Allocation
-   - Test JSON resource file parsing
-   - Validate resource allocation logic
-   - Check for overbooking prevention
-
-5. Task Management and Scheduling
-   - Test task dependency parsing
-   - Test priority and deadline assignment
-   - Verify scheduling logic
-
-6. Development Workflow Automation
-   - Test commit hook integration
-   - Test CI/CD pipeline triggers
-
-7. Progress Tracking and Reporting
-   - Test commit history parsing
-   - Test report generation (markdown and text)
-   - Verify notification triggers
-
-8. Documentation Management
-   - Test markdown synchronization
-   - Test GitHub Wiki integration
-
-9. Security and Permissions Management
-   - Test token encryption and storage
-   - Test role-based access control
-
-10. Backup, Recovery, and Extensibility
-    - Test automated backups
-    - Test recovery mechanisms
-    - Test plugin architecture
-
-## Test Status
-
-| Test Area                          | Status  | Notes                  |
-|----------------------------------|---------|------------------------|
-| Setup and Installation            | Pending |                        |
-| Input Handling                   | Pending |                        |
-| WBS Generation                   | Pending |                        |
-| Resource Allocation              | Pending |                        |
-| Task Management and Scheduling   | Pending |                        |
-| Development Workflow Automation  | Pending |                        |
-| Progress Tracking and Reporting  | Pending |                        |
-| Documentation Management         | Pending |                        |
-| Security and Permissions         | Pending |                        |
-| Backup, Recovery, Extensibility  | Pending |                        |
+- To be added after initial tests.
