@@ -63,14 +63,23 @@ def load_wbs_from_file(filepath):
     return data
 
 def save_scores_to_json(scores, filepath):
+    import json
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(scores, f, indent=2, ensure_ascii=False)
+
+def save_scores_to_json(scores, filepath):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(scores, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     # Example usage
-    wbs_file = os.path.join(os.path.dirname(__file__), '../docs/project_management/wbs_data.json')
+    wbs_file = os.path.join(os.path.dirname(__file__), '../docs/db_json/detailed_wbs.json')
     scores_file = os.path.join(os.path.dirname(__file__), '../docs/project_management/wbs_scores.json')
-    wbs_data = load_wbs_from_file(wbs_file)
+    try:
+        wbs_data = load_wbs_from_file(wbs_file)
+    except FileNotFoundError:
+        print(f"Error: WBS data file not found at {wbs_file}")
+        exit(1)
     calculator = ImportanceUrgencyCalculator(wbs_data)
     scores = calculator.calculate_all()
     save_scores_to_json(scores, scores_file)
