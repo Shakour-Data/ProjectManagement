@@ -112,3 +112,9 @@ Automation and Workflow Continuity:
 - Output formats include text files, markdown, and native GitHub features.
 - Designed for seamless, continuous operation with minimal manual intervention.
 - Fully leverages VS Code free features and extensions, including BLACKBOX AI, to enhance productivity and automation.
+
+Important Note on Project Creation and Updates:
+-----------------------------------------------
+- Installation of this package by the user who created the GitHub repository automatically triggers the creation of a project within GitHub.
+- The system leverages GitHub's free project features to their fullest extent.
+- The project is continuously and automatically updated by this system, ensuring synchronization and up-to-date project management.
