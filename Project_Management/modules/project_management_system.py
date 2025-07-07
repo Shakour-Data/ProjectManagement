@@ -306,8 +306,8 @@ class ReportManager:
         dr = DashboardReports(self.input_dir)
         dr.load_inputs()
 
-        progress_md = dr.progress_report_dashboard_md()
-        priority_md = dr.task_priority_urgency_report_md()
+        progress_md = dr.generate_progress_report()
+        priority_md = dr.generate_priority_urgency_report()
 
         self.save_dashboard('progress_report_dashboard', progress_md)
         self.save_dashboard('task_priority_urgency_report', priority_md)
