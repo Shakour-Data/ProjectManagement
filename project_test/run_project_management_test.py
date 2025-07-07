@@ -3,15 +3,15 @@ import datetime
 import sys
 
 # Add Project_Management directory to sys.path for imports
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../Project_Management')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from modules.project_management_system import (
+from Project_Management.modules.project_management_system import (
     InputHandler,
     GitProgressUpdater,
     ProgressCalculator,
     TaskManager,
 )
-from modules.dashboards_reports import DashboardReports
+from Project_Management.modules.dashboards_reports import DashboardReports
 
 def run_test():
     input_dir = 'project_test/PM_Input'
@@ -47,8 +47,8 @@ def run_test():
     # Generate dashboards
     dr = DashboardReports(input_dir)
     dr.load_inputs()
-    progress_md = dr.progress_report_dashboard_md()
-    priority_md = dr.task_priority_urgency_report_md()
+    progress_md = dr.generate_progress_report()
+    priority_md = dr.generate_priority_urgency_report()
 
     # Save dashboards and reports with timestamped filenames
     timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
