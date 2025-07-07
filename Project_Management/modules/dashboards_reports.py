@@ -1,5 +1,6 @@
 import json
 from typing import Dict, Any, List
+from progress_calculator import ProgressCalculator
 
 class DashboardReports:
     def __init__(self, input_dir: str = 'PM_Input'):
@@ -17,7 +18,6 @@ class DashboardReports:
             return None
 
     def load_inputs(self):
-        # Load all standard input JSON files
         self.data['detailed_wbs'] = self.load_json_file('detailed_wbs.json')
         self.data['human_resources'] = self.load_json_file('human_resources.json')
         self.data['resource_allocation'] = self.load_json_file('resource_allocation.json')
@@ -26,8 +26,6 @@ class DashboardReports:
         self.data['wbs_scores'] = self.load_json_file('wbs_scores.json')
         self.data['workflow_definition'] = self.load_json_file('workflow_definition.json')
 
-        # Use ProgressCalculator to enrich tasks with progress and score
-        from Project_Management.modules.progress_calculator import ProgressCalculator
         pc = ProgressCalculator(self.input_dir)
         pc.load_inputs()
         pc.enrich_tasks_with_progress_and_score()
@@ -38,23 +36,17 @@ class DashboardReports:
         status = task.get('status', 'unknown')
         importance = task.get('importance', 0)
         urgency = task.get('urgency', 0)
-        # Calculate score as weighted average of importance and urgency
         score = (importance * 0.6) + (urgency * 0.4)
-        # Calculate progress percentage if available, else 0
         progress = task.get('progress', 0)
         progress_percent = progress * 100 if isinstance(progress, (int, float)) else 0
         return f"- **{title}** (Status: {status}, Importance: {importance:.2f}, Urgency: {urgency:.2f}, Score: {score:.2f}, Progress: {progress_percent:.1f}%)"
 
     def progress_report_dashboard_md(self) -> str:
-        """
-        Generate markdown for real-time tracking of task completion status.
-        """
         tasks = self.data.get('detailed_wbs') or self.data.get('wbs_data') or []
         total_tasks = len(tasks)
         completed = sum(1 for t in tasks if t.get('status') == 'completed')
         in_progress = sum(1 for t in tasks if t.get('status') == 'in_progress')
         pending = total_tasks - completed - in_progress
-
         progress_percent = (completed / total_tasks * 100) if total_tasks > 0 else 0
 
         md = f"# Progress Report Dashboard\n\n"
@@ -69,9 +61,6 @@ class DashboardReports:
         return md
 
     def task_priority_urgency_report_md(self) -> str:
-        """
-        Generate markdown for lists of tasks sorted by importance and urgency.
-        """
         tasks = self.data.get('detailed_wbs') or self.data.get('wbs_data') or []
         important_tasks = sorted(tasks, key=lambda x: x.get('importance', 0), reverse=True)[:10]
         urgent_tasks = sorted(tasks, key=lambda x: x.get('urgency', 0), reverse=True)[:10]
@@ -110,9 +99,6 @@ class DashboardReports:
         return md
 
     def resource_allocation_dashboard_md(self) -> str:
-        """
-        Generate markdown overview of human and material resource assignments.
-        """
         human_resources = self.data.get('human_resources') or []
         resource_allocation = self.data.get('resource_allocation') or []
         task_resource_allocation = self.data.get('task_resource_allocation') or []
@@ -134,9 +120,6 @@ class DashboardReports:
         return md
 
     def cost_management_report_md(self) -> str:
-        """
-        Generate markdown for budget tracking and expense summaries.
-        """
         wbs_scores = self.data.get('wbs_scores') or []
         resource_allocation = self.data.get('resource_allocation') or []
 
@@ -152,9 +135,6 @@ class DashboardReports:
         return md
 
     def risk_issue_tracking_dashboard_md(self) -> str:
-        """
-        Generate markdown for identification and status of project risks and issues.
-        """
         workflow_definition = self.data.get('workflow_definition') or []
         risks = [item for item in workflow_definition if item.get('type') == 'risk']
         issues = [item for item in workflow_definition if item.get('type') == 'issue']
