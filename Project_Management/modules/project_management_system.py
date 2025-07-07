@@ -291,13 +291,17 @@ class ReportManager:
     def generate_and_save_all(self):
         ih = InputHandler(self.input_dir)
         inputs = ih.read_json_files()
-        gpu = GitProgressUpdater(inputs.get('workflow_definition', []))
+        gpu = GitProgressUpdater(inputs.get('workflow_definition', []), self.input_dir)
+        # Update and save commit_progress.json before loading inputs
+        gpu.update_and_save_commit_progress()
+        # Reload inputs after updating commit progress
+        inputs = ih.read_json_files()
         combined_progress = gpu.update_progress()
 
         pc = ProgressCalculator(self.input_dir)
         pc.load_inputs()
         pc.commit_progress = combined_progress
-        pc.enrich_tasks_with_progress_and_score()
+        pc.enrich_tasks_with_progress()
 
         tm = TaskManager(pc.get_enriched_tasks())
         tm.complete_top_important_tasks(5)
@@ -311,6 +315,23 @@ class ReportManager:
 
         self.save_dashboard('progress_report_dashboard', progress_md)
         self.save_dashboard('task_priority_urgency_report', priority_md)
+
+        # Append to archive files
+        archive_dashboard_path = f"{self.base_report_dir}/dashboards/dashboard_archive.md"
+        archive_report_path = f"{self.base_report_dir}/reports/report_archive.md"
+
+        with open(archive_dashboard_path, 'a', encoding='utf-8') as f:
+            f.write(f"\n\n# Archived Dashboard - {datetime.datetime.now().isoformat()}\n\n")
+            f.write(progress_md)
+            f.write("\n\n---\n\n")
+            f.write(priority_md)
+            f.write("\n\n=== End of Archived Dashboards ===\n\n")
+
+        with open(archive_report_path, 'a', encoding='utf-8') as f:
+            f.write(f"\n\n# Archived Report - {datetime.datetime.now().isoformat()}\n\n")
+            # For now, just archive the priority report as example
+            f.write(priority_md)
+            f.write("\n\n=== End of Archived Reports ===\n\n")
 
 if __name__ == '__main__':
     rm = ReportManager()
