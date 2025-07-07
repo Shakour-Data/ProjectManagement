@@ -33,12 +33,16 @@ class DashboardReports:
     def _format_task(self, task: Dict[str, Any]) -> str:
         title = task.get('title', 'No Title')
         status = task.get('status', 'unknown')
-        importance = task.get('importance', 0.0)
-        urgency = task.get('urgency', 0.0)
-        score = (importance * 0.6) + (urgency * 0.4)
         progress = task.get('progress', 0.0)
         progress_percent = progress * 100 if isinstance(progress, (int, float)) else 0.0
-        return f"- **{title}** (Status: {status}, Importance: {importance:.2f}, Urgency: {urgency:.2f}, Score: {score:.2f}, Progress: {progress_percent:.1f}%)"
+        importance = task.get('importance')
+        urgency = task.get('urgency')
+        score = None
+        if importance is not None and urgency is not None:
+            score = (importance * 0.6) + (urgency * 0.4)
+            return f"- **{title}** (Status: {status}, Importance: {importance:.2f}, Urgency: {urgency:.2f}, Score: {score:.2f}, Progress: {progress_percent:.1f}%)"
+        else:
+            return f"- **{title}** (Status: {status}, Progress: {progress_percent:.1f}%)"
 
     def generate_progress_report(self) -> str:
         tasks = self.data.get('detailed_wbs') or self.data.get('wbs_data') or []
@@ -64,6 +68,14 @@ class DashboardReports:
         important_tasks = sorted(tasks, key=lambda x: x.get('importance', 0.0), reverse=True)[:10]
         urgent_tasks = sorted(tasks, key=lambda x: x.get('urgency', 0.0), reverse=True)[:10]
 
+        # If importance or urgency data missing, add a note
+        importance_data_missing = any(task.get('importance') is None for task in tasks)
+        urgency_data_missing = any(task.get('urgency') is None for task in tasks)
+
+        md = "# Task Priority and Urgency Report\n\n"
+        if importance_data_missing or urgency_data_missing:
+            md += "_Note: Importance and/or urgency data missing in input tasks. Report based on available data._\n\n"
+
         matrix = {
             'Urgent & Important': [],
             'Urgent & Not Important': [],
@@ -82,7 +94,6 @@ class DashboardReports:
             else:
                 matrix['Not Urgent & Not Important'].append(task)
 
-        md = "# Task Priority and Urgency Report\n\n"
         md += "## Top 10 Important Tasks\n"
         for task in important_tasks:
             md += self._format_task(task) + "\n"
