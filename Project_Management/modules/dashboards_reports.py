@@ -27,7 +27,7 @@ class DashboardReports:
         self.data['workflow_definition'] = self.load_json_file('workflow_definition.json')
 
         self.progress_calculator.load_inputs()
-        self.progress_calculator.enrich_tasks_with_progress_and_score()
+        self.progress_calculator.enrich_tasks_with_progress()
         self.data['detailed_wbs'] = self.progress_calculator.get_enriched_tasks()
 
     def _format_task(self, task: Dict[str, Any]) -> str:
