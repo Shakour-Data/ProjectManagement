@@ -6,11 +6,16 @@ from collections import defaultdict
 DB_PROGRESS_JSON_PATH = os.path.join('docs', 'project_management', 'task_progress.json')
 WORKFLOW_DEFINITION_PATH = os.path.join('docs', 'db_json', 'workflow_definition.json')
 
-def run_git_log():
-    """Run git log to get commit history with messages and files changed."""
+def run_git_log(branch=None):
+    """Run git log to get commit history with messages and files changed from specified branch.
+    If branch is None, use the current checked out branch."""
     try:
+        cmd = ["git", "log"]
+        if branch:
+            cmd.append(branch)
+        cmd.extend(["--name-only", "--pretty=format:%H%n%s%n%b%n==END=="])
         result = subprocess.run(
-            ["git", "log", "--name-only", "--pretty=format:%H%n%s%n%b%n==END=="],
+            cmd,
             capture_output=True,
             text=True,
             check=True,
@@ -118,8 +123,8 @@ def save_progress_to_json(progress_data, path):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(progress_data, f, indent=2, ensure_ascii=False)
 
-def main():
-    log_text = run_git_log()
+def main(branch='main'):
+    log_text = run_git_log(branch)
     if not log_text:
         print("No git log data available.")
         return
