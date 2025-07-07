@@ -161,10 +161,40 @@ This document provides a detailed, ordered procedure for building, setting up, a
 **Who:** DevOps engineer and project manager.
 
 ---
-
 ## Summary
 
 Following these ordered steps ensures a structured, efficient, and secure approach to building and managing the Project Management Tool. Clear responsibilities and procedures enable smooth collaboration and successful project delivery.
+
+---
+
+## Dynamic Importance and Urgency Calculation
+
+The project management tool calculates task importance and urgency dynamically based on multiple factors to prioritize work effectively. The calculation uses a recursive scoring approach:
+
+- **Importance Calculation:**
+  - Considers deadline proximity, number of dependencies, and task priority.
+  - Formula:  
+    `importance = w1 * (1 - normalized_time_to_deadline) + w2 * dependency_factor + w3 * priority_factor`  
+    where weights sum to 1 (e.g., w1=0.5, w2=0.3, w3=0.2).
+  - Normalized time to deadline is calculated over a 7-day window.
+  - Dependency factor is the ratio of dependencies to a maximum threshold.
+  - Priority factor is normalized task priority.
+
+- **Urgency Calculation:**
+  - Considers deadline proximity, task status, and resource availability.
+  - Formula:  
+    `urgency = w1 * (1 - normalized_time_to_deadline) + w2 * status_factor + w3 * resource_availability_factor`  
+    where weights sum to 1 (e.g., w1=0.6, w2=0.3, w3=0.1).
+  - Normalized time to deadline is calculated over a 3-day window.
+  - Status factor is 1 for pending or in-progress tasks, 0 otherwise.
+  - Resource availability factor is 1 if no resources assigned, else 0.
+
+- **Implementation:**
+  - The tool recursively scores tasks and subtasks.
+  - Scores are stored and used to calculate combined task scores.
+  - Scores are updated dynamically as project data changes.
+
+For detailed code implementation, see `Project_Management/modules/importance_urgency_calculator.py`.
 
 For further assistance, please contact the project management office.
 
