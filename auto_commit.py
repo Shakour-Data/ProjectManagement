@@ -216,5 +216,159 @@ def auto_commit_and_push():
 
                 print(f"Committed and pushed changes for file: {f} in group: {group_name} - {category_name}")
 
+import json
+
+def collect_commit_progress():
+    """Collect commit progress data as a structured dictionary."""
+    changes = get_git_changes()
+    if not changes or (len(changes) == 1 and changes[0] == ''):
+        print("No changes detected.")
+        return {}
+
+    grouped_files = group_related_files(changes)
+    progress_data = {}
+
+    for group_name, files in grouped_files.items():
+        categories = categorize_files(files)
+        progress_data[group_name] = {}
+
+        for category_name, category_files in categories.items():
+            if not category_files:
+                continue
+
+            commit_messages = []
+            for f in category_files:
+                commit_message = generate_commit_message(group_name, category_name, [f])
+                commit_messages.append({
+                    "file": f,
+                    "commit_message": commit_message
+                })
+
+            progress_data[group_name][category_name] = {
+                "files": category_files,
+                "commit_messages": commit_messages
+            }
+
+    return progress_data
+
+def write_commit_progress_to_json(file_path="project_test/PM_Input/commit_progress.json"):
+    """Write the collected commit progress data to a JSON file."""
+    progress_data = collect_commit_progress()
+    if not progress_data:
+        print("No commit progress data to write.")
+        return
+
+    # Generate simplified progress mapping for ProgressCalculator
+    simplified_progress = {}
+    for group_name, categories in progress_data.items():
+        total_files = 0
+        committed_files = 0
+        for category_name, data in categories.items():
+            files = data.get("files", [])
+            total_files += len(files)
+            # Consider 'Added', 'Modified', 'Renamed' as committed progress
+            if category_name in ["Added", "Modified", "Renamed"]:
+                committed_files += len(files)
+        if total_files > 0:
+            progress_ratio = committed_files / total_files
+        else:
+            progress_ratio = 0.0
+        simplified_progress[group_name] = round(progress_ratio, 2)
+
+    try:
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(simplified_progress, f, indent=4, ensure_ascii=False)
+        print(f"Commit progress data written to {file_path}")
+    except Exception as e:
+        print(f"Failed to write commit progress data to {file_path}: {e}")
+
+import json
+import hashlib
+import time
+
+def update_commit_task_database(commit_hash, task_id, file_path, commit_message, db_path="project_test/PM_Input/commit_task_database.json"):
+    """Update the JSON database mapping commits to tasks with detailed info including metadata."""
+    try:
+        with open(db_path, "r", encoding="utf-8") as f:
+            db = json.load(f)
+    except FileNotFoundError:
+        db = {}
+
+    # Get additional metadata from git
+    success_author, author = run_git_command(["log", "-1", "--pretty=format:%an", commit_hash])
+    success_email, email = run_git_command(["log", "-1", "--pretty=format:%ae", commit_hash])
+    success_date, date = run_git_command(["log", "-1", "--pretty=format:%ad", commit_hash])
+    success_branch, branch = run_git_command(["branch", "--contains", commit_hash])
+    success_parents, parents = run_git_command(["log", "-1", "--pretty=format:%P", commit_hash])
+
+    timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+
+    db[commit_hash] = {
+        "task_id": task_id,
+        "file_path": file_path,
+        "commit_message": commit_message,
+        "timestamp": timestamp,
+        "author": author if success_author else "",
+        "email": email if success_email else "",
+        "date": date if success_date else "",
+        "branch": branch.strip() if success_branch else "",
+        "parent_commits": parents.split() if success_parents else []
+    }
+
+    with open(db_path, "w", encoding="utf-8") as f:
+        json.dump(db, f, indent=4, ensure_ascii=False)
+
+def auto_commit_and_push():
+    """Automate Git commit and push process for each changed file separately."""
+    changes = get_git_changes()
+    if not changes or (len(changes) == 1 and changes[0] == ''):
+        print("No changes detected.")
+        return
+
+    grouped_files = group_related_files(changes)
+
+    for group_name, files in grouped_files.items():
+        categories = categorize_files(files)
+
+        for category_name, category_files in categories.items():
+            if not category_files:
+                continue
+
+            for f in category_files:
+                # Stage only this file
+                success, _ = run_git_command(["add", f])
+                if not success:
+                    print(f"Failed to stage file {f} for {group_name} - {category_name}. Skipping commit.")
+                    continue
+
+                # Generate commit message for this file
+                commit_message = generate_commit_message(group_name, category_name, [f])
+
+                # Commit only this file
+                success, _ = run_git_command(["commit", "-m", commit_message])
+                if not success:
+                    print(f"Failed to commit file {f} for {group_name} - {category_name}. Skipping push.")
+                    continue
+
+                # Get the latest commit hash for this commit
+                success_hash, commit_hash = run_git_command(["rev-parse", "HEAD"])
+                if not success_hash:
+                    print(f"Failed to get commit hash for file {f} in {group_name} - {category_name}.")
+                    continue
+
+                # Update the commit-task database with detailed info
+                update_commit_task_database(commit_hash, group_name, f, commit_message)
+
+                # Push the commit
+                success, _ = run_git_command(["push"])
+                if not success:
+                    print(f"Failed to push commit for file {f} in {group_name} - {category_name}.")
+                    continue
+
+                print(f"Committed and pushed changes for file: {f} in group: {group_name} - {category_name}")
+
+    # After all commits and pushes, write commit progress to JSON
+    write_commit_progress_to_json()
+
 if __name__ == "__main__":
     auto_commit_and_push()
