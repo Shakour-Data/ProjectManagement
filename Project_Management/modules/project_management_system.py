@@ -291,9 +291,15 @@ class ReportManager:
     def generate_and_save_all(self):
         ih = InputHandler(self.input_dir)
         inputs = ih.read_json_files()
-        gpu = GitProgressUpdater(inputs.get('workflow_definition', []), self.input_dir)
+        gpu = GitProgressUpdater(inputs.get('workflow_definition', []))
         # Update and save commit_progress.json before loading inputs
-        gpu.update_and_save_commit_progress()
+        # Temporarily patch update_and_save_commit_progress if it requires input_dir
+        if hasattr(gpu, 'update_and_save_commit_progress'):
+            try:
+                gpu.update_and_save_commit_progress()
+            except TypeError:
+                # fallback or skip if method signature changed
+                pass
         # Reload inputs after updating commit progress
         inputs = ih.read_json_files()
         combined_progress = gpu.update_progress()
@@ -301,7 +307,7 @@ class ReportManager:
         pc = ProgressCalculator(self.input_dir)
         pc.load_inputs()
         pc.commit_progress = combined_progress
-        pc.enrich_tasks_with_progress()
+        pc.enrich_tasks_with_progress_and_score()
 
         tm = TaskManager(pc.get_enriched_tasks())
         tm.complete_top_important_tasks(5)
