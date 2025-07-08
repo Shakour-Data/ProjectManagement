@@ -1,0 +1,20 @@
+Project Management System - Real Test Checklist for project_test/ folder
+
+- [x] Load all JSON input files from PM_Input folder
+- [x] Parse and validate WBS data (wbs_data.json, detailed_wbs.json)
+- [x] Load and validate human resources data (human_resources.json)
+- [x] Load and validate resource allocation data (resource_allocation.json, task_resource_allocation.json)
+- [x] Load and validate workflow definition (workflow_definition.json)
+- [x] Load commit progress data (commit_progress.json)
+- [x] Run git progress updater to extract commit history and map to tasks
+- [x] Calculate combined progress from commit and workflow data
+- [x] Enrich tasks with progress, importance, and urgency scores
+- [x] Complete top important tasks simulation
+- [x] Generate progress report dashboard markdown
+- [x] Generate task priority and urgency report markdown
+- [x] Save dashboards to project_test/reports/dashboards/ with timestamped filenames
+- [x] Save reports to project_test/reports/reports/ with timestamped filenames
+- [x] Verify no errors or exceptions during test run
+- [x] Confirm all expected outputs are generated and saved correctly
+
+This checklist confirms a full real test run of the project management system using the project_test/ folder inputs and outputs.

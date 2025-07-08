@@ -1,0 +1,56 @@
+[
+  {
+    "resource_id": "HR001",
+    "task_id": "1",
+    "allocation_percent": 100,
+    "role_in_task": "Project Manager"
+  },
+  {
+    "resource_id": "HR002",
+    "task_id": "1.2",
+    "allocation_percent": 100,
+    "role_in_task": "Developer"
+  },
+  {
+    "resource_id": "HR003",
+    "task_id": "1.1",
+    "allocation_percent": 100,
+    "role_in_task": "QA Engineer"
+  },
+  {
+    "resource_id": "HR004",
+    "task_id": "1.3",
+    "allocation_percent": 100,
+    "role_in_task": "Business Analyst"
+  },
+  {
+    "resource_id": "HR005",
+    "task_id": "1.1",
+    "allocation_percent": 100,
+    "role_in_task": "UI/UX Designer"
+  },
+  {
+    "resource_id": "HR006",
+    "task_id": "1.3",
+    "allocation_percent": 100,
+    "role_in_task": "DevOps Engineer"
+  },
+  {
+    "resource_id": "HR007",
+    "task_id": "4",
+    "allocation_percent": 100,
+    "role_in_task": "Technical Writer"
+  },
+  {
+    "resource_id": "HR008",
+    "task_id": "3.5",
+    "allocation_percent": 100,
+    "role_in_task": "Support Engineer"
+  },
+  {
+    "resource_id": "HR009",
+    "task_id": "2",
+    "allocation_percent": 100,
+    "role_in_task": "Developer"
+  }
+]
