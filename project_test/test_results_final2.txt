@@ -1,0 +1,12 @@
+test_generate_and_save_all (project_test.test_project_management_system.TestProjectManagementSystem.test_generate_and_save_all) ... ok
+test_git_progress_updater (project_test.test_project_management_system.TestProjectManagementSystem.test_git_progress_updater) ... ok
+test_load_inputs (project_test.test_project_management_system.TestProjectManagementSystem.test_load_inputs) ... ok
+test_progress_calculation (project_test.test_project_management_system.TestProjectManagementSystem.test_progress_calculation) ... ok
+test_report_generation (project_test.test_project_management_system.TestProjectManagementSystem.test_report_generation) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.025s
+
+OK
+Dashboard saved: project_test/reports/dashboards/progress_report_dashboard_20250708_091730.md
+Dashboard saved: project_test/reports/dashboards/task_priority_urgency_report_20250708_091730.md
