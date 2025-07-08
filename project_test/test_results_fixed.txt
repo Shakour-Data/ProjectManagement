@@ -1,0 +1,40 @@
+test_generate_and_save_all (project_test.test_project_management_system.TestProjectManagementSystem.test_generate_and_save_all) ... ERROR
+test_git_progress_updater (project_test.test_project_management_system.TestProjectManagementSystem.test_git_progress_updater) ... ERROR
+test_load_inputs (project_test.test_project_management_system.TestProjectManagementSystem.test_load_inputs) ... FAIL
+test_progress_calculation (project_test.test_project_management_system.TestProjectManagementSystem.test_progress_calculation) ... ok
+test_report_generation (project_test.test_project_management_system.TestProjectManagementSystem.test_report_generation) ... ok
+
+======================================================================
+ERROR: test_generate_and_save_all (project_test.test_project_management_system.TestProjectManagementSystem.test_generate_and_save_all)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/ProjectManagement/project_test/test_project_management_system.py", line 50, in test_generate_and_save_all
+    self.report_manager.generate_and_save_all()
+  File "/workspaces/ProjectManagement/Project_Management/modules/project_management_system.py", line 294, in generate_and_save_all
+    gpu = GitProgressUpdater(inputs.get('workflow_definition', []), self.input_dir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: GitProgressUpdater.__init__() takes 2 positional arguments but 3 were given
+
+======================================================================
+ERROR: test_git_progress_updater (project_test.test_project_management_system.TestProjectManagementSystem.test_git_progress_updater)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/ProjectManagement/project_test/test_project_management_system.py", line 26, in test_git_progress_updater
+    gpu = GitProgressUpdater(workflow_definition=[], input_dir=self.input_dir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: GitProgressUpdater.__init__() got an unexpected keyword argument 'input_dir'
+
+======================================================================
+FAIL: test_load_inputs (project_test.test_project_management_system.TestProjectManagementSystem.test_load_inputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/ProjectManagement/project_test/test_project_management_system.py", line 23, in test_load_inputs
+    self.assertIn('commit_progress.json', files)
+AssertionError: 'commit_progress.json' not found in ['wbs_data.json', 'human_resources.json', 'task_resource_allocation.json', 'resource_allocation.json', 'workflow_definition.json', 'detailed_wbs.json', 'wbs_scores.json']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+FAILED (failures=1, errors=2)
+Error loading commit_progress.json: [Errno 2] No such file or directory: 'project_test/PM_Input/commit_progress.json'
+Error loading commit_progress.json: [Errno 2] No such file or directory: 'project_test/PM_Input/commit_progress.json'
