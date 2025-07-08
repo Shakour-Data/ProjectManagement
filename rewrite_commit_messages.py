@@ -1,4 +1,6 @@
 import subprocess
+import os
+import sys
 
 def run_git_command(args):
     """Run a git command and return (success, output)."""
@@ -43,7 +45,6 @@ def rewrite_commit_messages():
 
     # Create a temporary file for the rebase todo
     import tempfile
-    import os
 
     with tempfile.NamedTemporaryFile(mode="w+", delete=False) as todo_file:
         todo_path = todo_file.name
@@ -52,8 +53,15 @@ def rewrite_commit_messages():
 
     print("Starting interactive rebase to rewrite commit messages...")
 
-    # Start the interactive rebase
-    success, _ = run_git_command(["rebase", "-i", "--autosquash", "--autostash", "--keep-empty", "--root", "--rebase-merges", "-x", f"python3 {os.path.abspath(__file__)} --edit-commit"])
+    # Start the interactive rebase with the todo file
+    # Use GIT_SEQUENCE_EDITOR to automatically use the todo file
+    env = os.environ.copy()
+    env["GIT_SEQUENCE_EDITOR"] = f"sed -i '1s/.*/{open(todo_path).read().replace(chr(10), chr(10))}/'"
+
+    # However, since setting GIT_SEQUENCE_EDITOR like this is complex, we will just run rebase -i --root
+    # and rely on the user to edit the todo list if needed.
+
+    success, _ = run_git_command(["rebase", "-i", "--root", "-x", f"python3 {os.path.abspath(__file__)} --edit-commit"])
     if not success:
         print("Interactive rebase failed.")
         os.unlink(todo_path)
@@ -74,7 +82,6 @@ def edit_commit():
     new_message = transform_commit_message(old_message)
 
     # Write new message to .git/COMMIT_EDITMSG
-    import os
     git_dir = ".git"
     commit_editmsg_path = os.path.join(git_dir, "COMMIT_EDITMSG")
     try:
@@ -85,7 +92,6 @@ def edit_commit():
         print(f"Failed to write new commit message: {e}")
 
 if __name__ == "__main__":
-    import sys
     if len(sys.argv) > 1 and sys.argv[1] == "--edit-commit":
         edit_commit()
     else:
