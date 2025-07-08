@@ -1,0 +1,21 @@
+test_generate_and_save_all (project_test.test_project_management_system.TestProjectManagementSystem.test_generate_and_save_all) ... ERROR
+test_git_progress_updater (project_test.test_project_management_system.TestProjectManagementSystem.test_git_progress_updater) ... ok
+test_load_inputs (project_test.test_project_management_system.TestProjectManagementSystem.test_load_inputs) ... ok
+test_progress_calculation (project_test.test_project_management_system.TestProjectManagementSystem.test_progress_calculation) ... ok
+test_report_generation (project_test.test_project_management_system.TestProjectManagementSystem.test_report_generation) ... ok
+
+======================================================================
+ERROR: test_generate_and_save_all (project_test.test_project_management_system.TestProjectManagementSystem.test_generate_and_save_all)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/ProjectManagement/project_test/test_project_management_system.py", line 57, in test_generate_and_save_all
+    self.report_manager.generate_and_save_all()
+  File "/workspaces/ProjectManagement/Project_Management/modules/project_management_system.py", line 310, in generate_and_save_all
+    pc.enrich_tasks_with_progress()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProgressCalculator' object has no attribute 'enrich_tasks_with_progress'. Did you mean: 'enrich_tasks_with_progress_and_score'?
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+FAILED (errors=1)
