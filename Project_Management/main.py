@@ -1,6 +1,8 @@
 from modules.input_handler import InputHandler
+from modules.setup_automation import SetupAutomation
 
 input_handler = InputHandler()
+setup_automation = SetupAutomation()
 
 def install():
     """
@@ -17,6 +19,16 @@ def start(input_dir=None):
     """
     if input_dir:
         input_handler.set_input_dir(input_dir)
+
+    # Example of automated initial setup question responses
+    print("Automated Setup Responses:")
+    questions = [
+        "What is the git flow used in this project?",
+        "What naming conventions should be followed?"
+    ]
+    for q in questions:
+        answer = setup_automation.get_standard_response(q)
+        print(f"Q: {q}\nA: {answer}\n")
 
     inputs = input_handler.read_json_files()
     if inputs is None:
