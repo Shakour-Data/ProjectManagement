@@ -1,0 +1,20 @@
+test_git_progress_updater_empty_log (project_test.test_thorough_project_management.TestThoroughProjectManagement.test_git_progress_updater_empty_log) ... ok
+test_malformed_json (project_test.test_thorough_project_management.TestThoroughProjectManagement.test_malformed_json) ... ok
+test_missing_input_files (project_test.test_thorough_project_management.TestThoroughProjectManagement.test_missing_input_files) ... ok
+test_report_manager_generate_and_save_all (project_test.test_thorough_project_management.TestThoroughProjectManagement.test_report_manager_generate_and_save_all) ... FAIL
+test_task_manager_complete_top_important_tasks (project_test.test_thorough_project_management.TestThoroughProjectManagement.test_task_manager_complete_top_important_tasks) ... ok
+
+======================================================================
+FAIL: test_report_manager_generate_and_save_all (project_test.test_thorough_project_management.TestThoroughProjectManagement.test_report_manager_generate_and_save_all)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspaces/ProjectManagement/project_test/test_thorough_project_management.py", line 68, in test_report_manager_generate_and_save_all
+    self.assertTrue(mock_save_report.called)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.041s
+
+FAILED (failures=1)
+No git log data available.
+Failed to read bad.json: Expecting property name enclosed in double quotes: line 1 column 19 (char 18)
