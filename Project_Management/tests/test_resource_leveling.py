@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from src.resource_leveling import ResourceLeveler
+from modules.resource_leveling import ResourceLeveler
 
 class TestResourceLeveler(unittest.TestCase):
     """
