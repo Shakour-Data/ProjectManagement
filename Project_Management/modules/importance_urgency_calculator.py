@@ -67,6 +67,10 @@ def save_scores_to_json(scores, filepath):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(scores, f, indent=2, ensure_ascii=False)
 
+def save_scores_to_json(scores, filepath):
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(scores, f, indent=2, ensure_ascii=False)
+
 if __name__ == "__main__":
     # Example usage
     wbs_file = os.path.join(os.path.dirname(__file__), '../docs/db_json/detailed_wbs.json')
