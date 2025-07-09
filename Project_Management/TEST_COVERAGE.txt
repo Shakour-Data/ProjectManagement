@@ -1,0 +1,52 @@
+# Test Coverage Tracking for Project Management Tool
+
+## Overview
+This file tracks the testing status of various modules and features in the project. It is updated after each test run to reflect which tests have been executed and which remain pending.
+
+---
+
+## Main Project Tests
+
+### Task Management Module
+- [x] WBS generation
+- [x] Urgency and importance calculation and propagation
+- [x] Task prioritization and scheduling
+- [x] Task assignment
+- [ ] Integration with GitHub issues (pending)
+
+### GitHub Integration Module
+- [x] Get issues
+- [x] Create issue
+- [x] Update issue
+- [ ] Close issue (pending)
+- [ ] Project board synchronization (pending)
+- [ ] Pull request linking (pending)
+- [ ] Wiki update (pending)
+
+---
+
+## Current Project Tests
+
+### Progress Reporting
+- [x] Dynamic progress report generation including urgency and importance
+- [x] Dashboard updates with task-level urgency and importance
+- [x] Comprehensive Excel report generation
+- [x] Two-level progress summary table generation
+- [x] Urgent tasks grouping by hierarchical levels
+- [x] Eisenhower matrix categorization
+
+### Setup and Initialization
+- [x] Virtual environment creation and dependency installation
+- [x] Configuration setup and secure GitHub token storage
+
+---
+
+## General
+- [ ] Cross-project compatibility testing (pending)
+- [ ] Test coverage tracking integration into project reports (pending)
+
+---
+
+## Notes
+- This file should be updated after each test run.
+- Test results and coverage should be reflected in project management reports and dashboards.
