@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from src.github_integration import GitHubIntegration
+from modules.github_integration import GitHubIntegration
 
 class TestGitHubIntegration(unittest.TestCase):
     def setUp(self):
@@ -8,7 +8,7 @@ class TestGitHubIntegration(unittest.TestCase):
         self.repo = "user/repo"
         self.github = GitHubIntegration(token=self.token, repo=self.repo)
 
-    @patch('src.github_integration.os.getenv', return_value=None)
+    @patch('modules.github_integration.os.getenv', return_value=None)
     def test_init_without_token_raises(self, mock_getenv):
         with self.assertRaises(ValueError):
             GitHubIntegration(token=None, repo=self.repo)
@@ -17,7 +17,7 @@ class TestGitHubIntegration(unittest.TestCase):
         with self.assertRaises(ValueError):
             GitHubIntegration(token=self.token, repo=None)
 
-    @patch('src.github_integration.requests.get')
+    @patch('modules.github_integration.requests.get')
     def test_get_issues_success(self, mock_get):
         mock_response = MagicMock()
         mock_response.raise_for_status = MagicMock()
@@ -29,7 +29,7 @@ class TestGitHubIntegration(unittest.TestCase):
         self.assertEqual(issues[0]['title'], "Issue 1")
         mock_get.assert_called_once()
 
-    @patch('src.github_integration.requests.get')
+    @patch('modules.github_integration.requests.get')
     def test_get_issues_http_error(self, mock_get):
         mock_response = MagicMock()
         mock_response.raise_for_status.side_effect = Exception("HTTP Error")
