@@ -1,6 +1,6 @@
 import unittest
 import datetime
-from src.task_management import TaskManagement, Task
+from modules.task_management import TaskManagement, Task
 
 class TestTaskManagement(unittest.TestCase):
     def setUp(self):
