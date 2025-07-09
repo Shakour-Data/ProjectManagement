@@ -1,1 +1,1 @@
-# This file makes the modules directory a package
+# auto_project_manager package initialization
