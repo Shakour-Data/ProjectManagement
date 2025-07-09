@@ -2284,5 +2284,278 @@
         "parent_commits": [
             "0d31573c6a35b8557efdefb384aa5fe671e0ce40"
         ]
+    },
+    "94bf3f0edae4b550d8172bee413fb5adc157a10c": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:19:48):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 9cafd32..129ab15 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2154,5 +2154,135 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:48",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:48 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "e630697c15467d64296220c67412a628c0707204"
+        ]
+    },
+    "29db6284ddc70ae9b88202f1f5cb61da1f7b5b72": {
+        "task_id": "docs",
+        "file_path": "docs/README.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:49):\\n- docs/README.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/README.md b/docs/README.md\\n    deleted file mode 100644\\n    index 3f67d2f..0000000\\n    --- a/docs/README.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:49",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:49 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "94bf3f0edae4b550d8172bee413fb5adc157a10c"
+        ]
+    },
+    "45bd905c6b176c2d7d31ac532aab9c89f7966f99": {
+        "task_id": "docs",
+        "file_path": "docs/dashboards_reports.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:50):\\n- docs/dashboards_reports.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/dashboards_reports.md b/docs/dashboards_reports.md\\n    deleted file mode 100644\\n    index 45ca3f0..0000000\\n    --- a/docs/dashboards_reports.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:51",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:50 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "29db6284ddc70ae9b88202f1f5cb61da1f7b5b72"
+        ]
+    },
+    "e7bb5f8ab1c92d5f942dd87fd5502b4507d210ba": {
+        "task_id": "docs",
+        "file_path": "docs/final_product_description.txt",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:52):\\n- docs/final_product_description.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/final_product_description.txt b/docs/final_product_description.txt\\n    deleted file mode 100644\\n    index 58ada89..0000000\\n    --- a/docs/final_product_description.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:52",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:52 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "45bd905c6b176c2d7d31ac532aab9c89f7966f99"
+        ]
+    },
+    "0b5c75ddfd2b729d55918ed9c28664d8dc5707a5": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:53):\\n- docs/general_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions.md b/docs/general_instructions.md\\n    deleted file mode 100644\\n    index b637e1b..0000000\\n    --- a/docs/general_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:54",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:53 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "e7bb5f8ab1c92d5f942dd87fd5502b4507d210ba"
+        ]
+    },
+    "fdff8b7f4b8b9627b6536059a509983a9b5c012a": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:55):\\n- docs/general_instructions_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions_fa.md b/docs/general_instructions_fa.md\\n    deleted file mode 100644\\n    index 99aa96b..0000000\\n    --- a/docs/general_instructions_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:55",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:55 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "0b5c75ddfd2b729d55918ed9c28664d8dc5707a5"
+        ]
+    },
+    "2624cf98c91b153686358ac9688e8e10b1fec363": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions_stepwise.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:56):\\n- docs/general_instructions_stepwise.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions_stepwise.md b/docs/general_instructions_stepwise.md\\n    deleted file mode 100644\\n    index 27008aa..0000000\\n    --- a/docs/general_instructions_stepwise.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:56",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:56 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "fdff8b7f4b8b9627b6536059a509983a9b5c012a"
+        ]
+    },
+    "8e2732cc79885dcc52a595575d6842d22c34e8e9": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions_stepwise_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:57):\\n- docs/general_instructions_stepwise_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions_stepwise_fa.md b/docs/general_instructions_stepwise_fa.md\\n    deleted file mode 100644\\n    index 56d51c8..0000000\\n    --- a/docs/general_instructions_stepwise_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:58",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:57 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "2624cf98c91b153686358ac9688e8e10b1fec363"
+        ]
+    },
+    "012548ceaef9313ccf59cdafbb19d415d3c4493b": {
+        "task_id": "docs",
+        "file_path": "docs/implementation_plan.txt",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:19:59):\\n- docs/implementation_plan.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/implementation_plan.txt b/docs/implementation_plan.txt\\n    deleted file mode 100644\\n    index 876b2e4..0000000\\n    --- a/docs/implementation_plan.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:19:59",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:19:59 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "8e2732cc79885dcc52a595575d6842d22c34e8e9"
+        ]
+    },
+    "98e9fc8f64d4107594625e03640d19523bd53929": {
+        "task_id": "docs",
+        "file_path": "docs/json_resource_to_db_table_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:00):\\n- docs/json_resource_to_db_table_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_resource_to_db_table_instructions.md b/docs/json_resource_to_db_table_instructions.md\\n    deleted file mode 100644\\n    index b5fa70c..0000000\\n    --- a/docs/json_resource_to_db_table_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:01",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:00 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "012548ceaef9313ccf59cdafbb19d415d3c4493b"
+        ]
+    },
+    "31c95cff837001daf648097769a690d0f91dced1": {
+        "task_id": "docs",
+        "file_path": "docs/json_to_database_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:02):\\n- docs/json_to_database_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_to_database_instructions.md b/docs/json_to_database_instructions.md\\n    deleted file mode 100644\\n    index b5b5700..0000000\\n    --- a/docs/json_to_database_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:02",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:02 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "98e9fc8f64d4107594625e03640d19523bd53929"
+        ]
+    },
+    "32cb0b9babe9cdb9996c8bb36fe4cc76cffdd438": {
+        "task_id": "docs",
+        "file_path": "docs/progress_calculation_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:03):\\n- docs/progress_calculation_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/progress_calculation_instructions.md b/docs/progress_calculation_instructions.md\\n    deleted file mode 100644\\n    index 8dcbe5a..0000000\\n    --- a/docs/progress_calculation_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:04",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:03 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "31c95cff837001daf648097769a690d0f91dced1"
+        ]
+    },
+    "c4bb79cfa9eb52ea518fd15ca76ab7238f440890": {
+        "task_id": "docs",
+        "file_path": "docs/project_features.txt",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:05):\\n- docs/project_features.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_features.txt b/docs/project_features.txt\\n    deleted file mode 100644\\n    index 823b0e9..0000000\\n    --- a/docs/project_features.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:05",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:05 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "32cb0b9babe9cdb9996c8bb36fe4cc76cffdd438"
+        ]
+    },
+    "201921bf5cab4a087ccb1eca7fc232277c836850": {
+        "task_id": "docs",
+        "file_path": "docs/project_management_overview.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:06):\\n- docs/project_management_overview.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management_overview.md b/docs/project_management_overview.md\\n    deleted file mode 100644\\n    index 54abf93..0000000\\n    --- a/docs/project_management_overview.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:07",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:06 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "c4bb79cfa9eb52ea518fd15ca76ab7238f440890"
+        ]
+    },
+    "0532f29118e3fdd947b4de9105c4b6bbba928092": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:08):\\n- docs/reports/progress_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/progress_report.md b/docs/reports/progress_report.md\\n    deleted file mode 100644\\n    index 6bcd1c6..0000000\\n    --- a/docs/reports/progress_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:08",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:08 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "201921bf5cab4a087ccb1eca7fc232277c836850"
+        ]
+    },
+    "5a60a614b0dee4a675899ddc5ab7d4b84e55379b": {
+        "task_id": "docs",
+        "file_path": "docs/resource_allocation_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:09):\\n- docs/resource_allocation_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/resource_allocation_instructions.md b/docs/resource_allocation_instructions.md\\n    deleted file mode 100644\\n    index 80a1a7a..0000000\\n    --- a/docs/resource_allocation_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:09",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:09 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "0532f29118e3fdd947b4de9105c4b6bbba928092"
+        ]
+    },
+    "3ced7fca81e85cd0e39ba21e407f7a5427161602": {
+        "task_id": "docs",
+        "file_path": "docs/resource_files_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:10):\\n- docs/resource_files_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/resource_files_instructions.md b/docs/resource_files_instructions.md\\n    deleted file mode 100644\\n    index 4bf3498..0000000\\n    --- a/docs/resource_files_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:11",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:10 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "5a60a614b0dee4a675899ddc5ab7d4b84e55379b"
+        ]
+    },
+    "7ae7456e3c0be0a0ab058bcd1f153dbf78978679": {
+        "task_id": "docs",
+        "file_path": "docs/wbs_documentation.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:12):\\n- docs/wbs_documentation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/wbs_documentation.md b/docs/wbs_documentation.md\\n    deleted file mode 100644\\n    index b87258d..0000000\\n    --- a/docs/wbs_documentation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:12",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:12 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "3ced7fca81e85cd0e39ba21e407f7a5427161602"
+        ]
+    },
+    "406863c28f9934a815f6d5dd30228be03502293a": {
+        "task_id": "docs",
+        "file_path": "docs/wbs_to_json_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:20:13):\\n- docs/wbs_to_json_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/wbs_to_json_instructions.md b/docs/wbs_to_json_instructions.md\\n    deleted file mode 100644\\n    index f1fa67d..0000000\\n    --- a/docs/wbs_to_json_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:13",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:13 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "7ae7456e3c0be0a0ab058bcd1f153dbf78978679"
+        ]
+    },
+    "503849e0f9c4753bcd50efed99280615ff56823f": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/",
+        "commit_message": "📝 docs(general_docs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:20:14):\\n- general_docs/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/general_docs/README.md b/general_docs/README.md\\n    new file mode 100644\\n    index 0000000..3f67d2f\\n    --- /dev/null\\n    +++ b/general_docs/README.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:20:15",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:20:14 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "406863c28f9934a815f6d5dd30228be03502293a"
+        ]
+    },
+    "5b2ea4dd434ec0804cd817fdf62dbcd6a7f056e4": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:29:02):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index 9ddecce..fe10713 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,4 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-09 08:29:02",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Wed Jul 9 08:29:02 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "503849e0f9c4753bcd50efed99280615ff56823f"
+        ]
     }
 }
