@@ -1,0 +1,27 @@
+# Implementation Plan for Project Management Tool
+
+## Current Tasks
+- Implement virtual environment exclusion in .gitignore and setup scripts.
+- Create prioritized task execution and reporting.
+- Develop and run tests for setup, GitHub integration, progress reporting, and importance/urgency reports.
+- Automate project management report updates after each commit operation.
+
+## New Task to Add
+- Integrate automatic update of project management reports (progress report and importance/urgency report) after every commit operation in the main project workflow.
+- Extend CLI commands or relevant modules to support commit operations and trigger report updates.
+- Ensure this integration is documented and tested to avoid being forgotten.
+
+- Implement dynamic task prioritization and filtering logic in the main task management module, allowing user-configurable numbers of tasks to be reported (default to 15 important not in testing, 15 urgent not in testing, 10 important in testing, 10 urgent in testing).
+- Ensure this dynamic prioritization is integrated consistently across the project and exposed for user configuration.
+
+## Notes
+- This task is critical to maintain up-to-date project status and task prioritization.
+- Coordination with auto_commit.py and CLI command handling is required.
+- User requested to add this task explicitly to the implementation plan to avoid forgetting it.
+
+- Update task management logic to calculate importance and urgency scores between 1 and 100 based on weighted factors reflecting project management criteria.
+- Implement Eisenhower matrix classification of tasks based on importance and urgency thresholds.
+- Prioritize tasks using combined weighted scores of importance and urgency.
+- Ensure dynamic recalculation of these values after each commit.
+- Update progress and importance/urgency reports to reflect these calculations, listing 15 important, 15 urgent, 10 important in testing, and 10 urgent in testing tasks.
+- Integrate these changes into the main project codebase and CLI commands for seamless operation.
