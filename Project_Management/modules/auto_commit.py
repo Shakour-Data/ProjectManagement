@@ -298,8 +298,8 @@ import json
 import hashlib
 import time
 
-def update_commit_task_database(commit_hash, task_id, file_path, commit_message, db_path="Project_Management/PM_Input/commit_task_database.json"):
-    """Update the JSON database mapping commits to tasks with detailed info including metadata."""
+def update_commit_task_database(commit_hash, task_id, file_path, commit_message, workflow_stage=None, progress_change=0.0, importance_change=0, priority_change=0, db_path="Project_Management/PM_Input/commit_task_database.json"):
+    """Update the JSON database mapping commits to tasks with detailed info including metadata and progress/importance/priority changes."""
     try:
         with open(db_path, "r", encoding="utf-8") as f:
             db = json.load(f)
@@ -325,6 +325,10 @@ def update_commit_task_database(commit_hash, task_id, file_path, commit_message,
         "task_id": task_id,
         "file_path": file_path,
         "commit_message": commit_message,
+        "workflow_stage": workflow_stage if workflow_stage else "",
+        "progress_change": round(progress_change, 3),
+        "importance_change": importance_change,
+        "priority_change": priority_change,
         "timestamp": timestamp,
         "author": author if success_author else "",
         "email": email if success_email else "",
@@ -336,8 +340,136 @@ def update_commit_task_database(commit_hash, task_id, file_path, commit_message,
     with open(db_path, "w", encoding="utf-8") as f:
         json.dump(db, f, indent=4, ensure_ascii=False)
 
+def map_group_to_workflow_stage(group_name):
+    """Map a group name or file path to a workflow stage based on predefined rules."""
+    # Example mapping - this should be customized based on project specifics
+    mapping = {
+        "requirements": "Requirements Gathering",
+        "design": "Design",
+        "implementation": "Implementation",
+        "code_review": "Code Review",
+        "testing": "Testing",
+        "deployment": "Deployment",
+        "maintenance": "Maintenance"
+    }
+    # Lowercase group_name for matching
+    key = group_name.lower()
+    return mapping.get(key, "Implementation")  # Default to Implementation if unknown
+
+def calculate_progress_change(workflow_stage, total_commits_in_stage):
+    """Calculate progress change per commit capped at 5%."""
+    # Workflow stage weights from workflow_definition_detailed.md
+    stage_weights = {
+        "Requirements Gathering": 0.15,
+        "Design": 0.15,
+        "Implementation": 0.30,
+        "Code Review": 0.10,
+        "Testing": 0.15,
+        "Deployment": 0.10,
+        "Maintenance": 0.05
+    }
+    weight = stage_weights.get(workflow_stage, 0.0)
+    if total_commits_in_stage <= 0:
+        return 0.0
+    progress_per_commit = weight / total_commits_in_stage
+    # Cap progress change at 0.05 (5%)
+    return min(progress_per_commit, 0.05)
+
+def calculate_importance(task_id, workflow_stage, dependencies, progress, delays):
+    """
+    Calculate importance based on task criticality, dependencies, workflow stage weight,
+    progress, and delays.
+    """
+    # Base importance from workflow stage weight
+    stage_weights = {
+        "Requirements Gathering": 0.15,
+        "Design": 0.15,
+        "Implementation": 0.30,
+        "Code Review": 0.10,
+        "Testing": 0.15,
+        "Deployment": 0.10,
+        "Maintenance": 0.05
+    }
+    base_importance = stage_weights.get(workflow_stage, 0.1)
+
+    # Increase importance if task has many dependencies
+    dependency_factor = min(len(dependencies) * 0.05, 0.3)
+
+    # Decrease importance as progress increases
+    progress_factor = max(0, 1 - progress)
+
+    # Increase importance if there are delays
+    delay_factor = min(delays * 0.1, 0.3)
+
+    importance = base_importance + dependency_factor + progress_factor + delay_factor
+    # Normalize importance to 0-1 scale
+    importance = min(max(importance, 0), 1)
+    return round(importance, 3)
+
+def calculate_urgency(deadline, current_time, delays, progress):
+    """
+    Calculate urgency based on remaining time to deadline, delays, and progress.
+    """
+    import datetime
+
+    if not deadline:
+        return 0.0
+
+    # Calculate remaining time in days
+    remaining_time = (deadline - current_time).total_seconds() / (3600 * 24)
+
+    # If deadline passed, urgency is max
+    if remaining_time < 0:
+        return 1.0
+
+    # Normalize remaining time to a scale (e.g., 30 days max)
+    max_days = 30
+    time_factor = max(0, min(1, (max_days - remaining_time) / max_days))
+
+    # Increase urgency with delays and low progress
+    delay_factor = min(delays * 0.1, 0.5)
+    progress_factor = max(0, 1 - progress)
+
+    urgency = time_factor + delay_factor + progress_factor
+    # Normalize urgency to 0-1 scale
+    urgency = min(max(urgency, 0), 1)
+    return round(urgency, 3)
+
+import json
+import datetime
+import os
+
+def load_linked_wbs_resources(filepath="Project_Management/PM_JSON/intermediate/linked_wbs_resources.json"):
+    if not os.path.exists(filepath):
+        print(f"Linked WBS resources file not found: {filepath}")
+        return []
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def find_task_by_file_path(linked_wbs, file_path):
+    """
+    Find the task in linked Wbs resources that corresponds to the given file path.
+    This is a placeholder function and should be customized based on actual file-task mapping.
+    """
+    # Example: match file_path containing task id
+    for task in linked_wbs:
+        found = search_task_recursive(task, file_path)
+        if found:
+            return found
+    return None
+
+def search_task_recursive(task, file_path):
+    if task.get("id") and task.get("id") in file_path:
+        return task
+    for subtask in task.get("subtasks", []):
+        found = search_task_recursive(subtask, file_path)
+        if found:
+            return found
+    return None
+
 def auto_commit_and_push():
     """Automate Git commit and push process for each changed file separately."""
+    linked_wbs = load_linked_wbs_resources()
     changes = get_git_changes()
     if not changes or (len(changes) == 1 and changes[0] == ''):
         print("No changes detected.")
@@ -347,6 +479,11 @@ def auto_commit_and_push():
 
     for group_name, files in grouped_files.items():
         categories = categorize_files(files)
+
+        # Count total commits in this group for progress calculation
+        total_commits_in_group = sum(len(files) for files in categories.values())
+
+        workflow_stage = map_group_to_workflow_stage(group_name)
 
         for category_name, category_files in categories.items():
             if not category_files:
@@ -374,8 +511,45 @@ def auto_commit_and_push():
                     print(f"Failed to get commit hash for file {f} in {group_name} - {category_name}.")
                     continue
 
-                # Update the commit-task database with detailed info
-                update_commit_task_database(commit_hash, group_name, f, commit_message)
+                # Calculate progress change capped at 5%
+                progress_change = calculate_progress_change(workflow_stage, total_commits_in_group)
+
+                # Retrieve task data from linked WBS resources
+                task = find_task_by_file_path(linked_wbs, f)
+                if task:
+                    dependencies = task.get("predecessors", [])
+                    # Placeholder for progress, delays, deadline - to be implemented
+                    progress = 0.0
+                    delays = 0
+                    deadline_str = None
+                    allocations = task.get("allocations", [])
+                    if allocations:
+                        # Use earliest start and latest end date as deadline range
+                        start_dates = [alloc.get("start_date") for alloc in allocations if alloc.get("start_date")]
+                        end_dates = [alloc.get("end_date") for alloc in allocations if alloc.get("end_date")]
+                        if end_dates:
+                            deadline_str = max(end_dates)
+                    if deadline_str:
+                        try:
+                            deadline = datetime.datetime.strptime(deadline_str, "%Y-%m-%d")
+                        except ValueError:
+                            deadline = None
+                    else:
+                        deadline = None
+                else:
+                    dependencies = []
+                    progress = 0.0
+                    delays = 0
+                    deadline = None
+
+                current_time = datetime.datetime.now()
+
+                # Calculate importance and urgency
+                importance_change = calculate_importance(group_name, workflow_stage, dependencies, progress, delays)
+                priority_change = calculate_urgency(deadline, current_time, delays, progress)
+
+                # Update the commit-task database with detailed info including new fields
+                update_commit_task_database(commit_hash, group_name, f, commit_message, workflow_stage, progress_change, importance_change, priority_change)
 
                 # Push the commit
                 success, _ = run_git_command(["push"])
