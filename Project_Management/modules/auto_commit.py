@@ -306,6 +306,12 @@ def update_commit_task_database(commit_hash, task_id, file_path, commit_message,
     except FileNotFoundError:
         db = {}
 
+    # Ensure the directory exists before writing the file
+    import os
+    dir_path = os.path.dirname(db_path)
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path, exist_ok=True)
+
     # Get additional metadata from git
     success_author, author = run_git_command(["log", "-1", "--pretty=format:%an", commit_hash])
     success_email, email = run_git_command(["log", "-1", "--pretty=format:%ae", commit_hash])
