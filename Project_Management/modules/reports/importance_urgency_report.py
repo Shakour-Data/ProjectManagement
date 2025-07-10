@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from sqlite_db_manager import SQLiteDBManager
+from Project_Management.modules.sqlite_db_manager import SQLiteDBManager
 
 class ImportanceUrgencyReport:
     def __init__(self, db_manager=None, output_path=None):
