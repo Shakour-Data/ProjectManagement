@@ -247,5 +247,481 @@
         "parent_commits": [
             "612a3cb1fe1bf496c63077b15bfe8bf4c420a329"
         ]
+    },
+    "12a63b05c1cfd15669b8191f6fd1f25c6ebf08c1": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:48):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 11860de..52c1541 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -162,5 +162,90 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:49",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:48 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "8c4e43d732c9b8d93ac0b2d1c86f88e595398883"
+        ]
+    },
+    "d3eaf1099b5404c58cefb324ab019331103fb909": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_JSON/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:50):\\n- Project_Management/PM_JSON/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/system_outputs/commit_task_database.json b/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    index b3b0cd9..07b85f2 100644\\n    --- a/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    +++ b/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    @@ -2830,5 +2830,20 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:50",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:50 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "12a63b05c1cfd15669b8191f6fd1f25c6ebf08c1"
+        ]
+    },
+    "04431a1270f4360f3dbbb97346649b9e74662b09": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_JSON/user_inputs/detailed_wbs.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:52):\\n- Project_Management/PM_JSON/user_inputs/detailed_wbs.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/detailed_wbs.json b/Project_Management/PM_JSON/user_inputs/detailed_wbs.json\\n    index 883cabf..ae7b689 100644\\n    --- a/Project_Management/PM_JSON/user_inputs/detailed_wbs.json\\n    +++ b/Project_Management/PM_JSON/user_inputs/detailed_wbs.json\\n    @@ -1,528 +1,7 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:52",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:52 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "d3eaf1099b5404c58cefb324ab019331103fb909"
+        ]
+    },
+    "4fd36be40e7c9eaf4bcfd092bea33eaf29d3f168": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_JSON/user_inputs/task_resource_allocation.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:53):\\n- Project_Management/PM_JSON/user_inputs/task_resource_allocation.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/task_resource_allocation.json b/Project_Management/PM_JSON/user_inputs/task_resource_allocation.json\\n    index 693988a..52f4e5e 100644\\n    --- a/Project_Management/PM_JSON/user_inputs/task_resource_allocation.json\\n    +++ b/Project_Management/PM_JSON/user_inputs/task_resource_allocation.json\\n    @@ -1,101 +1,10 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:54",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:53 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "04431a1270f4360f3dbbb97346649b9e74662b09"
+        ]
+    },
+    "0b69acc3edfb0daa396a197cad2932a5341a8d77": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/modules/progress_report.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:55):\\n- Project_Management/modules/progress_report.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/progress_report.py b/Project_Management/modules/progress_report.py\\n    index fde4cb7..f4489a6 100644\\n    --- a/Project_Management/modules/progress_report.py\\n    +++ b/Project_Management/modules/progress_report.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:55",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:55 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "4fd36be40e7c9eaf4bcfd092bea33eaf29d3f168"
+        ]
+    },
+    "fc60edfb7248cf80412de4c3028aea2a611baff0": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/modules/reports/importance_urgency_report.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:56):\\n- Project_Management/modules/reports/importance_urgency_report.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/reports/importance_urgency_report.py b/Project_Management/modules/reports/importance_urgency_report.py\\n    index fa75f35..2cd2069 100644\\n    --- a/Project_Management/modules/reports/importance_urgency_report.py\\n    +++ b/Project_Management/modules/reports/importance_urgency_report.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:57",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:56 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "0b69acc3edfb0daa396a197cad2932a5341a8d77"
+        ]
+    },
+    "751b81307b8a06686e6952f73a7bdece666b2436": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/TEST_CHECKLIST.md",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:33:58):\\n- Project_Management/tests/TEST_CHECKLIST.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_CHECKLIST.md b/Project_Management/tests/TEST_CHECKLIST.md\\n    index 5be94da..430a4a2 100644\\n    --- a/Project_Management/tests/TEST_CHECKLIST.md\\n    +++ b/Project_Management/tests/TEST_CHECKLIST.md\\n    @@ -1,55 +1,65 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:33:59",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:33:58 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "fc60edfb7248cf80412de4c3028aea2a611baff0"
+        ]
+    },
+    "4f4c664f61707d64b1b3d5a4f3aa3a667ea771ef": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/__init__.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:34:00):\\n- Project_Management/tests/__init__.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/__init__.py b/Project_Management/tests/__init__.py\\n    index 7fcc098..391ff58 100644\\n    --- a/Project_Management/tests/__init__.py\\n    +++ b/Project_Management/tests/__init__.py\\n    @@ -1 +1 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:00",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:00 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "751b81307b8a06686e6952f73a7bdece666b2436"
+        ]
+    },
+    "2bad3e767c054d1dc0aa8eb01e6e78f895788079": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_auto_commit.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:34:02):\\n- Project_Management/tests/test_auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_auto_commit.py b/Project_Management/tests/test_auto_commit.py\\n    index a10a661..1c86969 100644\\n    --- a/Project_Management/tests/test_auto_commit.py\\n    +++ b/Project_Management/tests/test_auto_commit.py\\n    @@ -1,73 +1,49 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:02",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:02 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "4f4c664f61707d64b1b3d5a4f3aa3a667ea771ef"
+        ]
+    },
+    "dbaa032a0c6aa5170f13daeae27fb596c626660b": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_importance_urgency_report.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:34:03):\\n- Project_Management/tests/test_importance_urgency_report.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_importance_urgency_report.py b/Project_Management/tests/test_importance_urgency_report.py\\n    index fe45f40..b4ce339 100644\\n    --- a/Project_Management/tests/test_importance_urgency_report.py\\n    +++ b/Project_Management/tests/test_importance_urgency_report.py\\n    @@ -1,45 +1,31 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:04",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:03 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "2bad3e767c054d1dc0aa8eb01e6e78f895788079"
+        ]
+    },
+    "412074fcbb88e63654ae98f0480942dd3471c019": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_progress_report.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 11:34:05):\\n- Project_Management/tests/test_progress_report.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_progress_report.py b/Project_Management/tests/test_progress_report.py\\n    index 3ce4289..93ddb43 100644\\n    --- a/Project_Management/tests/test_progress_report.py\\n    +++ b/Project_Management/tests/test_progress_report.py\\n    @@ -1,27 +1,34 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:05",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:05 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "dbaa032a0c6aa5170f13daeae27fb596c626660b"
+        ]
+    },
+    "512b9dd2e358eb877efb12c475d566d98f34dfd7": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/TESTING_INSTRUCTIONS.md",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:07):\\n- Project_Management/tests/TESTING_INSTRUCTIONS.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/TESTING_INSTRUCTIONS.md b/Project_Management/tests/TESTING_INSTRUCTIONS.md\\n    deleted file mode 100644\\n    index 505f96d..0000000\\n    --- a/Project_Management/tests/TESTING_INSTRUCTIONS.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:07",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:07 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "412074fcbb88e63654ae98f0480942dd3471c019"
+        ]
+    },
+    "0819f369053798dece6a287132e5bd3d69f18084": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/TEST_COVERAGE.txt",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:08):\\n- Project_Management/tests/TEST_COVERAGE.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_COVERAGE.txt b/Project_Management/tests/TEST_COVERAGE.txt\\n    deleted file mode 100644\\n    index 9e02773..0000000\\n    --- a/Project_Management/tests/TEST_COVERAGE.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:09",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:08 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "512b9dd2e358eb877efb12c475d566d98f34dfd7"
+        ]
+    },
+    "fb3c4bc753acbfab88f70b737430878178b5547b": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/TEST_RESULTS.txt",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:10):\\n- Project_Management/tests/TEST_RESULTS.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_RESULTS.txt b/Project_Management/tests/TEST_RESULTS.txt\\n    deleted file mode 100644\\n    index 1fcf9db..0000000\\n    --- a/Project_Management/tests/TEST_RESULTS.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:10",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:10 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "0819f369053798dece6a287132e5bd3d69f18084"
+        ]
+    },
+    "ad148dd4cc81bb5997db5d99e6a2cf253ee7f01c": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_basic.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:11):\\n- Project_Management/tests/test_basic.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_basic.py b/Project_Management/tests/test_basic.py\\n    deleted file mode 100644\\n    index 31e724b..0000000\\n    --- a/Project_Management/tests/test_basic.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:12",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:11 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "fb3c4bc753acbfab88f70b737430878178b5547b"
+        ]
+    },
+    "a037deac57816f61ee6efefd95b9335e1a8f1297": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_cli_commands.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:13):\\n- Project_Management/tests/test_cli_commands.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_cli_commands.py b/Project_Management/tests/test_cli_commands.py\\n    deleted file mode 100644\\n    index 3fdb0b1..0000000\\n    --- a/Project_Management/tests/test_cli_commands.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:13",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:13 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "ad148dd4cc81bb5997db5d99e6a2cf253ee7f01c"
+        ]
+    },
+    "b2283649955f8432331fbec7167a69d1531fe0d2": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_commit_task_database.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:15):\\n- Project_Management/tests/test_commit_task_database.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_commit_task_database.py b/Project_Management/tests/test_commit_task_database.py\\n    deleted file mode 100644\\n    index 8fcc020..0000000\\n    --- a/Project_Management/tests/test_commit_task_database.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:15",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:15 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "a037deac57816f61ee6efefd95b9335e1a8f1297"
+        ]
+    },
+    "9f5ed81e96f57a2e3d5365d5f4c5a3095d9e6244": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_github_integration.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:16):\\n- Project_Management/tests/test_github_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_github_integration.py b/Project_Management/tests/test_github_integration.py\\n    deleted file mode 100644\\n    index 432dbbe..0000000\\n    --- a/Project_Management/tests/test_github_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:17",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:16 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "b2283649955f8432331fbec7167a69d1531fe0d2"
+        ]
+    },
+    "9a14706e56791895e904c315b89d77bae5a4dd35": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_progress_calculator.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:18):\\n- Project_Management/tests/test_progress_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_progress_calculator.py b/Project_Management/tests/test_progress_calculator.py\\n    deleted file mode 100644\\n    index a470760..0000000\\n    --- a/Project_Management/tests/test_progress_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:18",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:18 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "9f5ed81e96f57a2e3d5365d5f4c5a3095d9e6244"
+        ]
+    },
+    "62a60dfaac814484ff65d750c6cb3f8ec61b6c64": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_project_management_system.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:19):\\n- Project_Management/tests/test_project_management_system.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_project_management_system.py b/Project_Management/tests/test_project_management_system.py\\n    deleted file mode 100644\\n    index f1093ee..0000000\\n    --- a/Project_Management/tests/test_project_management_system.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:20",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:19 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "9a14706e56791895e904c315b89d77bae5a4dd35"
+        ]
+    },
+    "cc566a0383d84df1c3bee9fe7c9ece5373a65b24": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_resource_leveling.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:21):\\n- Project_Management/tests/test_resource_leveling.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_resource_leveling.py b/Project_Management/tests/test_resource_leveling.py\\n    deleted file mode 100644\\n    index f4650c2..0000000\\n    --- a/Project_Management/tests/test_resource_leveling.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:21",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:21 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "62a60dfaac814484ff65d750c6cb3f8ec61b6c64"
+        ]
+    },
+    "48dae4dc6eeeb808efac951999070625716fe111": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_results.xml",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:23):\\n- Project_Management/tests/test_results.xml: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_results.xml b/Project_Management/tests/test_results.xml\\n    deleted file mode 100644\\n    index 861810e..0000000\\n    --- a/Project_Management/tests/test_results.xml\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:23",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:23 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "cc566a0383d84df1c3bee9fe7c9ece5373a65b24"
+        ]
+    },
+    "ef214bdc38d8748b483f2f5a7841a978f435c8cb": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_setup_initialization.py.bak",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:24):\\n- Project_Management/tests/test_setup_initialization.py.bak: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_setup_initialization.py.bak b/Project_Management/tests/test_setup_initialization.py.bak\\n    deleted file mode 100644\\n    index cf4c37c..0000000\\n    --- a/Project_Management/tests/test_setup_initialization.py.bak\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:25",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:24 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "48dae4dc6eeeb808efac951999070625716fe111"
+        ]
+    },
+    "a0ca1a1208b6022ba519853b8c3d223af40b89b1": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_start.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:26):\\n- Project_Management/tests/test_start.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_start.py b/Project_Management/tests/test_start.py\\n    deleted file mode 100644\\n    index 0544bb2..0000000\\n    --- a/Project_Management/tests/test_start.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:26",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:26 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "ef214bdc38d8748b483f2f5a7841a978f435c8cb"
+        ]
+    },
+    "1befa9c226852932cefa2f6f40e92695b4cfca15": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_task_management.py",
+        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-10 11:34:27):\\n- Project_Management/tests/test_task_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_task_management.py b/Project_Management/tests/test_task_management.py\\n    deleted file mode 100644\\n    index 30385e5..0000000\\n    --- a/Project_Management/tests/test_task_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:28",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:27 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "a0ca1a1208b6022ba519853b8c3d223af40b89b1"
+        ]
+    },
+    "9a326e62d7ab7e7ec00baad9c12a60837b3df8a3": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_JSON/intermediate/",
+        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-10 11:34:29):\\n- Project_Management/PM_JSON/intermediate/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/intermediate/linked_wbs_resources.json b/Project_Management/PM_JSON/intermediate/linked_wbs_resources.json\\n    new file mode 100644\\n    index 0000000..5e298a4\\n    --- /dev/null\\n    +++ b/Project_Management/PM_JSON/intermediate/linked_wbs_resources.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:30",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:29 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "1befa9c226852932cefa2f6f40e92695b4cfca15"
+        ]
+    },
+    "0555789d4030adcdff2e66be2598b9a03c432518": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_importance_urgency_calculator.py",
+        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-10 11:34:31):\\n- Project_Management/tests/test_importance_urgency_calculator.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_importance_urgency_calculator.py b/Project_Management/tests/test_importance_urgency_calculator.py\\n    new file mode 100644\\n    index 0000000..a6ee9fa\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_importance_urgency_calculator.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:31",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:31 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "9a326e62d7ab7e7ec00baad9c12a60837b3df8a3"
+        ]
+    },
+    "53e6f0437d656fcb751e41debde1182d01118287": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/tests/test_json_data_linker.py",
+        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-10 11:34:32):\\n- Project_Management/tests/test_json_data_linker.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_json_data_linker.py b/Project_Management/tests/test_json_data_linker.py\\n    new file mode 100644\\n    index 0000000..993391a\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_json_data_linker.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 11:34:33",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 11:34:32 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "0555789d4030adcdff2e66be2598b9a03c432518"
+        ]
     }
 }
