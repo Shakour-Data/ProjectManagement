@@ -1,55 +1,65 @@
-# Test Checklist for Project Management System
+# Project Management Package - Comprehensive Test Checklist
 
-## 1. Commit Progress Generation Tests
-- [x] Verify commit grouping and categorization by file and directory.
-- [x] Validate generation of conventional commit messages.
-- [x] Confirm commit progress JSON generation with correct structure and data.
-- [x] Test simplified progress mapping aligns with ProgressCalculator expectations.
+This checklist covers all critical and detailed tests to ensure the Project_Management package functions correctly without errors or warnings.
 
-## 2. Commit-Task Database Tests
-- [x] Validate creation and updating of commit-task JSON database.
-- [x] Verify inclusion of detailed commit metadata (author, email, date, branch, parent commits).
-- [x] Test handling of missing or failed metadata retrieval gracefully.
-- [x] Confirm real-time updates during auto commit and push process.
+## 1. JSON Input Files
+- [ ] Validate presence and correctness of all required input JSON files:
+  - detailed_wbs.json
+  - task_resource_allocation.json
+  - human_resources.json
+  - resource_allocation.json
+  - wbs_data.json
+  - wbs_scores.json
+  - workflow_definition.json
+- [ ] Validate JSON schema and data types for each input file.
+- [ ] Verify inter-file references and consistency.
 
-## 3. Progress Calculation Tests
-- [x] Verify loading of input JSON files (tasks, workflow, commit progress).
-- [x] Test calculation of commit progress per task.
-- [x] Validate workflow progress calculation.
-- [x] Confirm combined progress calculation with weighting.
-- [x] Test dynamic importance and urgency scoring.
-- [x] Verify enrichment of tasks with progress, importance, urgency, and score.
+## 2. Intermediate JSON Files
+- [ ] Verify generation of intermediate JSON files linking inputs:
+  - linked_wbs_resources.json
+- [ ] Validate data correctness and completeness in intermediate files.
 
-## 4. Integration Tests
-- [x] Test end-to-end flow from commit detection to progress calculation.
-- [x] Validate integration of commit-task database with progress calculation.
-- [ ] Confirm generation of reports and dashboards based on enriched tasks.
+## 3. Output JSON Files
+- [ ] Verify generation of output JSON files:
+  - commit_task_database.json
+  - commit_progress.json
+- [ ] Validate data correctness, including new fields (progress_change, workflow_stage, importance_change, priority_change).
 
-## 5. Error Handling and Edge Cases
-- [ ] Test behavior with no changes or empty commit history.
-- [ ] Validate handling of malformed or missing input files.
-- [ ] Confirm robustness against git command failures.
+## 4. Module Functionality Tests
+- [ ] auto_commit.py:
+  - [ ] Test git change detection and grouping.
+  - [ ] Test commit message generation.
+  - [ ] Test commit, push, and update of commit_task_database.json.
+  - [ ] Test progress_change capped at 5%.
+  - [ ] Test importance and urgency calculations integration.
+- [ ] json_data_linker.py:
+  - [ ] Test loading input JSON files.
+  - [ ] Test linking and saving intermediate JSON files.
+- [ ] importance_urgency_calculator.py:
+  - [ ] Test scoring of tasks and subtasks.
+  - [ ] Test saving scores to JSON.
+- [ ] progress_report.py and importance_urgency_report.py:
+  - [ ] Test report generation without errors.
 
-## 6. Performance Tests (Optional)
-- [ ] Measure performance of commit progress generation on large commit sets.
-- [ ] Evaluate efficiency of progress calculation and enrichment.
+## 5. Integration Tests
+- [ ] Test end-to-end flow from input JSON files through intermediate linking, commit processing, and output JSON generation.
+- [ ] Test handling of edge cases and error conditions.
+
+## 6. Performance and Stability
+- [ ] Test performance on typical project sizes.
+- [ ] Verify no memory leaks or crashes.
+
+## 7. Code Quality and Modularity
+- [ ] Verify no redundant calculations.
+- [ ] Verify modular structure and separation of concerns.
+
+## 8. Documentation and Instructions
+- [ ] Verify README and testing instructions are clear and complete.
 
 ---
 
-# Test Report Summary
+# Test Execution Notes
 
-## Completed Tests
-- Commit progress generation and categorization verified.
-- Commit-task database creation and metadata enrichment tested.
-- Progress calculation methods and task enrichment validated.
-- End-to-end integration tests for commit progress and task database passed.
-
-## Pending Tests
-- Report and dashboard generation tests.
-- Error handling for edge cases such as empty commit history and malformed inputs.
-- Robustness tests against git command failures.
-- Performance testing on large datasets.
-
----
-
-Please advise if you want me to proceed with the pending tests or complete the task now.
+- Each test should be marked as Passed or Failed.
+- Any issues should be documented with steps to reproduce and logs.
+- Testing should be automated where possible.
