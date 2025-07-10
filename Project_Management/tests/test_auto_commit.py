@@ -9,6 +9,8 @@ from Project_Management.modules import auto_commit
 collect_commit_progress = auto_commit.collect_commit_progress
 update_commit_task_database = auto_commit.update_commit_task_database
 generate_commit_message = auto_commit.generate_commit_message
+get_git_changes = auto_commit.get_git_changes
+group_changes_by_module = auto_commit.group_related_files
 
 class TestAutoCommit(unittest.TestCase):
     def setUp(self):
@@ -44,6 +46,13 @@ class TestAutoCommit(unittest.TestCase):
         self.assertEqual(db[commit_hash]["task_id"], task_id)
         self.assertEqual(db[commit_hash]["file_path"], file_path)
         self.assertEqual(db[commit_hash]["commit_message"], commit_message)
+
+    def test_detect_git_changes_and_grouping(self):
+        # This test assumes a git repo with some changes; here we simulate the function call
+        changes = get_git_changes()
+        self.assertIsInstance(changes, list)
+        grouped = group_changes_by_module(changes)
+        self.assertIsInstance(grouped, dict)
 
 if __name__ == "__main__":
     unittest.main()
