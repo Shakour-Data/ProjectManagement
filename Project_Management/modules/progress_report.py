@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from sqlite_db_manager import SQLiteDBManager
+from Project_Management.modules.sqlite_db_manager import SQLiteDBManager
 
 DASHBOARD_PATH = os.path.join('docs', 'reports', 'progress_report.md')
 
