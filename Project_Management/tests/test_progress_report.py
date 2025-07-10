@@ -1,27 +1,34 @@
-import pytest
+import unittest
 import sys
 import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-import progress_report
-from task_management import TaskManagement
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from Project_Management.modules import progress_report
+ProgressReport = progress_report.ProgressReport
 
-def test_generate_progress_report():
-    tm = TaskManagement()
-    tm.generate_wbs_from_idea("Test Project")
-    progress_report.generate_report(tm)
-    # Check if the report file is created and contains expected sections
-    with open(progress_report.DASHBOARD_PATH, 'r', encoding='utf-8') as f:
-        content = f.read()
-    assert "Progress Report" in content
-    assert "Completed Activities" in content
-    assert "In-Progress Activities" in content
-    assert "Pending Activities" in content
+class TestProgressReport(unittest.TestCase):
+    def test_generate_progress_summary(self):
+        report = ProgressReport()
+        summary = report.generate_progress_summary()
+        self.assertIsInstance(summary, dict)
+        self.assertIn("total_tasks", summary)
+        self.assertIn("completed_tasks", summary)
+        self.assertIn("in_progress_tasks", summary)
+        self.assertIn("pending_tasks", summary)
 
-def test_progress_report_contains_urgency_importance():
-    tm = TaskManagement()
-    tm.generate_wbs_from_idea("Test Project")
-    progress_report.generate_report(tm)
-    with open(progress_report.DASHBOARD_PATH, 'r', encoding='utf-8') as f:
-        content = f.read()
-    assert "Urgency" in content
-    assert "Importance" in content
+    def test_generate_markdown_report(self):
+        report = ProgressReport()
+        summary = {
+            "total_tasks": 10,
+            "completed_tasks": 5,
+            "in_progress_tasks": 3,
+            "pending_tasks": 2,
+            "milestones_achieved": 1,
+            "milestone_tasks": [("Milestone 1", "Completed")]
+        }
+        md = report.generate_markdown_report(summary)
+        self.assertIn("# Project Progress Report", md)
+        self.assertIn("Total Tasks: 10", md)
+        self.assertIn("Milestone 1", md)
+
+if __name__ == "__main__":
+    unittest.main()
