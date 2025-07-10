@@ -3,7 +3,7 @@
 This checklist covers all critical and detailed tests to ensure the Project_Management package functions correctly without errors or warnings.
 
 ## 1. JSON Input Files
-- [ ] Validate presence and correctness of all required input JSON files:
+- [x] Validate presence and correctness of all required input JSON files:
   - detailed_wbs.json
   - task_resource_allocation.json
   - human_resources.json
@@ -11,19 +11,19 @@ This checklist covers all critical and detailed tests to ensure the Project_Mana
   - wbs_data.json
   - wbs_scores.json
   - workflow_definition.json
-- [ ] Validate JSON schema and data types for each input file.
-- [ ] Verify inter-file references and consistency.
+- [x] Validate JSON schema and data types for each input file.
+- [x] Verify inter-file references and consistency.
 
 ## 2. Intermediate JSON Files
-- [ ] Verify generation of intermediate JSON files linking inputs:
+- [x] Verify generation of intermediate JSON files linking inputs:
   - linked_wbs_resources.json
 - [ ] Validate data correctness and completeness in intermediate files.
 
 ## 3. Output JSON Files
-- [ ] Verify generation of output JSON files:
+- [x] Verify generation of output JSON files:
   - commit_task_database.json
   - commit_progress.json
-- [ ] Validate data correctness, including new fields (progress_change, workflow_stage, importance_change, priority_change).
+- [x] Validate data correctness, including new fields (progress_change, workflow_stage, importance_change, priority_change).
 
 ## 4. Module Functionality Tests
 - [ ] auto_commit.py:
