@@ -6,77 +6,93 @@ This document provides a comprehensive and detailed description of the JSON inpu
 
 ---
 
-## Overview of JSON Input Files
+## Folder Structure and Detailed JSON Input Files
 
-The system uses JSON files as the primary data source for managing tasks, resources, progress, and workflows. These files are now organized into a unified folder structure under `PM_JSON/` with two subfolders:
+The JSON input files are organized under the `PM_JSON/` directory with the following subfolders:
 
-### Data Sources and Categorization
+- `user_inputs/`: Contains all JSON files provided or edited by users to define project tasks, resources, workflows, and planning data.
+- `system_outputs/`: Contains JSON files generated or updated by the system during project execution and tracking.
 
-1. **User Input JSON Files**
-   - Located in the `PM_JSON/user_inputs/` directory.
-   - These files are provided or edited by users to define project tasks, resources, workflows, and planning data.
-   - Files:
-     - `detailed_wbs.json`
-     - `human_resources.json`
-     - `resource_allocation.json`
-     - `task_resource_allocation.json`
-     - `workflow_definition.json`
-     - `wbs_data.json`
-
-2. **System-Generated JSON Files**
-   - Located in the `PM_JSON/system_outputs/` directory.
-   - These files are generated or updated by the system during project execution and tracking.
-   - Files:
-     - `commit_progress.json`
-     - `commit_task_database.json`
-     - `wbs_scores.json`
-
+Below is a detailed description of each JSON input file located in the `user_inputs/` folder, including their precise structure, fields, and examples.
 ---
 
-## List of Key JSON Input Files
+## 1. `detailed_wbs.json`
 
-| File Name                      | Location                     | Data Source Category               | Description                                                                                  |
-|-------------------------------|------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
-| `commit_progress.json`         | `PM_Input/ and docs/db_json/`| Commit Data                      | Tracks progress data related to commits and tasks.                                          |
-| `commit_task_database.json`    | `PM_Input/ and docs/db_json/`| Commit Data                      | Contains task-related data linked to commits.                                               |
-| `wbs_data.json`                | `PM_Input/ and docs/db_json/`| Project Definition and Planning  | Defines the Work Breakdown Structure (WBS) with tasks, hierarchy, and relationships.        |
-| `wbs_scores.json`              | `PM_Input/ and docs/db_json/`| Project Definition and Planning  | Contains importance and urgency scores for tasks to aid prioritization.                      |
-| `human_resources.json`         | `PM_Input/ and docs/db_json/`| Project Definition and Planning  | Details human resources involved in the project.                                            |
-| `resource_allocation.json`     | `PM_Input/ and docs/db_json/`| Project Definition and Planning  | Contains data about resource allocation to tasks or projects.                               |
-| `task_resource_allocation.json`| `PM_Input/ and docs/db_json/`| Project Definition and Planning  | Maps tasks to resource allocations in detail.                                               |
-| `workflow_definition.json`     | `PM_Input/ and docs/db_json/`| Project Definition and Planning  | Defines workflows and steps for task completion and progress tracking.                      |
-
----
-
-## JSON Schema and Structure
-
-### General Principles
-
-- Each JSON file contains an array of objects representing entities such as tasks, resources, or workflow steps.
-- Attributes use consistent and descriptive key names.
-- Data types include strings, integers, floats, booleans, and arrays.
-- Hierarchical relationships are represented using parent-child references via IDs.
-
-### Example: Task Object Schema
-
+- **Purpose:** Defines the Work Breakdown Structure (WBS) with tasks, hierarchy, and relationships.
+- **Structure:** An array of task objects with fields:
+  - `id` (string): Unique identifier for the task.
+  - `title` (string): Task title.
+  - `optimistic_hours` (number): Estimated optimistic duration.
+  - `normal_hours` (number): Estimated normal duration.
+  - `pessimistic_hours` (number): Estimated pessimistic duration.
+  - `predecessors` (array of strings, optional): IDs of predecessor tasks.
+  - `subtasks` (array): Nested subtasks with the same structure.
+- **Example:**
 ```json
-{
-  "id": "1.1",
-  "title": "Create Python package structure",
-  "description": "Set up the initial package layout",
-  "level": 2,
-  "importance": 0.8,
-  "urgency": 0.6,
-  "status": "Not Started",
-  "progress": 0.0,
-  "parent_id": "1",
-  "subtasks": []
-}
+[
+  {
+    "id": "1",
+    "title": "Project Management System Development",
+    "optimistic_hours": 0,
+    "normal_hours": 0,
+    "pessimistic_hours": 0,
+    "subtasks": [
+      {
+        "id": "1.1",
+        "title": "Python Package and Environment Setup",
+        "optimistic_hours": 2,
+        "normal_hours": 4,
+        "pessimistic_hours": 6,
+        "predecessors": ["0"],
+        "subtasks": []
+      }
+    ]
+  }
+]
 ```
 
-### Hierarchical Relationships
+---
 
-Tasks are organized hierarchically using the `parent_id` field to reference the parent task. This allows representing complex project structures with multiple levels.
+## 2. `human_resources.json`
+
+- **Purpose:** Lists human resources involved in the project with detailed attributes.
+- **Structure:** An array of resource objects with fields:
+  - `id` (string): Unique resource identifier.
+  - `name` (string): Full name.
+  - `role` (string): Role in the project.
+  - `department` (string): Department name.
+  - `hourly_rate` (number): Hourly cost rate.
+  - `email` (string): Contact email.
+  - `phone` (string): Contact phone number.
+  - `hire_date` (string, ISO date): Hiring date.
+  - `active` (boolean): Active status.
+  - `github_address` (string): GitHub profile URL.
+  - `gmail` (string): Gmail address.
+  - `gmail_password` (string): Encrypted Gmail password.
+  - `github_password` (string): Encrypted GitHub password.
+  - `github_token` (string): GitHub access token.
+- **Security Note:** Sensitive fields such as passwords and tokens are stored encrypted. Handle these fields with care and ensure secure storage and access.
+- **Example:**
+```json
+[
+  {
+    "id": "HR001",
+    "name": "Alice Johnson",
+    "role": "Project Manager",
+    "department": "Management",
+    "hourly_rate": 60,
+    "email": "alice.johnson@example.com",
+    "phone": "+1234567890",
+    "hire_date": "2022-01-15",
+    "active": true,
+    "github_address": "https://github.com/alicejohnson",
+    "gmail": "alice.johnson@gmail.com",
+    "gmail_password": "encrypted_password_here",
+    "github_password": "encrypted_password_here",
+    "github_token": "ghp_exampletoken1234567890"
+  }
+]
+```
 
 ---
 
