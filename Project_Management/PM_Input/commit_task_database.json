@@ -1,0 +1,166 @@
+{
+    "a8b1dd3ab28a691908d756ff6f7c13e0e5c271de": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/modules/auto_commit.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 04:41:12):\\n- Project_Management/modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/auto_commit.py b/Project_Management/modules/auto_commit.py\\n    index eda1055..bfb9115 100644\\n    --- a/Project_Management/modules/auto_commit.py\\n    +++ b/Project_Management/modules/auto_commit.py\\n    @@ -306,6 +306,12 @@ def update_commit_task_database(commit_hash, task_id, file_path, commit_message,\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:13",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:12 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "8103027080ff4c6a35d95c69620cf8883abb7a46"
+        ]
+    },
+    "56ba9ab74c54a72d68874f895d3c80ce607e5314": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/general_instructions_fa.md",
+        "commit_message": "🗑️ remove(general_docs): Deleted files updated\\n\\nChanges included (as of 2025-07-10 04:41:14):\\n- general_docs/general_instructions_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/general_docs/general_instructions_fa.md b/general_docs/general_instructions_fa.md\\n    deleted file mode 100644\\n    index 99aa96b..0000000\\n    --- a/general_docs/general_instructions_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:14",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:14 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "a8b1dd3ab28a691908d756ff6f7c13e0e5c271de"
+        ]
+    },
+    "f17e5ae923e33fbaec6b17a9ee16566693fe3e1e": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/general_instructions_stepwise.md",
+        "commit_message": "🗑️ remove(general_docs): Deleted files updated\\n\\nChanges included (as of 2025-07-10 04:41:16):\\n- general_docs/general_instructions_stepwise.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/general_docs/general_instructions_stepwise.md b/general_docs/general_instructions_stepwise.md\\n    deleted file mode 100644\\n    index 27008aa..0000000\\n    --- a/general_docs/general_instructions_stepwise.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:16",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:16 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "56ba9ab74c54a72d68874f895d3c80ce607e5314"
+        ]
+    },
+    "f9832b91c35a95ebd6073a7f6cdab4b9fb85840a": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/general_instructions_stepwise_fa.md",
+        "commit_message": "🗑️ remove(general_docs): Deleted files updated\\n\\nChanges included (as of 2025-07-10 04:41:17):\\n- general_docs/general_instructions_stepwise_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/general_docs/general_instructions_stepwise_fa.md b/general_docs/general_instructions_stepwise_fa.md\\n    deleted file mode 100644\\n    index 56d51c8..0000000\\n    --- a/general_docs/general_instructions_stepwise_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:17",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:17 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "f17e5ae923e33fbaec6b17a9ee16566693fe3e1e"
+        ]
+    },
+    "b51fb7c42f07eead9f7574718619fb81606f3c02": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/json_resource_to_db_table_instructions.md",
+        "commit_message": "🗑️ remove(general_docs): Deleted files updated\\n\\nChanges included (as of 2025-07-10 04:41:18):\\n- general_docs/json_resource_to_db_table_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/general_docs/json_resource_to_db_table_instructions.md b/general_docs/json_resource_to_db_table_instructions.md\\n    deleted file mode 100644\\n    index b5fa70c..0000000\\n    --- a/general_docs/json_resource_to_db_table_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:19",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:18 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "f9832b91c35a95ebd6073a7f6cdab4b9fb85840a"
+        ]
+    },
+    "bce26a97c6d773d01983517dc239f00adcf51e81": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/json_input_files_usage.md",
+        "commit_message": "🐛 fix(general_docs): Modified files updated\\n\\nChanges included (as of 2025-07-10 04:41:20):\\n- general_docs/json_input_files_usage.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/general_docs/json_input_files_usage.md b/general_docs/json_input_files_usage.md\\n    index ee9d869..a18f98a 100644\\n    --- a/general_docs/json_input_files_usage.md\\n    +++ b/general_docs/json_input_files_usage.md\\n    @@ -6,77 +6,93 @@ This document provides a comprehensive and detailed description of the JSON inpu\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:20",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:20 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "b51fb7c42f07eead9f7574718619fb81606f3c02"
+        ]
+    },
+    "1bc3ce73d79c8165121ed51cd15537adcc6bf8c3": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/general_instructions/",
+        "commit_message": "📝 docs(general_docs): Untracked files updated\\n\\nChanges included (as of 2025-07-10 04:41:21):\\n- general_docs/general_instructions/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/general_docs/general_instructions/general_instructions.md b/general_docs/general_instructions/general_instructions.md\\n    new file mode 100644\\n    index 0000000..b637e1b\\n    --- /dev/null\\n    +++ b/general_docs/general_instructions/general_instructions.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:21",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:21 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "bce26a97c6d773d01983517dc239f00adcf51e81"
+        ]
+    },
+    "aa95958005fbb01bf4ca564ae2fc6819131132a2": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/reports/dashboards_reports.md",
+        "commit_message": "📝 docs(general_docs): Untracked files updated\\n\\nChanges included (as of 2025-07-10 04:41:22):\\n- general_docs/reports/dashboards_reports.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/general_docs/reports/dashboards_reports.md b/general_docs/reports/dashboards_reports.md\\n    new file mode 100644\\n    index 0000000..45ca3f0\\n    --- /dev/null\\n    +++ b/general_docs/reports/dashboards_reports.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:23",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:22 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "1bc3ce73d79c8165121ed51cd15537adcc6bf8c3"
+        ]
+    },
+    "88b752f75b78cbd7a48a6934242c292a54763cf6": {
+        "task_id": "general_docs",
+        "file_path": "general_docs/wbs_combined_documentation.md",
+        "commit_message": "📝 docs(general_docs): Untracked files updated\\n\\nChanges included (as of 2025-07-10 04:41:24):\\n- general_docs/wbs_combined_documentation.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/general_docs/wbs_combined_documentation.md b/general_docs/wbs_combined_documentation.md\\n    new file mode 100644\\n    index 0000000..66dbe1b\\n    --- /dev/null\\n    +++ b/general_docs/wbs_combined_documentation.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:24",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:24 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "aa95958005fbb01bf4ca564ae2fc6819131132a2"
+        ]
+    },
+    "d0a921d5aef3c744ad980e7d54c079990899431d": {
+        "task_id": "projects",
+        "file_path": "projects/current_project/docs/detailed_wbs.json",
+        "commit_message": "🗑️ remove(projects): Deleted files updated\\n\\nChanges included (as of 2025-07-10 04:41:25):\\n- projects/current_project/docs/detailed_wbs.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/projects/current_project/docs/detailed_wbs.json b/projects/current_project/docs/detailed_wbs.json\\n    deleted file mode 100644\\n    index 50ffbb9..0000000\\n    --- a/projects/current_project/docs/detailed_wbs.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "timestamp": "2025-07-10 04:41:25",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 04:41:25 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "88b752f75b78cbd7a48a6934242c292a54763cf6"
+        ]
+    },
+    "f3d5611fbead9b498e5ba4c28122b3131047e17e": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/PM_JSON/user_inputs/workflow_definition.json",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 08:53:10):\\n- Project_Management/PM_JSON/user_inputs/workflow_definition.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/workflow_definition.json b/Project_Management/PM_JSON/user_inputs/workflow_definition.json\\n    index 9bd902b..fbea393 100644\\n    --- a/Project_Management/PM_JSON/user_inputs/workflow_definition.json\\n    +++ b/Project_Management/PM_JSON/user_inputs/workflow_definition.json\\n    @@ -1,50 +1,9 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 08:53:11",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 08:53:10 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "d0a921d5aef3c744ad980e7d54c079990899431d"
+        ]
+    },
+    "06b4e8644b134a5317489d0fbc90e097b18a86be": {
+        "task_id": "Project_Management",
+        "file_path": "Project_Management/modules/auto_commit.py",
+        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-10 08:53:12):\\n- Project_Management/modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/auto_commit.py b/Project_Management/modules/auto_commit.py\\n    index bfb9115..18590c8 100644\\n    --- a/Project_Management/modules/auto_commit.py\\n    +++ b/Project_Management/modules/auto_commit.py\\n    @@ -298,8 +298,8 @@ import json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-10 08:53:12",
+        "author": "GravityMg",
+        "email": "164815641+GravityMg@users.noreply.github.com",
+        "date": "Thu Jul 10 08:53:12 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "f3d5611fbead9b498e5ba4c28122b3131047e17e"
+        ]
+    }
+}
