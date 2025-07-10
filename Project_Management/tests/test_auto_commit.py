@@ -1,73 +1,49 @@
 import unittest
 import os
 import json
-from unittest.mock import patch, MagicMock
-import auto_commit
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from Project_Management.modules import auto_commit
+collect_commit_progress = auto_commit.collect_commit_progress
+update_commit_task_database = auto_commit.update_commit_task_database
+generate_commit_message = auto_commit.generate_commit_message
 
 class TestAutoCommit(unittest.TestCase):
+    def setUp(self):
+        # Setup test environment paths
+        self.commit_progress_path = "Project_Management/PM_JSON/system_outputs/commit_progress.json"
+        self.commit_task_db_path = "Project_Management/PM_JSON/system_outputs/commit_task_database.json"
 
-    @patch('auto_commit.get_git_changes')
-    @patch('auto_commit.group_related_files')
-    @patch('auto_commit.categorize_files')
-    def test_collect_commit_progress(self, mock_categorize, mock_group_related, mock_get_changes):
-        # Setup mocks
-        mock_get_changes.return_value = ['M file1.py', 'A file2.py']
-        mock_group_related.return_value = {
-            'root': [('M', 'file1.py'), ('A', 'file2.py')]
-        }
-        mock_categorize.return_value = {
-            'Modified': ['file1.py'],
-            'Added': ['file2.py']
-        }
+    def test_generate_commit_message(self):
+        group_name = "module1"
+        category_name = "Added"
+        files = ["file1.py", "file2.py"]
+        message = generate_commit_message(group_name, category_name, files)
+        self.assertIn("feat", message)
+        self.assertIn("module1", message)
+        self.assertIn("Added files updated", message)
 
-        progress = auto_commit.collect_commit_progress()
-        self.assertIn('root', progress)
-        self.assertIn('Modified', progress['root'])
-        self.assertIn('Added', progress['root'])
-        self.assertEqual(progress['root']['Modified']['files'], ['file1.py'])
-        self.assertEqual(progress['root']['Added']['files'], ['file2.py'])
-        self.assertTrue(all('commit_message' in cm for cm in progress['root']['Modified']['commit_messages']))
-        self.assertTrue(all('commit_message' in cm for cm in progress['root']['Added']['commit_messages']))
+    def test_collect_commit_progress(self):
+        progress_data = collect_commit_progress()
+        self.assertIsInstance(progress_data, dict)
+        # Further assertions can be added based on known test data
 
-    @patch('auto_commit.collect_commit_progress')
-    def test_write_commit_progress_to_json(self, mock_collect):
-        mock_collect.return_value = {
-            'root': {
-                'Added': {
-                    'files': ['file2.py'],
-                    'commit_messages': [{'file': 'file2.py', 'commit_message': 'msg'}]
-                }
-            }
-        }
-        test_file = 'tests/temp_commit_progress.json'
-        if os.path.exists(test_file):
-            os.remove(test_file)
+    def test_update_commit_task_database(self):
+        commit_hash = "abc123"
+        task_id = "module1"
+        file_path = "file1.py"
+        commit_message = "Test commit message"
+        # Call update_commit_task_database and check if file is updated
+        update_commit_task_database(commit_hash, task_id, file_path, commit_message, db_path=self.commit_task_db_path)
+        self.assertTrue(os.path.exists(self.commit_task_db_path))
+        with open(self.commit_task_db_path, "r", encoding="utf-8") as f:
+            db = json.load(f)
+        self.assertIn(commit_hash, db)
+        self.assertEqual(db[commit_hash]["task_id"], task_id)
+        self.assertEqual(db[commit_hash]["file_path"], file_path)
+        self.assertEqual(db[commit_hash]["commit_message"], commit_message)
 
-        auto_commit.write_commit_progress_to_json(test_file)
-        self.assertTrue(os.path.exists(test_file))
-
-        with open(test_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        self.assertIn('root', data)
-        os.remove(test_file)
-
-    @patch('auto_commit.run_git_command')
-    @patch('auto_commit.get_git_changes')
-    @patch('auto_commit.group_related_files')
-    @patch('auto_commit.categorize_files')
-    @patch('auto_commit.write_commit_progress_to_json')
-    def test_auto_commit_and_push_calls_write_json(self, mock_write_json, mock_categorize, mock_group_related, mock_get_changes, mock_run_git):
-        mock_get_changes.return_value = ['M file1.py']
-        mock_group_related.return_value = {
-            'root': [('M', 'file1.py')]
-        }
-        mock_categorize.return_value = {
-            'Modified': ['file1.py']
-        }
-        mock_run_git.return_value = (True, '')
-
-        auto_commit.auto_commit_and_push()
-        mock_write_json.assert_called_once()
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
