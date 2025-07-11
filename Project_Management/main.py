@@ -79,3 +79,72 @@ def status():
     """
     print("Project Management Tool is installed and ready.")
     # TODO: Implement status reporting based on current project state
+
+def setup():
+    """
+    Interactive setup to help user upload and validate required input files.
+    """
+    import os
+    from modules.input_handler import InputHandler
+
+    input_handler = InputHandler()
+    input_handler.ensure_input_dir()
+
+    print("\nWelcome to the auto_pm setup!")
+    print("Please ensure you have the following JSON input files ready to upload in the 'PM_Input' directory:")
+    required_files = [
+        'wbs_data.json',
+        'detailed_wbs.json',
+        'human_resources.json',
+        'resource_allocation.json',
+        'task_resource_allocation.json',
+        'wbs_scores.json',
+        'workflow_definition.json'
+    ]
+    for f in required_files:
+        print(f" - {f}")
+
+    input("Press Enter when you have placed the files in the 'PM_Input' directory...")
+
+    inputs = input_handler.read_json_files()
+    if inputs is None:
+        print("Error: Failed to read input files. Please check the files and try again.")
+        return
+
+    missing_files = [f for f in required_files if f not in inputs]
+    if missing_files:
+        print("\nWarning: The following required files are missing:")
+        for mf in missing_files:
+            print(f" - {mf}")
+        print("Please add the missing files and run 'auto_pm setup' again.")
+        return
+
+    print("\nAll required input files are present and valid.")
+    print("Setup is complete. You can now use the auto_pm package.")
+
+def help():
+    """
+    Display help information for the auto_pm package usage.
+    """
+    help_text = """
+auto_pm Package Help
+====================
+
+Commands:
+- install : Prepare the environment and input directory. Use this before starting.
+- start   : Start the project management automation. This runs the main features of the package.
+- status  : Show the current status of the tool.
+- setup   : Interactive setup to upload and validate required input files.
+- help    : Display this help information.
+
+These commands provide full access to all features of the auto_pm package.
+
+Usage:
+    auto_pm <command>
+
+Example:
+    auto_pm setup
+
+Please ensure your JSON input files are placed in the 'PM_Input' directory before running 'start' or 'setup'.
+"""
+    print(help_text)
