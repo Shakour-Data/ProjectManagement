@@ -4,7 +4,7 @@ from Project_Management import main as main_module
 
 def main_cli():
     parser = argparse.ArgumentParser(description='Project Management Tool CLI')
-    parser.add_argument('command', choices=['install', 'start', 'status'], help='Command to run')
+    parser.add_argument('command', choices=['install', 'start', 'status', 'setup', 'help'], help='Command to run')
     args = parser.parse_args()
 
     if args.command == 'install':
@@ -13,6 +13,10 @@ def main_cli():
         main_module.start()
     elif args.command == 'status':
         main_module.status()
+    elif args.command == 'setup':
+        main_module.setup()
+    elif args.command == 'help':
+        main_module.help()
 
 def main():
     main_cli()
