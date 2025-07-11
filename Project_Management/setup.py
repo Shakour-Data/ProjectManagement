@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='auto_project_manager',
+    name='auto_pm',
     version='0.1.0',
     description='A Python package for automated project management with GitHub and VS Code integration',
     long_description='This package provides tools for automated project management including task prioritization, progress reporting, and integration with GitHub and VS Code.',
@@ -17,7 +17,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'auto-project-manager=Project_Management.cli:main',
+            'auto_pm=Project_Management.cli:main',
         ],
     },
     python_requires='>=3.7',
