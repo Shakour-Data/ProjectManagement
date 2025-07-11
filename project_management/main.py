@@ -1,5 +1,6 @@
 from modules.input_handler import InputHandler
 from modules.setup_automation import SetupAutomation
+import sys
 
 input_handler = InputHandler()
 setup_automation = SetupAutomation()
@@ -148,3 +149,22 @@ Example:
 Please ensure your JSON input files are placed in the 'PM_Input' directory before running 'start' or 'setup'.
 """
     print(help_text)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        help()
+    else:
+        cmd = sys.argv[1].lower()
+        if cmd == "install":
+            install()
+        elif cmd == "start":
+            start()
+        elif cmd == "status":
+            status()
+        elif cmd == "setup":
+            setup()
+        elif cmd == "help":
+            help()
+        else:
+            print(f"Unknown command: {cmd}")
+            help()
