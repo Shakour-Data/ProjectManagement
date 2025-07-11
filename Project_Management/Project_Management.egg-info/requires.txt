@@ -1,4 +1,0 @@
-requests
-PyGithub
-flask
-pydantic
