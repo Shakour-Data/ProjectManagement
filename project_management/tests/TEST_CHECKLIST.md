@@ -30,34 +30,34 @@ This checklist covers all necessary tests to ensure the auto_pm package works co
 - ✅ Test behavior when input files are updated between runs.
 
 ## 5. Edge Case and Error Scenario Tests
-- ⬜ Test behavior with corrupted or malformed input files.
-- ⬜ Test unexpected user inputs during interactive setup.
+- ✅ Test behavior with corrupted or malformed input files.
+- ✅ Test unexpected user inputs during interactive setup.
 - ⬜ Test system resource limits and error recovery.
 - ⬜ Test concurrent runs and file access conflicts.
 
 ## 6. Performance and Scalability Tests
-- ⬜ Test performance with large input files.
-- ⬜ Test memory and CPU usage under load.
-- ⬜ Test responsiveness of CLI commands.
+- ✅ Test performance with large input files.
+- ✅ Test memory and CPU usage under load.
+- ✅ Test responsiveness of CLI commands.
 
 ## 7. Security and Permissions Tests
-- ⬜ Test file permission errors and handling.
-- ⬜ Test secure handling of sensitive data (e.g., secret keys).
+- ✅ Test file permission errors and handling.
+- ✅ Test secure handling of sensitive data (e.g., secret keys).
 - ⬜ Verify no sensitive data is logged or exposed.
 
 ## 8. Documentation and Help Tests
 - ✅ Verify `auto_pm help` command displays accurate and complete information.
-- ⬜ Verify README and HELP.md files are up to date and clear.
-- ⬜ Test links and references in documentation.
+- ✅ Verify README and HELP.md files are up to date and clear.
+- ✅ Test links and references in documentation.
 
 ---
 
 This checklist should be used to systematically verify the package functionality and robustness before release.
 
 ## 9. Shell Integration and Terminal Tests
-- ⬜ Verify integrated terminal opens with correct shell on Linux.
-- ⬜ Verify integrated terminal opens with correct shell on macOS.
-- ⬜ Verify integrated terminal opens with correct shell on Windows.
-- ⬜ Verify "Shell Integration Unavailable" issue is resolved.
-- ⬜ Verify command outputs are visible in the terminal.
-- ⬜ Verify VSCode reload and terminal restart apply the shell settings correctly.
+- ✅ Verify integrated terminal opens with correct shell on Linux.
+- ✅ Verify integrated terminal opens with correct shell on macOS.
+- ✅ Verify integrated terminal opens with correct shell on Windows.
+- ✅ Verify "Shell Integration Unavailable" issue is resolved.
+- ✅ Verify command outputs are visible in the terminal.
+- ✅ Verify VSCode reload and terminal restart apply the shell settings correctly.
