@@ -1,7 +1,0 @@
-setup.py
-Project_Management.egg-info/PKG-INFO
-Project_Management.egg-info/SOURCES.txt
-Project_Management.egg-info/dependency_links.txt
-Project_Management.egg-info/entry_points.txt
-Project_Management.egg-info/requires.txt
-Project_Management.egg-info/top_level.txt
