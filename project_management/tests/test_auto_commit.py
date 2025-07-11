@@ -5,7 +5,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from project_management.modules import auto_commit
+from modules import auto_commit
 collect_commit_progress = auto_commit.collect_commit_progress
 update_commit_task_database = auto_commit.update_commit_task_database
 generate_commit_message = auto_commit.generate_commit_message

@@ -17,7 +17,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'auto_pm=project_management.cli:main',
+            'auto_pm=modules.cli:main',
         ],
     },
     python_requires='>=3.7',
