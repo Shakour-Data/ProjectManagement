@@ -86,7 +86,7 @@ def generate_report(task_management=None):
     report.generate()
 
 def generate_importance_urgency_report(task_management=None):
-    from importance_urgency_report import ImportanceUrgencyReport
+    from project_management.modules.reports.importance_urgency_report import ImportanceUrgencyReport
     report = ImportanceUrgencyReport()
     report.generate()
 
