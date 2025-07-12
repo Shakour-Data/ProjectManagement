@@ -47,9 +47,9 @@ def ensure_gitignore_excludes_venv(gitignore_path='.gitignore', venv_dirs=None):
         print(f"{gitignore_path} already excludes virtual environment directories.")
 
 def main():
+    ensure_gitignore_excludes_venv()
     create_virtualenv()
     install_dependencies()
-    ensure_gitignore_excludes_venv()
 
 if __name__ == '__main__':
     main()
