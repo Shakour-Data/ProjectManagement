@@ -1,2 +1,2 @@
-# Project_Management package initialization
+# project_inputs package initialization
 __version__ = '0.1.0'

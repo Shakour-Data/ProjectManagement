@@ -1,5 +1,5 @@
-from modules.input_handler import InputHandler
-from modules.setup_automation import SetupAutomation
+from project_management.modules.input_handler import InputHandler
+from project_management.modules.setup_automation import SetupAutomation
 import sys
 
 input_handler = InputHandler()

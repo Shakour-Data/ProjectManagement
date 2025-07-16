@@ -263,7 +263,7 @@ def collect_commit_progress():
 
     return progress_data
 
-def write_commit_progress_to_json(file_path="Project_Management/PM_Input/commit_progress.json"):
+def write_commit_progress_to_json(file_path="project_inputs/PM_Input/commit_progress.json"):
     """Write the collected commit progress data to a JSON file."""
     progress_data = collect_commit_progress()
     if not progress_data:
@@ -298,7 +298,7 @@ import json
 import hashlib
 import time
 
-def update_commit_task_database(commit_hash, task_id, file_path, commit_message, workflow_stage=None, progress_change=0.0, importance_change=0, priority_change=0, db_path="Project_Management/PM_Input/commit_task_database.json"):
+def update_commit_task_database(commit_hash, task_id, file_path, commit_message, workflow_stage=None, progress_change=0.0, importance_change=0, priority_change=0, db_path="project_inputs/PM_Input/commit_task_database.json"):
     """Update the JSON database mapping commits to tasks with detailed info including metadata and progress/importance/priority changes."""
     try:
         with open(db_path, "r", encoding="utf-8") as f:
@@ -439,7 +439,7 @@ import json
 import datetime
 import os
 
-def load_linked_wbs_resources(filepath="Project_Management/PM_JSON/intermediate/linked_wbs_resources.json"):
+def load_linked_wbs_resources(filepath="project_inputs/PM_JSON/intermediate/linked_wbs_resources.json"):
     if not os.path.exists(filepath):
         print(f"Linked WBS resources file not found: {filepath}")
         return []

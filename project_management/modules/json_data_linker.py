@@ -2,7 +2,7 @@ import json
 import os
 
 class JSONDataLinker:
-    def __init__(self, input_dir="Project_Management/PM_JSON/user_inputs", intermediate_dir="Project_Management/PM_JSON/intermediate", output_dir="Project_Management/PM_JSON/system_outputs"):
+    def __init__(self, input_dir="project_inputs/PM_JSON/user_inputs", intermediate_dir="project_inputs/PM_JSON/intermediate", output_dir="project_inputs/PM_JSON/system_outputs"):
         self.input_dir = input_dir
         self.intermediate_dir = intermediate_dir
         self.output_dir = output_dir

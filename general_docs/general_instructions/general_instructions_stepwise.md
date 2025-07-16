@@ -194,7 +194,7 @@ The project management tool calculates task importance and urgency dynamically b
   - Scores are stored and used to calculate combined task scores.
   - Scores are updated dynamically as project data changes.
 
-For detailed code implementation, see `Project_Management/modules/importance_urgency_calculator.py`.
+For detailed code implementation, see `project_inputs/modules/importance_urgency_calculator.py`.
 
 For further assistance, please contact the project management office.
 

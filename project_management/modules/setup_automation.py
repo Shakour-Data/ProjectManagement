@@ -1,7 +1,7 @@
 import re
 
 class SetupAutomation:
-    def __init__(self, project_name='Project_Management'):
+    def __init__(self, project_name='project_inputs'):
         self.project_name = project_name
 
     def get_standard_response(self, question: str) -> str:

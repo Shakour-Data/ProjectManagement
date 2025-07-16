@@ -39,7 +39,7 @@ Example snippet:
 {
   "a1b2c3d4e5f6g7h8i9j0": {
     "task_id": "TASK-123",
-    "file_path": "Project_Management/modules/task_management.py",
+    "file_path": "project_inputs/modules/task_management.py",
     "commit_message": "✨ feat(TASK-123): Implement task assignment logic",
     "timestamp": "2025-07-10 12:34:56",
     "author": "Alice Johnson",

@@ -1,5 +1,5 @@
 import unittest
-from modules.task_management import TaskManagement
+from project_management.modules.task_management import TaskManagement
 
 import unittest
 

@@ -1,8 +1,8 @@
 {
     "35bded079378072fd61d0ae7fdfc1d33c5194739": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/.gitignore",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:29):\\n- Project_Management/.gitignore: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/.gitignore b/Project_Management/.gitignore\\n    deleted file mode 100644\\n    index 8c16e9a..0000000\\n    --- a/Project_Management/.gitignore\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/.gitignore",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:29):\\n- project_inputs/.gitignore: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/.gitignore b/project_inputs/.gitignore\\n    deleted file mode 100644\\n    index 8c16e9a..0000000\\n    --- a/project_inputs/.gitignore\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -17,9 +17,9 @@
         ]
     },
     "37449b76f7df3b88c1587abbdab3d81d858d57f2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/HELP.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:30):\\n- Project_Management/HELP.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/HELP.md b/Project_Management/HELP.md\\n    deleted file mode 100644\\n    index a073198..0000000\\n    --- a/Project_Management/HELP.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/HELP.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:30):\\n- project_inputs/HELP.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/HELP.md b/project_inputs/HELP.md\\n    deleted file mode 100644\\n    index a073198..0000000\\n    --- a/project_inputs/HELP.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -34,9 +34,9 @@
         ]
     },
     "8d2fef56f1d7898db573e68cfe1866b900b1691c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:32):\\n- Project_Management/PM_Input/commit_progress.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    deleted file mode 100644\\n    index f48dced..0000000\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:32):\\n- project_inputs/PM_Input/commit_progress.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    deleted file mode 100644\\n    index f48dced..0000000\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -51,9 +51,9 @@
         ]
     },
     "c115f551ecf120ee8eaef2ac28c9df5ab4f19d1e": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:33):\\n- Project_Management/PM_Input/commit_task_database.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 919102c..6052275 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -1,1543 +1,53 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:33):\\n- project_inputs/PM_Input/commit_task_database.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 919102c..6052275 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -1,1543 +1,53 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -68,9 +68,9 @@
         ]
     },
     "f78fa42cf9f943ea124d0f49a3745ccebd8fc603": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/system_outputs/commit_progress.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:35):\\n- Project_Management/PM_JSON/system_outputs/commit_progress.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/system_outputs/commit_progress.json b/Project_Management/PM_JSON/system_outputs/commit_progress.json\\n    deleted file mode 100644\\n    index fe10713..0000000\\n    --- a/Project_Management/PM_JSON/system_outputs/commit_progress.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/system_outputs/commit_progress.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:35):\\n- project_inputs/PM_JSON/system_outputs/commit_progress.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/system_outputs/commit_progress.json b/project_inputs/PM_JSON/system_outputs/commit_progress.json\\n    deleted file mode 100644\\n    index fe10713..0000000\\n    --- a/project_inputs/PM_JSON/system_outputs/commit_progress.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -85,9 +85,9 @@
         ]
     },
     "ada13ae13150e571373da26b7ce05204e8c8bb78": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/user_inputs/human_resources.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:36):\\n- Project_Management/PM_JSON/user_inputs/human_resources.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/human_resources.json b/Project_Management/PM_JSON/user_inputs/human_resources.json\\n    deleted file mode 100644\\n    index 07206b4..0000000\\n    --- a/Project_Management/PM_JSON/user_inputs/human_resources.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/human_resources.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:36):\\n- project_inputs/PM_JSON/user_inputs/human_resources.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/human_resources.json b/project_inputs/PM_JSON/user_inputs/human_resources.json\\n    deleted file mode 100644\\n    index 07206b4..0000000\\n    --- a/project_inputs/PM_JSON/user_inputs/human_resources.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -102,9 +102,9 @@
         ]
     },
     "73c8cd0caf6f233bdf95a37d2d0faea8a29bab01": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/user_inputs/resource_allocation.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:38):\\n- Project_Management/PM_JSON/user_inputs/resource_allocation.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/resource_allocation.json b/Project_Management/PM_JSON/user_inputs/resource_allocation.json\\n    deleted file mode 100644\\n    index 17a4510..0000000\\n    --- a/Project_Management/PM_JSON/user_inputs/resource_allocation.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/resource_allocation.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:38):\\n- project_inputs/PM_JSON/user_inputs/resource_allocation.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/resource_allocation.json b/project_inputs/PM_JSON/user_inputs/resource_allocation.json\\n    deleted file mode 100644\\n    index 17a4510..0000000\\n    --- a/project_inputs/PM_JSON/user_inputs/resource_allocation.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -119,9 +119,9 @@
         ]
     },
     "84b38aa13e24b40d431ffa0d8e07522f05170b33": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/user_inputs/wbs_data.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:40):\\n- Project_Management/PM_JSON/user_inputs/wbs_data.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/wbs_data.json b/Project_Management/PM_JSON/user_inputs/wbs_data.json\\n    deleted file mode 100644\\n    index 08efba0..0000000\\n    --- a/Project_Management/PM_JSON/user_inputs/wbs_data.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_data.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:40):\\n- project_inputs/PM_JSON/user_inputs/wbs_data.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_data.json b/project_inputs/PM_JSON/user_inputs/wbs_data.json\\n    deleted file mode 100644\\n    index 08efba0..0000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_data.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -136,9 +136,9 @@
         ]
     },
     "213912a039f81f868e04b3510dc2411f6224823f": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/user_inputs/wbs_scores.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:41):\\n- Project_Management/PM_JSON/user_inputs/wbs_scores.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/wbs_scores.json b/Project_Management/PM_JSON/user_inputs/wbs_scores.json\\n    deleted file mode 100644\\n    index 2e1dc2f..0000000\\n    --- a/Project_Management/PM_JSON/user_inputs/wbs_scores.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_scores.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:41):\\n- project_inputs/PM_JSON/user_inputs/wbs_scores.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_scores.json b/project_inputs/PM_JSON/user_inputs/wbs_scores.json\\n    deleted file mode 100644\\n    index 2e1dc2f..0000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_scores.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -153,9 +153,9 @@
         ]
     },
     "63cd3a6e5aba0670ed1bb667fb4b593d342a1b97": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/user_inputs/workflow_definition.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:43):\\n- Project_Management/PM_JSON/user_inputs/workflow_definition.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/user_inputs/workflow_definition.json b/Project_Management/PM_JSON/user_inputs/workflow_definition.json\\n    deleted file mode 100644\\n    index fbea393..0000000\\n    --- a/Project_Management/PM_JSON/user_inputs/workflow_definition.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/workflow_definition.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:43):\\n- project_inputs/PM_JSON/user_inputs/workflow_definition.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/workflow_definition.json b/project_inputs/PM_JSON/user_inputs/workflow_definition.json\\n    deleted file mode 100644\\n    index fbea393..0000000\\n    --- a/project_inputs/PM_JSON/user_inputs/workflow_definition.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -170,9 +170,9 @@
         ]
     },
     "eaeb1fdd70d959e42842d328ddb792839c4f020c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/Project_Management.egg-info/PKG-INFO",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:44):\\n- Project_Management/Project_Management.egg-info/PKG-INFO: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/Project_Management.egg-info/PKG-INFO b/Project_Management/Project_Management.egg-info/PKG-INFO\\n    deleted file mode 100644\\n    index 0dc8128..0000000\\n    --- a/Project_Management/Project_Management.egg-info/PKG-INFO\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/project_inputs.egg-info/PKG-INFO",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:44):\\n- project_inputs/project_inputs.egg-info/PKG-INFO: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/project_inputs.egg-info/PKG-INFO b/project_inputs/project_inputs.egg-info/PKG-INFO\\n    deleted file mode 100644\\n    index 0dc8128..0000000\\n    --- a/project_inputs/project_inputs.egg-info/PKG-INFO\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -187,9 +187,9 @@
         ]
     },
     "0dd50badcea95229fadb6cc3850d546e1ca4d505": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/Project_Management.egg-info/SOURCES.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:45):\\n- Project_Management/Project_Management.egg-info/SOURCES.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/Project_Management.egg-info/SOURCES.txt b/Project_Management/Project_Management.egg-info/SOURCES.txt\\n    deleted file mode 100644\\n    index eb458dd..0000000\\n    --- a/Project_Management/Project_Management.egg-info/SOURCES.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/project_inputs.egg-info/SOURCES.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:45):\\n- project_inputs/project_inputs.egg-info/SOURCES.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/project_inputs.egg-info/SOURCES.txt b/project_inputs/project_inputs.egg-info/SOURCES.txt\\n    deleted file mode 100644\\n    index eb458dd..0000000\\n    --- a/project_inputs/project_inputs.egg-info/SOURCES.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -204,9 +204,9 @@
         ]
     },
     "571fb52e234191deb4a2f01f6aa06f8bce9b8dc8": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/Project_Management.egg-info/dependency_links.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:47):\\n- Project_Management/Project_Management.egg-info/dependency_links.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/Project_Management.egg-info/dependency_links.txt b/Project_Management/Project_Management.egg-info/dependency_links.txt\\n    deleted file mode 100644\\n    index 8b13789..0000000\\n    --- a/Project_Management/Project_Management.egg-info/dependency_links.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/project_inputs.egg-info/dependency_links.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:47):\\n- project_inputs/project_inputs.egg-info/dependency_links.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/project_inputs.egg-info/dependency_links.txt b/project_inputs/project_inputs.egg-info/dependency_links.txt\\n    deleted file mode 100644\\n    index 8b13789..0000000\\n    --- a/project_inputs/project_inputs.egg-info/dependency_links.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -221,9 +221,9 @@
         ]
     },
     "d966a19b7b0e1b842d93e3b65b16975a35247bc8": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/Project_Management.egg-info/entry_points.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:48):\\n- Project_Management/Project_Management.egg-info/entry_points.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/Project_Management.egg-info/entry_points.txt b/Project_Management/Project_Management.egg-info/entry_points.txt\\n    deleted file mode 100644\\n    index 7598d60..0000000\\n    --- a/Project_Management/Project_Management.egg-info/entry_points.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/project_inputs.egg-info/entry_points.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:48):\\n- project_inputs/project_inputs.egg-info/entry_points.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/project_inputs.egg-info/entry_points.txt b/project_inputs/project_inputs.egg-info/entry_points.txt\\n    deleted file mode 100644\\n    index 7598d60..0000000\\n    --- a/project_inputs/project_inputs.egg-info/entry_points.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -238,9 +238,9 @@
         ]
     },
     "ad7faf1dc0f94878b850592e140432fecfbad243": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/Project_Management.egg-info/requires.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:50):\\n- Project_Management/Project_Management.egg-info/requires.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/Project_Management.egg-info/requires.txt b/Project_Management/Project_Management.egg-info/requires.txt\\n    deleted file mode 100644\\n    index 2ed7a74..0000000\\n    --- a/Project_Management/Project_Management.egg-info/requires.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/project_inputs.egg-info/requires.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:50):\\n- project_inputs/project_inputs.egg-info/requires.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/project_inputs.egg-info/requires.txt b/project_inputs/project_inputs.egg-info/requires.txt\\n    deleted file mode 100644\\n    index 2ed7a74..0000000\\n    --- a/project_inputs/project_inputs.egg-info/requires.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -255,9 +255,9 @@
         ]
     },
     "0fd4e33d6d94fd1dfebbbcc3ebc906f0f079b90c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/Project_Management.egg-info/top_level.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:51):\\n- Project_Management/Project_Management.egg-info/top_level.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/Project_Management.egg-info/top_level.txt b/Project_Management/Project_Management.egg-info/top_level.txt\\n    deleted file mode 100644\\n    index 8b13789..0000000\\n    --- a/Project_Management/Project_Management.egg-info/top_level.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/project_inputs.egg-info/top_level.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:51):\\n- project_inputs/project_inputs.egg-info/top_level.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/project_inputs.egg-info/top_level.txt b/project_inputs/project_inputs.egg-info/top_level.txt\\n    deleted file mode 100644\\n    index 8b13789..0000000\\n    --- a/project_inputs/project_inputs.egg-info/top_level.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -272,9 +272,9 @@
         ]
     },
     "ee9f655ca16e2ede8e34ec92a58ee69d83058b3b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TESTING_INSTRUCTIONS.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:53):\\n- Project_Management/TESTING_INSTRUCTIONS.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/TESTING_INSTRUCTIONS.md b/Project_Management/TESTING_INSTRUCTIONS.md\\n    deleted file mode 100644\\n    index 17bdf41..0000000\\n    --- a/Project_Management/TESTING_INSTRUCTIONS.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TESTING_INSTRUCTIONS.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:53):\\n- project_inputs/TESTING_INSTRUCTIONS.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/TESTING_INSTRUCTIONS.md b/project_inputs/TESTING_INSTRUCTIONS.md\\n    deleted file mode 100644\\n    index 17bdf41..0000000\\n    --- a/project_inputs/TESTING_INSTRUCTIONS.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -289,9 +289,9 @@
         ]
     },
     "18b5cf9db9a02b616ef1ae49f5bd07e8252b3ec0": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/__init__.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:55):\\n- Project_Management/__init__.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/__init__.py b/Project_Management/__init__.py\\n    deleted file mode 100644\\n    index e73194e..0000000\\n    --- a/Project_Management/__init__.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/__init__.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:55):\\n- project_inputs/__init__.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/__init__.py b/project_inputs/__init__.py\\n    deleted file mode 100644\\n    index e73194e..0000000\\n    --- a/project_inputs/__init__.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -306,9 +306,9 @@
         ]
     },
     "b972de5500ba787edf1d597715ce4f85a12dc514": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/__pycache__/__init__.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:56):\\n- Project_Management/__pycache__/__init__.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/__pycache__/__init__.cpython-312.pyc b/Project_Management/__pycache__/__init__.cpython-312.pyc\\n    deleted file mode 100644\\n    index 243d38d..0000000\\n    Binary files a/Project_Management/__pycache__/__init__.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/__pycache__/__init__.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:56):\\n- project_inputs/__pycache__/__init__.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/__pycache__/__init__.cpython-312.pyc b/project_inputs/__pycache__/__init__.cpython-312.pyc\\n    deleted file mode 100644\\n    index 243d38d..0000000\\n    Binary files a/project_inputs/__pycache__/__init__.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -323,9 +323,9 @@
         ]
     },
     "dc1669778808db76c29333d979600bbccbb10c60": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/__pycache__/cli.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:58):\\n- Project_Management/__pycache__/cli.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/__pycache__/cli.cpython-312.pyc b/Project_Management/__pycache__/cli.cpython-312.pyc\\n    deleted file mode 100644\\n    index 0cd3b2c..0000000\\n    Binary files a/Project_Management/__pycache__/cli.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/__pycache__/cli.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:40:58):\\n- project_inputs/__pycache__/cli.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/__pycache__/cli.cpython-312.pyc b/project_inputs/__pycache__/cli.cpython-312.pyc\\n    deleted file mode 100644\\n    index 0cd3b2c..0000000\\n    Binary files a/project_inputs/__pycache__/cli.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -340,9 +340,9 @@
         ]
     },
     "ffbc06c87b0227fa0a32a960f8178975e87bc16a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/__pycache__/input_handler.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:00):\\n- Project_Management/__pycache__/input_handler.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/__pycache__/input_handler.cpython-312.pyc b/Project_Management/__pycache__/input_handler.cpython-312.pyc\\n    deleted file mode 100644\\n    index abeadd9..0000000\\n    Binary files a/Project_Management/__pycache__/input_handler.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/__pycache__/input_handler.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:00):\\n- project_inputs/__pycache__/input_handler.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/__pycache__/input_handler.cpython-312.pyc b/project_inputs/__pycache__/input_handler.cpython-312.pyc\\n    deleted file mode 100644\\n    index abeadd9..0000000\\n    Binary files a/project_inputs/__pycache__/input_handler.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -357,9 +357,9 @@
         ]
     },
     "68ae9e162edc100628c201328a01567ca1f78e0b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/__pycache__/main.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:01):\\n- Project_Management/__pycache__/main.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/__pycache__/main.cpython-312.pyc b/Project_Management/__pycache__/main.cpython-312.pyc\\n    deleted file mode 100644\\n    index ffa6414..0000000\\n    Binary files a/Project_Management/__pycache__/main.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/__pycache__/main.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:01):\\n- project_inputs/__pycache__/main.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/__pycache__/main.cpython-312.pyc b/project_inputs/__pycache__/main.cpython-312.pyc\\n    deleted file mode 100644\\n    index ffa6414..0000000\\n    Binary files a/project_inputs/__pycache__/main.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -374,9 +374,9 @@
         ]
     },
     "adabcedc154f0763a9611d121c8cf4e477c84dbb": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/__pycache__/reporting.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:03):\\n- Project_Management/__pycache__/reporting.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/__pycache__/reporting.cpython-312.pyc b/Project_Management/__pycache__/reporting.cpython-312.pyc\\n    deleted file mode 100644\\n    index 8e1e7e7..0000000\\n    Binary files a/Project_Management/__pycache__/reporting.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/__pycache__/reporting.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:03):\\n- project_inputs/__pycache__/reporting.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/__pycache__/reporting.cpython-312.pyc b/project_inputs/__pycache__/reporting.cpython-312.pyc\\n    deleted file mode 100644\\n    index 8e1e7e7..0000000\\n    Binary files a/project_inputs/__pycache__/reporting.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -391,9 +391,9 @@
         ]
     },
     "b1aeab1a794e47bbb4613a784ac6a56048bc9a8c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/cli.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:04):\\n- Project_Management/cli.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/cli.py b/Project_Management/cli.py\\n    deleted file mode 100644\\n    index 1e75649..0000000\\n    --- a/Project_Management/cli.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/cli.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:04):\\n- project_inputs/cli.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/cli.py b/project_inputs/cli.py\\n    deleted file mode 100644\\n    index 1e75649..0000000\\n    --- a/project_inputs/cli.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -408,9 +408,9 @@
         ]
     },
     "e18beac3a6f67ccf73502d2955675f0a1a6ad49b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/config/project_management_state.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:06):\\n- Project_Management/config/project_management_state.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/config/project_management_state.txt b/Project_Management/config/project_management_state.txt\\n    deleted file mode 100644\\n    index 7d559fa..0000000\\n    --- a/Project_Management/config/project_management_state.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/config/project_management_state.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:06):\\n- project_inputs/config/project_management_state.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/config/project_management_state.txt b/project_inputs/config/project_management_state.txt\\n    deleted file mode 100644\\n    index 7d559fa..0000000\\n    --- a/project_inputs/config/project_management_state.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -425,9 +425,9 @@
         ]
     },
     "d72358e3d5b431f9909c07bd115b5d99f44d1e8e": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/config/requirements.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:08):\\n- Project_Management/config/requirements.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/config/requirements.txt b/Project_Management/config/requirements.txt\\n    deleted file mode 100644\\n    index 88e913a..0000000\\n    --- a/Project_Management/config/requirements.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/config/requirements.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:08):\\n- project_inputs/config/requirements.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/config/requirements.txt b/project_inputs/config/requirements.txt\\n    deleted file mode 100644\\n    index 88e913a..0000000\\n    --- a/project_inputs/config/requirements.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -442,9 +442,9 @@
         ]
     },
     "1e70ae1e127ad21f9c33721250335376efed9921": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/config/secret.key",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:09):\\n- Project_Management/config/secret.key: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/config/secret.key b/Project_Management/config/secret.key\\n    deleted file mode 100644\\n    index 7b4b4a4..0000000\\n    --- a/Project_Management/config/secret.key\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/config/secret.key",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:09):\\n- project_inputs/config/secret.key: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/config/secret.key b/project_inputs/config/secret.key\\n    deleted file mode 100644\\n    index 7b4b4a4..0000000\\n    --- a/project_inputs/config/secret.key\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -459,9 +459,9 @@
         ]
     },
     "56bb4f347c687fcd1486c54cb6c35dbc27a5cd04": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/dashboard_and_reports_plan.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:11):\\n- Project_Management/docs/dashboard_and_reports_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/dashboard_and_reports_plan.md b/Project_Management/docs/dashboard_and_reports_plan.md\\n    deleted file mode 100644\\n    index 54e071d..0000000\\n    --- a/Project_Management/docs/dashboard_and_reports_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/dashboard_and_reports_plan.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:11):\\n- project_inputs/docs/dashboard_and_reports_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/dashboard_and_reports_plan.md b/project_inputs/docs/dashboard_and_reports_plan.md\\n    deleted file mode 100644\\n    index 54e071d..0000000\\n    --- a/project_inputs/docs/dashboard_and_reports_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -476,9 +476,9 @@
         ]
     },
     "d552773b1ce396081cd273e91b65a0c088c1cf9f": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/detailed_implementation_plan.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:12):\\n- Project_Management/docs/detailed_implementation_plan.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/detailed_implementation_plan.txt b/Project_Management/docs/detailed_implementation_plan.txt\\n    deleted file mode 100644\\n    index 037abfa..0000000\\n    --- a/Project_Management/docs/detailed_implementation_plan.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/detailed_implementation_plan.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:12):\\n- project_inputs/docs/detailed_implementation_plan.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/detailed_implementation_plan.txt b/project_inputs/docs/detailed_implementation_plan.txt\\n    deleted file mode 100644\\n    index 037abfa..0000000\\n    --- a/project_inputs/docs/detailed_implementation_plan.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -493,9 +493,9 @@
         ]
     },
     "976b78ab8c429743159d0624025d857ec4eeffbc": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/detailed_wbs.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:14):\\n- Project_Management/docs/detailed_wbs.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/detailed_wbs.md b/Project_Management/docs/detailed_wbs.md\\n    deleted file mode 100644\\n    index 607ae7c..0000000\\n    --- a/Project_Management/docs/detailed_wbs.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/detailed_wbs.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:14):\\n- project_inputs/docs/detailed_wbs.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/detailed_wbs.md b/project_inputs/docs/detailed_wbs.md\\n    deleted file mode 100644\\n    index 607ae7c..0000000\\n    --- a/project_inputs/docs/detailed_wbs.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -510,9 +510,9 @@
         ]
     },
     "a0b9b52bff62e18be9d6501cde8a7427bc1ff0c1": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/importance_urgency_priority_instructions.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:15):\\n- Project_Management/docs/importance_urgency_priority_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/importance_urgency_priority_instructions.md b/Project_Management/docs/importance_urgency_priority_instructions.md\\n    deleted file mode 100644\\n    index 5d25152..0000000\\n    --- a/Project_Management/docs/importance_urgency_priority_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/importance_urgency_priority_instructions.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:15):\\n- project_inputs/docs/importance_urgency_priority_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/importance_urgency_priority_instructions.md b/project_inputs/docs/importance_urgency_priority_instructions.md\\n    deleted file mode 100644\\n    index 5d25152..0000000\\n    --- a/project_inputs/docs/importance_urgency_priority_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -527,9 +527,9 @@
         ]
     },
     "23651cddb404d2a2a284cfef6b046b68de9446ed": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/project_management/progress_dashboard.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:17):\\n- Project_Management/docs/project_management/progress_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/project_management/progress_dashboard.md b/Project_Management/docs/project_management/progress_dashboard.md\\n    deleted file mode 100644\\n    index e69de29..0000000\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/project_management/progress_dashboard.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:17):\\n- project_inputs/docs/project_management/progress_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/project_management/progress_dashboard.md b/project_inputs/docs/project_management/progress_dashboard.md\\n    deleted file mode 100644\\n    index e69de29..0000000\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -544,9 +544,9 @@
         ]
     },
     "f32179ad375d109d6618a81ea72759f4552911de": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/project_management/project_management.db",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:19):\\n- Project_Management/docs/project_management/project_management.db: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/project_management/project_management.db b/Project_Management/docs/project_management/project_management.db\\n    deleted file mode 100644\\n    index baf4552..0000000\\n    Binary files a/Project_Management/docs/project_management/project_management.db and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/project_management/project_management.db",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:19):\\n- project_inputs/docs/project_management/project_management.db: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/project_management/project_management.db b/project_inputs/docs/project_management/project_management.db\\n    deleted file mode 100644\\n    index baf4552..0000000\\n    Binary files a/project_inputs/docs/project_management/project_management.db and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -561,9 +561,9 @@
         ]
     },
     "e35f073a056c0cb34b305303e272d8ed57d3c585": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/project_management/wbs_scores.json",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:20):\\n- Project_Management/docs/project_management/wbs_scores.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/project_management/wbs_scores.json b/Project_Management/docs/project_management/wbs_scores.json\\n    deleted file mode 100644\\n    index aee4116..0000000\\n    --- a/Project_Management/docs/project_management/wbs_scores.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/project_management/wbs_scores.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:20):\\n- project_inputs/docs/project_management/wbs_scores.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/project_management/wbs_scores.json b/project_inputs/docs/project_management/wbs_scores.json\\n    deleted file mode 100644\\n    index aee4116..0000000\\n    --- a/project_inputs/docs/project_management/wbs_scores.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -578,9 +578,9 @@
         ]
     },
     "6b26078c2e984807ec374a33a6413b17b72e1bf4": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/task_resource_allocation.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:22):\\n- Project_Management/docs/task_resource_allocation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/task_resource_allocation.md b/Project_Management/docs/task_resource_allocation.md\\n    deleted file mode 100644\\n    index 8e43f0c..0000000\\n    --- a/Project_Management/docs/task_resource_allocation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/task_resource_allocation.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:22):\\n- project_inputs/docs/task_resource_allocation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/task_resource_allocation.md b/project_inputs/docs/task_resource_allocation.md\\n    deleted file mode 100644\\n    index 8e43f0c..0000000\\n    --- a/project_inputs/docs/task_resource_allocation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -595,9 +595,9 @@
         ]
     },
     "f48ea10e01ecc5a5aaf584242e5f278ae8610bea": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/workflow_definition.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:23):\\n- Project_Management/docs/workflow_definition.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/docs/workflow_definition.txt b/Project_Management/docs/workflow_definition.txt\\n    deleted file mode 100644\\n    index 226f1d2..0000000\\n    --- a/Project_Management/docs/workflow_definition.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/workflow_definition.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:23):\\n- project_inputs/docs/workflow_definition.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/docs/workflow_definition.txt b/project_inputs/docs/workflow_definition.txt\\n    deleted file mode 100644\\n    index 226f1d2..0000000\\n    --- a/project_inputs/docs/workflow_definition.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -612,9 +612,9 @@
         ]
     },
     "c6004da918b35dc989ea6f26dd9e897cd6b84035": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/implementation_plan.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:25):\\n- Project_Management/implementation_plan.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/implementation_plan.txt b/Project_Management/implementation_plan.txt\\n    deleted file mode 100644\\n    index c647bb0..0000000\\n    --- a/Project_Management/implementation_plan.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/implementation_plan.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:25):\\n- project_inputs/implementation_plan.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/implementation_plan.txt b/project_inputs/implementation_plan.txt\\n    deleted file mode 100644\\n    index c647bb0..0000000\\n    --- a/project_inputs/implementation_plan.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -629,9 +629,9 @@
         ]
     },
     "4486d0e5b4d40ed2153d723e3ce6ae3f6cf33aa7": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/main.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:26):\\n- Project_Management/main.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/main.py b/Project_Management/main.py\\n    deleted file mode 100644\\n    index a249628..0000000\\n    --- a/Project_Management/main.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/main.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:26):\\n- project_inputs/main.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/main.py b/project_inputs/main.py\\n    deleted file mode 100644\\n    index a249628..0000000\\n    --- a/project_inputs/main.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -646,9 +646,9 @@
         ]
     },
     "fe7b5afa7b2c28cbc558a1ca3f4d98178746b372": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__init__.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:28):\\n- Project_Management/modules/__init__.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__init__.py b/Project_Management/modules/__init__.py\\n    deleted file mode 100644\\n    index e55eb30..0000000\\n    --- a/Project_Management/modules/__init__.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__init__.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:28):\\n- project_inputs/modules/__init__.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__init__.py b/project_inputs/modules/__init__.py\\n    deleted file mode 100644\\n    index e55eb30..0000000\\n    --- a/project_inputs/modules/__init__.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -663,9 +663,9 @@
         ]
     },
     "a1577569eb617952361c5401a350794b3121346a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/__init__.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:29):\\n- Project_Management/modules/__pycache__/__init__.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/__init__.cpython-312.pyc b/Project_Management/modules/__pycache__/__init__.cpython-312.pyc\\n    deleted file mode 100644\\n    index c10a585..0000000\\n    Binary files a/Project_Management/modules/__pycache__/__init__.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/__init__.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:29):\\n- project_inputs/modules/__pycache__/__init__.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/__init__.cpython-312.pyc b/project_inputs/modules/__pycache__/__init__.cpython-312.pyc\\n    deleted file mode 100644\\n    index c10a585..0000000\\n    Binary files a/project_inputs/modules/__pycache__/__init__.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -680,9 +680,9 @@
         ]
     },
     "8c616c2094b5acba426cc91e7411037e49065cd5": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/dashboards_reports.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:31):\\n- Project_Management/modules/__pycache__/dashboards_reports.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/dashboards_reports.cpython-312.pyc b/Project_Management/modules/__pycache__/dashboards_reports.cpython-312.pyc\\n    deleted file mode 100644\\n    index 9a64d36..0000000\\n    Binary files a/Project_Management/modules/__pycache__/dashboards_reports.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/dashboards_reports.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:31):\\n- project_inputs/modules/__pycache__/dashboards_reports.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/dashboards_reports.cpython-312.pyc b/project_inputs/modules/__pycache__/dashboards_reports.cpython-312.pyc\\n    deleted file mode 100644\\n    index 9a64d36..0000000\\n    Binary files a/project_inputs/modules/__pycache__/dashboards_reports.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -697,9 +697,9 @@
         ]
     },
     "6945b607bba643c7fe4fa8fdd8b01b0362467a33": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/input_handler.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:32):\\n- Project_Management/modules/__pycache__/input_handler.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/input_handler.cpython-312.pyc b/Project_Management/modules/__pycache__/input_handler.cpython-312.pyc\\n    deleted file mode 100644\\n    index 7ff301e..0000000\\n    Binary files a/Project_Management/modules/__pycache__/input_handler.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/input_handler.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:32):\\n- project_inputs/modules/__pycache__/input_handler.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/input_handler.cpython-312.pyc b/project_inputs/modules/__pycache__/input_handler.cpython-312.pyc\\n    deleted file mode 100644\\n    index 7ff301e..0000000\\n    Binary files a/project_inputs/modules/__pycache__/input_handler.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -714,9 +714,9 @@
         ]
     },
     "2f5ffc1389ba8c578cd7892fdada542b828bd17c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/progress_calculator.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:34):\\n- Project_Management/modules/__pycache__/progress_calculator.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/progress_calculator.cpython-312.pyc b/Project_Management/modules/__pycache__/progress_calculator.cpython-312.pyc\\n    deleted file mode 100644\\n    index 2f31071..0000000\\n    Binary files a/Project_Management/modules/__pycache__/progress_calculator.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/progress_calculator.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:34):\\n- project_inputs/modules/__pycache__/progress_calculator.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/progress_calculator.cpython-312.pyc b/project_inputs/modules/__pycache__/progress_calculator.cpython-312.pyc\\n    deleted file mode 100644\\n    index 2f31071..0000000\\n    Binary files a/project_inputs/modules/__pycache__/progress_calculator.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -731,9 +731,9 @@
         ]
     },
     "b6c599ce21f2af2ad075c703277be45e6bf3301b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/project_management_system.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:35):\\n- Project_Management/modules/__pycache__/project_management_system.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/project_management_system.cpython-312.pyc b/Project_Management/modules/__pycache__/project_management_system.cpython-312.pyc\\n    deleted file mode 100644\\n    index f9c02b9..0000000\\n    Binary files a/Project_Management/modules/__pycache__/project_management_system.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/project_management_system.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:35):\\n- project_inputs/modules/__pycache__/project_management_system.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/project_management_system.cpython-312.pyc b/project_inputs/modules/__pycache__/project_management_system.cpython-312.pyc\\n    deleted file mode 100644\\n    index f9c02b9..0000000\\n    Binary files a/project_inputs/modules/__pycache__/project_management_system.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -748,9 +748,9 @@
         ]
     },
     "98454ecee4b1a25f57fc6b1c3bebe266b7bb5247": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/setup_automation.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:37):\\n- Project_Management/modules/__pycache__/setup_automation.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/setup_automation.cpython-312.pyc b/Project_Management/modules/__pycache__/setup_automation.cpython-312.pyc\\n    deleted file mode 100644\\n    index 9deb740..0000000\\n    Binary files a/Project_Management/modules/__pycache__/setup_automation.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/setup_automation.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:37):\\n- project_inputs/modules/__pycache__/setup_automation.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/setup_automation.cpython-312.pyc b/project_inputs/modules/__pycache__/setup_automation.cpython-312.pyc\\n    deleted file mode 100644\\n    index 9deb740..0000000\\n    Binary files a/project_inputs/modules/__pycache__/setup_automation.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -765,9 +765,9 @@
         ]
     },
     "05d6b071021088220c0dda4e89742af822218e7d": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__pycache__/task_management.cpython-312.pyc",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:39):\\n- Project_Management/modules/__pycache__/task_management.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/__pycache__/task_management.cpython-312.pyc b/Project_Management/modules/__pycache__/task_management.cpython-312.pyc\\n    deleted file mode 100644\\n    index 66d0c7e..0000000\\n    Binary files a/Project_Management/modules/__pycache__/task_management.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__pycache__/task_management.cpython-312.pyc",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:39):\\n- project_inputs/modules/__pycache__/task_management.cpython-312.pyc: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/__pycache__/task_management.cpython-312.pyc b/project_inputs/modules/__pycache__/task_management.cpython-312.pyc\\n    deleted file mode 100644\\n    index 66d0c7e..0000000\\n    Binary files a/project_inputs/modules/__pycache__/task_management.cpython-312.pyc and /dev/null differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -782,9 +782,9 @@
         ]
     },
     "6d196a0bc37770a47dc3f33e137aa7c84f3858a4": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/auto_commit.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:40):\\n- Project_Management/modules/auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/auto_commit.py b/Project_Management/modules/auto_commit.py\\n    deleted file mode 100644\\n    index 18590c8..0000000\\n    --- a/Project_Management/modules/auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/auto_commit.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:40):\\n- project_inputs/modules/auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/auto_commit.py b/project_inputs/modules/auto_commit.py\\n    deleted file mode 100644\\n    index 18590c8..0000000\\n    --- a/project_inputs/modules/auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -799,9 +799,9 @@
         ]
     },
     "cc030adad6fbe28194fe20f30d2089ab5cbf2a6a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/build_full_database.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:41):\\n- Project_Management/modules/build_full_database.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/build_full_database.py b/Project_Management/modules/build_full_database.py\\n    deleted file mode 100644\\n    index eab052e..0000000\\n    --- a/Project_Management/modules/build_full_database.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/build_full_database.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:41):\\n- project_inputs/modules/build_full_database.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/build_full_database.py b/project_inputs/modules/build_full_database.py\\n    deleted file mode 100644\\n    index eab052e..0000000\\n    --- a/project_inputs/modules/build_full_database.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -816,9 +816,9 @@
         ]
     },
     "59beccfa2e5d50cdb855007b4060881121996521": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/check_progress_dashboard_update.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:43):\\n- Project_Management/modules/check_progress_dashboard_update.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/check_progress_dashboard_update.py b/Project_Management/modules/check_progress_dashboard_update.py\\n    deleted file mode 100644\\n    index 3bc87a7..0000000\\n    --- a/Project_Management/modules/check_progress_dashboard_update.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/check_progress_dashboard_update.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:43):\\n- project_inputs/modules/check_progress_dashboard_update.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/check_progress_dashboard_update.py b/project_inputs/modules/check_progress_dashboard_update.py\\n    deleted file mode 100644\\n    index 3bc87a7..0000000\\n    --- a/project_inputs/modules/check_progress_dashboard_update.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -833,9 +833,9 @@
         ]
     },
     "1a6bfca1ad0d05cf85764d92bbef91a25b6aba13": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/cli.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:44):\\n- Project_Management/modules/cli.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/cli.py b/Project_Management/modules/cli.py\\n    deleted file mode 100644\\n    index cb1242d..0000000\\n    --- a/Project_Management/modules/cli.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/cli.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:44):\\n- project_inputs/modules/cli.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/cli.py b/project_inputs/modules/cli.py\\n    deleted file mode 100644\\n    index cb1242d..0000000\\n    --- a/project_inputs/modules/cli.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -850,9 +850,9 @@
         ]
     },
     "82bcbeb3f7a9c87283c7e3c69f21637dfe36ef71": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/cli_commands.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:46):\\n- Project_Management/modules/cli_commands.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/cli_commands.py b/Project_Management/modules/cli_commands.py\\n    deleted file mode 100644\\n    index 52c330c..0000000\\n    --- a/Project_Management/modules/cli_commands.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/cli_commands.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:46):\\n- project_inputs/modules/cli_commands.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/cli_commands.py b/project_inputs/modules/cli_commands.py\\n    deleted file mode 100644\\n    index 52c330c..0000000\\n    --- a/project_inputs/modules/cli_commands.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -867,9 +867,9 @@
         ]
     },
     "2cce27b61c62133dc0ef6256373b248f25832eb7": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/config_and_token_management.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:47):\\n- Project_Management/modules/config_and_token_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/config_and_token_management.py b/Project_Management/modules/config_and_token_management.py\\n    deleted file mode 100644\\n    index fa4ebda..0000000\\n    --- a/Project_Management/modules/config_and_token_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/config_and_token_management.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:47):\\n- project_inputs/modules/config_and_token_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/config_and_token_management.py b/project_inputs/modules/config_and_token_management.py\\n    deleted file mode 100644\\n    index fa4ebda..0000000\\n    --- a/project_inputs/modules/config_and_token_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -884,9 +884,9 @@
         ]
     },
     "8f203d2565c4a42b874a5fc59a2d6abcba46612a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/dashboards_reports.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:49):\\n- Project_Management/modules/dashboards_reports.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/dashboards_reports.py b/Project_Management/modules/dashboards_reports.py\\n    deleted file mode 100644\\n    index 8d10eb7..0000000\\n    --- a/Project_Management/modules/dashboards_reports.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/dashboards_reports.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:49):\\n- project_inputs/modules/dashboards_reports.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/dashboards_reports.py b/project_inputs/modules/dashboards_reports.py\\n    deleted file mode 100644\\n    index 8d10eb7..0000000\\n    --- a/project_inputs/modules/dashboards_reports.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -901,9 +901,9 @@
         ]
     },
     "326b639f2a3efda45eb59c6d45bc4e6fa7ddd8cb": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/db_data_collector.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:50):\\n- Project_Management/modules/db_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/db_data_collector.py b/Project_Management/modules/db_data_collector.py\\n    deleted file mode 100644\\n    index c5b62ff..0000000\\n    --- a/Project_Management/modules/db_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/db_data_collector.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:50):\\n- project_inputs/modules/db_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/db_data_collector.py b/project_inputs/modules/db_data_collector.py\\n    deleted file mode 100644\\n    index c5b62ff..0000000\\n    --- a/project_inputs/modules/db_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -918,9 +918,9 @@
         ]
     },
     "ccffff0800314e49b5d85757377a63dbd924752d": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/db_schema_update.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:52):\\n- Project_Management/modules/db_schema_update.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/db_schema_update.py b/Project_Management/modules/db_schema_update.py\\n    deleted file mode 100644\\n    index b45e6e3..0000000\\n    --- a/Project_Management/modules/db_schema_update.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/db_schema_update.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:52):\\n- project_inputs/modules/db_schema_update.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/db_schema_update.py b/project_inputs/modules/db_schema_update.py\\n    deleted file mode 100644\\n    index b45e6e3..0000000\\n    --- a/project_inputs/modules/db_schema_update.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -935,9 +935,9 @@
         ]
     },
     "0bdeaca30d1ee34c8fb117c9bce4655000601065": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/do_important_tasks.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:53):\\n- Project_Management/modules/do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/do_important_tasks.py b/Project_Management/modules/do_important_tasks.py\\n    deleted file mode 100644\\n    index 2ecb5a5..0000000\\n    --- a/Project_Management/modules/do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/do_important_tasks.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:53):\\n- project_inputs/modules/do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/do_important_tasks.py b/project_inputs/modules/do_important_tasks.py\\n    deleted file mode 100644\\n    index 2ecb5a5..0000000\\n    --- a/project_inputs/modules/do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -952,9 +952,9 @@
         ]
     },
     "2a1a0b195ab038fc78077529cc84953ce9fba096": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/do_urgent_tasks.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:55):\\n- Project_Management/modules/do_urgent_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/do_urgent_tasks.py b/Project_Management/modules/do_urgent_tasks.py\\n    deleted file mode 100644\\n    index 91154f0..0000000\\n    --- a/Project_Management/modules/do_urgent_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/do_urgent_tasks.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:55):\\n- project_inputs/modules/do_urgent_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/do_urgent_tasks.py b/project_inputs/modules/do_urgent_tasks.py\\n    deleted file mode 100644\\n    index 91154f0..0000000\\n    --- a/project_inputs/modules/do_urgent_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -969,9 +969,9 @@
         ]
     },
     "99b4d221f441f75e04b4cf3694b252ae49af34cf": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/extend_database_for_scrum.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:56):\\n- Project_Management/modules/extend_database_for_scrum.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/extend_database_for_scrum.py b/Project_Management/modules/extend_database_for_scrum.py\\n    deleted file mode 100644\\n    index 4ad4071..0000000\\n    --- a/Project_Management/modules/extend_database_for_scrum.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/extend_database_for_scrum.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:56):\\n- project_inputs/modules/extend_database_for_scrum.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/extend_database_for_scrum.py b/project_inputs/modules/extend_database_for_scrum.py\\n    deleted file mode 100644\\n    index 4ad4071..0000000\\n    --- a/project_inputs/modules/extend_database_for_scrum.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -986,9 +986,9 @@
         ]
     },
     "5c9691737e12e16b66191432fc49e4fe7ca6d7e2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/feature_weights.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:58):\\n- Project_Management/modules/feature_weights.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/feature_weights.py b/Project_Management/modules/feature_weights.py\\n    deleted file mode 100644\\n    index b6db7ba..0000000\\n    --- a/Project_Management/modules/feature_weights.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/feature_weights.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:58):\\n- project_inputs/modules/feature_weights.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/feature_weights.py b/project_inputs/modules/feature_weights.py\\n    deleted file mode 100644\\n    index b6db7ba..0000000\\n    --- a/project_inputs/modules/feature_weights.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1003,9 +1003,9 @@
         ]
     },
     "f2016244b27ba5a5f2e4a2b87e13bb03c06083b8": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/git_progress_updater.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:59):\\n- Project_Management/modules/git_progress_updater.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/git_progress_updater.py b/Project_Management/modules/git_progress_updater.py\\n    deleted file mode 100644\\n    index a502263..0000000\\n    --- a/Project_Management/modules/git_progress_updater.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/git_progress_updater.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:41:59):\\n- project_inputs/modules/git_progress_updater.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/git_progress_updater.py b/project_inputs/modules/git_progress_updater.py\\n    deleted file mode 100644\\n    index a502263..0000000\\n    --- a/project_inputs/modules/git_progress_updater.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1020,9 +1020,9 @@
         ]
     },
     "1555ab384523a50bb26d4f32f8734f4f9f02821c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/github_integration.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:01):\\n- Project_Management/modules/github_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/github_integration.py b/Project_Management/modules/github_integration.py\\n    deleted file mode 100644\\n    index 399d541..0000000\\n    --- a/Project_Management/modules/github_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/github_integration.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:01):\\n- project_inputs/modules/github_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/github_integration.py b/project_inputs/modules/github_integration.py\\n    deleted file mode 100644\\n    index 399d541..0000000\\n    --- a/project_inputs/modules/github_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1037,9 +1037,9 @@
         ]
     },
     "39ab88019480a064d5ca73b570713cdab699f22d": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/import_wbs_to_tasks.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:02):\\n- Project_Management/modules/import_wbs_to_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/import_wbs_to_tasks.py b/Project_Management/modules/import_wbs_to_tasks.py\\n    deleted file mode 100644\\n    index 7772485..0000000\\n    --- a/Project_Management/modules/import_wbs_to_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/import_wbs_to_tasks.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:02):\\n- project_inputs/modules/import_wbs_to_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/import_wbs_to_tasks.py b/project_inputs/modules/import_wbs_to_tasks.py\\n    deleted file mode 100644\\n    index 7772485..0000000\\n    --- a/project_inputs/modules/import_wbs_to_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1054,9 +1054,9 @@
         ]
     },
     "23bead130bad3b4c45ebc6d8c6af6f35625ad0f7": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/importance_urgency_calculator.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:04):\\n- Project_Management/modules/importance_urgency_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/importance_urgency_calculator.py b/Project_Management/modules/importance_urgency_calculator.py\\n    deleted file mode 100644\\n    index e0b6304..0000000\\n    --- a/Project_Management/modules/importance_urgency_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/importance_urgency_calculator.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:04):\\n- project_inputs/modules/importance_urgency_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/importance_urgency_calculator.py b/project_inputs/modules/importance_urgency_calculator.py\\n    deleted file mode 100644\\n    index e0b6304..0000000\\n    --- a/project_inputs/modules/importance_urgency_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1071,9 +1071,9 @@
         ]
     },
     "1f21c86b8f715c28c2973283d74fe45c039276b7": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/input_handler.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:05):\\n- Project_Management/modules/input_handler.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/input_handler.py b/Project_Management/modules/input_handler.py\\n    deleted file mode 100644\\n    index 6d9ea9a..0000000\\n    --- a/Project_Management/modules/input_handler.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/input_handler.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:05):\\n- project_inputs/modules/input_handler.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/input_handler.py b/project_inputs/modules/input_handler.py\\n    deleted file mode 100644\\n    index 6d9ea9a..0000000\\n    --- a/project_inputs/modules/input_handler.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1088,9 +1088,9 @@
         ]
     },
     "d7d6343407d08d2aceac35bdb4405796dc7f19cb": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/json_data_linker.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:07):\\n- Project_Management/modules/json_data_linker.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/json_data_linker.py b/Project_Management/modules/json_data_linker.py\\n    deleted file mode 100644\\n    index d8d39e6..0000000\\n    --- a/Project_Management/modules/json_data_linker.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/json_data_linker.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:07):\\n- project_inputs/modules/json_data_linker.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/json_data_linker.py b/project_inputs/modules/json_data_linker.py\\n    deleted file mode 100644\\n    index d8d39e6..0000000\\n    --- a/project_inputs/modules/json_data_linker.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1105,9 +1105,9 @@
         ]
     },
     "0480dc481800b36f59d90074cac0bf4d47868fe6": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/progress_calculator.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:08):\\n- Project_Management/modules/progress_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/progress_calculator.py b/Project_Management/modules/progress_calculator.py\\n    deleted file mode 100644\\n    index 247c7e7..0000000\\n    --- a/Project_Management/modules/progress_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/progress_calculator.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:08):\\n- project_inputs/modules/progress_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/progress_calculator.py b/project_inputs/modules/progress_calculator.py\\n    deleted file mode 100644\\n    index 247c7e7..0000000\\n    --- a/project_inputs/modules/progress_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1122,9 +1122,9 @@
         ]
     },
     "35e5afbc1aca98bca13890daccb1e384eea07407": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/progress_data_generator.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:10):\\n- Project_Management/modules/progress_data_generator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/progress_data_generator.py b/Project_Management/modules/progress_data_generator.py\\n    deleted file mode 100644\\n    index 8813ef9..0000000\\n    --- a/Project_Management/modules/progress_data_generator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/progress_data_generator.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:10):\\n- project_inputs/modules/progress_data_generator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/progress_data_generator.py b/project_inputs/modules/progress_data_generator.py\\n    deleted file mode 100644\\n    index 8813ef9..0000000\\n    --- a/project_inputs/modules/progress_data_generator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1139,9 +1139,9 @@
         ]
     },
     "969c03acf6635f87f66b81440b6c2df4a3b92303": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/progress_report.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:11):\\n- Project_Management/modules/progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/progress_report.py b/Project_Management/modules/progress_report.py\\n    deleted file mode 100644\\n    index f4489a6..0000000\\n    --- a/Project_Management/modules/progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/progress_report.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:11):\\n- project_inputs/modules/progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/progress_report.py b/project_inputs/modules/progress_report.py\\n    deleted file mode 100644\\n    index f4489a6..0000000\\n    --- a/project_inputs/modules/progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1156,9 +1156,9 @@
         ]
     },
     "57e36b8f47d287f0eb4f1e70bc56e0cd2769c854": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/project_management_system.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:13):\\n- Project_Management/modules/project_management_system.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/project_management_system.py b/Project_Management/modules/project_management_system.py\\n    deleted file mode 100644\\n    index 70b896d..0000000\\n    --- a/Project_Management/modules/project_management_system.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/project_management_system.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:13):\\n- project_inputs/modules/project_management_system.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/project_management_system.py b/project_inputs/modules/project_management_system.py\\n    deleted file mode 100644\\n    index 70b896d..0000000\\n    --- a/project_inputs/modules/project_management_system.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1173,9 +1173,9 @@
         ]
     },
     "28e9ec3c0bb169b43559c2e19741843fea5e7d1a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/reporting.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:14):\\n- Project_Management/modules/reporting.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/reporting.py b/Project_Management/modules/reporting.py\\n    deleted file mode 100644\\n    index 9cb7359..0000000\\n    --- a/Project_Management/modules/reporting.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/reporting.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:14):\\n- project_inputs/modules/reporting.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/reporting.py b/project_inputs/modules/reporting.py\\n    deleted file mode 100644\\n    index 9cb7359..0000000\\n    --- a/project_inputs/modules/reporting.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1190,9 +1190,9 @@
         ]
     },
     "e19b695da489cdaae375d0658623cea18904d9f9": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/reports/importance_urgency_report.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:16):\\n- Project_Management/modules/reports/importance_urgency_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/reports/importance_urgency_report.py b/Project_Management/modules/reports/importance_urgency_report.py\\n    deleted file mode 100644\\n    index 2cd2069..0000000\\n    --- a/Project_Management/modules/reports/importance_urgency_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/reports/importance_urgency_report.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:16):\\n- project_inputs/modules/reports/importance_urgency_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/reports/importance_urgency_report.py b/project_inputs/modules/reports/importance_urgency_report.py\\n    deleted file mode 100644\\n    index 2cd2069..0000000\\n    --- a/project_inputs/modules/reports/importance_urgency_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1207,9 +1207,9 @@
         ]
     },
     "f6965de1614e90cfa76a908812ad23461e61fbc1": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/reports/progress_report.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:18):\\n- Project_Management/modules/reports/progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/reports/progress_report.py b/Project_Management/modules/reports/progress_report.py\\n    deleted file mode 100644\\n    index 3354b12..0000000\\n    --- a/Project_Management/modules/reports/progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/reports/progress_report.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:18):\\n- project_inputs/modules/reports/progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/reports/progress_report.py b/project_inputs/modules/reports/progress_report.py\\n    deleted file mode 100644\\n    index 3354b12..0000000\\n    --- a/project_inputs/modules/reports/progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1224,9 +1224,9 @@
         ]
     },
     "07f7b91810baf8ded414b08bc822e6a3d8661a46": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/resource_leveling.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:19):\\n- Project_Management/modules/resource_leveling.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/resource_leveling.py b/Project_Management/modules/resource_leveling.py\\n    deleted file mode 100644\\n    index 7db3759..0000000\\n    --- a/Project_Management/modules/resource_leveling.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/resource_leveling.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:19):\\n- project_inputs/modules/resource_leveling.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/resource_leveling.py b/project_inputs/modules/resource_leveling.py\\n    deleted file mode 100644\\n    index 7db3759..0000000\\n    --- a/project_inputs/modules/resource_leveling.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1241,9 +1241,9 @@
         ]
     },
     "b032b92dc1acc220650522d9d339d00d37811bc8": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/setup_automation.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:21):\\n- Project_Management/modules/setup_automation.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/setup_automation.py b/Project_Management/modules/setup_automation.py\\n    deleted file mode 100644\\n    index 76f4c5d..0000000\\n    --- a/Project_Management/modules/setup_automation.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/setup_automation.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:21):\\n- project_inputs/modules/setup_automation.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/setup_automation.py b/project_inputs/modules/setup_automation.py\\n    deleted file mode 100644\\n    index 76f4c5d..0000000\\n    --- a/project_inputs/modules/setup_automation.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1258,9 +1258,9 @@
         ]
     },
     "2ded999a34e26a1fce6c0dbedbc765bc37e4504e": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/setup_initialization.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:22):\\n- Project_Management/modules/setup_initialization.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/setup_initialization.py b/Project_Management/modules/setup_initialization.py\\n    deleted file mode 100644\\n    index 7f826ad..0000000\\n    --- a/Project_Management/modules/setup_initialization.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/setup_initialization.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:22):\\n- project_inputs/modules/setup_initialization.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/setup_initialization.py b/project_inputs/modules/setup_initialization.py\\n    deleted file mode 100644\\n    index 7f826ad..0000000\\n    --- a/project_inputs/modules/setup_initialization.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1275,9 +1275,9 @@
         ]
     },
     "6a168a29457573f12e9c5bfb305305d3c774a513": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/sqlite_db_manager.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:24):\\n- Project_Management/modules/sqlite_db_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/sqlite_db_manager.py b/Project_Management/modules/sqlite_db_manager.py\\n    deleted file mode 100644\\n    index 785fec3..0000000\\n    --- a/Project_Management/modules/sqlite_db_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/sqlite_db_manager.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:24):\\n- project_inputs/modules/sqlite_db_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/sqlite_db_manager.py b/project_inputs/modules/sqlite_db_manager.py\\n    deleted file mode 100644\\n    index 785fec3..0000000\\n    --- a/project_inputs/modules/sqlite_db_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1292,9 +1292,9 @@
         ]
     },
     "4aa2d81e57e937e05b64fdd67bea55b01f64a7d2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/task_executor.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:25):\\n- Project_Management/modules/task_executor.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/task_executor.py b/Project_Management/modules/task_executor.py\\n    deleted file mode 100644\\n    index 52f97d1..0000000\\n    --- a/Project_Management/modules/task_executor.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/task_executor.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:25):\\n- project_inputs/modules/task_executor.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/task_executor.py b/project_inputs/modules/task_executor.py\\n    deleted file mode 100644\\n    index 52f97d1..0000000\\n    --- a/project_inputs/modules/task_executor.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1309,9 +1309,9 @@
         ]
     },
     "172c979e0897cbac0ab4dea17ef871aa3ffaed7a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/task_management.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:27):\\n- Project_Management/modules/task_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/task_management.py b/Project_Management/modules/task_management.py\\n    deleted file mode 100644\\n    index 2221465..0000000\\n    --- a/Project_Management/modules/task_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/task_management.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:27):\\n- project_inputs/modules/task_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/task_management.py b/project_inputs/modules/task_management.py\\n    deleted file mode 100644\\n    index 2221465..0000000\\n    --- a/project_inputs/modules/task_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1326,9 +1326,9 @@
         ]
     },
     "9962d92d2d581f3b1033ff011b65db2b1a3236b2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/task_management_integration.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:28):\\n- Project_Management/modules/task_management_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/task_management_integration.py b/Project_Management/modules/task_management_integration.py\\n    deleted file mode 100644\\n    index 5142e23..0000000\\n    --- a/Project_Management/modules/task_management_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/task_management_integration.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:28):\\n- project_inputs/modules/task_management_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/task_management_integration.py b/project_inputs/modules/task_management_integration.py\\n    deleted file mode 100644\\n    index 5142e23..0000000\\n    --- a/project_inputs/modules/task_management_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1343,9 +1343,9 @@
         ]
     },
     "bc28b26d502894bb5a0b8efb5c22c963cdd98237": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/test_auto_commit.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:30):\\n- Project_Management/modules/test_auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/test_auto_commit.py b/Project_Management/modules/test_auto_commit.py\\n    deleted file mode 100644\\n    index 3070a08..0000000\\n    --- a/Project_Management/modules/test_auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/test_auto_commit.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:30):\\n- project_inputs/modules/test_auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/test_auto_commit.py b/project_inputs/modules/test_auto_commit.py\\n    deleted file mode 100644\\n    index 3070a08..0000000\\n    --- a/project_inputs/modules/test_auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1360,9 +1360,9 @@
         ]
     },
     "66597ba0c9b85cd70679072fc84bdea95f6b2e2c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/test_do_important_tasks.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:31):\\n- Project_Management/modules/test_do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/test_do_important_tasks.py b/Project_Management/modules/test_do_important_tasks.py\\n    deleted file mode 100644\\n    index 877618e..0000000\\n    --- a/Project_Management/modules/test_do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/test_do_important_tasks.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:31):\\n- project_inputs/modules/test_do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/test_do_important_tasks.py b/project_inputs/modules/test_do_important_tasks.py\\n    deleted file mode 100644\\n    index 877618e..0000000\\n    --- a/project_inputs/modules/test_do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1377,9 +1377,9 @@
         ]
     },
     "87e2d5ba2fdc6ae623c17113d1c3788bc189dccb": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/test_do_urgent_tasks.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:33):\\n- Project_Management/modules/test_do_urgent_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/test_do_urgent_tasks.py b/Project_Management/modules/test_do_urgent_tasks.py\\n    deleted file mode 100644\\n    index ead3efc..0000000\\n    --- a/Project_Management/modules/test_do_urgent_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/test_do_urgent_tasks.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:33):\\n- project_inputs/modules/test_do_urgent_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/test_do_urgent_tasks.py b/project_inputs/modules/test_do_urgent_tasks.py\\n    deleted file mode 100644\\n    index ead3efc..0000000\\n    --- a/project_inputs/modules/test_do_urgent_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1394,9 +1394,9 @@
         ]
     },
     "970f1cdc3e4cad6c246f3c682b00dcd1ebc35d03": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/vscode_extension_installer.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:34):\\n- Project_Management/modules/vscode_extension_installer.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/vscode_extension_installer.py b/Project_Management/modules/vscode_extension_installer.py\\n    deleted file mode 100644\\n    index 295b3d1..0000000\\n    --- a/Project_Management/modules/vscode_extension_installer.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/vscode_extension_installer.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:34):\\n- project_inputs/modules/vscode_extension_installer.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/vscode_extension_installer.py b/project_inputs/modules/vscode_extension_installer.py\\n    deleted file mode 100644\\n    index 295b3d1..0000000\\n    --- a/project_inputs/modules/vscode_extension_installer.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1411,9 +1411,9 @@
         ]
     },
     "c11332ff0e5e252b7bd9046696a3996ebbe21d16": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/wbs_parser.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:36):\\n- Project_Management/modules/wbs_parser.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/wbs_parser.py b/Project_Management/modules/wbs_parser.py\\n    deleted file mode 100644\\n    index e20fbb8..0000000\\n    --- a/Project_Management/modules/wbs_parser.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/wbs_parser.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:36):\\n- project_inputs/modules/wbs_parser.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/wbs_parser.py b/project_inputs/modules/wbs_parser.py\\n    deleted file mode 100644\\n    index e20fbb8..0000000\\n    --- a/project_inputs/modules/wbs_parser.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1428,9 +1428,9 @@
         ]
     },
     "c098ddb3ab8b31b7a83b491928c5fd166e89cead": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/workflow_data_collector.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:37):\\n- Project_Management/modules/workflow_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/modules/workflow_data_collector.py b/Project_Management/modules/workflow_data_collector.py\\n    deleted file mode 100644\\n    index 4403106..0000000\\n    --- a/Project_Management/modules/workflow_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/workflow_data_collector.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:37):\\n- project_inputs/modules/workflow_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/modules/workflow_data_collector.py b/project_inputs/modules/workflow_data_collector.py\\n    deleted file mode 100644\\n    index 4403106..0000000\\n    --- a/project_inputs/modules/workflow_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1445,9 +1445,9 @@
         ]
     },
     "df5499eeead2609ee4e22fd6ca21a86897519d15": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/rewrite_commit_messages.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:39):\\n- Project_Management/rewrite_commit_messages.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/rewrite_commit_messages.py b/Project_Management/rewrite_commit_messages.py\\n    deleted file mode 100644\\n    index e795eae..0000000\\n    --- a/Project_Management/rewrite_commit_messages.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/rewrite_commit_messages.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:39):\\n- project_inputs/rewrite_commit_messages.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/rewrite_commit_messages.py b/project_inputs/rewrite_commit_messages.py\\n    deleted file mode 100644\\n    index e795eae..0000000\\n    --- a/project_inputs/rewrite_commit_messages.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1462,9 +1462,9 @@
         ]
     },
     "db76a802a4362adf51ca42d1cacd93f35ab81a73": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/setup.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:40):\\n- Project_Management/setup.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/setup.py b/Project_Management/setup.py\\n    deleted file mode 100644\\n    index b4a78be..0000000\\n    --- a/Project_Management/setup.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/setup.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:40):\\n- project_inputs/setup.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/setup.py b/project_inputs/setup.py\\n    deleted file mode 100644\\n    index b4a78be..0000000\\n    --- a/project_inputs/setup.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1479,9 +1479,9 @@
         ]
     },
     "407b9f788e80762c15d2c84b7e792bcc5673e272": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/setup_post_install.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:42):\\n- Project_Management/setup_post_install.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/setup_post_install.py b/Project_Management/setup_post_install.py\\n    deleted file mode 100644\\n    index e52df70..0000000\\n    --- a/Project_Management/setup_post_install.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/setup_post_install.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:42):\\n- project_inputs/setup_post_install.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/setup_post_install.py b/project_inputs/setup_post_install.py\\n    deleted file mode 100644\\n    index e52df70..0000000\\n    --- a/project_inputs/setup_post_install.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1496,9 +1496,9 @@
         ]
     },
     "911681956f6a3e8c0bc7fa7f2b2d242514d6a0a5": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/TEST_CHECKLIST.md",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:43):\\n- Project_Management/tests/TEST_CHECKLIST.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_CHECKLIST.md b/Project_Management/tests/TEST_CHECKLIST.md\\n    deleted file mode 100644\\n    index 0571553..0000000\\n    --- a/Project_Management/tests/TEST_CHECKLIST.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/TEST_CHECKLIST.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:43):\\n- project_inputs/tests/TEST_CHECKLIST.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/TEST_CHECKLIST.md b/project_inputs/tests/TEST_CHECKLIST.md\\n    deleted file mode 100644\\n    index 0571553..0000000\\n    --- a/project_inputs/tests/TEST_CHECKLIST.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1513,9 +1513,9 @@
         ]
     },
     "3553de3408e231ba1a09bd4644947a099c7cfab2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/__init__.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:45):\\n- Project_Management/tests/__init__.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/__init__.py b/Project_Management/tests/__init__.py\\n    deleted file mode 100644\\n    index 391ff58..0000000\\n    --- a/Project_Management/tests/__init__.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/__init__.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:45):\\n- project_inputs/tests/__init__.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/__init__.py b/project_inputs/tests/__init__.py\\n    deleted file mode 100644\\n    index 391ff58..0000000\\n    --- a/project_inputs/tests/__init__.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1530,9 +1530,9 @@
         ]
     },
     "81007e78e0d46dece609e6b1d00f8e53009cc47f": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_auto_commit.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:46):\\n- Project_Management/tests/test_auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_auto_commit.py b/Project_Management/tests/test_auto_commit.py\\n    deleted file mode 100644\\n    index 1137b19..0000000\\n    --- a/Project_Management/tests/test_auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_auto_commit.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:46):\\n- project_inputs/tests/test_auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_auto_commit.py b/project_inputs/tests/test_auto_commit.py\\n    deleted file mode 100644\\n    index 1137b19..0000000\\n    --- a/project_inputs/tests/test_auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1547,9 +1547,9 @@
         ]
     },
     "8c503cd374b57828e4adc39d0c4d9e0341425099": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_importance_urgency_calculator.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:47):\\n- Project_Management/tests/test_importance_urgency_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_importance_urgency_calculator.py b/Project_Management/tests/test_importance_urgency_calculator.py\\n    deleted file mode 100644\\n    index a6ee9fa..0000000\\n    --- a/Project_Management/tests/test_importance_urgency_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_importance_urgency_calculator.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:47):\\n- project_inputs/tests/test_importance_urgency_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_importance_urgency_calculator.py b/project_inputs/tests/test_importance_urgency_calculator.py\\n    deleted file mode 100644\\n    index a6ee9fa..0000000\\n    --- a/project_inputs/tests/test_importance_urgency_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1564,9 +1564,9 @@
         ]
     },
     "895c80c9b4e30f0fdd8ac48bd776bcb59986cdbc": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_importance_urgency_report.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:49):\\n- Project_Management/tests/test_importance_urgency_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_importance_urgency_report.py b/Project_Management/tests/test_importance_urgency_report.py\\n    deleted file mode 100644\\n    index b4ce339..0000000\\n    --- a/Project_Management/tests/test_importance_urgency_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_importance_urgency_report.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:49):\\n- project_inputs/tests/test_importance_urgency_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_importance_urgency_report.py b/project_inputs/tests/test_importance_urgency_report.py\\n    deleted file mode 100644\\n    index b4ce339..0000000\\n    --- a/project_inputs/tests/test_importance_urgency_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1581,9 +1581,9 @@
         ]
     },
     "5a63663a8c6ae59e60374362cc6a83be1c069706": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_json_data_linker.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:50):\\n- Project_Management/tests/test_json_data_linker.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_json_data_linker.py b/Project_Management/tests/test_json_data_linker.py\\n    deleted file mode 100644\\n    index 993391a..0000000\\n    --- a/Project_Management/tests/test_json_data_linker.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_json_data_linker.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:50):\\n- project_inputs/tests/test_json_data_linker.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_json_data_linker.py b/project_inputs/tests/test_json_data_linker.py\\n    deleted file mode 100644\\n    index 993391a..0000000\\n    --- a/project_inputs/tests/test_json_data_linker.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1598,9 +1598,9 @@
         ]
     },
     "e760f6258ee0c94746377c2cd8e04ed9053831fa": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_json_interfile_consistency.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:52):\\n- Project_Management/tests/test_json_interfile_consistency.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_json_interfile_consistency.py b/Project_Management/tests/test_json_interfile_consistency.py\\n    deleted file mode 100644\\n    index 5cbd2f0..0000000\\n    --- a/Project_Management/tests/test_json_interfile_consistency.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_json_interfile_consistency.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:52):\\n- project_inputs/tests/test_json_interfile_consistency.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_json_interfile_consistency.py b/project_inputs/tests/test_json_interfile_consistency.py\\n    deleted file mode 100644\\n    index 5cbd2f0..0000000\\n    --- a/project_inputs/tests/test_json_interfile_consistency.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1615,9 +1615,9 @@
         ]
     },
     "bbf2b1a9409fe71193789b7a646debdca92c1f60": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_output_json_fields.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:53):\\n- Project_Management/tests/test_output_json_fields.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_output_json_fields.py b/Project_Management/tests/test_output_json_fields.py\\n    deleted file mode 100644\\n    index c9c9a2c..0000000\\n    --- a/Project_Management/tests/test_output_json_fields.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_output_json_fields.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:53):\\n- project_inputs/tests/test_output_json_fields.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_output_json_fields.py b/project_inputs/tests/test_output_json_fields.py\\n    deleted file mode 100644\\n    index c9c9a2c..0000000\\n    --- a/project_inputs/tests/test_output_json_fields.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1632,9 +1632,9 @@
         ]
     },
     "00681e42e1c6d45a4ccb313beca07058fcd0b8b9": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_progress_report.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:55):\\n- Project_Management/tests/test_progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_progress_report.py b/Project_Management/tests/test_progress_report.py\\n    deleted file mode 100644\\n    index 93ddb43..0000000\\n    --- a/Project_Management/tests/test_progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_progress_report.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:55):\\n- project_inputs/tests/test_progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_progress_report.py b/project_inputs/tests/test_progress_report.py\\n    deleted file mode 100644\\n    index 93ddb43..0000000\\n    --- a/project_inputs/tests/test_progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1649,9 +1649,9 @@
         ]
     },
     "6812c726adedf985509927d0fd54949d267b4ad9": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/verify_commit_messages.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:56):\\n- Project_Management/verify_commit_messages.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/verify_commit_messages.py b/Project_Management/verify_commit_messages.py\\n    deleted file mode 100644\\n    index 036cbe3..0000000\\n    --- a/Project_Management/verify_commit_messages.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/verify_commit_messages.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-11 09:42:56):\\n- project_inputs/verify_commit_messages.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/verify_commit_messages.py b/project_inputs/verify_commit_messages.py\\n    deleted file mode 100644\\n    index 036cbe3..0000000\\n    --- a/project_inputs/verify_commit_messages.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1666,9 +1666,9 @@
         ]
     },
     "fae42739c2083b21d697da4a3957ce1d579b37ae": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/system_outputs/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-11 09:42:58):\\n- Project_Management/PM_JSON/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/system_outputs/commit_task_database.json b/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    index e7c9980..aca9b08 100644\\n    --- a/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    +++ b/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    @@ -1,2836 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-11 09:42:58):\\n- project_inputs/PM_JSON/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/system_outputs/commit_task_database.json b/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    index e7c9980..aca9b08 100644\\n    --- a/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    +++ b/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    @@ -1,2836 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.003,
         "importance_change": 1,
@@ -1717,9 +1717,9 @@
         ]
     },
     "9ca67092a0eca3462b0eb8af1669896b0d7cb34c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-11 09:48:20):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 6052275..478270a 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -49,5 +49,1671 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-11 09:48:20):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 6052275..478270a 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -49,5 +49,1671 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -1734,9 +1734,9 @@
         ]
     },
     "f1ffa73d999ab83e235292d55e2c78a019eda928": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-11 09:48:21):\\n- Project_Management/PM_Input/commit_progress.json: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    new file mode 100644\\n    index 0000000..f48dced\\n    --- /dev/null\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-11 09:48:21):\\n- project_inputs/PM_Input/commit_progress.json: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    new file mode 100644\\n    index 0000000..f48dced\\n    --- /dev/null\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -1770,12 +1770,12 @@
     "": {
         "task_id": "modules",
         "file_path": "modules/auto_commit.py",
-        "commit_message": "🐛 fix(modules): Modified files updated\\n\\nChanges included (as of 2025-07-11 11:08:39):\\n- modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "commit_message": "🐛 fix(modules): Modified files updated\\n\\nChanges included (as of 2025-07-16 21:45:19):\\n- modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    Could not retrieve diff.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
         "priority_change": 0.0,
-        "timestamp": "2025-07-11 11:08:39",
+        "timestamp": "2025-07-16 21:45:19",
         "author": "commit message example",
         "email": "commit message example",
         "date": "commit message example",
@@ -1787,9 +1787,9 @@
         ]
     },
     "b169bfb102928d181cfe9a52ffaaa5b5a1e5738d": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_JSON/system_outputs/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-11 23:41:08):\\n- Project_Management/PM_JSON/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_JSON/system_outputs/commit_task_database.json b/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    index 84507cc..2a95329 100644\\n    --- a/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    +++ b/Project_Management/PM_JSON/system_outputs/commit_task_database.json\\n    @@ -7,7 +7,7 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-11 23:41:08):\\n- project_inputs/PM_JSON/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/system_outputs/commit_task_database.json b/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    index 84507cc..2a95329 100644\\n    --- a/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    +++ b/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    @@ -7,7 +7,7 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -2042,9 +2042,9 @@
         ]
     },
     "56ba44000e861eeb646e407cf39aa840907852af": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-12 06:35:53):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index 2fa62c8..f48dced 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,3 +1,3 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-12 06:35:53):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index 2fa62c8..f48dced 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1,3 +1,3 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -2059,9 +2059,9 @@
         ]
     },
     "bd2544fa059e22b0b0c1ea8d42ed44014aa223f1": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-12 06:35:59):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 8bd234e..d24c63e 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -1785,5 +1785,277 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-12 06:35:59):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 8bd234e..d24c63e 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -1785,5 +1785,277 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -2076,9 +2076,9 @@
         ]
     },
     "7d67e2847ee96d9b9308156830e1e2cf82a1f8ec": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-12 17:08:22):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index d24c63e..06aff8e 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2057,5 +2057,22 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-12 17:08:22):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index d24c63e..06aff8e 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2057,5 +2057,22 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -26063,9 +26063,9 @@
         ]
     },
     "635b736a817661836e978b69602e70bd0322e4d5": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:03):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index f48dced..4283894 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,3 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:03):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index f48dced..4283894 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1,3 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -26080,9 +26080,9 @@
         ]
     },
     "913d0b6822308dcb091e3b8f7410752920b20ce2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:05):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 450cc52..2a9fe2f 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2125,5 +2125,23958 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:05):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 450cc52..2a9fe2f 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2125,5 +2125,23958 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -26131,9 +26131,9 @@
         ]
     },
     "d251e7b96be4b331dd1a967f08e6e63579c24c0a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:32):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index 4283894..0818580 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,5 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:32):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index 4283894..0818580 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1,5 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -26148,9 +26148,9 @@
         ]
     },
     "07b0dbb6516633dd06fef9f32fea65c3490bf70c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:34):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 2a9fe2f..2f52ba4 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -26078,5 +26078,73 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:34):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 2a9fe2f..2f52ba4 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -26078,5 +26078,73 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -26165,9 +26165,9 @@
         ]
     },
     "2399ae23214c49e9eb1c5bcb4dc3e71b23e31f35": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:46):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 2f52ba4..53f2e1b 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -26146,5 +26146,22 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:17:46):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 2f52ba4..53f2e1b 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -26146,5 +26146,22 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
@@ -26179,6 +26179,23 @@
         "branch": "* main",
         "parent_commits": [
             "07b0dbb6516633dd06fef9f32fea65c3490bf70c"
+        ]
+    },
+    "390986585422f2cd40ec62181d29d129435ca14b": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-16 18:18:08):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 53f2e1b..fa2498a 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -26163,5 +26163,22 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-16 18:18:08",
+        "author": "GravityWavesFundamental",
+        "email": "164954320+GravityWavesFundamental@users.noreply.github.com",
+        "date": "Wed Jul 16 18:18:08 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "2399ae23214c49e9eb1c5bcb4dc3e71b23e31f35"
         ]
     }
 }

@@ -47,10 +47,10 @@ This checklist covers all necessary tests to ensure the auto_pm package works co
 
 | Test Description                                                                                     | Initial Run | Latest Run | Notes                                  |
 |---------------------------------------------------------------------------------------------------|-------------|------------|----------------------------------------|
-| Verify .gitignore file is created if it does not exist before virtual environment creation.       | ⬜          | ⬜         |                                        |
-| Verify .gitignore file is updated to include virtual environment directories before creation.     | ⬜          | ⬜         |                                        |
-| Verify virtual environment directories (e.g., venv/, .venv/) are excluded from git tracking.      | ⬜          | ⬜         |                                        |
-| Verify virtual environment is created only after .gitignore is ensured.                           | ⬜          | ⬜         |                                        |
+| Verify .gitignore file is created if it does not exist before virtual environment creation.       | ⬜          | ⬜         | Implemented: Added setup_env.sh script to create venv and manage .gitignore |
+| Verify .gitignore file is updated to include virtual environment directories before creation.     | ⬜          | ⬜         | Implemented: Added setup_env.sh script to create venv and manage .gitignore |
+| Verify virtual environment directories (e.g., venv/, .venv/) are excluded from git tracking.      | ⬜          | ⬜         | Implemented: Added setup_env.sh script to create venv and manage .gitignore |
+| Verify virtual environment is created only after .gitignore is ensured.                           | ⬜          | ⬜         | Implemented: Added setup_env.sh script to create venv and manage .gitignore |
 
 ---
 

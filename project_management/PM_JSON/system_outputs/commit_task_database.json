@@ -232,9 +232,9 @@
         ]
     },
     "4c6b1722583205f9bbde59c6df5ddd4d89c3797e": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/__init__.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:07:08):\\n- Project_Management/modules/__init__.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/__init__.py b/Project_Management/modules/__init__.py\\n    index 3684be2..e55eb30 100644\\n    --- a/Project_Management/modules/__init__.py\\n    +++ b/Project_Management/modules/__init__.py\\n    @@ -1 +1 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/__init__.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:07:08):\\n- project_inputs/modules/__init__.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/modules/__init__.py b/project_inputs/modules/__init__.py\\n    index 3684be2..e55eb30 100644\\n    --- a/project_inputs/modules/__init__.py\\n    +++ b/project_inputs/modules/__init__.py\\n    @@ -1 +1 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:08",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -245,9 +245,9 @@
         ]
     },
     "78880c0a809fa0a188fdf57e41225b840cadf9bd": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/importance_urgency_calculator.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:07:09):\\n- Project_Management/modules/importance_urgency_calculator.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/importance_urgency_calculator.py b/Project_Management/modules/importance_urgency_calculator.py\\n    index 367d42b..e0b6304 100644\\n    --- a/Project_Management/modules/importance_urgency_calculator.py\\n    +++ b/Project_Management/modules/importance_urgency_calculator.py\\n    @@ -67,6 +67,10 @@ def save_scores_to_json(scores, filepath):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/importance_urgency_calculator.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:07:09):\\n- project_inputs/modules/importance_urgency_calculator.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/modules/importance_urgency_calculator.py b/project_inputs/modules/importance_urgency_calculator.py\\n    index 367d42b..e0b6304 100644\\n    --- a/project_inputs/modules/importance_urgency_calculator.py\\n    +++ b/project_inputs/modules/importance_urgency_calculator.py\\n    @@ -67,6 +67,10 @@ def save_scores_to_json(scores, filepath):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:10",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -258,9 +258,9 @@
         ]
     },
     "9d2ec173129bb9258b9aa026ded82ff7bc2fd166": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/task_management.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:07:11):\\n- Project_Management/modules/task_management.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/modules/task_management.py b/Project_Management/modules/task_management.py\\n    index 545496f..2221465 100644\\n    --- a/Project_Management/modules/task_management.py\\n    +++ b/Project_Management/modules/task_management.py\\n    @@ -1,27 +1,296 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/task_management.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:07:11):\\n- project_inputs/modules/task_management.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/modules/task_management.py b/project_inputs/modules/task_management.py\\n    index 545496f..2221465 100644\\n    --- a/project_inputs/modules/task_management.py\\n    +++ b/project_inputs/modules/task_management.py\\n    @@ -1,27 +1,296 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:11",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -271,9 +271,9 @@
         ]
     },
     "7a790d4ba8d8fb35cac38675e2122d4831b8eb8b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/docs/",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:12):\\n- Project_Management/docs/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/docs/dashboard_and_reports_plan.md b/Project_Management/docs/dashboard_and_reports_plan.md\\n    new file mode 100644\\n    index 0000000..54e071d\\n    --- /dev/null\\n    +++ b/Project_Management/docs/dashboard_and_reports_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/docs/",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:12):\\n- project_inputs/docs/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/docs/dashboard_and_reports_plan.md b/project_inputs/docs/dashboard_and_reports_plan.md\\n    new file mode 100644\\n    index 0000000..54e071d\\n    --- /dev/null\\n    +++ b/project_inputs/docs/dashboard_and_reports_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:13",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -284,9 +284,9 @@
         ]
     },
     "54c8f5f144d9c2776851b327a75c62f696f74acb": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/auto_commit.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:14):\\n- Project_Management/modules/auto_commit.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/auto_commit.py b/Project_Management/modules/auto_commit.py\\n    new file mode 100644\\n    index 0000000..eda1055\\n    --- /dev/null\\n    +++ b/Project_Management/modules/auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/auto_commit.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:14):\\n- project_inputs/modules/auto_commit.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/auto_commit.py b/project_inputs/modules/auto_commit.py\\n    new file mode 100644\\n    index 0000000..eda1055\\n    --- /dev/null\\n    +++ b/project_inputs/modules/auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:14",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -297,9 +297,9 @@
         ]
     },
     "ec42705f83a83871b33a87b62dd7e6242a6d66ba": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/build_full_database.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:15):\\n- Project_Management/modules/build_full_database.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/build_full_database.py b/Project_Management/modules/build_full_database.py\\n    new file mode 100644\\n    index 0000000..158ea1d\\n    --- /dev/null\\n    +++ b/Project_Management/modules/build_full_database.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/build_full_database.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:15):\\n- project_inputs/modules/build_full_database.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/build_full_database.py b/project_inputs/modules/build_full_database.py\\n    new file mode 100644\\n    index 0000000..158ea1d\\n    --- /dev/null\\n    +++ b/project_inputs/modules/build_full_database.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:15",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -310,9 +310,9 @@
         ]
     },
     "0e783ef566fb9161601cb97c1bc8594828de0b7a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/check_progress_dashboard_update.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:16):\\n- Project_Management/modules/check_progress_dashboard_update.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/check_progress_dashboard_update.py b/Project_Management/modules/check_progress_dashboard_update.py\\n    new file mode 100644\\n    index 0000000..3bc87a7\\n    --- /dev/null\\n    +++ b/Project_Management/modules/check_progress_dashboard_update.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/check_progress_dashboard_update.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:16):\\n- project_inputs/modules/check_progress_dashboard_update.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/check_progress_dashboard_update.py b/project_inputs/modules/check_progress_dashboard_update.py\\n    new file mode 100644\\n    index 0000000..3bc87a7\\n    --- /dev/null\\n    +++ b/project_inputs/modules/check_progress_dashboard_update.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:17",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -323,9 +323,9 @@
         ]
     },
     "532a1a0fe559fa9eb0722e110a30fae1b7a9e47c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/cli.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:18):\\n- Project_Management/modules/cli.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/cli.py b/Project_Management/modules/cli.py\\n    new file mode 100644\\n    index 0000000..cb1242d\\n    --- /dev/null\\n    +++ b/Project_Management/modules/cli.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/cli.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:18):\\n- project_inputs/modules/cli.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/cli.py b/project_inputs/modules/cli.py\\n    new file mode 100644\\n    index 0000000..cb1242d\\n    --- /dev/null\\n    +++ b/project_inputs/modules/cli.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:18",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -336,9 +336,9 @@
         ]
     },
     "e48dcdd389e0ef7b130378ce7c0f3614a160c66f": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/cli_commands.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:19):\\n- Project_Management/modules/cli_commands.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/cli_commands.py b/Project_Management/modules/cli_commands.py\\n    new file mode 100644\\n    index 0000000..52c330c\\n    --- /dev/null\\n    +++ b/Project_Management/modules/cli_commands.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/cli_commands.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:19):\\n- project_inputs/modules/cli_commands.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/cli_commands.py b/project_inputs/modules/cli_commands.py\\n    new file mode 100644\\n    index 0000000..52c330c\\n    --- /dev/null\\n    +++ b/project_inputs/modules/cli_commands.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:20",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -349,9 +349,9 @@
         ]
     },
     "bebf7c5dd0ec9683d9462410c36ae45c48cd6848": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/config_and_token_management.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:21):\\n- Project_Management/modules/config_and_token_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/config_and_token_management.py b/Project_Management/modules/config_and_token_management.py\\n    new file mode 100644\\n    index 0000000..fa4ebda\\n    --- /dev/null\\n    +++ b/Project_Management/modules/config_and_token_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/config_and_token_management.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:21):\\n- project_inputs/modules/config_and_token_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/config_and_token_management.py b/project_inputs/modules/config_and_token_management.py\\n    new file mode 100644\\n    index 0000000..fa4ebda\\n    --- /dev/null\\n    +++ b/project_inputs/modules/config_and_token_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:21",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -362,9 +362,9 @@
         ]
     },
     "7a9c0661627b69d09ab41f91262c110814b54f8e": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/db_data_collector.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:22):\\n- Project_Management/modules/db_data_collector.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/db_data_collector.py b/Project_Management/modules/db_data_collector.py\\n    new file mode 100644\\n    index 0000000..c5b62ff\\n    --- /dev/null\\n    +++ b/Project_Management/modules/db_data_collector.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/db_data_collector.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:22):\\n- project_inputs/modules/db_data_collector.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/db_data_collector.py b/project_inputs/modules/db_data_collector.py\\n    new file mode 100644\\n    index 0000000..c5b62ff\\n    --- /dev/null\\n    +++ b/project_inputs/modules/db_data_collector.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:22",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -375,9 +375,9 @@
         ]
     },
     "3eb1c1655890640e8131a9cc695ddf1a04b9fb17": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/db_schema_update.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:23):\\n- Project_Management/modules/db_schema_update.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/db_schema_update.py b/Project_Management/modules/db_schema_update.py\\n    new file mode 100644\\n    index 0000000..b45e6e3\\n    --- /dev/null\\n    +++ b/Project_Management/modules/db_schema_update.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/db_schema_update.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:23):\\n- project_inputs/modules/db_schema_update.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/db_schema_update.py b/project_inputs/modules/db_schema_update.py\\n    new file mode 100644\\n    index 0000000..b45e6e3\\n    --- /dev/null\\n    +++ b/project_inputs/modules/db_schema_update.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:24",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -388,9 +388,9 @@
         ]
     },
     "445d2675a2af789774d3ffe81cbce6e7eee9fafc": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/do_important_tasks.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:25):\\n- Project_Management/modules/do_important_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/do_important_tasks.py b/Project_Management/modules/do_important_tasks.py\\n    new file mode 100644\\n    index 0000000..2ecb5a5\\n    --- /dev/null\\n    +++ b/Project_Management/modules/do_important_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/do_important_tasks.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:25):\\n- project_inputs/modules/do_important_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/do_important_tasks.py b/project_inputs/modules/do_important_tasks.py\\n    new file mode 100644\\n    index 0000000..2ecb5a5\\n    --- /dev/null\\n    +++ b/project_inputs/modules/do_important_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:25",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -401,9 +401,9 @@
         ]
     },
     "a04a520b2addd8e92f62fa96908d69e99e0b599b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/do_urgent_tasks.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:26):\\n- Project_Management/modules/do_urgent_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/do_urgent_tasks.py b/Project_Management/modules/do_urgent_tasks.py\\n    new file mode 100644\\n    index 0000000..91154f0\\n    --- /dev/null\\n    +++ b/Project_Management/modules/do_urgent_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/do_urgent_tasks.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:26):\\n- project_inputs/modules/do_urgent_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/do_urgent_tasks.py b/project_inputs/modules/do_urgent_tasks.py\\n    new file mode 100644\\n    index 0000000..91154f0\\n    --- /dev/null\\n    +++ b/project_inputs/modules/do_urgent_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:27",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -414,9 +414,9 @@
         ]
     },
     "0b631f7a30df0fae2bae5fec919482d27a75d393": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/extend_database_for_scrum.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:28):\\n- Project_Management/modules/extend_database_for_scrum.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/extend_database_for_scrum.py b/Project_Management/modules/extend_database_for_scrum.py\\n    new file mode 100644\\n    index 0000000..4ad4071\\n    --- /dev/null\\n    +++ b/Project_Management/modules/extend_database_for_scrum.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/extend_database_for_scrum.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:28):\\n- project_inputs/modules/extend_database_for_scrum.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/extend_database_for_scrum.py b/project_inputs/modules/extend_database_for_scrum.py\\n    new file mode 100644\\n    index 0000000..4ad4071\\n    --- /dev/null\\n    +++ b/project_inputs/modules/extend_database_for_scrum.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:28",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -427,9 +427,9 @@
         ]
     },
     "7431e9c5649f82237a64f841879b5767add3a35c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/feature_weights.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:29):\\n- Project_Management/modules/feature_weights.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/feature_weights.py b/Project_Management/modules/feature_weights.py\\n    new file mode 100644\\n    index 0000000..b6db7ba\\n    --- /dev/null\\n    +++ b/Project_Management/modules/feature_weights.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/feature_weights.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:29):\\n- project_inputs/modules/feature_weights.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/feature_weights.py b/project_inputs/modules/feature_weights.py\\n    new file mode 100644\\n    index 0000000..b6db7ba\\n    --- /dev/null\\n    +++ b/project_inputs/modules/feature_weights.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:29",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -440,9 +440,9 @@
         ]
     },
     "fca66aa9b431ce2d896675643ca2579335b5727a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/github_integration.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:30):\\n- Project_Management/modules/github_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/github_integration.py b/Project_Management/modules/github_integration.py\\n    new file mode 100644\\n    index 0000000..399d541\\n    --- /dev/null\\n    +++ b/Project_Management/modules/github_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/github_integration.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:30):\\n- project_inputs/modules/github_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/github_integration.py b/project_inputs/modules/github_integration.py\\n    new file mode 100644\\n    index 0000000..399d541\\n    --- /dev/null\\n    +++ b/project_inputs/modules/github_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:31",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -453,9 +453,9 @@
         ]
     },
     "6553229e586a04c7cbbd2e6ac612eae6a21e229e": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/import_wbs_to_tasks.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:32):\\n- Project_Management/modules/import_wbs_to_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/import_wbs_to_tasks.py b/Project_Management/modules/import_wbs_to_tasks.py\\n    new file mode 100644\\n    index 0000000..c796f89\\n    --- /dev/null\\n    +++ b/Project_Management/modules/import_wbs_to_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/import_wbs_to_tasks.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:32):\\n- project_inputs/modules/import_wbs_to_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/import_wbs_to_tasks.py b/project_inputs/modules/import_wbs_to_tasks.py\\n    new file mode 100644\\n    index 0000000..c796f89\\n    --- /dev/null\\n    +++ b/project_inputs/modules/import_wbs_to_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:32",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -466,9 +466,9 @@
         ]
     },
     "c1ec0910180e4f82b34e66b536ef72788e134145": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/progress_data_generator.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:33):\\n- Project_Management/modules/progress_data_generator.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/progress_data_generator.py b/Project_Management/modules/progress_data_generator.py\\n    new file mode 100644\\n    index 0000000..8813ef9\\n    --- /dev/null\\n    +++ b/Project_Management/modules/progress_data_generator.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/progress_data_generator.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:33):\\n- project_inputs/modules/progress_data_generator.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/progress_data_generator.py b/project_inputs/modules/progress_data_generator.py\\n    new file mode 100644\\n    index 0000000..8813ef9\\n    --- /dev/null\\n    +++ b/project_inputs/modules/progress_data_generator.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:34",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -479,9 +479,9 @@
         ]
     },
     "53e7938060cd0ae2a6bdb9e6282a40c88e1c4641": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/progress_report.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:35):\\n- Project_Management/modules/progress_report.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/progress_report.py b/Project_Management/modules/progress_report.py\\n    new file mode 100644\\n    index 0000000..fde4cb7\\n    --- /dev/null\\n    +++ b/Project_Management/modules/progress_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/progress_report.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:35):\\n- project_inputs/modules/progress_report.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/progress_report.py b/project_inputs/modules/progress_report.py\\n    new file mode 100644\\n    index 0000000..fde4cb7\\n    --- /dev/null\\n    +++ b/project_inputs/modules/progress_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:35",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -492,9 +492,9 @@
         ]
     },
     "7b6c6b117bc42b5772eaa3c5a6b74b006e315554": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/reports/",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:36):\\n- Project_Management/modules/reports/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/reports/importance_urgency_report.py b/Project_Management/modules/reports/importance_urgency_report.py\\n    new file mode 100644\\n    index 0000000..fa75f35\\n    --- /dev/null\\n    +++ b/Project_Management/modules/reports/importance_urgency_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/reports/",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:36):\\n- project_inputs/modules/reports/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/reports/importance_urgency_report.py b/project_inputs/modules/reports/importance_urgency_report.py\\n    new file mode 100644\\n    index 0000000..fa75f35\\n    --- /dev/null\\n    +++ b/project_inputs/modules/reports/importance_urgency_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:36",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -505,9 +505,9 @@
         ]
     },
     "598357220de3715270df4fed769aecf83399c2a8": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/resource_leveling.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:37):\\n- Project_Management/modules/resource_leveling.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/resource_leveling.py b/Project_Management/modules/resource_leveling.py\\n    new file mode 100644\\n    index 0000000..7db3759\\n    --- /dev/null\\n    +++ b/Project_Management/modules/resource_leveling.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/resource_leveling.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:37):\\n- project_inputs/modules/resource_leveling.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/resource_leveling.py b/project_inputs/modules/resource_leveling.py\\n    new file mode 100644\\n    index 0000000..7db3759\\n    --- /dev/null\\n    +++ b/project_inputs/modules/resource_leveling.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:38",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -518,9 +518,9 @@
         ]
     },
     "e9ff35f18f0dd59181c1548972aa05a7b05045c6": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/setup_initialization.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:39):\\n- Project_Management/modules/setup_initialization.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/setup_initialization.py b/Project_Management/modules/setup_initialization.py\\n    new file mode 100644\\n    index 0000000..7f826ad\\n    --- /dev/null\\n    +++ b/Project_Management/modules/setup_initialization.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/setup_initialization.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:39):\\n- project_inputs/modules/setup_initialization.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/setup_initialization.py b/project_inputs/modules/setup_initialization.py\\n    new file mode 100644\\n    index 0000000..7f826ad\\n    --- /dev/null\\n    +++ b/project_inputs/modules/setup_initialization.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:39",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -531,9 +531,9 @@
         ]
     },
     "1426b242be128c08253463614300d02545e28eee": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/sqlite_db_manager.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:40):\\n- Project_Management/modules/sqlite_db_manager.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/sqlite_db_manager.py b/Project_Management/modules/sqlite_db_manager.py\\n    new file mode 100644\\n    index 0000000..785fec3\\n    --- /dev/null\\n    +++ b/Project_Management/modules/sqlite_db_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/sqlite_db_manager.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:40):\\n- project_inputs/modules/sqlite_db_manager.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/sqlite_db_manager.py b/project_inputs/modules/sqlite_db_manager.py\\n    new file mode 100644\\n    index 0000000..785fec3\\n    --- /dev/null\\n    +++ b/project_inputs/modules/sqlite_db_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:40",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -544,9 +544,9 @@
         ]
     },
     "546c677b89c361535583db94c29396c89ed308d9": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/task_executor.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:41):\\n- Project_Management/modules/task_executor.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/task_executor.py b/Project_Management/modules/task_executor.py\\n    new file mode 100644\\n    index 0000000..52f97d1\\n    --- /dev/null\\n    +++ b/Project_Management/modules/task_executor.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/task_executor.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:41):\\n- project_inputs/modules/task_executor.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/task_executor.py b/project_inputs/modules/task_executor.py\\n    new file mode 100644\\n    index 0000000..52f97d1\\n    --- /dev/null\\n    +++ b/project_inputs/modules/task_executor.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:42",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -557,9 +557,9 @@
         ]
     },
     "4808d8a589ed9e709a3679649d5d80a6105a4ffe": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/task_management_integration.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:43):\\n- Project_Management/modules/task_management_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/task_management_integration.py b/Project_Management/modules/task_management_integration.py\\n    new file mode 100644\\n    index 0000000..5142e23\\n    --- /dev/null\\n    +++ b/Project_Management/modules/task_management_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/task_management_integration.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:43):\\n- project_inputs/modules/task_management_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/task_management_integration.py b/project_inputs/modules/task_management_integration.py\\n    new file mode 100644\\n    index 0000000..5142e23\\n    --- /dev/null\\n    +++ b/project_inputs/modules/task_management_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:43",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -570,9 +570,9 @@
         ]
     },
     "7c4fe1c510e28644b337a5f291f6fe976dc90eb2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/test_auto_commit.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:44):\\n- Project_Management/modules/test_auto_commit.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/test_auto_commit.py b/Project_Management/modules/test_auto_commit.py\\n    new file mode 100644\\n    index 0000000..3070a08\\n    --- /dev/null\\n    +++ b/Project_Management/modules/test_auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/test_auto_commit.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:44):\\n- project_inputs/modules/test_auto_commit.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/test_auto_commit.py b/project_inputs/modules/test_auto_commit.py\\n    new file mode 100644\\n    index 0000000..3070a08\\n    --- /dev/null\\n    +++ b/project_inputs/modules/test_auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:45",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -583,9 +583,9 @@
         ]
     },
     "1d47cf4b1a820eb169784c156d5255e0f8f377ae": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/test_do_important_tasks.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:46):\\n- Project_Management/modules/test_do_important_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/test_do_important_tasks.py b/Project_Management/modules/test_do_important_tasks.py\\n    new file mode 100644\\n    index 0000000..877618e\\n    --- /dev/null\\n    +++ b/Project_Management/modules/test_do_important_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/test_do_important_tasks.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:46):\\n- project_inputs/modules/test_do_important_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/test_do_important_tasks.py b/project_inputs/modules/test_do_important_tasks.py\\n    new file mode 100644\\n    index 0000000..877618e\\n    --- /dev/null\\n    +++ b/project_inputs/modules/test_do_important_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:46",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -596,9 +596,9 @@
         ]
     },
     "cbdde184918d87c2bc293c884ed73483b48c2e0a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/test_do_urgent_tasks.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:47):\\n- Project_Management/modules/test_do_urgent_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/test_do_urgent_tasks.py b/Project_Management/modules/test_do_urgent_tasks.py\\n    new file mode 100644\\n    index 0000000..ead3efc\\n    --- /dev/null\\n    +++ b/Project_Management/modules/test_do_urgent_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/test_do_urgent_tasks.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:47):\\n- project_inputs/modules/test_do_urgent_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/test_do_urgent_tasks.py b/project_inputs/modules/test_do_urgent_tasks.py\\n    new file mode 100644\\n    index 0000000..ead3efc\\n    --- /dev/null\\n    +++ b/project_inputs/modules/test_do_urgent_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:48",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -609,9 +609,9 @@
         ]
     },
     "54a72130cde753212aff0dd0174a3331b6d04c5b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/vscode_extension_installer.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:49):\\n- Project_Management/modules/vscode_extension_installer.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/vscode_extension_installer.py b/Project_Management/modules/vscode_extension_installer.py\\n    new file mode 100644\\n    index 0000000..295b3d1\\n    --- /dev/null\\n    +++ b/Project_Management/modules/vscode_extension_installer.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/vscode_extension_installer.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:49):\\n- project_inputs/modules/vscode_extension_installer.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/vscode_extension_installer.py b/project_inputs/modules/vscode_extension_installer.py\\n    new file mode 100644\\n    index 0000000..295b3d1\\n    --- /dev/null\\n    +++ b/project_inputs/modules/vscode_extension_installer.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:49",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -622,9 +622,9 @@
         ]
     },
     "c346c5d9ed6475cefc7b815641d84d11e4c1fef3": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/wbs_parser.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:50):\\n- Project_Management/modules/wbs_parser.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/wbs_parser.py b/Project_Management/modules/wbs_parser.py\\n    new file mode 100644\\n    index 0000000..c2b6b74\\n    --- /dev/null\\n    +++ b/Project_Management/modules/wbs_parser.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/wbs_parser.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:50):\\n- project_inputs/modules/wbs_parser.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/wbs_parser.py b/project_inputs/modules/wbs_parser.py\\n    new file mode 100644\\n    index 0000000..c2b6b74\\n    --- /dev/null\\n    +++ b/project_inputs/modules/wbs_parser.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:50",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -635,9 +635,9 @@
         ]
     },
     "5868e53af61dd652ca884603195a3d2c5ff438ae": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/modules/workflow_data_collector.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:51):\\n- Project_Management/modules/workflow_data_collector.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/modules/workflow_data_collector.py b/Project_Management/modules/workflow_data_collector.py\\n    new file mode 100644\\n    index 0000000..4403106\\n    --- /dev/null\\n    +++ b/Project_Management/modules/workflow_data_collector.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/modules/workflow_data_collector.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:51):\\n- project_inputs/modules/workflow_data_collector.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/modules/workflow_data_collector.py b/project_inputs/modules/workflow_data_collector.py\\n    new file mode 100644\\n    index 0000000..4403106\\n    --- /dev/null\\n    +++ b/project_inputs/modules/workflow_data_collector.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:52",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -648,9 +648,9 @@
         ]
     },
     "9ab57acc300535a2126feacdde6dc50076cced8a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/TESTING_INSTRUCTIONS.md",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:53):\\n- Project_Management/tests/TESTING_INSTRUCTIONS.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/TESTING_INSTRUCTIONS.md b/Project_Management/tests/TESTING_INSTRUCTIONS.md\\n    new file mode 100644\\n    index 0000000..505f96d\\n    --- /dev/null\\n    +++ b/Project_Management/tests/TESTING_INSTRUCTIONS.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/TESTING_INSTRUCTIONS.md",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:53):\\n- project_inputs/tests/TESTING_INSTRUCTIONS.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/TESTING_INSTRUCTIONS.md b/project_inputs/tests/TESTING_INSTRUCTIONS.md\\n    new file mode 100644\\n    index 0000000..505f96d\\n    --- /dev/null\\n    +++ b/project_inputs/tests/TESTING_INSTRUCTIONS.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:53",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -661,9 +661,9 @@
         ]
     },
     "7112c2cacb2acd79d032811ad8bfdda47bcf5bcc": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/__init__.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:54):\\n- Project_Management/tests/__init__.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/__init__.py b/Project_Management/tests/__init__.py\\n    new file mode 100644\\n    index 0000000..7fcc098\\n    --- /dev/null\\n    +++ b/Project_Management/tests/__init__.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/__init__.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:54):\\n- project_inputs/tests/__init__.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/__init__.py b/project_inputs/tests/__init__.py\\n    new file mode 100644\\n    index 0000000..7fcc098\\n    --- /dev/null\\n    +++ b/project_inputs/tests/__init__.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:55",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -674,9 +674,9 @@
         ]
     },
     "3701ecd7767b61e1975d1feb8a8e9be814a44902": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_basic.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:56):\\n- Project_Management/tests/test_basic.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_basic.py b/Project_Management/tests/test_basic.py\\n    new file mode 100644\\n    index 0000000..31e724b\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_basic.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_basic.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:56):\\n- project_inputs/tests/test_basic.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_basic.py b/project_inputs/tests/test_basic.py\\n    new file mode 100644\\n    index 0000000..31e724b\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_basic.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:56",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -687,9 +687,9 @@
         ]
     },
     "e50ded98307fed87eeb562ad8540378826328019": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_cli_commands.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:57):\\n- Project_Management/tests/test_cli_commands.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_cli_commands.py b/Project_Management/tests/test_cli_commands.py\\n    new file mode 100644\\n    index 0000000..3fdb0b1\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_cli_commands.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_cli_commands.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:57):\\n- project_inputs/tests/test_cli_commands.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_cli_commands.py b/project_inputs/tests/test_cli_commands.py\\n    new file mode 100644\\n    index 0000000..3fdb0b1\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_cli_commands.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:57",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -700,9 +700,9 @@
         ]
     },
     "4511db75a40f3683054c42c9a722b0ad6bb62a49": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_github_integration.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:58):\\n- Project_Management/tests/test_github_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_github_integration.py b/Project_Management/tests/test_github_integration.py\\n    new file mode 100644\\n    index 0000000..b782333\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_github_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_github_integration.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:07:58):\\n- project_inputs/tests/test_github_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_github_integration.py b/project_inputs/tests/test_github_integration.py\\n    new file mode 100644\\n    index 0000000..b782333\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_github_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:07:59",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -713,9 +713,9 @@
         ]
     },
     "d268c5fcdab9f049ee39432e394b495383f39da5": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_importance_urgency_report.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:00):\\n- Project_Management/tests/test_importance_urgency_report.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_importance_urgency_report.py b/Project_Management/tests/test_importance_urgency_report.py\\n    new file mode 100644\\n    index 0000000..fe45f40\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_importance_urgency_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_importance_urgency_report.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:00):\\n- project_inputs/tests/test_importance_urgency_report.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_importance_urgency_report.py b/project_inputs/tests/test_importance_urgency_report.py\\n    new file mode 100644\\n    index 0000000..fe45f40\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_importance_urgency_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:08:00",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -726,9 +726,9 @@
         ]
     },
     "5c20b6a044caa23c4198009997d92da187c2e78d": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_progress_report.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:01):\\n- Project_Management/tests/test_progress_report.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_progress_report.py b/Project_Management/tests/test_progress_report.py\\n    new file mode 100644\\n    index 0000000..3ce4289\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_progress_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_progress_report.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:01):\\n- project_inputs/tests/test_progress_report.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_progress_report.py b/project_inputs/tests/test_progress_report.py\\n    new file mode 100644\\n    index 0000000..3ce4289\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_progress_report.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:08:02",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -739,9 +739,9 @@
         ]
     },
     "6d251cb9056b9d5bbeef01343baabfefd388888b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_resource_leveling.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:03):\\n- Project_Management/tests/test_resource_leveling.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_resource_leveling.py b/Project_Management/tests/test_resource_leveling.py\\n    new file mode 100644\\n    index 0000000..706fc39\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_resource_leveling.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_resource_leveling.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:03):\\n- project_inputs/tests/test_resource_leveling.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_resource_leveling.py b/project_inputs/tests/test_resource_leveling.py\\n    new file mode 100644\\n    index 0000000..706fc39\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_resource_leveling.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:08:03",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -752,9 +752,9 @@
         ]
     },
     "c87ea46b7c316b71a5fc946580d3dec1f9fdbf7f": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_results.xml",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:04):\\n- Project_Management/tests/test_results.xml: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_results.xml b/Project_Management/tests/test_results.xml\\n    new file mode 100644\\n    index 0000000..e6923ee\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_results.xml\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_results.xml",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:04):\\n- project_inputs/tests/test_results.xml: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_results.xml b/project_inputs/tests/test_results.xml\\n    new file mode 100644\\n    index 0000000..e6923ee\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_results.xml\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:08:04",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -765,9 +765,9 @@
         ]
     },
     "7f2cdb21a966a8d7d7332350956065f2b10a7042": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_setup_initialization.py.bak",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:05):\\n- Project_Management/tests/test_setup_initialization.py.bak: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_setup_initialization.py.bak b/Project_Management/tests/test_setup_initialization.py.bak\\n    new file mode 100644\\n    index 0000000..cf4c37c\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_setup_initialization.py.bak\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_setup_initialization.py.bak",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:05):\\n- project_inputs/tests/test_setup_initialization.py.bak: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_setup_initialization.py.bak b/project_inputs/tests/test_setup_initialization.py.bak\\n    new file mode 100644\\n    index 0000000..cf4c37c\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_setup_initialization.py.bak\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:08:06",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -778,9 +778,9 @@
         ]
     },
     "8c0bbab34f6a2cba272269d13c3441499dcd083c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_task_management.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:07):\\n- Project_Management/tests/test_task_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_task_management.py b/Project_Management/tests/test_task_management.py\\n    new file mode 100644\\n    index 0000000..6f00b62\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_task_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_task_management.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:08:07):\\n- project_inputs/tests/test_task_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_task_management.py b/project_inputs/tests/test_task_management.py\\n    new file mode 100644\\n    index 0000000..6f00b62\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_task_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:08:07",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1792,9 +1792,9 @@
         ]
     },
     "c727a312a4d85cf56c2a6e05794d42560d04c395": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:24:18):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index db1c593..9ddecce 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,3 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:24:18):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index db1c593..9ddecce 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1,3 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:19",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1805,9 +1805,9 @@
         ]
     },
     "408c9561c1505cd93310c6da8870fb50d5697e43": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:24:20):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 28e7f19..c6661d1 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -230,5 +230,1578 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 07:24:20):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 28e7f19..c6661d1 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -230,5 +230,1578 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:20",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1818,9 +1818,9 @@
         ]
     },
     "1f54bb90442643312c53026a3254d4daf2160f49": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TESTING_INSTRUCTIONS.md",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:21):\\n- Project_Management/TESTING_INSTRUCTIONS.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/TESTING_INSTRUCTIONS.md b/Project_Management/TESTING_INSTRUCTIONS.md\\n    new file mode 100644\\n    index 0000000..17bdf41\\n    --- /dev/null\\n    +++ b/Project_Management/TESTING_INSTRUCTIONS.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TESTING_INSTRUCTIONS.md",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:21):\\n- project_inputs/TESTING_INSTRUCTIONS.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/TESTING_INSTRUCTIONS.md b/project_inputs/TESTING_INSTRUCTIONS.md\\n    new file mode 100644\\n    index 0000000..17bdf41\\n    --- /dev/null\\n    +++ b/project_inputs/TESTING_INSTRUCTIONS.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:21",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1831,9 +1831,9 @@
         ]
     },
     "579825bcdc4efdc84654915a52f06dcb719bdd6a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TEST_CHECKLIST.txt",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:22):\\n- Project_Management/TEST_CHECKLIST.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/TEST_CHECKLIST.txt b/Project_Management/TEST_CHECKLIST.txt\\n    new file mode 100644\\n    index 0000000..485fac4\\n    --- /dev/null\\n    +++ b/Project_Management/TEST_CHECKLIST.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TEST_CHECKLIST.txt",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:22):\\n- project_inputs/TEST_CHECKLIST.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/TEST_CHECKLIST.txt b/project_inputs/TEST_CHECKLIST.txt\\n    new file mode 100644\\n    index 0000000..485fac4\\n    --- /dev/null\\n    +++ b/project_inputs/TEST_CHECKLIST.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:23",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1844,9 +1844,9 @@
         ]
     },
     "e829446c09e51c48f5c207083590cda5d2cf6531": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TEST_COVERAGE.txt",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:24):\\n- Project_Management/TEST_COVERAGE.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/TEST_COVERAGE.txt b/Project_Management/TEST_COVERAGE.txt\\n    new file mode 100644\\n    index 0000000..9e02773\\n    --- /dev/null\\n    +++ b/Project_Management/TEST_COVERAGE.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TEST_COVERAGE.txt",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:24):\\n- project_inputs/TEST_COVERAGE.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/TEST_COVERAGE.txt b/project_inputs/TEST_COVERAGE.txt\\n    new file mode 100644\\n    index 0000000..9e02773\\n    --- /dev/null\\n    +++ b/project_inputs/TEST_COVERAGE.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:24",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1857,9 +1857,9 @@
         ]
     },
     "6b39331f254464e58906c3f13307a4a470f5b128": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TEST_RESULTS.txt",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:25):\\n- Project_Management/TEST_RESULTS.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/TEST_RESULTS.txt b/Project_Management/TEST_RESULTS.txt\\n    new file mode 100644\\n    index 0000000..1fcf9db\\n    --- /dev/null\\n    +++ b/Project_Management/TEST_RESULTS.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TEST_RESULTS.txt",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:25):\\n- project_inputs/TEST_RESULTS.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/TEST_RESULTS.txt b/project_inputs/TEST_RESULTS.txt\\n    new file mode 100644\\n    index 0000000..1fcf9db\\n    --- /dev/null\\n    +++ b/project_inputs/TEST_RESULTS.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:26",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1870,9 +1870,9 @@
         ]
     },
     "46ec517f1b1969cc2fc794fddb0159d2b4964656": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/test_start.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:27):\\n- Project_Management/test_start.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/test_start.py b/Project_Management/test_start.py\\n    new file mode 100644\\n    index 0000000..0544bb2\\n    --- /dev/null\\n    +++ b/Project_Management/test_start.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/test_start.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:27):\\n- project_inputs/test_start.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/test_start.py b/project_inputs/test_start.py\\n    new file mode 100644\\n    index 0000000..0544bb2\\n    --- /dev/null\\n    +++ b/project_inputs/test_start.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:27",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1883,9 +1883,9 @@
         ]
     },
     "e3597d7ca53f09dab8dce17f44fd46bf396ef8bd": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/TEST_CHECKLIST.md",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:28):\\n- Project_Management/tests/TEST_CHECKLIST.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_CHECKLIST.md b/Project_Management/tests/TEST_CHECKLIST.md\\n    new file mode 100644\\n    index 0000000..5be94da\\n    --- /dev/null\\n    +++ b/Project_Management/tests/TEST_CHECKLIST.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/TEST_CHECKLIST.md",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:28):\\n- project_inputs/tests/TEST_CHECKLIST.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/TEST_CHECKLIST.md b/project_inputs/tests/TEST_CHECKLIST.md\\n    new file mode 100644\\n    index 0000000..5be94da\\n    --- /dev/null\\n    +++ b/project_inputs/tests/TEST_CHECKLIST.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:28",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1896,9 +1896,9 @@
         ]
     },
     "cd48e61ea25c3ed484ea4bf6c4be16139d1ee794": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_auto_commit.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:29):\\n- Project_Management/tests/test_auto_commit.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_auto_commit.py b/Project_Management/tests/test_auto_commit.py\\n    new file mode 100644\\n    index 0000000..a10a661\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_auto_commit.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:29):\\n- project_inputs/tests/test_auto_commit.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_auto_commit.py b/project_inputs/tests/test_auto_commit.py\\n    new file mode 100644\\n    index 0000000..a10a661\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:30",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1909,9 +1909,9 @@
         ]
     },
     "3d22db4097d3e1a7666ee8944ca28022b94878ed": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_commit_task_database.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:31):\\n- Project_Management/tests/test_commit_task_database.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_commit_task_database.py b/Project_Management/tests/test_commit_task_database.py\\n    new file mode 100644\\n    index 0000000..8fcc020\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_commit_task_database.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_commit_task_database.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:31):\\n- project_inputs/tests/test_commit_task_database.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_commit_task_database.py b/project_inputs/tests/test_commit_task_database.py\\n    new file mode 100644\\n    index 0000000..8fcc020\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_commit_task_database.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:31",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -1922,9 +1922,9 @@
         ]
     },
     "58e8e190c5b75dd0b6e99f52568f6dc1f68f799d": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_progress_calculator.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:32):\\n- Project_Management/tests/test_progress_calculator.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_progress_calculator.py b/Project_Management/tests/test_progress_calculator.py\\n    new file mode 100644\\n    index 0000000..a470760\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_progress_calculator.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_progress_calculator.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 07:24:32):\\n- project_inputs/tests/test_progress_calculator.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_progress_calculator.py b/project_inputs/tests/test_progress_calculator.py\\n    new file mode 100644\\n    index 0000000..a470760\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_progress_calculator.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 07:24:33",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2156,9 +2156,9 @@
         ]
     },
     "f95656b3c262db31d2f3fc61a54962a01ec64111": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:08:13):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index c6661d1..9cafd32 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -1803,5 +1803,356 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:08:13):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index c6661d1..9cafd32 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -1803,5 +1803,356 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:14",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2169,9 +2169,9 @@
         ]
     },
     "16026e5bfc9bac56f5174700754b4d2678389117": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/setup.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:08:15):\\n- Project_Management/setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/setup.py b/Project_Management/setup.py\\n    index 979a07c..22a2826 100644\\n    --- a/Project_Management/setup.py\\n    +++ b/Project_Management/setup.py\\n    @@ -1,28 +1,20 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/setup.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:08:15):\\n- project_inputs/setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/setup.py b/project_inputs/setup.py\\n    index 979a07c..22a2826 100644\\n    --- a/project_inputs/setup.py\\n    +++ b/project_inputs/setup.py\\n    @@ -1,28 +1,20 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:15",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2182,9 +2182,9 @@
         ]
     },
     "d1677d9b81377a3aeba46a34252b235812615468": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/.gitignore",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:16):\\n- Project_Management/.gitignore: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/.gitignore b/Project_Management/.gitignore\\n    new file mode 100644\\n    index 0000000..8c16e9a\\n    --- /dev/null\\n    +++ b/Project_Management/.gitignore\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/.gitignore",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:16):\\n- project_inputs/.gitignore: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/.gitignore b/project_inputs/.gitignore\\n    new file mode 100644\\n    index 0000000..8c16e9a\\n    --- /dev/null\\n    +++ b/project_inputs/.gitignore\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:17",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2195,9 +2195,9 @@
         ]
     },
     "f5207e37db704aad772fd4c1b6c98d0803469b05": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/config/",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:18):\\n- Project_Management/config/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/config/project_management_state.txt b/Project_Management/config/project_management_state.txt\\n    new file mode 100644\\n    index 0000000..7d559fa\\n    --- /dev/null\\n    +++ b/Project_Management/config/project_management_state.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/config/",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:18):\\n- project_inputs/config/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/config/project_management_state.txt b/project_inputs/config/project_management_state.txt\\n    new file mode 100644\\n    index 0000000..7d559fa\\n    --- /dev/null\\n    +++ b/project_inputs/config/project_management_state.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:18",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2208,9 +2208,9 @@
         ]
     },
     "448ef7f70a3df0356e8df63ae91465a8ef4d0be4": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/implementation_plan.txt",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:19):\\n- Project_Management/implementation_plan.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/implementation_plan.txt b/Project_Management/implementation_plan.txt\\n    new file mode 100644\\n    index 0000000..c647bb0\\n    --- /dev/null\\n    +++ b/Project_Management/implementation_plan.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/implementation_plan.txt",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:19):\\n- project_inputs/implementation_plan.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/implementation_plan.txt b/project_inputs/implementation_plan.txt\\n    new file mode 100644\\n    index 0000000..c647bb0\\n    --- /dev/null\\n    +++ b/project_inputs/implementation_plan.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:19",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2221,9 +2221,9 @@
         ]
     },
     "322d8d270610cd48a42fa0d31ecbfe9fab06d1b2": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/rewrite_commit_messages.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:20):\\n- Project_Management/rewrite_commit_messages.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/rewrite_commit_messages.py b/Project_Management/rewrite_commit_messages.py\\n    new file mode 100644\\n    index 0000000..e795eae\\n    --- /dev/null\\n    +++ b/Project_Management/rewrite_commit_messages.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/rewrite_commit_messages.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:20):\\n- project_inputs/rewrite_commit_messages.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/rewrite_commit_messages.py b/project_inputs/rewrite_commit_messages.py\\n    new file mode 100644\\n    index 0000000..e795eae\\n    --- /dev/null\\n    +++ b/project_inputs/rewrite_commit_messages.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:21",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2234,9 +2234,9 @@
         ]
     },
     "13016ddefa99775e5aae2386e279e0602bc5bb73": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/verify_commit_messages.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:22):\\n- Project_Management/verify_commit_messages.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/verify_commit_messages.py b/Project_Management/verify_commit_messages.py\\n    new file mode 100644\\n    index 0000000..036cbe3\\n    --- /dev/null\\n    +++ b/Project_Management/verify_commit_messages.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/verify_commit_messages.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:08:22):\\n- project_inputs/verify_commit_messages.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/verify_commit_messages.py b/project_inputs/verify_commit_messages.py\\n    new file mode 100644\\n    index 0000000..036cbe3\\n    --- /dev/null\\n    +++ b/project_inputs/verify_commit_messages.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:08:22",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2286,9 +2286,9 @@
         ]
     },
     "94bf3f0edae4b550d8172bee413fb5adc157a10c": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:19:48):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 9cafd32..129ab15 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2154,5 +2154,135 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:19:48):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 9cafd32..129ab15 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2154,5 +2154,135 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:19:48",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2546,9 +2546,9 @@
         ]
     },
     "5b2ea4dd434ec0804cd817fdf62dbcd6a7f056e4": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:29:02):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index 9ddecce..fe10713 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,4 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:29:02):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index 9ddecce..fe10713 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1,4 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:29:02",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2559,9 +2559,9 @@
         ]
     },
     "c1fbb39af420508278a1a3fa17a33c78f29ee45b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:29:03):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 129ab15..52b47fb 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2284,5 +2284,278 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:29:03):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 129ab15..52b47fb 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2284,5 +2284,278 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:29:04",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2572,9 +2572,9 @@
         ]
     },
     "9cd66441c2b3033dfbb7bcfbd2915c540dd1c62b": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:59:06):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 52b47fb..cbf761e 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2557,5 +2557,18 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 08:59:06):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 52b47fb..cbf761e 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2557,5 +2557,18 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:07",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2585,9 +2585,9 @@
         ]
     },
     "e8d17be172df61fd4cb4db2ddc638c393bc628f1": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TEST_CHECKLIST.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:08):\\n- Project_Management/TEST_CHECKLIST.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/TEST_CHECKLIST.txt b/Project_Management/TEST_CHECKLIST.txt\\n    deleted file mode 100644\\n    index 485fac4..0000000\\n    --- a/Project_Management/TEST_CHECKLIST.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TEST_CHECKLIST.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:08):\\n- project_inputs/TEST_CHECKLIST.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/TEST_CHECKLIST.txt b/project_inputs/TEST_CHECKLIST.txt\\n    deleted file mode 100644\\n    index 485fac4..0000000\\n    --- a/project_inputs/TEST_CHECKLIST.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:08",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2598,9 +2598,9 @@
         ]
     },
     "bfd4f515d369c29a0b56a90bcb09f583d8741c8a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TEST_COVERAGE.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:09):\\n- Project_Management/TEST_COVERAGE.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/TEST_COVERAGE.txt b/Project_Management/TEST_COVERAGE.txt\\n    deleted file mode 100644\\n    index 9e02773..0000000\\n    --- a/Project_Management/TEST_COVERAGE.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TEST_COVERAGE.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:09):\\n- project_inputs/TEST_COVERAGE.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/TEST_COVERAGE.txt b/project_inputs/TEST_COVERAGE.txt\\n    deleted file mode 100644\\n    index 9e02773..0000000\\n    --- a/project_inputs/TEST_COVERAGE.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:10",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2611,9 +2611,9 @@
         ]
     },
     "813b87fb6943a67208c701b71fa904aaff674d73": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/TEST_RESULTS.txt",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:11):\\n- Project_Management/TEST_RESULTS.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/TEST_RESULTS.txt b/Project_Management/TEST_RESULTS.txt\\n    deleted file mode 100644\\n    index 1fcf9db..0000000\\n    --- a/Project_Management/TEST_RESULTS.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/TEST_RESULTS.txt",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:11):\\n- project_inputs/TEST_RESULTS.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/TEST_RESULTS.txt b/project_inputs/TEST_RESULTS.txt\\n    deleted file mode 100644\\n    index 1fcf9db..0000000\\n    --- a/project_inputs/TEST_RESULTS.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:11",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2624,9 +2624,9 @@
         ]
     },
     "cf7a92db3ab1a6303aca05c7393601bc766122bf": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/test_start.py",
-        "commit_message": "🗑️ remove(Project_Management): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:12):\\n- Project_Management/test_start.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Project_Management/test_start.py b/Project_Management/test_start.py\\n    deleted file mode 100644\\n    index 0544bb2..0000000\\n    --- a/Project_Management/test_start.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/test_start.py",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-09 08:59:12):\\n- project_inputs/test_start.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/test_start.py b/project_inputs/test_start.py\\n    deleted file mode 100644\\n    index 0544bb2..0000000\\n    --- a/project_inputs/test_start.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:12",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2637,9 +2637,9 @@
         ]
     },
     "b9ea41dcc33ce873d6b76da33c5376c8c59680d4": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/TEST_COVERAGE.txt",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:59:13):\\n- Project_Management/tests/TEST_COVERAGE.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_COVERAGE.txt b/Project_Management/tests/TEST_COVERAGE.txt\\n    new file mode 100644\\n    index 0000000..9e02773\\n    --- /dev/null\\n    +++ b/Project_Management/tests/TEST_COVERAGE.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/TEST_COVERAGE.txt",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:59:13):\\n- project_inputs/tests/TEST_COVERAGE.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/TEST_COVERAGE.txt b/project_inputs/tests/TEST_COVERAGE.txt\\n    new file mode 100644\\n    index 0000000..9e02773\\n    --- /dev/null\\n    +++ b/project_inputs/tests/TEST_COVERAGE.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:14",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2650,9 +2650,9 @@
         ]
     },
     "e2f922838c1d010e4359002b78ab6be639d744ea": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/TEST_RESULTS.txt",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:59:15):\\n- Project_Management/tests/TEST_RESULTS.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/TEST_RESULTS.txt b/Project_Management/tests/TEST_RESULTS.txt\\n    new file mode 100644\\n    index 0000000..1fcf9db\\n    --- /dev/null\\n    +++ b/Project_Management/tests/TEST_RESULTS.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/TEST_RESULTS.txt",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:59:15):\\n- project_inputs/tests/TEST_RESULTS.txt: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/TEST_RESULTS.txt b/project_inputs/tests/TEST_RESULTS.txt\\n    new file mode 100644\\n    index 0000000..1fcf9db\\n    --- /dev/null\\n    +++ b/project_inputs/tests/TEST_RESULTS.txt\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:15",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2663,9 +2663,9 @@
         ]
     },
     "a546f537fea6a16f1489644d2a60afc436133cf9": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_start.py",
-        "commit_message": "📝 docs(Project_Management): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:59:16):\\n- Project_Management/tests/test_start.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_start.py b/Project_Management/tests/test_start.py\\n    new file mode 100644\\n    index 0000000..0544bb2\\n    --- /dev/null\\n    +++ b/Project_Management/tests/test_start.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_start.py",
+        "commit_message": "📝 docs(project_inputs): Untracked files updated\\n\\nChanges included (as of 2025-07-09 08:59:16):\\n- project_inputs/tests/test_start.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_start.py b/project_inputs/tests/test_start.py\\n    new file mode 100644\\n    index 0000000..0544bb2\\n    --- /dev/null\\n    +++ b/project_inputs/tests/test_start.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 08:59:17",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2676,9 +2676,9 @@
         ]
     },
     "f3901547098019507ec54e2db8f25186742dceaa": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:14):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index fe10713..0967ef4 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1,5 +1 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:14):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index fe10713..0967ef4 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1,5 +1 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 09:13:15",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2689,9 +2689,9 @@
         ]
     },
     "e8217bf37fa8768eee20af81284571956bcd53b7": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:15):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index cbf761e..48e9c0e 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2,8 +2,8 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:15):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index cbf761e..48e9c0e 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2,8 +2,8 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 09:13:16",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2702,9 +2702,9 @@
         ]
     },
     "b82b8ddc41ca17920c8a40d254b051bbcf0b1d3a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_github_integration.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:17):\\n- Project_Management/tests/test_github_integration.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_github_integration.py b/Project_Management/tests/test_github_integration.py\\n    index b782333..432dbbe 100644\\n    --- a/Project_Management/tests/test_github_integration.py\\n    +++ b/Project_Management/tests/test_github_integration.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_github_integration.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:17):\\n- project_inputs/tests/test_github_integration.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_github_integration.py b/project_inputs/tests/test_github_integration.py\\n    index b782333..432dbbe 100644\\n    --- a/project_inputs/tests/test_github_integration.py\\n    +++ b/project_inputs/tests/test_github_integration.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 09:13:17",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2715,9 +2715,9 @@
         ]
     },
     "d9d4ca74155cec31053717f84c12bb364c795231": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_resource_leveling.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:19):\\n- Project_Management/tests/test_resource_leveling.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_resource_leveling.py b/Project_Management/tests/test_resource_leveling.py\\n    index 706fc39..f4650c2 100644\\n    --- a/Project_Management/tests/test_resource_leveling.py\\n    +++ b/Project_Management/tests/test_resource_leveling.py\\n    @@ -1,7 +1,7 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_resource_leveling.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:19):\\n- project_inputs/tests/test_resource_leveling.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_resource_leveling.py b/project_inputs/tests/test_resource_leveling.py\\n    index 706fc39..f4650c2 100644\\n    --- a/project_inputs/tests/test_resource_leveling.py\\n    +++ b/project_inputs/tests/test_resource_leveling.py\\n    @@ -1,7 +1,7 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 09:13:19",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2728,9 +2728,9 @@
         ]
     },
     "15924a0de5c9a050f025143282caeaaa6839d788": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_results.xml",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:20):\\n- Project_Management/tests/test_results.xml: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_results.xml b/Project_Management/tests/test_results.xml\\n    index e6923ee..861810e 100644\\n    --- a/Project_Management/tests/test_results.xml\\n    +++ b/Project_Management/tests/test_results.xml\\n    @@ -1,130 +1,158 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_results.xml",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:20):\\n- project_inputs/tests/test_results.xml: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_results.xml b/project_inputs/tests/test_results.xml\\n    index e6923ee..861810e 100644\\n    --- a/project_inputs/tests/test_results.xml\\n    +++ b/project_inputs/tests/test_results.xml\\n    @@ -1,130 +1,158 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 09:13:20",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2741,9 +2741,9 @@
         ]
     },
     "6cc0bb98652184a82ce3e40ccac592f7679146a5": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/tests/test_task_management.py",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:21):\\n- Project_Management/tests/test_task_management.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/tests/test_task_management.py b/Project_Management/tests/test_task_management.py\\n    index 6f00b62..30385e5 100644\\n    --- a/Project_Management/tests/test_task_management.py\\n    +++ b/Project_Management/tests/test_task_management.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/tests/test_task_management.py",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 09:13:21):\\n- project_inputs/tests/test_task_management.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/tests/test_task_management.py b/project_inputs/tests/test_task_management.py\\n    index 6f00b62..30385e5 100644\\n    --- a/project_inputs/tests/test_task_management.py\\n    +++ b/project_inputs/tests/test_task_management.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 09:13:22",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2793,9 +2793,9 @@
         ]
     },
     "5641e6b37ea796b43d46a547f5156cbf7ef8b1f7": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_progress.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 17:09:44):\\n- Project_Management/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_progress.json b/Project_Management/PM_Input/commit_progress.json\\n    index 0967ef4..fe10713 100644\\n    --- a/Project_Management/PM_Input/commit_progress.json\\n    +++ b/Project_Management/PM_Input/commit_progress.json\\n    @@ -1 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_progress.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 17:09:44):\\n- project_inputs/PM_Input/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_progress.json b/project_inputs/PM_Input/commit_progress.json\\n    index 0967ef4..fe10713 100644\\n    --- a/project_inputs/PM_Input/commit_progress.json\\n    +++ b/project_inputs/PM_Input/commit_progress.json\\n    @@ -1 +1,5 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 17:09:44",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2806,9 +2806,9 @@
         ]
     },
     "3858eb1f31c3b79334aa93d7cddae67a7df2f343": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 17:09:46):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 48e9c0e..1b733c9 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2687,5 +2687,122 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 17:09:46):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 48e9c0e..1b733c9 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2687,5 +2687,122 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 17:09:46",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",
@@ -2819,9 +2819,9 @@
         ]
     },
     "d30633d6be8875175690d32d559acb00c0731c8a": {
-        "task_id": "Project_Management",
-        "file_path": "Project_Management/PM_Input/commit_task_database.json",
-        "commit_message": "🐛 fix(Project_Management): Modified files updated\\n\\nChanges included (as of 2025-07-09 17:11:32):\\n- Project_Management/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Project_Management/PM_Input/commit_task_database.json b/Project_Management/PM_Input/commit_task_database.json\\n    index 1b733c9..c20881b 100644\\n    --- a/Project_Management/PM_Input/commit_task_database.json\\n    +++ b/Project_Management/PM_Input/commit_task_database.json\\n    @@ -2804,5 +2804,18 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_Input/commit_task_database.json",
+        "commit_message": "🐛 fix(project_inputs): Modified files updated\\n\\nChanges included (as of 2025-07-09 17:11:32):\\n- project_inputs/PM_Input/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_inputs/PM_Input/commit_task_database.json b/project_inputs/PM_Input/commit_task_database.json\\n    index 1b733c9..c20881b 100644\\n    --- a/project_inputs/PM_Input/commit_task_database.json\\n    +++ b/project_inputs/PM_Input/commit_task_database.json\\n    @@ -2804,5 +2804,18 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "timestamp": "2025-07-09 17:11:33",
         "author": "GravityMg",
         "email": "164815641+GravityMg@users.noreply.github.com",

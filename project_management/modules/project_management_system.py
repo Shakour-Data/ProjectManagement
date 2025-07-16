@@ -306,7 +306,7 @@ class ReportManager:
         tm = TaskManager(pc.get_enriched_tasks())
         tm.complete_top_important_tasks(5)
 
-        from Project_Management.modules.dashboards_reports import DashboardReports
+        from project_inputs.modules.dashboards_reports import DashboardReports
         dr = DashboardReports(self.input_dir)
         dr.load_inputs()
 

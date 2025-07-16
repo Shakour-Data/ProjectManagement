@@ -15,8 +15,8 @@ group_changes_by_module = auto_commit.group_related_files
 class TestAutoCommit(unittest.TestCase):
     def setUp(self):
         # Setup test environment paths
-        self.commit_progress_path = "Project_Management/PM_JSON/system_outputs/commit_progress.json"
-        self.commit_task_db_path = "Project_Management/PM_JSON/system_outputs/commit_task_database.json"
+        self.commit_progress_path = "project_inputs/PM_JSON/system_outputs/commit_progress.json"
+        self.commit_task_db_path = "project_inputs/PM_JSON/system_outputs/commit_task_database.json"
 
     def test_generate_commit_message(self):
         group_name = "module1"

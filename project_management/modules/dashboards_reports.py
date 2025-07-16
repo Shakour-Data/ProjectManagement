@@ -1,6 +1,6 @@
 import json
 from typing import Dict, Any, List, Optional
-from Project_Management.modules.progress_calculator import ProgressCalculator
+from project_inputs.modules.progress_calculator import ProgressCalculator
 
 class DashboardReports:
     def __init__(self, input_dir: str = 'PM_JSON/user_inputs'):
