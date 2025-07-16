@@ -18,17 +18,21 @@ ProjectManagement is a comprehensive Python-based project management system desi
    ```bash
    git clone <repository-url>
    ```
-3. Navigate to the project directory:
+3. Navigate to the project root directory:
    ```bash
-   cd ProjectManagement/project_management
+   cd ProjectManagement
    ```
-4. Install the required dependencies:
+4. Run the setup script to create a virtual environment and install dependencies:
    ```bash
-   pip install -r config/requirements.txt
+   ./setup_env.sh
    ```
-5. (Optional) Install the package:
+5. (Optional) Activate the virtual environment manually if needed:
    ```bash
-   python setup.py install
+   source venv/bin/activate
+   ```
+6. (Optional) Install the package:
+   ```bash
+   python project_management/setup.py install
    ```
 
 ## Usage
