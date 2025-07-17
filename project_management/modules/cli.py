@@ -1,5 +1,1 @@
-def main():
-    print("Auto Project Manager CLI - placeholder for command line interface")
-
-if __name__ == '__main__':
-    main()
+# Removed cli.py as per user request to consolidate CLI code into cli_commands.py
