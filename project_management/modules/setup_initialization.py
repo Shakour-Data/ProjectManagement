@@ -25,6 +25,15 @@ def install_dependencies(env_dir='venv', requirements_file='requirements.txt'):
     subprocess.check_call([pip_executable, 'install', '-r', requirements_file])
     print("Dependencies installed.")
 
+def initialize_git_repo():
+    """Initialize a git repository in the current directory if not already a git repo."""
+    if os.path.exists('.git'):
+        print("Git repository already initialized.")
+        return
+    print("Initializing git repository...")
+    subprocess.run(['git', 'init'], check=True)
+    print("Git repository initialized.")
+
 def ensure_gitignore_excludes_venv(gitignore_path='.gitignore', venv_dirs=None):
     if venv_dirs is None:
         venv_dirs = ['venv/', '.venv/', 'ENV/', 'env/']
@@ -46,8 +55,19 @@ def ensure_gitignore_excludes_venv(gitignore_path='.gitignore', venv_dirs=None):
     else:
         print(f"{gitignore_path} already excludes virtual environment directories.")
 
+def create_requirements_file(requirements_file='requirements.txt'):
+    """Create an empty requirements.txt file if it does not exist."""
+    if not os.path.exists(requirements_file):
+        with open(requirements_file, 'w') as f:
+            f.write("# Add your project dependencies here\n")
+        print(f"Created {requirements_file}. Please add your project dependencies to this file.")
+    else:
+        print(f"{requirements_file} already exists.")
+
 def main():
     ensure_gitignore_excludes_venv()
+    initialize_git_repo()
+    create_requirements_file()
     create_virtualenv()
     install_dependencies()
 
