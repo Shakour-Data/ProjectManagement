@@ -40,7 +40,6 @@ auto_pm setup
 
 Before running `start` or `setup`, ensure you have placed the following JSON input files in the `PM_Input` directory:
 
-- wbs_data.json
 - detailed_wbs.json
 - human_resources.json
 - resource_allocation.json
