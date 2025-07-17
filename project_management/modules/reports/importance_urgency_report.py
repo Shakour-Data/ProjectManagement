@@ -4,8 +4,10 @@ from datetime import datetime
 
 class ImportanceUrgencyReport:
     def __init__(self, input_path=None, output_path=None):
-        self.input_path = input_path or os.path.join('project_management', 'PM_JSON', 'user_inputs', 'detailed_wbs.json')
-        self.output_path = output_path or os.path.join('docs', 'reports', 'importance_urgency_report.md')
+        import os
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        self.input_path = input_path or os.path.join(base_dir, '..', '..', '..', 'project_inputs', 'PM_JSON', 'user_inputs', 'detailed_wbs.json')
+        self.output_path = output_path or os.path.join(base_dir, '..', '..', '..', 'docs', 'reports', 'importance_urgency_report.md')
 
     def load_tasks(self):
         if not os.path.exists(self.input_path):
