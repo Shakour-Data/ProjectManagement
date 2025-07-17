@@ -45,9 +45,7 @@ def start(input_dir=None):
 
     # Extract tasks from inputs - assuming tasks are in wbs_data.json or detailed_wbs.json
     tasks = []
-    if 'wbs_data.json' in inputs:
-        tasks = inputs['wbs_data.json']
-    elif 'detailed_wbs.json' in inputs:
+    if 'detailed_wbs.json' in inputs:
         tasks = inputs['detailed_wbs.json']
 
     if not tasks:
@@ -81,7 +79,7 @@ def status():
     print("Project Management Tool is installed and ready.")
     # TODO: Implement status reporting based on current project state
 
-def setup():
+def setup(skip_input=False):
     """
     Interactive setup to help user upload and validate required input files.
     """
@@ -94,18 +92,18 @@ def setup():
     print("\nWelcome to the auto_pm setup!")
     print("Please ensure you have the following JSON input files ready to upload in the 'PM_Input' directory:")
     required_files = [
-        'wbs_data.json',
         'detailed_wbs.json',
         'human_resources.json',
         'resource_allocation.json',
         'task_resource_allocation.json',
-        'wbs_scores.json',
         'workflow_definition.json'
     ]
+    # Remove wbs_scores.json from input requirements as per user feedback
     for f in required_files:
         print(f" - {f}")
 
-    input("Press Enter when you have placed the files in the 'PM_Input' directory...")
+    if not skip_input:
+        input("Press Enter when you have placed the files in the 'PM_Input' directory...")
 
     inputs = input_handler.read_json_files()
     if inputs is None:
