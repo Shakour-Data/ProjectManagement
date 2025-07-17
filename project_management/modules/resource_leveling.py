@@ -79,13 +79,13 @@ class ResourceLeveler:
         self.save_json_file(leveled_schedule, self.output_filepath)
         print(f"Resource leveling completed. Output saved to {self.output_filepath}")
 
-def main():
-    tasks_filepath = 'projects/current_project/docs/detailed_wbs.json'
-    allocations_filepath = 'projects/current_project/docs/task_resource_allocation.json'
-    output_filepath = 'projects/current_project/docs/leveled_resource_schedule.json'
+    def main():
+        tasks_filepath = 'projects/current_project/docs/detailed_wbs.json'
+        allocations_filepath = 'projects/current_project/docs/task_resource_allocation.json'
+        output_filepath = 'projects/current_project/docs/leveled_resource_schedule.json'
 
-    leveler = ResourceLeveler(tasks_filepath, allocations_filepath, output_filepath)
-    leveler.run()
+        leveler = ResourceLeveler(tasks_filepath, allocations_filepath, output_filepath)
+        leveler.run()
 
-if __name__ == '__main__':
-    main()
+    if __name__ == '__main__':
+        main()
