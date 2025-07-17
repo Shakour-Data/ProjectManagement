@@ -1,6 +1,6 @@
 import json
 from typing import Dict, Any, List, Optional
-from project_inputs.modules.progress_calculator import ProgressCalculator
+from project_management.modules.progress_calculator import ProgressCalculator
 
 class DashboardReports:
     def __init__(self, input_dir: str = 'PM_JSON/user_inputs'):
@@ -9,7 +9,11 @@ class DashboardReports:
         self.progress_calculator = ProgressCalculator(input_dir)
 
     def load_json_file(self, filename: str) -> Optional[Any]:
-        path = f"{self.input_dir}/{filename}"
+        # Override to load wbs_scores.json from fixed path
+        if filename == 'wbs_scores.json':
+            path = 'docs/project_management/wbs_scores.json'
+        else:
+            path = f"{self.input_dir}/{filename}"
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -22,7 +26,6 @@ class DashboardReports:
         self.data['human_resources'] = self.load_json_file('human_resources.json')
         self.data['resource_allocation'] = self.load_json_file('resource_allocation.json')
         self.data['task_resource_allocation'] = self.load_json_file('task_resource_allocation.json')
-        self.data['wbs_data'] = self.load_json_file('wbs_data.json')
         self.data['wbs_scores'] = self.load_json_file('wbs_scores.json')
         self.data['workflow_definition'] = self.load_json_file('workflow_definition.json')
 
@@ -45,7 +48,7 @@ class DashboardReports:
             return f"- **{title}** (Status: {status}, Progress: {progress_percent:.1f}%)"
 
     def generate_progress_report(self) -> str:
-        tasks = self.data.get('detailed_wbs') or self.data.get('wbs_data') or []
+        tasks = self.data.get('detailed_wbs') or []
         total_tasks = len(tasks)
         completed = sum(1 for t in tasks if t.get('status') == 'completed')
         in_progress = sum(1 for t in tasks if t.get('status') == 'in_progress')
@@ -64,7 +67,7 @@ class DashboardReports:
         return md
 
     def generate_priority_urgency_report(self) -> str:
-        tasks = self.data.get('detailed_wbs') or self.data.get('wbs_data') or []
+        tasks = self.data.get('detailed_wbs') or []
         important_tasks = sorted(tasks, key=lambda x: x.get('importance', 0.0), reverse=True)[:10]
         urgent_tasks = sorted(tasks, key=lambda x: x.get('urgency', 0.0), reverse=True)[:10]
 
@@ -158,4 +161,3 @@ class DashboardReports:
         for issue in issues:
             md += f"- {issue.get('description', 'No description')}\n"
 
-        return md
