@@ -3,8 +3,8 @@ import sqlite3
 import os
 
 DB_PATH = os.path.join('docs', 'project_management', 'project_management.db')
-WBS_DATA_PATH = os.path.join('PM_JSON', 'user_inputs', 'wbs_data.json')
-WBS_SCORES_PATH = os.path.join('PM_JSON', 'user_inputs', 'wbs_scores.json')
+WBS_DATA_PATH = os.path.join('PM_JSON', 'user_inputs', 'detailed_wbs.json')
+WBS_SCORES_PATH = os.path.join('docs', 'project_management', 'wbs_scores.json')
 
 def connect_db():
     conn = sqlite3.connect(DB_PATH)
