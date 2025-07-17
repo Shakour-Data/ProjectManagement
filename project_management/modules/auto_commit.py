@@ -1,12 +1,13 @@
 import os
 import subprocess
+import os
 import datetime
 from collections import defaultdict
 
-def run_git_command(args):
+def run_git_command(args, cwd=None):
     """Run a git command and return (success, output)."""
     try:
-        result = subprocess.run(["git"] + args, capture_output=True, text=True, check=True)
+        result = subprocess.run(["git"] + args, capture_output=True, text=True, check=True, cwd=cwd)
         return True, result.stdout.strip()
     except subprocess.CalledProcessError as e:
         print(f"Git command failed: git {' '.join(args)}")
@@ -551,10 +552,10 @@ def auto_commit_and_push():
                 # Update the commit-task database with detailed info including new fields
                 update_commit_task_database(commit_hash, group_name, f, commit_message, workflow_stage, progress_change, importance_change, priority_change)
 
-                # Push the commit
-                success, _ = run_git_command(["push"])
+                # Push the commit to main branch with upstream set if needed
+                success, output = run_git_command(["push", "--set-upstream", "origin", "main"])
                 if not success:
-                    print(f"Failed to push commit for file {f} in {group_name} - {category_name}.")
+                    print(f"Failed to push commit for file {f} in {group_name} - {category_name}. Error: {output}")
                     continue
 
                 print(f"Committed and pushed changes for file: {f} in group: {group_name} - {category_name}")
