@@ -53,7 +53,7 @@ def save_wbs_to_json(wbs, output_path):
 if __name__ == "__main__":
     import os
     input_path = os.path.join(os.path.dirname(__file__), '../docs/project_management/detailed_implementation_plan.txt')
-    output_path = os.path.join(os.path.dirname(__file__), '../PM_JSON/user_inputs/detailed_wbs.json')
+    output_path = os.path.join(os.path.dirname(__file__), '../PM_Input/detailed_wbs.json')
     wbs = parse_detailed_implementation_plan(input_path)
     save_wbs_to_json(wbs, output_path)
     print(f"WBS data parsed and saved to {output_path}")
