@@ -5,10 +5,10 @@ from project_management.modules.input_handler import InputHandler
 
 class TestEdgeCases(unittest.TestCase):
     def setUp(self):
-        self.input_handler = InputHandler()
         self.test_dir = "project_management/PM_Input"
         if not os.path.exists(self.test_dir):
             os.makedirs(self.test_dir)
+        self.input_handler = InputHandler(input_dir=self.test_dir)
 
     def tearDown(self):
         # Clean up test files
