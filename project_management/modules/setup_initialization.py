@@ -12,7 +12,7 @@ def create_virtualenv(env_dir='venv'):
     else:
         print(f"Virtual environment already exists at {env_dir}.")
 
-def install_dependencies(env_dir='venv', requirements_file='requirements.txt'):
+def install_dependencies(env_dir='venv', requirements_file='../requirements.txt'):
     """Install dependencies from requirements.txt into the virtual environment."""
     pip_executable = os.path.join(env_dir, 'bin', 'pip')
     if not os.path.exists(pip_executable):
