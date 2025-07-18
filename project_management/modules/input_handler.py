@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 class InputHandler:
-    def __init__(self, input_dir='PM_UserInputs'):
+    def __init__(self, input_dir='project_inputs/PM_JSON/user_inputs'):
         self.input_dir = Path(input_dir)
 
     def ensure_input_dir(self):
@@ -22,18 +22,23 @@ class InputHandler:
             print(f"No JSON input files found in {self.input_dir.resolve()}.")
             return None
 
-        inputs = {}
+        # First validate all JSON files for correctness
         for jf in json_files:
             try:
                 with open(jf, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    inputs[jf.name] = data
+                    json.load(f)
             except json.JSONDecodeError as e:
                 print(f"JSON decode error in file {jf.name}: {e}")
                 return None
             except Exception as e:
                 print(f"Failed to read {jf.name}: {e}")
                 return None
+
+        # If all files are valid, load and return their contents
+        inputs = {}
+        for jf in json_files:
+            with open(jf, 'r', encoding='utf-8') as f:
+                inputs[jf.name] = json.load(f)
         return inputs
 
     def set_input_dir(self, new_dir):
