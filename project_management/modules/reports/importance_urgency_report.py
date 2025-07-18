@@ -14,9 +14,9 @@ class ImportanceUrgencyReport:
             raise FileNotFoundError(f"Input JSON file not found: {self.input_path}")
         with open(self.input_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        # Assuming tasks are in a list or dict under a key, adjust as per actual JSON structure
-        if isinstance(data, dict) and 'tasks' in data:
-            return data['tasks']
+        # Adjusted to return 'wbs' key which contains tasks in detailed_wbs.json
+        if isinstance(data, dict) and 'wbs' in data:
+            return data['wbs']
         return data
 
     def generate_importance_urgency_summary(self):
