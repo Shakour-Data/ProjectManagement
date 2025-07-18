@@ -39,7 +39,7 @@ def setup_project():
 
     print("\nSetup complete.")
     print("Please add your project dependencies to requirements.txt if not already done.")
-    print("Place your JSON input files in the 'PM_UserInputs' directory.")
+    print("Place your JSON input files in the 'project_inputs/PM_JSON/user_inputs' directory.")
     print("You can then proceed with other commands.")
 
 def status():
@@ -56,10 +56,10 @@ def status():
         print("- requirements.txt file exists.")
     else:
         print("- requirements.txt file not found.")
-    if os.path.exists('PM_UserInputs'):
-        print("- PM_UserInputs directory exists.")
+    if os.path.exists('project_inputs/PM_JSON/user_inputs'):
+        print("- project_inputs/PM_JSON/user_inputs directory exists.")
     else:
-        print("- PM_UserInputs directory not found.")
+        print("- project_inputs/PM_JSON/user_inputs directory not found.")
 
 def main():
     parser = argparse.ArgumentParser(description="Project Management Tool CLI")
