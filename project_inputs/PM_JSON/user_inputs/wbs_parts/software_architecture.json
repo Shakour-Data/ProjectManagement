@@ -1,0 +1,64 @@
+{
+  "id": "WBS-0",
+  "name": "Software Project",
+  "level": 0,
+  "subtasks": [
+    {
+      "id": "WBS-3",
+      "name": "Software Architecture",
+      "level": 1,
+      "subtasks": [
+        {
+          "id": "WBS-3.1",
+          "name": "Architecture Design",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-3.1.1", "name": "Component Design", "level": 3, "subtasks": []},
+            {"id": "WBS-3.1.2", "name": "Data Design", "level": 3, "subtasks": []},
+            {"id": "WBS-3.1.3", "name": "Interface Design", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-3.2",
+          "name": "Architecture Evaluation",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-3.2.1", "name": "Performance Analysis", "level": 3, "subtasks": []},
+            {"id": "WBS-3.2.2", "name": "Security Analysis", "level": 3, "subtasks": []},
+            {"id": "WBS-3.2.3", "name": "Scalability Analysis", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-3.3",
+          "name": "Architecture Documentation",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-3.3.1", "name": "Architecture Description", "level": 3, "subtasks": []},
+            {"id": "WBS-3.3.2", "name": "Design Rationale", "level": 3, "subtasks": []},
+            {"id": "WBS-3.3.3", "name": "Architecture Review", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-3.4",
+          "name": "Technology Selection",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-3.4.1", "name": "Platform Selection", "level": 3, "subtasks": []},
+            {"id": "WBS-3.4.2", "name": "Tool Selection", "level": 3, "subtasks": []},
+            {"id": "WBS-3.4.3", "name": "Framework Selection", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-3.5",
+          "name": "Architecture Implementation",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-3.5.1", "name": "Prototype Development", "level": 3, "subtasks": []},
+            {"id": "WBS-3.5.2", "name": "Architecture Validation", "level": 3, "subtasks": []},
+            {"id": "WBS-3.5.3", "name": "Architecture Refinement", "level": 3, "subtasks": []}
+          ]
+        }
+      ]
+    }
+  ]
+}

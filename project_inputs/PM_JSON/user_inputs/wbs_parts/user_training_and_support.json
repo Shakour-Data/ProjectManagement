@@ -1,0 +1,64 @@
+{
+  "id": "WBS-0",
+  "name": "Software Project",
+  "level": 0,
+  "subtasks": [
+    {
+      "id": "WBS-6",
+      "name": "User Training and Support",
+      "level": 1,
+      "subtasks": [
+        {
+          "id": "WBS-6.1",
+          "name": "Training Planning",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-6.1.1", "name": "Needs Assessment", "level": 3, "subtasks": []},
+            {"id": "WBS-6.1.2", "name": "Training Material Development", "level": 3, "subtasks": []},
+            {"id": "WBS-6.1.3", "name": "Training Schedule", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-6.2",
+          "name": "Training Delivery",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-6.2.1", "name": "Classroom Training", "level": 3, "subtasks": []},
+            {"id": "WBS-6.2.2", "name": "Online Training", "level": 3, "subtasks": []},
+            {"id": "WBS-6.2.3", "name": "Hands-on Workshops", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-6.3",
+          "name": "User Support",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-6.3.1", "name": "Help Desk", "level": 3, "subtasks": []},
+            {"id": "WBS-6.3.2", "name": "FAQ Development", "level": 3, "subtasks": []},
+            {"id": "WBS-6.3.3", "name": "User Feedback", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-6.4",
+          "name": "Documentation",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-6.4.1", "name": "User Manuals", "level": 3, "subtasks": []},
+            {"id": "WBS-6.4.2", "name": "Online Help", "level": 3, "subtasks": []},
+            {"id": "WBS-6.4.3", "name": "Release Notes", "level": 3, "subtasks": []}
+          ]
+        },
+        {
+          "id": "WBS-6.5",
+          "name": "Continuous Improvement",
+          "level": 2,
+          "subtasks": [
+            {"id": "WBS-6.5.1", "name": "Training Evaluation", "level": 3, "subtasks": []},
+            {"id": "WBS-6.5.2", "name": "Support Process Improvement", "level": 3, "subtasks": []},
+            {"id": "WBS-6.5.3", "name": "Knowledge Base Updates", "level": 3, "subtasks": []}
+          ]
+        }
+      ]
+    }
+  ]
+}

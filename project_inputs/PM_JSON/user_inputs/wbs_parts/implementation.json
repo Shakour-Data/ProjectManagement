@@ -1,0 +1,52 @@
+{
+  "id": "WBS-0",
+  "name": "Software Project",
+  "level": 0,
+  "subtasks": [
+    {
+      "id": "WBS-3",
+      "name": "Implementation",
+      "level": 1,
+      "subtasks": [
+        {
+          "id": "WBS-3.1",
+          "name": "Module Development",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-3.1.1",
+              "name": "Coding",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-3.1.2",
+              "name": "Unit Testing",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "WBS-3.2",
+          "name": "Integration",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-3.2.1",
+              "name": "Integration Testing",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-3.2.2",
+              "name": "System Testing",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
