@@ -1,57 +1,54 @@
-# auto_pm Package Help
+# Project Management Package Help
+
+This document provides help and guidance for using the Project Management package.
 
 ## Overview
-The `auto_pm` package provides automated project management tools including task prioritization, progress reporting, and integration with GitHub and VS Code.
 
-## Commands
+The Project Management package is a Python-based automation system designed to streamline software project management. It integrates with GitHub and Visual Studio Code (VS Code) to automate task management, progress tracking, resource allocation, and reporting.
 
-- `install`  
-  Prepare the environment and create the input directory. Use this before starting.
+## Installation
 
-- `start`  
-  Start the project management automation. This runs the main features of the package.
-
-- `status`  
-  Show the current status of the project management tool.
-
-- `setup`  
-  Interactive setup to help you upload and validate required JSON input files.
-
-- `help`  
-  Display help information about the package usage.
-
-These commands provide full access to all features of the auto_pm package.
+- Install the package using pip or from source.
+- Use the provided setup scripts (`scripts/setup_env.sh` and `scripts/setup_interactive.py`) to prepare the environment and input data.
 
 ## Usage
 
-Run commands using:
+- Use the CLI commands to install, setup, start, and check the status of the project management system.
+- Provide JSON input files defining the Work Breakdown Structure (WBS), workflow, resources, and allocations.
+- Interact with the system via the VS Code chat interface for natural language task management.
 
-```
-auto_pm <command>
-```
+## Commands
 
-For example, to run the interactive setup:
-
-```
-auto_pm setup
-```
+- `install`: Sets up the project directory and input files.
+- `setup`: Validates inputs and prepares the environment.
+- `start`: Starts the automation processes.
+- `status`: Displays the current status of the project management system.
+- `help`: Displays this help document.
 
 ## Input Files
 
-Before running `start` or `setup`, ensure you have placed the following JSON input files in the `PM_Input` directory:
+Required JSON files include:
 
 - detailed_wbs.json
-- human_resources.json
+- workflow_definition.json
 - resource_allocation.json
 - task_resource_allocation.json
+- wbs_data.json
 - wbs_scores.json
-- workflow_definition.json
+- human_resources.json (created interactively)
 
-## Notes
+## Reports and Outputs
 
-- The `setup` command will guide you through verifying these input files and notify you if any are missing or invalid.
-- Use the `help` command to display this information anytime.
+- The system generates progress reports, dashboards, and changelogs.
+- Outputs are saved in designated directories for review.
 
-## Contact
+## Troubleshooting
 
-For further assistance, please contact the package maintainer.
+- Ensure all required JSON input files are present and valid.
+- Use the interactive setup script to enter human resources data.
+- Check the virtual environment is activated before running commands.
+- Review logs for errors during automation.
+
+## Support
+
+For further assistance, refer to the comprehensive documentation in the `docs/` directory or contact the development team.
