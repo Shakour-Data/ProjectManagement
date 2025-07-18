@@ -1,0 +1,45 @@
+{
+  "id": "WBS-Modeling-2",
+  "name": "System Analysis",
+  "description": "Analyze system requirements and define system specifications.",
+  "level_0": "Software Project",
+  "level_1": "Modeling",
+  "level_2": "System Analysis",
+  "subtasks": [
+    {
+      "id": "WBS-Modeling-2.1",
+      "name": "Feasibility Study",
+      "description": "Assess feasibility of the proposed system.",
+      "level_3": "Feasibility Study",
+      "subtasks": []
+    },
+    {
+      "id": "WBS-Modeling-2.2",
+      "name": "Requirement Specification",
+      "description": "Develop detailed system requirement specifications.",
+      "level_3": "Requirement Specification",
+      "subtasks": []
+    },
+    {
+      "id": "WBS-Modeling-2.3",
+      "name": "Data Modeling",
+      "description": "Create data models representing system data.",
+      "level_3": "Data Modeling",
+      "subtasks": []
+    },
+    {
+      "id": "WBS-Modeling-2.4",
+      "name": "Process Modeling",
+      "description": "Model system processes and workflows.",
+      "level_3": "Process Modeling",
+      "subtasks": []
+    },
+    {
+      "id": "WBS-Modeling-2.5",
+      "name": "Validation and Verification",
+      "description": "Validate and verify system analysis outputs.",
+      "level_3": "Validation and Verification",
+      "subtasks": []
+    }
+  ]
+}
