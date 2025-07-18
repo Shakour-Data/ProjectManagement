@@ -3,7 +3,7 @@ from typing import Dict, Any, List, Optional
 from project_management.modules.progress_calculator import ProgressCalculator
 
 class DashboardReports:
-    def __init__(self, input_dir: str = 'PM_UserInputs'):
+    def __init__(self, input_dir: str = 'project_inputs/PM_JSON/user_inputs'):
         self.input_dir = input_dir
         self.data = {}
         self.progress_calculator = ProgressCalculator(input_dir)
