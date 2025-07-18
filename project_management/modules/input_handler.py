@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 class InputHandler:
-    def __init__(self, input_dir='PM_Input'):
+    def __init__(self, input_dir='PM_UserInputs'):
         self.input_dir = Path(input_dir)
 
     def ensure_input_dir(self):
