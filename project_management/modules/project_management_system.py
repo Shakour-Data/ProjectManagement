@@ -7,7 +7,7 @@ from collections import defaultdict
 from typing import List, Dict, Any
 
 class InputHandler:
-    def __init__(self, input_dir='PM_Input'):
+    def __init__(self, input_dir='PM_UserInputs'):
         self.input_dir = os.path.abspath(input_dir)
 
     def ensure_input_dir(self):
@@ -306,7 +306,7 @@ class ReportManager:
         tm = TaskManager(pc.get_enriched_tasks())
         tm.complete_top_important_tasks(5)
 
-        from project_inputs.modules.dashboards_reports import DashboardReports
+        from project_management.modules.dashboards_reports import DashboardReports
         dr = DashboardReports(self.input_dir)
         dr.load_inputs()
 
