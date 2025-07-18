@@ -20,7 +20,16 @@ def prompt_user(question, default=None):
     return response
 
 def setup_project():
+    import shutil
+    import os
+
     print("Starting project setup...")
+
+    # Remove PM_UserInputs folder if it exists
+    pm_userinputs_path = os.path.join(os.getcwd(), 'PM_UserInputs')
+    if os.path.exists(pm_userinputs_path) and os.path.isdir(pm_userinputs_path):
+        shutil.rmtree(pm_userinputs_path)
+        print("Removed obsolete PM_UserInputs directory.")
 
     # Initialize git repo
     initialize_git_repo()
