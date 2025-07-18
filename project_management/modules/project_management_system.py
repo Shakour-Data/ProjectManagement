@@ -7,7 +7,7 @@ from collections import defaultdict
 from typing import List, Dict, Any
 
 class InputHandler:
-    def __init__(self, input_dir='PM_UserInputs'):
+    def __init__(self, input_dir='project_inputs/PM_JSON/user_inputs'):
         self.input_dir = os.path.abspath(input_dir)
 
     def ensure_input_dir(self):
