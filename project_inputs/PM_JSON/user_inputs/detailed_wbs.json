@@ -1,7 +1,161 @@
-[
-  {
-    "id": "1",
-    "title": "Task 1",
-    "subtasks": []
-  }
-]
+{
+  "id": "WBS-0",
+  "name": "Software Project",
+  "level": 0,
+  "subtasks": [
+    {
+      "id": "WBS-1",
+      "name": "Requirements Analysis",
+      "level": 1,
+      "subtasks": [
+        {
+          "id": "WBS-1.1",
+          "name": "Gather Requirements",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-1.1.1",
+              "name": "Identify Stakeholders",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-1.1.2",
+              "name": "Collect Requirements",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "WBS-1.2",
+          "name": "Analyze Requirements",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-1.2.1",
+              "name": "Feasibility Study",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-1.2.2",
+              "name": "Requirement Prioritization",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "WBS-1.3",
+          "name": "Validate Requirements",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-1.3.1",
+              "name": "Review Requirements",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-1.3.2",
+              "name": "Approval",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WBS-2",
+      "name": "Design",
+      "level": 1,
+      "subtasks": [
+        {
+          "id": "WBS-2.1",
+          "name": "Architectural Design",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-2.1.1",
+              "name": "Define System Architecture",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-2.1.2",
+              "name": "Technology Selection",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "WBS-2.2",
+          "name": "Detailed Design",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-2.2.1",
+              "name": "Module Design",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-2.2.2",
+              "name": "Interface Design",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WBS-3",
+      "name": "Implementation",
+      "level": 1,
+      "subtasks": [
+        {
+          "id": "WBS-3.1",
+          "name": "Module Development",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-3.1.1",
+              "name": "Coding",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-3.1.2",
+              "name": "Unit Testing",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "id": "WBS-3.2",
+          "name": "Integration",
+          "level": 2,
+          "subtasks": [
+            {
+              "id": "WBS-3.2.1",
+              "name": "Integration Testing",
+              "level": 3,
+              "subtasks": []
+            },
+            {
+              "id": "WBS-3.2.2",
+              "name": "System Testing",
+              "level": 3,
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
