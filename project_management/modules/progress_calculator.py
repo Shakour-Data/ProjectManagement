@@ -5,7 +5,7 @@ from typing import List, Dict, Any
 from collections import defaultdict
 
 class ProgressCalculator:
-    def __init__(self, input_dir: str = 'PM_Input'):
+    def __init__(self, input_dir: str = 'PM_UserInputs'):
         self.input_dir = input_dir
         self.tasks = []
         self.workflow_steps = []
