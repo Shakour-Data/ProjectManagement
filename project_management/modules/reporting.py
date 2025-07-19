@@ -1,28 +1,16 @@
 import json
 import os
 
-class Reporting:
-    def __init__(self,
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 resource_allocation_summary_path='project_inputs/PM_JSON/system_outputs/resource_allocation_summary.json',
-                 time_management_path='project_inputs/PM_JSON/system_outputs/time_management.json',
-                 risk_management_path='project_inputs/PM_JSON/system_outputs/risk_management.json',
-                 quality_management_path='project_inputs/PM_JSON/system_outputs/quality_management.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/project_reports.json'):
-        self.detailed_wbs_path = detailed_wbs_path
-        self.resource_allocation_summary_path = resource_allocation_summary_path
-        self.time_management_path = time_management_path
-        self.risk_management_path = risk_management_path
-        self.quality_management_path = quality_management_path
+class BaseManagement:
+    def __init__(self, input_paths: dict, output_path: str):
+        """
+        input_paths: dict of input name to file path
+        output_path: output file path
+        """
+        self.input_paths = input_paths
         self.output_path = output_path
-
-        self.detailed_wbs = {}
-        self.resource_allocation_summary = {}
-        self.time_management = {}
-        self.risk_management = {}
-        self.quality_management = {}
-
-        self.project_reports = {}
+        self.inputs = {}
+        self.output = {}
 
     def load_json(self, path):
         if os.path.exists(path):
@@ -35,27 +23,47 @@ class Reporting:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     def load_inputs(self):
-        self.detailed_wbs = self.load_json(self.detailed_wbs_path) or {}
-        self.resource_allocation_summary = self.load_json(self.resource_allocation_summary_path) or {}
-        self.time_management = self.load_json(self.time_management_path) or {}
-        self.risk_management = self.load_json(self.risk_management_path) or {}
-        self.quality_management = self.load_json(self.quality_management_path) or {}
+        for key, path in self.input_paths.items():
+            self.inputs[key] = self.load_json(path) or {}
 
-    def generate_reports(self):
+    def analyze(self):
+        """
+        To be implemented by subclasses.
+        """
+        raise NotImplementedError
+
+    def run(self):
+        self.load_inputs()
+        self.analyze()
+        self.save_json(self.output, self.output_path)
+        print(f"{self.__class__.__name__} output saved to {self.output_path}")
+
+class Reporting(BaseManagement):
+    def __init__(self,
+                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
+                 resource_allocation_summary_path='project_inputs/PM_JSON/system_outputs/resource_allocation_summary.json',
+                 time_management_path='project_inputs/PM_JSON/system_outputs/time_management.json',
+                 risk_management_path='project_inputs/PM_JSON/system_outputs/risk_management.json',
+                 quality_management_path='project_inputs/PM_JSON/system_outputs/quality_management.json',
+                 output_path='project_inputs/PM_JSON/system_outputs/project_reports.json'):
+        input_paths = {
+            'detailed_wbs': detailed_wbs_path,
+            'resource_allocation_summary': resource_allocation_summary_path,
+            'time_management': time_management_path,
+            'risk_management': risk_management_path,
+            'quality_management': quality_management_path
+        }
+        super().__init__(input_paths, output_path)
+
+    def analyze(self):
         """
         Generate aligned project management reports combining all data.
         This is a placeholder for actual report generation logic.
         """
-        self.project_reports = {
+        self.output = {
             'summary': 'Project reports generation not yet implemented',
             'details': {}
         }
-
-    def run(self):
-        self.load_inputs()
-        self.generate_reports()
-        self.save_json(self.project_reports, self.output_path)
-        print(f"Project reports saved to {self.output_path}")
 
 if __name__ == "__main__":
     manager = Reporting()
