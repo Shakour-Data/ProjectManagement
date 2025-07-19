@@ -4944,5 +4944,1059 @@
         "parent_commits": [
             "bf7d6fd1e6ef595745c2a070d3ee762a076b1d37"
         ]
+    },
+    "3d785a867b3a41f509b3b051e62466fb2b45998a": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-19 20:49:42):\\n- project_management/PM_SystemOutputs/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json b/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json\\n    index 253d3c23..657a14e5 100644\\n    --- a/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json\\n    +++ b/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json\\n    @@ -4927,5 +4927,22 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:42 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e73a72f82ee4d3027460d81d04a7f9239d76c45a"
+        ]
+    },
+    "97f36f1263d792fda8be4479c389b348858f0ffa": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/reporting.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-19 20:49:44):\\n- project_management/modules/reporting.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/reporting.py b/project_management/modules/reporting.py\\n    index 9cb73595..3dead6e8 100644\\n    --- a/project_management/modules/reporting.py\\n    +++ b/project_management/modules/reporting.py\\n    @@ -1,42 +1,62 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:44 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3d785a867b3a41f509b3b051e62466fb2b45998a"
+        ]
+    },
+    "afed298ddf5d35d32c389fb525cd237f96489066": {
+        "task_id": "project_management",
+        "file_path": "project_management/docs/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:46):\\n- project_management/docs/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/docs/project_management/gap_analysis_and_plan.md b/project_management/docs/project_management/gap_analysis_and_plan.md\\n    new file mode 100644\\n    index 00000000..bb77b5b4\\n    --- /dev/null\\n    +++ b/project_management/docs/project_management/gap_analysis_and_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:46",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:46 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "97f36f1263d792fda8be4479c389b348858f0ffa"
+        ]
+    },
+    "bb7ff6390ecd40145b1cb59db072168bda471c7f": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/commit_progress_manager.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:48):\\n- project_management/modules/commit_progress_manager.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/commit_progress_manager.py b/project_management/modules/commit_progress_manager.py\\n    new file mode 100644\\n    index 00000000..72d3a833\\n    --- /dev/null\\n    +++ b/project_management/modules/commit_progress_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:48",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:48 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "afed298ddf5d35d32c389fb525cd237f96489066"
+        ]
+    },
+    "b78caabfd970ffecabbc0827900a42fb5767af1e": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/communication_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:50):\\n- project_management/modules/communication_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/communication_management.py b/project_management/modules/communication_management.py\\n    new file mode 100644\\n    index 00000000..9e297e75\\n    --- /dev/null\\n    +++ b/project_management/modules/communication_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:50",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:50 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bb7ff6390ecd40145b1cb59db072168bda471c7f"
+        ]
+    },
+    "acf10b1cf88d9bf50a6903f0a018ac7a6c16a0ef": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/estimation_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:51):\\n- project_management/modules/estimation_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/estimation_management.py b/project_management/modules/estimation_management.py\\n    new file mode 100644\\n    index 00000000..4ffdc633\\n    --- /dev/null\\n    +++ b/project_management/modules/estimation_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:51",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:51 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b78caabfd970ffecabbc0827900a42fb5767af1e"
+        ]
+    },
+    "5e9ccb205d815ae2badcc911fe46541c194c2a20": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/integration_manager.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:53):\\n- project_management/modules/integration_manager.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/integration_manager.py b/project_management/modules/integration_manager.py\\n    new file mode 100644\\n    index 00000000..ab942b9d\\n    --- /dev/null\\n    +++ b/project_management/modules/integration_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:53 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "acf10b1cf88d9bf50a6903f0a018ac7a6c16a0ef"
+        ]
+    },
+    "71b9d57c68792805142dc40a1c5887f9ef8e8f92": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/quality_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:55):\\n- project_management/modules/quality_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/quality_management.py b/project_management/modules/quality_management.py\\n    new file mode 100644\\n    index 00000000..3d68d273\\n    --- /dev/null\\n    +++ b/project_management/modules/quality_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:55 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5e9ccb205d815ae2badcc911fe46541c194c2a20"
+        ]
+    },
+    "3dd07eb4a12e3aabfa3528b7152287fdd19a1474": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/resource_allocation_manager.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:57):\\n- project_management/modules/resource_allocation_manager.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/resource_allocation_manager.py b/project_management/modules/resource_allocation_manager.py\\n    new file mode 100644\\n    index 00000000..d36afe9b\\n    --- /dev/null\\n    +++ b/project_management/modules/resource_allocation_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "71b9d57c68792805142dc40a1c5887f9ef8e8f92"
+        ]
+    },
+    "01d90698a6e2ed0b89c842e35adc10003e858c12": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/resource_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:49:59):\\n- project_management/modules/resource_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/resource_management.py b/project_management/modules/resource_management.py\\n    new file mode 100644\\n    index 00000000..255a43df\\n    --- /dev/null\\n    +++ b/project_management/modules/resource_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:19:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:49:59 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3dd07eb4a12e3aabfa3528b7152287fdd19a1474"
+        ]
+    },
+    "99a5d7434d63f438fcf74481d453871d198a901e": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/risk_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:50:00):\\n- project_management/modules/risk_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/risk_management.py b/project_management/modules/risk_management.py\\n    new file mode 100644\\n    index 00000000..48dbafd6\\n    --- /dev/null\\n    +++ b/project_management/modules/risk_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:20:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:50:01 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "01d90698a6e2ed0b89c842e35adc10003e858c12"
+        ]
+    },
+    "4323674b94b6094c333decedf84953789d36cc4d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/scope_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:50:02):\\n- project_management/modules/scope_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/scope_management.py b/project_management/modules/scope_management.py\\n    new file mode 100644\\n    index 00000000..ab698f37\\n    --- /dev/null\\n    +++ b/project_management/modules/scope_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:20:02",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:50:02 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "99a5d7434d63f438fcf74481d453871d198a901e"
+        ]
+    },
+    "51b6be244d2c71a69fc6becc7548edca01a69f36": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/time_management.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:50:04):\\n- project_management/modules/time_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/time_management.py b/project_management/modules/time_management.py\\n    new file mode 100644\\n    index 00000000..b59053b9\\n    --- /dev/null\\n    +++ b/project_management/modules/time_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:20:04",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:50:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4323674b94b6094c333decedf84953789d36cc4d"
+        ]
+    },
+    "878546758daa1f17a261e1ddd4fb65e6c1da98db": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/wbs_merger.py",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-19 20:50:06):\\n- project_management/modules/wbs_merger.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/wbs_merger.py b/project_management/modules/wbs_merger.py\\n    new file mode 100644\\n    index 00000000..e86e81fb\\n    --- /dev/null\\n    +++ b/project_management/modules/wbs_merger.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:20:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 20:50:06 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "51b6be244d2c71a69fc6becc7548edca01a69f36"
+        ]
+    },
+    "013bb5773d724a4bad518fefbbacec51946f46ac": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/system_outputs/commit_task_database.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:35):\\n- project_inputs/PM_JSON/system_outputs/commit_task_database.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/system_outputs/commit_task_database.json b/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    deleted file mode 100644\\n    index 6a1f82b0..00000000\\n    --- a/project_inputs/PM_JSON/system_outputs/commit_task_database.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:35",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:35 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "878546758daa1f17a261e1ddd4fb65e6c1da98db"
+        ]
+    },
+    "0763353209230e146f25651b1e72ac1e45b9c69b": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/detailed_wbs.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:37):\\n- project_inputs/PM_JSON/user_inputs/detailed_wbs.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/detailed_wbs.json b/project_inputs/PM_JSON/user_inputs/detailed_wbs.json\\n    deleted file mode 100644\\n    index 234e0c1d..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/detailed_wbs.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:37 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "013bb5773d724a4bad518fefbbacec51946f46ac"
+        ]
+    },
+    "0331599f0c8be43b48ddeaeefda0114101beda42": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/task_resource_allocation.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:39):\\n- project_inputs/PM_JSON/user_inputs/task_resource_allocation.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/task_resource_allocation.json b/project_inputs/PM_JSON/user_inputs/task_resource_allocation.json\\n    deleted file mode 100644\\n    index 52f4e5e7..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/task_resource_allocation.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0763353209230e146f25651b1e72ac1e45b9c69b"
+        ]
+    },
+    "624aa2b7625e332af2f25da7e2425eddd524c26c": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:41):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.json\\n    deleted file mode 100644\\n    index ec477ca0..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0331599f0c8be43b48ddeaeefda0114101beda42"
+        ]
+    },
+    "1cee0b60b0ce24db90fb4bab58cc31239be6d9c9": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:43):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.md\\n    deleted file mode 100644\\n    index a149d52a..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Coding.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:43",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "624aa2b7625e332af2f25da7e2425eddd524c26c"
+        ]
+    },
+    "12bd989ab644540e74416e3c58ddadd3e9eb6cdd": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:45):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.json\\n    deleted file mode 100644\\n    index 0761ff45..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1cee0b60b0ce24db90fb4bab58cc31239be6d9c9"
+        ]
+    },
+    "07e907441283a5e52565c8cf05ef53fe4f0abd12": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:47):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md\\n    deleted file mode 100644\\n    index ceece9fa..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:47",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:47 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "12bd989ab644540e74416e3c58ddadd3e9eb6cdd"
+        ]
+    },
+    "f214ade11a3a06afb68dc4cf09d2905a8dcba590": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:49):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.json\\n    deleted file mode 100644\\n    index 2512db64..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:49",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "07e907441283a5e52565c8cf05ef53fe4f0abd12"
+        ]
+    },
+    "87e2b075af99363f25dcdbbcf53ac2e940553484": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:51):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md\\n    deleted file mode 100644\\n    index ad8449cf..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:51",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:51 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f214ade11a3a06afb68dc4cf09d2905a8dcba590"
+        ]
+    },
+    "bf18e65ff8b383ad40311d6d6f371e53972a9056": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:53):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.json\\n    deleted file mode 100644\\n    index d64b412a..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:53 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "87e2b075af99363f25dcdbbcf53ac2e940553484"
+        ]
+    },
+    "23d0710237fc7cebe308641632f229e2f1ee3e2e": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:55):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md\\n    deleted file mode 100644\\n    index e149a8ad..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:55 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bf18e65ff8b383ad40311d6d6f371e53972a9056"
+        ]
+    },
+    "28a53bae7d8a7bf6db25b2191f5c44b274a1095c": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Documentation.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:56):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Documentation.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Documentation.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Documentation.json\\n    deleted file mode 100644\\n    index 25a7b855..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Documentation.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "23d0710237fc7cebe308641632f229e2f1ee3e2e"
+        ]
+    },
+    "b20c7fc380843eb94bd13b5b680007477d368570": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Testing.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:25:58):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Testing.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Testing.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Testing.json\\n    deleted file mode 100644\\n    index 3a211bb9..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Integration_Testing.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:55:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:25:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "28a53bae7d8a7bf6db25b2191f5c44b274a1095c"
+        ]
+    },
+    "3415faf15d52098060e66b10f0b21a27d4cf041f": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Module_Integration.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:00):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Module_Integration.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Module_Integration.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Module_Integration.json\\n    deleted file mode 100644\\n    index f1c63d4f..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/Module_Integration.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b20c7fc380843eb94bd13b5b680007477d368570"
+        ]
+    },
+    "f1e62fd3dd236acfbd5af13b56f5122d908fa023": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/System_Integration.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:02):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/System_Integration.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/System_Integration.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/System_Integration.json\\n    deleted file mode 100644\\n    index 864173aa..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Integration/System_Integration.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:02",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:02 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3415faf15d52098060e66b10f0b21a27d4cf041f"
+        ]
+    },
+    "87845bd2736db5c84d81bbf478a6a126c4242915": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Acceptance_Testing.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:04):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Acceptance_Testing.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Acceptance_Testing.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Acceptance_Testing.json\\n    deleted file mode 100644\\n    index b0152569..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Acceptance_Testing.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:04",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f1e62fd3dd236acfbd5af13b56f5122d908fa023"
+        ]
+    },
+    "e063759548238086fb30bfb0084ed518e7f95df1": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Integration_Testing.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:06):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Integration_Testing.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Integration_Testing.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Integration_Testing.json\\n    deleted file mode 100644\\n    index 4f0dfcdb..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Integration_Testing.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:06 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "87845bd2736db5c84d81bbf478a6a126c4242915"
+        ]
+    },
+    "ab38b0ed9093227624c5787017877684689fec73": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/System_Testing.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:08):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/System_Testing.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/System_Testing.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/System_Testing.json\\n    deleted file mode 100644\\n    index 28b7885e..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/System_Testing.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e063759548238086fb30bfb0084ed518e7f95df1"
+        ]
+    },
+    "69f2c0f2f20df8b4ef84bfe1a736e792797b9ebf": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Unit_Testing.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:10):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Unit_Testing.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Unit_Testing.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Unit_Testing.json\\n    deleted file mode 100644\\n    index c8e957b2..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Construction_and_Testing/Testing/Unit_Testing.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:10",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:10 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ab38b0ed9093227624c5787017877684689fec73"
+        ]
+    },
+    "d1de1b468bf7cb77f21b07da1cc50baf446c26af": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:12):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.json\\n    deleted file mode 100644\\n    index 7f68215a..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:12 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "69f2c0f2f20df8b4ef84bfe1a736e792797b9ebf"
+        ]
+    },
+    "2cbd61bbf9b6990501bb4dbbc9ea390039a21fcc": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:14):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md\\n    deleted file mode 100644\\n    index 3bfd583a..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d1de1b468bf7cb77f21b07da1cc50baf446c26af"
+        ]
+    },
+    "0b46fd43e6728bc0eabb723e600ca98cab4c611f": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:16):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.json\\n    deleted file mode 100644\\n    index 7ba5060e..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:16 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2cbd61bbf9b6990501bb4dbbc9ea390039a21fcc"
+        ]
+    },
+    "cf957f469e0b0363c224fdd7ab514fe92a696c7a": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:18):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md\\n    deleted file mode 100644\\n    index 02e01360..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:18 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0b46fd43e6728bc0eabb723e600ca98cab4c611f"
+        ]
+    },
+    "007644f7fc038faebd7837a1e0431a9f5bd1892c": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:20):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.json\\n    deleted file mode 100644\\n    index 9fe68153..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:20",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:20 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "cf957f469e0b0363c224fdd7ab514fe92a696c7a"
+        ]
+    },
+    "0807d85419ed44a886907261b76d38ea78d85c43": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:22):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md\\n    deleted file mode 100644\\n    index 067cf6ce..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:22 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "007644f7fc038faebd7837a1e0431a9f5bd1892c"
+        ]
+    },
+    "d12f5e81ee8c2aeae10bdd4d18daaa1e46b454a9": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:23):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.json\\n    deleted file mode 100644\\n    index 6061a275..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:24 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0807d85419ed44a886907261b76d38ea78d85c43"
+        ]
+    },
+    "f4c753001a3edd5e3f088769a53a3ce22d4200c9": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:25):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md\\n    deleted file mode 100644\\n    index a458063d..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d12f5e81ee8c2aeae10bdd4d18daaa1e46b454a9"
+        ]
+    },
+    "13cd57194c1f4c0fe725c17e6fcc9daf49b452a4": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:28):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.json\\n    deleted file mode 100644\\n    index 7af5746d..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:28",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:28 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f4c753001a3edd5e3f088769a53a3ce22d4200c9"
+        ]
+    },
+    "afbdd948bb278d9f93a04ce91bd8f01434ae7bae": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:30):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md\\n    deleted file mode 100644\\n    index 5f77e4a5..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:30",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:30 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "13cd57194c1f4c0fe725c17e6fcc9daf49b452a4"
+        ]
+    },
+    "27c1c87c8a42363f567312202e3eaa94fcb441f3": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:32):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.json\\n    deleted file mode 100644\\n    index fdd7b855..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:32 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "afbdd948bb278d9f93a04ce91bd8f01434ae7bae"
+        ]
+    },
+    "03aeedc7aaac30e1de64d95d000a18b5a0bc00d3": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:34):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md\\n    deleted file mode 100644\\n    index 45bf7c02..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "27c1c87c8a42363f567312202e3eaa94fcb441f3"
+        ]
+    },
+    "295ba2fb7717d55b36741aaa2143a18943a4cb50": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:36):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.json\\n    deleted file mode 100644\\n    index 44273eaf..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:36 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "03aeedc7aaac30e1de64d95d000a18b5a0bc00d3"
+        ]
+    },
+    "64e91a3c44723811d426a7f36a412208db97ce12": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:37):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md\\n    deleted file mode 100644\\n    index d52ad373..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:38 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "295ba2fb7717d55b36741aaa2143a18943a4cb50"
+        ]
+    },
+    "c575c48ce0a7fb4d512f95ea42948c2662305b72": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:40):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.json\\n    deleted file mode 100644\\n    index d1c8c2fc..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:40",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:40 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "64e91a3c44723811d426a7f36a412208db97ce12"
+        ]
+    },
+    "00ed3aeea74b71d4ccae7290e9342345a95c22c4": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:41):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md\\n    deleted file mode 100644\\n    index 97d3d892..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c575c48ce0a7fb4d512f95ea42948c2662305b72"
+        ]
+    },
+    "d09ff2d4dc2e96267d4250fccc36cf039ac28040": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Use_Case_Development.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:26:43):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Use_Case_Development.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Use_Case_Development.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Use_Case_Development.json\\n    deleted file mode 100644\\n    index 61e761d6..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Use_Case_Development.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:56:43",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:26:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "00ed3aeea74b71d4ccae7290e9342345a95c22c4"
+        ]
+    },
+    "8627cb3a35444877cdb6cca855650069e84312a0": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Data_Modeling.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:23):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Data_Modeling.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Data_Modeling.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Data_Modeling.json\\n    deleted file mode 100644\\n    index 5b27a01d..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Data_Modeling.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:23 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d09ff2d4dc2e96267d4250fccc36cf039ac28040"
+        ]
+    },
+    "29d281a343b5bd0ee06b97c9d5b4c352f5c0433f": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Feasibility_Study.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:25):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Feasibility_Study.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Feasibility_Study.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Feasibility_Study.json\\n    deleted file mode 100644\\n    index c6c8554c..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Feasibility_Study.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8627cb3a35444877cdb6cca855650069e84312a0"
+        ]
+    },
+    "26dc7fccd63d0e36e1d8e3ef0a4a40641545b955": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Process_Modeling.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:27):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Process_Modeling.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Process_Modeling.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Process_Modeling.json\\n    deleted file mode 100644\\n    index 440041bd..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Process_Modeling.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:27 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "29d281a343b5bd0ee06b97c9d5b4c352f5c0433f"
+        ]
+    },
+    "37bf5eb001bd6d61019ac7b2985394f8d1d6b5f4": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Requirement_Specification.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:29):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Requirement_Specification.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Requirement_Specification.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Requirement_Specification.json\\n    deleted file mode 100644\\n    index 774d840b..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/Requirement_Specification.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "26dc7fccd63d0e36e1d8e3ef0a4a40641545b955"
+        ]
+    },
+    "0788a4fdea2e8e63dc5cc92b423305cc6314ec8d": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/System_Specification_Review.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:31):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/System_Specification_Review.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/System_Specification_Review.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/System_Specification_Review.json\\n    deleted file mode 100644\\n    index a757766a..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Analysis/System_Specification_Review.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:31 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "37bf5eb001bd6d61019ac7b2985394f8d1d6b5f4"
+        ]
+    },
+    "2cd1b4415a9cfa55a95319d107b2edf534c39d2d": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:33):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.json\\n    deleted file mode 100644\\n    index 679fb62c..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:33",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:33 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0788a4fdea2e8e63dc5cc92b423305cc6314ec8d"
+        ]
+    },
+    "3cc1de9dd86f4caf99db47403f732b914fe8ecca": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:35):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md\\n    deleted file mode 100644\\n    index 6ef001e8..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:35",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:35 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2cd1b4415a9cfa55a95319d107b2edf534c39d2d"
+        ]
+    },
+    "775de54bde83b4258ba161c722103c3567e40d7d": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:37):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.json\\n    deleted file mode 100644\\n    index c61b0193..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:37 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3cc1de9dd86f4caf99db47403f732b914fe8ecca"
+        ]
+    },
+    "d4472ad920bef76e91a7c4eaf9374c9e63efa30f": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:39):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md\\n    deleted file mode 100644\\n    index fa3c9004..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "775de54bde83b4258ba161c722103c3567e40d7d"
+        ]
+    },
+    "310feae2422f3f7ce8db84883f2eeeb8be91c0e0": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Database_Design.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:41):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Database_Design.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Database_Design.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Database_Design.json\\n    deleted file mode 100644\\n    index 03763bb1..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Database_Design.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d4472ad920bef76e91a7c4eaf9374c9e63efa30f"
+        ]
+    },
+    "b6bdaffc847499a6c8c107eb9acbfa477730d01c": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Design_Review.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:43):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Design_Review.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Design_Review.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Design_Review.json\\n    deleted file mode 100644\\n    index 64864003..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Design_Review.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:43",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "310feae2422f3f7ce8db84883f2eeeb8be91c0e0"
+        ]
+    },
+    "81963b28c33de80e5b1ed24b871667a16114f1dc": {
+        "task_id": "project_inputs",
+        "file_path": "project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Interface_Design.json",
+        "commit_message": "🗑️ remove(project_inputs): Deleted files updated\\n\\nChanges included (as of 2025-07-19 21:29:44):\\n- project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Interface_Design.json: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Interface_Design.json b/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Interface_Design.json\\n    deleted file mode 100644\\n    index 4c86ef5f..00000000\\n    --- a/project_inputs/PM_JSON/user_inputs/wbs_parts/Modeling/System_Design/Interface_Design.json\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.006,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-19 17:59:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 19 21:29:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b6bdaffc847499a6c8c107eb9acbfa477730d01c"
+        ]
     }
 }
