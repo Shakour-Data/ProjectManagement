@@ -1,19 +1,16 @@
 import json
 import os
 
-class QualityManagement:
-    def __init__(self,
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 quality_standards_path='project_inputs/PM_JSON/user_inputs/quality_standards.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/quality_management.json'):
-        self.detailed_wbs_path = detailed_wbs_path
-        self.quality_standards_path = quality_standards_path
+class BaseManagement:
+    def __init__(self, input_paths: dict, output_path: str):
+        """
+        input_paths: dict of input name to file path
+        output_path: output file path
+        """
+        self.input_paths = input_paths
         self.output_path = output_path
-
-        self.detailed_wbs = {}
-        self.quality_standards = {}
-
-        self.quality_report = {}
+        self.inputs = {}
+        self.output = {}
 
     def load_json(self, path):
         if os.path.exists(path):
@@ -26,24 +23,41 @@ class QualityManagement:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     def load_inputs(self):
-        self.detailed_wbs = self.load_json(self.detailed_wbs_path) or {}
-        self.quality_standards = self.load_json(self.quality_standards_path) or {}
+        for key, path in self.input_paths.items():
+            self.inputs[key] = self.load_json(path) or {}
 
-    def evaluate_quality(self):
+    def analyze(self):
+        """
+        To be implemented by subclasses.
+        """
+        raise NotImplementedError
+
+    def run(self):
+        self.load_inputs()
+        self.analyze()
+        self.save_json(self.output, self.output_path)
+        print(f"{self.__class__.__name__} output saved to {self.output_path}")
+
+class QualityManagement(BaseManagement):
+    def __init__(self,
+                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
+                 quality_standards_path='project_inputs/PM_JSON/user_inputs/quality_standards.json',
+                 output_path='project_inputs/PM_JSON/system_outputs/quality_management.json'):
+        input_paths = {
+            'detailed_wbs': detailed_wbs_path,
+            'quality_standards': quality_standards_path
+        }
+        super().__init__(input_paths, output_path)
+
+    def analyze(self):
         """
         Evaluate quality metrics for tasks based on quality standards.
         This is a placeholder for actual quality evaluation logic.
         """
-        self.quality_report = {
+        self.output = {
             'summary': 'Quality evaluation not yet implemented',
             'details': {}
         }
-
-    def run(self):
-        self.load_inputs()
-        self.evaluate_quality()
-        self.save_json(self.quality_report, self.output_path)
-        print(f"Quality management report saved to {self.output_path}")
 
 if __name__ == "__main__":
     manager = QualityManagement()
