@@ -1,16 +1,16 @@
 import json
 import os
 
-class ResourceManagement:
-    def __init__(self,
-                 resource_allocation_path='project_inputs/PM_JSON/system_outputs/resource_allocation_enriched.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/resource_management.json'):
-        self.resource_allocation_path = resource_allocation_path
+class BaseManagement:
+    def __init__(self, input_paths: dict, output_path: str):
+        """
+        input_paths: dict of input name to file path
+        output_path: output file path
+        """
+        self.input_paths = input_paths
         self.output_path = output_path
-
-        self.resource_allocations = []
-
-        self.resource_report = {}
+        self.inputs = {}
+        self.output = {}
 
     def load_json(self, path):
         if os.path.exists(path):
@@ -23,23 +23,39 @@ class ResourceManagement:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     def load_inputs(self):
-        self.resource_allocations = self.load_json(self.resource_allocation_path) or []
+        for key, path in self.input_paths.items():
+            self.inputs[key] = self.load_json(path) or {}
 
-    def analyze_resources(self):
+    def analyze(self):
+        """
+        To be implemented by subclasses.
+        """
+        raise NotImplementedError
+
+    def run(self):
+        self.load_inputs()
+        self.analyze()
+        self.save_json(self.output, self.output_path)
+        print(f"{self.__class__.__name__} output saved to {self.output_path}")
+
+class ResourceManagement(BaseManagement):
+    def __init__(self,
+                 resource_allocation_path='project_inputs/PM_JSON/system_outputs/resource_allocation_enriched.json',
+                 output_path='project_inputs/PM_JSON/system_outputs/resource_management.json'):
+        input_paths = {
+            'resource_allocations': resource_allocation_path
+        }
+        super().__init__(input_paths, output_path)
+
+    def analyze(self):
         """
         Analyze resource utilization and leveling.
         This is a placeholder for actual resource management logic.
         """
-        self.resource_report = {
+        self.output = {
             'summary': 'Resource management analysis not yet implemented',
             'details': {}
         }
-
-    def run(self):
-        self.load_inputs()
-        self.analyze_resources()
-        self.save_json(self.resource_report, self.output_path)
-        print(f"Resource management report saved to {self.output_path}")
 
 if __name__ == "__main__":
     manager = ResourceManagement()
