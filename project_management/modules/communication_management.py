@@ -1,19 +1,16 @@
 import json
 import os
 
-class CommunicationManagement:
-    def __init__(self,
-                 communication_plan_path='project_inputs/PM_JSON/user_inputs/communication_plan.json',
-                 communication_logs_path='project_inputs/PM_JSON/user_inputs/communication_logs.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/communication_management.json'):
-        self.communication_plan_path = communication_plan_path
-        self.communication_logs_path = communication_logs_path
+class BaseManagement:
+    def __init__(self, input_paths: dict, output_path: str):
+        """
+        input_paths: dict of input name to file path
+        output_path: output file path
+        """
+        self.input_paths = input_paths
         self.output_path = output_path
-
-        self.communication_plan = {}
-        self.communication_logs = []
-
-        self.communication_report = {}
+        self.inputs = {}
+        self.output = {}
 
     def load_json(self, path):
         if os.path.exists(path):
@@ -26,24 +23,41 @@ class CommunicationManagement:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     def load_inputs(self):
-        self.communication_plan = self.load_json(self.communication_plan_path) or {}
-        self.communication_logs = self.load_json(self.communication_logs_path) or []
+        for key, path in self.input_paths.items():
+            self.inputs[key] = self.load_json(path) or {}
 
-    def analyze_communication(self):
+    def analyze(self):
+        """
+        To be implemented by subclasses.
+        """
+        raise NotImplementedError
+
+    def run(self):
+        self.load_inputs()
+        self.analyze()
+        self.save_json(self.output, self.output_path)
+        print(f"{self.__class__.__name__} output saved to {self.output_path}")
+
+class CommunicationManagement(BaseManagement):
+    def __init__(self,
+                 communication_plan_path='project_inputs/PM_JSON/user_inputs/communication_plan.json',
+                 communication_logs_path='project_inputs/PM_JSON/user_inputs/communication_logs.json',
+                 output_path='project_inputs/PM_JSON/system_outputs/communication_management.json'):
+        input_paths = {
+            'communication_plan': communication_plan_path,
+            'communication_logs': communication_logs_path
+        }
+        super().__init__(input_paths, output_path)
+
+    def analyze(self):
         """
         Analyze communication effectiveness and logs.
         This is a placeholder for actual communication analysis logic.
         """
-        self.communication_report = {
+        self.output = {
             'summary': 'Communication analysis not yet implemented',
             'details': {}
         }
-
-    def run(self):
-        self.load_inputs()
-        self.analyze_communication()
-        self.save_json(self.communication_report, self.output_path)
-        print(f"Communication management report saved to {self.output_path}")
 
 if __name__ == "__main__":
     manager = CommunicationManagement()
