@@ -1,16 +1,16 @@
 import json
 import os
 
-class EstimationManagement:
-    def __init__(self,
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/estimation_management.json'):
-        self.detailed_wbs_path = detailed_wbs_path
+class BaseManagement:
+    def __init__(self, input_paths: dict, output_path: str):
+        """
+        input_paths: dict of input name to file path
+        output_path: output file path
+        """
+        self.input_paths = input_paths
         self.output_path = output_path
-
-        self.detailed_wbs = {}
-
-        self.estimation_report = {}
+        self.inputs = {}
+        self.output = {}
 
     def load_json(self, path):
         if os.path.exists(path):
@@ -23,23 +23,39 @@ class EstimationManagement:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
     def load_inputs(self):
-        self.detailed_wbs = self.load_json(self.detailed_wbs_path) or {}
+        for key, path in self.input_paths.items():
+            self.inputs[key] = self.load_json(path) or {}
 
-    def perform_estimations(self):
+    def analyze(self):
+        """
+        To be implemented by subclasses.
+        """
+        raise NotImplementedError
+
+    def run(self):
+        self.load_inputs()
+        self.analyze()
+        self.save_json(self.output, self.output_path)
+        print(f"{self.__class__.__name__} output saved to {self.output_path}")
+
+class EstimationManagement(BaseManagement):
+    def __init__(self,
+                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
+                 output_path='project_inputs/PM_JSON/system_outputs/estimation_management.json'):
+        input_paths = {
+            'detailed_wbs': detailed_wbs_path
+        }
+        super().__init__(input_paths, output_path)
+
+    def analyze(self):
         """
         Perform project estimation using parametric, COCOMO II, and Agile methods.
         This is a placeholder for actual estimation logic.
         """
-        self.estimation_report = {
+        self.output = {
             'summary': 'Estimation methods not yet implemented',
             'details': {}
         }
-
-    def run(self):
-        self.load_inputs()
-        self.perform_estimations()
-        self.save_json(self.estimation_report, self.output_path)
-        print(f"Estimation management report saved to {self.output_path}")
 
 if __name__ == "__main__":
     manager = EstimationManagement()
