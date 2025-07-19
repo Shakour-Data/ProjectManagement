@@ -1,1 +1,1 @@
-# auto_project_manager package initialization
+# project_management.modules package initialization
