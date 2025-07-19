@@ -4,7 +4,7 @@ import json
 
 class TestJSONInterfileConsistency(unittest.TestCase):
     def setUp(self):
-        self.input_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'project_inputs', 'PM_JSON', 'user_inputs')
+        self.input_dir = os.path.join(os.path.dirname(__file__), 'data', 'PM_JSON', 'user_inputs')
         self.files = {
             'detailed_wbs': 'detailed_wbs.json',
             'task_resource_allocation': 'task_resource_allocation.json',
