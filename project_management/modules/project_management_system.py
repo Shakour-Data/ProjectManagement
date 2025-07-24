@@ -6,6 +6,9 @@ import re
 from collections import defaultdict
 from typing import List, Dict, Any
 
+from project_management.modules.ai_duration_estimator import AIDurationEstimator
+from project_management.modules.ai_dependency_milestone_detector import AIDependencyMilestoneDetector
+
 class InputHandler:
     def __init__(self, input_dir='project_inputs/PM_JSON/user_inputs'):
         self.input_dir = os.path.abspath(input_dir)
@@ -133,7 +136,7 @@ class ProgressCalculator:
     def load_inputs(self):
         self.tasks = self.load_json_file('detailed_wbs.json') or []
         self.workflow_steps = self.load_json_file('workflow_definition.json') or []
-        self.commit_progress = self.load_json_file('commit_progress.json') or {}
+        self.commit_progress = self.load_json_file('commit_progress.json') or []
 
     def calculate_commit_progress(self, task_id: str) -> float:
         return self.commit_progress.get(task_id, 0.0)
@@ -229,6 +232,72 @@ class ProgressCalculator:
 
     def get_enriched_tasks(self) -> List[Dict[str, Any]]:
         return self.tasks
+
+    def estimate_durations_and_update_tasks(self):
+        estimator = AIDurationEstimator()
+        if not estimator.load_model():
+            print("Training duration estimator model...")
+            estimator.train_model()
+        for task in self.tasks:
+            features = {
+                "complexity": task.get("complexity", 1),
+                "resource_count": len(task.get("assigned_to", [])),
+                "estimated_cost": task.get("estimated_cost", 0),
+                "priority_score": task.get("priority", 0)
+            }
+            predicted_duration = estimator.predict_duration(features)
+            task["predicted_duration_hours"] = predicted_duration
+
+    def detect_dependencies_and_milestones(self):
+        detector = AIDependencyMilestoneDetector()
+        if not detector.load_model():
+            print("Training dependency and milestone detector model...")
+            detector.train_model()
+        # Detect dependencies for each task (this is a placeholder, real implementation may vary)
+        for task in self.tasks:
+            features = {
+                "task_complexity": task.get("complexity", 1),
+                "task_priority": task.get("priority", 0),
+                "estimated_duration": task.get("predicted_duration_hours", 1),
+                "resource_count": len(task.get("assigned_to", []))
+            }
+            has_dependency = detector.predict_dependency(features)
+            task["has_dependency"] = bool(has_dependency)
+        # Identify start and end milestones
+        self.tasks = detector.identify_milestones(self.tasks)
+
+    def perform_scheduling_and_aggregation(self):
+        """
+        Perform scheduling calculations and bottom-up aggregation of durations and costs.
+        This is a placeholder implementation and should be replaced with actual scheduling logic.
+        """
+        # Simple scheduling: assign start and end dates based on predicted durations and dependencies
+        start_date = datetime.datetime.now()
+        for task in self.tasks:
+            duration_hours = task.get("predicted_duration_hours", 1)
+            task["start_date"] = start_date.isoformat()
+            end_date = start_date + datetime.timedelta(hours=duration_hours)
+            task["end_date"] = end_date.isoformat()
+            # For next task, start date is end date of current task (simplified)
+            start_date = end_date
+        # Bottom-up aggregation: sum durations and costs for parent tasks
+        task_map = {task["id"]: task for task in self.tasks}
+        for task in self.tasks:
+            if "subtasks" in task and task["subtasks"]:
+                total_duration = sum(task_map[subtask["id"]]["predicted_duration_hours"] for subtask in task["subtasks"] if subtask["id"] in task_map)
+                total_cost = sum(task_map[subtask["id"]].get("estimated_cost", 0) for subtask in task["subtasks"] if subtask["id"] in task_map)
+                task["predicted_duration_hours"] = total_duration
+                task["estimated_cost"] = total_cost
+
+    def run_full_analysis(self):
+        self.load_inputs()
+        self.estimate_durations_and_update_tasks()
+        self.detect_dependencies_and_milestones()
+        self.perform_scheduling_and_aggregation()
+        print("Full project analysis completed.")
+
+if __name__ == '__main__':
+    pms = ProgressCalculator()
 
 class TaskManager:
     def __init__(self, tasks: List[Dict[str, Any]]):
