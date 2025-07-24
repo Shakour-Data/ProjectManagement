@@ -8,10 +8,8 @@ setup_automation = SetupAutomation()
 def install():
     """
     Installation routine for the project management tool.
-    Creates PM_Input directory if not exists.
     """
-    input_handler.ensure_input_dir()
-    print("Installation complete. Please add your JSON input files to the PM_Input directory.")
+    print("Installation complete. Please add your JSON input files to the input directory.")
 
 def start(input_dir=None):
     """
@@ -87,10 +85,9 @@ def setup(skip_input=False):
     from modules.input_handler import InputHandler
 
     input_handler = InputHandler()
-    input_handler.ensure_input_dir()
 
     print("\nWelcome to the auto_pm setup!")
-    print("Please ensure you have the following JSON input files ready to upload in the 'PM_Input' directory:")
+    print("Please ensure you have the following JSON input files ready to upload in the input directory:")
     required_files = [
         'detailed_wbs.json',
         'human_resources.json',
@@ -103,7 +100,7 @@ def setup(skip_input=False):
         print(f" - {f}")
 
     if not skip_input:
-        input("Press Enter when you have placed the files in the 'PM_Input' directory...")
+        input("Press Enter when you have placed the files in the input directory...")
 
     inputs = input_handler.read_json_files()
     if inputs is None:
