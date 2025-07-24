@@ -2,7 +2,7 @@ import os
 import subprocess
 import datetime
 from collections import defaultdict
-from backup_manager import BackupManager
+from project_management.modules.backup_manager import BackupManager
 import json
 
 class AutoCommit:
