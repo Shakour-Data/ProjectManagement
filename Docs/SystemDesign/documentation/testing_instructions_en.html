@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Testing Instructions En</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="instructions-for-running-tests-in-the-projectmanagement-repository">Instructions for Running Tests in the ProjectManagement Repository</h1>
+<p>This document provides detailed instructions to set up the environment and run the tests successfully, avoiding common import errors related to the <code>src</code> directory.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Python 3.7 or higher installed.</li>
+<li><code>pip</code> package manager installed.</li>
+</ul>
+<h2 id="setting-up-the-environment">Setting Up the Environment</h2>
+<ol>
+<li><strong>Create a virtual environment (recommended):</strong></li>
+</ol>
+<pre><code class="language-bash">python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+</code></pre>
+<ol>
+<li><strong>Install required packages:</strong></li>
+</ol>
+<pre><code class="language-bash">pip install -r config/requirements.txt
+pip install pytest
+</code></pre>
+<h2 id="running-tests">Running Tests</h2>
+<p>The source code is located in the <code>src</code> directory, which is not installed as a package. To allow Python to find the <code>src</code> modules during testing, you need to set the <code>PYTHONPATH</code> environment variable to include the <code>src</code> directory.</p>
+<h3 id="on-linuxmacos">On Linux/macOS</h3>
+<p>Run tests with:</p>
+<pre><code class="language-bash">PYTHONPATH=src pytest tests/
+</code></pre>
+<h3 id="on-windows-powershell">On Windows (PowerShell)</h3>
+<p>Run tests with:</p>
+<pre><code class="language-powershell">$env:PYTHONPATH=&quot;src&quot;
+pytest tests/
+</code></pre>
+<h3 id="on-windows-command-prompt">On Windows (Command Prompt)</h3>
+<p>Run tests with:</p>
+<pre><code class="language-cmd">set PYTHONPATH=src
+pytest tests/
+</code></pre>
+<h2 id="running-specific-test-files">Running Specific Test Files</h2>
+<p>To run a specific test file, for example <code>tests/test_progress_report.py</code>, use:</p>
+<pre><code class="language-bash">PYTHONPATH=src pytest tests/test_progress_report.py
+</code></pre>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>Ensure you run the commands from the root directory of the project (<code>/workspaces/ProjectManagement</code>).</li>
+<li>If you encounter permission issues, ensure your user has the necessary rights to execute the commands.</li>
+<li>If you add new dependencies, update <code>config/requirements.txt</code> accordingly.</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li>If you still get import errors, verify that the <code>src</code> directory contains an <code>__init__.py</code> file to mark it as a package.</li>
+<li>Make sure you activate the virtual environment before running tests.</li>
+<li>Check that the <code>PYTHONPATH</code> is correctly set in your shell environment.</li>
+</ul>
+<hr />
+<p>Following these instructions should allow you to run the tests successfully without import errors.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

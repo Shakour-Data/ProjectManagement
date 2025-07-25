@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Risk Management Dashboard Fa</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div dir="rtl" style="text-align: right;">
+
+# داشبورد مدیریت ریسک
+
+_آخرین به‌روزرسانی: ۱۴۰۴-۰۵-۰۳_
+
+## مرور کلی
+داشبورد مدیریت ریسک ریسک‌های شناسایی شده پروژه و وضعیت کاهش آن‌ها را پیگیری می‌کند. این داشبورد نقشه‌های حرارتی تأثیر و احتمال ریسک را ارائه می‌دهد و به مدیران پروژه کمک می‌کند ریسک‌ها را به‌طور مؤثر مدیریت کنند.
+
+## هدف
+- ارائه دید کلی نسبت به ریسک‌ها و مسائل پروژه.
+- پیگیری وضعیت ریسک، تأثیر و برنامه‌های کاهش.
+- اطلاع‌رسانی به ذینفعان درباره ریسک‌های بحرانی.
+
+## ویژگی‌ها و معیارهای کلیدی
+- **ثبت ریسک:** فهرست ریسک‌های شناسایی شده با توضیحات و وضعیت‌ها.
+- **نقشه‌های حرارتی تأثیر و احتمال:** نمایش تصویری شدت ریسک‌ها.
+- **وضعیت کاهش:** پیگیری اقدامات کاهش ریسک و پیشرفت آن‌ها.
+- **اعلان‌ها:** هشدار برای ریسک‌های با تأثیر بالا یا حل نشده.
+
+## منابع داده
+- متادیتا و وضعیت ریسک از ورودی‌های JSON پروژه.
+- داده‌های وظایف و پیگیری مسائل مرتبط با ریسک.
+
+## ملاحظات UI/UX
+- نقشه‌های حرارتی تعاملی با قابلیت جزئیات بیشتر.
+- نشانگرهای واضح وضعیت ریسک و کدگذاری رنگی.
+- طراحی پاسخگو برای دستگاه‌های مختلف.
+- ادغام با سیستم اعلان و هشدار.
+
+## جزئیات پیاده‌سازی
+- ماژول‌های بک‌اند برای تجمیع و به‌روزرسانی داده‌های ریسک.
+- APIهایی برای ارائه معیارها و وضعیت ریسک.
+- اجزای فرانت‌اند برای نقشه‌های حرارتی و فهرست ریسک‌ها.
+- ادغام با سیستم‌های اعلان و هشدار.
+
+## تست و اعتبارسنجی
+- تست‌های واحد برای پردازش داده‌های ریسک.
+- تست‌های UI برای رندر نقشه‌های حرارتی و تعاملات.
+- تست سیستم اعلان.
+
+## مراحل بعدی
+- تعریف طرح داده ریسک و روش‌های پیگیری.
+- توسعه منطق بک‌اند و نقاط پایانی API.
+- طراحی اجزای نقشه حرارتی و فهرست ریسک در فرانت‌اند.
+- پیاده‌سازی ویژگی‌های اعلان و هشدار.
+
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

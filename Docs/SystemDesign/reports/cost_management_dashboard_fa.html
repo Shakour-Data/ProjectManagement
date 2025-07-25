@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cost Management Dashboard Fa</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div dir="rtl" style="text-align: right;">
+
+# داشبورد مدیریت هزینه
+
+_آخرین به‌روزرسانی: ۱۴۰۴-۰۵-۰۳_
+
+## مرور کلی
+داشبورد مدیریت هزینه، بودجه‌بندی و هزینه‌های پروژه را پیگیری می‌کند و بینش‌هایی درباره رعایت بودجه، تفکیک هزینه‌ها و پیش‌بینی‌ها ارائه می‌دهد. این داشبورد به مدیران پروژه کمک می‌کند تا جنبه‌های مالی پروژه را به‌طور مؤثر کنترل کنند.
+
+## هدف
+- نظارت بر بودجه در مقابل هزینه واقعی.
+- تحلیل واریانس‌های هزینه و پیش‌بینی هزینه‌های آینده.
+- ارائه تفکیک دقیق هزینه‌ها بر اساس وظیفه یا فاز پروژه.
+
+## ویژگی‌ها و معیارهای کلیدی
+- **ردیابی بودجه:** مقایسه بودجه برنامه‌ریزی شده و هزینه‌های واقعی.
+- **تفکیک هزینه:** هزینه‌های دقیق بر اساس وظیفه، فاز یا منبع.
+- **پیش‌بینی:** پیش‌بینی هزینه‌های آینده و شناسایی احتمال تجاوز از بودجه.
+- **تحلیل واریانس:** برجسته‌سازی انحرافات از بودجه.
+
+## منابع داده
+- داده‌های مالی از ورودی‌های JSON مرتبط با هزینه پروژه.
+- تخصیص هزینه به وظایف و منابع.
+
+## جزئیات پیاده‌سازی
+- ماژول‌هایی برای تجمیع و تحلیل داده‌های هزینه.
+- APIهایی برای ارائه معیارها و پیش‌بینی‌های هزینه.
+- اجزای فرانت‌اند با نمودارها و گزارش‌های پویا.
+- ادغام با سیستم‌های مدیریت مالی در صورت نیاز.
+
+## تست و اعتبارسنجی
+- تست‌های واحد برای تجمیع و محاسبات داده‌های هزینه.
+- تست‌های UI برای دقت و تعاملی بودن نمودارها.
+- تست عملکرد برای به‌روزرسانی‌های زمان واقعی.
+
+## مراحل بعدی
+- تعریف طرح داده‌های هزینه و نقاط ادغام.
+- توسعه منطق تجمیع و پیش‌بینی در بک‌اند.
+- طراحی و پیاده‌سازی اجزای تصویری فرانت‌اند.
+- برنامه‌ریزی فازهای ادغام و تست.
+
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

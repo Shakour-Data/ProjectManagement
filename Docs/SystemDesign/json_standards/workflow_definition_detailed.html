@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Workflow Definition Detailed</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="detailed-workflow-definitions-for-software-projects">Detailed Workflow Definitions for Software Projects</h1>
+<p>This document defines a comprehensive and standardized set of workflow stages for software projects. Each stage includes a progress weight, rationale for its inclusion, tasks to be performed, and guidance on how to execute those tasks effectively. The progress weights are designed to provide a reasonable and balanced measure of overall project progress.</p>
+<hr />
+<h2 id="workflow-stages">Workflow Stages</h2>
+<h3 id="1-requirements-gathering">1. Requirements Gathering</h3>
+<ul>
+<li><strong>Weight:</strong> 0.15</li>
+<li><strong>Rationale:</strong> Understanding and documenting what the software must achieve is critical to project success.</li>
+<li><strong>Tasks:</strong></li>
+<li>Engage stakeholders to collect requirements.</li>
+<li>Document functional and non-functional requirements.</li>
+<li>Validate requirements with stakeholders.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Conduct interviews, surveys, and workshops.</li>
+<li>Use requirement management tools or documents.</li>
+<li>Review and get sign-off from stakeholders.</li>
+</ul>
+<h3 id="2-design">2. Design</h3>
+<ul>
+<li><strong>Weight:</strong> 0.15</li>
+<li><strong>Rationale:</strong> A well-thought-out design ensures the system architecture supports requirements and is maintainable.</li>
+<li><strong>Tasks:</strong></li>
+<li>Create system architecture diagrams.</li>
+<li>Define data models and interfaces.</li>
+<li>Plan for scalability, security, and performance.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Use UML or other modeling tools.</li>
+<li>Collaborate with architects and senior developers.</li>
+<li>Review design documents with the team.</li>
+</ul>
+<h3 id="3-implementation">3. Implementation</h3>
+<ul>
+<li><strong>Weight:</strong> 0.30</li>
+<li><strong>Rationale:</strong> Actual coding transforms designs into working software.</li>
+<li><strong>Tasks:</strong></li>
+<li>Develop features according to design.</li>
+<li>Write unit and integration tests.</li>
+<li>Perform code reviews.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Follow coding standards and best practices.</li>
+<li>Use version control systems.</li>
+<li>Continuously integrate and test code.</li>
+</ul>
+<h3 id="4-code-review">4. Code Review</h3>
+<ul>
+<li><strong>Weight:</strong> 0.10</li>
+<li><strong>Rationale:</strong> Ensures code quality, consistency, and knowledge sharing.</li>
+<li><strong>Tasks:</strong></li>
+<li>Review code for correctness and style.</li>
+<li>Provide constructive feedback.</li>
+<li>Approve or request changes.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Use code review tools (e.g., GitHub PRs).</li>
+<li>Follow a checklist for reviews.</li>
+<li>Engage multiple reviewers if possible.</li>
+</ul>
+<h3 id="5-testing">5. Testing</h3>
+<ul>
+<li><strong>Weight:</strong> 0.15</li>
+<li><strong>Rationale:</strong> Validates that the software meets requirements and is free of critical defects.</li>
+<li><strong>Tasks:</strong></li>
+<li>Perform functional, regression, and performance testing.</li>
+<li>Log and track defects.</li>
+<li>Verify fixes and retest.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Use automated and manual testing techniques.</li>
+<li>Employ test management tools.</li>
+<li>Collaborate with QA teams.</li>
+</ul>
+<h3 id="6-deployment">6. Deployment</h3>
+<ul>
+<li><strong>Weight:</strong> 0.10</li>
+<li><strong>Rationale:</strong> Delivering the software to production or end-users is essential for value realization.</li>
+<li><strong>Tasks:</strong></li>
+<li>Prepare deployment scripts and documentation.</li>
+<li>Execute deployment in staging and production.</li>
+<li>Monitor deployment success and rollback if needed.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Use CI/CD pipelines.</li>
+<li>Follow deployment checklists.</li>
+<li>Communicate with stakeholders.</li>
+</ul>
+<h3 id="7-maintenance">7. Maintenance</h3>
+<ul>
+<li><strong>Weight:</strong> 0.05</li>
+<li><strong>Rationale:</strong> Ongoing support and improvements ensure software longevity and user satisfaction.</li>
+<li><strong>Tasks:</strong></li>
+<li>Monitor system performance and errors.</li>
+<li>Apply patches and updates.</li>
+<li>Plan for future enhancements.</li>
+<li><strong>How to Perform:</strong></li>
+<li>Use monitoring and alerting tools.</li>
+<li>Maintain documentation.</li>
+<li>Engage with user feedback.</li>
+</ul>
+<hr />
+<h2 id="example-json-for-workflow_definitionjson">Example JSON for workflow_definition.json</h2>
+<p>```json
+[
+  { "name": "Requirements Gathering", "weight": 0.15, "description": "Understanding and documenting what the software must achieve is critical to project success.", "tasks": ["Engage stakeholders to collect requirements", "Document functional and non-functional requirements", "Validate requirements with stakeholders"], "how_to": ["Conduct interviews, surveys, and workshops", "Use requirement management tools or documents", "Review and get sign-off from stakeholders"] },
+  { "name": "Design", "weight": 0.15, "description": "A well-thought-out design ensures the system architecture supports requirements and is maintainable.", "tasks": ["Create system architecture diagrams", "Define data models and interfaces", "Plan for scalability, security, and performance"], "how_to": ["Use UML or other modeling tools", "Collaborate with architects and senior developers", "Review design documents with the team"] },
+  { "name": "Implementation", "weight": 0.30, "description": "Actual coding transforms designs into working software.", "tasks": ["Develop features according to design", "Write unit and integration tests", "Perform code reviews"], "how_to": ["Follow coding standards and best practices", "Use version control systems", "Continuously integrate and test code"] },
+  { "name": "Code Review", "weight": 0.10, "description": "Ensures code quality, consistency, and knowledge sharing.", "tasks": ["Review code for correctness and style", "Provide constructive feedback", "Approve or request changes"], "how_to": ["Use code review tools (e.g., GitHub PRs)", "Follow a checklist for reviews", "Engage multiple reviewers if possible"] },
+  { "name": "Testing", "weight": 0.15, "description": "Validates that the software meets requirements and is free of critical defects.", "tasks": ["Perform functional, regression, and performance testing", "Log and track defects", "Verify fixes and retest"], "how_to": ["Use automated and manual testing techniques", "Employ test management tools", "Collaborate with QA teams"] },
+  { "name": "Deployment", "weight": 0.10, "description": "Delivering the software to production or end-users is essential for value realization.", "tasks": ["Prepare deployment scripts and documentation", "Execute deployment in staging and production", "Monitor deployment success and rollback if needed"], "how_to": ["Use CI/CD pipelines", "Follow deployment checklists", "Communicate with stakeholders"] },
+  { "name": "Maintenance", "weight": 0.05, "description": "Ongoing support and improvements ensure software longevity and user satisfaction.", "tasks": ["Monitor system performance and errors", "Apply patches and updates", "Plan for future enhancements"], "how_to": ["Use monitoring and alerting tools", "Maintain documentation", "Engage with user feedback"] }
+]</p>
+<hr />
+<h2 id="summary">Summary</h2>
+<p>This workflow definition provides a detailed, weighted roadmap for software project progress tracking. The weights sum to 1.0, representing 100% completion. Each stage is justified with rationale and practical guidance to ensure clarity and effective execution.</p>
+<p>For further assistance or customization, please contact the project management office.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

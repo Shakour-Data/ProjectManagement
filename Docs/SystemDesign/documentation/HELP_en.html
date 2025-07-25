@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Help En</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="project-management-package-help">Project Management Package Help</h1>
+<p>This document provides help and guidance for using the Project Management package.</p>
+<h2 id="overview">Overview</h2>
+<p>The Project Management package is a Python-based automation system designed to streamline software project management. It integrates with GitHub and Visual Studio Code (VS Code) to automate task management, progress tracking, resource allocation, and reporting.</p>
+<h2 id="installation">Installation</h2>
+<ul>
+<li>Install the package using pip or from source.</li>
+<li>Use the provided setup scripts (<code>scripts/setup_env.sh</code> and <code>scripts/setup_interactive.py</code>) to prepare the environment and input data.</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Use the CLI commands to install, setup, start, and check the status of the project management system.</li>
+<li>Provide JSON input files defining the Work Breakdown Structure (WBS), workflow, resources, and allocations.</li>
+<li>Interact with the system via the VS Code chat interface for natural language task management.</li>
+</ul>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>install</code>: Sets up the project directory and input files.</li>
+<li><code>setup</code>: Validates inputs and prepares the environment.</li>
+<li><code>start</code>: Starts the automation processes.</li>
+<li><code>status</code>: Displays the current status of the project management system.</li>
+<li><code>help</code>: Displays this help document.</li>
+</ul>
+<h2 id="input-files">Input Files</h2>
+<p>Required JSON files include:</p>
+<ul>
+<li>detailed_wbs.json</li>
+<li>workflow_definition.json</li>
+<li>resource_allocation.json</li>
+<li>task_resource_allocation.json</li>
+<li>wbs_data.json</li>
+<li>wbs_scores.json</li>
+<li>human_resources.json (created interactively)</li>
+</ul>
+<h2 id="reports-and-outputs">Reports and Outputs</h2>
+<ul>
+<li>The system generates progress reports, dashboards, and changelogs.</li>
+<li>Outputs are saved in designated directories for review.</li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ul>
+<li>Ensure all required JSON input files are present and valid.</li>
+<li>Use the interactive setup script to enter human resources data.</li>
+<li>Check the virtual environment is activated before running commands.</li>
+<li>Review logs for errors during automation.</li>
+</ul>
+<h2 id="support">Support</h2>
+<p>For further assistance, refer to the comprehensive documentation in the <code>docs/</code> directory or contact the development team.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

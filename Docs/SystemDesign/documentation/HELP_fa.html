@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Help Fa</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="_1">راهنمای بسته مدیریت پروژه</h1>
+<p>این سند راهنمای استفاده از بسته مدیریت پروژه را ارائه می‌دهد.</p>
+<h2 id="_2">مرور کلی</h2>
+<p>بسته مدیریت پروژه یک سیستم خودکار مبتنی بر پایتون است که برای ساده‌سازی مدیریت پروژه‌های نرم‌افزاری طراحی شده است. این بسته با گیت‌هاب و ویژوال استودیو کد (VS Code) ادغام می‌شود تا مدیریت وظایف، پیگیری پیشرفت، تخصیص منابع و گزارش‌دهی را خودکار کند.</p>
+<h2 id="_3">نصب</h2>
+<ul>
+<li>بسته را با استفاده از pip یا از سورس نصب کنید.</li>
+<li>از اسکریپت‌های آماده شده (<code>scripts/setup_env.sh</code> و <code>scripts/setup_interactive.py</code>) برای آماده‌سازی محیط و داده‌های ورودی استفاده کنید.</li>
+</ul>
+<h2 id="_4">استفاده</h2>
+<ul>
+<li>از دستورات CLI برای نصب، راه‌اندازی، شروع و بررسی وضعیت سیستم مدیریت پروژه استفاده کنید.</li>
+<li>فایل‌های JSON ورودی را که ساختار شکست کار (WBS)، گردش کار، منابع و تخصیص‌ها را تعریف می‌کنند، فراهم کنید.</li>
+<li>از طریق رابط چت VS Code با سیستم برای مدیریت وظایف به زبان طبیعی تعامل کنید.</li>
+</ul>
+<h2 id="_5">دستورات</h2>
+<ul>
+<li><code>install</code>: پوشه پروژه و فایل‌های ورودی را تنظیم می‌کند.</li>
+<li><code>setup</code>: ورودی‌ها را اعتبارسنجی و محیط را آماده می‌کند.</li>
+<li><code>start</code>: فرآیندهای خودکار را شروع می‌کند.</li>
+<li><code>status</code>: وضعیت فعلی سیستم مدیریت پروژه را نمایش می‌دهد.</li>
+<li><code>help</code>: این سند راهنما را نمایش می‌دهد.</li>
+</ul>
+<h2 id="_6">فایل‌های ورودی</h2>
+<p>فایل‌های JSON مورد نیاز شامل:</p>
+<ul>
+<li>detailed_wbs.json</li>
+<li>workflow_definition.json</li>
+<li>resource_allocation.json</li>
+<li>task_resource_allocation.json</li>
+<li>wbs_data.json</li>
+<li>wbs_scores.json</li>
+<li>human_resources.json (به صورت تعاملی ایجاد می‌شود)</li>
+</ul>
+<h2 id="_7">گزارش‌ها و خروجی‌ها</h2>
+<ul>
+<li>سیستم گزارش‌های پیشرفت، داشبوردها و تغییرات را تولید می‌کند.</li>
+<li>خروجی‌ها در پوشه‌های مشخص شده برای بررسی ذخیره می‌شوند.</li>
+</ul>
+<h2 id="_8">عیب‌یابی</h2>
+<ul>
+<li>اطمینان حاصل کنید که همه فایل‌های JSON ورودی مورد نیاز موجود و معتبر هستند.</li>
+<li>از اسکریپت راه‌اندازی تعاملی برای وارد کردن داده‌های منابع انسانی استفاده کنید.</li>
+<li>بررسی کنید که محیط مجازی فعال شده باشد قبل از اجرای دستورات.</li>
+<li>لاگ‌ها را برای خطاهای احتمالی در خودکارسازی بررسی کنید.</li>
+</ul>
+<h2 id="_9">پشتیبانی</h2>
+<p>برای کمک بیشتر، به مستندات جامع در پوشه <code>docs/</code> مراجعه کنید یا با تیم توسعه تماس بگیرید.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

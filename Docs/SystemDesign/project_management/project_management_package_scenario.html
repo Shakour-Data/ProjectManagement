@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Project Management Package Scenario</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="project-management-package-scenario-without-ai">Project Management Package Scenario (Without AI)</h1>
+<h2 id="initial-setup-and-installation">Initial Setup and Installation</h2>
+<ol>
+<li>
+<p>The user creates an empty project folder.</p>
+</li>
+<li>
+<p>The Project Management package is installed into the project folder.  </p>
+</li>
+<li>
+<p>The package files and folders are not tracked by the user's project Git repository.</p>
+</li>
+<li>
+<p>A Git repository is initialized in the project folder.  </p>
+</li>
+<li>
+<p>Essential files such as <code>requirements.txt</code>, <code>.gitignore</code>, and <code>README.md</code> are created.</p>
+</li>
+<li>
+<p>A <code>Docs</code> folder is created for project documentation.</p>
+</li>
+<li>
+<p>A Python virtual environment is created within the project folder.  </p>
+</li>
+<li>
+<p>Virtual environment files and folders are excluded from Git tracking.</p>
+</li>
+<li>
+<p>The required Python packages listed in <code>requirements.txt</code> are installed.</p>
+</li>
+<li>
+<p>The system instructs the user to add JSON files for the Work Breakdown Structure (WBS) parts under the directory:<br />
+<code>project_inputs/PM_JSON/user_inputs/wbs_parts</code>  </p>
+</li>
+<li>The user must add three levels of WBS parts to plan the project.  </li>
+<li>The system lists the expected JSON filenames and paths one by one.  </li>
+<li>The user completes each JSON file according to the provided standards and confirms by pressing Enter.  </li>
+<li>
+<p>The system validates each JSON file against general and package-specific standards before proceeding to the next file.</p>
+</li>
+<li>
+<p>The user defines the human resources JSON file as per the system's instructions and standards.</p>
+</li>
+</ol>
+<h2 id="project-planning-and-scheduling">Project Planning and Scheduling</h2>
+<ol>
+<li>
+<p>The system performs resource allocation for the lowest-level WBS activities (tasks) based on the user-defined human resources.</p>
+</li>
+<li>
+<p>The system estimates the duration (in hours) for each activity.</p>
+</li>
+<li>
+<p>The system determines the dependencies (predecessors and successors) for each activity.  </p>
+<ul>
+<li>It adds a start milestone activity for activities without predecessors (project start).  </li>
+<li>It adds an end milestone activity for activities without successors (project end).</li>
+</ul>
+</li>
+<li>
+<p>The system performs resource leveling to optimize resource usage.</p>
+</li>
+<li>
+<p>The user provides the project start date.</p>
+</li>
+<li>
+<p>The system calculates the start and end dates for each activity.</p>
+</li>
+<li>
+<p>Starting from the lowest WBS level, the system aggregates durations, costs, and other calculations up to higher levels.</p>
+</li>
+<li>
+<p>The system announces that the initial project schedule is created, including total project duration and cost (human resource cost only).</p>
+</li>
+<li>
+<p>The system generates various dashboards and reports for the initial project plan.</p>
+</li>
+<li>
+<p>The system provides filtering and sorting capabilities for activities and higher WBS levels based on all scheduling attributes.</p>
+</li>
+</ol>
+<h2 id="project-monitoring-and-control">Project Monitoring and Control</h2>
+<ol>
+<li>
+<p>During project execution, the package monitors the project by:</p>
+<ul>
+<li>Determining priority, importance, and scores for activities and aggregating these to higher WBS levels.  </li>
+<li>
+<p>If two activities have the same priority and importance, the one in a group with higher priority and importance receives a higher score.</p>
+</li>
+<li>
+<p>Determining the order of activities and managing their execution by team members.  </p>
+</li>
+<li>
+<p>Generating dashboards and reports related to activity execution.</p>
+</li>
+<li>
+<p>Managing workflow for activities designated for execution.</p>
+</li>
+<li>
+<p>Creating commits after completing workflow parts and updating project progress percentage.</p>
+</li>
+<li>
+<p>Generating all relevant reports at the end of each workday (e.g., 6 PM daily).</p>
+</li>
+<li>
+<p>Updating dashboards after each commit.</p>
+</li>
+<li>
+<p>Checking if the workflow is complete:  </p>
+</li>
+<li>If yes, return to priority determination step.  </li>
+<li>If no, continue workflow execution.</li>
+</ul>
+</li>
+</ol>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>
+<p>All user inputs must comply with the package's JSON standards and formats.</p>
+</li>
+<li>
+<p>The system guides the user through each step, providing instructions and validation feedback.</p>
+</li>
+<li>
+<p>The package does not use AI for any of the above processes.</p>
+</li>
+<li>
+<p>The package focuses on automation, consistency, and adherence to project management best practices.</p>
+</li>
+</ul>
+<hr />
+<p>This scenario replaces any previous AI-based automation with a user-interactive, standards-driven project management process.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

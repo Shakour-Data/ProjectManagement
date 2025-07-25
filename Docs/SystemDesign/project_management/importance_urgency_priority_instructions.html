@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Importance Urgency Priority Instructions</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="priority-urgency-and-eisenhower-matrix-instructions">Priority, Urgency, and Eisenhower Matrix Instructions</h1>
+<p>This document describes the methodology implemented in the project management tool for calculating task priority, urgency, and classification using the Eisenhower matrix, as outlined in the detailed implementation plan.</p>
+<hr />
+<h2 id="priority-and-urgency-calculation">Priority and Urgency Calculation</h2>
+<ul>
+<li>Priority (Importance) is calculated based on multiple weighted factors including:</li>
+<li>Task dependencies</li>
+<li>Critical path involvement</li>
+<li>Schedule and cost impact</li>
+<li>Stakeholder priority and risk complexity</li>
+<li>Resource availability and quality impact</li>
+<li>Milestone roles and bottleneck potential</li>
+<li>
+<p>Reusability frequency</p>
+</li>
+<li>
+<p>Urgency is calculated based on factors such as:</p>
+</li>
+<li>Deadline proximity</li>
+<li>Next activity dependencies</li>
+<li>Risk of delay and immediate decision requirements</li>
+<li>Stakeholder pressure and limited resource time</li>
+<li>Competitive advantage and critical issue fixes</li>
+<li>
+<p>External schedule coordination and compensatory costs</p>
+</li>
+<li>
+<p>Both priority and urgency scores are normalized on a scale from 0 to 100.</p>
+</li>
+<li>
+<p>For leaf tasks, scores are calculated directly from these factors.</p>
+</li>
+<li>
+<p>For parent tasks, scores are aggregated from their subtasks, typically by averaging.</p>
+</li>
+</ul>
+<hr />
+<h2 id="eisenhower-matrix-classification">Eisenhower Matrix Classification</h2>
+<p>Tasks are classified into four quadrants based on their priority and urgency scores:</p>
+<table>
+<thead>
+<tr>
+<th>Quadrant</th>
+<th>Priority (Importance)</th>
+<th>Urgency</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Do Now</td>
+<td>High (≥ 70)</td>
+<td>High (≥ 70)</td>
+<td>Immediate attention</td>
+</tr>
+<tr>
+<td>Schedule</td>
+<td>High (≥ 70)</td>
+<td>Low (&lt; 70)</td>
+<td>Plan and schedule</td>
+</tr>
+<tr>
+<td>Delegate</td>
+<td>Low (&lt; 70)</td>
+<td>High (≥ 70)</td>
+<td>Assign to others</td>
+</tr>
+<tr>
+<td>Eliminate</td>
+<td>Low (&lt; 70)</td>
+<td>Low (&lt; 70)</td>
+<td>Consider dropping</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="usage-in-the-project-management-tool">Usage in the Project Management Tool</h2>
+<ul>
+<li>
+<p>The tool automatically calculates these scores based on task metadata and project data.</p>
+</li>
+<li>
+<p>Tasks are prioritized and scheduled accordingly.</p>
+</li>
+<li>
+<p>The Eisenhower matrix helps focus on critical tasks and optimize resource allocation.</p>
+</li>
+<li>
+<p>Scores and classifications are saved in JSON files for reporting and visualization.</p>
+</li>
+<li>
+<p>Reports include top tasks in each Eisenhower quadrant.</p>
+</li>
+<li>
+<p>Visual dashboards summarize task priorities and urgencies.</p>
+</li>
+</ul>
+<hr />
+<h2 id="reference">Reference</h2>
+<p>This methodology is implemented as described in the detailed implementation plan located at:</p>
+<p><code>projects/current_project/docs/detailed_implementation_plan.txt</code></p>
+<hr />
+<p>This document ensures alignment between the code implementation and project documentation for priority and urgency calculations and task classification.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

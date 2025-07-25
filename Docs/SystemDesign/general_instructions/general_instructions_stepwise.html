@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>General Instructions Stepwise</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="step-by-step-instructions-for-building-the-project-management-tool">Step-by-Step Instructions for Building the Project Management Tool</h1>
+<p>This document provides a detailed, ordered procedure for building, setting up, and operating the Project Management Tool. Each step specifies what to do, how to do it, when, and by whom.</p>
+<hr />
+<h2 id="step-1-initial-setup-and-installation">Step 1: Initial Setup and Installation</h2>
+<p><strong>What:</strong> Install the project management tool and prepare the development environment.</p>
+<p><strong>How:</strong>
+- Install the tool as a Python package/library.
+- The installation process will automatically create a Python virtual environment and install all required dependencies.
+- Essential VS Code extensions (e.g., BLACKBOX AI) will be installed automatically.
+- Securely store GitHub authentication tokens.
+- Initialize the project management state.</p>
+<p><strong>When:</strong> At the start of the project.</p>
+<p><strong>Who:</strong> DevOps engineer or project lead.</p>
+<hr />
+<h2 id="step-2-define-project-scope-and-inputs">Step 2: Define Project Scope and Inputs</h2>
+<p><strong>What:</strong> Provide initial creative inputs describing the project goals, features, and requirements.</p>
+<p><strong>How:</strong>
+- Use the VS Code chat interface to input natural language descriptions, code snippets, or images.
+- Ensure inputs are clear and cover project objectives.</p>
+<p><strong>When:</strong> Immediately after setup.</p>
+<p><strong>Who:</strong> Project manager or product owner.</p>
+<hr />
+<h2 id="step-3-generate-work-breakdown-structure-wbs">Step 3: Generate Work Breakdown Structure (WBS)</h2>
+<p><strong>What:</strong> Create a hierarchical breakdown of the project into manageable tasks.</p>
+<p><strong>How:</strong>
+- Use the tool’s AI-assisted WBS generation from the creative inputs.
+- Review and refine the generated WBS.
+- Assign unique IDs, titles, descriptions, deadlines, dependencies, and priorities to tasks.
+- Convert WBS to JSON format for programmatic use.</p>
+<p><strong>When:</strong> After defining project scope.</p>
+<p><strong>Who:</strong> Project manager and team leads.</p>
+<hr />
+<h2 id="step-4-resource-allocation">Step 4: Resource Allocation</h2>
+<p><strong>What:</strong> Assign resources (human and equipment) to project tasks.</p>
+<p><strong>How:</strong>
+- Define resources in JSON resource files with detailed attributes.
+- Allocate resources to tasks with percentages, roles, and timeframes.
+- Validate resource availability and avoid overbooking.
+- Update allocations regularly as project progresses.</p>
+<p><strong>When:</strong> After WBS finalization.</p>
+<p><strong>Who:</strong> Resource manager and project manager.</p>
+<hr />
+<h2 id="step-5-configure-task-management-and-scheduling">Step 5: Configure Task Management and Scheduling</h2>
+<p><strong>What:</strong> Set up task dependencies, priorities, and schedules.</p>
+<p><strong>How:</strong>
+- Use the tool to parse tasks and dependencies.
+- Define task priorities based on importance and urgency.
+- Schedule tasks considering dependencies and resource availability.
+- Set deadlines and reminders.</p>
+<p><strong>When:</strong> After resource allocation.</p>
+<p><strong>Who:</strong> Project manager and team leads.</p>
+<hr />
+<h2 id="step-6-development-and-workflow-execution">Step 6: Development and Workflow Execution</h2>
+<p><strong>What:</strong> Execute coding, testing, documentation, and review workflows.</p>
+<p><strong>How:</strong>
+- Developers work on assigned tasks.
+- Commit code with task IDs in commit messages.
+- Complete workflow steps: coding, testing, documentation, code review, merge, deployment, verification.
+- Use GitHub Issues and Project boards for status tracking.
+- Automate testing and CI/CD pipelines with GitHub Actions.</p>
+<p><strong>When:</strong> Throughout project execution.</p>
+<p><strong>Who:</strong> Developers, testers, and reviewers.</p>
+<hr />
+<h2 id="step-7-progress-tracking-and-reporting">Step 7: Progress Tracking and Reporting</h2>
+<p><strong>What:</strong> Monitor project progress and generate reports.</p>
+<p><strong>How:</strong>
+- Calculate progress combining commit history and workflow step completion.
+- Generate automated markdown and text-based reports.
+- Use real-time dashboards in VS Code and GitHub.
+- Send notifications for stalled tasks, deadlines, and reviews.</p>
+<p><strong>When:</strong> Continuously during project execution.</p>
+<p><strong>Who:</strong> Project manager and stakeholders.</p>
+<hr />
+<h2 id="step-8-documentation-and-sop-management">Step 8: Documentation and SOP Management</h2>
+<p><strong>What:</strong> Manage project documentation and standard operating procedures.</p>
+<p><strong>How:</strong>
+- Maintain documentation in markdown or text files within the repository.
+- Version and synchronize documentation automatically.
+- Integrate with GitHub Wiki for extended collaboration.</p>
+<p><strong>When:</strong> Throughout project lifecycle.</p>
+<p><strong>Who:</strong> Documentation specialists and project manager.</p>
+<hr />
+<h2 id="step-9-security-and-permissions-management">Step 9: Security and Permissions Management</h2>
+<p><strong>What:</strong> Ensure secure access and role-based permissions.</p>
+<p><strong>How:</strong>
+- Encrypt and securely store authentication tokens.
+- Implement role-based access control.
+- Monitor compliance with GitHub API limits.</p>
+<p><strong>When:</strong> From project start and ongoing.</p>
+<p><strong>Who:</strong> Security officer and project manager.</p>
+<hr />
+<h2 id="step-10-backup-recovery-and-extensibility">Step 10: Backup, Recovery, and Extensibility</h2>
+<p><strong>What:</strong> Maintain data integrity and extend tool capabilities.</p>
+<p><strong>How:</strong>
+- Automate backups of project state, documentation, and configurations.
+- Implement recovery mechanisms for data loss or corruption.
+- Use plugin architecture to add features or integrate external tools.
+- Leverage GitHub Actions and internal bots for automation.</p>
+<p><strong>When:</strong> Continuously.</p>
+<p><strong>Who:</strong> DevOps engineer and project manager.</p>
+<hr />
+<h2 id="summary">Summary</h2>
+<p>Following these ordered steps ensures a structured, efficient, and secure approach to building and managing the Project Management Tool. Clear responsibilities and procedures enable smooth collaboration and successful project delivery.</p>
+<hr />
+<h2 id="dynamic-importance-and-urgency-calculation">Dynamic Importance and Urgency Calculation</h2>
+<p>The project management tool calculates task importance and urgency dynamically based on multiple factors to prioritize work effectively. The calculation uses a recursive scoring approach:</p>
+<ul>
+<li><strong>Importance Calculation:</strong></li>
+<li>Considers deadline proximity, number of dependencies, and task priority.</li>
+<li>Formula:<br />
+<code>importance = w1 * (1 - normalized_time_to_deadline) + w2 * dependency_factor + w3 * priority_factor</code><br />
+    where weights sum to 1 (e.g., w1=0.5, w2=0.3, w3=0.2).</li>
+<li>Normalized time to deadline is calculated over a 7-day window.</li>
+<li>Dependency factor is the ratio of dependencies to a maximum threshold.</li>
+<li>
+<p>Priority factor is normalized task priority.</p>
+</li>
+<li>
+<p><strong>Urgency Calculation:</strong></p>
+</li>
+<li>Considers deadline proximity, task status, and resource availability.</li>
+<li>Formula:<br />
+<code>urgency = w1 * (1 - normalized_time_to_deadline) + w2 * status_factor + w3 * resource_availability_factor</code><br />
+    where weights sum to 1 (e.g., w1=0.6, w2=0.3, w3=0.1).</li>
+<li>Normalized time to deadline is calculated over a 3-day window.</li>
+<li>Status factor is 1 for pending or in-progress tasks, 0 otherwise.</li>
+<li>
+<p>Resource availability factor is 1 if no resources assigned, else 0.</p>
+</li>
+<li>
+<p><strong>Implementation:</strong></p>
+</li>
+<li>The tool recursively scores tasks and subtasks.</li>
+<li>Scores are stored and used to calculate combined task scores.</li>
+<li>Scores are updated dynamically as project data changes.</li>
+</ul>
+<p>For detailed code implementation, see <code>project_inputs/modules/importance_urgency_calculator.py</code>.</p>
+<p>For further assistance, please contact the project management office.</p>
+<hr />
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

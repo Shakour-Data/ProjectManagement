@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Testing Instructions Fa</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1 id="projectmanagement">دستورالعمل اجرای تست‌ها در مخزن ProjectManagement</h1>
+<p>این سند دستورالعمل‌های دقیقی برای راه‌اندازی محیط و اجرای موفق تست‌ها ارائه می‌دهد و از خطاهای رایج مربوط به دایرکتوری <code>src</code> جلوگیری می‌کند.</p>
+<h2 id="_1">پیش‌نیازها</h2>
+<ul>
+<li>نصب پایتون نسخه ۳.۷ یا بالاتر.</li>
+<li>نصب مدیر بسته <code>pip</code>.</li>
+</ul>
+<h2 id="_2">راه‌اندازی محیط</h2>
+<ol>
+<li><strong>ایجاد محیط مجازی (توصیه شده):</strong></li>
+</ol>
+<pre><code class="language-bash">python3 -m venv venv
+source venv/bin/activate  # در ویندوز: venv\Scripts\activate
+</code></pre>
+<ol>
+<li><strong>نصب بسته‌های مورد نیاز:</strong></li>
+</ol>
+<pre><code class="language-bash">pip install -r config/requirements.txt
+pip install pytest
+</code></pre>
+<h2 id="_3">اجرای تست‌ها</h2>
+<p>کد منبع در دایرکتوری <code>src</code> قرار دارد که به صورت بسته نصب نشده است. برای اینکه پایتون بتواند ماژول‌های <code>src</code> را هنگام تست پیدا کند، باید متغیر محیطی <code>PYTHONPATH</code> را به دایرکتوری <code>src</code> اضافه کنید.</p>
+<h3 id="_4">در لینوکس/مک</h3>
+<p>تست‌ها را با دستور زیر اجرا کنید:</p>
+<pre><code class="language-bash">PYTHONPATH=src pytest tests/
+</code></pre>
+<h3 id="powershell">در ویندوز (PowerShell)</h3>
+<p>تست‌ها را با دستور زیر اجرا کنید:</p>
+<pre><code class="language-powershell">$env:PYTHONPATH=&quot;src&quot;
+pytest tests/
+</code></pre>
+<h3 id="command-prompt">در ویندوز (Command Prompt)</h3>
+<p>تست‌ها را با دستور زیر اجرا کنید:</p>
+<pre><code class="language-cmd">set PYTHONPATH=src
+pytest tests/
+</code></pre>
+<h2 id="_5">اجرای فایل تست خاص</h2>
+<p>برای اجرای یک فایل تست خاص، مثلاً <code>tests/test_progress_report.py</code>، از دستور زیر استفاده کنید:</p>
+<pre><code class="language-bash">PYTHONPATH=src pytest tests/test_progress_report.py
+</code></pre>
+<h2 id="_6">نکات</h2>
+<ul>
+<li>اطمینان حاصل کنید که دستورات را از دایرکتوری ریشه پروژه (<code>/workspaces/ProjectManagement</code>) اجرا می‌کنید.</li>
+<li>اگر با مشکلات دسترسی مواجه شدید، مطمئن شوید که کاربر شما مجوزهای لازم برای اجرای دستورات را دارد.</li>
+<li>اگر وابستگی‌های جدید اضافه کردید، فایل <code>config/requirements.txt</code> را به‌روزرسانی کنید.</li>
+</ul>
+<h2 id="_7">عیب‌یابی</h2>
+<ul>
+<li>اگر هنوز خطاهای وارد کردن ماژول داشتید، بررسی کنید که دایرکتوری <code>src</code> شامل فایل <code>__init__.py</code> باشد تا به عنوان بسته شناخته شود.</li>
+<li>مطمئن شوید که محیط مجازی قبل از اجرای تست‌ها فعال شده است.</li>
+<li>بررسی کنید که متغیر محیطی <code>PYTHONPATH</code> به درستی در محیط شل شما تنظیم شده باشد.</li>
+</ul>
+<hr />
+<p>با دنبال کردن این دستورالعمل‌ها باید بتوانید تست‌ها را بدون خطا اجرا کنید.</p>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>

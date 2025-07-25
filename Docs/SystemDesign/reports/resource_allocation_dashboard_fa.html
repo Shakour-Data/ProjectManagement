@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resource Allocation Dashboard Fa</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    max-width: 900px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+}
+pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 1rem;
+    overflow-x: auto;
+}
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div dir="rtl" style="text-align: right;">
+
+# داشبورد تخصیص منابع
+
+_آخرین به‌روزرسانی: ۱۴۰۴-۰۵-۰۳_
+
+## مرور کلی
+داشبورد تخصیص منابع نمای کلی از استفاده و در دسترس بودن منابع ارائه می‌دهد و به مدیران پروژه کمک می‌کند منابع بیش از حد تخصیص یافته یا کم استفاده را شناسایی کنند. این داشبورد از منابع انسانی و مادی در سراسر وظایف و فازهای پروژه پشتیبانی می‌کند.
+
+## هدف
+- نظارت بر تخصیص و استفاده از منابع.
+- شناسایی تعارضات و عدم تعادل منابع.
+- بهینه‌سازی تخصیص منابع برای افزایش بهره‌وری پروژه.
+
+## ویژگی‌ها و معیارهای کلیدی
+- **نمای کلی استفاده از منابع:** نمایش تخصیص فعلی منابع انسانی و مادی.
+- **ردیابی در دسترس بودن:** نمایش در دسترس بودن منابع و تعارضات احتمالی.
+- **نرخ‌های استفاده:** اندازه‌گیری تعادل بار کاری و بهره‌وری منابع.
+- **شناسایی تعارضات:** برجسته‌سازی منابع بیش از حد تخصیص یافته یا کم استفاده.
+
+## منابع داده
+- متادیتا و داده‌های تخصیص منابع از ورودی‌های JSON پروژه.
+- تخصیص وظایف و برنامه‌ها.
+
+## ملاحظات UI/UX
+- نمودارهای تصویری نمایش تخصیص و در دسترس بودن منابع.
+- فیلتر بر اساس نوع منبع، فاز پروژه و وظیفه.
+- هشدار برای تعارضات و تخصیص بیش از حد منابع.
+- طراحی پاسخگو برای دسکتاپ و موبایل.
+
+## جزئیات پیاده‌سازی
+- ماژول‌های بک‌اند برای تجمیع داده‌های تخصیص منابع.
+- APIهایی برای ارائه معیارهای استفاده از منابع.
+- اجزای فرانت‌اند با نمودارهای تعاملی و هشدارها.
+- ادغام با سیستم مدیریت پروژه برای به‌روزرسانی‌های زمان واقعی.
+
+## تست و اعتبارسنجی
+- تست‌های واحد برای تجمیع داده و شناسایی تعارضات.
+- تست‌های UI برای دقت و تعامل نمودارها.
+- تست عملکرد برای به‌روزرسانی‌های زمان واقعی.
+
+## مراحل بعدی
+- تعریف طرح داده منابع و قوانین تخصیص.
+- توسعه منطق تجمیع و شناسایی تعارضات در بک‌اند.
+- طراحی و پیاده‌سازی اجزای تصویری فرانت‌اند.
+- برنامه‌ریزی فازهای ادغام و تست.
+
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+    headers.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+            let next = header.nextElementSibling;
+            while (next && !['H1','H2','H3','H4','H5','H6'].includes(next.tagName)) {
+                if (next.style.display === 'none') {
+                    next.style.display = '';
+                } else {
+                    next.style.display = 'none';
+                }
+                next = next.nextElementSibling;
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
