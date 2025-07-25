@@ -8293,5 +8293,1484 @@
         "parent_commits": [
             "45893931ad880f5424ad25dbca65c11b8ebb946b"
         ]
+    },
+    "690d444dd225f21fe4208c988343920ef0fca4d6": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/dashboard_and_reports_plan_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:40:53):\\n- docs/documentation/dashboard_and_reports_plan_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/dashboard_and_reports_plan_en.md b/docs/documentation/dashboard_and_reports_plan_en.md\\n    deleted file mode 100644\\n    index a516eeb1..00000000\\n    --- a/docs/documentation/dashboard_and_reports_plan_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:10:54",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:40:54 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fb6d0c5daa531e117c36b7da861fbad1b3914105"
+        ]
+    },
+    "271071981472dc8b3045947c0adf77cb1e191760": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/dashboard_and_reports_plan_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:40:55):\\n- docs/documentation/dashboard_and_reports_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/dashboard_and_reports_plan_fa.md b/docs/documentation/dashboard_and_reports_plan_fa.md\\n    deleted file mode 100644\\n    index ba1f2b35..00000000\\n    --- a/docs/documentation/dashboard_and_reports_plan_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:10:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:40:55 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "690d444dd225f21fe4208c988343920ef0fca4d6"
+        ]
+    },
+    "a4fd581d29c16f9f5e8fc788f65c938a04522625": {
+        "task_id": "docs",
+        "file_path": "docs/reports/dashboards_reports.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:40:57):\\n- docs/reports/dashboards_reports.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/dashboards_reports.md b/docs/reports/dashboards_reports.md\\n    deleted file mode 100644\\n    index 45ca3f00..00000000\\n    --- a/docs/reports/dashboards_reports.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:10:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:40:57 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "271071981472dc8b3045947c0adf77cb1e191760"
+        ]
+    },
+    "bbad8de0017c27c410b7f0d4084ebe54c2844676": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_report.md",
+        "commit_message": "🐛 fix(docs): Modified files updated\\n\\nChanges included (as of 2025-07-25 16:40:59):\\n- docs/reports/progress_report.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/docs/reports/progress_report.md b/docs/reports/progress_report.md\\n    index c088f11f..7afee667 100644\\n    --- a/docs/reports/progress_report.md\\n    +++ b/docs/reports/progress_report.md\\n    @@ -1,24 +1,30 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:10:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:40:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a4fd581d29c16f9f5e8fc788f65c938a04522625"
+        ]
+    },
+    "a2659f4ecf102d8942773367a1a090e432d788bb": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_management_dashboard.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:01):\\n- docs/reports/cost_management_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/cost_management_dashboard.md b/docs/reports/cost_management_dashboard.md\\n    new file mode 100644\\n    index 00000000..c55e1796\\n    --- /dev/null\\n    +++ b/docs/reports/cost_management_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:01 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "bbad8de0017c27c410b7f0d4084ebe54c2844676"
+        ]
+    },
+    "665353fc959df4e8628c5da996399a434149a051": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_management_dashboard_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:02):\\n- docs/reports/cost_management_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/cost_management_dashboard_fa.md b/docs/reports/cost_management_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..a3abc27c\\n    --- /dev/null\\n    +++ b/docs/reports/cost_management_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a2659f4ecf102d8942773367a1a090e432d788bb"
+        ]
+    },
+    "5701693db842e83180705895ac405920b9bf101c": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_report.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:04):\\n- docs/reports/cost_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/cost_report.md b/docs/reports/cost_report.md\\n    new file mode 100644\\n    index 00000000..66da54ac\\n    --- /dev/null\\n    +++ b/docs/reports/cost_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:04",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:04 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "665353fc959df4e8628c5da996399a434149a051"
+        ]
+    },
+    "d923ca6806beecee8086ca9443dfb864a9bd0926": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_report_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:06):\\n- docs/reports/cost_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/cost_report_fa.md b/docs/reports/cost_report_fa.md\\n    new file mode 100644\\n    index 00000000..ac1ba206\\n    --- /dev/null\\n    +++ b/docs/reports/cost_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:06 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5701693db842e83180705895ac405920b9bf101c"
+        ]
+    },
+    "bf0c05f74e623e8b042cc99eb9b2a3adde80888e": {
+        "task_id": "docs",
+        "file_path": "docs/reports/dashboard_and_reports_plan_en.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:07):\\n- docs/reports/dashboard_and_reports_plan_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/dashboard_and_reports_plan_en.md b/docs/reports/dashboard_and_reports_plan_en.md\\n    new file mode 100644\\n    index 00000000..0a517247\\n    --- /dev/null\\n    +++ b/docs/reports/dashboard_and_reports_plan_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:07",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:07 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d923ca6806beecee8086ca9443dfb864a9bd0926"
+        ]
+    },
+    "28e71668da3ce9e0c2f704f970620566c24b9260": {
+        "task_id": "docs",
+        "file_path": "docs/reports/dashboard_and_reports_plan_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:09):\\n- docs/reports/dashboard_and_reports_plan_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/dashboard_and_reports_plan_fa.md b/docs/reports/dashboard_and_reports_plan_fa.md\\n    new file mode 100644\\n    index 00000000..67482d16\\n    --- /dev/null\\n    +++ b/docs/reports/dashboard_and_reports_plan_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:09",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:09 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "bf0c05f74e623e8b042cc99eb9b2a3adde80888e"
+        ]
+    },
+    "d8e6171868314a0bb189aaf3a71c3803a8ee3671": {
+        "task_id": "docs",
+        "file_path": "docs/reports/github_synchronization_report.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:11):\\n- docs/reports/github_synchronization_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/github_synchronization_report.md b/docs/reports/github_synchronization_report.md\\n    new file mode 100644\\n    index 00000000..205bd460\\n    --- /dev/null\\n    +++ b/docs/reports/github_synchronization_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:11",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:11 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "28e71668da3ce9e0c2f704f970620566c24b9260"
+        ]
+    },
+    "ea63687cc71445a7398482a6aa00a43d6dd5ce2c": {
+        "task_id": "docs",
+        "file_path": "docs/reports/github_synchronization_report_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:12):\\n- docs/reports/github_synchronization_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/github_synchronization_report_fa.md b/docs/reports/github_synchronization_report_fa.md\\n    new file mode 100644\\n    index 00000000..b56a632d\\n    --- /dev/null\\n    +++ b/docs/reports/github_synchronization_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:12 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d8e6171868314a0bb189aaf3a71c3803a8ee3671"
+        ]
+    },
+    "5185bb903f40fae44bbdb1250ff89847a9c17af1": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_dashboard.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:14):\\n- docs/reports/importance_urgency_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_dashboard.md b/docs/reports/importance_urgency_dashboard.md\\n    new file mode 100644\\n    index 00000000..a86e7877\\n    --- /dev/null\\n    +++ b/docs/reports/importance_urgency_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:14 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ea63687cc71445a7398482a6aa00a43d6dd5ce2c"
+        ]
+    },
+    "e9afb8db4fcd8cde5696f0a504740aa14e486ff0": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_dashboard_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:15):\\n- docs/reports/importance_urgency_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_dashboard_fa.md b/docs/reports/importance_urgency_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..fef7c6b5\\n    --- /dev/null\\n    +++ b/docs/reports/importance_urgency_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5185bb903f40fae44bbdb1250ff89847a9c17af1"
+        ]
+    },
+    "90b2ea6730165851076415fe75ce3686d9f80fcb": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_report.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:17):\\n- docs/reports/importance_urgency_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_report.md b/docs/reports/importance_urgency_report.md\\n    new file mode 100644\\n    index 00000000..62dcc195\\n    --- /dev/null\\n    +++ b/docs/reports/importance_urgency_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:17",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:17 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e9afb8db4fcd8cde5696f0a504740aa14e486ff0"
+        ]
+    },
+    "5ad820be2f18ba59f7047389821e53f63300485d": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_report_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:19):\\n- docs/reports/importance_urgency_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_report_fa.md b/docs/reports/importance_urgency_report_fa.md\\n    new file mode 100644\\n    index 00000000..2fc4c877\\n    --- /dev/null\\n    +++ b/docs/reports/importance_urgency_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "90b2ea6730165851076415fe75ce3686d9f80fcb"
+        ]
+    },
+    "c81ebf7195f80cbb368e7279bd667cccb03edc0a": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_dashboard.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:20):\\n- docs/reports/progress_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/progress_dashboard.md b/docs/reports/progress_dashboard.md\\n    new file mode 100644\\n    index 00000000..370fa56c\\n    --- /dev/null\\n    +++ b/docs/reports/progress_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:21",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5ad820be2f18ba59f7047389821e53f63300485d"
+        ]
+    },
+    "dadc6c0893cea0eb89aab939584f1a32cfdcd05f": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_dashboard_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:22):\\n- docs/reports/progress_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/progress_dashboard_fa.md b/docs/reports/progress_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..b6b63f64\\n    --- /dev/null\\n    +++ b/docs/reports/progress_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:22 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c81ebf7195f80cbb368e7279bd667cccb03edc0a"
+        ]
+    },
+    "44df46eec8053b82bdba5c39059b9b2b0d2b6f77": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_report_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:24):\\n- docs/reports/progress_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/progress_report_fa.md b/docs/reports/progress_report_fa.md\\n    new file mode 100644\\n    index 00000000..1c1e830a\\n    --- /dev/null\\n    +++ b/docs/reports/progress_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:24 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "dadc6c0893cea0eb89aab939584f1a32cfdcd05f"
+        ]
+    },
+    "d0722841d560b66a687bbfd9b9c176dd9705ea1b": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_allocation_dashboard.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:25):\\n- docs/reports/resource_allocation_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/resource_allocation_dashboard.md b/docs/reports/resource_allocation_dashboard.md\\n    new file mode 100644\\n    index 00000000..f2bd2d73\\n    --- /dev/null\\n    +++ b/docs/reports/resource_allocation_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:26",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:25 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "44df46eec8053b82bdba5c39059b9b2b0d2b6f77"
+        ]
+    },
+    "df24abaf8cfb6f3688f840184c2d27d7fe448b84": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_allocation_dashboard_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:27):\\n- docs/reports/resource_allocation_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/resource_allocation_dashboard_fa.md b/docs/reports/resource_allocation_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..9066e1da\\n    --- /dev/null\\n    +++ b/docs/reports/resource_allocation_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:27 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d0722841d560b66a687bbfd9b9c176dd9705ea1b"
+        ]
+    },
+    "62f2781556234fcb50dd5fcb166850a4589ce214": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_utilization_report.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:29):\\n- docs/reports/resource_utilization_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/resource_utilization_report.md b/docs/reports/resource_utilization_report.md\\n    new file mode 100644\\n    index 00000000..b006dbb6\\n    --- /dev/null\\n    +++ b/docs/reports/resource_utilization_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:29 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "df24abaf8cfb6f3688f840184c2d27d7fe448b84"
+        ]
+    },
+    "d5d2254a4d183089194c19dc86506499d58a0628": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_utilization_report_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:31):\\n- docs/reports/resource_utilization_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/resource_utilization_report_fa.md b/docs/reports/resource_utilization_report_fa.md\\n    new file mode 100644\\n    index 00000000..3fa06583\\n    --- /dev/null\\n    +++ b/docs/reports/resource_utilization_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:31 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "62f2781556234fcb50dd5fcb166850a4589ce214"
+        ]
+    },
+    "05880063ba04b8430b89051fabbb5a4c1f40a631": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_management_dashboard.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:32):\\n- docs/reports/risk_management_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/risk_management_dashboard.md b/docs/reports/risk_management_dashboard.md\\n    new file mode 100644\\n    index 00000000..4a71cfc9\\n    --- /dev/null\\n    +++ b/docs/reports/risk_management_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:32 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d5d2254a4d183089194c19dc86506499d58a0628"
+        ]
+    },
+    "391bd87bcf13718cc9f0e686a6158b428c72f8a7": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_management_dashboard_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:34):\\n- docs/reports/risk_management_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/risk_management_dashboard_fa.md b/docs/reports/risk_management_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..97863272\\n    --- /dev/null\\n    +++ b/docs/reports/risk_management_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "05880063ba04b8430b89051fabbb5a4c1f40a631"
+        ]
+    },
+    "0b2a8375deab14eab9bc44f152347b702cc57927": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_report.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:36):\\n- docs/reports/risk_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/risk_report.md b/docs/reports/risk_report.md\\n    new file mode 100644\\n    index 00000000..5b60ab2d\\n    --- /dev/null\\n    +++ b/docs/reports/risk_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "391bd87bcf13718cc9f0e686a6158b428c72f8a7"
+        ]
+    },
+    "d3f754effce9a65b34a78a77e766b481b07b914f": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_report_fa.md",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:38):\\n- docs/reports/risk_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/reports/risk_report_fa.md b/docs/reports/risk_report_fa.md\\n    new file mode 100644\\n    index 00000000..6f07f0bf\\n    --- /dev/null\\n    +++ b/docs/reports/risk_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:38 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0b2a8375deab14eab9bc44f152347b702cc57927"
+        ]
+    },
+    "17c8b9f0b09f6d9a75d5f30bd2806452de2e6a7e": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250725_164053/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-25 16:41:39):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250725_164053/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250725_164053/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250725_164053/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250725_164053/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250725_164053/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:11:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:41:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d3f754effce9a65b34a78a77e766b481b07b914f"
+        ]
+    },
+    "308a32ec3d24eb82b2a5ea4c751d8691967d3f7d": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/HELP_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:33):\\n- docs/documentation/HELP_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/HELP_en.md b/docs/documentation/HELP_en.md\\n    deleted file mode 100644\\n    index 17aac986..00000000\\n    --- a/docs/documentation/HELP_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:33",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:33 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "17c8b9f0b09f6d9a75d5f30bd2806452de2e6a7e"
+        ]
+    },
+    "9a6f70994dc5c7584fd02550e1f6296cb0a77417": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/HELP_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:36):\\n- docs/documentation/HELP_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/HELP_fa.md b/docs/documentation/HELP_fa.md\\n    deleted file mode 100644\\n    index d095e601..00000000\\n    --- a/docs/documentation/HELP_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "308a32ec3d24eb82b2a5ea4c751d8691967d3f7d"
+        ]
+    },
+    "f6cd175e6b80a6161f903fbe920908f2fb89c5ab": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/detailed_implementation_plan_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:37):\\n- docs/documentation/detailed_implementation_plan_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/detailed_implementation_plan_en.md b/docs/documentation/detailed_implementation_plan_en.md\\n    deleted file mode 100644\\n    index a02f3d7b..00000000\\n    --- a/docs/documentation/detailed_implementation_plan_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:38 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9a6f70994dc5c7584fd02550e1f6296cb0a77417"
+        ]
+    },
+    "6f4623a80f0100bb57871d6a18814fb5cad5f465": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/detailed_implementation_plan_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:39):\\n- docs/documentation/detailed_implementation_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/detailed_implementation_plan_fa.md b/docs/documentation/detailed_implementation_plan_fa.md\\n    deleted file mode 100644\\n    index c2b5fbd4..00000000\\n    --- a/docs/documentation/detailed_implementation_plan_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f6cd175e6b80a6161f903fbe920908f2fb89c5ab"
+        ]
+    },
+    "66a363ba2a4301a90f31dc730f3aa9c50ab2257e": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/final_product_description_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:41):\\n- docs/documentation/final_product_description_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/final_product_description_en.md b/docs/documentation/final_product_description_en.md\\n    deleted file mode 100644\\n    index be1be613..00000000\\n    --- a/docs/documentation/final_product_description_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:41 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "6f4623a80f0100bb57871d6a18814fb5cad5f465"
+        ]
+    },
+    "1a2c4056e3f99d48f2418ed94731a58f7942c11b": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/final_product_description_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:42):\\n- docs/documentation/final_product_description_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/final_product_description_fa.md b/docs/documentation/final_product_description_fa.md\\n    deleted file mode 100644\\n    index cb571443..00000000\\n    --- a/docs/documentation/final_product_description_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "66a363ba2a4301a90f31dc730f3aa9c50ab2257e"
+        ]
+    },
+    "067ed8892be7897685393d60fdce4215bf337918": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/implementation_plan_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:44):\\n- docs/documentation/implementation_plan_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/implementation_plan_en.md b/docs/documentation/implementation_plan_en.md\\n    deleted file mode 100644\\n    index 1e37fd9a..00000000\\n    --- a/docs/documentation/implementation_plan_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1a2c4056e3f99d48f2418ed94731a58f7942c11b"
+        ]
+    },
+    "9b5ecd13631b9739b556a2a9d2ce49f9a6f8901b": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/implementation_plan_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:45):\\n- docs/documentation/implementation_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/implementation_plan_fa.md b/docs/documentation/implementation_plan_fa.md\\n    deleted file mode 100644\\n    index 56a645b7..00000000\\n    --- a/docs/documentation/implementation_plan_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:45 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "067ed8892be7897685393d60fdce4215bf337918"
+        ]
+    },
+    "c52c9f417732c0f212371d38fe7d0d2de10a8ef9": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/project_features_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:47):\\n- docs/documentation/project_features_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/project_features_en.md b/docs/documentation/project_features_en.md\\n    deleted file mode 100644\\n    index 6a7d4f06..00000000\\n    --- a/docs/documentation/project_features_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:47",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9b5ecd13631b9739b556a2a9d2ce49f9a6f8901b"
+        ]
+    },
+    "e90b8de133ccd9304c19e066f9409d87dba41c28": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/project_features_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:48):\\n- docs/documentation/project_features_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/project_features_fa.md b/docs/documentation/project_features_fa.md\\n    deleted file mode 100644\\n    index ea2261e3..00000000\\n    --- a/docs/documentation/project_features_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:48",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:48 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c52c9f417732c0f212371d38fe7d0d2de10a8ef9"
+        ]
+    },
+    "cf464c43308956fd4800c3b012333721ee67d698": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/project_management_package_overview_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:50):\\n- docs/documentation/project_management_package_overview_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/project_management_package_overview_en.md b/docs/documentation/project_management_package_overview_en.md\\n    deleted file mode 100644\\n    index 567e5c6f..00000000\\n    --- a/docs/documentation/project_management_package_overview_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:50",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:50 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e90b8de133ccd9304c19e066f9409d87dba41c28"
+        ]
+    },
+    "083e0536ade09db73ec6b4838d81d5a209e272c8": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/project_management_package_overview_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:52):\\n- docs/documentation/project_management_package_overview_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/project_management_package_overview_fa.md b/docs/documentation/project_management_package_overview_fa.md\\n    deleted file mode 100644\\n    index e2330383..00000000\\n    --- a/docs/documentation/project_management_package_overview_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:52",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:52 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "cf464c43308956fd4800c3b012333721ee67d698"
+        ]
+    },
+    "63fe58122ac3569674921ce026b2dcc40e688250": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/test_checklist_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:53):\\n- docs/documentation/test_checklist_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/test_checklist_en.md b/docs/documentation/test_checklist_en.md\\n    deleted file mode 100644\\n    index 0967a253..00000000\\n    --- a/docs/documentation/test_checklist_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:53 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "083e0536ade09db73ec6b4838d81d5a209e272c8"
+        ]
+    },
+    "acba42dfef2958af40a02a001b6cefc112b994cf": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/test_checklist_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:55):\\n- docs/documentation/test_checklist_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/test_checklist_fa.md b/docs/documentation/test_checklist_fa.md\\n    deleted file mode 100644\\n    index c25a06fb..00000000\\n    --- a/docs/documentation/test_checklist_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:55 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "63fe58122ac3569674921ce026b2dcc40e688250"
+        ]
+    },
+    "b0d7b1fad38b230b45794aa8bcd51e29f536199e": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/testing_instructions_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:56):\\n- docs/documentation/testing_instructions_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/testing_instructions_en.md b/docs/documentation/testing_instructions_en.md\\n    deleted file mode 100644\\n    index 17bdf419..00000000\\n    --- a/docs/documentation/testing_instructions_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:57 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "acba42dfef2958af40a02a001b6cefc112b994cf"
+        ]
+    },
+    "1ade8577a23a397aace9789b9b5a0c009ab62f37": {
+        "task_id": "docs",
+        "file_path": "docs/documentation/testing_instructions_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:45:58):\\n- docs/documentation/testing_instructions_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/documentation/testing_instructions_fa.md b/docs/documentation/testing_instructions_fa.md\\n    deleted file mode 100644\\n    index d2c89962..00000000\\n    --- a/docs/documentation/testing_instructions_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:15:58",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:45:58 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b0d7b1fad38b230b45794aa8bcd51e29f536199e"
+        ]
+    },
+    "9337df41f16c6626b32010d450387cb604a4b6c4": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions/general_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:00):\\n- docs/general_instructions/general_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions/general_instructions.md b/docs/general_instructions/general_instructions.md\\n    deleted file mode 100644\\n    index b637e1bc..00000000\\n    --- a/docs/general_instructions/general_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:00",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:00 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1ade8577a23a397aace9789b9b5a0c009ab62f37"
+        ]
+    },
+    "3d098047a7fab57ad53b1f1e0d6f7113644ea21a": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions/general_instructions_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:01):\\n- docs/general_instructions/general_instructions_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions/general_instructions_fa.md b/docs/general_instructions/general_instructions_fa.md\\n    deleted file mode 100644\\n    index 99aa96bc..00000000\\n    --- a/docs/general_instructions/general_instructions_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:02",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:02 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9337df41f16c6626b32010d450387cb604a4b6c4"
+        ]
+    },
+    "923e4ce96c2bd9b90518c71d17b758298d2730f3": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions/general_instructions_stepwise.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:03):\\n- docs/general_instructions/general_instructions_stepwise.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions/general_instructions_stepwise.md b/docs/general_instructions/general_instructions_stepwise.md\\n    deleted file mode 100644\\n    index 1b1bc225..00000000\\n    --- a/docs/general_instructions/general_instructions_stepwise.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3d098047a7fab57ad53b1f1e0d6f7113644ea21a"
+        ]
+    },
+    "f98e8102806cf984d6c9b3297b7022352b2c9140": {
+        "task_id": "docs",
+        "file_path": "docs/general_instructions/general_instructions_stepwise_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:05):\\n- docs/general_instructions/general_instructions_stepwise_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/general_instructions/general_instructions_stepwise_fa.md b/docs/general_instructions/general_instructions_stepwise_fa.md\\n    deleted file mode 100644\\n    index 56d51c8f..00000000\\n    --- a/docs/general_instructions/general_instructions_stepwise_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "923e4ce96c2bd9b90518c71d17b758298d2730f3"
+        ]
+    },
+    "2025bd6a19139f93b0f44c842439cacc8e802472": {
+        "task_id": "docs",
+        "file_path": "docs/json_standards/auto_commit_process.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:06):\\n- docs/json_standards/auto_commit_process.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_standards/auto_commit_process.md b/docs/json_standards/auto_commit_process.md\\n    deleted file mode 100644\\n    index 091aa843..00000000\\n    --- a/docs/json_standards/auto_commit_process.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:06 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f98e8102806cf984d6c9b3297b7022352b2c9140"
+        ]
+    },
+    "cdb4cdebb05a0c58692763c5c6fc8958cedd338a": {
+        "task_id": "docs",
+        "file_path": "docs/json_standards/commit_task_database.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:08):\\n- docs/json_standards/commit_task_database.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_standards/commit_task_database.md b/docs/json_standards/commit_task_database.md\\n    deleted file mode 100644\\n    index 3519ac74..00000000\\n    --- a/docs/json_standards/commit_task_database.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2025bd6a19139f93b0f44c842439cacc8e802472"
+        ]
+    },
+    "12bb0a78d660e25a92f094ea22eb74e6674546bb": {
+        "task_id": "docs",
+        "file_path": "docs/json_standards/json_files_overview.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:09):\\n- docs/json_standards/json_files_overview.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_standards/json_files_overview.md b/docs/json_standards/json_files_overview.md\\n    deleted file mode 100644\\n    index 39a08446..00000000\\n    --- a/docs/json_standards/json_files_overview.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:10",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:09 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "cdb4cdebb05a0c58692763c5c6fc8958cedd338a"
+        ]
+    },
+    "3e37c31af59035436596083c314dabd3eed5b7ef": {
+        "task_id": "docs",
+        "file_path": "docs/json_standards/json_input_files_usage.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:11):\\n- docs/json_standards/json_input_files_usage.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_standards/json_input_files_usage.md b/docs/json_standards/json_input_files_usage.md\\n    deleted file mode 100644\\n    index 21e791ca..00000000\\n    --- a/docs/json_standards/json_input_files_usage.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:11",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:11 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "12bb0a78d660e25a92f094ea22eb74e6674546bb"
+        ]
+    },
+    "ca3650f1e6ab771e41d56b67492b2b046a20ec28": {
+        "task_id": "docs",
+        "file_path": "docs/json_standards/json_workflow_detailed.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:15):\\n- docs/json_standards/json_workflow_detailed.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_standards/json_workflow_detailed.md b/docs/json_standards/json_workflow_detailed.md\\n    deleted file mode 100644\\n    index e0f6f0aa..00000000\\n    --- a/docs/json_standards/json_workflow_detailed.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:15 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3e37c31af59035436596083c314dabd3eed5b7ef"
+        ]
+    },
+    "ac0aceacc3dc79d103ce955e79b9831adafc2b0b": {
+        "task_id": "docs",
+        "file_path": "docs/json_standards/workflow_definition_detailed.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:16):\\n- docs/json_standards/workflow_definition_detailed.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/json_standards/workflow_definition_detailed.md b/docs/json_standards/workflow_definition_detailed.md\\n    deleted file mode 100644\\n    index d7a97d2c..00000000\\n    --- a/docs/json_standards/workflow_definition_detailed.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ca3650f1e6ab771e41d56b67492b2b046a20ec28"
+        ]
+    },
+    "fa55843fed39f8afd7e2a326841a4939d0e2e764": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/dashboard_and_reports_plan.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:18):\\n- docs/project_management/dashboard_and_reports_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/dashboard_and_reports_plan.md b/docs/project_management/dashboard_and_reports_plan.md\\n    deleted file mode 100644\\n    index 04266943..00000000\\n    --- a/docs/project_management/dashboard_and_reports_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:18 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ac0aceacc3dc79d103ce955e79b9831adafc2b0b"
+        ]
+    },
+    "eddc2f27e222e1b46eaa2e5f2ba51fd06a3edced": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/detailed_implementation_plan.txt",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:20):\\n- docs/project_management/detailed_implementation_plan.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/detailed_implementation_plan.txt b/docs/project_management/detailed_implementation_plan.txt\\n    deleted file mode 100644\\n    index 037abfae..00000000\\n    --- a/docs/project_management/detailed_implementation_plan.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:20",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:20 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fa55843fed39f8afd7e2a326841a4939d0e2e764"
+        ]
+    },
+    "c86f6a1b7204d9d7ea5127534919d5db3f6030dd": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/detailed_wbs.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:21):\\n- docs/project_management/detailed_wbs.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/detailed_wbs.md b/docs/project_management/detailed_wbs.md\\n    deleted file mode 100644\\n    index 607ae7cb..00000000\\n    --- a/docs/project_management/detailed_wbs.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:21",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "eddc2f27e222e1b46eaa2e5f2ba51fd06a3edced"
+        ]
+    },
+    "daf7e5919eae9323dc45e857f64758e2538a3bc6": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/importance_urgency_priority_instructions.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:23):\\n- docs/project_management/importance_urgency_priority_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/importance_urgency_priority_instructions.md b/docs/project_management/importance_urgency_priority_instructions.md\\n    deleted file mode 100644\\n    index 5d25152f..00000000\\n    --- a/docs/project_management/importance_urgency_priority_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:23 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c86f6a1b7204d9d7ea5127534919d5db3f6030dd"
+        ]
+    },
+    "de47b8acc60b5dc59e48376bf9995b0d7e468f70": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/package_process_documentation.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:24):\\n- docs/project_management/package_process_documentation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/package_process_documentation.md b/docs/project_management/package_process_documentation.md\\n    deleted file mode 100644\\n    index c256c1b7..00000000\\n    --- a/docs/project_management/package_process_documentation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:24 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "daf7e5919eae9323dc45e857f64758e2538a3bc6"
+        ]
+    },
+    "fb9a9d61c530306b74941911e42a2afb571eaaaf": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/project_management_package_scenario.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:26):\\n- docs/project_management/project_management_package_scenario.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/project_management_package_scenario.md b/docs/project_management/project_management_package_scenario.md\\n    deleted file mode 100644\\n    index c6e54823..00000000\\n    --- a/docs/project_management/project_management_package_scenario.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:26",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:26 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "de47b8acc60b5dc59e48376bf9995b0d7e468f70"
+        ]
+    },
+    "7d6aa55710e4a5ae9ac20353efc3c8ba1016e0ba": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/task_resource_allocation.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:28):\\n- docs/project_management/task_resource_allocation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/task_resource_allocation.md b/docs/project_management/task_resource_allocation.md\\n    deleted file mode 100644\\n    index 8e43f0c4..00000000\\n    --- a/docs/project_management/task_resource_allocation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:28",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:28 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fb9a9d61c530306b74941911e42a2afb571eaaaf"
+        ]
+    },
+    "e3d927cb197a90b09e480d9e26aa1e6495b5a4ca": {
+        "task_id": "docs",
+        "file_path": "docs/project_management/workflow_definition.txt",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:29):\\n- docs/project_management/workflow_definition.txt: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/project_management/workflow_definition.txt b/docs/project_management/workflow_definition.txt\\n    deleted file mode 100644\\n    index 226f1d26..00000000\\n    --- a/docs/project_management/workflow_definition.txt\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:29 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7d6aa55710e4a5ae9ac20353efc3c8ba1016e0ba"
+        ]
+    },
+    "9b1ada7673fb35a2de2f39a65c185f12e6e358cf": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_management_dashboard.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:31):\\n- docs/reports/cost_management_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/cost_management_dashboard.md b/docs/reports/cost_management_dashboard.md\\n    deleted file mode 100644\\n    index c55e1796..00000000\\n    --- a/docs/reports/cost_management_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:31 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e3d927cb197a90b09e480d9e26aa1e6495b5a4ca"
+        ]
+    },
+    "2520ba2386768f93b6ebd6836aa01d373043780e": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_management_dashboard_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:33):\\n- docs/reports/cost_management_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/cost_management_dashboard_fa.md b/docs/reports/cost_management_dashboard_fa.md\\n    deleted file mode 100644\\n    index a3abc27c..00000000\\n    --- a/docs/reports/cost_management_dashboard_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:33",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:33 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9b1ada7673fb35a2de2f39a65c185f12e6e358cf"
+        ]
+    },
+    "f44d41db2a197c291d5bbf524847318418bc78b8": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:34):\\n- docs/reports/cost_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/cost_report.md b/docs/reports/cost_report.md\\n    deleted file mode 100644\\n    index 66da54ac..00000000\\n    --- a/docs/reports/cost_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2520ba2386768f93b6ebd6836aa01d373043780e"
+        ]
+    },
+    "0f12639c19afec8b04421a729e83fbf89f09dcbf": {
+        "task_id": "docs",
+        "file_path": "docs/reports/cost_report_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:36):\\n- docs/reports/cost_report_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/cost_report_fa.md b/docs/reports/cost_report_fa.md\\n    deleted file mode 100644\\n    index ac1ba206..00000000\\n    --- a/docs/reports/cost_report_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f44d41db2a197c291d5bbf524847318418bc78b8"
+        ]
+    },
+    "c953ce247508dc48f953b25095f5c383c22ce6bb": {
+        "task_id": "docs",
+        "file_path": "docs/reports/dashboard_and_reports_plan_en.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 16:46:37):\\n- docs/reports/dashboard_and_reports_plan_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/dashboard_and_reports_plan_en.md b/docs/reports/dashboard_and_reports_plan_en.md\\n    deleted file mode 100644\\n    index 0a517247..00000000\\n    --- a/docs/reports/dashboard_and_reports_plan_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 13:16:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 16:46:37 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0f12639c19afec8b04421a729e83fbf89f09dcbf"
+        ]
+    },
+    "c14a175a3f7f947e1db7a38bd9ab0461c95d122e": {
+        "task_id": "docs",
+        "file_path": "docs/reports/dashboard_and_reports_plan_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:13):\\n- docs/reports/dashboard_and_reports_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/dashboard_and_reports_plan_fa.md b/docs/reports/dashboard_and_reports_plan_fa.md\\n    deleted file mode 100644\\n    index 67482d16..00000000\\n    --- a/docs/reports/dashboard_and_reports_plan_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:13",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:13 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c953ce247508dc48f953b25095f5c383c22ce6bb"
+        ]
+    },
+    "15f74e8d5923bbcb12462097b602166d6a625387": {
+        "task_id": "docs",
+        "file_path": "docs/reports/github_synchronization_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:14):\\n- docs/reports/github_synchronization_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/github_synchronization_report.md b/docs/reports/github_synchronization_report.md\\n    deleted file mode 100644\\n    index 205bd460..00000000\\n    --- a/docs/reports/github_synchronization_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:15 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c14a175a3f7f947e1db7a38bd9ab0461c95d122e"
+        ]
+    },
+    "2e42d59f6e603581458676f5a952fe43b6b86af2": {
+        "task_id": "docs",
+        "file_path": "docs/reports/github_synchronization_report_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:16):\\n- docs/reports/github_synchronization_report_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/github_synchronization_report_fa.md b/docs/reports/github_synchronization_report_fa.md\\n    deleted file mode 100644\\n    index b56a632d..00000000\\n    --- a/docs/reports/github_synchronization_report_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "15f74e8d5923bbcb12462097b602166d6a625387"
+        ]
+    },
+    "3cfe769ad3ec01f605176823452ab03149f185eb": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_dashboard.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:18):\\n- docs/reports/importance_urgency_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_dashboard.md b/docs/reports/importance_urgency_dashboard.md\\n    deleted file mode 100644\\n    index a86e7877..00000000\\n    --- a/docs/reports/importance_urgency_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:18 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2e42d59f6e603581458676f5a952fe43b6b86af2"
+        ]
+    },
+    "09f2b51f4958503e37d38f508105decb94420f0e": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_dashboard_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:19):\\n- docs/reports/importance_urgency_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_dashboard_fa.md b/docs/reports/importance_urgency_dashboard_fa.md\\n    deleted file mode 100644\\n    index fef7c6b5..00000000\\n    --- a/docs/reports/importance_urgency_dashboard_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3cfe769ad3ec01f605176823452ab03149f185eb"
+        ]
+    },
+    "637d05f5b47c0bcefce4acc0a79ad1721d57ba88": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:21):\\n- docs/reports/importance_urgency_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_report.md b/docs/reports/importance_urgency_report.md\\n    deleted file mode 100644\\n    index 62dcc195..00000000\\n    --- a/docs/reports/importance_urgency_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:21",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "09f2b51f4958503e37d38f508105decb94420f0e"
+        ]
+    },
+    "1ff9b158fe770e349682dc52aed076ad365c4563": {
+        "task_id": "docs",
+        "file_path": "docs/reports/importance_urgency_report_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:22):\\n- docs/reports/importance_urgency_report_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/importance_urgency_report_fa.md b/docs/reports/importance_urgency_report_fa.md\\n    deleted file mode 100644\\n    index 2fc4c877..00000000\\n    --- a/docs/reports/importance_urgency_report_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:22 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "637d05f5b47c0bcefce4acc0a79ad1721d57ba88"
+        ]
+    },
+    "0429a03a8edde4d4ea6e9c6b65e409a416724543": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_dashboard.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:24):\\n- docs/reports/progress_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/progress_dashboard.md b/docs/reports/progress_dashboard.md\\n    deleted file mode 100644\\n    index 370fa56c..00000000\\n    --- a/docs/reports/progress_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:24 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1ff9b158fe770e349682dc52aed076ad365c4563"
+        ]
+    },
+    "72fe6fc867f663947764a955cd74c4cd3e079479": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_dashboard_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:26):\\n- docs/reports/progress_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/progress_dashboard_fa.md b/docs/reports/progress_dashboard_fa.md\\n    deleted file mode 100644\\n    index b6b63f64..00000000\\n    --- a/docs/reports/progress_dashboard_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:26",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:26 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0429a03a8edde4d4ea6e9c6b65e409a416724543"
+        ]
+    },
+    "af2f19fef1c1b25032cf589ecb201978495fedab": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:27):\\n- docs/reports/progress_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/progress_report.md b/docs/reports/progress_report.md\\n    deleted file mode 100644\\n    index 7afee667..00000000\\n    --- a/docs/reports/progress_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:27 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "72fe6fc867f663947764a955cd74c4cd3e079479"
+        ]
+    },
+    "b0f754ece57765a5822838c975cff47de72cfe4e": {
+        "task_id": "docs",
+        "file_path": "docs/reports/progress_report_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:29):\\n- docs/reports/progress_report_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/progress_report_fa.md b/docs/reports/progress_report_fa.md\\n    deleted file mode 100644\\n    index 1c1e830a..00000000\\n    --- a/docs/reports/progress_report_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:29 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "af2f19fef1c1b25032cf589ecb201978495fedab"
+        ]
+    },
+    "cb89d473573236151691353743b8732765099bbc": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_allocation_dashboard.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:31):\\n- docs/reports/resource_allocation_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/resource_allocation_dashboard.md b/docs/reports/resource_allocation_dashboard.md\\n    deleted file mode 100644\\n    index f2bd2d73..00000000\\n    --- a/docs/reports/resource_allocation_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:31 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b0f754ece57765a5822838c975cff47de72cfe4e"
+        ]
+    },
+    "14e5f2deca27d3509bbd88db059db28de6d0cce3": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_allocation_dashboard_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:32):\\n- docs/reports/resource_allocation_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/resource_allocation_dashboard_fa.md b/docs/reports/resource_allocation_dashboard_fa.md\\n    deleted file mode 100644\\n    index 9066e1da..00000000\\n    --- a/docs/reports/resource_allocation_dashboard_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:32 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "cb89d473573236151691353743b8732765099bbc"
+        ]
+    },
+    "2e051470df2b78eb31f7af7a748ebd3d3a63f8e0": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_utilization_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:34):\\n- docs/reports/resource_utilization_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/resource_utilization_report.md b/docs/reports/resource_utilization_report.md\\n    deleted file mode 100644\\n    index b006dbb6..00000000\\n    --- a/docs/reports/resource_utilization_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "14e5f2deca27d3509bbd88db059db28de6d0cce3"
+        ]
+    },
+    "66a14dcb278faed7b6747b2e2152a640012d6886": {
+        "task_id": "docs",
+        "file_path": "docs/reports/resource_utilization_report_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:36):\\n- docs/reports/resource_utilization_report_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/resource_utilization_report_fa.md b/docs/reports/resource_utilization_report_fa.md\\n    deleted file mode 100644\\n    index 3fa06583..00000000\\n    --- a/docs/reports/resource_utilization_report_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2e051470df2b78eb31f7af7a748ebd3d3a63f8e0"
+        ]
+    },
+    "f13d338895f2b892a693a8a708d0d54eb170fd76": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_management_dashboard.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:37):\\n- docs/reports/risk_management_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/risk_management_dashboard.md b/docs/reports/risk_management_dashboard.md\\n    deleted file mode 100644\\n    index 4a71cfc9..00000000\\n    --- a/docs/reports/risk_management_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:37 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "66a14dcb278faed7b6747b2e2152a640012d6886"
+        ]
+    },
+    "8e8123e64818c8cd2a4ffd72e9d4c1f1172c220b": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_management_dashboard_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:39):\\n- docs/reports/risk_management_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/risk_management_dashboard_fa.md b/docs/reports/risk_management_dashboard_fa.md\\n    deleted file mode 100644\\n    index 97863272..00000000\\n    --- a/docs/reports/risk_management_dashboard_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f13d338895f2b892a693a8a708d0d54eb170fd76"
+        ]
+    },
+    "feb713e3c78cd3361facae8f352964bf6c294ba2": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_report.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:41):\\n- docs/reports/risk_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/risk_report.md b/docs/reports/risk_report.md\\n    deleted file mode 100644\\n    index 5b60ab2d..00000000\\n    --- a/docs/reports/risk_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:41 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "8e8123e64818c8cd2a4ffd72e9d4c1f1172c220b"
+        ]
+    },
+    "b6c802f570b4e1e12ff3de9a2f74a401f7511919": {
+        "task_id": "docs",
+        "file_path": "docs/reports/risk_report_fa.md",
+        "commit_message": "🗑️ remove(docs): Deleted files updated\\n\\nChanges included (as of 2025-07-25 18:04:42):\\n- docs/reports/risk_report_fa.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/docs/reports/risk_report_fa.md b/docs/reports/risk_report_fa.md\\n    deleted file mode 100644\\n    index 6f07f0bf..00000000\\n    --- a/docs/reports/risk_report_fa.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "feb713e3c78cd3361facae8f352964bf6c294ba2"
+        ]
+    },
+    "71e6a29d228b3cceff8936ad178268b9bb69e38a": {
+        "task_id": "docs",
+        "file_path": "docs/SystemDesign/",
+        "commit_message": "📝 docs(docs): Untracked files updated\\n\\nChanges included (as of 2025-07-25 18:04:44):\\n- docs/SystemDesign/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/docs/SystemDesign/documentation/HELP_en.md b/docs/SystemDesign/documentation/HELP_en.md\\n    new file mode 100644\\n    index 00000000..17aac986\\n    --- /dev/null\\n    +++ b/docs/SystemDesign/documentation/HELP_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 14:34:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Fri Jul 25 18:04:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b6c802f570b4e1e12ff3de9a2f74a401f7511919"
+        ]
     }
 }
