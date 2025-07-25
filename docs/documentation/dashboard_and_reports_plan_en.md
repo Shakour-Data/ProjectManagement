@@ -1,6 +1,6 @@
 # Dashboard and Reports Plan for Project Management Tool
 
-_Last updated: 2024-06-10_
+_Last updated: 2025-07-25_
 
 ## Overview
 This document outlines the key dashboards and reports that should be developed for the project management tool. It also includes the plan to implement the code for generating these dashboards and reports, and the integration of related tasks into the main project workflow.
