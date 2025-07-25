@@ -9772,5 +9772,1926 @@
         "parent_commits": [
             "b6c802f570b4e1e12ff3de9a2f74a401f7511919"
         ]
+    },
+    "20a1512e552aeae038dbd60d940f5e8a58dbe2f1": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/HELP_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:41):\\n- Docs/SystemDesign/documentation/HELP_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/HELP_en.html b/Docs/SystemDesign/documentation/HELP_en.html\\n    deleted file mode 100644\\n    index a172e87d..00000000\\n    --- a/Docs/SystemDesign/documentation/HELP_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:41 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "df29c4de1c5e643829c83f275500b8843f079a6c"
+        ]
+    },
+    "47f342168a8e50af1f83760192209ac713288689": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/HELP_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:43):\\n- Docs/SystemDesign/documentation/HELP_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/HELP_fa.html b/Docs/SystemDesign/documentation/HELP_fa.html\\n    deleted file mode 100644\\n    index 7768eb0f..00000000\\n    --- a/Docs/SystemDesign/documentation/HELP_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:43",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:43 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "20a1512e552aeae038dbd60d940f5e8a58dbe2f1"
+        ]
+    },
+    "d1fa2b8688bcf274460906147ab9c8159fadd571": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/detailed_implementation_plan_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:45):\\n- Docs/SystemDesign/documentation/detailed_implementation_plan_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/detailed_implementation_plan_en.html b/Docs/SystemDesign/documentation/detailed_implementation_plan_en.html\\n    deleted file mode 100644\\n    index a5402192..00000000\\n    --- a/Docs/SystemDesign/documentation/detailed_implementation_plan_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:45 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "47f342168a8e50af1f83760192209ac713288689"
+        ]
+    },
+    "c8e4641067de04b4f5285eb1a6f1aaf756de258d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/detailed_implementation_plan_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:47):\\n- Docs/SystemDesign/documentation/detailed_implementation_plan_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/detailed_implementation_plan_fa.html b/Docs/SystemDesign/documentation/detailed_implementation_plan_fa.html\\n    deleted file mode 100644\\n    index 5d7def6e..00000000\\n    --- a/Docs/SystemDesign/documentation/detailed_implementation_plan_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:47",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d1fa2b8688bcf274460906147ab9c8159fadd571"
+        ]
+    },
+    "cd0c8affb63cc3bccdb990f59515f1fde2709960": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/final_product_description_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:49):\\n- Docs/SystemDesign/documentation/final_product_description_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/final_product_description_en.html b/Docs/SystemDesign/documentation/final_product_description_en.html\\n    deleted file mode 100644\\n    index d7785fde..00000000\\n    --- a/Docs/SystemDesign/documentation/final_product_description_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:49",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:49 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c8e4641067de04b4f5285eb1a6f1aaf756de258d"
+        ]
+    },
+    "e815a710ec64e77fed6cce6006b22b7c09a8bf74": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/final_product_description_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:51):\\n- Docs/SystemDesign/documentation/final_product_description_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/final_product_description_fa.html b/Docs/SystemDesign/documentation/final_product_description_fa.html\\n    deleted file mode 100644\\n    index c3d16ca8..00000000\\n    --- a/Docs/SystemDesign/documentation/final_product_description_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:51",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:51 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "cd0c8affb63cc3bccdb990f59515f1fde2709960"
+        ]
+    },
+    "fecc9c2c57af4ef6b4516e469ce7bc0b2f67898c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/implementation_plan_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:53):\\n- Docs/SystemDesign/documentation/implementation_plan_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/implementation_plan_en.html b/Docs/SystemDesign/documentation/implementation_plan_en.html\\n    deleted file mode 100644\\n    index 9777c130..00000000\\n    --- a/Docs/SystemDesign/documentation/implementation_plan_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:53 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e815a710ec64e77fed6cce6006b22b7c09a8bf74"
+        ]
+    },
+    "ee5595c279f2a8d10750794a339c84a1f0cbaa78": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/implementation_plan_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:55):\\n- Docs/SystemDesign/documentation/implementation_plan_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/implementation_plan_fa.html b/Docs/SystemDesign/documentation/implementation_plan_fa.html\\n    deleted file mode 100644\\n    index 12cd52ba..00000000\\n    --- a/Docs/SystemDesign/documentation/implementation_plan_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:55 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fecc9c2c57af4ef6b4516e469ce7bc0b2f67898c"
+        ]
+    },
+    "a8bd192dfec51ea6a6de0599a2d0e9db37d90ff5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_features_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:57):\\n- Docs/SystemDesign/documentation/project_features_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_features_en.html b/Docs/SystemDesign/documentation/project_features_en.html\\n    deleted file mode 100644\\n    index 58d22e58..00000000\\n    --- a/Docs/SystemDesign/documentation/project_features_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:57 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ee5595c279f2a8d10750794a339c84a1f0cbaa78"
+        ]
+    },
+    "d5e7b5cd6d0b81758331f9c8b8d4d7dd36d09449": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_features_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:19:59):\\n- Docs/SystemDesign/documentation/project_features_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_features_fa.html b/Docs/SystemDesign/documentation/project_features_fa.html\\n    deleted file mode 100644\\n    index 009b93c7..00000000\\n    --- a/Docs/SystemDesign/documentation/project_features_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:49:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:19:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a8bd192dfec51ea6a6de0599a2d0e9db37d90ff5"
+        ]
+    },
+    "65de42c559387f2f6ad3fbc4d947d4edf9c5a188": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_management_package_overview_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:01):\\n- Docs/SystemDesign/documentation/project_management_package_overview_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_management_package_overview_en.html b/Docs/SystemDesign/documentation/project_management_package_overview_en.html\\n    deleted file mode 100644\\n    index fe1655a1..00000000\\n    --- a/Docs/SystemDesign/documentation/project_management_package_overview_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:01 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d5e7b5cd6d0b81758331f9c8b8d4d7dd36d09449"
+        ]
+    },
+    "3fc61f102cbfd8cd202a13a13f1314443f083f74": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_management_package_overview_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:02):\\n- Docs/SystemDesign/documentation/project_management_package_overview_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_management_package_overview_fa.html b/Docs/SystemDesign/documentation/project_management_package_overview_fa.html\\n    deleted file mode 100644\\n    index a5ff18ca..00000000\\n    --- a/Docs/SystemDesign/documentation/project_management_package_overview_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "65de42c559387f2f6ad3fbc4d947d4edf9c5a188"
+        ]
+    },
+    "860605a0af75f5537533bd660ff79296f8eb3ee2": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/test_checklist_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:05):\\n- Docs/SystemDesign/documentation/test_checklist_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/test_checklist_en.html b/Docs/SystemDesign/documentation/test_checklist_en.html\\n    deleted file mode 100644\\n    index fe88fb89..00000000\\n    --- a/Docs/SystemDesign/documentation/test_checklist_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3fc61f102cbfd8cd202a13a13f1314443f083f74"
+        ]
+    },
+    "c1fbdfd2beefb37e8eede594b86b6c455e2c3061": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/test_checklist_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:06):\\n- Docs/SystemDesign/documentation/test_checklist_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/test_checklist_fa.html b/Docs/SystemDesign/documentation/test_checklist_fa.html\\n    deleted file mode 100644\\n    index 82a7f83b..00000000\\n    --- a/Docs/SystemDesign/documentation/test_checklist_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:06 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "860605a0af75f5537533bd660ff79296f8eb3ee2"
+        ]
+    },
+    "8434d4324f6b022dac551f9d5f33a34fef64e48d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/testing_instructions_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:08):\\n- Docs/SystemDesign/documentation/testing_instructions_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/testing_instructions_en.html b/Docs/SystemDesign/documentation/testing_instructions_en.html\\n    deleted file mode 100644\\n    index f3938cb7..00000000\\n    --- a/Docs/SystemDesign/documentation/testing_instructions_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c1fbdfd2beefb37e8eede594b86b6c455e2c3061"
+        ]
+    },
+    "dea75f60bb9eb24c9ed2224332a7a03274e68ee8": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/testing_instructions_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:10):\\n- Docs/SystemDesign/documentation/testing_instructions_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/testing_instructions_fa.html b/Docs/SystemDesign/documentation/testing_instructions_fa.html\\n    deleted file mode 100644\\n    index b9714c5c..00000000\\n    --- a/Docs/SystemDesign/documentation/testing_instructions_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:10",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:10 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "8434d4324f6b022dac551f9d5f33a34fef64e48d"
+        ]
+    },
+    "98c1e41ce134f8edff1e91a60953c52def1bf8ba": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:12):\\n- Docs/SystemDesign/general_instructions/general_instructions.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions.html b/Docs/SystemDesign/general_instructions/general_instructions.html\\n    deleted file mode 100644\\n    index cd353674..00000000\\n    --- a/Docs/SystemDesign/general_instructions/general_instructions.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:12 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "dea75f60bb9eb24c9ed2224332a7a03274e68ee8"
+        ]
+    },
+    "5747fd23ddc0c72fd32b5588ba5f8621b4875189": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:14):\\n- Docs/SystemDesign/general_instructions/general_instructions_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_fa.html b/Docs/SystemDesign/general_instructions/general_instructions_fa.html\\n    deleted file mode 100644\\n    index 8b1875f9..00000000\\n    --- a/Docs/SystemDesign/general_instructions/general_instructions_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:14 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "98c1e41ce134f8edff1e91a60953c52def1bf8ba"
+        ]
+    },
+    "338d3bca73ee1ed0567c18ffd44accd232143491": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_stepwise.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:16):\\n- Docs/SystemDesign/general_instructions/general_instructions_stepwise.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_stepwise.html b/Docs/SystemDesign/general_instructions/general_instructions_stepwise.html\\n    deleted file mode 100644\\n    index 3f4ac3bb..00000000\\n    --- a/Docs/SystemDesign/general_instructions/general_instructions_stepwise.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5747fd23ddc0c72fd32b5588ba5f8621b4875189"
+        ]
+    },
+    "b337dd95de13e7239f9e7f3314d49e2617ee2fe3": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:17):\\n- Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.html b/Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.html\\n    deleted file mode 100644\\n    index 66efde78..00000000\\n    --- a/Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:18 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "338d3bca73ee1ed0567c18ffd44accd232143491"
+        ]
+    },
+    "41e074b021f355f04d1eccab82ad85be78a69bc9": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/auto_commit_process.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:19):\\n- Docs/SystemDesign/json_standards/auto_commit_process.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/auto_commit_process.html b/Docs/SystemDesign/json_standards/auto_commit_process.html\\n    deleted file mode 100644\\n    index 73d57465..00000000\\n    --- a/Docs/SystemDesign/json_standards/auto_commit_process.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b337dd95de13e7239f9e7f3314d49e2617ee2fe3"
+        ]
+    },
+    "3ae3e5eca893bda509fb2c2d7177aa5aae693cfc": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/commit_task_database.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:21):\\n- Docs/SystemDesign/json_standards/commit_task_database.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/commit_task_database.html b/Docs/SystemDesign/json_standards/commit_task_database.html\\n    deleted file mode 100644\\n    index 885bd593..00000000\\n    --- a/Docs/SystemDesign/json_standards/commit_task_database.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:21",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "41e074b021f355f04d1eccab82ad85be78a69bc9"
+        ]
+    },
+    "b8c1194fa70f586f4e096f8e3423b1411673123d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/json_files_overview.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:23):\\n- Docs/SystemDesign/json_standards/json_files_overview.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_files_overview.html b/Docs/SystemDesign/json_standards/json_files_overview.html\\n    deleted file mode 100644\\n    index 81a7ae40..00000000\\n    --- a/Docs/SystemDesign/json_standards/json_files_overview.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:23 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3ae3e5eca893bda509fb2c2d7177aa5aae693cfc"
+        ]
+    },
+    "bd54decf625663feb84b4524503057f792e3ddff": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/json_input_files_usage.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:25):\\n- Docs/SystemDesign/json_standards/json_input_files_usage.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_input_files_usage.html b/Docs/SystemDesign/json_standards/json_input_files_usage.html\\n    deleted file mode 100644\\n    index e8d8e3de..00000000\\n    --- a/Docs/SystemDesign/json_standards/json_input_files_usage.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:25 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b8c1194fa70f586f4e096f8e3423b1411673123d"
+        ]
+    },
+    "f9cd00648a59cf9b4f43790ff8ac937aec0147ca": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/json_workflow_detailed.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:27):\\n- Docs/SystemDesign/json_standards/json_workflow_detailed.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_workflow_detailed.html b/Docs/SystemDesign/json_standards/json_workflow_detailed.html\\n    deleted file mode 100644\\n    index 24bd20f3..00000000\\n    --- a/Docs/SystemDesign/json_standards/json_workflow_detailed.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:27 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "bd54decf625663feb84b4524503057f792e3ddff"
+        ]
+    },
+    "4a42dd0ac10ac0bbc4b3b755fc3683cdb3d258f5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/workflow_definition_detailed.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:28):\\n- Docs/SystemDesign/json_standards/workflow_definition_detailed.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/workflow_definition_detailed.html b/Docs/SystemDesign/json_standards/workflow_definition_detailed.html\\n    deleted file mode 100644\\n    index 9b353fa2..00000000\\n    --- a/Docs/SystemDesign/json_standards/workflow_definition_detailed.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:29 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f9cd00648a59cf9b4f43790ff8ac937aec0147ca"
+        ]
+    },
+    "0de8ce5be2d12826cb50ef5ecdd5e9fe7f996c3a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/dashboard_and_reports_plan.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:30):\\n- Docs/SystemDesign/project_management/dashboard_and_reports_plan.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/dashboard_and_reports_plan.html b/Docs/SystemDesign/project_management/dashboard_and_reports_plan.html\\n    deleted file mode 100644\\n    index bb32253d..00000000\\n    --- a/Docs/SystemDesign/project_management/dashboard_and_reports_plan.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:30",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:30 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "4a42dd0ac10ac0bbc4b3b755fc3683cdb3d258f5"
+        ]
+    },
+    "4ff82a6ebc8d56d9550ef32fffa0ab859a42938d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/detailed_wbs.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:32):\\n- Docs/SystemDesign/project_management/detailed_wbs.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/detailed_wbs.html b/Docs/SystemDesign/project_management/detailed_wbs.html\\n    deleted file mode 100644\\n    index 5f04f8e0..00000000\\n    --- a/Docs/SystemDesign/project_management/detailed_wbs.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:32 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0de8ce5be2d12826cb50ef5ecdd5e9fe7f996c3a"
+        ]
+    },
+    "72e84462b5951ad4876a178cf97c045f3e2be8e9": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/importance_urgency_priority_instructions.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:34):\\n- Docs/SystemDesign/project_management/importance_urgency_priority_instructions.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.html b/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.html\\n    deleted file mode 100644\\n    index b4ecb6b8..00000000\\n    --- a/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "4ff82a6ebc8d56d9550ef32fffa0ab859a42938d"
+        ]
+    },
+    "719ed1dcbd5fa01084fa2fe33b03cad0f6b6ec88": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/package_process_documentation.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:36):\\n- Docs/SystemDesign/project_management/package_process_documentation.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/package_process_documentation.html b/Docs/SystemDesign/project_management/package_process_documentation.html\\n    deleted file mode 100644\\n    index 4d84f1a6..00000000\\n    --- a/Docs/SystemDesign/project_management/package_process_documentation.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "72e84462b5951ad4876a178cf97c045f3e2be8e9"
+        ]
+    },
+    "72f3f3317026872414bb1db6280d9a9ed1e77d8b": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/project_management_package_scenario.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:38):\\n- Docs/SystemDesign/project_management/project_management_package_scenario.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/project_management_package_scenario.html b/Docs/SystemDesign/project_management/project_management_package_scenario.html\\n    deleted file mode 100644\\n    index ab876145..00000000\\n    --- a/Docs/SystemDesign/project_management/project_management_package_scenario.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:38 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "719ed1dcbd5fa01084fa2fe33b03cad0f6b6ec88"
+        ]
+    },
+    "4cb952f8a6137f7c2c5b32ad2a00ec8a9737141c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/task_resource_allocation.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:40):\\n- Docs/SystemDesign/project_management/task_resource_allocation.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/task_resource_allocation.html b/Docs/SystemDesign/project_management/task_resource_allocation.html\\n    deleted file mode 100644\\n    index d8fadfbc..00000000\\n    --- a/Docs/SystemDesign/project_management/task_resource_allocation.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:40",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:40 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "72f3f3317026872414bb1db6280d9a9ed1e77d8b"
+        ]
+    },
+    "1a50ef9a25d0d5517a23479a4f35826813f96aa9": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_management_dashboard.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:42):\\n- Docs/SystemDesign/reports/cost_management_dashboard.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_management_dashboard.html b/Docs/SystemDesign/reports/cost_management_dashboard.html\\n    deleted file mode 100644\\n    index e8ace8de..00000000\\n    --- a/Docs/SystemDesign/reports/cost_management_dashboard.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "4cb952f8a6137f7c2c5b32ad2a00ec8a9737141c"
+        ]
+    },
+    "5d4c9b35daa3c63aefd3055b310ba92abdd0d127": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_management_dashboard_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:44):\\n- Docs/SystemDesign/reports/cost_management_dashboard_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_management_dashboard_fa.html b/Docs/SystemDesign/reports/cost_management_dashboard_fa.html\\n    deleted file mode 100644\\n    index d2f4ea1e..00000000\\n    --- a/Docs/SystemDesign/reports/cost_management_dashboard_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1a50ef9a25d0d5517a23479a4f35826813f96aa9"
+        ]
+    },
+    "805b643041b8f797d5470f61d5ed8ef2198ec2ca": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_report.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:45):\\n- Docs/SystemDesign/reports/cost_report.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_report.html b/Docs/SystemDesign/reports/cost_report.html\\n    deleted file mode 100644\\n    index eb9f0368..00000000\\n    --- a/Docs/SystemDesign/reports/cost_report.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:46",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:46 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5d4c9b35daa3c63aefd3055b310ba92abdd0d127"
+        ]
+    },
+    "a17e500e55562aaf73bbb007aa524e2621eaa62e": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_report_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:48):\\n- Docs/SystemDesign/reports/cost_report_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_report_fa.html b/Docs/SystemDesign/reports/cost_report_fa.html\\n    deleted file mode 100644\\n    index 5a098821..00000000\\n    --- a/Docs/SystemDesign/reports/cost_report_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:48",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:48 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "805b643041b8f797d5470f61d5ed8ef2198ec2ca"
+        ]
+    },
+    "c4434c87e33bc92bda68184851639efd7ae5d2e2": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/dashboard_and_reports_plan_en.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:49):\\n- Docs/SystemDesign/reports/dashboard_and_reports_plan_en.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.html b/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.html\\n    deleted file mode 100644\\n    index e101a330..00000000\\n    --- a/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:49",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:49 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a17e500e55562aaf73bbb007aa524e2621eaa62e"
+        ]
+    },
+    "ea5077e029cd3872045b8c51a1695a40db91a82d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:20:51):\\n- Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.html b/Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.html\\n    deleted file mode 100644\\n    index 2df86cdd..00000000\\n    --- a/Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:50:51",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:20:51 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c4434c87e33bc92bda68184851639efd7ae5d2e2"
+        ]
+    },
+    "687396f9b674e8c2f002c8993313525c56958f35": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/github_synchronization_report.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:38):\\n- Docs/SystemDesign/reports/github_synchronization_report.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/github_synchronization_report.html b/Docs/SystemDesign/reports/github_synchronization_report.html\\n    deleted file mode 100644\\n    index df62ce22..00000000\\n    --- a/Docs/SystemDesign/reports/github_synchronization_report.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:38 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ea5077e029cd3872045b8c51a1695a40db91a82d"
+        ]
+    },
+    "af030ace4f543a8fbec7a24cded615a2e230b324": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/github_synchronization_report_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:42):\\n- Docs/SystemDesign/reports/github_synchronization_report_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/github_synchronization_report_fa.html b/Docs/SystemDesign/reports/github_synchronization_report_fa.html\\n    deleted file mode 100644\\n    index 73d5e165..00000000\\n    --- a/Docs/SystemDesign/reports/github_synchronization_report_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "687396f9b674e8c2f002c8993313525c56958f35"
+        ]
+    },
+    "2a289fb0ed80b5f93b57113ef5dbfa5ac2cd3b30": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_dashboard.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:44):\\n- Docs/SystemDesign/reports/importance_urgency_dashboard.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_dashboard.html b/Docs/SystemDesign/reports/importance_urgency_dashboard.html\\n    deleted file mode 100644\\n    index 939ab911..00000000\\n    --- a/Docs/SystemDesign/reports/importance_urgency_dashboard.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "af030ace4f543a8fbec7a24cded615a2e230b324"
+        ]
+    },
+    "e397ab48042bf0d61d26102f9f19566c15bba273": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_dashboard_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:45):\\n- Docs/SystemDesign/reports/importance_urgency_dashboard_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_dashboard_fa.html b/Docs/SystemDesign/reports/importance_urgency_dashboard_fa.html\\n    deleted file mode 100644\\n    index 9884fa85..00000000\\n    --- a/Docs/SystemDesign/reports/importance_urgency_dashboard_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:45 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2a289fb0ed80b5f93b57113ef5dbfa5ac2cd3b30"
+        ]
+    },
+    "2952358d02da596e2119841f9f0a4a6cd95f902a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_report.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:47):\\n- Docs/SystemDesign/reports/importance_urgency_report.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_report.html b/Docs/SystemDesign/reports/importance_urgency_report.html\\n    deleted file mode 100644\\n    index b381abf2..00000000\\n    --- a/Docs/SystemDesign/reports/importance_urgency_report.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:48",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e397ab48042bf0d61d26102f9f19566c15bba273"
+        ]
+    },
+    "0b636137155ada0f4d77f49c443fce8e1c0c6663": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_report_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:53):\\n- Docs/SystemDesign/reports/importance_urgency_report_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_report_fa.html b/Docs/SystemDesign/reports/importance_urgency_report_fa.html\\n    deleted file mode 100644\\n    index 06889616..00000000\\n    --- a/Docs/SystemDesign/reports/importance_urgency_report_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:54",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:54 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2952358d02da596e2119841f9f0a4a6cd95f902a"
+        ]
+    },
+    "23f3206963c0325623f3b4042b3636b3366e660f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/progress_dashboard.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:55):\\n- Docs/SystemDesign/reports/progress_dashboard.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_dashboard.html b/Docs/SystemDesign/reports/progress_dashboard.html\\n    deleted file mode 100644\\n    index b2dc4966..00000000\\n    --- a/Docs/SystemDesign/reports/progress_dashboard.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:55 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0b636137155ada0f4d77f49c443fce8e1c0c6663"
+        ]
+    },
+    "6238a821b27ee46803140e40ceffa3b39584ff1a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/progress_dashboard_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:57):\\n- Docs/SystemDesign/reports/progress_dashboard_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_dashboard_fa.html b/Docs/SystemDesign/reports/progress_dashboard_fa.html\\n    deleted file mode 100644\\n    index 9a98e74d..00000000\\n    --- a/Docs/SystemDesign/reports/progress_dashboard_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:58",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:58 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "23f3206963c0325623f3b4042b3636b3366e660f"
+        ]
+    },
+    "fb4e621b824f42967aa52e38a3c3b0db0102074a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/progress_report.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:21:59):\\n- Docs/SystemDesign/reports/progress_report.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_report.html b/Docs/SystemDesign/reports/progress_report.html\\n    deleted file mode 100644\\n    index f8f5c082..00000000\\n    --- a/Docs/SystemDesign/reports/progress_report.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:51:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:21:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "6238a821b27ee46803140e40ceffa3b39584ff1a"
+        ]
+    },
+    "d9aec45b85c4062cd095c44a3bd40c837e2752dd": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/progress_report_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:01):\\n- Docs/SystemDesign/reports/progress_report_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_report_fa.html b/Docs/SystemDesign/reports/progress_report_fa.html\\n    deleted file mode 100644\\n    index 7cbd2bef..00000000\\n    --- a/Docs/SystemDesign/reports/progress_report_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:01 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fb4e621b824f42967aa52e38a3c3b0db0102074a"
+        ]
+    },
+    "fef87f126496891bdac25e56ab34cfc26a2e1179": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_allocation_dashboard.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:03):\\n- Docs/SystemDesign/reports/resource_allocation_dashboard.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_allocation_dashboard.html b/Docs/SystemDesign/reports/resource_allocation_dashboard.html\\n    deleted file mode 100644\\n    index 5927224d..00000000\\n    --- a/Docs/SystemDesign/reports/resource_allocation_dashboard.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d9aec45b85c4062cd095c44a3bd40c837e2752dd"
+        ]
+    },
+    "b1412249b05cd34513f2d745cc2777cab2e304d2": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_allocation_dashboard_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:05):\\n- Docs/SystemDesign/reports/resource_allocation_dashboard_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_allocation_dashboard_fa.html b/Docs/SystemDesign/reports/resource_allocation_dashboard_fa.html\\n    deleted file mode 100644\\n    index 8f34cb48..00000000\\n    --- a/Docs/SystemDesign/reports/resource_allocation_dashboard_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fef87f126496891bdac25e56ab34cfc26a2e1179"
+        ]
+    },
+    "a080ff1cbffdb37bcec8c2b168918749e26e384c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_utilization_report.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:07):\\n- Docs/SystemDesign/reports/resource_utilization_report.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_utilization_report.html b/Docs/SystemDesign/reports/resource_utilization_report.html\\n    deleted file mode 100644\\n    index d7e39e62..00000000\\n    --- a/Docs/SystemDesign/reports/resource_utilization_report.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b1412249b05cd34513f2d745cc2777cab2e304d2"
+        ]
+    },
+    "d2ef2ee12b3ade07611df4229ac1fd58795f00b5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_utilization_report_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:15):\\n- Docs/SystemDesign/reports/resource_utilization_report_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_utilization_report_fa.html b/Docs/SystemDesign/reports/resource_utilization_report_fa.html\\n    deleted file mode 100644\\n    index 124e976f..00000000\\n    --- a/Docs/SystemDesign/reports/resource_utilization_report_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:15 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a080ff1cbffdb37bcec8c2b168918749e26e384c"
+        ]
+    },
+    "b200c023a1005fb710d47a5f7645929028a82166": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_management_dashboard.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:16):\\n- Docs/SystemDesign/reports/risk_management_dashboard.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_management_dashboard.html b/Docs/SystemDesign/reports/risk_management_dashboard.html\\n    deleted file mode 100644\\n    index 62aa11b4..00000000\\n    --- a/Docs/SystemDesign/reports/risk_management_dashboard.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d2ef2ee12b3ade07611df4229ac1fd58795f00b5"
+        ]
+    },
+    "bb3b2703a3c704047323b14bf32825a7522c3c4f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_management_dashboard_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:18):\\n- Docs/SystemDesign/reports/risk_management_dashboard_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_management_dashboard_fa.html b/Docs/SystemDesign/reports/risk_management_dashboard_fa.html\\n    deleted file mode 100644\\n    index 9ad1ee32..00000000\\n    --- a/Docs/SystemDesign/reports/risk_management_dashboard_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:18 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b200c023a1005fb710d47a5f7645929028a82166"
+        ]
+    },
+    "e595949fd6d55dc977870278df14e1a0ffdc6d0f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_report.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:20):\\n- Docs/SystemDesign/reports/risk_report.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_report.html b/Docs/SystemDesign/reports/risk_report.html\\n    deleted file mode 100644\\n    index 7938ac5e..00000000\\n    --- a/Docs/SystemDesign/reports/risk_report.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:20",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:20 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "bb3b2703a3c704047323b14bf32825a7522c3c4f"
+        ]
+    },
+    "742416be4024ffc31526c50d9dd361445676e10c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_report_fa.html",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-26 00:22:21):\\n- Docs/SystemDesign/reports/risk_report_fa.html: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_report_fa.html b/Docs/SystemDesign/reports/risk_report_fa.html\\n    deleted file mode 100644\\n    index 2db04cc2..00000000\\n    --- a/Docs/SystemDesign/reports/risk_report_fa.html\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:22 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e595949fd6d55dc977870278df14e1a0ffdc6d0f"
+        ]
+    },
+    "ab98b2f43e61945cd6fe6db7bd6f49a944aa3219": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/HELP_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:23):\\n- Docs/SystemDesign/documentation/HELP_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/HELP_en.md b/Docs/SystemDesign/documentation/HELP_en.md\\n    new file mode 100644\\n    index 00000000..71bbbea9\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/HELP_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:23 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "742416be4024ffc31526c50d9dd361445676e10c"
+        ]
+    },
+    "773b0361c3e164d855174080f2164d86ed02ad33": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/HELP_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:25):\\n- Docs/SystemDesign/documentation/HELP_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/HELP_fa.md b/Docs/SystemDesign/documentation/HELP_fa.md\\n    new file mode 100644\\n    index 00000000..e7932b2c\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/HELP_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:25 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ab98b2f43e61945cd6fe6db7bd6f49a944aa3219"
+        ]
+    },
+    "0aea46fd149a215f9748cc7a413f2fa92703a06a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/detailed_implementation_plan_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:26):\\n- Docs/SystemDesign/documentation/detailed_implementation_plan_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/detailed_implementation_plan_en.md b/Docs/SystemDesign/documentation/detailed_implementation_plan_en.md\\n    new file mode 100644\\n    index 00000000..bcd2b210\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/detailed_implementation_plan_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:27 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "773b0361c3e164d855174080f2164d86ed02ad33"
+        ]
+    },
+    "1976e051f4bb1ef55cd546352c835bcf29c6a2db": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:29):\\n- Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md b/Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md\\n    new file mode 100644\\n    index 00000000..b5364893\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:29 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0aea46fd149a215f9748cc7a413f2fa92703a06a"
+        ]
+    },
+    "690ec864710ae244d2db9fec550c5c52cc369efb": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/final_product_description_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:30):\\n- Docs/SystemDesign/documentation/final_product_description_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/final_product_description_en.md b/Docs/SystemDesign/documentation/final_product_description_en.md\\n    new file mode 100644\\n    index 00000000..f91dcd03\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/final_product_description_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:30",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:30 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1976e051f4bb1ef55cd546352c835bcf29c6a2db"
+        ]
+    },
+    "a7fe77cb2b284cccb236996d02b9ab8a81c681d8": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/final_product_description_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:32):\\n- Docs/SystemDesign/documentation/final_product_description_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/final_product_description_fa.md b/Docs/SystemDesign/documentation/final_product_description_fa.md\\n    new file mode 100644\\n    index 00000000..30d065da\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/final_product_description_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:32 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "690ec864710ae244d2db9fec550c5c52cc369efb"
+        ]
+    },
+    "be167d0ae65a51619ab314bb8326bc246dfb242b": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/implementation_plan_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:34):\\n- Docs/SystemDesign/documentation/implementation_plan_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/implementation_plan_en.md b/Docs/SystemDesign/documentation/implementation_plan_en.md\\n    new file mode 100644\\n    index 00000000..fd81139f\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/implementation_plan_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a7fe77cb2b284cccb236996d02b9ab8a81c681d8"
+        ]
+    },
+    "9b06246241438cb3a6b429a7e6c473e3a0c5f98e": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/implementation_plan_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:35):\\n- Docs/SystemDesign/documentation/implementation_plan_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/implementation_plan_fa.md b/Docs/SystemDesign/documentation/implementation_plan_fa.md\\n    new file mode 100644\\n    index 00000000..d5bd8995\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/implementation_plan_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:35",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:35 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "be167d0ae65a51619ab314bb8326bc246dfb242b"
+        ]
+    },
+    "120ccc6d66ba7405ae7e1d925a19e99edabf5fd7": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_features_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:37):\\n- Docs/SystemDesign/documentation/project_features_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_features_en.md b/Docs/SystemDesign/documentation/project_features_en.md\\n    new file mode 100644\\n    index 00000000..f402699e\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/project_features_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:37 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9b06246241438cb3a6b429a7e6c473e3a0c5f98e"
+        ]
+    },
+    "d114de270caa92409b195faef261481f4a77d50d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_features_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:39):\\n- Docs/SystemDesign/documentation/project_features_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_features_fa.md b/Docs/SystemDesign/documentation/project_features_fa.md\\n    new file mode 100644\\n    index 00000000..437e9665\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/project_features_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "120ccc6d66ba7405ae7e1d925a19e99edabf5fd7"
+        ]
+    },
+    "0885e23f2c650335eca4037148b0894516118124": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_management_package_overview_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:41):\\n- Docs/SystemDesign/documentation/project_management_package_overview_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_management_package_overview_en.md b/Docs/SystemDesign/documentation/project_management_package_overview_en.md\\n    new file mode 100644\\n    index 00000000..42b21087\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/project_management_package_overview_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:41 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d114de270caa92409b195faef261481f4a77d50d"
+        ]
+    },
+    "c80f86a3d5649eeefc03d4f5a128d796c844c8a4": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/project_management_package_overview_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:42):\\n- Docs/SystemDesign/documentation/project_management_package_overview_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_management_package_overview_fa.md b/Docs/SystemDesign/documentation/project_management_package_overview_fa.md\\n    new file mode 100644\\n    index 00000000..25569b9d\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/project_management_package_overview_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0885e23f2c650335eca4037148b0894516118124"
+        ]
+    },
+    "5b428452786351442147d72dc7f95ad62808b283": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/test_checklist_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:44):\\n- Docs/SystemDesign/documentation/test_checklist_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/test_checklist_en.md b/Docs/SystemDesign/documentation/test_checklist_en.md\\n    new file mode 100644\\n    index 00000000..49eb981b\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/test_checklist_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c80f86a3d5649eeefc03d4f5a128d796c844c8a4"
+        ]
+    },
+    "fcead862e08d8a9e6b001f9ebcd0aeb55bd2ccaf": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/test_checklist_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:46):\\n- Docs/SystemDesign/documentation/test_checklist_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/test_checklist_fa.md b/Docs/SystemDesign/documentation/test_checklist_fa.md\\n    new file mode 100644\\n    index 00000000..ab0c37eb\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/test_checklist_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:46",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:46 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5b428452786351442147d72dc7f95ad62808b283"
+        ]
+    },
+    "abbdecfd8fbbf9213b33504e82c5412bc188c115": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/testing_instructions_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:47):\\n- Docs/SystemDesign/documentation/testing_instructions_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/testing_instructions_en.md b/Docs/SystemDesign/documentation/testing_instructions_en.md\\n    new file mode 100644\\n    index 00000000..6a1a69ad\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/testing_instructions_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:47",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fcead862e08d8a9e6b001f9ebcd0aeb55bd2ccaf"
+        ]
+    },
+    "a6de7faf17bca4659b3fc0f4ae4faac10dde800d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/documentation/testing_instructions_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:50):\\n- Docs/SystemDesign/documentation/testing_instructions_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/testing_instructions_fa.md b/Docs/SystemDesign/documentation/testing_instructions_fa.md\\n    new file mode 100644\\n    index 00000000..5262eed5\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/testing_instructions_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:50",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:50 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "abbdecfd8fbbf9213b33504e82c5412bc188c115"
+        ]
+    },
+    "1f3712061f32bd5d045044e3077fbf983888a4e8": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:51):\\n- Docs/SystemDesign/general_instructions/general_instructions.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions.md b/Docs/SystemDesign/general_instructions/general_instructions.md\\n    new file mode 100644\\n    index 00000000..b0ba5a12\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/general_instructions/general_instructions.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:52",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:52 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a6de7faf17bca4659b3fc0f4ae4faac10dde800d"
+        ]
+    },
+    "d5e98dc8c2b68d5fcecfa6ec2178051e9afab1a4": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:53):\\n- Docs/SystemDesign/general_instructions/general_instructions_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_fa.md b/Docs/SystemDesign/general_instructions/general_instructions_fa.md\\n    new file mode 100644\\n    index 00000000..7f0c046b\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/general_instructions/general_instructions_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:53 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1f3712061f32bd5d045044e3077fbf983888a4e8"
+        ]
+    },
+    "b59f7bc2d483159cb31af9edbac564d60957d89f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_stepwise.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:55):\\n- Docs/SystemDesign/general_instructions/general_instructions_stepwise.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_stepwise.md b/Docs/SystemDesign/general_instructions/general_instructions_stepwise.md\\n    new file mode 100644\\n    index 00000000..564c546b\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/general_instructions/general_instructions_stepwise.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:55 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d5e98dc8c2b68d5fcecfa6ec2178051e9afab1a4"
+        ]
+    },
+    "868ed87d627e23ca15f55b9a66138a0e23949440": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:57):\\n- Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md b/Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md\\n    new file mode 100644\\n    index 00000000..5dd8e116\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:57 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b59f7bc2d483159cb31af9edbac564d60957d89f"
+        ]
+    },
+    "388750ce4b8770c5393d4b8daa88f2afb8421e5e": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/auto_commit_process.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:22:58):\\n- Docs/SystemDesign/json_standards/auto_commit_process.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/auto_commit_process.md b/Docs/SystemDesign/json_standards/auto_commit_process.md\\n    new file mode 100644\\n    index 00000000..1fc54051\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/json_standards/auto_commit_process.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:52:58",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:22:58 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "868ed87d627e23ca15f55b9a66138a0e23949440"
+        ]
+    },
+    "cabe23ee23df85b4739329474ea3345fd5f473c6": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/commit_task_database.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:00):\\n- Docs/SystemDesign/json_standards/commit_task_database.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/commit_task_database.md b/Docs/SystemDesign/json_standards/commit_task_database.md\\n    new file mode 100644\\n    index 00000000..07cc62e6\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/json_standards/commit_task_database.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:00",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:00 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "388750ce4b8770c5393d4b8daa88f2afb8421e5e"
+        ]
+    },
+    "3fbc9ca72696b68600d006f72ef40f2106d04430": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/json_files_overview.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:02):\\n- Docs/SystemDesign/json_standards/json_files_overview.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_files_overview.md b/Docs/SystemDesign/json_standards/json_files_overview.md\\n    new file mode 100644\\n    index 00000000..2714814d\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/json_standards/json_files_overview.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:02",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:02 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "cabe23ee23df85b4739329474ea3345fd5f473c6"
+        ]
+    },
+    "275d61114cea53f639673a0eff9403d3f7617bce": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/json_input_files_usage.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:03):\\n- Docs/SystemDesign/json_standards/json_input_files_usage.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_input_files_usage.md b/Docs/SystemDesign/json_standards/json_input_files_usage.md\\n    new file mode 100644\\n    index 00000000..390a2146\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/json_standards/json_input_files_usage.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3fbc9ca72696b68600d006f72ef40f2106d04430"
+        ]
+    },
+    "5fb6bb110d6b13fffed26737195faa6df2776db3": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/json_workflow_detailed.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:08):\\n- Docs/SystemDesign/json_standards/json_workflow_detailed.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_workflow_detailed.md b/Docs/SystemDesign/json_standards/json_workflow_detailed.md\\n    new file mode 100644\\n    index 00000000..95ec242c\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/json_standards/json_workflow_detailed.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "275d61114cea53f639673a0eff9403d3f7617bce"
+        ]
+    },
+    "0a92b6273d973c8ea788031cac4cb59521b08e97": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/json_standards/workflow_definition_detailed.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:10):\\n- Docs/SystemDesign/json_standards/workflow_definition_detailed.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/workflow_definition_detailed.md b/Docs/SystemDesign/json_standards/workflow_definition_detailed.md\\n    new file mode 100644\\n    index 00000000..b2ed77e6\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/json_standards/workflow_definition_detailed.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:10",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:10 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5fb6bb110d6b13fffed26737195faa6df2776db3"
+        ]
+    },
+    "c33e87d2b0bef4a43bfb1ccf89e64559c8fc2ab5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/dashboard_and_reports_plan.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:12):\\n- Docs/SystemDesign/project_management/dashboard_and_reports_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/dashboard_and_reports_plan.md b/Docs/SystemDesign/project_management/dashboard_and_reports_plan.md\\n    new file mode 100644\\n    index 00000000..02783da8\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/project_management/dashboard_and_reports_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:12 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0a92b6273d973c8ea788031cac4cb59521b08e97"
+        ]
+    },
+    "602836987c73f067d30659f6344550713a7e4d9e": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/detailed_wbs.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:13):\\n- Docs/SystemDesign/project_management/detailed_wbs.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/detailed_wbs.md b/Docs/SystemDesign/project_management/detailed_wbs.md\\n    new file mode 100644\\n    index 00000000..f200ada1\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/project_management/detailed_wbs.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:13 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c33e87d2b0bef4a43bfb1ccf89e64559c8fc2ab5"
+        ]
+    },
+    "8801a3fd17326de045cbdd2605cee656b64117b6": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:16):\\n- Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md b/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md\\n    new file mode 100644\\n    index 00000000..1347399a\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "602836987c73f067d30659f6344550713a7e4d9e"
+        ]
+    },
+    "0169b043d6545b324646a85ea6aee0c6e351366c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/package_process_documentation.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:18):\\n- Docs/SystemDesign/project_management/package_process_documentation.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/package_process_documentation.md b/Docs/SystemDesign/project_management/package_process_documentation.md\\n    new file mode 100644\\n    index 00000000..c3c1fea8\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/project_management/package_process_documentation.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:18 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "8801a3fd17326de045cbdd2605cee656b64117b6"
+        ]
+    },
+    "9b49995bf4d504930ae58a82678ddab5d04e4d05": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/project_management_package_scenario.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:19):\\n- Docs/SystemDesign/project_management/project_management_package_scenario.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/project_management_package_scenario.md b/Docs/SystemDesign/project_management/project_management_package_scenario.md\\n    new file mode 100644\\n    index 00000000..fedbab48\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/project_management/project_management_package_scenario.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0169b043d6545b324646a85ea6aee0c6e351366c"
+        ]
+    },
+    "605054f94714d923229cd423a198977ec8fb424c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/project_management/task_resource_allocation.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:21):\\n- Docs/SystemDesign/project_management/task_resource_allocation.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/task_resource_allocation.md b/Docs/SystemDesign/project_management/task_resource_allocation.md\\n    new file mode 100644\\n    index 00000000..93edda45\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/project_management/task_resource_allocation.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:21",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9b49995bf4d504930ae58a82678ddab5d04e4d05"
+        ]
+    },
+    "894498395a5e437397e97298f113c3dd63f905cc": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_management_dashboard.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:23):\\n- Docs/SystemDesign/reports/cost_management_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_management_dashboard.md b/Docs/SystemDesign/reports/cost_management_dashboard.md\\n    new file mode 100644\\n    index 00000000..56a7dd49\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/cost_management_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:23 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "605054f94714d923229cd423a198977ec8fb424c"
+        ]
+    },
+    "73193754ce25fe17325c7cd805002891d36d3da5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_management_dashboard_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:24):\\n- Docs/SystemDesign/reports/cost_management_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_management_dashboard_fa.md b/Docs/SystemDesign/reports/cost_management_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..59b651e2\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/cost_management_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:25 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "894498395a5e437397e97298f113c3dd63f905cc"
+        ]
+    },
+    "f6ce9c033442f26725cfa9768592bf8c3584d7e7": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_report.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:29):\\n- Docs/SystemDesign/reports/cost_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_report.md b/Docs/SystemDesign/reports/cost_report.md\\n    new file mode 100644\\n    index 00000000..063a5fba\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/cost_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:29 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "73193754ce25fe17325c7cd805002891d36d3da5"
+        ]
+    },
+    "c24a3bbe538b97216650b18e14fd786cbb61176b": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/cost_report_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:30):\\n- Docs/SystemDesign/reports/cost_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_report_fa.md b/Docs/SystemDesign/reports/cost_report_fa.md\\n    new file mode 100644\\n    index 00000000..81b1e27a\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/cost_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:31 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f6ce9c033442f26725cfa9768592bf8c3584d7e7"
+        ]
+    },
+    "7b2efafb8a083673e9c543bf16e5b1e9597242e7": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:33):\\n- Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md b/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md\\n    new file mode 100644\\n    index 00000000..20d4c66d\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:33",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:33 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c24a3bbe538b97216650b18e14fd786cbb61176b"
+        ]
+    },
+    "562753dde2c1eee26e6f39d7dc74c6873c990c39": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:34):\\n- Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md b/Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md\\n    new file mode 100644\\n    index 00000000..e88023b4\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7b2efafb8a083673e9c543bf16e5b1e9597242e7"
+        ]
+    },
+    "0f94768377b59b6e63269af881e5f2ebfaba08e1": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/github_synchronization_report.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:36):\\n- Docs/SystemDesign/reports/github_synchronization_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/github_synchronization_report.md b/Docs/SystemDesign/reports/github_synchronization_report.md\\n    new file mode 100644\\n    index 00000000..d60ec0d6\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/github_synchronization_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "562753dde2c1eee26e6f39d7dc74c6873c990c39"
+        ]
+    },
+    "4ee46cdfe4df13ac87251e60b5f77502cdf32561": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/github_synchronization_report_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:38):\\n- Docs/SystemDesign/reports/github_synchronization_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/github_synchronization_report_fa.md b/Docs/SystemDesign/reports/github_synchronization_report_fa.md\\n    new file mode 100644\\n    index 00000000..85585f27\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/github_synchronization_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:38 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0f94768377b59b6e63269af881e5f2ebfaba08e1"
+        ]
+    },
+    "459e447fd66f4ce576e5ddbbde594107a4303b58": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_dashboard.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:23:40):\\n- Docs/SystemDesign/reports/importance_urgency_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_dashboard.md b/Docs/SystemDesign/reports/importance_urgency_dashboard.md\\n    new file mode 100644\\n    index 00000000..0ee90e8a\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/importance_urgency_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:53:40",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:23:40 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "4ee46cdfe4df13ac87251e60b5f77502cdf32561"
+        ]
+    },
+    "67164a9110183cd5415c1183939790dc0d54c65a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:24:10):\\n- Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md b/Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..364bd513\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:54:10",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:24:10 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "459e447fd66f4ce576e5ddbbde594107a4303b58"
+        ]
+    },
+    "eaebd43a6b003f17ed1704b636ef79f2e73e0e23": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_report.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:24:12):\\n- Docs/SystemDesign/reports/importance_urgency_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_report.md b/Docs/SystemDesign/reports/importance_urgency_report.md\\n    new file mode 100644\\n    index 00000000..e4259146\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/importance_urgency_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:54:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:24:12 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "67164a9110183cd5415c1183939790dc0d54c65a"
+        ]
+    },
+    "e82b14fe8f79e374f3103fddaf780f16d0543674": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_report_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:24:14):\\n- Docs/SystemDesign/reports/importance_urgency_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_report_fa.md b/Docs/SystemDesign/reports/importance_urgency_report_fa.md\\n    new file mode 100644\\n    index 00000000..b6ea113d\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/importance_urgency_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:54:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:24:14 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "eaebd43a6b003f17ed1704b636ef79f2e73e0e23"
+        ]
+    },
+    "d999c905dd668e64a6466f1138470f77523e1238": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/progress_dashboard.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:24:16):\\n- Docs/SystemDesign/reports/progress_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_dashboard.md b/Docs/SystemDesign/reports/progress_dashboard.md\\n    new file mode 100644\\n    index 00000000..556e6eb2\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/progress_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:54:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:24:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e82b14fe8f79e374f3103fddaf780f16d0543674"
+        ]
+    },
+    "23bc49d3d69f43ccfa4a12a3811e3956b6fae0f4": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/progress_dashboard_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:24:56):\\n- Docs/SystemDesign/reports/progress_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_dashboard_fa.md b/Docs/SystemDesign/reports/progress_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..50072cd9\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/progress_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:54:56",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:24:56 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "d999c905dd668e64a6466f1138470f77523e1238"
+        ]
+    },
+    "2a250fde11b016ba2ccf2945a2b579ba5b01ac4f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:24:58):\\n- Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md b/Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..24b15cae\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:54:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:24:58 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "23bc49d3d69f43ccfa4a12a3811e3956b6fae0f4"
+        ]
+    },
+    "adf620c80719220bfb3e9d53759183a5818fbae4": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_utilization_report.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:01):\\n- Docs/SystemDesign/reports/resource_utilization_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_utilization_report.md b/Docs/SystemDesign/reports/resource_utilization_report.md\\n    new file mode 100644\\n    index 00000000..8164e573\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/resource_utilization_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:01 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2a250fde11b016ba2ccf2945a2b579ba5b01ac4f"
+        ]
+    },
+    "9dbaa5d4d4314fb8b5b83d0f9392cc446fd3b9d1": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/resource_utilization_report_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:03):\\n- Docs/SystemDesign/reports/resource_utilization_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_utilization_report_fa.md b/Docs/SystemDesign/reports/resource_utilization_report_fa.md\\n    new file mode 100644\\n    index 00000000..40077953\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/resource_utilization_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "adf620c80719220bfb3e9d53759183a5818fbae4"
+        ]
+    },
+    "2134b3a27d116ae5085b7d578c452b53468b146b": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_management_dashboard.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:06):\\n- Docs/SystemDesign/reports/risk_management_dashboard.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_management_dashboard.md b/Docs/SystemDesign/reports/risk_management_dashboard.md\\n    new file mode 100644\\n    index 00000000..1e705485\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/risk_management_dashboard.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:06 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9dbaa5d4d4314fb8b5b83d0f9392cc446fd3b9d1"
+        ]
+    },
+    "2074cc631a31ddbddfd5206c1821a6ac4e23128f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_management_dashboard_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:08):\\n- Docs/SystemDesign/reports/risk_management_dashboard_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_management_dashboard_fa.md b/Docs/SystemDesign/reports/risk_management_dashboard_fa.md\\n    new file mode 100644\\n    index 00000000..263df6a7\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/risk_management_dashboard_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2134b3a27d116ae5085b7d578c452b53468b146b"
+        ]
+    },
+    "eb087effb2a4a51a30bfdb0f6ef91b05a749567a": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_report.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:11):\\n- Docs/SystemDesign/reports/risk_report.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_report.md b/Docs/SystemDesign/reports/risk_report.md\\n    new file mode 100644\\n    index 00000000..b0553442\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/risk_report.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:11",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:11 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2074cc631a31ddbddfd5206c1821a6ac4e23128f"
+        ]
+    },
+    "5bd05ee72d2f5244961038d84a80d6b52ad274b0": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/reports/risk_report_fa.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:13):\\n- Docs/SystemDesign/reports/risk_report_fa.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_report_fa.md b/Docs/SystemDesign/reports/risk_report_fa.md\\n    new file mode 100644\\n    index 00000000..a85e7212\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/reports/risk_report_fa.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.003,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:13",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:13 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "eb087effb2a4a51a30bfdb0f6ef91b05a749567a"
+        ]
+    },
+    "a70cb2b7e4f77f63e48bef0efa31c62c6bfada0f": {
+        "task_id": "root",
+        "file_path": "requirements.txt",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-26 00:25:15):\\n- requirements.txt: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/requirements.txt b/requirements.txt\\n    index 88e913a5..22537ce3 100644\\n    --- a/requirements.txt\\n    +++ b/requirements.txt\\n    @@ -3,3 +3,4 @@ requests\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:15 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5bd05ee72d2f5244961038d84a80d6b52ad274b0"
+        ]
+    },
+    "965bf31bde3426e09d209de9e799e7dccaa6662a": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250726_001940/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:17):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250726_001940/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_001940/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_001940/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_001940/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_001940/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:17",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:17 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a70cb2b7e4f77f63e48bef0efa31c62c6bfada0f"
+        ]
+    },
+    "537a6b318c5b416178d77fcaf67a0d109f0555ab": {
+        "task_id": "scripts",
+        "file_path": "scripts/html_to_markdown.py",
+        "commit_message": "📝 docs(scripts): Untracked files updated\\n\\nChanges included (as of 2025-07-26 00:25:19):\\n- scripts/html_to_markdown.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/scripts/html_to_markdown.py b/scripts/html_to_markdown.py\\n    new file mode 100644\\n    index 00000000..0ba1eb00\\n    --- /dev/null\\n    +++ b/scripts/html_to_markdown.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "965bf31bde3426e09d209de9e799e7dccaa6662a"
+        ]
+    },
+    "569d0874ce10ce3b7ed869687ae02fd3d45e2604": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_progress.json",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-26 00:25:44):\\n- project_management/PM_SystemOutputs/system_outputs/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/PM_SystemOutputs/system_outputs/commit_progress.json b/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    index 253c9202..11bc3e8d 100644\\n    --- a/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    +++ b/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    @@ -1,3 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-25 20:55:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sat Jul 26 00:25:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "537a6b318c5b416178d77fcaf67a0d109f0555ab"
+        ]
     }
 }
