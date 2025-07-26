@@ -1,3 +1,4 @@
+
 import json
 import os
 
@@ -40,9 +41,9 @@ class BaseManagement:
 
 class QualityManagement(BaseManagement):
     def __init__(self,
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 quality_standards_path='project_inputs/PM_JSON/user_inputs/quality_standards.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/quality_management.json'):
+                 detailed_wbs_path='SystemInputs/user_inputs/detailed_wbs.json',
+                 quality_standards_path='SystemInputs/user_inputs/quality_standards.json',
+                 output_path='SystemInputs/system_generated/quality_management.json'):
         input_paths = {
             'detailed_wbs': detailed_wbs_path,
             'quality_standards': quality_standards_path

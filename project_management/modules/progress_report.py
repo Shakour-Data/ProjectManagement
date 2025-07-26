@@ -2,12 +2,12 @@ import os
 import json
 from datetime import datetime
 
-DASHBOARD_PATH = os.path.join('docs', 'reports', 'progress_report.md')
+DASHBOARD_PATH = os.path.join('SystemInputs', 'system_generated', 'progress_report.md')
 
 class ProgressReport:
     def __init__(self, progress_path=None, task_db_path=None, output_path=None):
-        self.progress_path = progress_path or os.path.join('project_management', 'PM_SystemOutputs', 'system_outputs', 'commit_progress.json')
-        self.task_db_path = task_db_path or os.path.join('project_management', 'PM_SystemOutputs', 'system_outputs', 'commit_task_database.json')
+        self.progress_path = progress_path or os.path.join('SystemInputs', 'system_generated', 'commit_progress.json')
+        self.task_db_path = task_db_path or os.path.join('SystemInputs', 'system_generated', 'commit_task_database.json')
         self.output_path = output_path or DASHBOARD_PATH
 
     def load_json(self, path):
