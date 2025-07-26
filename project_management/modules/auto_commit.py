@@ -17,6 +17,8 @@ class AutoCommit:
         """Run a git command and return (success, output)."""
         try:
             result = subprocess.run(["git"] + args, capture_output=True, text=True, check=True, cwd=cwd)
+            if result.stdout is None:
+                return True, ""
             return True, result.stdout.strip()
         except subprocess.CalledProcessError as e:
             print(f"Git command failed: git {' '.join(args)}")
@@ -88,7 +90,7 @@ class AutoCommit:
         return categories
 
     def get_file_diff_summary(self, file_path):
-        """Get a short summary of changes for a file."""
+        """Get a short summary of changes for a file."""  
         try:
             result = subprocess.run(
                 ["git", "diff", "--staged", "--", file_path],
@@ -96,6 +98,8 @@ class AutoCommit:
                 text=True,
                 check=True,
             )
+            if result.stdout is None:
+                return "No diff available."
             diff_lines = result.stdout.strip().splitlines()
             summary = "\\n    ".join(diff_lines[:5]) if diff_lines else "No diff available."
             return summary
