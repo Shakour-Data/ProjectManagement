@@ -4,11 +4,11 @@ from datetime import datetime
 
 class ResourceAllocationManager:
     def __init__(self,
-                 resource_allocation_path='project_inputs/PM_JSON/user_inputs/task_resource_allocation.json',
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 resource_costs_path='project_inputs/PM_JSON/user_inputs/resource_costs.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/resource_allocation_enriched.json',
-                 summary_output_path='project_inputs/PM_JSON/system_outputs/resource_allocation_summary.json'):
+                 resource_allocation_path='SystemInputs/user_inputs/task_resource_allocation.json',
+                 detailed_wbs_path='SystemInputs/user_inputs/detailed_wbs.json',
+                 resource_costs_path='SystemInputs/user_inputs/resource_costs.json',
+                 output_path='SystemInputs/system_generated/resource_allocation_enriched.json',
+                 summary_output_path='SystemInputs/system_generated/resource_allocation_summary.json'):
         self.resource_allocation_path = resource_allocation_path
         self.detailed_wbs_path = detailed_wbs_path
         self.resource_costs_path = resource_costs_path

@@ -4,9 +4,9 @@ from datetime import datetime, timedelta
 
 class TimeManagement:
     def __init__(self,
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 resource_allocation_path='project_inputs/PM_JSON/system_outputs/resource_allocation_enriched.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/time_management.json'):
+                 detailed_wbs_path='SystemInputs/user_inputs/detailed_wbs.json',
+                 resource_allocation_path='SystemInputs/marber_completed/resource_allocation_enriched.json',
+                 output_path='SystemInputs/system_generated/time_management.json'):
         self.detailed_wbs_path = detailed_wbs_path
         self.resource_allocation_path = resource_allocation_path
         self.output_path = output_path

@@ -40,9 +40,9 @@ class BaseManagement:
 
 class RiskManagement(BaseManagement):
     def __init__(self,
-                 risk_register_path='project_inputs/PM_JSON/user_inputs/risk_register.json',
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/risk_management.json'):
+                 risk_register_path='SystemInputs/user_inputs/risk_register.json',
+                 detailed_wbs_path='SystemInputs/user_inputs/detailed_wbs.json',
+                 output_path='SystemInputs/system_generated/risk_management.json'):
         input_paths = {
             'risk_register': risk_register_path,
             'detailed_wbs': detailed_wbs_path

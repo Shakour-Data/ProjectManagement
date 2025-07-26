@@ -40,8 +40,8 @@ class BaseManagement:
 
 class ResourceManagement(BaseManagement):
     def __init__(self,
-                 resource_allocation_path='project_inputs/PM_JSON/system_outputs/resource_allocation_enriched.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/resource_management.json'):
+                 resource_allocation_path='SystemInputs/marber_completed/resource_allocation_enriched.json',
+                 output_path='SystemInputs/system_generated/resource_management.json'):
         input_paths = {
             'resource_allocations': resource_allocation_path
         }

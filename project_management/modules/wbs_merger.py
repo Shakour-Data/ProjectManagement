@@ -2,7 +2,7 @@ import os
 import json
 
 class WBSMerger:
-    def __init__(self, parts_dir='project_inputs/PM_JSON/user_inputs/wbs_parts', output_file='project_inputs/PM_JSON/user_inputs/detailed_wbs.json'):
+    def __init__(self, parts_dir='SystemInputs/user_inputs/wbs_parts', output_file='SystemInputs/system_generated/detailed_wbs.json'):
         self.parts_dir = parts_dir
         self.output_file = output_file
 

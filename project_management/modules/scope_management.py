@@ -4,9 +4,9 @@ from datetime import datetime
 
 class ScopeManagement:
     def __init__(self,
-                 detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
-                 scope_changes_path='project_inputs/PM_JSON/user_inputs/scope_changes.json',
-                 output_path='project_inputs/PM_JSON/system_outputs/scope_management.json'):
+                 detailed_wbs_path='SystemInputs/user_inputs/detailed_wbs.json',
+                 scope_changes_path='SystemInputs/user_inputs/scope_changes.json',
+                 output_path='SystemInputs/system_generated/scope_management.json'):
         self.detailed_wbs_path = detailed_wbs_path
         self.scope_changes_path = scope_changes_path
         self.output_path = output_path
