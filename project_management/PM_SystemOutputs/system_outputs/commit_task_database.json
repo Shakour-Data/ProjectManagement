@@ -13138,5 +13138,294 @@
         "parent_commits": [
             "20eedacc3cc29ad55284c757b5948c5d2b4d932b"
         ]
+    },
+    "bba07d61c4f0234a46d4f6f99a7c0d4defd867f0": {
+        "task_id": "root",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-26 12:10:13):\\n- project_management/PM_SystemOutputs/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:14",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:14 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "65429f5ba9e69a356f2d41e984a8504a9c896e44"
+        ]
+    },
+    "9d99535790e138bfb90f2d3c3210ccbb105a6061": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/01_DocumentCreationPlan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:16):\\n- Docs/SystemDesign/01_DocumentCreationPlan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/01_DocumentCreationPlan.md b/Docs/SystemDesign/01_DocumentCreationPlan.md\\n    new file mode 100644\\n    index 00000000..acd55818\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/01_DocumentCreationPlan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:17",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:17 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "bba07d61c4f0234a46d4f6f99a7c0d4defd867f0"
+        ]
+    },
+    "752b191d77b5cf82cf825c59a4279eaad977d6bb": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/02_project_features_and_functional_specifications.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:19):\\n- Docs/SystemDesign/02_project_features_and_functional_specifications.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/02_project_features_and_functional_specifications.md b/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    new file mode 100644\\n    index 00000000..02ca436a\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:20",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9d99535790e138bfb90f2d3c3210ccbb105a6061"
+        ]
+    },
+    "7a97b51189ae11a3c3b53e38a1b16ebe0a8d4adc": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/03_implementation_plan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:21):\\n- Docs/SystemDesign/03_implementation_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/03_implementation_plan.md b/Docs/SystemDesign/03_implementation_plan.md\\n    new file mode 100644\\n    index 00000000..09d67249\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/03_implementation_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:23",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:22 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "752b191d77b5cf82cf825c59a4279eaad977d6bb"
+        ]
+    },
+    "54d1beebf72fbcc2fab2acb4b131269ac4ae5b68": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:24):\\n- Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md b/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    new file mode 100644\\n    index 00000000..e4db8eaf\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:25",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:25 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7a97b51189ae11a3c3b53e38a1b16ebe0a8d4adc"
+        ]
+    },
+    "1dd394c7473cc45832acdf7ce55d687b43b78bad": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/05_requirements_specification_document.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:27):\\n- Docs/SystemDesign/05_requirements_specification_document.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/05_requirements_specification_document.md b/Docs/SystemDesign/05_requirements_specification_document.md\\n    new file mode 100644\\n    index 00000000..f389e3b9\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/05_requirements_specification_document.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:28",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:27 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "54d1beebf72fbcc2fab2acb4b131269ac4ae5b68"
+        ]
+    },
+    "52c8bab80855376fe230465d5c41f9e21079cd43": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/06_system_design_document.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:30):\\n- Docs/SystemDesign/06_system_design_document.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/06_system_design_document.md b/Docs/SystemDesign/06_system_design_document.md\\n    new file mode 100644\\n    index 00000000..a6484f52\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/06_system_design_document.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:31",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:30 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1dd394c7473cc45832acdf7ce55d687b43b78bad"
+        ]
+    },
+    "de92c3f474000970d67da1104d8cb3e3a62a03ac": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/07_test_plan_and_testing_instructions.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:32):\\n- Docs/SystemDesign/07_test_plan_and_testing_instructions.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/07_test_plan_and_testing_instructions.md b/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    new file mode 100644\\n    index 00000000..fb39ad59\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:34",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:33 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "52c8bab80855376fe230465d5c41f9e21079cd43"
+        ]
+    },
+    "23db171b8cd519dc1edab38b846b9d0e96ebd207": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:35):\\n- Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md b/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    new file mode 100644\\n    index 00000000..fcb76721\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:36",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:35 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "de92c3f474000970d67da1104d8cb3e3a62a03ac"
+        ]
+    },
+    "53a304caa1c69afd7244c0ee06e525f8f48486d4": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/09_change_management_and_versioning_plan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:38):\\n- Docs/SystemDesign/09_change_management_and_versioning_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/09_change_management_and_versioning_plan.md b/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    new file mode 100644\\n    index 00000000..710544fd\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:39",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:38 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "23db171b8cd519dc1edab38b846b9d0e96ebd207"
+        ]
+    },
+    "b24485f659dc091340ac275c17de831bc79cee8b": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:41):\\n- Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md b/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    new file mode 100644\\n    index 00000000..5e2d92e3\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:42",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:41 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "53a304caa1c69afd7244c0ee06e525f8f48486d4"
+        ]
+    },
+    "b27380f68dfe1e0616332e0ebf51317d566283bf": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/11_project_management_package_scenarios.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:43):\\n- Docs/SystemDesign/11_project_management_package_scenarios.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/11_project_management_package_scenarios.md b/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    new file mode 100644\\n    index 00000000..41a917c1\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/11_project_management_package_scenarios.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:44",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b24485f659dc091340ac275c17de831bc79cee8b"
+        ]
+    },
+    "3fef799711b64b7f1af97c4ba132e5dc52de1532": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/12_dashboards.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:46):\\n- Docs/SystemDesign/12_dashboards.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/12_dashboards.md b/Docs/SystemDesign/12_dashboards.md\\n    new file mode 100644\\n    index 00000000..320f40df\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/12_dashboards.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:47",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:46 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b27380f68dfe1e0616332e0ebf51317d566283bf"
+        ]
+    },
+    "e6b1b71abf568b2ef82ab7290298b0ee4301e5b8": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/13_Reports.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:49):\\n- Docs/SystemDesign/13_Reports.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/13_Reports.md b/Docs/SystemDesign/13_Reports.md\\n    new file mode 100644\\n    index 00000000..89e8d882\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/13_Reports.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:50",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:49 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3fef799711b64b7f1af97c4ba132e5dc52de1532"
+        ]
+    },
+    "08a8d1934da86faa40e11eca9ffb62204d0f0cf3": {
+        "task_id": "root",
+        "file_path": "Docs/json_inputs_standard/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:52):\\n- Docs/json_inputs_standard/: This file is new and not yet tracked by git.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:52",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:52 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e6b1b71abf568b2ef82ab7290298b0ee4301e5b8"
+        ]
+    },
+    "1f24c98e413857d8bd620a93687999ebe2f029d8": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250726_120732/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:54):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250726_120732/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_120732/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_120732/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_120732/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_120732/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:56",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:54 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "08a8d1934da86faa40e11eca9ffb62204d0f0cf3"
+        ]
+    },
+    "47afcc72dcadfe685f7a355a82ce72fb19c816d0": {
+        "task_id": "root",
+        "file_path": "temp_detailed_wbs_section.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 12:10:58):\\n- temp_detailed_wbs_section.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/temp_detailed_wbs_section.md b/temp_detailed_wbs_section.md\\n    new file mode 100644\\n    index 00000000..5ef0e757\\n    --- /dev/null\\n    +++ b/temp_detailed_wbs_section.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:58",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:58 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1f24c98e413857d8bd620a93687999ebe2f029d8"
+        ]
     }
 }
