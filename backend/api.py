@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
 from backend.api_inputs import router as inputs_router
+from backend.api_setup import router as setup_router
 
 app = FastAPI()
 
@@ -45,3 +46,4 @@ def get_risk_management_report():
     return load_json('risk_management_report.json')
 
 app.include_router(inputs_router)
+app.include_router(setup_router)
