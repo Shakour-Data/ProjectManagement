@@ -5,7 +5,7 @@ from pathlib import Path
 
 class BackupManager:
     def __init__(self,
-                 source_dir: str = "project_inputs/PM_JSON/user_inputs",
+                 source_dir: str = "project_management/data/PM_JSON/user_inputs",
                  backup_base_dir: str = "project_management/PM_Backups/user_inputs_backup"):
         self.source_dir = Path(source_dir)
         self.backup_base_dir = Path(backup_base_dir)
