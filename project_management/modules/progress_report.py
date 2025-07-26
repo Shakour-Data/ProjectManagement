@@ -85,10 +85,10 @@ def generate_report(task_management=None):
     report = ProgressReport()
     report.generate()
 
+
 def generate_importance_urgency_report(task_management=None):
-    from project_management.modules.reports.importance_urgency_report import ImportanceUrgencyReport
-    report = ImportanceUrgencyReport()
-    report.generate()
+    # Removed import and usage of deleted importance_urgency_report module
+    pass
 
 if __name__ == "__main__":
     report = ProgressReport()
