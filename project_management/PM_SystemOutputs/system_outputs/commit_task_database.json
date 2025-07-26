@@ -11761,5 +11761,1382 @@
         "parent_commits": [
             "b44446c1e5db2a86fb408587b839862f2733c782"
         ]
+    },
+    "8cf385f2b9c671abb48d9599e43171f336568aa0": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:39:58):\\n- Docs/SystemDesign/documentation/detailed_implementation_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:00",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:39:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7c855c53df9502f1ba45704dc8cd54eefd7c3d0f"
+        ]
+    },
+    "75e5ba1bad7d30fc90cca3f93e92c451ff771191": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/final_product_description_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:03):\\n- Docs/SystemDesign/documentation/final_product_description_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/final_product_description_en.md b/Docs/SystemDesign/documentation/final_product_description_en.md\\n    deleted file mode 100644\\n    index f91dcd03..00000000\\n    --- a/Docs/SystemDesign/documentation/final_product_description_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:04",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "8cf385f2b9c671abb48d9599e43171f336568aa0"
+        ]
+    },
+    "dc3a5f5483360553068c69e41cbe25f926e86fee": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/final_product_description_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:05):\\n- Docs/SystemDesign/documentation/final_product_description_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:06",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "75e5ba1bad7d30fc90cca3f93e92c451ff771191"
+        ]
+    },
+    "1b9f9fe77e8c0d95e1d56282b18772f25e47c220": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/implementation_plan_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:08):\\n- Docs/SystemDesign/documentation/implementation_plan_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/implementation_plan_en.md b/Docs/SystemDesign/documentation/implementation_plan_en.md\\n    deleted file mode 100644\\n    index fd81139f..00000000\\n    --- a/Docs/SystemDesign/documentation/implementation_plan_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:09",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "dc3a5f5483360553068c69e41cbe25f926e86fee"
+        ]
+    },
+    "a3aaf6fdbcd50861f48b44175d639d9807358c3a": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/implementation_plan_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:11):\\n- Docs/SystemDesign/documentation/implementation_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:11",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:11 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1b9f9fe77e8c0d95e1d56282b18772f25e47c220"
+        ]
+    },
+    "e0e3ce0143a553b7003755217105cd0d9721dfb1": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/project_features_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:13):\\n- Docs/SystemDesign/documentation/project_features_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_features_en.md b/Docs/SystemDesign/documentation/project_features_en.md\\n    deleted file mode 100644\\n    index f402699e..00000000\\n    --- a/Docs/SystemDesign/documentation/project_features_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:14",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:13 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a3aaf6fdbcd50861f48b44175d639d9807358c3a"
+        ]
+    },
+    "c7fdde02e5828cf2e1ca178d9b44727e3cffc80e": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/project_features_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:16):\\n- Docs/SystemDesign/documentation/project_features_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:16",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e0e3ce0143a553b7003755217105cd0d9721dfb1"
+        ]
+    },
+    "80739cf5157f29ff8000249c1261995c5e2d1ae6": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/project_management_package_overview_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:19):\\n- Docs/SystemDesign/documentation/project_management_package_overview_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/project_management_package_overview_en.md b/Docs/SystemDesign/documentation/project_management_package_overview_en.md\\n    deleted file mode 100644\\n    index 42b21087..00000000\\n    --- a/Docs/SystemDesign/documentation/project_management_package_overview_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:19",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c7fdde02e5828cf2e1ca178d9b44727e3cffc80e"
+        ]
+    },
+    "4071cdaa2dff1c53f9ef44bed9be3fdcce161dca": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/project_management_package_overview_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:21):\\n- Docs/SystemDesign/documentation/project_management_package_overview_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:22",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "80739cf5157f29ff8000249c1261995c5e2d1ae6"
+        ]
+    },
+    "dd802b804b38ec2fb72b3a1dc62341c9ea71dc14": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/test_checklist_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:24):\\n- Docs/SystemDesign/documentation/test_checklist_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/test_checklist_en.md b/Docs/SystemDesign/documentation/test_checklist_en.md\\n    deleted file mode 100644\\n    index 49eb981b..00000000\\n    --- a/Docs/SystemDesign/documentation/test_checklist_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:26",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:24 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "4071cdaa2dff1c53f9ef44bed9be3fdcce161dca"
+        ]
+    },
+    "174a04e5174cbae4a33891983b3e6cb80a13e6d7": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/test_checklist_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:28):\\n- Docs/SystemDesign/documentation/test_checklist_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:28",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:28 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "dd802b804b38ec2fb72b3a1dc62341c9ea71dc14"
+        ]
+    },
+    "c11818aaeff3b15dc0ad988d9d58e2d2abc18afb": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/testing_instructions_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:31):\\n- Docs/SystemDesign/documentation/testing_instructions_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/testing_instructions_en.md b/Docs/SystemDesign/documentation/testing_instructions_en.md\\n    deleted file mode 100644\\n    index 6a1a69ad..00000000\\n    --- a/Docs/SystemDesign/documentation/testing_instructions_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:31",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:31 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "174a04e5174cbae4a33891983b3e6cb80a13e6d7"
+        ]
+    },
+    "ecc60355d5ad0cb42ad8ae273a763eecd6ca13a7": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/testing_instructions_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 09:40:33):\\n- Docs/SystemDesign/documentation/testing_instructions_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:34",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:33 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c11818aaeff3b15dc0ad988d9d58e2d2abc18afb"
+        ]
+    },
+    "38be81834ba6a87b118897b5028c2c43c6fb9531": {
+        "task_id": "root",
+        "file_path": "project_management/modules/auto_commit.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-26 09:40:36):\\n- project_management/modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/auto_commit.py b/project_management/modules/auto_commit.py\\n    index 9f8fd8ce..b45458c6 100644\\n    --- a/project_management/modules/auto_commit.py\\n    +++ b/project_management/modules/auto_commit.py\\n    @@ -17,6 +17,8 @@ class AutoCommit:\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:37",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ecc60355d5ad0cb42ad8ae273a763eecd6ca13a7"
+        ]
+    },
+    "fd32ba590d1febd075d99fd08b56212515173e6b": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:39):\\n- Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md b/Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md\\n    new file mode 100644\\n    index 00000000..b5a88b40\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:39",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "38be81834ba6a87b118897b5028c2c43c6fb9531"
+        ]
+    },
+    "ca8bef3ce79560933d8a340a356d4869cf20fcf8": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:42):\\n- Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md b/Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md\\n    new file mode 100644\\n    index 00000000..02ca436a\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:42",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fd32ba590d1febd075d99fd08b56212515173e6b"
+        ]
+    },
+    "5c827d18da58b0a99f034c5026d5d44fdb6e6f6e": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/03_implementation_plan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:44):\\n- Docs/SystemDesign/documentation/03_implementation_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/03_implementation_plan.md b/Docs/SystemDesign/documentation/03_implementation_plan.md\\n    new file mode 100644\\n    index 00000000..09d67249\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/03_implementation_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:45",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ca8bef3ce79560933d8a340a356d4869cf20fcf8"
+        ]
+    },
+    "38f128358bb4617da712eccb3f2f2bcb27c8308d": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:47):\\n- Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md b/Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md\\n    new file mode 100644\\n    index 00000000..82e316a0\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:48",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5c827d18da58b0a99f034c5026d5d44fdb6e6f6e"
+        ]
+    },
+    "0f6f8e7672294e63e6fdeb6dcac08f76aa1149fd": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/05_requirements_specification_document.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:50):\\n- Docs/SystemDesign/documentation/05_requirements_specification_document.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/05_requirements_specification_document.md b/Docs/SystemDesign/documentation/05_requirements_specification_document.md\\n    new file mode 100644\\n    index 00000000..f389e3b9\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/05_requirements_specification_document.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:50",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:50 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "38f128358bb4617da712eccb3f2f2bcb27c8308d"
+        ]
+    },
+    "6b1d508ce1465e743b0d327dbd7a8b496f04c3c5": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/06_system_design_document.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:53):\\n- Docs/SystemDesign/documentation/06_system_design_document.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/06_system_design_document.md b/Docs/SystemDesign/documentation/06_system_design_document.md\\n    new file mode 100644\\n    index 00000000..a6484f52\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/06_system_design_document.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:53",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:53 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "0f6f8e7672294e63e6fdeb6dcac08f76aa1149fd"
+        ]
+    },
+    "1a8dbc0404af6fae6fda7fdfbdb7ddc778369627": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:55):\\n- Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md b/Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md\\n    new file mode 100644\\n    index 00000000..fb39ad59\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:56",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:55 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "6b1d508ce1465e743b0d327dbd7a8b496f04c3c5"
+        ]
+    },
+    "ba766fdd65733a6c06b0719ee26cd8c544bf48f1": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:40:58):\\n- Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md b/Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md\\n    new file mode 100644\\n    index 00000000..fcb76721\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:10:59",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:40:58 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1a8dbc0404af6fae6fda7fdfbdb7ddc778369627"
+        ]
+    },
+    "f6b8caddf50b79109fcc7aa9fe504dd6323102c4": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:00):\\n- Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md b/Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md\\n    new file mode 100644\\n    index 00000000..710544fd\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:01",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:01 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ba766fdd65733a6c06b0719ee26cd8c544bf48f1"
+        ]
+    },
+    "cc65e1e874130e9664f77276e2dc62c606430812": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:03):\\n- Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md b/Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md\\n    new file mode 100644\\n    index 00000000..5e2d92e3\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:04",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:03 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f6b8caddf50b79109fcc7aa9fe504dd6323102c4"
+        ]
+    },
+    "3b574fed0aab8b43367cba4cdc35e7909376c795": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/DocumentCreationPlan.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:06):\\n- Docs/SystemDesign/documentation/DocumentCreationPlan.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/DocumentCreationPlan.md b/Docs/SystemDesign/documentation/DocumentCreationPlan.md\\n    new file mode 100644\\n    index 00000000..acd55818\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/documentation/DocumentCreationPlan.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:07",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:06 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "cc65e1e874130e9664f77276e2dc62c606430812"
+        ]
+    },
+    "7f01f7ec1e68c3a95172c0ac45377ef2ca08ea34": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250726_083808/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:09):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250726_083808/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_083808/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_083808/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_083808/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_083808/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:10",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:09 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3b574fed0aab8b43367cba4cdc35e7909376c795"
+        ]
+    },
+    "931e080244f7a6cae00a3c7c2e9a9cd545c02995": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250726_083843/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:12):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250726_083843/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_083843/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_083843/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_083843/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_083843/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:12",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:12 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7f01f7ec1e68c3a95172c0ac45377ef2ca08ea34"
+        ]
+    },
+    "5d47c811fb64af3db7f59ac913da404ed6a8d12b": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250726_084124/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:15):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250726_084124/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_084124/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_084124/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_084124/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_084124/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:15",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:15 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "931e080244f7a6cae00a3c7c2e9a9cd545c02995"
+        ]
+    },
+    "e53cb1960b359c480ae833271ebc06ba0b7c139b": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250726_093958/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-26 09:41:17):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250726_093958/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_093958/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_093958/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250726_093958/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250726_093958/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.01,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 06:11:18",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 09:41:17 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5d47c811fb64af3db7f59ac913da404ed6a8d12b"
+        ]
+    },
+    "c2a7ae9ac3cc13f959794831baf6a6ec2a28c7bf": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:33):\\n- Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md b/Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md\\n    deleted file mode 100644\\n    index b5a88b40..00000000\\n    --- a/Docs/SystemDesign/documentation/01_project_overview_and_final_product_description.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:34",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:33 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e53cb1960b359c480ae833271ebc06ba0b7c139b"
+        ]
+    },
+    "a0a60ca08eaa5a2eef955f1682d33e4a0830c278": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:37):\\n- Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md b/Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md\\n    deleted file mode 100644\\n    index 02ca436a..00000000\\n    --- a/Docs/SystemDesign/documentation/02_project_features_and_functional_specifications.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:37",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:37 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c2a7ae9ac3cc13f959794831baf6a6ec2a28c7bf"
+        ]
+    },
+    "2835c46b6444b677c236d996371e0acc3cc13ca6": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/03_implementation_plan.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:39):\\n- Docs/SystemDesign/documentation/03_implementation_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/03_implementation_plan.md b/Docs/SystemDesign/documentation/03_implementation_plan.md\\n    deleted file mode 100644\\n    index 09d67249..00000000\\n    --- a/Docs/SystemDesign/documentation/03_implementation_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:40",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a0a60ca08eaa5a2eef955f1682d33e4a0830c278"
+        ]
+    },
+    "3b24d8315c51744bf3c5058e39cd7b9def4a0b38": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:42):\\n- Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md b/Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md\\n    deleted file mode 100644\\n    index 82e316a0..00000000\\n    --- a/Docs/SystemDesign/documentation/04_work_breakdown_structure_and_project_management_overview.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:43",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2835c46b6444b677c236d996371e0acc3cc13ca6"
+        ]
+    },
+    "302985edf98b96724545c337aff637c8312334ec": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/05_requirements_specification_document.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:44):\\n- Docs/SystemDesign/documentation/05_requirements_specification_document.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/05_requirements_specification_document.md b/Docs/SystemDesign/documentation/05_requirements_specification_document.md\\n    deleted file mode 100644\\n    index f389e3b9..00000000\\n    --- a/Docs/SystemDesign/documentation/05_requirements_specification_document.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:45",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:45 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3b24d8315c51744bf3c5058e39cd7b9def4a0b38"
+        ]
+    },
+    "ce6f9fac95f46fc26dd813f55d1e2959cd8fa82a": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/06_system_design_document.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:47):\\n- Docs/SystemDesign/documentation/06_system_design_document.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/06_system_design_document.md b/Docs/SystemDesign/documentation/06_system_design_document.md\\n    deleted file mode 100644\\n    index a6484f52..00000000\\n    --- a/Docs/SystemDesign/documentation/06_system_design_document.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:48",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "302985edf98b96724545c337aff637c8312334ec"
+        ]
+    },
+    "239bed60ebf7f56e4075297c278113ce0f28b3c2": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:50):\\n- Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md b/Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md\\n    deleted file mode 100644\\n    index fb39ad59..00000000\\n    --- a/Docs/SystemDesign/documentation/07_test_plan_and_testing_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:50",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:50 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "ce6f9fac95f46fc26dd813f55d1e2959cd8fa82a"
+        ]
+    },
+    "fee0b7308e4491a99b68dfbcdfbb5d3c775b4112": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:52):\\n- Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md b/Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md\\n    deleted file mode 100644\\n    index fcb76721..00000000\\n    --- a/Docs/SystemDesign/documentation/08_standard_operating_procedures_and_help_documentation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:54",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:53 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "239bed60ebf7f56e4075297c278113ce0f28b3c2"
+        ]
+    },
+    "e7c2370467f4f5a3d2a34c227adc403314712a30": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:56):\\n- Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md b/Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md\\n    deleted file mode 100644\\n    index 710544fd..00000000\\n    --- a/Docs/SystemDesign/documentation/09_change_management_and_versioning_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:57",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:56 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fee0b7308e4491a99b68dfbcdfbb5d3c775b4112"
+        ]
+    },
+    "bbbe1d4b350a6bc15a02f98117f145aecad43984": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:07:59):\\n- Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md b/Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md\\n    deleted file mode 100644\\n    index 5e2d92e3..00000000\\n    --- a/Docs/SystemDesign/documentation/10_communication_risk_management_and_documentation_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:37:59",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:07:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e7c2370467f4f5a3d2a34c227adc403314712a30"
+        ]
+    },
+    "7d9d2751adf891a5d2e221db8b4e2f422b530e62": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/documentation/DocumentCreationPlan.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:01):\\n- Docs/SystemDesign/documentation/DocumentCreationPlan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/documentation/DocumentCreationPlan.md b/Docs/SystemDesign/documentation/DocumentCreationPlan.md\\n    deleted file mode 100644\\n    index acd55818..00000000\\n    --- a/Docs/SystemDesign/documentation/DocumentCreationPlan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:02",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:01 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "bbbe1d4b350a6bc15a02f98117f145aecad43984"
+        ]
+    },
+    "fbe5ab81aaa392f0430abba09c0aa7075a59badb": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:04):\\n- Docs/SystemDesign/general_instructions/general_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions.md b/Docs/SystemDesign/general_instructions/general_instructions.md\\n    deleted file mode 100644\\n    index b0ba5a12..00000000\\n    --- a/Docs/SystemDesign/general_instructions/general_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:06",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7d9d2751adf891a5d2e221db8b4e2f422b530e62"
+        ]
+    },
+    "386a9e55ddd96f6b1d786b8849d529fe283e5e3f": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:08):\\n- Docs/SystemDesign/general_instructions/general_instructions_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:08",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "fbe5ab81aaa392f0430abba09c0aa7075a59badb"
+        ]
+    },
+    "1e6f4c0022644e67a72ca399942f25871c6bffca": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_stepwise.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:11):\\n- Docs/SystemDesign/general_instructions/general_instructions_stepwise.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/general_instructions/general_instructions_stepwise.md b/Docs/SystemDesign/general_instructions/general_instructions_stepwise.md\\n    deleted file mode 100644\\n    index 564c546b..00000000\\n    --- a/Docs/SystemDesign/general_instructions/general_instructions_stepwise.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:12",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:12 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "386a9e55ddd96f6b1d786b8849d529fe283e5e3f"
+        ]
+    },
+    "4c9b4f327eb48944f8c91512f38fa043e88648c0": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:15):\\n- Docs/SystemDesign/general_instructions/general_instructions_stepwise_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:16",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:15 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1e6f4c0022644e67a72ca399942f25871c6bffca"
+        ]
+    },
+    "97f35da7b78d15c5b66ed4a269ac19b6af22cdb9": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/json_standards/auto_commit_process.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:18):\\n- Docs/SystemDesign/json_standards/auto_commit_process.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/auto_commit_process.md b/Docs/SystemDesign/json_standards/auto_commit_process.md\\n    deleted file mode 100644\\n    index 1fc54051..00000000\\n    --- a/Docs/SystemDesign/json_standards/auto_commit_process.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:18",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:18 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "4c9b4f327eb48944f8c91512f38fa043e88648c0"
+        ]
+    },
+    "554228fed0318e2ac2c5d1970d2f0cd7685d1696": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/json_standards/commit_task_database.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:20):\\n- Docs/SystemDesign/json_standards/commit_task_database.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/commit_task_database.md b/Docs/SystemDesign/json_standards/commit_task_database.md\\n    deleted file mode 100644\\n    index 07cc62e6..00000000\\n    --- a/Docs/SystemDesign/json_standards/commit_task_database.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:22",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:21 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "97f35da7b78d15c5b66ed4a269ac19b6af22cdb9"
+        ]
+    },
+    "9ce612cdf5378c42201264a81da2463285d8d299": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/json_standards/json_files_overview.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:24):\\n- Docs/SystemDesign/json_standards/json_files_overview.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:24",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:24 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "554228fed0318e2ac2c5d1970d2f0cd7685d1696"
+        ]
+    },
+    "454cee5764e3dd6d9122a587f1ac8c61da4b2372": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/json_standards/json_input_files_usage.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:26):\\n- Docs/SystemDesign/json_standards/json_input_files_usage.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_input_files_usage.md b/Docs/SystemDesign/json_standards/json_input_files_usage.md\\n    deleted file mode 100644\\n    index 390a2146..00000000\\n    --- a/Docs/SystemDesign/json_standards/json_input_files_usage.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:27",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:26 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9ce612cdf5378c42201264a81da2463285d8d299"
+        ]
+    },
+    "c29dd43c441f07784e28be7302095ef08145e20b": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/json_standards/json_workflow_detailed.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:29):\\n- Docs/SystemDesign/json_standards/json_workflow_detailed.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/json_workflow_detailed.md b/Docs/SystemDesign/json_standards/json_workflow_detailed.md\\n    deleted file mode 100644\\n    index 95ec242c..00000000\\n    --- a/Docs/SystemDesign/json_standards/json_workflow_detailed.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:30",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:30 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "454cee5764e3dd6d9122a587f1ac8c61da4b2372"
+        ]
+    },
+    "3c1903e5f9fbd185a9f0c1bc39d1c332953083ee": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/json_standards/workflow_definition_detailed.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:32):\\n- Docs/SystemDesign/json_standards/workflow_definition_detailed.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/json_standards/workflow_definition_detailed.md b/Docs/SystemDesign/json_standards/workflow_definition_detailed.md\\n    deleted file mode 100644\\n    index b2ed77e6..00000000\\n    --- a/Docs/SystemDesign/json_standards/workflow_definition_detailed.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:33",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:32 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "c29dd43c441f07784e28be7302095ef08145e20b"
+        ]
+    },
+    "154313ce49830cd0cd81540a0ee350050fb88ca8": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/project_management/dashboard_and_reports_plan.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:36):\\n- Docs/SystemDesign/project_management/dashboard_and_reports_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/dashboard_and_reports_plan.md b/Docs/SystemDesign/project_management/dashboard_and_reports_plan.md\\n    deleted file mode 100644\\n    index 02783da8..00000000\\n    --- a/Docs/SystemDesign/project_management/dashboard_and_reports_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:37",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:36 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "3c1903e5f9fbd185a9f0c1bc39d1c332953083ee"
+        ]
+    },
+    "dc14e8106802990bbb7a156d75a36f6ef12d98f4": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/project_management/detailed_wbs.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:38):\\n- Docs/SystemDesign/project_management/detailed_wbs.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/detailed_wbs.md b/Docs/SystemDesign/project_management/detailed_wbs.md\\n    deleted file mode 100644\\n    index f200ada1..00000000\\n    --- a/Docs/SystemDesign/project_management/detailed_wbs.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:40",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "154313ce49830cd0cd81540a0ee350050fb88ca8"
+        ]
+    },
+    "a71fd609e97d9883fd74c5bb5b39e1ad9fa62d91": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:41):\\n- Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md b/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md\\n    deleted file mode 100644\\n    index 1347399a..00000000\\n    --- a/Docs/SystemDesign/project_management/importance_urgency_priority_instructions.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:42",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:42 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "dc14e8106802990bbb7a156d75a36f6ef12d98f4"
+        ]
+    },
+    "504080fe03f24c0ab2d03f8bf5a3f6f524132e19": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/project_management/package_process_documentation.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:44):\\n- Docs/SystemDesign/project_management/package_process_documentation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/package_process_documentation.md b/Docs/SystemDesign/project_management/package_process_documentation.md\\n    deleted file mode 100644\\n    index c3c1fea8..00000000\\n    --- a/Docs/SystemDesign/project_management/package_process_documentation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:45",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a71fd609e97d9883fd74c5bb5b39e1ad9fa62d91"
+        ]
+    },
+    "2b924f66ab0a5add0d8ed0def1a7b0b6272d7d38": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/project_management/project_management_package_scenario.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:47):\\n- Docs/SystemDesign/project_management/project_management_package_scenario.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/project_management_package_scenario.md b/Docs/SystemDesign/project_management/project_management_package_scenario.md\\n    deleted file mode 100644\\n    index fedbab48..00000000\\n    --- a/Docs/SystemDesign/project_management/project_management_package_scenario.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:48",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "504080fe03f24c0ab2d03f8bf5a3f6f524132e19"
+        ]
+    },
+    "2a7f118ecc4e2eb3f70f77babbd6626b08ea8eff": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/project_management/task_resource_allocation.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:49):\\n- Docs/SystemDesign/project_management/task_resource_allocation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/project_management/task_resource_allocation.md b/Docs/SystemDesign/project_management/task_resource_allocation.md\\n    deleted file mode 100644\\n    index 93edda45..00000000\\n    --- a/Docs/SystemDesign/project_management/task_resource_allocation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:51",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:50 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2b924f66ab0a5add0d8ed0def1a7b0b6272d7d38"
+        ]
+    },
+    "5d773655dfe8a73c85f39297a36a399583d2b13f": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/cost_management_dashboard.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:53):\\n- Docs/SystemDesign/reports/cost_management_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_management_dashboard.md b/Docs/SystemDesign/reports/cost_management_dashboard.md\\n    deleted file mode 100644\\n    index 56a7dd49..00000000\\n    --- a/Docs/SystemDesign/reports/cost_management_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:53",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:53 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "2a7f118ecc4e2eb3f70f77babbd6626b08ea8eff"
+        ]
+    },
+    "8aa0ce55e30487a120b4629a1ba94f3eba5d52aa": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/cost_management_dashboard_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:55):\\n- Docs/SystemDesign/reports/cost_management_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:38:57",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:56 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "5d773655dfe8a73c85f39297a36a399583d2b13f"
+        ]
+    },
+    "33fdfef73da537fc0e324fb7e3781332d3c7ccf6": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/cost_report.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:08:59):\\n- Docs/SystemDesign/reports/cost_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/cost_report.md b/Docs/SystemDesign/reports/cost_report.md\\n    deleted file mode 100644\\n    index 063a5fba..00000000\\n    --- a/Docs/SystemDesign/reports/cost_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:00",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:08:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "8aa0ce55e30487a120b4629a1ba94f3eba5d52aa"
+        ]
+    },
+    "1574c7528c6acb760765d8235f7f56f0e488cfe0": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/cost_report_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:02):\\n- Docs/SystemDesign/reports/cost_report_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:03",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:02 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "33fdfef73da537fc0e324fb7e3781332d3c7ccf6"
+        ]
+    },
+    "e2a4dc17befa00dc90e7856b884c2bc795b4c787": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:05):\\n- Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md b/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md\\n    deleted file mode 100644\\n    index 20d4c66d..00000000\\n    --- a/Docs/SystemDesign/reports/dashboard_and_reports_plan_en.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:05",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1574c7528c6acb760765d8235f7f56f0e488cfe0"
+        ]
+    },
+    "551457104c863e4f150c6fb44f2ce77db4c9b6d1": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:08):\\n- Docs/SystemDesign/reports/dashboard_and_reports_plan_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:09",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e2a4dc17befa00dc90e7856b884c2bc795b4c787"
+        ]
+    },
+    "e87fe95a3795f774507f57cfdc014e8bfbf4a1dc": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/github_synchronization_report.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:10):\\n- Docs/SystemDesign/reports/github_synchronization_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/github_synchronization_report.md b/Docs/SystemDesign/reports/github_synchronization_report.md\\n    deleted file mode 100644\\n    index d60ec0d6..00000000\\n    --- a/Docs/SystemDesign/reports/github_synchronization_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:11",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:10 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "551457104c863e4f150c6fb44f2ce77db4c9b6d1"
+        ]
+    },
+    "f875eb81c672a99eb2ecfd4c6ed0d84411126cb0": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/github_synchronization_report_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:14):\\n- Docs/SystemDesign/reports/github_synchronization_report_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:14",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:14 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "e87fe95a3795f774507f57cfdc014e8bfbf4a1dc"
+        ]
+    },
+    "6d9d0ef70dff836fbc0f7e0b32a2d0b3c9cbedc2": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_dashboard.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:16):\\n- Docs/SystemDesign/reports/importance_urgency_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_dashboard.md b/Docs/SystemDesign/reports/importance_urgency_dashboard.md\\n    deleted file mode 100644\\n    index 0ee90e8a..00000000\\n    --- a/Docs/SystemDesign/reports/importance_urgency_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:17",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:16 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "f875eb81c672a99eb2ecfd4c6ed0d84411126cb0"
+        ]
+    },
+    "a49327e6a3a2a862f35346ec96d60e13a4e50b86": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:19):\\n- Docs/SystemDesign/reports/importance_urgency_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:20",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:19 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "6d9d0ef70dff836fbc0f7e0b32a2d0b3c9cbedc2"
+        ]
+    },
+    "afbc9981ccffc1ae18dc9a773b7df913dbc1d905": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_report.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:22):\\n- Docs/SystemDesign/reports/importance_urgency_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/importance_urgency_report.md b/Docs/SystemDesign/reports/importance_urgency_report.md\\n    deleted file mode 100644\\n    index e4259146..00000000\\n    --- a/Docs/SystemDesign/reports/importance_urgency_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:23",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:22 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "a49327e6a3a2a862f35346ec96d60e13a4e50b86"
+        ]
+    },
+    "6183dcd7d2285f1da7436f07699f0281f29abc9d": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/importance_urgency_report_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:25):\\n- Docs/SystemDesign/reports/importance_urgency_report_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:26",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:25 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "afbc9981ccffc1ae18dc9a773b7df913dbc1d905"
+        ]
+    },
+    "99c334b176cc3982b0c416d1d183db9499a3aab2": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/progress_dashboard.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:28):\\n- Docs/SystemDesign/reports/progress_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_dashboard.md b/Docs/SystemDesign/reports/progress_dashboard.md\\n    deleted file mode 100644\\n    index 556e6eb2..00000000\\n    --- a/Docs/SystemDesign/reports/progress_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:28",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:28 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "6183dcd7d2285f1da7436f07699f0281f29abc9d"
+        ]
+    },
+    "50122fe7f3e49cf03c503e3a37c95d6777efe049": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/progress_dashboard_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:31):\\n- Docs/SystemDesign/reports/progress_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:32",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:31 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "99c334b176cc3982b0c416d1d183db9499a3aab2"
+        ]
+    },
+    "1e2b7872e92729e42310d6a6cee74b2b1bc7b82e": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/progress_report.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:34):\\n- Docs/SystemDesign/reports/progress_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/progress_report.md b/Docs/SystemDesign/reports/progress_report.md\\n    deleted file mode 100644\\n    index 8fc6f5ce..00000000\\n    --- a/Docs/SystemDesign/reports/progress_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:35",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:34 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "50122fe7f3e49cf03c503e3a37c95d6777efe049"
+        ]
+    },
+    "35cff4c504d0ee23b94ef20c549bebe9e8e7f005": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/progress_report_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:38):\\n- Docs/SystemDesign/reports/progress_report_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:40",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:39 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1e2b7872e92729e42310d6a6cee74b2b1bc7b82e"
+        ]
+    },
+    "19084de45c7bdf1bf812957d48e16210d519c917": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/resource_allocation_dashboard.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:43):\\n- Docs/SystemDesign/reports/resource_allocation_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_allocation_dashboard.md b/Docs/SystemDesign/reports/resource_allocation_dashboard.md\\n    deleted file mode 100644\\n    index 43e3f507..00000000\\n    --- a/Docs/SystemDesign/reports/resource_allocation_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:44",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:44 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "35cff4c504d0ee23b94ef20c549bebe9e8e7f005"
+        ]
+    },
+    "9c191f03f028a8f49f01ed3328eab289d22396fa": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:47):\\n- Docs/SystemDesign/reports/resource_allocation_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:49",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:47 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "19084de45c7bdf1bf812957d48e16210d519c917"
+        ]
+    },
+    "b80e0c3bb90bdf6b966e62aa78a3f9a2f0c725c4": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/resource_utilization_report.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:51):\\n- Docs/SystemDesign/reports/resource_utilization_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/resource_utilization_report.md b/Docs/SystemDesign/reports/resource_utilization_report.md\\n    deleted file mode 100644\\n    index 8164e573..00000000\\n    --- a/Docs/SystemDesign/reports/resource_utilization_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:52",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:52 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "9c191f03f028a8f49f01ed3328eab289d22396fa"
+        ]
+    },
+    "43ab39d3aa42935948acde5f765d84b6fc7f93df": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/resource_utilization_report_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:56):\\n- Docs/SystemDesign/reports/resource_utilization_report_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:39:56",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:56 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "b80e0c3bb90bdf6b966e62aa78a3f9a2f0c725c4"
+        ]
+    },
+    "1d63c70360295c72db19370ce1ab74e6ffd5d087": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/risk_management_dashboard.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:09:58):\\n- Docs/SystemDesign/reports/risk_management_dashboard.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_management_dashboard.md b/Docs/SystemDesign/reports/risk_management_dashboard.md\\n    deleted file mode 100644\\n    index 1e705485..00000000\\n    --- a/Docs/SystemDesign/reports/risk_management_dashboard.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:00",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:09:59 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "43ab39d3aa42935948acde5f765d84b6fc7f93df"
+        ]
+    },
+    "7451826e0cdb6f875e4e46d7d66cf391e0d6d03f": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/risk_management_dashboard_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:10:02):\\n- Docs/SystemDesign/reports/risk_management_dashboard_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:03",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:02 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "1d63c70360295c72db19370ce1ab74e6ffd5d087"
+        ]
+    },
+    "29d73094568484c1547cffed459d9d1713e3c234": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/risk_report.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:10:04):\\n- Docs/SystemDesign/reports/risk_report.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/reports/risk_report.md b/Docs/SystemDesign/reports/risk_report.md\\n    deleted file mode 100644\\n    index b0553442..00000000\\n    --- a/Docs/SystemDesign/reports/risk_report.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:06",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:05 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "7451826e0cdb6f875e4e46d7d66cf391e0d6d03f"
+        ]
+    },
+    "20eedacc3cc29ad55284c757b5948c5d2b4d932b": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/reports/risk_report_fa.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-26 12:10:08):\\n- Docs/SystemDesign/reports/risk_report_fa.md: This file was removed from the project.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:09",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:08 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "29d73094568484c1547cffed459d9d1713e3c234"
+        ]
+    },
+    "65429f5ba9e69a356f2d41e984a8504a9c896e44": {
+        "task_id": "root",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_progress.json",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-26 12:10:11):\\n- project_management/PM_SystemOutputs/system_outputs/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/PM_SystemOutputs/system_outputs/commit_progress.json b/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    index 253c9202..0e9285b2 100644\\n    --- a/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    +++ b/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    @@ -1,3 +1,3 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.004,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-26 08:40:12",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sat Jul 26 12:10:11 2025 +0330",
+        "branch": "* develop",
+        "parent_commits": [
+            "20eedacc3cc29ad55284c757b5948c5d2b4d932b"
+        ]
     }
 }
