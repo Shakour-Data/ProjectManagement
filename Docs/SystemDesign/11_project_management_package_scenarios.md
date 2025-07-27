@@ -1,11 +1,13 @@
 # Project Management Package Scenarios
 
-This document defines all possible scenarios for the Project Management Package, providing a comprehensive overview of the package's usage, setup, planning, execution, and monitoring processes.
+*Last updated: 2024-07-27*
+
+This document defines all possible scenarios for the ProjectManagement system, providing a comprehensive overview of the package's usage, setup, planning, execution, and monitoring processes.
 
 ## 1. Initial Setup and Installation
 
 1. The user creates an empty project folder.
-2. The Project Management package is installed into the project folder.
+2. The ProjectManagement package is installed into the project folder.
 3. The package files and folders are not tracked by the user's project Git repository.
 4. A Git repository is initialized in the project folder.
 5. Essential files such as `requirements.txt`, `.gitignore`, and `README.md` are created.
@@ -14,7 +16,7 @@ This document defines all possible scenarios for the Project Management Package,
 8. Virtual environment files and folders are excluded from Git tracking.
 9. The required Python packages listed in `requirements.txt` are installed.
 10. The system instructs the user to add JSON files for the Work Breakdown Structure (WBS) parts under the directory:  
-    `project_inputs/PM_JSON/user_inputs/wbs_parts`
+    `SystemInputs/user_inputs/wbs_parts`
 11. The user must add three levels of WBS parts to plan the project.
 12. The system lists the expected JSON filenames and paths one by one.
 13. The user completes each JSON file according to the provided standards and confirms by pressing Enter.
