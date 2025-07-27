@@ -6,3 +6,6 @@ openpyxl
 markdownify
 schedule
 pywin32
+uvicorn
+fastapi
+starlette
