@@ -1,14 +1,14 @@
 # Requirements Specification Document
 
-*Last updated: 2024-06-10*
+*Last updated: 2024-07-27*
 
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document specifies the functional and non-functional requirements for the Project Management Tool. It serves as a foundation for design, development, testing, and validation.
+This document specifies the functional and non-functional requirements for the ProjectManagement system. It serves as a foundation for design, development, testing, and validation of the project management tool.
 
 ### 1.2 Scope
-The Project Management Tool is designed to automate software project management tasks, integrating deeply with GitHub and Visual Studio Code to streamline workflows and enhance productivity.
+The ProjectManagement system is a standalone Python package that automates software project management tasks, integrating deeply with GitHub and Visual Studio Code to streamline workflows and enhance productivity.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 - PMBOK: Project Management Body of Knowledge
@@ -19,45 +19,45 @@ The Project Management Tool is designed to automate software project management 
 ## 2. Overall Description
 
 ### 2.1 Product Perspective
-The tool is a standalone Python package that integrates with GitHub and VS Code, providing an interactive chat interface and automated project management features.
+The system integrates with GitHub and VS Code, providing an interactive chat interface and automated project management features, including task tracking, reporting, and resource allocation.
 
 ### 2.2 Product Functions
-- Task creation and management
-- GitHub integration for issues, pull requests, and projects
-- Automated progress tracking and reporting
-- Resource allocation and scheduling
-- Notifications and alerts
+- Task creation and management from informal inputs.
+- GitHub integration for issues, pull requests, and projects.
+- Automated progress tracking and reporting.
+- Resource allocation and scheduling.
+- Notifications and alerts for task status and deadlines.
 
 ### 2.3 User Characteristics
 Target users include software project managers, developers, and teams seeking automation in project management.
 
 ### 2.4 Constraints
-- Requires GitHub repository access and API tokens
-- Dependent on VS Code environment for chat interface
-- Compliance with GitHub API rate limits
+- Requires GitHub repository access and API tokens.
+- Dependent on VS Code environment for chat interface.
+- Compliance with GitHub API rate limits.
 
 ### 2.5 Assumptions and Dependencies
-- Users have basic knowledge of GitHub and VS Code
-- Network connectivity for API interactions
+- Users have basic knowledge of GitHub and VS Code.
+- Network connectivity for API interactions.
 
 ## 3. Specific Requirements
 
 ### 3.1 Functional Requirements
-- FR1: The system shall parse informal user inputs into formal tasks.
-- FR2: The system shall synchronize task status with GitHub Issues and Projects.
-- FR3: The system shall provide real-time progress tracking based on commit history.
-- FR4: The system shall generate automated reports and dashboards.
-- FR5: The system shall support multiple project management methodologies.
-- FR6: The system shall manage resource allocation and scheduling.
-- FR7: The system shall send notifications for stalled tasks and deadlines.
-- FR8: The system shall provide role-based access control.
+- FR1: Parse informal user inputs into formal tasks.
+- FR2: Synchronize task status with GitHub Issues and Projects.
+- FR3: Provide real-time progress tracking based on commit history.
+- FR4: Generate automated reports and dashboards.
+- FR5: Support multiple project management methodologies.
+- FR6: Manage resource allocation and scheduling.
+- FR7: Send notifications for stalled tasks and deadlines.
+- FR8: Provide role-based access control.
 
 ### 3.2 Non-Functional Requirements
-- NFR1: The system shall ensure secure storage of authentication tokens.
-- NFR2: The system shall provide high availability and reliability.
-- NFR3: The system shall comply with GitHub API rate limits.
-- NFR4: The system shall have a user-friendly CLI and chat interface.
-- NFR5: The system shall support extensibility via plugins.
+- NFR1: Ensure secure storage of authentication tokens.
+- NFR2: Provide high availability and reliability.
+- NFR3: Comply with GitHub API rate limits.
+- NFR4: Offer a user-friendly CLI and chat interface.
+- NFR5: Support extensibility via plugins.
 
 ## 4. External Interface Requirements
 
@@ -87,11 +87,11 @@ Target users include software project managers, developers, and teams seeking au
 
 ## 6. Appendices
 
-- Glossary of terms
-- References to related documents and standards
+- Glossary of terms.
+- References to related documents and standards.
 
 ## 7. Revision History
 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
-| 1.0     | 2024-06-10 | Initial version           | Project Team |
+| 1.1     | 2024-07-27 | Updated to reflect current implementation | Project Team |
