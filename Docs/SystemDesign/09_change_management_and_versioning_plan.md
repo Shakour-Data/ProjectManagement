@@ -1,11 +1,11 @@
 # Change Management and Versioning Plan
 
-*Last updated: 2024-06-10*
+*Last updated: 2024-07-27*
 
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document outlines the processes and policies for managing changes and versioning within the Project Management Tool project to ensure controlled and traceable modifications.
+This document outlines the processes and policies for managing changes and versioning within the ProjectManagement system to ensure controlled and traceable modifications.
 
 ### 1.2 Scope
 Covers change request handling, version control strategies, release management, and documentation updates.
@@ -74,4 +74,4 @@ Covers change request handling, version control strategies, release management, 
 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
-| 1.0     | 2024-06-10 | Initial version           | Project Team |
+| 1.1     | 2024-07-27 | Updated to reflect current implementation | Project Team |
