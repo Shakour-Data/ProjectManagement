@@ -1,11 +1,11 @@
 # System Design Document
 
-*Last updated: 2024-06-10*
+*Last updated: 2024-07-27*
 
 ## 1. Introduction
 
 ### 1.1 Purpose
-This document describes the architecture and design of the Project Management Tool, providing a blueprint for development and future maintenance.
+This document describes the architecture and design of the ProjectManagement system, providing a blueprint for development and future maintenance.
 
 ### 1.2 Scope
 Covers system architecture, components, interfaces, data flow, and design decisions.
@@ -94,4 +94,4 @@ The system is a modular, Python-based application integrating with GitHub and VS
 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
-| 1.0     | 2024-06-10 | Initial version           | Project Team |
+| 1.1     | 2024-07-27 | Updated to reflect current implementation | Project Team |
