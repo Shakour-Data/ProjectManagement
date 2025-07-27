@@ -31,6 +31,10 @@ This checklist covers all necessary tests to ensure the auto_pm package works co
 | Test installation in a clean virtual environment.                                                 | ✅          | ⬜         |                  |                                        |
 | Verify package uninstallation works cleanly.                                                     | ✅          | ⬜         |                  |                                        |
 | Test `auto_pm install` command executes without errors and creates input directory.               | ✅          | ⬜         |                  |                                        |
+| Verify setup_and_run.sh script completes installation and setup without errors.                   | ⬜          | ⬜         |                  |                                        |
+| Verify backend and frontend servers start and are accessible on expected ports.                    | ⬜          | ⬜         |                  |                                        |
+| Verify desktop shortcut is created correctly on supported OSes and opens frontend UI.             | ⬜          | ⬜         |                  |                                        |
+| Verify user guidance messages appear during setup_and_run.sh execution.                           | ⬜          | ⬜         |                  |                                        |
 
 ## 2. Command Line Interface (CLI) Tests
 | Test Description                                                                                     | Initial Run | Latest Run | Latest Test Date | Notes                                  |
