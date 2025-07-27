@@ -13886,5 +13886,243 @@
         "parent_commits": [
             "1b97561690ff4f0bf6ceaafca42dbdcfca29bdf5"
         ]
+    },
+    "52403ec6ec7b6f73cad296a9ef80a873fb2ee6b5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/02_project_features_and_functional_specifications.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:08):\\n- Docs/SystemDesign/02_project_features_and_functional_specifications.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/02_project_features_and_functional_specifications.md b/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    index 02ca436a..79f1dcc8 100644\\n    --- a/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    +++ b/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    @@ -1,29 +1,28 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:08",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:08 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "34cc51c75c0b0849ae4af264c1416b1d3b93f6c0"
+        ]
+    },
+    "d3b22b7e4981e4b653682877296a32f889039405": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/03_implementation_plan.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:13):\\n- Docs/SystemDesign/03_implementation_plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/03_implementation_plan.md b/Docs/SystemDesign/03_implementation_plan.md\\n    index 09d67249..a593c1ca 100644\\n    --- a/Docs/SystemDesign/03_implementation_plan.md\\n    +++ b/Docs/SystemDesign/03_implementation_plan.md\\n    @@ -1,10 +1,10 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:13",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:13 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "52403ec6ec7b6f73cad296a9ef80a873fb2ee6b5"
+        ]
+    },
+    "949c7b767b12372cd0bd57b3e2d954433a7fe3b4": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:15):\\n- Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md b/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    index e4db8eaf..d7fbf939 100644\\n    --- a/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    +++ b/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    @@ -1,21 +1,21 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:15",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:15 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "d3b22b7e4981e4b653682877296a32f889039405"
+        ]
+    },
+    "c57122264a838c0804cc6580222a23ff5dc49c03": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/05_requirements_specification_document.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:18):\\n- Docs/SystemDesign/05_requirements_specification_document.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/05_requirements_specification_document.md b/Docs/SystemDesign/05_requirements_specification_document.md\\n    index f389e3b9..bf32b5fa 100644\\n    --- a/Docs/SystemDesign/05_requirements_specification_document.md\\n    +++ b/Docs/SystemDesign/05_requirements_specification_document.md\\n    @@ -1,14 +1,14 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:18",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:18 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "949c7b767b12372cd0bd57b3e2d954433a7fe3b4"
+        ]
+    },
+    "59c057e0b6e8a8c4a989773e3dd32b04805fbcbd": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/06_system_design_document.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:20):\\n- Docs/SystemDesign/06_system_design_document.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/06_system_design_document.md b/Docs/SystemDesign/06_system_design_document.md\\n    index a6484f52..e65e8591 100644\\n    --- a/Docs/SystemDesign/06_system_design_document.md\\n    +++ b/Docs/SystemDesign/06_system_design_document.md\\n    @@ -1,11 +1,11 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:20",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:20 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "c57122264a838c0804cc6580222a23ff5dc49c03"
+        ]
+    },
+    "750e4017ae84baf27914c18d39b4a37c0d27d6a0": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/07_test_plan_and_testing_instructions.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:23):\\n- Docs/SystemDesign/07_test_plan_and_testing_instructions.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/07_test_plan_and_testing_instructions.md b/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    index fb39ad59..d3c479fa 100644\\n    --- a/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    +++ b/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    @@ -1,12 +1,12 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:23",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:23 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "59c057e0b6e8a8c4a989773e3dd32b04805fbcbd"
+        ]
+    },
+    "779828f0e52355936afa5e59860277bee37b560c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:25):\\n- Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md b/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    index fcb76721..9bc23a34 100644\\n    --- a/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    +++ b/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    @@ -1,10 +1,10 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:25",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:25 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "750e4017ae84baf27914c18d39b4a37c0d27d6a0"
+        ]
+    },
+    "8625929bd26a865fdf84577871e4daeba094d494": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/09_change_management_and_versioning_plan.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:27):\\n- Docs/SystemDesign/09_change_management_and_versioning_plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/09_change_management_and_versioning_plan.md b/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    index 710544fd..6a659368 100644\\n    --- a/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    +++ b/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    @@ -1,11 +1,11 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:27",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:27 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "779828f0e52355936afa5e59860277bee37b560c"
+        ]
+    },
+    "d71bc46b3f7437562ea9ff2ca50b6c6026f6f4a5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:29):\\n- Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md b/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    index 5e2d92e3..8e6ab399 100644\\n    --- a/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    +++ b/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:30",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:29 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "8625929bd26a865fdf84577871e4daeba094d494"
+        ]
+    },
+    "940fea9cc388059967978b5564643aef9b012b01": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/11_project_management_package_scenarios.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:32):\\n- Docs/SystemDesign/11_project_management_package_scenarios.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/11_project_management_package_scenarios.md b/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    index 41a917c1..3d5cf6ec 100644\\n    --- a/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    +++ b/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    @@ -1,11 +1,13 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:32",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:32 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "d71bc46b3f7437562ea9ff2ca50b6c6026f6f4a5"
+        ]
+    },
+    "a5c003830d8644469276f6d9da6f9f0776978403": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/12_dashboards.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:34):\\n- Docs/SystemDesign/12_dashboards.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/12_dashboards.md b/Docs/SystemDesign/12_dashboards.md\\n    index 320f40df..cc5bc443 100644\\n    --- a/Docs/SystemDesign/12_dashboards.md\\n    +++ b/Docs/SystemDesign/12_dashboards.md\\n    @@ -1,10 +1,10 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:34",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:34 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "940fea9cc388059967978b5564643aef9b012b01"
+        ]
+    },
+    "97bff69f9ebfd37d907de47c0e1a7ee4b67d9b5d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/13_Reports.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:36):\\n- Docs/SystemDesign/13_Reports.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/13_Reports.md b/Docs/SystemDesign/13_Reports.md\\n    index 89e8d882..53797069 100644\\n    --- a/Docs/SystemDesign/13_Reports.md\\n    +++ b/Docs/SystemDesign/13_Reports.md\\n    @@ -42,88 +42,97 @@ The Cost Report provides a detailed financial overview of project costs, includi\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:36",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:36 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "a5c003830d8644469276f6d9da6f9f0776978403"
+        ]
+    },
+    "ef39443c8108f4311ee67065aa5918580544c521": {
+        "task_id": "root",
+        "file_path": "README.md",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-27 00:00:38):\\n- README.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/README.md b/README.md\\n    index 9f3448e4..d5364290 100644\\n    --- a/README.md\\n    +++ b/README.md\\n    @@ -24,11 +24,11 @@ ProjectManagement is a comprehensive Python-based project management system desi\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:38",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:38 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "97bff69f9ebfd37d907de47c0e1a7ee4b67d9b5d"
+        ]
+    },
+    "37a0113d2d92d60c70bc9f1332de4ad3dcd43ae3": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250727_000008/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-27 00:00:40):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250727_000008/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250727_000008/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250727_000008/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250727_000008/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-27 00:00:41",
+        "author": "GravityWavesDB",
+        "email": "161838785+GravityWavesMA@users.noreply.github.com",
+        "date": "Sun Jul 27 00:00:40 2025 +0000",
+        "branch": "* main",
+        "parent_commits": [
+            "ef39443c8108f4311ee67065aa5918580544c521"
+        ]
     }
 }
