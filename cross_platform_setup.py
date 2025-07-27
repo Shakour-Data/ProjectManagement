@@ -76,9 +76,17 @@ def create_desktop_shortcut():
         desktop = os.path.join(home, "Desktop")
         shortcut_path = os.path.join(desktop, f"{shortcut_name}.lnk")
         try:
-            import pythoncom
-            from win32com.shell import shell, shellcon
-            from win32com.client import Dispatch
+            # Import pywin32 modules only on Windows platform
+            try:
+                import importlib
+                pythoncom = importlib.import_module('pythoncom')
+                shell = importlib.import_module('win32com.shell.shell')
+                shellcon = importlib.import_module('win32com.shell.shellcon')
+                win32com_client = importlib.import_module('win32com.client')
+                Dispatch = win32com_client.Dispatch
+            except ImportError:
+                print("pywin32 is required to create Windows shortcuts. Please install it manually using 'pip install pywin32'.")
+                return
 
             shell = Dispatch('WScript.Shell')
             shortcut = shell.CreateShortCut(shortcut_path)
@@ -91,8 +99,6 @@ def create_desktop_shortcut():
             shortcut.IconLocation = python_exe
             shortcut.save()
             print(f"Desktop shortcut created at {shortcut_path}")
-        except ImportError:
-            print("pywin32 is required to create Windows shortcuts. Please install it manually.")
         except Exception as e:
             print(f"Failed to create Windows shortcut: {e}")
 
