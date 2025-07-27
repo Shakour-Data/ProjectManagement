@@ -1,12 +1,12 @@
 # Test Plan and Testing Instructions
 
-*Last updated: 2024-06-10*
+*Last updated: 2024-07-27*
 
 ## Test Plan
 
 ### Overview
 
-This test plan covers all necessary tests to ensure the Project Management Tool works correctly and reliably.
+This test plan covers all necessary tests to ensure the ProjectManagement system works correctly and reliably.
 
 ### 1. Installation and Setup Tests
 
@@ -108,31 +108,31 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 2. Install required packages:
 
 ```bash
-pip install -r config/requirements.txt
+pip install -r requirements.txt
 pip install pytest
 ```
 
 ### Running Tests
 
-The source code is located in the `src` directory, which is not installed as a package. To allow Python to find the `src` modules during testing, you need to set the `PYTHONPATH` environment variable to include the `src` directory.
+The source code is located in the `project_management` directory. To allow Python to find the modules during testing, set the `PYTHONPATH` environment variable to include the `project_management` directory.
 
 #### On Linux/macOS
 
 ```bash
-PYTHONPATH=src pytest tests/
+PYTHONPATH=project_management pytest tests/
 ```
 
 #### On Windows (PowerShell)
 
 ```powershell
-$env:PYTHONPATH="src"
+$env:PYTHONPATH="project_management"
 pytest tests/
 ```
 
 #### On Windows (Command Prompt)
 
 ```cmd
-set PYTHONPATH=src
+set PYTHONPATH=project_management
 pytest tests/
 ```
 
@@ -141,18 +141,18 @@ pytest tests/
 To run a specific test file, for example `tests/test_progress_report.py`, use:
 
 ```bash
-PYTHONPATH=src pytest tests/test_progress_report.py
+PYTHONPATH=project_management pytest tests/test_progress_report.py
 ```
 
 ### Notes
 
 - Ensure you run the commands from the root directory of the project.
 - If you encounter permission issues, ensure your user has the necessary rights to execute the commands.
-- If you add new dependencies, update `config/requirements.txt` accordingly.
+- If you add new dependencies, update `requirements.txt` accordingly.
 
 ### Troubleshooting
 
-- Verify that the `src` directory contains an `__init__.py` file to mark it as a package.
+- Verify that the `project_management` directory contains an `__init__.py` file to mark it as a package.
 - Make sure you activate the virtual environment before running tests.
 - Check that the `PYTHONPATH` is correctly set in your shell environment.
 
