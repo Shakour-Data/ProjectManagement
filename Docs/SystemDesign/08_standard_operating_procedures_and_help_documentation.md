@@ -1,10 +1,10 @@
 # Standard Operating Procedures and Help Documentation
 
-*Last updated: 2024-06-10*
+*Last updated: 2024-07-27*
 
 ## Overview
 
-The Project Management package is a Python-based automation system designed to streamline software project management. It integrates with GitHub and Visual Studio Code (VS Code) to automate task management, progress tracking, resource allocation, and reporting.
+The ProjectManagement system is a Python-based automation tool designed to streamline software project management. It integrates with GitHub and Visual Studio Code (VS Code) to automate task management, progress tracking, resource allocation, and reporting.
 
 ## Installation
 
@@ -51,4 +51,4 @@ Required JSON files include:
 
 ## Support
 
-For further assistance, refer to the comprehensive documentation in the `docs/` directory or contact the development team.
+For further assistance, refer to the comprehensive documentation in the `Docs/` directory or contact the development team.
