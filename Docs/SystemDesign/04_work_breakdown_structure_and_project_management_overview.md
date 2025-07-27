@@ -1,21 +1,21 @@
 # Work Breakdown Structure and Project Management Overview
 
-*Last updated: 2024-06-10*
+*Last updated: 2024-07-27*
 
 ## 1. Package Process Documentation
 
 ### Overview
 
-This document explains the complete process of the project management package from start to finish. It covers all stages, modules, and workflows involved in managing a project effectively using the package.
+This document explains the complete process of the ProjectManagement system from start to finish. It covers all stages, modules, and workflows involved in managing a project effectively using the package.
 
-This section is merged from the original Docs/Doc_Process/package_process_documentation.md to consolidate documentation.
+This section consolidates documentation to provide a comprehensive understanding of the project management workflow.
 
 ### 1. Work Breakdown Structure (WBS) Preparation
 
 - The process begins with preparing a comprehensive Work Breakdown Structure (WBS).
 - The WBS is a hierarchical decomposition of the project into manageable sections and tasks.
 - The package supports combining a default project structure with user-defined activities at multiple levels.
-- WBS parts are stored as JSON files in the `wbs_parts` folder.
+- WBS parts are stored as JSON files in the `SystemInputs/user_inputs/wbs_parts` folder.
 - The `wbs_merger.py` module merges these parts into a detailed WBS JSON file.
 
 #### Detailed WBS for Project Management System
@@ -199,14 +199,14 @@ This document ensures alignment between the code implementation and project docu
 
 - Resources are defined and managed as part of the project inputs.
 - Resource definitions include human resources, materials, equipment, and other assets.
-- These definitions are stored in JSON files under `user_inputs/resource_allocation.json` and related folders.
+- These definitions are stored in JSON files under `SystemInputs/user_inputs/task_resource_allocation.json` and related folders.
 - The package links resources to tasks and manages their allocation dynamically during project execution.
 
 ### 7. Reporting and Dashboards
 
 - The `project_management_system` module generates various reports and dashboards.
 - Reports include snapshot reports at key milestones and trend reports showing progress over time.
-- Reports are saved in the `reports` directory and include dashboards for visual insights.
+- Reports are saved in the `project_management/PM_SystemOutputs/system_outputs/` directory and include dashboards for visual insights.
 
 ### 8. Testing and Validation
 
@@ -238,7 +238,7 @@ This document ensures alignment between the code implementation and project docu
 ### Initial Setup and Installation
 
 1. The user creates an empty project folder.
-2. The Project Management package is installed into the project folder.
+2. The ProjectManagement package is installed into the project folder.
 3. The package files and folders are not tracked by the user's project Git repository.
 4. A Git repository is initialized in the project folder.
 5. Essential files such as `requirements.txt`, `.gitignore`, and `README.md` are created.
@@ -247,7 +247,7 @@ This document ensures alignment between the code implementation and project docu
 8. Virtual environment files and folders are excluded from Git tracking.
 9. The required Python packages listed in `requirements.txt` are installed.
 10. The system instructs the user to add JSON files for the Work Breakdown Structure (WBS) parts under the directory:  
-    `project_inputs/PM_JSON/user_inputs/wbs_parts`
+    `SystemInputs/user_inputs/wbs_parts`
 11. The user must add three levels of WBS parts to plan the project.
 12. The system lists the expected JSON filenames and paths one by one.
 13. The user completes each JSON file according to the provided standards and confirms by pressing Enter.
