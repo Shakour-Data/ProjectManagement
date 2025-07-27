@@ -113,3 +113,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 docs/projectـfeatures.txt
+venv_test/
