@@ -1,6 +1,6 @@
 # Change Management and Versioning Plan
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## 1. Introduction
 
@@ -74,4 +74,4 @@ Covers change request handling, version control strategies, release management, 
 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
-| 1.1     | 2024-07-27 | Updated to reflect current implementation | Project Team |
+| 1.2     | 2025-07-27 | Updated to reflect current implementation | Project Team |
