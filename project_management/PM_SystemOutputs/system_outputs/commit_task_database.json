@@ -15637,5 +15637,243 @@
         "parent_commits": [
             "edf4b06bd0dca14012fcd7941ea5991223ec2816"
         ]
+    },
+    "1841b015b403c6b13292df7d79051761b69ee670": {
+        "task_id": "root",
+        "file_path": ".gitignore",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:11):\\n- .gitignore: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/.gitignore b/.gitignore\\n    index c2c35e49..30f903e4 100644\\n    --- a/.gitignore\\n    +++ b/.gitignore\\n    @@ -11,6 +11,9 @@ __pycache__/\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:12",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:11 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a8b0af900b456ef2137e6249dbf29418a4205e41"
+        ]
+    },
+    "0913c659304b8f8370310ea89dd5bf63b5d38762": {
+        "task_id": "root",
+        "file_path": "Tests/TEST_CHECKLIST.md",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:15):\\n- Tests/TEST_CHECKLIST.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/TEST_CHECKLIST.md b/Tests/TEST_CHECKLIST.md\\n    index 7964586a..fd657ed4 100644\\n    --- a/Tests/TEST_CHECKLIST.md\\n    +++ b/Tests/TEST_CHECKLIST.md\\n    @@ -35,6 +35,8 @@ This checklist covers all necessary tests to ensure the auto_pm package works co\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:16",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:16 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1841b015b403c6b13292df7d79051761b69ee670"
+        ]
+    },
+    "03599cb2fc2615d3535a9e8217377c0b2bd696cd": {
+        "task_id": "root",
+        "file_path": "Tests/test_auto_commit.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:19):\\n- Tests/test_auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_auto_commit.py b/Tests/test_auto_commit.py\\n    index 3bf9a27d..9f644b7a 100644\\n    --- a/Tests/test_auto_commit.py\\n    +++ b/Tests/test_auto_commit.py\\n    @@ -42,7 +42,7 @@ class TestAutoCommit(unittest.TestCase):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:21",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:20 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0913c659304b8f8370310ea89dd5bf63b5d38762"
+        ]
+    },
+    "2ee7603289016eee8c569a22a529158aafefeed2": {
+        "task_id": "root",
+        "file_path": "Tests/test_cross_platform_setup.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:24):\\n- Tests/test_cross_platform_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_cross_platform_setup.py b/Tests/test_cross_platform_setup.py\\n    index 4da8a1ae..e2362c8f 100644\\n    --- a/Tests/test_cross_platform_setup.py\\n    +++ b/Tests/test_cross_platform_setup.py\\n    @@ -17,7 +17,7 @@ class TestCrossPlatformSetup(unittest.TestCase):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:25",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:24 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "03599cb2fc2615d3535a9e8217377c0b2bd696cd"
+        ]
+    },
+    "9ec5aefdaf23f35e7aceb76aee9d105541626d1c": {
+        "task_id": "root",
+        "file_path": "Tests/test_documentation.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:27):\\n- Tests/test_documentation.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_documentation.py b/Tests/test_documentation.py\\n    index 47b5825e..d261c9b5 100644\\n    --- a/Tests/test_documentation.py\\n    +++ b/Tests/test_documentation.py\\n    @@ -11,9 +11,11 @@ import subprocess\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:28",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:28 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2ee7603289016eee8c569a22a529158aafefeed2"
+        ]
+    },
+    "107604efc787075f932781d0c8e044b390c666d3": {
+        "task_id": "root",
+        "file_path": "Tests/test_environment_setup.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:31):\\n- Tests/test_environment_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_environment_setup.py b/Tests/test_environment_setup.py\\n    index 65e77654..a75ebcc0 100644\\n    --- a/Tests/test_environment_setup.py\\n    +++ b/Tests/test_environment_setup.py\\n    @@ -15,7 +15,12 @@ class TestEnvironmentSetup(unittest.TestCase):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:32",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:31 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9ec5aefdaf23f35e7aceb76aee9d105541626d1c"
+        ]
+    },
+    "b34fe773b28bf7215b7edb7c4d3b3472400b97e6": {
+        "task_id": "root",
+        "file_path": "Tests/test_installation_setup.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:34):\\n- Tests/test_installation_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_installation_setup.py b/Tests/test_installation_setup.py\\n    index 4820be74..ece4dc7e 100644\\n    --- a/Tests/test_installation_setup.py\\n    +++ b/Tests/test_installation_setup.py\\n    @@ -1,49 +1,78 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:35",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "107604efc787075f932781d0c8e044b390c666d3"
+        ]
+    },
+    "0edba6474974b35a8c900a98822db277c8fae34e": {
+        "task_id": "root",
+        "file_path": "Tests/test_performance.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:38):\\n- Tests/test_performance.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_performance.py b/Tests/test_performance.py\\n    index 785a014d..974ad84f 100644\\n    --- a/Tests/test_performance.py\\n    +++ b/Tests/test_performance.py\\n    @@ -8,6 +8,7 @@ import unittest\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:39",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:38 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b34fe773b28bf7215b7edb7c4d3b3472400b97e6"
+        ]
+    },
+    "a7d964a46c70b896f2d4388c7ae256830793b872": {
+        "task_id": "root",
+        "file_path": "Tests/test_shell_integration.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:41):\\n- Tests/test_shell_integration.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_shell_integration.py b/Tests/test_shell_integration.py\\n    index fdf8f425..abd71560 100644\\n    --- a/Tests/test_shell_integration.py\\n    +++ b/Tests/test_shell_integration.py\\n    @@ -34,8 +34,9 @@ class TestShellIntegration(unittest.TestCase):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:43",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0edba6474974b35a8c900a98822db277c8fae34e"
+        ]
+    },
+    "8ba79c368eff01e19e1690d16658ebe72a1ddb48": {
+        "task_id": "root",
+        "file_path": "cross_platform_setup.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:45):\\n- cross_platform_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/cross_platform_setup.py b/cross_platform_setup.py\\n    index 81e08e4e..c73fc5e0 100644\\n    --- a/cross_platform_setup.py\\n    +++ b/cross_platform_setup.py\\n    @@ -146,17 +146,93 @@ def check_command_exists(command):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:46",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a7d964a46c70b896f2d4388c7ae256830793b872"
+        ]
+    },
+    "fe0e5d3684a45c30a8478f60c9cd68b661f0dc1a": {
+        "task_id": "root",
+        "file_path": "dist_installers/ProjectManagementSetup_Windows.exe",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 12:19:50):\\n- dist_installers/ProjectManagementSetup_Windows.exe: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementSetup_Windows.exe b/dist_installers/ProjectManagementSetup_Windows.exe\\n    index 7cf1725f..07bcc6f0 100644\\n    Binary files a/dist_installers/ProjectManagementSetup_Windows.exe and b/dist_installers/ProjectManagementSetup_Windows.exe differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:50",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:50 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8ba79c368eff01e19e1690d16658ebe72a1ddb48"
+        ]
+    },
+    "716d908642bb3f94bbfacce8b550f1800453ac53": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250728_121910/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-28 12:19:53):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250728_121910/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250728_121910/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250728_121910/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250728_121910/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:55",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:54 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "fe0e5d3684a45c30a8478f60c9cd68b661f0dc1a"
+        ]
+    },
+    "73ec5e40b9f878abd39cbff89cd8f332121da989": {
+        "task_id": "root",
+        "file_path": "setup_test_env.bat",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-28 12:19:57):\\n- setup_test_env.bat: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/setup_test_env.bat b/setup_test_env.bat\\n    new file mode 100644\\n    index 00000000..a0d42f79\\n    --- /dev/null\\n    +++ b/setup_test_env.bat\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:49:58",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:19:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "716d908642bb3f94bbfacce8b550f1800453ac53"
+        ]
+    },
+    "8f362e6f583a7ad9ed80400029ef83ac5134bdec": {
+        "task_id": "root",
+        "file_path": "test_results.xml",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-28 12:20:01):\\n- test_results.xml: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/test_results.xml b/test_results.xml\\n    new file mode 100644\\n    index 00000000..913b42bc\\n    --- /dev/null\\n    +++ b/test_results.xml\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 08:50:02",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Mon Jul 28 12:20:01 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "73ec5e40b9f878abd39cbff89cd8f332121da989"
+        ]
     }
 }
