@@ -5,9 +5,15 @@ import platform
 import shutil
 import time
 
-def run_command(command, shell=False):
+def run_command(command, shell=False, cwd=None):
     print(f"Running command: {command}")
-    result = subprocess.run(command, shell=shell, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if cwd:
+        if shell:
+            command = f"cd {cwd} && {command}" if isinstance(command, str) else command
+        else:
+            # If command is list, no need to prepend cd, just set cwd in subprocess.run
+            pass
+    result = subprocess.run(command, shell=shell, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=cwd if not shell else None)
     if result.returncode != 0:
         print(f"Error running command: {result.stderr}")
         sys.exit(1)
@@ -38,7 +44,7 @@ def install_frontend_dependencies():
     if not os.path.exists("frontend"):
         print("Frontend directory not found!")
         sys.exit(1)
-    run_command(["npm", "install"], shell=True, cwd="frontend")
+    run_command("npm install", shell=True, cwd="frontend")
 
 def start_backend_server(venv_python):
     print("Starting backend server...")
