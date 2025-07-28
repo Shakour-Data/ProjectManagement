@@ -15,7 +15,12 @@ class TestEnvironmentSetup(unittest.TestCase):
 
     def test_pip_executable_exists(self):
         """Test that pip executable exists in the virtual environment."""
-        pip_path = os.path.join('venv', 'bin', 'pip')
+        import sys
+        import os
+        if os.name == 'nt':
+            pip_path = os.path.join('venv', 'Scripts', 'pip.exe')
+        else:
+            pip_path = os.path.join('venv', 'bin', 'pip')
         self.assertTrue(os.path.isfile(pip_path), "pip executable not found in virtual environment.")
 
     def test_requirements_file_exists(self):
