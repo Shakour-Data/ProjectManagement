@@ -1,6 +1,6 @@
 # Project Features and Functional Specifications
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## Overview
 
@@ -10,7 +10,7 @@ This document specifies the comprehensive features and functionalities of the Pr
 
 ### Installation and Initialization
 - Automated setup including creation of a Python virtual environment and installation of dependencies.
-- Secure management of GitHub API tokens.
+- Secure management of GitHub API tokens with encrypted storage.
 - Automatic installation of essential VS Code extensions to enhance the development environment.
 - Transparent configuration without manual CLI prompts.
 
