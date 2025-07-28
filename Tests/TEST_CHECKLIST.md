@@ -35,6 +35,8 @@ This checklist covers all necessary tests to ensure the auto_pm package works co
 | Verify backend and frontend servers start and are accessible on expected ports.                    | ⬜          | ⬜         |                  |                                        |
 | Verify desktop shortcut is created correctly on supported OSes and opens frontend UI.             | ⬜          | ⬜         |                  |                                        |
 | Verify user guidance messages appear during setup_and_run.sh execution.                           | ⬜          | ⬜         |                  |                                        |
+| Test installation setup process with virtual environment creation and dependency installation.    | ⬜          | ⬜         |                  | New test added for installation setup  |
+| Test backend and frontend server startup during installation setup process.                        | ⬜          | ⬜         |                  | New test added for server startup       |
 
 ## 2. Command Line Interface (CLI) Tests
 | Test Description                                                                                     | Initial Run | Latest Run | Latest Test Date | Notes                                  |
