@@ -146,17 +146,93 @@ def check_command_exists(command):
     from shutil import which
     return which(command) is not None
 
+import tkinter.messagebox as messagebox
+
+import os
+import platform
+
+def check_default_python():
+    if platform.system() == "Windows":
+        possible_paths = [
+            os.path.join(os.environ.get("LOCALAPPDATA", ""), "Programs", "Python", "Python39", "python.exe"),
+            os.path.join(os.environ.get("LOCALAPPDATA", ""), "Programs", "Python", "Python310", "python.exe"),
+            os.path.join(os.environ.get("PROGRAMFILES", ""), "Python39", "python.exe"),
+            os.path.join(os.environ.get("PROGRAMFILES", ""), "Python310", "python.exe"),
+        ]
+        for path in possible_paths:
+            if os.path.exists(path):
+                return path
+    else:
+        # For Unix-like systems, check common python3 path
+        if shutil.which("python3"):
+            return shutil.which("python3")
+    return None
+
+def check_default_node():
+    if platform.system() == "Windows":
+        possible_paths = [
+            os.path.join(os.environ.get("ProgramFiles", ""), "nodejs", "node.exe"),
+            os.path.join(os.environ.get("ProgramFiles(x86)", ""), "nodejs", "node.exe"),
+        ]
+        for path in possible_paths:
+            if os.path.exists(path):
+                return path
+    else:
+        if shutil.which("node"):
+            return shutil.which("node")
+    return None
+
+def check_default_git():
+    if platform.system() == "Windows":
+        possible_paths = [
+            os.path.join(os.environ.get("ProgramFiles", ""), "Git", "bin", "git.exe"),
+            os.path.join(os.environ.get("ProgramFiles(x86)", ""), "Git", "bin", "git.exe"),
+        ]
+        for path in possible_paths:
+            if os.path.exists(path):
+                return path
+    else:
+        if shutil.which("git"):
+            return shutil.which("git")
+    return None
+
 def install_python():
-    print("Python is not installed. Please install Python manually from https://www.python.org/downloads/")
-    input("Press Enter after installing Python to continue...")
+    python_path = check_default_python()
+    if python_path:
+        print(f"Found Python at {python_path}")
+    else:
+        messagebox.showerror("Python Not Found", "Python is not installed in the default locations. Please install Python manually from https://www.python.org/downloads/")
+        sys.exit(1)
 
 def install_node():
-    print("Node.js is not installed. Please install Node.js manually from https://nodejs.org/en/download/")
-    input("Press Enter after installing Node.js to continue...")
+    node_path = check_default_node()
+    if node_path:
+        print(f"Found Node.js at {node_path}")
+    else:
+        messagebox.showwarning("Node.js Not Found", "Node.js is not installed in the default locations. Please select the Node.js installation directory.")
+        root = tk.Tk()
+        root.withdraw()
+        while True:
+            selected_dir = filedialog.askdirectory(title="Select Node.js Installation Directory")
+            if not selected_dir:
+                if messagebox.askyesno("Cancel Installation", "No directory selected. Do you want to cancel the installation?"):
+                    sys.exit(1)
+                else:
+                    continue
+            node_exe = os.path.join(selected_dir, "node.exe")
+            if os.path.exists(node_exe):
+                print(f"Using Node.js at {node_exe}")
+                break
+            else:
+                messagebox.showerror("Invalid Directory", "The selected directory does not contain node.exe. Please select a valid Node.js installation directory.")
 
 def install_git():
-    print("Git is not installed. Please install Git manually from https://git-scm.com/downloads/")
-    input("Press Enter after installing Git to continue...")
+    git_path = check_default_git()
+    if git_path:
+        print(f"Found Git at {git_path}")
+    else:
+        messagebox.showerror("Git Not Found", "Git is not installed in the default locations. Please install Git manually from https://git-scm.com/downloads/")
+        sys.exit(1)
 
 def main():
     root = tk.Tk()
@@ -172,6 +248,9 @@ def main():
         install_python()
     if not check_command_exists("node"):
         install_node()
+        if not check_command_exists("node"):
+            messagebox.showerror("Error", "Node.js is still not installed. Installation cannot continue.")
+            sys.exit(1)
     if not check_command_exists("git"):
         install_git()
 
@@ -184,7 +263,8 @@ def main():
         venv_python = os.path.join(venv_path, "bin", "python")
 
     install_python_dependencies(venv_python)
-    install_frontend_dependencies(base_path)
+    if check_command_exists("node"):
+        install_frontend_dependencies(base_path)
 
     backend_process = start_backend_server(venv_python, base_path)
     time.sleep(5)  # Wait for backend to start
