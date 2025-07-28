@@ -1,6 +1,6 @@
 # Work Breakdown Structure and Project Management Overview
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## 1. Package Process Documentation
 
