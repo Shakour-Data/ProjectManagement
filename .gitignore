@@ -3,6 +3,9 @@ venv/
 ENV/
 env/
 
+# Ignore Node.js installer folder
+node_installer/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
