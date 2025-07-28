@@ -1,6 +1,10 @@
 import argparse
 from project_management import main as main_module
 
+import sys
+import argparse
+from project_management import main as main_module
+
 def main_cli():
     parser = argparse.ArgumentParser(description='Project Management Tool CLI')
     parser.add_argument('command', choices=['install', 'start', 'status', 'setup', 'help'], help='Command to run')
@@ -16,6 +20,10 @@ def main_cli():
         main_module.setup()
     elif args.command == 'help':
         main_module.help()
+    else:
+        print(f"Unknown command: {args.command}")
+        main_module.help()
+        sys.exit(1)
 
 def main():
     main_cli()
