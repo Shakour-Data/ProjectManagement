@@ -8,6 +8,7 @@ import unittest
 import os
 import time
 import subprocess
+import sys
 
 class TestPerformance(unittest.TestCase):
     def setUp(self):
@@ -36,7 +37,8 @@ class TestPerformance(unittest.TestCase):
     def test_cli_responsiveness(self):
         """Test responsiveness of CLI commands."""
         start_time = time.time()
-        result = subprocess.run(["python3", "project_management/cli.py", "help"], capture_output=True, text=True)
+        python_executable = sys.executable
+        result = subprocess.run([python_executable, "project_management/cli.py", "help"], capture_output=True, text=True)
         duration = time.time() - start_time
         self.assertEqual(result.returncode, 0)
         self.assertTrue(duration < 3, "CLI command took too long to respond")
