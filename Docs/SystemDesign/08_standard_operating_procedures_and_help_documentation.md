@@ -1,6 +1,6 @@
 # Standard Operating Procedures and Help Documentation
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## Overview
 
