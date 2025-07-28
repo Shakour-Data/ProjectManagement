@@ -1,6 +1,6 @@
 # System Design Document
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## 1. Introduction
 
@@ -23,7 +23,7 @@ Covers system architecture, components, interfaces, data flow, and design decisi
 The system is a modular, Python-based application integrating with GitHub and VS Code. It consists of backend services, a VS Code extension, and automation workflows.
 
 ### 2.2 Components
-- Backend API: Flask-based RESTful services handling core logic and GitHub integration.
+- Backend API: FastAPI-based RESTful services handling core logic and GitHub integration.
 - VS Code Extension: Provides chat interface and user interaction.
 - Automation Workflows: GitHub Actions for CI/CD, notifications, and scheduled tasks.
 - Data Storage: Local files and GitHub repositories.
@@ -81,7 +81,7 @@ The system is a modular, Python-based application integrating with GitHub and VS
 
 ## 8. Design Decisions and Rationale
 
-- Use of Flask for lightweight backend.
+- Use of FastAPI for lightweight backend.
 - Deep GitHub integration for seamless project management.
 - VS Code extension for user-friendly interaction.
 
@@ -94,4 +94,4 @@ The system is a modular, Python-based application integrating with GitHub and VS
 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
-| 1.1     | 2024-07-27 | Updated to reflect current implementation | Project Team |
+| 1.2     | 2025-07-27 | Updated to reflect current implementation | Project Team |
