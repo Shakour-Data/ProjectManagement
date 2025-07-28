@@ -42,7 +42,7 @@ class TestAutoCommit(unittest.TestCase):
         self.assertIn("?? file2.py", changes)
 
     def test_group_related_files(self):
-        changes = [" M project_management/modules/auto_commit.py", "?? new_file.py"]
+        changes = ["M project_management/modules/auto_commit.py", "?? new_file.py"]
         groups = self.auto_commit.group_related_files(changes)
         self.assertIn('project_management', groups)
         self.assertIn('root', groups)
