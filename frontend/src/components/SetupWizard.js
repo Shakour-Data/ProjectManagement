@@ -9,14 +9,17 @@ const steps = [
   { id: 5, title: 'Install Dependencies', api: '/setup/install_dependencies' },
 ];
 
-function SetupWizard({ onComplete, projectId }) {
+function SetupWizard({ onComplete, projectId, onCancel, onError }) {
   const [currentStep, setCurrentStep] = useState(0);
   const [status, setStatus] = useState('');
   const [error, setError] = useState(null);
+  const [running, setRunning] = useState(false);
 
   const runStep = async (step) => {
+    setRunning(true);
     setStatus(`Running: ${step.title}...`);
     setError(null);
+    onError(null);
     try {
       const response = await axios.post(step.api, null, { params: { project_id: projectId } });
       setStatus(response.data.message);
@@ -24,11 +27,15 @@ function SetupWizard({ onComplete, projectId }) {
         if (currentStep + 1 < steps.length) {
           setCurrentStep(currentStep + 1);
         } else {
+          setRunning(false);
           onComplete();
         }
       }, 1000);
     } catch (err) {
-      setError(err.response?.data?.detail || err.message);
+      const errMsg = err.response?.data?.detail || err.message;
+      setError(errMsg);
+      onError(errMsg);
+      setRunning(false);
     }
   };
 
@@ -44,12 +51,13 @@ function SetupWizard({ onComplete, projectId }) {
       {error ? (
         <div style={{ color: 'red' }}>
           <p>Error: {error}</p>
-          <button onClick={() => runStep(steps[currentStep])}>Retry</button>
+          <button onClick={() => runStep(steps[currentStep])} disabled={running}>Retry</button>
         </div>
       ) : (
         <p>{status}</p>
       )}
       <p>Step {currentStep + 1} of {steps.length}</p>
+      <button onClick={onCancel} disabled={running} style={{ marginTop: '10px' }}>Cancel Setup</button>
     </div>
   );
 }
