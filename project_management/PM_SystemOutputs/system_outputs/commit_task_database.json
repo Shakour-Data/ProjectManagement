@@ -2,12 +2,12 @@
     "": {
         "task_id": "modules",
         "file_path": "modules/auto_commit.py",
-        "commit_message": "🐛 fix(modules): Modified files updated\\n\\nChanges included (as of 2025-07-27 00:19:00):\\n- modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "commit_message": "🐛 fix(modules): Modified files updated\\n\\nChanges included (as of 2025-07-28 03:43:42):\\n- modules/auto_commit.py: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
         "workflow_stage": "Implementation",
         "progress_change": 0.05,
         "importance_change": 1,
         "priority_change": 0.0,
-        "timestamp": "2025-07-26 20:49:00",
+        "timestamp": "2025-07-28 00:13:42",
         "author": "commit message example",
         "email": "commit message example",
         "date": "commit message example",
@@ -14344,6 +14344,1009 @@
         "branch": "* main",
         "parent_commits": [
             "6e63d699db912cf2c8a78d3de471fe5c8d95ddaa"
+        ]
+    },
+    "d3a2e4c2669f2eebe5676f9b024a06e1c3af6382": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/02_project_features_and_functional_specifications.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:45:52):\\n- Docs/SystemDesign/02_project_features_and_functional_specifications.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/02_project_features_and_functional_specifications.md b/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    index 79f1dcc8..71258d1a 100644\\n    --- a/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    +++ b/Docs/SystemDesign/02_project_features_and_functional_specifications.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:15:52",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:45:52 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e761d791b4749442712ae02ba3d52d55319b3974"
+        ]
+    },
+    "9e6732fef0a0d2cf1d9c1f3f42acb7b72f1b5f6c": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/03_implementation_plan.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:45:55):\\n- Docs/SystemDesign/03_implementation_plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/03_implementation_plan.md b/Docs/SystemDesign/03_implementation_plan.md\\n    index a593c1ca..6ecc4b7f 100644\\n    --- a/Docs/SystemDesign/03_implementation_plan.md\\n    +++ b/Docs/SystemDesign/03_implementation_plan.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:15:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:45:55 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d3a2e4c2669f2eebe5676f9b024a06e1c3af6382"
+        ]
+    },
+    "8cca2259741fb33670ff94a69e231d729aa17581": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:45:57):\\n- Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md b/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    index d7fbf939..ad001be3 100644\\n    --- a/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    +++ b/Docs/SystemDesign/04_work_breakdown_structure_and_project_management_overview.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:15:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:45:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9e6732fef0a0d2cf1d9c1f3f42acb7b72f1b5f6c"
+        ]
+    },
+    "9414f697ab0e909b768a562a53a377b2e7b8d5be": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/05_requirements_specification_document.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:45:59):\\n- Docs/SystemDesign/05_requirements_specification_document.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/05_requirements_specification_document.md b/Docs/SystemDesign/05_requirements_specification_document.md\\n    index bf32b5fa..04837f56 100644\\n    --- a/Docs/SystemDesign/05_requirements_specification_document.md\\n    +++ b/Docs/SystemDesign/05_requirements_specification_document.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:15:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:45:59 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8cca2259741fb33670ff94a69e231d729aa17581"
+        ]
+    },
+    "00ca7243221c201f596a966183f22d917fe4bf5e": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/06_system_design_document.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:01):\\n- Docs/SystemDesign/06_system_design_document.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/06_system_design_document.md b/Docs/SystemDesign/06_system_design_document.md\\n    index e65e8591..1a1d97f2 100644\\n    --- a/Docs/SystemDesign/06_system_design_document.md\\n    +++ b/Docs/SystemDesign/06_system_design_document.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:01 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9414f697ab0e909b768a562a53a377b2e7b8d5be"
+        ]
+    },
+    "adeace81b9f75ade3491bf69c847bda7a597404b": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/07_test_plan_and_testing_instructions.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:04):\\n- Docs/SystemDesign/07_test_plan_and_testing_instructions.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/07_test_plan_and_testing_instructions.md b/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    index d3c479fa..e16d607a 100644\\n    --- a/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    +++ b/Docs/SystemDesign/07_test_plan_and_testing_instructions.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:04",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "00ca7243221c201f596a966183f22d917fe4bf5e"
+        ]
+    },
+    "199387928a5f3e19ab9173d85457d5311a864f4e": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:06):\\n- Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md b/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    index 9bc23a34..a6b6c827 100644\\n    --- a/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    +++ b/Docs/SystemDesign/08_standard_operating_procedures_and_help_documentation.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:06",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:06 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "adeace81b9f75ade3491bf69c847bda7a597404b"
+        ]
+    },
+    "f2c5222d28b64a453b82600163d1a5c5c863a0f2": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/09_change_management_and_versioning_plan.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:08):\\n- Docs/SystemDesign/09_change_management_and_versioning_plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/09_change_management_and_versioning_plan.md b/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    index 6a659368..d1aac8d1 100644\\n    --- a/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    +++ b/Docs/SystemDesign/09_change_management_and_versioning_plan.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "199387928a5f3e19ab9173d85457d5311a864f4e"
+        ]
+    },
+    "8f00fdf764d786219fe23afb151afbc0899e672f": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:11):\\n- Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md b/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    index 8e6ab399..78655075 100644\\n    --- a/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    +++ b/Docs/SystemDesign/10_communication_risk_management_and_documentation_plan.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:11",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:11 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f2c5222d28b64a453b82600163d1a5c5c863a0f2"
+        ]
+    },
+    "e9a660585162aa7539326d752fc89fa418d70ee0": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/11_project_management_package_scenarios.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:13):\\n- Docs/SystemDesign/11_project_management_package_scenarios.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/11_project_management_package_scenarios.md b/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    index 3d5cf6ec..decb1fae 100644\\n    --- a/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    +++ b/Docs/SystemDesign/11_project_management_package_scenarios.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:13",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:13 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8f00fdf764d786219fe23afb151afbc0899e672f"
+        ]
+    },
+    "4d0b0b939dd7fa1bb1c760ff66af3bcf882c3cd5": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/12_dashboards.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:15):\\n- Docs/SystemDesign/12_dashboards.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/12_dashboards.md b/Docs/SystemDesign/12_dashboards.md\\n    index cc5bc443..3c4651c2 100644\\n    --- a/Docs/SystemDesign/12_dashboards.md\\n    +++ b/Docs/SystemDesign/12_dashboards.md\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:15 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e9a660585162aa7539326d752fc89fa418d70ee0"
+        ]
+    },
+    "5866c88e06e759c1ccb88b1cd64fd5d18295229d": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/13_Reports.md",
+        "commit_message": "🐛 fix(Docs): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:17):\\n- Docs/SystemDesign/13_Reports.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/13_Reports.md b/Docs/SystemDesign/13_Reports.md\\n    index 53797069..34d79f8b 100644\\n    --- a/Docs/SystemDesign/13_Reports.md\\n    +++ b/Docs/SystemDesign/13_Reports.md\\n    @@ -42,7 +42,7 @@ The Cost Report provides a detailed financial overview of project costs, includi\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:17",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:17 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4d0b0b939dd7fa1bb1c760ff66af3bcf882c3cd5"
+        ]
+    },
+    "e47fd0b01ebce74d8b82715b334d6c4ed7df04eb": {
+        "task_id": "Docs",
+        "file_path": "Docs/SystemDesign/TEST_CHECKLIST.md",
+        "commit_message": "🗑️ remove(Docs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:46:19):\\n- Docs/SystemDesign/TEST_CHECKLIST.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/TEST_CHECKLIST.md b/Docs/SystemDesign/TEST_CHECKLIST.md\\n    deleted file mode 100644\\n    index cf94415d..00000000\\n    --- a/Docs/SystemDesign/TEST_CHECKLIST.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5866c88e06e759c1ccb88b1cd64fd5d18295229d"
+        ]
+    },
+    "7736de9681479e1cb1ceff99da8bfeaaaebc2952": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Architectural_Design.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:22):\\n- Docs/json_inputs_standard/Architectural_Design.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Architectural_Design.md b/Docs/json_inputs_standard/Architectural_Design.md\\n    new file mode 100644\\n    index 00000000..6ef001e8\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Architectural_Design.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:22 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e47fd0b01ebce74d8b82715b334d6c4ed7df04eb"
+        ]
+    },
+    "d519ff7c372836407fac163892caf475d4e2a5a9": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Coding.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:23):\\n- Docs/json_inputs_standard/Coding.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Coding.md b/Docs/json_inputs_standard/Coding.md\\n    new file mode 100644\\n    index 00000000..a149d52a\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Coding.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:23 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "7736de9681479e1cb1ceff99da8bfeaaaebc2952"
+        ]
+    },
+    "199384e24ec6e4b6f7110b8d3e8a36214209acba": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Component_Design.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:25):\\n- Docs/json_inputs_standard/Component_Design.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Component_Design.md b/Docs/json_inputs_standard/Component_Design.md\\n    new file mode 100644\\n    index 00000000..fa3c9004\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Component_Design.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:26",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d519ff7c372836407fac163892caf475d4e2a5a9"
+        ]
+    },
+    "263f6a24227d3d1f615e46807160c41cf9546427": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Deployment_Execution.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:27):\\n- Docs/json_inputs_standard/Deployment_Execution.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Deployment_Execution.md b/Docs/json_inputs_standard/Deployment_Execution.md\\n    new file mode 100644\\n    index 00000000..ceece9fa\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Deployment_Execution.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:27 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "199384e24ec6e4b6f7110b8d3e8a36214209acba"
+        ]
+    },
+    "1faa37b4659ff60e0277e868d93b3b18311f1e29": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Deployment_Planning.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:29):\\n- Docs/json_inputs_standard/Deployment_Planning.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Deployment_Planning.md b/Docs/json_inputs_standard/Deployment_Planning.md\\n    new file mode 100644\\n    index 00000000..ad8449cf\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Deployment_Planning.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:30",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "263f6a24227d3d1f615e46807160c41cf9546427"
+        ]
+    },
+    "cd8e63c135ccd9d48a63a9f8376b547294f1cffd": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Document_Analysis.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:32):\\n- Docs/json_inputs_standard/Document_Analysis.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Document_Analysis.md b/Docs/json_inputs_standard/Document_Analysis.md\\n    new file mode 100644\\n    index 00000000..5f77e4a5\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Document_Analysis.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:32 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1faa37b4659ff60e0277e868d93b3b18311f1e29"
+        ]
+    },
+    "069fa3e0e65d7e44aaf57493b390161b159f7f95": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Post_Deployment_Support.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:34):\\n- Docs/json_inputs_standard/Post_Deployment_Support.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Post_Deployment_Support.md b/Docs/json_inputs_standard/Post_Deployment_Support.md\\n    new file mode 100644\\n    index 00000000..e149a8ad\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Post_Deployment_Support.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "cd8e63c135ccd9d48a63a9f8376b547294f1cffd"
+        ]
+    },
+    "18c7c67ac44a351fed370c3ef9f9766ee033adf6": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Prototype_Development.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:36):\\n- Docs/json_inputs_standard/Prototype_Development.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Prototype_Development.md b/Docs/json_inputs_standard/Prototype_Development.md\\n    new file mode 100644\\n    index 00000000..3bfd583a\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Prototype_Development.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:36 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "069fa3e0e65d7e44aaf57493b390161b159f7f95"
+        ]
+    },
+    "01321026d2cdab67bb6ef3e5671932679f5220bf": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Prototype_Planning.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:38):\\n- Docs/json_inputs_standard/Prototype_Planning.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Prototype_Planning.md b/Docs/json_inputs_standard/Prototype_Planning.md\\n    new file mode 100644\\n    index 00000000..02e01360\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Prototype_Planning.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:38",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:38 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "18c7c67ac44a351fed370c3ef9f9766ee033adf6"
+        ]
+    },
+    "4e9c97d7ae729fe6343aa77af6ee36de85775c18": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Prototype_Refinement.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:40):\\n- Docs/json_inputs_standard/Prototype_Refinement.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Prototype_Refinement.md b/Docs/json_inputs_standard/Prototype_Refinement.md\\n    new file mode 100644\\n    index 00000000..067cf6ce\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Prototype_Refinement.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:40",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:40 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "01321026d2cdab67bb6ef3e5671932679f5220bf"
+        ]
+    },
+    "931ccbfaa4e58f45c0325141a9301a4ab368f199": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Prototype_Testing.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:42):\\n- Docs/json_inputs_standard/Prototype_Testing.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Prototype_Testing.md b/Docs/json_inputs_standard/Prototype_Testing.md\\n    new file mode 100644\\n    index 00000000..a458063d\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Prototype_Testing.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:42 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4e9c97d7ae729fe6343aa77af6ee36de85775c18"
+        ]
+    },
+    "c5b204e36131514ac22e7bcf6b8e4960a5bf4520": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Requirement_Validation.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:44):\\n- Docs/json_inputs_standard/Requirement_Validation.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Requirement_Validation.md b/Docs/json_inputs_standard/Requirement_Validation.md\\n    new file mode 100644\\n    index 00000000..45bf7c02\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Requirement_Validation.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:44",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:44 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "931ccbfaa4e58f45c0325141a9301a4ab368f199"
+        ]
+    },
+    "bde615221b05c2e3cb6e354945529947ac0ed815": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Requirement_Workshops.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:47):\\n- Docs/json_inputs_standard/Requirement_Workshops.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Requirement_Workshops.md b/Docs/json_inputs_standard/Requirement_Workshops.md\\n    new file mode 100644\\n    index 00000000..d52ad373\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Requirement_Workshops.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:47",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:47 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c5b204e36131514ac22e7bcf6b8e4960a5bf4520"
+        ]
+    },
+    "b79e1531f0c7506d85bdd5f702ad36fb14414661": {
+        "task_id": "Docs",
+        "file_path": "Docs/json_inputs_standard/Stakeholder_Interviews.md",
+        "commit_message": "📝 docs(Docs): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:46:49):\\n- Docs/json_inputs_standard/Stakeholder_Interviews.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/json_inputs_standard/Stakeholder_Interviews.md b/Docs/json_inputs_standard/Stakeholder_Interviews.md\\n    new file mode 100644\\n    index 00000000..97d3d892\\n    --- /dev/null\\n    +++ b/Docs/json_inputs_standard/Stakeholder_Interviews.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.011,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:49",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bde615221b05c2e3cb6e354945529947ac0ed815"
+        ]
+    },
+    "e1780ded9ac067d1ae88bd0fcd716a7228395cfa": {
+        "task_id": "root",
+        "file_path": "ProjectManagement",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:46:51):\\n- ProjectManagement: This file was removed from the project.\\n  Summary:\\n    diff --git a/ProjectManagement b/ProjectManagement\\n    deleted file mode 160000\\n    index 9a06a395..00000000\\n    --- a/ProjectManagement\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:52",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:51 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b79e1531f0c7506d85bdd5f702ad36fb14414661"
+        ]
+    },
+    "1f944170e87f3fdf981b8577db2387482b49afcc": {
+        "task_id": "root",
+        "file_path": "cross_platform_setup.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-28 04:46:54):\\n- cross_platform_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/cross_platform_setup.py b/cross_platform_setup.py\\n    index 1cdf9e08..a2357234 100644\\n    --- a/cross_platform_setup.py\\n    +++ b/cross_platform_setup.py\\n    @@ -5,9 +5,15 @@ import platform\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:54",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:54 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e1780ded9ac067d1ae88bd0fcd716a7228395cfa"
+        ]
+    },
+    "deaca64cdde8e29a47326dc5e070305be8e03e31": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Coding.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:46:56):\\n- SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Coding.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Coding.md b/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Coding.md\\n    deleted file mode 100644\\n    index a149d52a..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Coding.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:56",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:56 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1f944170e87f3fdf981b8577db2387482b49afcc"
+        ]
+    },
+    "44dbf7dc1b111315966278c929623b3f3207fd1e": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:46:58):\\n- SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md b/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md\\n    deleted file mode 100644\\n    index ceece9fa..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Execution.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:16:58",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:46:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "deaca64cdde8e29a47326dc5e070305be8e03e31"
+        ]
+    },
+    "ca61c50bad98d01c6cab138d4fc50e9d32eed6cd": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:00):\\n- SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md b/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md\\n    deleted file mode 100644\\n    index ad8449cf..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Deployment_Planning.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:00",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "44dbf7dc1b111315966278c929623b3f3207fd1e"
+        ]
+    },
+    "745d841c81521e5990e8f293d0c0f43a3c94a3f9": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:03):\\n- SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md b/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md\\n    deleted file mode 100644\\n    index e149a8ad..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Construction_and_Testing/Deployment/Post_Deployment_Support.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:03 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ca61c50bad98d01c6cab138d4fc50e9d32eed6cd"
+        ]
+    },
+    "e084a96f7562d41f9e5c92c37ea7fe992733ff99": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:05):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md\\n    deleted file mode 100644\\n    index 3bfd583a..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Development.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:05 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "745d841c81521e5990e8f293d0c0f43a3c94a3f9"
+        ]
+    },
+    "2f85d4160acbd530875e45cfa583eb34ed7b8250": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:07):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md\\n    deleted file mode 100644\\n    index 02e01360..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Planning.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:07",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e084a96f7562d41f9e5c92c37ea7fe992733ff99"
+        ]
+    },
+    "6d9d0912919944881be0532adf50e4691c566069": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:09):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md\\n    deleted file mode 100644\\n    index 067cf6ce..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Refinement.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:09",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:09 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2f85d4160acbd530875e45cfa583eb34ed7b8250"
+        ]
+    },
+    "8f2d81142181c4804edecfb797dcd538e3f202fc": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:11):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md\\n    deleted file mode 100644\\n    index a458063d..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Prototyping/Prototype_Testing.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:11",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:11 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6d9d0912919944881be0532adf50e4691c566069"
+        ]
+    },
+    "78dc183eb39709d4f8acba52b69f19d889c1aca0": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:13):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md\\n    deleted file mode 100644\\n    index 5f77e4a5..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Document_Analysis.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:13",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:13 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8f2d81142181c4804edecfb797dcd538e3f202fc"
+        ]
+    },
+    "abe661bd5d4397fb8c93cebbab871ad0aeeba72e": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:15):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md\\n    deleted file mode 100644\\n    index 45bf7c02..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Validation.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:15 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "78dc183eb39709d4f8acba52b69f19d889c1aca0"
+        ]
+    },
+    "78f878fc87a1c503f820230eeec3f0eecc7d67cb": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:18):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md\\n    deleted file mode 100644\\n    index d52ad373..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Requirement_Workshops.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:18 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "abe661bd5d4397fb8c93cebbab871ad0aeeba72e"
+        ]
+    },
+    "6fa67530a36d270fa12bfd13562997ebd7d476d1": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:20):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md b/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md\\n    deleted file mode 100644\\n    index 97d3d892..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/Requirements_Gathering/Stakeholder_Interviews.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:20",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:20 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "78f878fc87a1c503f820230eeec3f0eecc7d67cb"
+        ]
+    },
+    "35a55ab7dbbfe5e4cd0d423ad7519b0a9252a897": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:22):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md b/SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md\\n    deleted file mode 100644\\n    index 6ef001e8..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Architectural_Design.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:22 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6fa67530a36d270fa12bfd13562997ebd7d476d1"
+        ]
+    },
+    "5e0a4063aa122f489fee56c6bc025b0f09c3e675": {
+        "task_id": "SystemInputs",
+        "file_path": "SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md",
+        "commit_message": "🗑️ remove(SystemInputs): Deleted files updated\\n\\nChanges included (as of 2025-07-28 04:47:24):\\n- SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md b/SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md\\n    deleted file mode 100644\\n    index fa3c9004..00000000\\n    --- a/SystemInputs/user_inputs/wbs_parts/Modeling/System_Design/Component_Design.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.021,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:24 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "35a55ab7dbbfe5e4cd0d423ad7519b0a9252a897"
+        ]
+    },
+    "9ed0b5dc1e0f096bd2db29f52159a4656b920655": {
+        "task_id": "Tests",
+        "file_path": "Tests/test_cross_platform_setup.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:47:26):\\n- Tests/test_cross_platform_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_cross_platform_setup.py b/Tests/test_cross_platform_setup.py\\n    index 5ca89e66..4da8a1ae 100644\\n    --- a/Tests/test_cross_platform_setup.py\\n    +++ b/Tests/test_cross_platform_setup.py\\n    @@ -1,63 +1,27 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:26",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:26 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5e0a4063aa122f489fee56c6bc025b0f09c3e675"
+        ]
+    },
+    "da5450c0d227f87e517815cc7a069fa24bbd4394": {
+        "task_id": "Tests",
+        "file_path": "Tests/test_frontend.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:47:28):\\n- Tests/test_frontend.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_frontend.py b/Tests/test_frontend.py\\n    index 2e808889..e98b9684 100644\\n    --- a/Tests/test_frontend.py\\n    +++ b/Tests/test_frontend.py\\n    @@ -5,45 +5,96 @@ File Description: Frontend UI tests including rendering, navigation, and interac\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9ed0b5dc1e0f096bd2db29f52159a4656b920655"
+        ]
+    },
+    "5854e7d11c79b351a74912b08eb69e7109b15607": {
+        "task_id": "Tests",
+        "file_path": "Tests/test_performance.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:47:31):\\n- Tests/test_performance.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/test_performance.py b/Tests/test_performance.py\\n    index 857245bb..785a014d 100644\\n    --- a/Tests/test_performance.py\\n    +++ b/Tests/test_performance.py\\n    @@ -36,7 +36,7 @@ class TestPerformance(unittest.TestCase):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:31 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "da5450c0d227f87e517815cc7a069fa24bbd4394"
+        ]
+    },
+    "4d977e34bc742e2c5b0511679feaf04d84e64224": {
+        "task_id": "Tests",
+        "file_path": "Tests/TEST_CHECKLIST.md",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:47:33):\\n- Tests/TEST_CHECKLIST.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TEST_CHECKLIST.md b/Tests/TEST_CHECKLIST.md\\n    new file mode 100644\\n    index 00000000..7964586a\\n    --- /dev/null\\n    +++ b/Tests/TEST_CHECKLIST.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:17:33",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:47:33 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5854e7d11c79b351a74912b08eb69e7109b15607"
+        ]
+    },
+    "73821835f4e869ad16e3a9902c1e31e984228672": {
+        "task_id": "Tests",
+        "file_path": "Tests/test_gantt_chart.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:50:00):\\n- Tests/test_gantt_chart.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/test_gantt_chart.py b/Tests/test_gantt_chart.py\\n    new file mode 100644\\n    index 00000000..2d9cafd4\\n    --- /dev/null\\n    +++ b/Tests/test_gantt_chart.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:00",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4d977e34bc742e2c5b0511679feaf04d84e64224"
+        ]
+    },
+    "7f81a43b73b6c43ec790a75f3f263ee56ff4d543": {
+        "task_id": "backend",
+        "file_path": "backend/api_inputs.py",
+        "commit_message": "🐛 fix(backend): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:50:02):\\n- backend/api_inputs.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/backend/api_inputs.py b/backend/api_inputs.py\\n    index 0996a93e..168638a7 100644\\n    --- a/backend/api_inputs.py\\n    +++ b/backend/api_inputs.py\\n    @@ -1,16 +1,23 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:02 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "73821835f4e869ad16e3a9902c1e31e984228672"
+        ]
+    },
+    "6028a0b08163a7d00c0ac33eea57cee73dff6cf4": {
+        "task_id": "backend",
+        "file_path": "backend/api_setup.py",
+        "commit_message": "🐛 fix(backend): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:50:05):\\n- backend/api_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/backend/api_setup.py b/backend/api_setup.py\\n    index e99d92df..7d70cf7e 100644\\n    --- a/backend/api_setup.py\\n    +++ b/backend/api_setup.py\\n    @@ -1,105 +1,79 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:05 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "7f81a43b73b6c43ec790a75f3f263ee56ff4d543"
+        ]
+    },
+    "62b3cd7c21808e0dc78d52820e7fbdf7d3013fe0": {
+        "task_id": "backend",
+        "file_path": "backend/repositories/",
+        "commit_message": "📝 docs(backend): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:50:07):\\n- backend/repositories/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/backend/repositories/project_repository.py b/backend/repositories/project_repository.py\\n    new file mode 100644\\n    index 00000000..c6b1ab7d\\n    --- /dev/null\\n    +++ b/backend/repositories/project_repository.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:07",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6028a0b08163a7d00c0ac33eea57cee73dff6cf4"
+        ]
+    },
+    "bdad942c28438a1648b17d362ea57bb23ba36a17": {
+        "task_id": "backend",
+        "file_path": "backend/services/",
+        "commit_message": "📝 docs(backend): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:50:10):\\n- backend/services/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/backend/services/project_service.py b/backend/services/project_service.py\\n    new file mode 100644\\n    index 00000000..5767e8f5\\n    --- /dev/null\\n    +++ b/backend/services/project_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:10",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:10 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "62b3cd7c21808e0dc78d52820e7fbdf7d3013fe0"
+        ]
+    },
+    "2aa147dcf7aa0f951c2d9a530de94362bc9326cf": {
+        "task_id": "frontend",
+        "file_path": "frontend/src/App.js",
+        "commit_message": "🐛 fix(frontend): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:50:12):\\n- frontend/src/App.js: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/frontend/src/App.js b/frontend/src/App.js\\n    index 336fd7d1..4c6c5757 100644\\n    --- a/frontend/src/App.js\\n    +++ b/frontend/src/App.js\\n    @@ -1,43 +1,79 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:12 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bdad942c28438a1648b17d362ea57bb23ba36a17"
+        ]
+    },
+    "74c33d1332d552e4ca00441ffcd075621b35e40c": {
+        "task_id": "frontend",
+        "file_path": "frontend/src/components/JsonFileUploader.js",
+        "commit_message": "🐛 fix(frontend): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:50:14):\\n- frontend/src/components/JsonFileUploader.js: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/frontend/src/components/JsonFileUploader.js b/frontend/src/components/JsonFileUploader.js\\n    index 139983a1..0cf1ae4c 100644\\n    --- a/frontend/src/components/JsonFileUploader.js\\n    +++ b/frontend/src/components/JsonFileUploader.js\\n    @@ -24,12 +24,14 @@ const JsonFileUploader = ({ onComplete, projectId }) => {\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2aa147dcf7aa0f951c2d9a530de94362bc9326cf"
+        ]
+    },
+    "a3ef27c24f31f00a08fcb160a78ad617f28aeca3": {
+        "task_id": "frontend",
+        "file_path": "frontend/src/components/SetupWizard.js",
+        "commit_message": "🐛 fix(frontend): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:50:16):\\n- frontend/src/components/SetupWizard.js: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/frontend/src/components/SetupWizard.js b/frontend/src/components/SetupWizard.js\\n    index 4fbc6f08..8b3e2911 100644\\n    --- a/frontend/src/components/SetupWizard.js\\n    +++ b/frontend/src/components/SetupWizard.js\\n    @@ -9,14 +9,17 @@ const steps = [\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:16 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "74c33d1332d552e4ca00441ffcd075621b35e40c"
+        ]
+    },
+    "045a335f4b9c2517d68a4e8dd412a9b19f0c08ef": {
+        "task_id": "frontend",
+        "file_path": "frontend/src/components/ErrorBoundary.js",
+        "commit_message": "📝 docs(frontend): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:50:19):\\n- frontend/src/components/ErrorBoundary.js: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/frontend/src/components/ErrorBoundary.js b/frontend/src/components/ErrorBoundary.js\\n    new file mode 100644\\n    index 00000000..0e4f9520\\n    --- /dev/null\\n    +++ b/frontend/src/components/ErrorBoundary.js\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a3ef27c24f31f00a08fcb160a78ad617f28aeca3"
+        ]
+    },
+    "f17c5e0e52f5ddaafae9fb09b19fa9bcddcc67f3": {
+        "task_id": "frontend",
+        "file_path": "frontend/src/components/GanttChart.js",
+        "commit_message": "📝 docs(frontend): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:50:21):\\n- frontend/src/components/GanttChart.js: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/frontend/src/components/GanttChart.js b/frontend/src/components/GanttChart.js\\n    new file mode 100644\\n    index 00000000..9402535f\\n    --- /dev/null\\n    +++ b/frontend/src/components/GanttChart.js\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:21",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:21 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "045a335f4b9c2517d68a4e8dd412a9b19f0c08ef"
+        ]
+    },
+    "e503731e83eacfa67c5e3c55cfa560b5fd508234": {
+        "task_id": "frontend",
+        "file_path": "frontend/src/context/",
+        "commit_message": "📝 docs(frontend): Untracked files updated\\n\\nChanges included (as of 2025-07-28 04:50:23):\\n- frontend/src/context/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/frontend/src/context/AppContext.js b/frontend/src/context/AppContext.js\\n    new file mode 100644\\n    index 00000000..90ad8f01\\n    --- /dev/null\\n    +++ b/frontend/src/context/AppContext.js\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:23 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f17c5e0e52f5ddaafae9fb09b19fa9bcddcc67f3"
+        ]
+    },
+    "09d3c52dd3f94907d6572573276f9ed8023894c8": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_progress.json",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-28 04:50:25):\\n- project_management/PM_SystemOutputs/system_outputs/commit_progress.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/PM_SystemOutputs/system_outputs/commit_progress.json b/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    index 253c9202..2fa62c8b 100644\\n    --- a/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    +++ b/project_management/PM_SystemOutputs/system_outputs/commit_progress.json\\n    @@ -1,3 +1,3 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-28 01:20:25",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Mon Jul 28 04:50:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e503731e83eacfa67c5e3c55cfa560b5fd508234"
         ]
     }
 }
