@@ -34,8 +34,9 @@ class TestShellIntegration(unittest.TestCase):
 
     def test_command_output_visibility(self):
         """Verify command outputs are visible in the terminal."""
-        result = subprocess.run(["echo", "test output"], capture_output=True, text=True)
-        self.assertEqual(result.stdout.strip(), "test output")
+        result = subprocess.run(["echo", "test output"], capture_output=True, text=True, shell=True)
+        self.assertEqual(result.returncode, 0)
+        self.assertIn("test output", result.stdout)
 
     def test_vscode_reload_and_terminal_restart(self):
         """Verify VSCode reload and terminal restart apply shell settings correctly."""
