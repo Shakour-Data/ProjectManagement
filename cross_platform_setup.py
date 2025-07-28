@@ -4,6 +4,8 @@ import subprocess
 import platform
 import shutil
 import time
+import tkinter as tk
+from tkinter import filedialog, messagebox
 
 def run_command(command, shell=False, cwd=None):
     print(f"Running command: {command}")
@@ -39,23 +41,25 @@ def install_python_dependencies(venv_python):
     run_command([venv_python, "-m", "pip", "install", "--upgrade", "pip"])
     run_command([venv_python, "-m", "pip", "install", "-r", "requirements.txt"])
 
-def install_frontend_dependencies():
+def install_frontend_dependencies(base_path):
     print("Installing frontend dependencies...")
-    if not os.path.exists("frontend"):
+    frontend_path = os.path.join(base_path, "frontend")
+    if not os.path.exists(frontend_path):
         print("Frontend directory not found!")
         sys.exit(1)
-    run_command("npm install", shell=True, cwd="frontend")
+    run_command("npm install", shell=True, cwd=frontend_path)
 
-def start_backend_server(venv_python):
+def start_backend_server(venv_python, base_path):
     print("Starting backend server...")
     # Use subprocess.Popen to run in background
     backend_cmd = [venv_python, "-m", "uvicorn", "backend.api:app", "--host", "0.0.0.0", "--port", "8000"]
-    backend_process = subprocess.Popen(backend_cmd)
+    backend_process = subprocess.Popen(backend_cmd, cwd=base_path)
     return backend_process
 
-def start_frontend_server():
+def start_frontend_server(base_path):
     print("Starting frontend server...")
-    frontend_process = subprocess.Popen(["npm", "start"], cwd="frontend", shell=True)
+    frontend_path = os.path.join(base_path, "frontend")
+    frontend_process = subprocess.Popen(["npm", "start"], cwd=frontend_path, shell=True)
     return frontend_process
 
 def open_browser():
@@ -72,7 +76,7 @@ def open_browser():
     except Exception as e:
         print(f"Failed to open browser: {e}")
 
-def create_desktop_shortcut():
+def create_desktop_shortcut(base_path):
     system = platform.system()
     home = os.path.expanduser("~")
     desktop = ""
@@ -97,11 +101,11 @@ def create_desktop_shortcut():
             shell = Dispatch('WScript.Shell')
             shortcut = shell.CreateShortCut(shortcut_path)
             # Target is python executable with this script
-            python_exe = os.path.join(os.getcwd(), "venv", "Scripts", "python.exe")
-            script_path = os.path.join(os.getcwd(), "cross_platform_setup.py")
+            python_exe = os.path.join(base_path, "venv", "Scripts", "python.exe")
+            script_path = os.path.join(base_path, "cross_platform_setup.py")
             shortcut.Targetpath = python_exe
             shortcut.Arguments = f'"{script_path}"'
-            shortcut.WorkingDirectory = os.getcwd()
+            shortcut.WorkingDirectory = base_path
             shortcut.IconLocation = python_exe
             shortcut.save()
             print(f"Desktop shortcut created at {shortcut_path}")
@@ -114,7 +118,7 @@ def create_desktop_shortcut():
         try:
             with open(shortcut_path, "w") as f:
                 f.write(f"#!/bin/bash\n")
-                f.write(f"cd {os.getcwd()}\n")
+                f.write(f"cd {base_path}\n")
                 f.write(f"python3 cross_platform_setup.py\n")
             os.chmod(shortcut_path, 0o755)
             print(f"Desktop shortcut created at {shortcut_path}")
@@ -128,7 +132,7 @@ def create_desktop_shortcut():
             with open(shortcut_path, "w") as f:
                 f.write("[Desktop Entry]\n")
                 f.write(f"Name={shortcut_name}\n")
-                f.write(f"Exec=python3 {os.path.join(os.getcwd(), 'cross_platform_setup.py')}\n")
+                f.write(f"Exec=python3 {os.path.join(base_path, 'cross_platform_setup.py')}\n")
                 f.write("Type=Application\n")
                 f.write("Terminal=true\n")
                 f.write(f"Icon=utilities-terminal\n")
@@ -138,8 +142,40 @@ def create_desktop_shortcut():
         except Exception as e:
             print(f"Failed to create Linux shortcut: {e}")
 
+def check_command_exists(command):
+    from shutil import which
+    return which(command) is not None
+
+def install_python():
+    print("Python is not installed. Please install Python manually from https://www.python.org/downloads/")
+    input("Press Enter after installing Python to continue...")
+
+def install_node():
+    print("Node.js is not installed. Please install Node.js manually from https://nodejs.org/en/download/")
+    input("Press Enter after installing Node.js to continue...")
+
+def install_git():
+    print("Git is not installed. Please install Git manually from https://git-scm.com/downloads/")
+    input("Press Enter after installing Git to continue...")
+
 def main():
-    venv_path = os.path.join(os.getcwd(), "venv")
+    root = tk.Tk()
+    root.withdraw()
+    messagebox.showinfo("Installation", "Please select the installation directory.")
+    base_path = filedialog.askdirectory(title="Select Installation Directory")
+    if not base_path:
+        messagebox.showerror("Error", "No directory selected. Installation cancelled.")
+        sys.exit(1)
+
+    # Check for required commands
+    if not check_command_exists("python") and not check_command_exists("python3"):
+        install_python()
+    if not check_command_exists("node"):
+        install_node()
+    if not check_command_exists("git"):
+        install_git()
+
+    venv_path = os.path.join(base_path, "venv")
     create_virtualenv(venv_path)
 
     if platform.system() == "Windows":
@@ -148,16 +184,16 @@ def main():
         venv_python = os.path.join(venv_path, "bin", "python")
 
     install_python_dependencies(venv_python)
-    install_frontend_dependencies()
+    install_frontend_dependencies(base_path)
 
-    backend_process = start_backend_server(venv_python)
+    backend_process = start_backend_server(venv_python, base_path)
     time.sleep(5)  # Wait for backend to start
 
-    frontend_process = start_frontend_server()
+    frontend_process = start_frontend_server(base_path)
     time.sleep(5)  # Wait for frontend to start
 
     open_browser()
-    create_desktop_shortcut()
+    create_desktop_shortcut(base_path)
 
     print("\nInstallation and setup complete.")
     print("To start the program later, activate the virtual environment and run:")
