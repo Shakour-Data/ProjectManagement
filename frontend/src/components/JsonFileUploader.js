@@ -24,12 +24,14 @@ const JsonFileUploader = ({ onComplete, projectId }) => {
     setStatus(`Uploading ${fileName}...`);
     setError(null);
     try {
-      // Fetch file content from user input or local file system
-      // For demo, we simulate file content
-      const fileContent = '{}'; // Replace with actual file content
-      await axios.post(`/api/user_inputs/upload/${fileName}`, fileContent, {
+      // Fetch file content from backend API
+      const fileResponse = await axios.get(`/api/user_inputs/get_file_content`, { params: { project_id: projectId, file_name: fileName } });
+      const fileContent = fileResponse.data.content || '{}';
+
+      // Post file content to backend upload endpoint
+      await axios.post(`/upload/json_file`, fileContent, {
         headers: { 'Content-Type': 'application/json' },
-        params: { project_id: projectId },
+        params: { target_dir: 'wbs_parts', project_id: projectId },
       });
       setStatus(`${fileName} uploaded successfully.`);
       if (currentFileIndex + 1 < files.length) {
