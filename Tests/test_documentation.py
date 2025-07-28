@@ -11,9 +11,11 @@ import subprocess
 class TestDocumentation(unittest.TestCase):
     def test_help_command(self):
         """Verify `auto_pm help` command displays accurate and complete information."""
+        import sys
         env = dict(**os.environ)
         env["PYTHONPATH"] = "."
-        result = subprocess.run(["python3", "project_management/cli.py", "help"], capture_output=True, text=True, env=env)
+        python_executable = sys.executable
+        result = subprocess.run([python_executable, "project_management/cli.py", "help"], capture_output=True, text=True, env=env)
         self.assertEqual(result.returncode, 0)
         self.assertIn("Usage", result.stdout)
 
