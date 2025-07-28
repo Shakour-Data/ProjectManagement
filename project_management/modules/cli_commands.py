@@ -1,13 +1,17 @@
 import argparse
 import os
 import subprocess
+import logging
 from project_management.modules.setup_initialization import initialize_git_repo, create_virtualenv, install_dependencies, create_requirements_file, ensure_gitignore_excludes_venv
+
+logger = logging.getLogger("cli_commands")
+logging.basicConfig(level=logging.INFO)
 
 def run_command(command):
     try:
         subprocess.run(command, check=True)
     except subprocess.CalledProcessError as e:
-        print(f"Command {command} failed with error: {e}")
+        logger.error(f"Command {command} failed with error: {e}")
 
 def prompt_user(question, default=None):
     prompt = f"{question}"
@@ -23,13 +27,13 @@ def setup_project():
     import shutil
     import os
 
-    print("Starting project setup...")
+    logger.info("Starting project setup...")
 
     # Remove PM_UserInputs folder if it exists
     pm_userinputs_path = os.path.join(os.getcwd(), 'PM_UserInputs')
     if os.path.exists(pm_userinputs_path) and os.path.isdir(pm_userinputs_path):
         shutil.rmtree(pm_userinputs_path)
-        print("Removed obsolete PM_UserInputs directory.")
+        logger.info("Removed obsolete PM_UserInputs directory.")
 
     # Initialize git repo
     initialize_git_repo()
@@ -46,29 +50,29 @@ def setup_project():
     # Install dependencies
     install_dependencies()
 
-    print("\nSetup complete.")
-    print("Please add your project dependencies to requirements.txt if not already done.")
-    print("Place your JSON input files in the 'project_inputs/PM_JSON/user_inputs' directory.")
-    print("You can then proceed with other commands.")
+    logger.info("\nSetup complete.")
+    logger.info("Please add your project dependencies to requirements.txt if not already done.")
+    logger.info("Place your JSON input files in the 'project_inputs/PM_JSON/user_inputs' directory.")
+    logger.info("You can then proceed with other commands.")
 
 def status():
-    print("Project Management Tool Status:")
+    logger.info("Project Management Tool Status:")
     if os.path.exists('.git'):
-        print("- Git repository initialized.")
+        logger.info("- Git repository initialized.")
     else:
-        print("- Git repository not found.")
+        logger.info("- Git repository not found.")
     if os.path.exists('venv'):
-        print("- Virtual environment exists.")
+        logger.info("- Virtual environment exists.")
     else:
-        print("- Virtual environment not found.")
+        logger.info("- Virtual environment not found.")
     if os.path.exists('requirements.txt'):
-        print("- requirements.txt file exists.")
+        logger.info("- requirements.txt file exists.")
     else:
-        print("- requirements.txt file not found.")
+        logger.info("- requirements.txt file not found.")
     if os.path.exists('project_inputs/PM_JSON/user_inputs'):
-        print("- project_inputs/PM_JSON/user_inputs directory exists.")
+        logger.info("- project_inputs/PM_JSON/user_inputs directory exists.")
     else:
-        print("- project_inputs/PM_JSON/user_inputs directory not found.")
+        logger.info("- project_inputs/PM_JSON/user_inputs directory not found.")
 
 def main():
     parser = argparse.ArgumentParser(description="Project Management Tool CLI")
