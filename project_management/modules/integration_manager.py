@@ -1,4 +1,8 @@
 import subprocess
+import logging
+
+logger = logging.getLogger("integration_manager")
+logging.basicConfig(level=logging.INFO)
 
 class IntegrationManager:
     def __init__(self):
@@ -17,11 +21,11 @@ class IntegrationManager:
         ]
 
     def run_module(self, module_name):
-        print(f"Running {module_name}...")
+        logger.info(f"Running {module_name}...")
         result = subprocess.run(['python3', f'project_management/modules/{module_name}'], capture_output=True, text=True)
-        print(result.stdout)
+        logger.info(result.stdout)
         if result.returncode != 0:
-            print(f"Error running {module_name}: {result.stderr}")
+            logger.error(f"Error running {module_name}: {result.stderr}")
             return False
         return True
 
@@ -29,10 +33,10 @@ class IntegrationManager:
         for module in self.modules:
             success = self.run_module(module)
             if not success:
-                print(f"Stopping integration due to error in {module}")
+                logger.error(f"Stopping integration due to error in {module}")
                 break
         else:
-            print("All modules executed successfully.")
+            logger.info("All modules executed successfully.")
 
 if __name__ == "__main__":
     manager = IntegrationManager()
