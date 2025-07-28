@@ -17,7 +17,7 @@ class TestCrossPlatformSetup(unittest.TestCase):
         mock_platform.return_value = 'Linux'
         mock_expanduser.return_value = '/home/testuser'
         with patch('builtins.open', unittest.mock.mock_open()) as mock_file:
-            cross_platform_setup.create_desktop_shortcut()
+            cross_platform_setup.create_desktop_shortcut('/home/testuser')
             # The shortcut creation may fail due to missing Desktop directory in test environment
             # So we check for either success or failure message
             calls = [call.args[0] for call in mock_print.call_args_list]
@@ -30,7 +30,7 @@ class TestCrossPlatformSetup(unittest.TestCase):
         mock_platform.return_value = 'Darwin'
         mock_expanduser.return_value = '/Users/testuser'
         with patch('builtins.open', unittest.mock.mock_open()) as mock_file:
-            cross_platform_setup.create_desktop_shortcut()
+            cross_platform_setup.create_desktop_shortcut('/Users/testuser')
             calls = [call.args[0] for call in mock_print.call_args_list]
             self.assertTrue(any("Desktop shortcut created at" in c or "Failed to create macOS shortcut" in c for c in calls))
 
@@ -49,7 +49,7 @@ class TestCrossPlatformSetup(unittest.TestCase):
     def test_install_frontend_dependencies(self, mock_run):
         mock_run.return_value = MagicMock(returncode=0)
         with patch('os.path.exists', return_value=True):
-            cross_platform_setup.install_frontend_dependencies()
+            cross_platform_setup.install_frontend_dependencies('.')
         self.assertTrue(mock_run.called)
 
 if __name__ == '__main__':
