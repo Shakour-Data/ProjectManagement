@@ -42,7 +42,7 @@ The Cost Report provides a detailed financial overview of project costs, includi
 
 # Combined Dashboard and Reports Plan for Project Management Tool
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## Overview
 
