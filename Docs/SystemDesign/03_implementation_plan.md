@@ -1,6 +1,6 @@
 # Implementation Plan
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## Overview
 
@@ -9,7 +9,7 @@ This document presents a detailed and comprehensive implementation plan for the 
 ## Technology Stack
 
 ### Backend Framework
-- Flask (Python): A lightweight, modular web framework used to build RESTful APIs that handle GitHub integration, task management, automation workflows, and communication with the VS Code extension.
+- FastAPI (Python): A lightweight, modular web framework used to build RESTful APIs that handle GitHub integration, task management, automation workflows, and communication with the VS Code extension.
 
 ### Core Logic and Automation
 - Python: Implements core functionalities including parsing creative user inputs, intelligent task prioritization, scheduling, dependency management, documentation handling, progress tracking, and automation of workflows.
