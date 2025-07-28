@@ -1,6 +1,6 @@
 # Requirements Specification Document
 
-*Last updated: 2024-07-27*
+*Last updated: 2025-07-27*
 
 ## 1. Introduction
 
@@ -94,4 +94,4 @@ Target users include software project managers, developers, and teams seeking au
 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
-| 1.1     | 2024-07-27 | Updated to reflect current implementation | Project Team |
+| 1.2     | 2025-07-27 | Updated to reflect current implementation | Project Team |
