@@ -19,14 +19,14 @@ pip install uvicorn
 cd frontend || exit 1
 npm install
 
-# Start backend server in background
+# Start backend server in background on port 5050
 cd ..
 source venv/bin/activate
-uvicorn backend.api:app --host 0.0.0.0 --port 8000 &
+uvicorn backend.api:app --host 0.0.0.0 --port 5050 &
 
-# Start frontend server in background
+# Start frontend server in background on port 5051
 cd frontend || exit 1
-npm start &
+PORT=5051 npm start &
 
 # Function to check if a port is open (server ready)
 check_server() {
@@ -57,6 +57,7 @@ done
 echo "Frontend server is up."
 
 # Open frontend URL in default browser
+<<<<<<< HEAD
 echo "Opening frontend UI in your default browser..."
 if command -v xdg-open >/dev/null 2>&1; then
   xdg-open http://localhost:3000
@@ -118,6 +119,9 @@ EOL
 esac
 
 echo "Setup complete. You can use the desktop shortcut or visit http://localhost:3000 to access the UI."
+=======
+xdg-open http://localhost:5051
+>>>>>>> develop
 
 # Wait for background processes
 wait
