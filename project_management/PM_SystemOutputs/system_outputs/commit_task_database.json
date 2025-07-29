@@ -16402,5 +16402,107 @@
         "parent_commits": [
             "be3bf156302cedac19d5b91a5dc58ec94ce88eae"
         ]
+    },
+    "297e47e1fcc0c88b6eca3c4843951174c77c8144": {
+        "task_id": "root",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-29 12:02:16):\\n- project_management/PM_SystemOutputs/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.012,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:32:17",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:02:17 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c87cb28b44903bd743ebd522a44ce95d4924217f"
+        ]
+    },
+    "8b7c05cf43a94e9f56eb9572068c815d924a8e7e": {
+        "task_id": "root",
+        "file_path": "setup_and_run.sh",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-29 12:02:19):\\n- setup_and_run.sh: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/setup_and_run.sh b/setup_and_run.sh\\n    index 65c3576b..50310573 100644\\n    --- a/setup_and_run.sh\\n    +++ b/setup_and_run.sh\\n    @@ -43,28 +43,27 @@ check_server() {\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.012,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:32:20",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:02:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "297e47e1fcc0c88b6eca3c4843951174c77c8144"
+        ]
+    },
+    "11b8dd9c83281ccad8e856c1614d465ac6aaf99f": {
+        "task_id": "root",
+        "file_path": "dev_setup.bat",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 12:02:22):\\n- dev_setup.bat: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/dev_setup.bat b/dev_setup.bat\\n    new file mode 100644\\n    index 00000000..26142b56\\n    --- /dev/null\\n    +++ b/dev_setup.bat\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.012,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:32:22",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:02:22 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8b7c05cf43a94e9f56eb9572068c815d924a8e7e"
+        ]
+    },
+    "948f94db782919c507eea41b258f5fed7c0464f7": {
+        "task_id": "root",
+        "file_path": "dev_setup.sh",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 12:02:25):\\n- dev_setup.sh: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/dev_setup.sh b/dev_setup.sh\\n    new file mode 100644\\n    index 00000000..aec20f98\\n    --- /dev/null\\n    +++ b/dev_setup.sh\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.012,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:32:26",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:02:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "11b8dd9c83281ccad8e856c1614d465ac6aaf99f"
+        ]
+    },
+    "266d395cc7c56bc039c990f05d3bd13b4028813f": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250729_120126/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 12:02:27):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250729_120126/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250729_120126/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250729_120126/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250729_120126/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.012,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:32:28",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:02:27 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "948f94db782919c507eea41b258f5fed7c0464f7"
+        ]
+    },
+    "26b8751baa3a887b9d69fef1fbb5f3910bc33c4d": {
+        "task_id": "root",
+        "file_path": "setup_and_run.bat",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 12:02:30):\\n- setup_and_run.bat: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/setup_and_run.bat b/setup_and_run.bat\\n    new file mode 100644\\n    index 00000000..cf2d5508\\n    --- /dev/null\\n    +++ b/setup_and_run.bat\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.012,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:32:31",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:02:30 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "266d395cc7c56bc039c990f05d3bd13b4028813f"
+        ]
     }
 }
