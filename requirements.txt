@@ -1,11 +1,7 @@
-# Initial dependencies for the project management tool
-requests
-PyGithub
-pytest
-openpyxl
-markdownify
-schedule
-pywin32
+PyQt5
+PyQtWebEngine
+cryptography
 uvicorn
 fastapi
-starlette
+requests
+pytest
