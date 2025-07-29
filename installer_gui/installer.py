@@ -10,8 +10,11 @@ if getattr(sys, 'frozen', False):
 else:
     base_path = os.path.abspath(".")
 
-template_folder = os.path.join(base_path, "ui")
-static_folder = os.path.join(base_path, "ui", "static")
+print(f"DEBUG: base_path = {base_path}")
+template_folder = os.path.join(base_path, "templates")
+static_folder = os.path.join(base_path, "templates", "static")
+print(f"DEBUG: template_folder = {template_folder}")
+print(f"DEBUG: static_folder = {static_folder}")
 
 app = Flask(__name__, static_folder=static_folder, template_folder=template_folder)
 
