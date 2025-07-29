@@ -16504,5 +16504,56 @@
         "parent_commits": [
             "266d395cc7c56bc039c990f05d3bd13b4028813f"
         ]
+    },
+    "ca435f6a1cae14015d0f0b9bbd81fe974e315ffe": {
+        "task_id": "root",
+        "file_path": "build_installer_scripts/build_installers_windows.bat",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-29 12:24:42):\\n- build_installer_scripts/build_installers_windows.bat: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/build_installer_scripts/build_installers_windows.bat b/build_installer_scripts/build_installers_windows.bat\\n    index fdd0e8bd..edef6d53 100644\\n    --- a/build_installer_scripts/build_installers_windows.bat\\n    +++ b/build_installer_scripts/build_installers_windows.bat\\n    @@ -3,7 +3,7 @@ REM This batch script builds the Windows standalone executable for installer_gui\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:54:42",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:24:42 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f78dd6ea13e4b68e486b5f6ef8f38ea4c717d469"
+        ]
+    },
+    "3c45422b8d0efe279fda643df3cb2cdae871a553": {
+        "task_id": "root",
+        "file_path": "dist_installers/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 12:24:46):\\n- dist_installers/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementSetup_Windows.exe b/dist_installers/ProjectManagementSetup_Windows.exe\\n    new file mode 100644\\n    index 00000000..8f73346b\\n    Binary files /dev/null and b/dist_installers/ProjectManagementSetup_Windows.exe differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:54:47",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:24:46 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ca435f6a1cae14015d0f0b9bbd81fe974e315ffe"
+        ]
+    },
+    "d2ab60992ca250299b20f79f82ebf1f0bb58641d": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250729_122441/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 12:24:49):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250729_122441/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250729_122441/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250729_122441/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250729_122441/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 08:54:49",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Tue Jul 29 12:24:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3c45422b8d0efe279fda643df3cb2cdae871a553"
+        ]
     }
 }
