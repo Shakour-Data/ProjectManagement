@@ -16946,5 +16946,447 @@
         "parent_commits": [
             "d6a8caca550eebb2369288d66395a7fb397bded3"
         ]
+    },
+    "4b5e77a25bac41e17b30d1c76d30b5ebcadb4c8e": {
+        "task_id": "build_installer_scripts",
+        "file_path": "build_installer_scripts/build_installer_gui.sh",
+        "commit_message": "🐛 fix(build_installer_scripts): Modified files updated\\n\\nChanges included (as of 2025-07-29 20:16:34):\\n- build_installer_scripts/build_installer_gui.sh: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/build_installer_scripts/build_installer_gui.sh b/build_installer_scripts/build_installer_gui.sh\\n    index 1e59a50e..3d90a3d3 100755\\n    --- a/build_installer_scripts/build_installer_gui.sh\\n    +++ b/build_installer_scripts/build_installer_gui.sh\\n    @@ -5,11 +5,13 @@ set -e\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c60d270dd86a6385599009d138cca347138fc87d"
+        ]
+    },
+    "d56c0f4ec3b2be41dddb86453016ef4f6569ac8f": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/Activate.ps1",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:37):\\n- build_venv/bin/Activate.ps1: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/Activate.ps1 b/build_venv/bin/Activate.ps1\\n    deleted file mode 100644\\n    index b49d77ba..00000000\\n    --- a/build_venv/bin/Activate.ps1\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:37 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4b5e77a25bac41e17b30d1c76d30b5ebcadb4c8e"
+        ]
+    },
+    "201693a5436cc1c50388ca0651e14f17135a44dd": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/activate",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:39):\\n- build_venv/bin/activate: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/activate b/build_venv/bin/activate\\n    deleted file mode 100644\\n    index 86b5d9aa..00000000\\n    --- a/build_venv/bin/activate\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d56c0f4ec3b2be41dddb86453016ef4f6569ac8f"
+        ]
+    },
+    "9e881cddd87767908314c61a25b1a04230b922cd": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/activate.csh",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:41):\\n- build_venv/bin/activate.csh: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/activate.csh b/build_venv/bin/activate.csh\\n    deleted file mode 100644\\n    index 2281c0bd..00000000\\n    --- a/build_venv/bin/activate.csh\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "201693a5436cc1c50388ca0651e14f17135a44dd"
+        ]
+    },
+    "f9fc12e064587616b837e1b4c0f9be6f6352416e": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/activate.fish",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:43):\\n- build_venv/bin/activate.fish: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/activate.fish b/build_venv/bin/activate.fish\\n    deleted file mode 100644\\n    index 1f1f7601..00000000\\n    --- a/build_venv/bin/activate.fish\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:43",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9e881cddd87767908314c61a25b1a04230b922cd"
+        ]
+    },
+    "d0b894b756155c9191a69605db58c6f3d1d58f46": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pip",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:45):\\n- build_venv/bin/pip: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pip b/build_venv/bin/pip\\n    deleted file mode 100755\\n    index b8f9e370..00000000\\n    --- a/build_venv/bin/pip\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f9fc12e064587616b837e1b4c0f9be6f6352416e"
+        ]
+    },
+    "99a3939603902ab67eb74866eb543fbfac674cc8": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pip3",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:47):\\n- build_venv/bin/pip3: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pip3 b/build_venv/bin/pip3\\n    deleted file mode 100755\\n    index b8f9e370..00000000\\n    --- a/build_venv/bin/pip3\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:47",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:47 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d0b894b756155c9191a69605db58c6f3d1d58f46"
+        ]
+    },
+    "899f79a5ff7dcb52262273ab7eac9625d0d30fcc": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pip3.10",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:49):\\n- build_venv/bin/pip3.10: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pip3.10 b/build_venv/bin/pip3.10\\n    deleted file mode 100755\\n    index b8f9e370..00000000\\n    --- a/build_venv/bin/pip3.10\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:49",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "99a3939603902ab67eb74866eb543fbfac674cc8"
+        ]
+    },
+    "cd212bc40c81173f515982d0679427add4794e22": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyi-archive_viewer",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:51):\\n- build_venv/bin/pyi-archive_viewer: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyi-archive_viewer b/build_venv/bin/pyi-archive_viewer\\n    deleted file mode 100755\\n    index b9a19ee1..00000000\\n    --- a/build_venv/bin/pyi-archive_viewer\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:51",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:51 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "899f79a5ff7dcb52262273ab7eac9625d0d30fcc"
+        ]
+    },
+    "7174e4dfab44114edcc57305c8a972922d2769ce": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyi-bindepend",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:54):\\n- build_venv/bin/pyi-bindepend: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyi-bindepend b/build_venv/bin/pyi-bindepend\\n    deleted file mode 100755\\n    index aabc41fb..00000000\\n    --- a/build_venv/bin/pyi-bindepend\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:54",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:54 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "cd212bc40c81173f515982d0679427add4794e22"
+        ]
+    },
+    "e0bf0a01f9682f41fc30bb2ba6e1baf6f1ab1abb": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyi-grab_version",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:56):\\n- build_venv/bin/pyi-grab_version: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyi-grab_version b/build_venv/bin/pyi-grab_version\\n    deleted file mode 100755\\n    index 0282b8c2..00000000\\n    --- a/build_venv/bin/pyi-grab_version\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:56",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:56 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "7174e4dfab44114edcc57305c8a972922d2769ce"
+        ]
+    },
+    "32e0f29b950cc06122e87b4db0161c51f4e9c986": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyi-makespec",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:16:58):\\n- build_venv/bin/pyi-makespec: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyi-makespec b/build_venv/bin/pyi-makespec\\n    deleted file mode 100755\\n    index ca348405..00000000\\n    --- a/build_venv/bin/pyi-makespec\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:46:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:16:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e0bf0a01f9682f41fc30bb2ba6e1baf6f1ab1abb"
+        ]
+    },
+    "0fded1bab8c5f19deb5c12664572b51e00bec0be": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyi-set_version",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:00):\\n- build_venv/bin/pyi-set_version: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyi-set_version b/build_venv/bin/pyi-set_version\\n    deleted file mode 100755\\n    index 04bf6c5c..00000000\\n    --- a/build_venv/bin/pyi-set_version\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:00",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "32e0f29b950cc06122e87b4db0161c51f4e9c986"
+        ]
+    },
+    "6fe3ae415de56ca95192d7e89077d973e402b5a3": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyinstaller",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:02):\\n- build_venv/bin/pyinstaller: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyinstaller b/build_venv/bin/pyinstaller\\n    deleted file mode 100755\\n    index ad6fbc98..00000000\\n    --- a/build_venv/bin/pyinstaller\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:03 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0fded1bab8c5f19deb5c12664572b51e00bec0be"
+        ]
+    },
+    "4be36cfaf3ea5c0877383bbea37b2f9f037a0b9d": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pylupdate5",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:05):\\n- build_venv/bin/pylupdate5: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pylupdate5 b/build_venv/bin/pylupdate5\\n    deleted file mode 100755\\n    index 31578108..00000000\\n    --- a/build_venv/bin/pylupdate5\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:05 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6fe3ae415de56ca95192d7e89077d973e402b5a3"
+        ]
+    },
+    "0c4b2bddae50d95b15a986d814fd5906684b018f": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyrcc5",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:07):\\n- build_venv/bin/pyrcc5: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyrcc5 b/build_venv/bin/pyrcc5\\n    deleted file mode 100755\\n    index c1d1aa05..00000000\\n    --- a/build_venv/bin/pyrcc5\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:07",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4be36cfaf3ea5c0877383bbea37b2f9f037a0b9d"
+        ]
+    },
+    "eda4de0c0607c2c3e51b11dff872f72de316ea90": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/python",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:09):\\n- build_venv/bin/python: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/python b/build_venv/bin/python\\n    deleted file mode 120000\\n    index b8a0adbb..00000000\\n    --- a/build_venv/bin/python\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:09",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:09 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0c4b2bddae50d95b15a986d814fd5906684b018f"
+        ]
+    },
+    "b43d2d0f3a2211a7f1516d2a0ca5ff36989b82a2": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/python3",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:11):\\n- build_venv/bin/python3: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/python3 b/build_venv/bin/python3\\n    deleted file mode 120000\\n    index ae65fdaa..00000000\\n    --- a/build_venv/bin/python3\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:11",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:11 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "eda4de0c0607c2c3e51b11dff872f72de316ea90"
+        ]
+    },
+    "f3852cf246ea55ead5cdf23c33dad3fe56067a3c": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/python3.10",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:14):\\n- build_venv/bin/python3.10: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/python3.10 b/build_venv/bin/python3.10\\n    deleted file mode 120000\\n    index b8a0adbb..00000000\\n    --- a/build_venv/bin/python3.10\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b43d2d0f3a2211a7f1516d2a0ca5ff36989b82a2"
+        ]
+    },
+    "cafd1a7d933a18c40275f1ca1c2727717dd76972": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/bin/pyuic5",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:16):\\n- build_venv/bin/pyuic5: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/bin/pyuic5 b/build_venv/bin/pyuic5\\n    deleted file mode 100755\\n    index bf5ec353..00000000\\n    --- a/build_venv/bin/pyuic5\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:16",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:16 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f3852cf246ea55ead5cdf23c33dad3fe56067a3c"
+        ]
+    },
+    "7e130d7c5dfd862d78f77b44cfe4be6da4a3881f": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/lib64",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:18):\\n- build_venv/lib64: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/lib64 b/build_venv/lib64\\n    deleted file mode 120000\\n    index 7951405f..00000000\\n    --- a/build_venv/lib64\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:18",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:18 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "cafd1a7d933a18c40275f1ca1c2727717dd76972"
+        ]
+    },
+    "cfd85ffd42548fff835af6066a6ffc894880f4e2": {
+        "task_id": "build_venv",
+        "file_path": "build_venv/pyvenv.cfg",
+        "commit_message": "🗑️ remove(build_venv): Deleted files updated\\n\\nChanges included (as of 2025-07-29 20:17:20):\\n- build_venv/pyvenv.cfg: This file was removed from the project.\\n  Summary:\\n    diff --git a/build_venv/pyvenv.cfg b/build_venv/pyvenv.cfg\\n    deleted file mode 100644\\n    index 0537ffc0..00000000\\n    --- a/build_venv/pyvenv.cfg\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.014,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:20",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:20 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "7e130d7c5dfd862d78f77b44cfe4be6da4a3881f"
+        ]
+    },
+    "d422e74ae59df73261d61e08484f360cdc248a25": {
+        "task_id": "dist_installers",
+        "file_path": "dist_installers/ProjectManagementInstaller_Linux",
+        "commit_message": "🐛 fix(dist_installers): Modified files updated\\n\\nChanges included (as of 2025-07-29 20:17:22):\\n- dist_installers/ProjectManagementInstaller_Linux: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementInstaller_Linux b/dist_installers/ProjectManagementInstaller_Linux\\n    index 804e36a9..756cd648 100755\\n    Binary files a/dist_installers/ProjectManagementInstaller_Linux and b/dist_installers/ProjectManagementInstaller_Linux differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:23",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:23 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "cfd85ffd42548fff835af6066a6ffc894880f4e2"
+        ]
+    },
+    "1a0f7e328fda66750c36a6f56c3ac3da017be963": {
+        "task_id": "installer_gui",
+        "file_path": "installer_gui/installer.py",
+        "commit_message": "🐛 fix(installer_gui): Modified files updated\\n\\nChanges included (as of 2025-07-29 20:17:31):\\n- installer_gui/installer.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/installer_gui/installer.py b/installer_gui/installer.py\\n    index c2e02b1f..19b876d9 100644\\n    --- a/installer_gui/installer.py\\n    +++ b/installer_gui/installer.py\\n    @@ -1,216 +1,29 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:31",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:31 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d422e74ae59df73261d61e08484f360cdc248a25"
+        ]
+    },
+    "1e5e4ea13135eba0d78ad6659a7556964009e537": {
+        "task_id": "installer_gui",
+        "file_path": "installer_gui/ui/index.html",
+        "commit_message": "🐛 fix(installer_gui): Modified files updated\\n\\nChanges included (as of 2025-07-29 20:17:33):\\n- installer_gui/ui/index.html: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/installer_gui/ui/index.html b/installer_gui/ui/index.html\\n    index f482caa6..1e49b1fa 100644\\n    --- a/installer_gui/ui/index.html\\n    +++ b/installer_gui/ui/index.html\\n    @@ -4,17 +4,41 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:33",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:33 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1a0f7e328fda66750c36a6f56c3ac3da017be963"
+        ]
+    },
+    "8209e5f5a4f33fa6f72fbabaa89412c54f8fd10b": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250729_201634/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-29 20:17:36):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250729_201634/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250729_201634/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250729_201634/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250729_201634/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 16:47:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 20:17:36 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1e5e4ea13135eba0d78ad6659a7556964009e537"
+        ]
     }
 }
