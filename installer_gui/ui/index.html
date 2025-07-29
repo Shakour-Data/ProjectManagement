@@ -4,17 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Project Management Installer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #333; }
+        button { padding: 10px 20px; font-size: 16px; }
+        #status { margin-top: 20px; }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Project Management Installer</h1>
-        <p>Please follow the steps to install the software.</p>
-        <div id="content">
-            <button id="startBtn">Start Installation</button>
-            <div id="status"></div>
-        </div>
-    </div>
-    <script src="installer.js"></script>
+    <h1>Project Management Installer</h1>
+    <p>Click the button below to start installation.</p>
+    <button id="installBtn">Start Installation</button>
+    <div id="status"></div>
+
+    <script>
+        document.getElementById('installBtn').addEventListener('click', () => {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = 'Installing...';
+
+            fetch('/install', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'start_install' })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    statusDiv.textContent = data.message;
+                } else {
+                    statusDiv.textContent = 'Installation failed.';
+                }
+            })
+            .catch(error => {
+                statusDiv.textContent = 'Error: ' + error;
+            });
+        });
+    </script>
 </body>
 </html>
