@@ -16,17 +16,17 @@ pip install -r requirements.txt
 cd frontend || exit 1
 npm install
 
-# Start backend server in background
+# Start backend server in background on port 5050
 cd ..
 source venv/bin/activate
-uvicorn backend.api:app --host 0.0.0.0 --port 8000 &
+uvicorn backend.api:app --host 0.0.0.0 --port 5050 &
 
-# Start frontend server in background
+# Start frontend server in background on port 5051
 cd frontend || exit 1
-npm start &
+PORT=5051 npm start &
 
 # Open frontend URL in default browser
-xdg-open http://localhost:3000
+xdg-open http://localhost:5051
 
 # Wait for background processes
 wait
