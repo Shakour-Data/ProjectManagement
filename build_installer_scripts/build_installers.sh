@@ -4,8 +4,8 @@
 
 set -e
 
-SCRIPT_PATH="../cross_platform_setup.py"
-DIST_DIR="../dist_installers"
+SCRIPT_PATH="./cross_platform_setup.py"
+DIST_DIR="./dist_installers"
 
 mkdir -p $DIST_DIR
 
