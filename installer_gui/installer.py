@@ -5,7 +5,15 @@ import threading
 import os
 import sys
 
-app = Flask(__name__, static_folder='ui/static', template_folder='ui')
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.abspath(".")
+
+template_folder = os.path.join(base_path, "ui")
+static_folder = os.path.join(base_path, "ui", "static")
+
+app = Flask(__name__, static_folder=static_folder, template_folder=template_folder)
 
 @app.route('/')
 def index():
@@ -23,7 +31,7 @@ def open_browser():
 
 def main():
     threading.Timer(1, open_browser).start()
-    app.run(host='127.0.0.1', port=5000)
+    app.run(host='127.0.0.1', port=5001)
 
 if __name__ == '__main__':
     main()
