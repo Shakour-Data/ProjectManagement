@@ -3,15 +3,15 @@
 
 set -e
 
-SCRIPT_PATH="./installer_gui/installer.py"
+SCRIPT_PATH="./installer_gui/installer_tkinter.py"
 DIST_DIR="./dist_installers"
 VENV_PATH="./venv"
 
 mkdir -p $DIST_DIR
 
-echo "Building graphical installer executable for Linux using Flask-based UI..."
+echo "Building graphical installer executable for Linux using Tkinter-based UI..."
 source $VENV_PATH/bin/activate
-pyinstaller --onefile --name ProjectManagementInstaller_Linux --add-data "installer_gui/ui:ui" $SCRIPT_PATH
+pyinstaller --onefile --name ProjectManagementInstaller_Linux $SCRIPT_PATH
 mv dist/ProjectManagementInstaller_Linux $DIST_DIR/
 
 echo "Build complete. Executable is in $DIST_DIR"
