@@ -16691,5 +16691,175 @@
         "parent_commits": [
             "0c16236d4ba3f8b2cc9ff376a66605944c8afdd1"
         ]
+    },
+    "5456bddfc23a36eae1dfe010e612b5cee8e63815": {
+        "task_id": "root",
+        "file_path": "cross_platform_setup.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-29 17:57:53):\\n- cross_platform_setup.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/cross_platform_setup.py b/cross_platform_setup.py\\n    index 000310d7..7eed2933 100644\\n    --- a/cross_platform_setup.py\\n    +++ b/cross_platform_setup.py\\n    @@ -25,7 +25,12 @@ def run_command(command, shell=False, cwd=None):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:27:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 17:57:53 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5d38c1d0d077f53e4c4b977a14b6fdcce41ce327"
+        ]
+    },
+    "a30478e795b5f5e917054a73d01bc82a7b74adf4": {
+        "task_id": "root",
+        "file_path": "installer_config.json",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-29 17:57:55):\\n- installer_config.json: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/installer_config.json b/installer_config.json\\n    new file mode 100644\\n    index 00000000..9c1963b5\\n    --- /dev/null\\n    +++ b/installer_config.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:27:55",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 17:57:55 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5456bddfc23a36eae1dfe010e612b5cee8e63815"
+        ]
+    },
+    "fbb8e2de7c9b3bf614e49d0a466f49f0b3d3343b": {
+        "task_id": "dist_installers",
+        "file_path": "dist_installers/ProjectManagementSetup_Linux",
+        "commit_message": "🐛 fix(dist_installers): Modified files updated\\n\\nChanges included (as of 2025-07-29 17:57:58):\\n- dist_installers/ProjectManagementSetup_Linux: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementSetup_Linux b/dist_installers/ProjectManagementSetup_Linux\\n    index abfdfd18..03953d3c 100755\\n    Binary files a/dist_installers/ProjectManagementSetup_Linux and b/dist_installers/ProjectManagementSetup_Linux differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:27:58",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 17:57:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a30478e795b5f5e917054a73d01bc82a7b74adf4"
+        ]
+    },
+    "1e113cf33d43ec3f0fd0f33cd830a5fccdb1a31e": {
+        "task_id": "dist_installers",
+        "file_path": "dist_installers/ProjectManagementSetup_Windows.exe",
+        "commit_message": "🐛 fix(dist_installers): Modified files updated\\n\\nChanges included (as of 2025-07-29 17:58:03):\\n- dist_installers/ProjectManagementSetup_Windows.exe: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementSetup_Windows.exe b/dist_installers/ProjectManagementSetup_Windows.exe\\n    index 53ae3b8f..9439ac8e 100755\\n    Binary files a/dist_installers/ProjectManagementSetup_Windows.exe and b/dist_installers/ProjectManagementSetup_Windows.exe differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:28:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 17:58:03 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "fbb8e2de7c9b3bf614e49d0a466f49f0b3d3343b"
+        ]
+    },
+    "e7050200b9c69e1b174e61322d26a268f09b4595": {
+        "task_id": "dist_installers",
+        "file_path": "dist_installers/ProjectManagementSetup_macOS",
+        "commit_message": "🐛 fix(dist_installers): Modified files updated\\n\\nChanges included (as of 2025-07-29 17:58:08):\\n- dist_installers/ProjectManagementSetup_macOS: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementSetup_macOS b/dist_installers/ProjectManagementSetup_macOS\\n    index ea300323..f66f5b5d 100755\\n    Binary files a/dist_installers/ProjectManagementSetup_macOS and b/dist_installers/ProjectManagementSetup_macOS differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:28:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 17:58:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1e113cf33d43ec3f0fd0f33cd830a5fccdb1a31e"
+        ]
+    },
+    "c94dc97ba2d7ec858b10188ae8d6b29089768298": {
+        "task_id": "dist_installers",
+        "file_path": "dist_installers/ProjectManagementInstaller_Linux",
+        "commit_message": "📝 docs(dist_installers): Untracked files updated\\n\\nChanges included (as of 2025-07-29 17:58:16):\\n- dist_installers/ProjectManagementInstaller_Linux: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementInstaller_Linux b/dist_installers/ProjectManagementInstaller_Linux\\n    new file mode 100755\\n    index 00000000..f5b331c2\\n    Binary files /dev/null and b/dist_installers/ProjectManagementInstaller_Linux differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:28:17",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 17:58:16 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e7050200b9c69e1b174e61322d26a268f09b4595"
+        ]
+    },
+    "bec5f3b5a8dbb856a6217d00936cdb3f6df4789e": {
+        "task_id": "build_installer_scripts",
+        "file_path": "build_installer_scripts/build_installer_gui.sh",
+        "commit_message": "📝 docs(build_installer_scripts): Untracked files updated\\n\\nChanges included (as of 2025-07-29 18:00:00):\\n- build_installer_scripts/build_installer_gui.sh: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/build_installer_scripts/build_installer_gui.sh b/build_installer_scripts/build_installer_gui.sh\\n    new file mode 100755\\n    index 00000000..14b2a93d\\n    --- /dev/null\\n    +++ b/build_installer_scripts/build_installer_gui.sh\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:30:01",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 18:00:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c94dc97ba2d7ec858b10188ae8d6b29089768298"
+        ]
+    },
+    "91dd3581196a4e868f5c0b4e81139a2108a4ec2b": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250729_175753/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-29 18:00:04):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250729_175753/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250729_175753/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250729_175753/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250729_175753/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:30:04",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 18:00:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bec5f3b5a8dbb856a6217d00936cdb3f6df4789e"
+        ]
+    },
+    "2978c99ece68f887f506ff42c872b03f91ee9295": {
+        "task_id": "build_installer_scripts",
+        "file_path": "build_installer_scripts/build_installer_gui.sh",
+        "commit_message": "🐛 fix(build_installer_scripts): Modified files updated\\n\\nChanges included (as of 2025-07-29 18:07:42):\\n- build_installer_scripts/build_installer_gui.sh: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/build_installer_scripts/build_installer_gui.sh b/build_installer_scripts/build_installer_gui.sh\\n    index 14b2a93d..1e59a50e 100755\\n    --- a/build_installer_scripts/build_installer_gui.sh\\n    +++ b/build_installer_scripts/build_installer_gui.sh\\n    @@ -9,7 +9,7 @@ DIST_DIR=\"./dist_installers\"\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:37:42",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 18:07:42 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "91dd3581196a4e868f5c0b4e81139a2108a4ec2b"
+        ]
+    },
+    "42dd3d5e06f96aa099712d50d191a405c8c98563": {
+        "task_id": "dist_installers",
+        "file_path": "dist_installers/ProjectManagementInstaller_Linux",
+        "commit_message": "🐛 fix(dist_installers): Modified files updated\\n\\nChanges included (as of 2025-07-29 18:07:47):\\n- dist_installers/ProjectManagementInstaller_Linux: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/dist_installers/ProjectManagementInstaller_Linux b/dist_installers/ProjectManagementInstaller_Linux\\n    index f5b331c2..804e36a9 100755\\n    Binary files a/dist_installers/ProjectManagementInstaller_Linux and b/dist_installers/ProjectManagementInstaller_Linux differ\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-29 14:37:48",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Tue Jul 29 18:07:48 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2978c99ece68f887f506ff42c872b03f91ee9295"
+        ]
     }
 }
