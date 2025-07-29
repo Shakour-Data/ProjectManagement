@@ -14,8 +14,7 @@ __pycache__/
 # C extensions
 *.so
 
-# Ignore test environment folder
-test_env/
+
 
 # Distribution / packaging
 .Python
