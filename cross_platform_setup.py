@@ -209,30 +209,104 @@ def install_node():
     if node_path:
         print(f"Found Node.js at {node_path}")
     else:
-        messagebox.showwarning("Node.js Not Found", "Node.js is not installed in the default locations. Please select the Node.js installation directory.")
-        root = tk.Tk()
-        root.withdraw()
-        while True:
-            selected_dir = filedialog.askdirectory(title="Select Node.js Installation Directory")
-            if not selected_dir:
-                if messagebox.askyesno("Cancel Installation", "No directory selected. Do you want to cancel the installation?"):
-                    sys.exit(1)
+        system = platform.system()
+        if system == "Windows":
+            import urllib.request
+            import tempfile
+            import subprocess
+
+            node_installer_url = "https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi"
+            temp_dir = tempfile.gettempdir()
+            installer_path = os.path.join(temp_dir, "node-lts.msi")
+
+            print("Downloading Node.js installer...")
+            urllib.request.urlretrieve(node_installer_url, installer_path)
+            print(f"Downloaded Node.js installer to {installer_path}")
+
+            print("Installing Node.js silently...")
+            subprocess.run(["msiexec", "/i", installer_path, "/quiet", "/norestart"], check=True)
+            os.remove(installer_path)
+            print("Node.js installation complete.")
+        elif system == "Linux":
+            import subprocess
+            try:
+                # Detect package manager and install nodejs
+                if shutil.which("apt"):
+                    print("Installing Node.js using apt...")
+                    subprocess.run(["sudo", "apt", "update"], check=True)
+                    subprocess.run(["sudo", "apt", "install", "-y", "nodejs", "npm"], check=True)
+                elif shutil.which("yum"):
+                    print("Installing Node.js using yum...")
+                    subprocess.run(["sudo", "yum", "install", "-y", "nodejs", "npm"], check=True)
                 else:
-                    continue
-            node_exe = os.path.join(selected_dir, "node.exe")
-            if os.path.exists(node_exe):
-                print(f"Using Node.js at {node_exe}")
-                break
-            else:
-                messagebox.showerror("Invalid Directory", "The selected directory does not contain node.exe. Please select a valid Node.js installation directory.")
+                    print("Unsupported package manager. Please install Node.js manually.")
+                    sys.exit(1)
+                print("Node.js installation complete.")
+            except subprocess.CalledProcessError as e:
+                print(f"Failed to install Node.js: {e}")
+                sys.exit(1)
+        else:
+            messagebox.showwarning("Node.js Not Found", "Node.js is not installed in the default locations. Please select the Node.js installation directory.")
+            root = tk.Tk()
+            root.withdraw()
+            while True:
+                selected_dir = filedialog.askdirectory(title="Select Node.js Installation Directory")
+                if not selected_dir:
+                    if messagebox.askyesno("Cancel Installation", "No directory selected. Do you want to cancel the installation?"):
+                        sys.exit(1)
+                    else:
+                        continue
+                node_exe = os.path.join(selected_dir, "node.exe")
+                if os.path.exists(node_exe):
+                    print(f"Using Node.js at {node_exe}")
+                    break
+                else:
+                    messagebox.showerror("Invalid Directory", "The selected directory does not contain node.exe. Please select a valid Node.js installation directory.")
 
 def install_git():
     git_path = check_default_git()
     if git_path:
         print(f"Found Git at {git_path}")
     else:
-        messagebox.showerror("Git Not Found", "Git is not installed in the default locations. Please install Git manually from https://git-scm.com/downloads/")
-        sys.exit(1)
+        system = platform.system()
+        if system == "Windows":
+            import urllib.request
+            import tempfile
+            import subprocess
+
+            git_installer_url = "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.1/Git-2.41.0-64-bit.exe"
+            temp_dir = tempfile.gettempdir()
+            installer_path = os.path.join(temp_dir, "git-installer.exe")
+
+            print("Downloading Git installer...")
+            urllib.request.urlretrieve(git_installer_url, installer_path)
+            print(f"Downloaded Git installer to {installer_path}")
+
+            print("Installing Git silently...")
+            subprocess.run([installer_path, "/VERYSILENT", "/NORESTART"], check=True)
+            os.remove(installer_path)
+            print("Git installation complete.")
+        elif system == "Linux":
+            import subprocess
+            try:
+                # Detect package manager and install git
+                if shutil.which("apt"):
+                    print("Installing Git using apt...")
+                    subprocess.run(["sudo", "apt", "update"], check=True)
+                    subprocess.run(["sudo", "apt", "install", "-y", "git"], check=True)
+                elif shutil.which("yum"):
+                    print("Installing Git using yum...")
+                    subprocess.run(["sudo", "yum", "install", "-y", "git"], check=True)
+                else:
+                    print("Unsupported package manager. Please install Git manually.")
+                    sys.exit(1)
+                print("Git installation complete.")
+            except subprocess.CalledProcessError as e:
+                print(f"Failed to install Git: {e}")
+                sys.exit(1)
+        else:
+            messagebox.showerror("Git Not Found", "Git is not installed in the default locations. Please install Git manually from https://git-scm.com/downloads/")
+            sys.exit(1)
 
 def main():
     root = tk.Tk()
