@@ -43,28 +43,27 @@ check_server() {
 }
 
 # Wait for backend server
-echo "Waiting for backend server to start on http://localhost:8000 ..."
-until check_server http://localhost:8000; do
+echo "Waiting for backend server to start on http://localhost:5050 ..."
+until check_server http://localhost:5050; do
   sleep 2
 done
 echo "Backend server is up."
 
 # Wait for frontend server
-echo "Waiting for frontend server to start on http://localhost:3000 ..."
-until check_server http://localhost:3000; do
+echo "Waiting for frontend server to start on http://localhost:5051 ..."
+until check_server http://localhost:5051; do
   sleep 2
 done
 echo "Frontend server is up."
 
 # Open frontend URL in default browser
-<<<<<<< HEAD
 echo "Opening frontend UI in your default browser..."
 if command -v xdg-open >/dev/null 2>&1; then
-  xdg-open http://localhost:3000
+  xdg-open http://localhost:5051
 elif command -v open >/dev/null 2>&1; then
-  open http://localhost:3000
+  open http://localhost:5051
 else
-  echo "Please open your browser and go to http://localhost:3000"
+  echo "Please open your browser and go to http://localhost:5051"
 fi
 
 # Create desktop shortcut cross-platform
@@ -81,7 +80,7 @@ case "$(uname)" in
 [Desktop Entry]
 Name=ProjectManagement UI
 Type=Application
-Exec=xdg-open http://localhost:3000
+Exec=xdg-open http://localhost:5051
 Icon=utilities-terminal
 Terminal=false
 EOL
@@ -97,7 +96,7 @@ EOL
 <plist version="1.0">
 <dict>
   <key>URL</key>
-  <string>http://localhost:3000</string>
+  <string>http://localhost:5051</string>
 </dict>
 </plist>
 EOL
@@ -109,19 +108,16 @@ EOL
     SHORTCUT_FILE="$DESKTOP_PATH/$SHORTCUT_NAME.url"
     cat > "$SHORTCUT_FILE" <<EOL
 [InternetShortcut]
-URL=http://localhost:3000
+URL=http://localhost:5051
 EOL
     echo "Desktop shortcut created at $SHORTCUT_FILE"
     ;;
   *)
-    echo "Unsupported OS for desktop shortcut creation. Please create a shortcut manually to http://localhost:3000"
+    echo "Unsupported OS for desktop shortcut creation. Please create a shortcut manually to http://localhost:5051"
     ;;
 esac
 
-echo "Setup complete. You can use the desktop shortcut or visit http://localhost:3000 to access the UI."
-=======
-xdg-open http://localhost:5051
->>>>>>> develop
+echo "Setup complete. You can use the desktop shortcut or visit http://localhost:5051 to access the UI."
 
 # Wait for background processes
 wait
