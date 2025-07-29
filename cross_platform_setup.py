@@ -25,7 +25,12 @@ def run_command(command, shell=False, cwd=None):
 def create_virtualenv(venv_path):
     if not os.path.exists(venv_path):
         print("Creating virtual environment...")
-        subprocess.check_call([sys.executable, "-m", "venv", venv_path])
+        # Use system python interpreter if frozen executable
+        if getattr(sys, 'frozen', False):
+            python_executable = "python3"
+        else:
+            python_executable = sys.executable
+        subprocess.check_call([python_executable, "-m", "venv", venv_path])
     else:
         print("Virtual environment already exists.")
 
@@ -308,14 +313,43 @@ def install_git():
             messagebox.showerror("Git Not Found", "Git is not installed in the default locations. Please install Git manually from https://git-scm.com/downloads/")
             sys.exit(1)
 
+import json
+
+CONFIG_FILE = "installer_config.json"
+
+def load_config():
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, "r") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Failed to load config: {e}")
+    return {}
+
+def save_config(config):
+    try:
+        with open(CONFIG_FILE, "w") as f:
+            json.dump(config, f)
+    except Exception as e:
+        print(f"Failed to save config: {e}")
+
 def main():
     root = tk.Tk()
     root.withdraw()
-    messagebox.showinfo("Installation", "Please select the installation directory.")
-    base_path = filedialog.askdirectory(title="Select Installation Directory")
-    if not base_path:
-        messagebox.showerror("Error", "No directory selected. Installation cancelled.")
-        sys.exit(1)
+
+    config = load_config()
+    base_path = config.get("installation_directory")
+
+    if base_path and os.path.exists(base_path):
+        print(f"Using saved installation directory: {base_path}")
+    else:
+        messagebox.showinfo("Installation", "Please select the installation directory.")
+        base_path = filedialog.askdirectory(title="Select Installation Directory")
+        if not base_path:
+            messagebox.showerror("Error", "No directory selected. Installation cancelled.")
+            sys.exit(1)
+        config["installation_directory"] = base_path
+        save_config(config)
 
     # Check for required commands
     if not check_command_exists("python") and not check_command_exists("python3"):
@@ -340,13 +374,19 @@ def main():
     if check_command_exists("node"):
         install_frontend_dependencies(base_path)
 
+    print("Starting backend server...")
     backend_process = start_backend_server(venv_python, base_path)
+    print("Backend server started.")
     time.sleep(5)  # Wait for backend to start
 
+    print("Starting frontend server...")
     frontend_process = start_frontend_server(base_path)
+    print("Frontend server started.")
     time.sleep(5)  # Wait for frontend to start
 
+    print("Opening browser...")
     open_browser()
+    print("Browser opened.")
     create_desktop_shortcut(base_path)
 
     print("\nInstallation and setup complete.")
