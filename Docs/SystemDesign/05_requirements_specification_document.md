@@ -27,6 +27,8 @@ The system integrates with GitHub and VS Code, providing an interactive chat int
 - Automated progress tracking and reporting.
 - Resource allocation and scheduling.
 - Notifications and alerts for task status and deadlines.
+- Backend API endpoints for managing projects, WBS levels, resources, allocations, and project start dates.
+- Aggregation of WBS parts into detailed WBS JSON and automatic generation of Gantt chart data.
 
 ### 2.3 User Characteristics
 Target users include software project managers, developers, and teams seeking automation in project management.
