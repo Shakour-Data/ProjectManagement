@@ -1,13 +1,13 @@
 import logging
 from fastapi import APIRouter, HTTPException, Query
-from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import List
 import os
 import json
 from backend.repositories.project_repository import ProjectRepository
 from backend.services.project_service import ProjectService
 from project_management.modules.gantt_chart_data import GanttChartData
 from fastapi.responses import JSONResponse
+from backend.models import WBSLevel, Resource, Allocation, ProjectStartDate
 
 router = APIRouter(prefix="/api/v1")
 
@@ -18,26 +18,6 @@ BASE_DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'SystemInputs', 'u
 
 project_repository = ProjectRepository(BASE_DATA_DIR)
 project_service = ProjectService(project_repository)
-
-class WBSLevel(BaseModel):
-    id: str
-    name: str
-    parent_id: Optional[str] = None
-    duration_days: Optional[int] = None
-
-class Resource(BaseModel):
-    id: str
-    name: str
-    type: str
-    availability: Optional[int] = None
-
-class Allocation(BaseModel):
-    wbs_id: str
-    resource_id: str
-    allocation_percentage: float = Field(..., ge=0, le=100)
-
-class ProjectStartDate(BaseModel):
-    start_date: str  # ISO format date string
 
 @router.get("/projects")
 def list_projects():
