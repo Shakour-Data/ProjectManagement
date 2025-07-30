@@ -55,8 +55,6 @@ http://localhost:3000
 
 Use the web interface to manage your projects, add tasks, track progress, allocate resources, and generate reports through an intuitive graphical interface.
 
-For advanced usage and CLI commands, refer to the documentation in the `Docs/` and `project_management/docs/` directories.
-
 ## Documentation
 
 The project documentation is organized into detailed design and management documents located primarily in the `Docs/SystemDesign/` directory:
@@ -80,6 +78,16 @@ The project documentation is organized into detailed design and management docum
 Additional documentation related to JSON standards and workflow definitions can be found in the `Docs/json_inputs_standard/` directory.
 
 For detailed instructions and guides, also refer to the `project_management/general_docs/` and `project_management/docs/` directories.
+
+## Additional Documentation
+
+The following additional documentation has been created to enhance project clarity and usability:
+
+- API Reference Document: `Docs/API_Reference.md`
+- Developer Onboarding Guide: `Docs/Developer_Onboarding_Guide.md`
+- User Guide: `Docs/User_Guide.md`
+- Maintenance and Troubleshooting Guide: `Docs/Maintenance_and_Troubleshooting_Guide.md`
+- Glossary of Terms and Acronyms: `Docs/Glossary.md`
 
 ## Contributing
 
