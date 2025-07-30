@@ -10,12 +10,15 @@ The ProjectManagement system is a Python-based automation tool designed to strea
 
 - Install the package using pip or from source.
 - Use the provided setup scripts (`scripts/setup_env.sh` and `scripts/setup_interactive.py`) to prepare the environment and input data.
+- The frontend Setup Wizard guides users through project initialization, including Git repository setup, virtual environment creation, and dependency installation.
 
 ## Usage
 
 - Use the CLI commands to install, setup, start, and check the status of the project management system.
 - Provide JSON input files defining the Work Breakdown Structure (WBS), workflow, resources, and allocations.
 - Interact with the system via the VS Code chat interface for natural language task management.
+- The JSON File Upload Wizard assists users in uploading and validating required JSON input files.
+- The system automatically aggregates WBS parts and generates Gantt chart data.
 
 ## Commands
 
@@ -41,6 +44,7 @@ Required JSON files include:
 
 - The system generates progress reports, dashboards, and changelogs.
 - Outputs are saved in designated directories for review.
+- Reports and dashboards are accessible via the VS Code extension and GitHub Projects.
 
 ## Troubleshooting
 
@@ -48,6 +52,7 @@ Required JSON files include:
 - Use the interactive setup script to enter human resources data.
 - Check the virtual environment is activated before running commands.
 - Review logs for errors during automation.
+- Verify JSON files conform to defined standards.
 
 ## Support
 
