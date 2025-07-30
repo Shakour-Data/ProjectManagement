@@ -2,7 +2,7 @@
 REM This batch script builds the Windows standalone executable for installer_gui/installer.py using PyInstaller.
 REM It assumes Python and PyInstaller are installed in the environment.
 
-set SCRIPT_PATH=.\installer_gui\installer.py
+set SCRIPT_PATH=.\installer_gui\installer_tkinter.py
 set DIST_DIR=.\dist_installers
 
 if not exist %DIST_DIR% (
