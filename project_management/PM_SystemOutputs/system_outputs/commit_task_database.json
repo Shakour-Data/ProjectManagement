@@ -18068,5 +18068,209 @@
         "parent_commits": [
             "44e3788b99e1d69ed3945b9058126961cd50a072"
         ]
+    },
+    "fd857d1d57cae63a3717fb7baa7d983e7eb9cdfe": {
+        "task_id": "root",
+        "file_path": "Plan.md",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-30 11:49:51):\\n- Plan.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Plan.md b/Plan.md\\n    index 576b00a2..d383df11 100644\\n    --- a/Plan.md\\n    +++ b/Plan.md\\n    @@ -16,6 +16,14 @@ Rewrite the Project Management software to ensure all components (installer, bac\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:19:52",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:49:51 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "875d211b43e7a5e1b7f946d7ea462e453962b1de"
+        ]
+    },
+    "c6c356c43ed6bf970dbb7a71ed29b8746a8f7b4a": {
+        "task_id": "root",
+        "file_path": "build_installer_scripts/build_installers_windows.bat",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-30 11:49:54):\\n- build_installer_scripts/build_installers_windows.bat: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/build_installer_scripts/build_installers_windows.bat b/build_installer_scripts/build_installers_windows.bat\\n    index edef6d53..6c3b7d59 100644\\n    --- a/build_installer_scripts/build_installers_windows.bat\\n    +++ b/build_installer_scripts/build_installers_windows.bat\\n    @@ -2,7 +2,7 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:19:55",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:49:54 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "fd857d1d57cae63a3717fb7baa7d983e7eb9cdfe"
+        ]
+    },
+    "2bc9c8a501f0d2dca72814563a41a17a22028280": {
+        "task_id": "root",
+        "file_path": "installer_gui/installer_tkinter.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-30 11:49:57):\\n- installer_gui/installer_tkinter.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/installer_gui/installer_tkinter.py b/installer_gui/installer_tkinter.py\\n    index 3689cb3b..ce471ee1 100644\\n    --- a/installer_gui/installer_tkinter.py\\n    +++ b/installer_gui/installer_tkinter.py\\n    @@ -4,17 +4,23 @@ import subprocess\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:19:57",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:49:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c6c356c43ed6bf970dbb7a71ed29b8746a8f7b4a"
+        ]
+    },
+    "4cf4b035d8497b3e1d296f3e44b490c85d5e7ec8": {
+        "task_id": "root",
+        "file_path": "progress_log.md",
+        "commit_message": "🗑️ remove: Deleted files updated\\n\\nChanges included (as of 2025-07-30 11:49:59):\\n- progress_log.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/progress_log.md b/progress_log.md\\n    deleted file mode 100644\\n    index 8bc6b186..00000000\\n    --- a/progress_log.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:00",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2bc9c8a501f0d2dca72814563a41a17a22028280"
+        ]
+    },
+    "91676848d57ff0c10b5d57acdc1c9077f99d518f": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/22_UML_Diagrams.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:02):\\n- Docs/SystemDesign/22_UML_Diagrams.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/22_UML_Diagrams.md b/Docs/SystemDesign/22_UML_Diagrams.md\\n    new file mode 100644\\n    index 00000000..82beb1ef\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/22_UML_Diagrams.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:03",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:02 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "4cf4b035d8497b3e1d296f3e44b490c85d5e7ec8"
+        ]
+    },
+    "bfc370aa0a19a3ba97715f2abb861570fed5812d": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/23_DFD_Diagrams.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:05):\\n- Docs/SystemDesign/23_DFD_Diagrams.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/23_DFD_Diagrams.md b/Docs/SystemDesign/23_DFD_Diagrams.md\\n    new file mode 100644\\n    index 00000000..709d0169\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/23_DFD_Diagrams.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:06",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:05 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "91676848d57ff0c10b5d57acdc1c9077f99d518f"
+        ]
+    },
+    "bac9454f189b8f6ceade3758604d328b34eac223": {
+        "task_id": "root",
+        "file_path": "Docs/SystemDesign/24_BPMN_Diagrams.md",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:08):\\n- Docs/SystemDesign/24_BPMN_Diagrams.md: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Docs/SystemDesign/24_BPMN_Diagrams.md b/Docs/SystemDesign/24_BPMN_Diagrams.md\\n    new file mode 100644\\n    index 00000000..41d90050\\n    --- /dev/null\\n    +++ b/Docs/SystemDesign/24_BPMN_Diagrams.md\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:09",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bfc370aa0a19a3ba97715f2abb861570fed5812d"
+        ]
+    },
+    "d8d24dead79c48e6074262c9d9f7f285715661b4": {
+        "task_id": "root",
+        "file_path": "backend_start.bat",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:11):\\n- backend_start.bat: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/backend_start.bat b/backend_start.bat\\n    new file mode 100644\\n    index 00000000..94a30e1e\\n    --- /dev/null\\n    +++ b/backend_start.bat\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:12",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:11 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bac9454f189b8f6ceade3758604d328b34eac223"
+        ]
+    },
+    "51a730b6017cb02b0355a6ec2d933215243d4318": {
+        "task_id": "root",
+        "file_path": "backend_start.sh",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:14):\\n- backend_start.sh: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/backend_start.sh b/backend_start.sh\\n    new file mode 100644\\n    index 00000000..54e392c0\\n    --- /dev/null\\n    +++ b/backend_start.sh\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:14",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d8d24dead79c48e6074262c9d9f7f285715661b4"
+        ]
+    },
+    "e6dc74d88598aa3e6e170b3b991ddeec8f8a3d78": {
+        "task_id": "root",
+        "file_path": "frontend_start.bat",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:16):\\n- frontend_start.bat: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/frontend_start.bat b/frontend_start.bat\\n    new file mode 100644\\n    index 00000000..83469a0f\\n    --- /dev/null\\n    +++ b/frontend_start.bat\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:17",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:17 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "51a730b6017cb02b0355a6ec2d933215243d4318"
+        ]
+    },
+    "f0bfe2b71ba1786643151ff6d669f40d4caed721": {
+        "task_id": "root",
+        "file_path": "frontend_start.sh",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:19):\\n- frontend_start.sh: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/frontend_start.sh b/frontend_start.sh\\n    new file mode 100644\\n    index 00000000..f9451d40\\n    --- /dev/null\\n    +++ b/frontend_start.sh\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:20",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e6dc74d88598aa3e6e170b3b991ddeec8f8a3d78"
+        ]
+    },
+    "8e9006c72c266a19853fbd2509dd8d8a823dd270": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250730_114951/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-07-30 11:50:22):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250730_114951/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250730_114951/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250730_114951/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250730_114951/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-30 08:20:23",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Wed Jul 30 11:50:22 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f0bfe2b71ba1786643151ff6d669f40d4caed721"
+        ]
     }
 }
