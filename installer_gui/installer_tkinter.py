@@ -28,6 +28,15 @@ class InstallerApp(tk.Tk):
         self.install_button = ttk.Button(self, text="Start Installation", command=self.start_installation)
         self.install_button.pack(pady=10)
 
+        self.stop_backend_button = ttk.Button(self, text="Stop Backend Server", command=self.stop_backend_server, state="disabled")
+        self.stop_backend_button.pack(pady=5)
+
+        self.stop_frontend_button = ttk.Button(self, text="Stop Frontend Server", command=self.stop_frontend_server, state="disabled")
+        self.stop_frontend_button.pack(pady=5)
+
+        self.instructions_label = ttk.Label(self, text="Access the frontend UI at http://localhost:3000\nUse the buttons above to stop the servers.", font=("Arial", 10))
+        self.instructions_label.pack(pady=10)
+
     def log(self, message):
         self.log_text.config(state="normal")
         self.log_text.insert(tk.END, message + "\n")
@@ -52,14 +61,37 @@ class InstallerApp(tk.Tk):
             self.update_progress(60)
             self.install_node_dependencies()
 
-            self.log("Installation complete.")
+            self.log("Starting backend and frontend servers...")
+            self.update_progress(80)
+            self.start_backend_server()
+            self.start_frontend_server()
+
+            self.stop_backend_button.config(state="normal")
+            self.stop_frontend_button.config(state="normal")
+
+            self.log("Installation and startup complete.")
             self.update_progress(100)
-            messagebox.showinfo("Installation", "ProjectManagement installation completed successfully.")
+            messagebox.showinfo("Installation", "ProjectManagement installation and startup completed successfully.")
         except Exception as e:
             self.log(f"Error: {e}")
             messagebox.showerror("Installation Error", str(e))
         finally:
             self.install_button.config(state="normal")
+
+    def start_backend_server(self):
+        import subprocess
+        import os
+        backend_cmd = [os.path.join("venv", "bin", "uvicorn"), "backend.api:app", "--host", "0.0.0.0", "--port", "5050"]
+        self.backend_process = subprocess.Popen(backend_cmd)
+        self.log("Backend server started on http://localhost:5050")
+
+    def start_frontend_server(self):
+        import subprocess
+        import os
+        frontend_dir = os.path.join(os.getcwd(), "frontend")
+        frontend_cmd = ["npm", "start"]
+        self.frontend_process = subprocess.Popen(frontend_cmd, cwd=frontend_dir)
+        self.log("Frontend server started on http://localhost:3000")
 
     def update_progress(self, value):
         self.progress['value'] = value
