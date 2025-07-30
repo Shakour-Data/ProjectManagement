@@ -23,10 +23,10 @@ Covers system architecture, components, interfaces, data flow, and design decisi
 The system is a modular, Python-based application integrating with GitHub and VS Code. It consists of backend services, a VS Code extension, and automation workflows.
 
 ### 2.2 Components
-- Backend API: FastAPI-based RESTful services handling core logic and GitHub integration.
-- VS Code Extension: Provides chat interface and user interaction.
-- Automation Workflows: GitHub Actions for CI/CD, notifications, and scheduled tasks.
-- Data Storage: Local files and GitHub repositories.
+- Backend API: FastAPI-based RESTful services handling core logic, user input parsing, task prioritization, scheduling, progress tracking, and GitHub integration.
+- VS Code Extension: Provides chat interface for informal user inputs and displays real-time updates and notifications.
+- Automation Workflows: GitHub Actions for CI/CD pipelines, report generation, notifications, and scheduled tasks.
+- Data Storage: Local project files, JSON input/output files, and GitHub repositories.
 
 ### 2.3 Architecture Diagram
 *(Include diagram here if available)*
@@ -34,61 +34,64 @@ The system is a modular, Python-based application integrating with GitHub and VS
 ## 3. System Components Design
 
 ### 3.1 Backend API
-- Handles task parsing, prioritization, scheduling, and progress tracking.
-- Manages GitHub API interactions for issues, pull requests, and projects.
+- Handles task parsing, prioritization, scheduling, progress tracking, and user input management.
+- Manages GitHub API interactions for issues, pull requests, projects, and workflow automation.
+- Provides endpoints for project management, WBS levels, resources, allocations, and project start dates.
 
 ### 3.2 VS Code Extension
 - Provides chat interface for informal user inputs.
-- Displays real-time updates and notifications.
+- Displays real-time updates, notifications, and progress reports.
 
 ### 3.3 Automation Workflows
-- Implements CI/CD pipelines.
-- Automates report generation and notifications.
+- Implements CI/CD pipelines using GitHub Actions.
+- Automates report generation, notifications, and scheduled tasks such as daily progress updates.
 
 ## 4. Data Design
 
 ### 4.1 Data Models
-- Task: Attributes include ID, description, status, priority, dependencies.
-- User: Roles and permissions.
-- Resource: Human resources, equipment, materials.
-- Project: Metadata, timelines, milestones.
+- Task: Attributes include ID, description, status, priority, dependencies, and scheduling details.
+- User: Roles, permissions, and access control.
+- Resource: Human resources, equipment, materials, and availability.
+- Project: Metadata, timelines, milestones, and aggregated metrics.
 
 ### 4.2 Data Flow
-- User inputs via VS Code chat are parsed into tasks.
-- Tasks are synchronized with GitHub Issues and Projects.
-- Progress updates flow from commit history to dashboards.
+- User inputs via VS Code chat are parsed into formal tasks by the backend API.
+- Tasks are synchronized with GitHub Issues and Projects for tracking.
+- Progress updates flow from commit history and workflow execution to dashboards and reports.
+- JSON input files for WBS parts, resources, allocations, and project start dates are managed and aggregated.
 
 ## 5. Interface Design
 
 ### 5.1 User Interface
-- VS Code chat interface.
-- CLI commands for setup and reporting.
+- VS Code chat interface for task input, feedback, and progress monitoring.
+- CLI commands for setup, status checks, task updates, and report generation.
 
 ### 5.2 External Interfaces
-- GitHub API for project management.
-- VS Code Extension API.
+- GitHub API for project management integration including issues, pull requests, projects, and actions.
+- VS Code Extension API for chat interface and notifications.
 
 ## 6. Security Design
 
-- Secure storage of authentication tokens.
-- Role-based access control.
-- Compliance with GitHub API rate limits.
+- Secure storage and encrypted handling of authentication tokens.
+- Role-based access control for multi-user permissions.
+- Compliance with GitHub API rate limits and best practices.
 
 ## 7. Performance Considerations
 
-- Efficient API calls and data processing.
-- Scalability to handle multiple projects and users.
+- Efficient API calls and data processing to minimize latency.
+- Scalability to support multiple projects, users, and concurrent operations.
 
 ## 8. Design Decisions and Rationale
 
-- Use of FastAPI for lightweight backend.
-- Deep GitHub integration for seamless project management.
-- VS Code extension for user-friendly interaction.
+- Use of FastAPI for a lightweight, modular backend service.
+- Deep integration with GitHub to leverage existing project management features.
+- VS Code extension for seamless and user-friendly interaction.
+- Automation workflows to reduce manual overhead and ensure continuous updates.
 
 ## 9. Appendices
 
-- Glossary
-- References
+- Glossary of terms.
+- References to related documents and standards.
 
 ## 10. Revision History
 
