@@ -34,6 +34,9 @@ class InstallerApp(tk.Tk):
         self.install_button = ttk.Button(self, text="Start Installation", command=self.start_installation)
         self.install_button.pack(pady=10)
 
+        self.verify_comm_button = ttk.Button(self, text="Verify Backend-Frontend Communication", command=self.verify_backend_frontend_communication)
+        self.verify_comm_button.pack(pady=10)
+
         self.stop_backend_button = ttk.Button(self, text="Stop Backend Server", command=self.stop_backend_server, state="disabled")
         self.stop_backend_button.pack(pady=5)
 
@@ -115,6 +118,23 @@ class InstallerApp(tk.Tk):
         frontend_cmd = ["npm", "start"]
         self.frontend_process = subprocess.Popen(frontend_cmd, cwd=frontend_dir)
         self.log("Frontend server started on http://localhost:3000")
+
+    def verify_backend_frontend_communication(self):
+        import requests
+        try:
+            backend_url = "http://localhost:5050/health"
+            frontend_url = "http://localhost:3000"
+            backend_response = requests.get(backend_url, timeout=5)
+            frontend_response = requests.get(frontend_url, timeout=5)
+            if backend_response.status_code == 200 and frontend_response.status_code == 200:
+                self.log("Backend and frontend communication verified successfully.")
+                messagebox.showinfo("Verification", "Backend and frontend communication is working correctly.")
+            else:
+                self.log("Backend or frontend communication failed.")
+                messagebox.showwarning("Verification", "Backend or frontend communication failed.")
+        except Exception as e:
+            self.log(f"Communication verification error: {e}")
+            messagebox.showerror("Verification Error", str(e))
 
     def stop_backend_server(self):
         if self.backend_process and self.backend_process.poll() is None:
