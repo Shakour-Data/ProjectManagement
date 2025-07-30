@@ -13,6 +13,7 @@ This document specifies the comprehensive features and functionalities of the Pr
 - Secure management of GitHub API tokens with encrypted storage.
 - Automatic installation of essential VS Code extensions to enhance the development environment.
 - Transparent configuration without manual CLI prompts.
+- Frontend Setup Wizard guiding users through project initialization steps including Git repository setup, virtual environment creation, and dependency installation.
 
 ### GitHub Integration
 - Full integration with GitHub Issues, Projects, Pull Requests, and Wikis.
@@ -27,6 +28,8 @@ This document specifies the comprehensive features and functionalities of the Pr
 - Task scheduling suggestions and automatic deadline reminders.
 - Support for task dependencies, conflict detection, and resolution.
 - Multi-project and multi-user task assignment and tracking with role-based permissions.
+- Backend API endpoints for managing projects, WBS levels, resources, allocations, and project start dates.
+- Aggregation of WBS parts into detailed WBS JSON and automatic generation of Gantt chart data.
 
 ### Documentation and SOP Management
 - Management of Standard Operating Procedures (SOPs) and project documentation in markdown or text files within the repository.
