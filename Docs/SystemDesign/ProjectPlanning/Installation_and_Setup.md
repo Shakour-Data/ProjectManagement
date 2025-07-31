@@ -96,4 +96,44 @@ Check logs for any errors during installation.
 
 ---
 
+## Visual Diagrams
+
+### Installation and Setup Flowchart
+
+```mermaid
+flowchart TD
+    A[Start Installation] --> B[Clone Repository]
+    B --> C[Create Python Virtual Environment]
+    C --> D[Activate Virtual Environment]
+    D --> E[Install Python Dependencies]
+    E --> F[Install Node.js Dependencies]
+    F --> G[Build Frontend Assets]
+    G --> H[Start Backend Server]
+    H --> I[Start Frontend Server]
+    I --> J[Verify Installation]
+    J --> K{Success?}
+    K -- Yes --> L[Installation Complete]
+    K -- No --> M[Show Error and Logs]
+```
+
+### System Architecture Overview
+
+```mermaid
+graph LR
+    Installer[Installer GUI / Setup Script]
+    Backend[Backend API Server]
+    Frontend[Frontend React App]
+    VirtualEnv[Python Virtual Environment]
+    NodeModules[Node.js Modules]
+
+    Installer --> VirtualEnv
+    Installer --> Backend
+    Installer --> Frontend
+    VirtualEnv --> Backend
+    NodeModules --> Frontend
+    Backend <--> Frontend
+```
+
+---
+
 This installation and setup guide will be updated as the project evolves.
