@@ -75,3 +75,25 @@ The `Architectural_Design.json` file defines the tasks involved in defining the 
 ---
 
 This detailed explanation should help users understand the role and structure of the `Architectural_Design.json` file, how it fits into the overall project WBS, and how to extend it to meet specific project requirements.
+
+```mermaid
+graph TD
+    A[Level 0: Software Project] --> B[Level 1: Modeling]
+    B --> C[Level 2: System Design]
+    C --> D[Level 3: Architectural Design]
+    D --> E[Level 4: Define System Components]
+    D --> F[Level 4: Establish Component Interactions]
+    D --> G[Level 4: Select Architectural Patterns]
+    D --> H[Level 4: Document Architecture]
+    D --> I[Level 4: Review Architecture]
+```
+
+```mermaid
+flowchart TD
+    A[Start Architectural Design] --> B[Define System Components]
+    B --> C[Establish Component Interactions]
+    C --> D[Select Architectural Patterns]
+    D --> E[Document Architecture]
+    E --> F[Review Architecture]
+    F --> G[Architectural Design Complete]
+```
