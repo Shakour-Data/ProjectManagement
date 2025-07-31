@@ -1,39 +1,29 @@
-# GanttChartData Module
+# Gantt Chart Data Module
 
 ## Overview
-The `gantt_chart_data` module provides the `GanttChartData` class which generates Gantt chart data from project tasks. It loads detailed work breakdown structure (WBS) tasks from JSON, processes task dates and durations, and builds structured data suitable for Gantt chart visualization.
+The `gantt_chart_data` module provides the `GanttChartData` class to generate Gantt chart data from project tasks. It loads task data, processes task dates and dependencies, and outputs structured data suitable for Gantt chart visualization.
 
 ## Class: GanttChartData
 
 ### Description
-The `GanttChartData` class loads task data, parses dates, calculates task durations and dependencies, and recursively processes subtasks to build comprehensive Gantt chart data.
+The `GanttChartData` class loads detailed WBS tasks from JSON, parses dates, calculates task durations and dependencies, and builds a list of task data dictionaries for Gantt chart rendering.
 
 ### Methods
 
-- `__init__(self, input_dir: str = 'project_inputs/PM_JSON/user_inputs')`
-  - Initializes the class with the input directory path.
+- `__init__(self, input_dir='project_inputs/PM_JSON/user_inputs')`
+  - Initializes with the input directory and an empty task list.
 
 - `load_tasks(self)`
-  - Loads tasks from the `detailed_wbs.json` file in the input directory.
-  - Handles errors gracefully and initializes an empty task list on failure.
+  - Loads tasks from `detailed_wbs.json` in the input directory.
 
-- `parse_date(self, date_str: Optional[str]) -> Optional[datetime.date]`
+- `parse_date(self, date_str)`
   - Parses an ISO format date string into a `datetime.date` object.
-  - Returns `None` if the date string is invalid or missing.
 
-- `build_gantt_data(self) -> List[Dict[str, Any]]`
-  - Builds Gantt chart data from loaded tasks.
-  - Each task dictionary includes:
-    - `id`: Task identifier.
-    - `name`: Task name or title.
-    - `start_date`: ISO formatted start date.
-    - `end_date`: Calculated end date based on start date and duration.
-    - `dependencies`: List of dependent task IDs.
-    - `progress`: Task progress as a percentage (0-100).
-  - Recursively processes subtasks, inheriting start dates as needed.
+- `build_gantt_data(self)`
+  - Processes tasks recursively to build Gantt chart data including task id, name, start and end dates, dependencies, and progress.
 
 ## Usage
-Run the module as a script to generate and save Gantt chart data:
+The module can be run as a script to generate and save Gantt chart data:
 
 ```python
 if __name__ == "__main__":
@@ -46,6 +36,39 @@ if __name__ == "__main__":
     print(f"Gantt chart data saved to {output_path}")
 ```
 
+## Diagrams
+
+### Mermaid Class Diagram
+
+```mermaid
+classDiagram
+    class GanttChartData {
+        - input_dir: str
+        - tasks: list
+        + __init__(input_dir)
+        + load_tasks()
+        + parse_date(date_str)
+        + build_gantt_data()
+    }
+```
+
+### Mermaid Process Flowchart
+
+```mermaid
+flowchart TD
+    Start --> LoadTasks[Load tasks from JSON]
+    LoadTasks --> ProcessTasks[Process tasks recursively]
+    ProcessTasks --> BuildData[Build Gantt chart data list]
+    BuildData --> SaveData[Save data to JSON file]
+    SaveData --> End
+```
+
 ---
 
-This documentation provides an overview of the `gantt_chart_data` module to assist developers in generating Gantt chart data for project visualization.
+## Credits
+
+This module uses Python's built-in `json`, `os`, and `datetime` modules for data handling and date processing.
+
+---
+
+This documentation provides a detailed overview of the `gantt_chart_data` module to assist developers in understanding and using its functionality effectively.
