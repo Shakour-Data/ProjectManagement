@@ -82,7 +82,7 @@ def setup(skip_input=False):
     Interactive setup to help user upload and validate required input files.
     """
     import os
-    from modules.input_handler import InputHandler
+    from modules.project_management.input_handler import InputHandler
 
     input_handler = InputHandler()
 
