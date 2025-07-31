@@ -75,3 +75,25 @@ The `Deployment_Planning.json` file defines the tasks involved in planning deplo
 ---
 
 This detailed explanation should help users understand the role and structure of the `Deployment_Planning.json` file, how it fits into the overall project WBS, and how to extend it to meet specific project requirements.
+
+```mermaid
+graph TD
+    A[Level 0: Software Project] --> B[Level 1: Construction and Testing]
+    B --> C[Level 2: Deployment]
+    C --> D[Level 3: Deployment Planning]
+    D --> E[Level 4: Define Deployment Strategy]
+    D --> F[Level 4: Identify Deployment Resources]
+    D --> G[Level 4: Develop Deployment Schedule]
+    D --> H[Level 4: Risk Assessment]
+    D --> I[Level 4: Approval of Deployment Plan]
+```
+
+```mermaid
+flowchart TD
+    A[Start Deployment Planning] --> B[Define Deployment Strategy]
+    B --> C[Identify Deployment Resources]
+    C --> D[Develop Deployment Schedule]
+    D --> E[Risk Assessment]
+    E --> F[Approval of Deployment Plan]
+    F --> G[Deployment Planning Complete]
+```
