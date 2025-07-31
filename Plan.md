@@ -170,7 +170,7 @@ Rewrite the Project Management software to ensure all components (installer, bac
 - **Status:** Pending
 
 - **Tasks:**
-  - [ ] Review existing documentation and identify gaps. Done: Yes (merged)
+  - [x] Review existing documentation and identify gaps. Done: Yes (merged, diagrams added to key docs)
   - [ ] Write missing documentation sections. Done: 
   - [ ] Update existing documents for accuracy. Done: 
   - [ ] Create architecture diagrams. Done: 
