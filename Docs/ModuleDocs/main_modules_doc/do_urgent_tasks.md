@@ -1,23 +1,57 @@
-# do_urgent_tasks Module
+# Do Urgent Tasks Module
 
 ## Overview
-The `do_urgent_tasks` module is a script that automates the creation and completion of 15 urgent tasks using the `TaskManagement` module. It simulates task progress by marking these tasks as completed and prints a summary.
+The `do_urgent_tasks` module automates the creation and completion of a set of urgent tasks within the project management system. It uses the `TaskManagement` class to parse task titles, create tasks, mark them as completed, and print a summary.
 
 ## Functions
 
 - `main()`
-  - Creates 15 urgent tasks based on predefined titles.
+  - Creates a `TaskManagement` instance.
+  - Defines titles for 15 urgent tasks (including subtasks).
+  - Parses each title into a task object.
   - Marks each task as completed.
-  - Prints a summary of completed tasks including task IDs, titles, and statuses.
+  - Prints a summary of completed tasks with their IDs, titles, and statuses.
 
 ## Usage
-Run the module as a script to simulate completing urgent tasks:
+The module can be run as a script to simulate completing urgent tasks:
 
 ```python
 if __name__ == "__main__":
     main()
 ```
 
+## Diagrams
+
+### Mermaid Function Flowchart
+
+```mermaid
+flowchart TD
+    Start --> CreateTM[Create TaskManagement instance]
+    CreateTM --> DefineTasks[Define 15 urgent task titles]
+    DefineTasks --> ParseTasks[Parse titles into tasks]
+    ParseTasks --> CompleteTasks[Mark tasks as completed]
+    CompleteTasks --> PrintSummary[Print summary of completed tasks]
+    PrintSummary --> End
+```
+
+### Mermaid Task Completion Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant TaskManagement
+    User->>TaskManagement: parse_creative_input(title)
+    TaskManagement-->>User: task object
+    User->>TaskManagement: mark_task_completed(task.id)
+    TaskManagement-->>User: confirmation
+```
+
 ---
 
-This documentation provides an overview of the `do_urgent_tasks` module to assist developers in automating task creation and completion.
+## Credits
+
+This module depends on the `TaskManagement` class for task parsing and status management.
+
+---
+
+This documentation provides a detailed overview of the `do_urgent_tasks` module to assist developers in understanding and using its functionality effectively.
