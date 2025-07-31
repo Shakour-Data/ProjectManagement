@@ -4,6 +4,17 @@
 
 This guide provides instructions for end users on how to use the ProjectManagement system, including frontend and backend features, setup, and workflows.
 
+```mermaid
+flowchart TD
+    A[Launch Frontend] --> B[Setup Wizard]
+    B --> C[Complete Project Initialization]
+    C --> D[Upload JSON Inputs]
+    D --> E[Complete Project Planning Inputs]
+    E --> F[System Calculations and Scheduling]
+    F --> G[Access Dashboards and Reports]
+    G --> H[Monitoring and Control Features]
+```
+
 ## 1. Getting Started
 
 ### 1.1 System Requirements
@@ -103,5 +114,5 @@ http://localhost:3000
 - Contact support via project repository issues.
 
 ---
-
+ 
 This guide helps users effectively interact with the ProjectManagement system through its intuitive frontend and automated backend processes.
