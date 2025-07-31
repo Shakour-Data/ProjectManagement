@@ -19632,5 +19632,974 @@
         "parent_commits": [
             "2d73ba9a3c79ce8287629a3bc5d7f6a707452d58"
         ]
+    },
+    "417fb07fc247f4f9ff6bf630871b6a4fed23d9de": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_SystemOutputs/system_outputs/commit_task_database.json",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-31 17:26:42):\\n- project_management/PM_SystemOutputs/system_outputs/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json b/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json\\n    index f28ea663..73d69f0e 100644\\n    --- a/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json\\n    +++ b/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json\\n    @@ -19445,5 +19445,192 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:43",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0ea53f92fc2c524a5a562512964f2c19639257bc"
+        ]
+    },
+    "bdc3a284d286eb6ebc3da7ae3bb4123eccce2f56": {
+        "task_id": "project_management",
+        "file_path": "project_management/main.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-31 17:26:45):\\n- project_management/main.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/main.py b/project_management/main.py\\n    index e204870a..50a751c8 100644\\n    --- a/project_management/main.py\\n    +++ b/project_management/main.py\\n    @@ -82,7 +82,7 @@ def setup(skip_input=False):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:45",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "417fb07fc247f4f9ff6bf630871b6a4fed23d9de"
+        ]
+    },
+    "c2d6ac9e17edacdab80aa1c59d195ae7f7fb51f0": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/__init__.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-07-31 17:26:47):\\n- project_management/modules/__init__.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/__init__.py b/project_management/modules/__init__.py\\n    index 4c606eac..91df3c4d 100644\\n    --- a/project_management/modules/__init__.py\\n    +++ b/project_management/modules/__init__.py\\n    @@ -1 +1,4 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:47",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:47 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bdc3a284d286eb6ebc3da7ae3bb4123eccce2f56"
+        ]
+    },
+    "3db3fae71a16b29f371493265e1a84360c7c5d77": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/auto_commit.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:26:49):\\n- project_management/modules/auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/auto_commit.py b/project_management/modules/auto_commit.py\\n    deleted file mode 100644\\n    index b45458c6..00000000\\n    --- a/project_management/modules/auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:49",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c2d6ac9e17edacdab80aa1c59d195ae7f7fb51f0"
+        ]
+    },
+    "59e151f9df174fb01df53c524da9ad7d2e776f8a": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/backup_manager.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:26:51):\\n- project_management/modules/backup_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/backup_manager.py b/project_management/modules/backup_manager.py\\n    deleted file mode 100644\\n    index f44c51b1..00000000\\n    --- a/project_management/modules/backup_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:51",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:51 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3db3fae71a16b29f371493265e1a84360c7c5d77"
+        ]
+    },
+    "6370e407cdb0d2ab8123a4b7cbc01ee1d0a68bf4": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/cli_commands.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:26:53):\\n- project_management/modules/cli_commands.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/cli_commands.py b/project_management/modules/cli_commands.py\\n    deleted file mode 100644\\n    index 46cc3744..00000000\\n    --- a/project_management/modules/cli_commands.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:53",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:53 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "59e151f9df174fb01df53c524da9ad7d2e776f8a"
+        ]
+    },
+    "cd226b060b8aa4c98eae22659e616d660840822f": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/commit_progress_manager.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:26:55):\\n- project_management/modules/commit_progress_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/commit_progress_manager.py b/project_management/modules/commit_progress_manager.py\\n    deleted file mode 100644\\n    index 72d3a833..00000000\\n    --- a/project_management/modules/commit_progress_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:55",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:55 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6370e407cdb0d2ab8123a4b7cbc01ee1d0a68bf4"
+        ]
+    },
+    "00e78d836ac81c2eb639b4626285ed1933ba1fca": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/communication_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:26:57):\\n- project_management/modules/communication_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/communication_management.py b/project_management/modules/communication_management.py\\n    deleted file mode 100644\\n    index d7ede666..00000000\\n    --- a/project_management/modules/communication_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:56:57",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "cd226b060b8aa4c98eae22659e616d660840822f"
+        ]
+    },
+    "a89c698631fb3f151dc6a7f7ae4419464180ea4f": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/communication_risk_doc_implementation_plan.md",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:26:59):\\n- project_management/modules/communication_risk_doc_implementation_plan.md: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/communication_risk_doc_implementation_plan.md b/project_management/modules/communication_risk_doc_implementation_plan.md\\n    deleted file mode 100644\\n    index 76b330a3..00000000\\n    --- a/project_management/modules/communication_risk_doc_implementation_plan.md\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:00",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:26:59 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "00e78d836ac81c2eb639b4626285ed1933ba1fca"
+        ]
+    },
+    "296960a992aca3b35ccec226947dfaaa5233224f": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/config_and_token_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:01):\\n- project_management/modules/config_and_token_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/config_and_token_management.py b/project_management/modules/config_and_token_management.py\\n    deleted file mode 100644\\n    index fa4ebdac..00000000\\n    --- a/project_management/modules/config_and_token_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:02",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:02 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a89c698631fb3f151dc6a7f7ae4419464180ea4f"
+        ]
+    },
+    "0e8b25fe2bbf63d3eab322c0fd8ec7a98b318a5d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/dashboards_reports.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:04):\\n- project_management/modules/dashboards_reports.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/dashboards_reports.py b/project_management/modules/dashboards_reports.py\\n    deleted file mode 100644\\n    index 87136949..00000000\\n    --- a/project_management/modules/dashboards_reports.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:04",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "296960a992aca3b35ccec226947dfaaa5233224f"
+        ]
+    },
+    "2216014397164490e7d3585a1e5c39234a4964ab": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/db_data_collector.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:06):\\n- project_management/modules/db_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/db_data_collector.py b/project_management/modules/db_data_collector.py\\n    deleted file mode 100644\\n    index c5b62ff3..00000000\\n    --- a/project_management/modules/db_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:06",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:06 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0e8b25fe2bbf63d3eab322c0fd8ec7a98b318a5d"
+        ]
+    },
+    "f8983eafb6a23db2084bbda457be46fa062358bb": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/do_important_tasks.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:08):\\n- project_management/modules/do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/do_important_tasks.py b/project_management/modules/do_important_tasks.py\\n    deleted file mode 100644\\n    index 2ecb5a58..00000000\\n    --- a/project_management/modules/do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:08",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2216014397164490e7d3585a1e5c39234a4964ab"
+        ]
+    },
+    "2e3a20079eb86fc3649613b886e76154a347db88": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/do_urgent_tasks.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:10):\\n- project_management/modules/do_urgent_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/do_urgent_tasks.py b/project_management/modules/do_urgent_tasks.py\\n    deleted file mode 100644\\n    index 91154f09..00000000\\n    --- a/project_management/modules/do_urgent_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:10",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:10 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f8983eafb6a23db2084bbda457be46fa062358bb"
+        ]
+    },
+    "620f26b00089b4854d1ea62bce659712837f2c3d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/documentation_automation.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:12):\\n- project_management/modules/documentation_automation.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/documentation_automation.py b/project_management/modules/documentation_automation.py\\n    deleted file mode 100644\\n    index be1b4bbd..00000000\\n    --- a/project_management/modules/documentation_automation.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:12",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:12 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2e3a20079eb86fc3649613b886e76154a347db88"
+        ]
+    },
+    "955d8c709d118e95452a32bfddd1527a19739ffc": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/estimation_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:14):\\n- project_management/modules/estimation_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/estimation_management.py b/project_management/modules/estimation_management.py\\n    deleted file mode 100644\\n    index 794d90fd..00000000\\n    --- a/project_management/modules/estimation_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:15",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "620f26b00089b4854d1ea62bce659712837f2c3d"
+        ]
+    },
+    "53ce3763ae4498e34099975cacea65304114ab91": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/feature_weights.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:16):\\n- project_management/modules/feature_weights.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/feature_weights.py b/project_management/modules/feature_weights.py\\n    deleted file mode 100644\\n    index b6db7ba7..00000000\\n    --- a/project_management/modules/feature_weights.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:17",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:17 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "955d8c709d118e95452a32bfddd1527a19739ffc"
+        ]
+    },
+    "a341a2c9998e052b3d012e4f39f34812a012d168": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/gantt_chart_data.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:19):\\n- project_management/modules/gantt_chart_data.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/gantt_chart_data.py b/project_management/modules/gantt_chart_data.py\\n    deleted file mode 100644\\n    index e1f8dc03..00000000\\n    --- a/project_management/modules/gantt_chart_data.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:19",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "53ce3763ae4498e34099975cacea65304114ab91"
+        ]
+    },
+    "ec701117a147f5f56bcd6e9699aa8b062f389097": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/git_progress_updater.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:21):\\n- project_management/modules/git_progress_updater.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/git_progress_updater.py b/project_management/modules/git_progress_updater.py\\n    deleted file mode 100644\\n    index a5022634..00000000\\n    --- a/project_management/modules/git_progress_updater.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:21",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:21 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a341a2c9998e052b3d012e4f39f34812a012d168"
+        ]
+    },
+    "753a2d025d13325e49d967861336a136feec539d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/github_integration.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:22):\\n- project_management/modules/github_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/github_integration.py b/project_management/modules/github_integration.py\\n    deleted file mode 100644\\n    index ee2d14bb..00000000\\n    --- a/project_management/modules/github_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:23",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:23 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ec701117a147f5f56bcd6e9699aa8b062f389097"
+        ]
+    },
+    "3fa1728fa9685e6b0825cd8459515f861acd7ca1": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/importance_urgency_calculator.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:25):\\n- project_management/modules/importance_urgency_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/importance_urgency_calculator.py b/project_management/modules/importance_urgency_calculator.py\\n    deleted file mode 100644\\n    index 10dad524..00000000\\n    --- a/project_management/modules/importance_urgency_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:25",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "753a2d025d13325e49d967861336a136feec539d"
+        ]
+    },
+    "f7c5b0613f93436c530cb8f8e7ae759912af510a": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/importance_urgency_calculator_refactored.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:27):\\n- project_management/modules/importance_urgency_calculator_refactored.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/importance_urgency_calculator_refactored.py b/project_management/modules/importance_urgency_calculator_refactored.py\\n    deleted file mode 100644\\n    index 9be51260..00000000\\n    --- a/project_management/modules/importance_urgency_calculator_refactored.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:27",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:27 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3fa1728fa9685e6b0825cd8459515f861acd7ca1"
+        ]
+    },
+    "d44fd178d2a4948907137512dc00b0f37e985f7d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/input_handler.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:29):\\n- project_management/modules/input_handler.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/input_handler.py b/project_management/modules/input_handler.py\\n    deleted file mode 100644\\n    index a2741c1f..00000000\\n    --- a/project_management/modules/input_handler.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:29",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f7c5b0613f93436c530cb8f8e7ae759912af510a"
+        ]
+    },
+    "08c0e13e333ef8ab4f36568556c67810e7067a85": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/integration_manager.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:31):\\n- project_management/modules/integration_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/integration_manager.py b/project_management/modules/integration_manager.py\\n    deleted file mode 100644\\n    index ea24f1f8..00000000\\n    --- a/project_management/modules/integration_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:31",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:31 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d44fd178d2a4948907137512dc00b0f37e985f7d"
+        ]
+    },
+    "bb449183902f4021078575f988075cba574c27c5": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/json_data_linker.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:33):\\n- project_management/modules/json_data_linker.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/json_data_linker.py b/project_management/modules/json_data_linker.py\\n    deleted file mode 100644\\n    index 73fcb0ea..00000000\\n    --- a/project_management/modules/json_data_linker.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:33",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:33 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "08c0e13e333ef8ab4f36568556c67810e7067a85"
+        ]
+    },
+    "a8220ca9c152074fefab2e94440632f530fb9bcc": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/progress_calculator.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:35):\\n- project_management/modules/progress_calculator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/progress_calculator.py b/project_management/modules/progress_calculator.py\\n    deleted file mode 100644\\n    index 816a3b24..00000000\\n    --- a/project_management/modules/progress_calculator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:35",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:35 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bb449183902f4021078575f988075cba574c27c5"
+        ]
+    },
+    "123a4d211741f03bf746c508ee4d5ea41899e736": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/progress_calculator_refactored.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:37):\\n- project_management/modules/progress_calculator_refactored.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/progress_calculator_refactored.py b/project_management/modules/progress_calculator_refactored.py\\n    deleted file mode 100644\\n    index aacd6060..00000000\\n    --- a/project_management/modules/progress_calculator_refactored.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:37",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:37 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a8220ca9c152074fefab2e94440632f530fb9bcc"
+        ]
+    },
+    "3a4aa842090ce12faea6b68e52eb926efeb25cee": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/progress_data_generator.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:39):\\n- project_management/modules/progress_data_generator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/progress_data_generator.py b/project_management/modules/progress_data_generator.py\\n    deleted file mode 100644\\n    index 8813ef94..00000000\\n    --- a/project_management/modules/progress_data_generator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:39",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "123a4d211741f03bf746c508ee4d5ea41899e736"
+        ]
+    },
+    "7738027125b14ea0940c91886eb3388cb083d42d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/progress_data_generator_refactored.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:41):\\n- project_management/modules/progress_data_generator_refactored.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/progress_data_generator_refactored.py b/project_management/modules/progress_data_generator_refactored.py\\n    deleted file mode 100644\\n    index 170b5938..00000000\\n    --- a/project_management/modules/progress_data_generator_refactored.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:41",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3a4aa842090ce12faea6b68e52eb926efeb25cee"
+        ]
+    },
+    "31615967a67eb9a9c2aa9cb25e30efaf98bc69e1": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/progress_report.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:43):\\n- project_management/modules/progress_report.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/progress_report.py b/project_management/modules/progress_report.py\\n    deleted file mode 100644\\n    index f8c84634..00000000\\n    --- a/project_management/modules/progress_report.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:43",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "7738027125b14ea0940c91886eb3388cb083d42d"
+        ]
+    },
+    "2d46e648eeb7d0fa2142249366dff90a588ceadb": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/project_management_system.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:45):\\n- project_management/modules/project_management_system.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/project_management_system.py b/project_management/modules/project_management_system.py\\n    deleted file mode 100644\\n    index 01bab160..00000000\\n    --- a/project_management/modules/project_management_system.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:45",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "31615967a67eb9a9c2aa9cb25e30efaf98bc69e1"
+        ]
+    },
+    "ce9b57757e53f5c3de47023b70f2783b9b63f7f8": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/quality_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:47):\\n- project_management/modules/quality_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/quality_management.py b/project_management/modules/quality_management.py\\n    deleted file mode 100644\\n    index 22ae8dd8..00000000\\n    --- a/project_management/modules/quality_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:47",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:47 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2d46e648eeb7d0fa2142249366dff90a588ceadb"
+        ]
+    },
+    "30f8aff36f348ef07f369894938b9f8c0ac742d7": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/reporting.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:27:49):\\n- project_management/modules/reporting.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/reporting.py b/project_management/modules/reporting.py\\n    deleted file mode 100644\\n    index 532d327e..00000000\\n    --- a/project_management/modules/reporting.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:57:49",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:27:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ce9b57757e53f5c3de47023b70f2783b9b63f7f8"
+        ]
+    },
+    "47e34057610fc1441a12ef832da4be6f161df1c9": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/resource_allocation_manager.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:21):\\n- project_management/modules/resource_allocation_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/resource_allocation_manager.py b/project_management/modules/resource_allocation_manager.py\\n    deleted file mode 100644\\n    index 3daf0e2d..00000000\\n    --- a/project_management/modules/resource_allocation_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:21",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:21 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "30f8aff36f348ef07f369894938b9f8c0ac742d7"
+        ]
+    },
+    "8c781fbe97c72d28993feba96b0cb50b186e8aea": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/resource_leveling.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:23):\\n- project_management/modules/resource_leveling.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/resource_leveling.py b/project_management/modules/resource_leveling.py\\n    deleted file mode 100644\\n    index c280a50a..00000000\\n    --- a/project_management/modules/resource_leveling.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:23",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:23 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "47e34057610fc1441a12ef832da4be6f161df1c9"
+        ]
+    },
+    "9539ccc89052198c1121a44519c07b5520e3f897": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/resource_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:25):\\n- project_management/modules/resource_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/resource_management.py b/project_management/modules/resource_management.py\\n    deleted file mode 100644\\n    index 00862ecb..00000000\\n    --- a/project_management/modules/resource_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:25",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:25 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8c781fbe97c72d28993feba96b0cb50b186e8aea"
+        ]
+    },
+    "a5d253a36174301a03456554fe271065f9632cf2": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/risk_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:27):\\n- project_management/modules/risk_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/risk_management.py b/project_management/modules/risk_management.py\\n    deleted file mode 100644\\n    index 33d9c618..00000000\\n    --- a/project_management/modules/risk_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:27",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:27 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9539ccc89052198c1121a44519c07b5520e3f897"
+        ]
+    },
+    "f5d870d4261bc33c7fa5208f87cf7d688b86771f": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/scheduler.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:29):\\n- project_management/modules/scheduler.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/scheduler.py b/project_management/modules/scheduler.py\\n    deleted file mode 100644\\n    index 9b81c181..00000000\\n    --- a/project_management/modules/scheduler.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:29",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a5d253a36174301a03456554fe271065f9632cf2"
+        ]
+    },
+    "8800cec917aeeb3211e7dda76e47d3e1448c26cc": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/scope_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:31):\\n- project_management/modules/scope_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/scope_management.py b/project_management/modules/scope_management.py\\n    deleted file mode 100644\\n    index 749ae2a3..00000000\\n    --- a/project_management/modules/scope_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:31",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:31 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f5d870d4261bc33c7fa5208f87cf7d688b86771f"
+        ]
+    },
+    "05811d14f780de587eb3eaa6b208658440581692": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/setup_automation.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:33):\\n- project_management/modules/setup_automation.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/setup_automation.py b/project_management/modules/setup_automation.py\\n    deleted file mode 100644\\n    index 804bf79f..00000000\\n    --- a/project_management/modules/setup_automation.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:33",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:33 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8800cec917aeeb3211e7dda76e47d3e1448c26cc"
+        ]
+    },
+    "a449c8692f14af47163e320201a4c22d79bd0e4b": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/setup_initialization.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:35):\\n- project_management/modules/setup_initialization.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/setup_initialization.py b/project_management/modules/setup_initialization.py\\n    deleted file mode 100644\\n    index 147deaaf..00000000\\n    --- a/project_management/modules/setup_initialization.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:35",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:35 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "05811d14f780de587eb3eaa6b208658440581692"
+        ]
+    },
+    "24d59bdeb03b57cfb8a75602886440561f006723": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/task_executor.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:37):\\n- project_management/modules/task_executor.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/task_executor.py b/project_management/modules/task_executor.py\\n    deleted file mode 100644\\n    index 52f97d13..00000000\\n    --- a/project_management/modules/task_executor.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:37",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:37 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a449c8692f14af47163e320201a4c22d79bd0e4b"
+        ]
+    },
+    "ca88d1cc6e6f92d515d163e6b4698f3dd3591b56": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/task_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:39):\\n- project_management/modules/task_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/task_management.py b/project_management/modules/task_management.py\\n    deleted file mode 100644\\n    index 22214652..00000000\\n    --- a/project_management/modules/task_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:39",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "24d59bdeb03b57cfb8a75602886440561f006723"
+        ]
+    },
+    "78bf1b64fdc7eaa7805b685e3fb7a3d9d9b89f68": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/task_management_integration.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:41):\\n- project_management/modules/task_management_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/task_management_integration.py b/project_management/modules/task_management_integration.py\\n    deleted file mode 100644\\n    index 5142e233..00000000\\n    --- a/project_management/modules/task_management_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:41",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ca88d1cc6e6f92d515d163e6b4698f3dd3591b56"
+        ]
+    },
+    "071c94379e32ffe3df64ec23d43d035f12e14191": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/test_auto_commit.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:44):\\n- project_management/modules/test_auto_commit.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/test_auto_commit.py b/project_management/modules/test_auto_commit.py\\n    deleted file mode 100644\\n    index ebb1f15e..00000000\\n    --- a/project_management/modules/test_auto_commit.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:44",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:44 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "78bf1b64fdc7eaa7805b685e3fb7a3d9d9b89f68"
+        ]
+    },
+    "2ba246646afa98e7aa246e9bb6ca906ef2ec51c4": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/test_do_important_tasks.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:46):\\n- project_management/modules/test_do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/test_do_important_tasks.py b/project_management/modules/test_do_important_tasks.py\\n    deleted file mode 100644\\n    index 936e290f..00000000\\n    --- a/project_management/modules/test_do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:46",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:46 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "071c94379e32ffe3df64ec23d43d035f12e14191"
+        ]
+    },
+    "bfa6796ae3e651ea47ceecf797f7c62648e54983": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/test_do_urgent_tasks.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:48):\\n- project_management/modules/test_do_urgent_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/test_do_urgent_tasks.py b/project_management/modules/test_do_urgent_tasks.py\\n    deleted file mode 100644\\n    index 2cb90439..00000000\\n    --- a/project_management/modules/test_do_urgent_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:48",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:48 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2ba246646afa98e7aa246e9bb6ca906ef2ec51c4"
+        ]
+    },
+    "e7af1f603f1d66efa762da7191b9862afa261f2d": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/time_management.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:50):\\n- project_management/modules/time_management.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/time_management.py b/project_management/modules/time_management.py\\n    deleted file mode 100644\\n    index 9aaa8846..00000000\\n    --- a/project_management/modules/time_management.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:50",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:50 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bfa6796ae3e651ea47ceecf797f7c62648e54983"
+        ]
+    },
+    "0e6aff60cf6328a69423765429fbad2db954e2e5": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/vscode_extension_installer.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:52):\\n- project_management/modules/vscode_extension_installer.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/vscode_extension_installer.py b/project_management/modules/vscode_extension_installer.py\\n    deleted file mode 100644\\n    index 295b3d1f..00000000\\n    --- a/project_management/modules/vscode_extension_installer.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:52",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:52 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e7af1f603f1d66efa762da7191b9862afa261f2d"
+        ]
+    },
+    "a55b52c2618521136df9398f7a845de6490a0c1c": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/wbs_aggregator.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:54):\\n- project_management/modules/wbs_aggregator.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/wbs_aggregator.py b/project_management/modules/wbs_aggregator.py\\n    deleted file mode 100644\\n    index 399239e1..00000000\\n    --- a/project_management/modules/wbs_aggregator.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:54",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:54 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0e6aff60cf6328a69423765429fbad2db954e2e5"
+        ]
+    },
+    "90d43729c814e1ad385c49095cc369e97de98b3f": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/wbs_merger.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:56):\\n- project_management/modules/wbs_merger.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/wbs_merger.py b/project_management/modules/wbs_merger.py\\n    deleted file mode 100644\\n    index cd4d9688..00000000\\n    --- a/project_management/modules/wbs_merger.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:56",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:56 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a55b52c2618521136df9398f7a845de6490a0c1c"
+        ]
+    },
+    "1739395fe6c4f24cbfa0ec26200cf6c0dacf9ebf": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/wbs_parser.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:28:58):\\n- project_management/modules/wbs_parser.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/wbs_parser.py b/project_management/modules/wbs_parser.py\\n    deleted file mode 100644\\n    index 9b596b4e..00000000\\n    --- a/project_management/modules/wbs_parser.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:58:58",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:28:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "90d43729c814e1ad385c49095cc369e97de98b3f"
+        ]
+    },
+    "414721dc19bd6ee188ef66d2402632bcff0f7463": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/workflow_data_collector.py",
+        "commit_message": "🗑️ remove(project_management): Deleted files updated\\n\\nChanges included (as of 2025-07-31 17:29:00):\\n- project_management/modules/workflow_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/project_management/modules/workflow_data_collector.py b/project_management/modules/workflow_data_collector.py\\n    deleted file mode 100644\\n    index 44031065..00000000\\n    --- a/project_management/modules/workflow_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:59:00",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:29:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1739395fe6c4f24cbfa0ec26200cf6c0dacf9ebf"
+        ]
+    },
+    "2935fbaf9b799fb048c7d70a6ec732bd9e1b2940": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250731_172637/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-31 17:29:02):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250731_172637/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250731_172637/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250731_172637/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250731_172637/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:59:03",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:29:03 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "414721dc19bd6ee188ef66d2402632bcff0f7463"
+        ]
+    },
+    "252868d9fabbc783d9fb907f023f050605f459e3": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/main_modules/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-31 17:29:04):\\n- project_management/modules/main_modules/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/main_modules/commit_progress_manager.py b/project_management/modules/main_modules/commit_progress_manager.py\\n    new file mode 100644\\n    index 00000000..72d3a833\\n    --- /dev/null\\n    +++ b/project_management/modules/main_modules/commit_progress_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:59:05",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:29:05 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2935fbaf9b799fb048c7d70a6ec732bd9e1b2940"
+        ]
+    },
+    "529cf15ec4550380e5cd6b250015c2d8a9f8e2ba": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/services/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-07-31 17:29:06):\\n- project_management/modules/services/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/modules/services/auto_commit.py b/project_management/modules/services/auto_commit.py\\n    new file mode 100644\\n    index 00000000..e4d519c3\\n    --- /dev/null\\n    +++ b/project_management/modules/services/auto_commit.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.005,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:59:07",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:29:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "252868d9fabbc783d9fb907f023f050605f459e3"
+        ]
+    },
+    "c46faac3bb0249921431b490449a8caf900a5929": {
+        "task_id": "root",
+        "file_path": "requirements.txt",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-07-31 17:29:09):\\n- requirements.txt: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/requirements.txt b/requirements.txt\\n    index 26af1660..08e588bb 100644\\n    --- a/requirements.txt\\n    +++ b/requirements.txt\\n    @@ -39,3 +39,4 @@ typing_extensions==4.14.1\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-07-31 13:59:09",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Jul 31 17:29:09 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "529cf15ec4550380e5cd6b250015c2d8a9f8e2ba"
+        ]
     }
 }
