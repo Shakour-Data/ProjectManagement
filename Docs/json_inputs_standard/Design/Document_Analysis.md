@@ -75,3 +75,25 @@ The `Document_Analysis.json` file defines the tasks involved in analyzing existi
 ---
 
 This detailed explanation should help users understand the role and structure of the `Document_Analysis.json` file, how it fits into the overall project WBS, and how to extend it to meet specific project requirements.
+
+```mermaid
+graph TD
+    A[Level 0: Software Project] --> B[Level 1: Modeling]
+    B --> C[Level 2: Requirements Gathering]
+    C --> D[Level 3: Document Analysis]
+    D --> E[Level 4: Collect Documents]
+    D --> F[Level 4: Review Documents]
+    D --> G[Level 4: Extract Requirements]
+    D --> H[Level 4: Validate Requirements]
+    D --> I[Level 4: Document Analysis Report]
+```
+
+```mermaid
+flowchart TD
+    A[Start Document Analysis] --> B[Collect Documents]
+    B --> C[Review Documents]
+    C --> D[Extract Requirements]
+    D --> E[Validate Requirements]
+    E --> F[Document Analysis Report]
+    F --> G[Document Analysis Complete]
+```
