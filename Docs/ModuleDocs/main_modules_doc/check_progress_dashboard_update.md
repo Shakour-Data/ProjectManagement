@@ -31,24 +31,24 @@ if __name__ == "__main__":
 
 ```mermaid
 graph TD
-    A[main()] --> B[read_file(path)]
-    A --> C[TaskManagement.generate_wbs_from_idea()]
-    A --> D[generate_progress_dashboard_report()]
-    B --> E[Read progress_dashboard.md]
-    D --> F[Update progress_dashboard.md]
+    A["main()"] --> B["read_file(path)"]
+    A --> C["TaskManagement.generate_wbs_from_idea()"]
+    A --> D["generate_progress_dashboard_report()"]
+    B --> E["Read progress_dashboard.md"]
+    D --> F["Update progress_dashboard.md"]
 ```
 
 ### Mermaid Process Flowchart
 
 ```mermaid
 flowchart TD
-    Start --> ReadFile[Read progress_dashboard.md]
-    ReadFile --> GenerateWBS[Generate WBS from idea]
-    GenerateWBS --> GenerateReport[Generate progress dashboard report]
-    GenerateReport --> ReadUpdatedFile[Read updated progress_dashboard.md]
-    ReadUpdatedFile --> Compare{Content changed?}
-    Compare -- Yes --> UpdateMsg[Print "progress_dashboard.md updated successfully."]
-    Compare -- No --> NoChangeMsg[Print "No changes detected in progress_dashboard.md after update."]
+    Start --> ReadFile["Read progress_dashboard.md"]
+    ReadFile --> GenerateWBS["Generate WBS from idea"]
+    GenerateWBS --> GenerateReport["Generate progress dashboard report"]
+    GenerateReport --> ReadUpdatedFile["Read updated progress_dashboard.md"]
+    ReadUpdatedFile --> Compare{"Content changed?"}
+    Compare -- Yes --> UpdateMsg["Print 'progress_dashboard.md updated successfully.'"]
+    Compare -- No --> NoChangeMsg["Print 'No changes detected in progress_dashboard.md after update.'"]
     UpdateMsg --> End
     NoChangeMsg --> End
 ```
