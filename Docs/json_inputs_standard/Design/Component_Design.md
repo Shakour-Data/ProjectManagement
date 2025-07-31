@@ -75,3 +75,26 @@ The `Component_Design.json` file defines the tasks involved in designing individ
 ---
 
 This detailed explanation should help users understand the role and structure of the `Component_Design.json` file, how it fits into the overall project WBS, and how to extend it to meet specific project requirements.
+
+```mermaid
+graph TD
+    A[Level 0: Software Project] --> B[Level 1: Modeling]
+    B --> C[Level 2: System Design]
+    C --> D[Level 3: Component Design]
+    D --> E[Level 4: Identify Components]
+    D --> F[Level 4: Define Interfaces]
+    D --> G[Level 4: Design Component Logic]
+    D --> H[Level 4: Component Testing Plan]
+    D --> I[Level 4: Document Component Design]
+```
+
+```mermaid
+flowchart TD
+    A[Start Component Design] --> B[Identify Components]
+    B --> C[Define Interfaces]
+    C --> D[Design Component Logic]
+    D --> E[Component Testing Plan]
+    E --> F[Document Component Design]
+    F --> G[Component Design Complete]
+```
+    F --> G[Component Design Complete]
