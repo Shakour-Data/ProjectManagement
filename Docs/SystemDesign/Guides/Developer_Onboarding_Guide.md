@@ -4,6 +4,19 @@
 
 This guide provides instructions and information for new developers joining the ProjectManagement project. It covers setup, code structure, contribution guidelines, and best practices.
 
+```mermaid
+flowchart TD
+    A[Join Project] --> B[Set up Development Environment]
+    B --> C[Clone Repository]
+    C --> D[Install Dependencies]
+    D --> E[Run Setup Script]
+    E --> F[Understand Code Structure]
+    F --> G[Start Development]
+    G --> H[Write Tests]
+    H --> I[Submit Pull Request]
+    I --> J[Code Review and Merge]
+```
+
 ## 1. Prerequisites
 
 - Python 3.7 or higher installed.
