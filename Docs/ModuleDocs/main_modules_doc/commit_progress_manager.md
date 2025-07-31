@@ -1,36 +1,32 @@
-# CommitProgressManager Module
+# Commit Progress Manager Module
 
 ## Overview
-The `commit_progress_manager` module provides the `CommitProgressManager` class which manages commit progress tracking per task. It loads commit task data, calculates commit counts and progress percentages, and saves the progress data for use in project tracking.
+The `commit_progress_manager` module provides the `CommitProgressManager` class to track and manage commit progress per task. It loads commit task data, calculates commit counts and progress percentages, and saves the progress data.
 
 ## Class: CommitProgressManager
 
 ### Description
-The `CommitProgressManager` class processes commit task data from a JSON database and generates progress metrics for each task based on commit activity.
+The `CommitProgressManager` class manages commit progress tracking by reading commit task database JSON, generating progress metrics, and saving the results.
 
 ### Methods
 
-- `__init__(self, commit_task_db_path='project_inputs/PM_JSON/system_outputs/commit_task_database.json', commit_progress_path='project_inputs/PM_JSON/system_outputs/commit_progress.json')`
-  - Initializes the manager with paths to the commit task database and commit progress output files.
+- `__init__(self, commit_task_db_path, commit_progress_path)`
+  - Initializes paths and internal data structures.
 
 - `load_commit_task_db(self)`
-  - Loads commit task data from the JSON database file.
+  - Loads commit task database JSON from file.
 
 - `generate_commit_progress(self)`
-  - Calculates commit progress per task.
-  - Algorithm:
-    - For each task, counts the number of commits.
-    - Tracks the last commit date.
-    - Calculates progress percentage as `min(commit_count * 10, 100)`, capping progress at 100%.
-  
+  - Calculates commit counts, last commit dates, and progress percentages per task.
+
 - `save_commit_progress(self)`
-  - Saves the generated commit progress data to the output JSON file.
+  - Saves the generated commit progress data to JSON file.
 
 - `run(self)`
-  - Runs the full workflow: load data, generate progress, and save results.
+  - Runs the full process: load, generate, save, and print status.
 
 ## Usage
-Run the module as a script to generate and save commit progress data:
+The module can be run as a script to update commit progress data:
 
 ```python
 if __name__ == "__main__":
@@ -38,6 +34,42 @@ if __name__ == "__main__":
     manager.run()
 ```
 
+## Diagrams
+
+### Mermaid Class Diagram
+
+```mermaid
+classDiagram
+    class CommitProgressManager {
+        - commit_task_db_path: str
+        - commit_progress_path: str
+        - commit_task_db: dict
+        - commit_progress: dict
+        + __init__(commit_task_db_path, commit_progress_path)
+        + load_commit_task_db()
+        + generate_commit_progress()
+        + save_commit_progress()
+        + run()
+    }
+```
+
+### Mermaid Commit Progress Flowchart
+
+```mermaid
+flowchart TD
+    Start --> LoadDB[Load commit task database JSON]
+    LoadDB --> GenerateProgress[Generate commit progress per task]
+    GenerateProgress --> SaveProgress[Save commit progress JSON]
+    SaveProgress --> PrintStatus[Print completion message]
+    PrintStatus --> End
+```
+
 ---
 
-This documentation provides a detailed overview of the `commit_progress_manager` module to assist developers in understanding and using commit progress tracking functionality.
+## Credits
+
+This module uses Python's built-in `json` and `datetime` modules for data handling and processing.
+
+---
+
+This documentation provides a detailed overview of the `commit_progress_manager` module to assist developers in understanding and using its functionality effectively.
