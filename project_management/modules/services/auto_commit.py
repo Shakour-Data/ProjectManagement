@@ -4,13 +4,14 @@ import datetime
 from collections import defaultdict
 import sys
 import os
-from project_management.modules.services.backup_manager import BackupManager
+# from project_management.modules.services.backup_manager import BackupManager
 import json
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
 
 class AutoCommit:
     def __init__(self):
+        from project_management.modules.services.backup_manager import BackupManager
         self.bm = BackupManager()
 
     def run_git_command(self, args, cwd=None):
