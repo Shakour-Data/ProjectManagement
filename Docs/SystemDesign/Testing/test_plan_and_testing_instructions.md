@@ -28,6 +28,7 @@ This test plan covers all necessary tests to ensure the ProjectManagement system
 | Test `auto_pm help` command displays usage instructions. | ⬜ | ⬜ |  |  |
 | Test CLI argument parsing and invalid command handling. | ⬜ | ⬜ |  |  |
 
+
 ### 3. Input File Handling Tests
 
 | Test Description | Initial Run | Latest Run | Latest Test Date | Notes |
@@ -36,6 +37,7 @@ This test plan covers all necessary tests to ensure the ProjectManagement system
 | Test `setup` command with missing input files and verify appropriate warnings. | ⬜ | ⬜ |  |  |
 | Test `setup` command with invalid JSON files and verify error messages. | ⬜ | ⬜ |  |  |
 | Test handling of empty input directory. | ⬜ | ⬜ |  |  |
+| Test validation of JSON input reading and JSON output writing for reports and dashboards. | ⬜ | ⬜ |  |  |
 
 ### 4. Workflow and Reporting Tests
 
