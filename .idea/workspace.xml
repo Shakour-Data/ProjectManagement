@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c94bf6-1e82-464e-93a4-9b7e2bd3dd90" name="Changes" comment="" />
+    <list default="true" id="93c94bf6-1e82-464e-93a4-9b7e2bd3dd90" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_management/PM_SystemOutputs/system_outputs/commit_task_database.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_management/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_management/modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/auto_commit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/backup_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/cli_commands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/commit_progress_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/communication_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/communication_risk_doc_implementation_plan.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/config_and_token_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/dashboards_reports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/db_data_collector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/do_important_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/do_urgent_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/documentation_automation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/estimation_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/feature_weights.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/gantt_chart_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/git_progress_updater.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/github_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/importance_urgency_calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/importance_urgency_calculator_refactored.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/input_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/integration_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/json_data_linker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/progress_calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/progress_calculator_refactored.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/progress_data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/progress_data_generator_refactored.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/progress_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/project_management_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/quality_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/reporting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/resource_allocation_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/resource_leveling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/resource_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/risk_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/scope_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/setup_automation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/setup_initialization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/task_executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/task_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/task_management_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/test_auto_commit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/test_do_important_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/test_do_urgent_tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/time_management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/vscode_extension_installer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/wbs_aggregator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/wbs_merger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/wbs_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_management/modules/workflow_data_collector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,23 +69,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="30d1bQWrxUJcciVUQGFNjoZGAtE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
