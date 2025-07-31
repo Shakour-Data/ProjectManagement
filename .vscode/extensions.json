@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "vstirbu.vscode-mermaid-preview",
+    "jebbs.plantuml",
+    "blackboxai.blackboxai",
+    "mhutchie.git-graph"
+  ]
+}
