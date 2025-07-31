@@ -22,6 +22,21 @@ This document provides guidelines and best practices for developers working on t
 - Perform code reviews before merging changes.
 - Keep dependencies up to date.
 
+```mermaid
+flowchart TD
+    A[Start Development] --> B[Create Feature Branch]
+    B --> C[Write Code and Tests]
+    C --> D[Run Tests]
+    D --> E{Tests Pass?}
+    E -- Yes --> F[Submit Pull Request]
+    E -- No --> C
+    F --> G[Code Review]
+    G --> H{Review Approved?}
+    H -- Yes --> I[Merge to Main Branch]
+    H -- No --> C
+    I --> J[Deploy and Monitor]
+```
+
 ## Testing
 
 - Run existing tests before starting new work.
