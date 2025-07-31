@@ -1,126 +1,73 @@
 import requests
 import os
+import logging
+import time
 
 class GitHubIntegration:
-    def __init__(self, token=None, repo=None):
-        self.token = token or os.getenv('GITHUB_TOKEN')
-        self.repo = repo
-        self.api_url = 'https://api.github.com'
-        if not self.token:
-            raise ValueError("GitHub token must be provided via parameter or GITHUB_TOKEN environment variable.")
-        if not self.repo:
-            raise ValueError("GitHub repository must be specified (e.g., 'user/repo').")
+    def __init__(self, repo_owner, repo_name, token=None, max_retries=3, retry_delay=2):
+        self.repo_owner = repo_owner
+        self.repo_name = repo_name
+        self.token = token or os.getenv("GITHUB_TOKEN")
+        self.api_base = "https://api.github.com"
         self.headers = {
-            'Authorization': f'token {self.token}',
-            'Accept': 'application/vnd.github.v3+json'
+            "Accept": "application/vnd.github.v3+json"
         }
+        if self.token:
+            self.headers["Authorization"] = f"token {self.token}"
+        self.max_retries = max_retries
+        self.retry_delay = retry_delay
+        self.logger = logging.getLogger(__name__)
+        logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    def get_issues(self, state='open'):
-        url = f"{self.api_url}/repos/{self.repo}/issues"
-        params = {'state': state}
-        response = requests.get(url, headers=self.headers, params=params)
-        response.raise_for_status()
-        return response.json()
-
-    def create_issue(self, title, body=None, labels=None):
-        url = f"{self.api_url}/repos/{self.repo}/issues"
-        data = {'title': title}
-        if body:
-            data['body'] = body
-        if labels:
-            data['labels'] = labels
-        response = requests.post(url, headers=self.headers, json=data)
-        response.raise_for_status()
-        return response.json()
-
-    def update_issue(self, issue_number, state=None, title=None, body=None, labels=None):
-        url = f"{self.api_url}/repos/{self.repo}/issues/{issue_number}"
-        data = {}
-        if state:
-            data['state'] = state
-        if title:
-            data['title'] = title
-        if body:
-            data['body'] = body
-        if labels is not None:
-            data['labels'] = labels
-        response = requests.patch(url, headers=self.headers, json=data)
-        response.raise_for_status()
-        return response.json()
-
-    def close_issue(self, issue_number):
-        url = f"{self.api_url}/repos/{self.repo}/issues/{issue_number}"
-        data = {'state': 'closed'}
-        response = requests.patch(url, headers=self.headers, json=data)
-        response.raise_for_status()
-        return response.json()
-
-    def sync_project_board(self):
-        # Implement syncing project board logic using GitHub Projects API
-        try:
-            # Example: fetch project boards and sync issues/tasks accordingly
-            projects_url = f"{self.api_url}/repos/{self.repo}/projects"
-            headers = self.headers.copy()
-            headers['Accept'] = 'application/vnd.github.inertia-preview+json'
-            response = requests.get(projects_url, headers=headers)
-            response.raise_for_status()
-            projects = response.json()
-            # Implement syncing logic here
-            return {"message": "Project board synced successfully", "projects": projects}
-        except Exception as e:
-            raise RuntimeError(f"Failed to sync project board: {str(e)}")
-
-    def link_pull_request(self, pr_number, issue_numbers):
-        # Implement linking pull requests to issues
-        try:
-            pr_url = f"{self.api_url}/repos/{self.repo}/pulls/{pr_number}"
-            for issue_number in issue_numbers:
-                # Add comment linking PR to issue
-                comment_url = f"{self.api_url}/repos/{self.repo}/issues/{issue_number}/comments"
-                comment_body = f"Linked pull request #{pr_number}"
-                response = requests.post(comment_url, headers=self.headers, json={"body": comment_body})
+    def _get(self, url, params=None):
+        retries = 0
+        while retries < self.max_retries:
+            try:
+                response = requests.get(url, headers=self.headers, params=params, timeout=10)
                 response.raise_for_status()
-            return {"message": f"Pull request #{pr_number} linked to issues {issue_numbers}"}
-        except Exception as e:
-            raise RuntimeError(f"Failed to link pull request: {str(e)}")
+                return response.json()
+            except requests.exceptions.RequestException as e:
+                self.logger.error(f"Request failed: {e}. Retry {retries + 1} of {self.max_retries}")
+                retries += 1
+                time.sleep(self.retry_delay)
+        self.logger.error(f"Failed to get data from {url} after {self.max_retries} retries.")
+        return None
 
-    def update_wiki(self, content, page='Home'):
-        # Implement updating GitHub wiki pages
-        try:
-            # This is a placeholder implementation; actual implementation may require git operations
-            # or GitHub API calls if supported
-            # For now, just log the update attempt
-            print(f"Updating wiki page '{page}' with content length {len(content)}")
-            return {"message": f"Wiki page '{page}' updated successfully"}
-        except Exception as e:
-            raise RuntimeError(f"Failed to update wiki page: {str(e)}")
+    def get_issues(self, state="open"):
+        url = f"{self.api_base}/repos/{self.repo_owner}/{self.repo_name}/issues"
+        params = {"state": state}
+        data = self._get(url, params)
+        if data is None:
+            self.logger.error("Failed to retrieve issues.")
+            return []
+        return data
 
-    def sync_tasks_to_github(self, tasks):
-        """
-        Sync a list of Task objects to GitHub issues.
-        Creates new issues for tasks without linked GitHub issues,
-        updates existing issues for tasks with github_issue_number.
-        """
-        for task in tasks:
-            title = task.title
-            body = task.description or ""
-            labels = []
-            if task.status == "completed":
-                state = "closed"
-            else:
-                state = "open"
+    def get_commits(self, per_page=30):
+        url = f"{self.api_base}/repos/{self.repo_owner}/{self.repo_name}/commits"
+        params = {"per_page": per_page}
+        data = self._get(url, params)
+        if data is None:
+            self.logger.error("Failed to retrieve commits.")
+            return []
+        return data
 
-            if task.github_issue_number:
-                # Update existing issue
-                self.update_issue(
-                    issue_number=task.github_issue_number,
-                    state=state,
-                    title=title,
-                    body=body,
-                    labels=labels
-                )
-            else:
-                # Create new issue
-                issue = self.create_issue(title=title, body=body, labels=labels)
-                task.github_issue_number = issue.get('number')
-        return tasks
+    def get_pull_requests(self, state="open"):
+        url = f"{self.api_base}/repos/{self.repo_owner}/{self.repo_name}/pulls"
+        params = {"state": state}
+        data = self._get(url, params)
+        if data is None:
+            self.logger.error("Failed to retrieve pull requests.")
+            return []
+        return data
+
+if __name__ == "__main__":
+    # Example usage
+    repo_owner = "your_org_or_username"
+    repo_name = "ProjectManagement"
+    github = GitHubIntegration(repo_owner, repo_name)
+    issues = github.get_issues()
+    print(f"Open issues: {len(issues)}")
+    commits = github.get_commits()
+    print(f"Recent commits: {len(commits)}")
+    prs = github.get_pull_requests()
+    print(f"Open pull requests: {len(prs)}")
