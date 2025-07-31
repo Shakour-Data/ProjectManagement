@@ -74,3 +74,24 @@ The `Coding.json` file defines the tasks involved in developing software modules
 ---
 
 This detailed explanation should help users understand the role and structure of the `Coding.json` file, how it fits into the overall project WBS, and how to extend it to meet specific project requirements.
+
+```mermaid
+graph TD
+    A[Level 0: Software Project] --> B[Level 1: Construction and Testing]
+    B --> C[Level 2: Coding]
+    C --> D[Level 3: Module Development]
+    C --> E[Level 3: Code Review]
+    C --> F[Level 3: Unit Testing]
+    C --> G[Level 3: Debugging]
+    C --> H[Level 3: Documentation]
+```
+
+```mermaid
+flowchart TD
+    A[Start Coding] --> B[Module Development]
+    B --> C[Code Review]
+    C --> D[Unit Testing]
+    D --> E[Debugging]
+    E --> F[Documentation]
+    F --> G[Coding Complete]
+```
