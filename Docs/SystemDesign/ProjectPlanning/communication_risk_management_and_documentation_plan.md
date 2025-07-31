@@ -77,3 +77,36 @@ To establish effective communication channels and protocols among project stakeh
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
 | 1.2     | 2025-07-27 | Updated to reflect current implementation | Project Team |
+
+## Visual Diagrams
+
+### Communication Plan Overview
+
+```mermaid
+flowchart TD
+    A[Project Meetings] --> B[GitHub Issues & PRs]
+    B --> C[VS Code Chat]
+    C --> D[Email Notifications]
+    D --> E[Project Dashboards]
+    E --> F[GitHub Discussions]
+```
+
+### Risk Management Process
+
+```mermaid
+flowchart LR
+    A[Risk Identification] --> B[Risk Analysis]
+    B --> C[Risk Mitigation]
+    C --> D[Risk Monitoring & Reporting]
+```
+
+### Documentation Management Workflow
+
+```mermaid
+graph TD
+    Docs[Documentation Files] --> VCS[Version Control System]
+    VCS --> Automation[Automated Updates]
+    Automation --> Collaboration[GitHub Wiki & Discussions]
+```
+
+---
