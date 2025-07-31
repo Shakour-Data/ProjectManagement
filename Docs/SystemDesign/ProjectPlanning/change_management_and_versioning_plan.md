@@ -86,3 +86,39 @@ Covers change request handling, version control strategies, release management, 
 | Version | Date       | Description               | Author       |
 |---------|------------|---------------------------|--------------|
 | 1.2     | 2025-07-27 | Updated to reflect current implementation | Project Team |
+
+## Visual Diagrams
+
+### Change Management Process Flowchart
+
+```mermaid
+flowchart TD
+    A[Submit Change Request] --> B[Evaluate Change]
+    B --> C{Approved?}
+    C -- Yes --> D[Schedule Change]
+    C -- No --> E[Reject Change]
+    D --> F[Implement Change]
+    F --> G[Update Tests and Documentation]
+    G --> H[Run CI/CD Pipelines]
+    H --> I[Verify and Close Change]
+```
+
+### Version Control Strategy Overview
+
+```mermaid
+graph LR
+    Git[Git Repository]
+    FeatureBranch[Feature Branches]
+    MainBranch[Main Branch]
+    ReleaseTags[Release Tags]
+    CI_CD[CI/CD Pipelines]
+    Docs[Documentation]
+
+    Git --> FeatureBranch
+    Git --> MainBranch
+    MainBranch --> ReleaseTags
+    ReleaseTags --> CI_CD
+    CI_CD --> Docs
+```
+
+---
