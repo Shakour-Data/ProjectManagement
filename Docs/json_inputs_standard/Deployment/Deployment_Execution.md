@@ -75,3 +75,26 @@ The `Deployment_Execution.json` file defines the tasks involved in executing the
 ---
 
 This detailed explanation should help users understand the role and structure of the `Deployment_Execution.json` file, how it fits into the overall project WBS, and how to extend it to meet specific project requirements.
+
+```mermaid
+graph TD
+    A[Level 0: Software Project] --> B[Level 1: Construction and Testing]
+    B --> C[Level 2: Deployment]
+    C --> D[Level 3: Deployment Execution]
+    D --> E[Level 4: Prepare Deployment Environment]
+    D --> F[Level 4: Deploy Software]
+    D --> G[Level 4: Perform Smoke Testing]
+    D --> H[Level 4: Monitor Deployment]
+    D --> I[Level 4: Document Deployment]
+```
+
+```mermaid
+flowchart TD
+    A[Start Deployment Execution] --> B[Prepare Deployment Environment]
+    B --> C[Deploy Software]
+    C --> D[Perform Smoke Testing]
+    D --> E[Monitor Deployment]
+    E --> F[Document Deployment]
+    F --> G[Deployment Execution Complete]
+```
+    F --> G[Deployment Execution Complete]
