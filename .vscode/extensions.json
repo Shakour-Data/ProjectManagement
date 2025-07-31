@@ -5,6 +5,7 @@
     "vstirbu.vscode-mermaid-preview",
     "jebbs.plantuml",
     "blackboxai.blackboxai",
-    "mhutchie.git-graph"
+    "mhutchie.git-graph",
+    "bierner.markdown-mermaid"
   ]
 }
