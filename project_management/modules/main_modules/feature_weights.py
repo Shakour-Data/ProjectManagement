@@ -27,3 +27,27 @@ IMPORTANCE_FEATURE_WEIGHTS = {
     "bottleneck_potential": 7.0,
     "reuse_frequency": 5.5,
 }
+
+def calculate_weights(features):
+    """
+    Calculate weights for the given features dictionary.
+    Raises TypeError if input is not a dict or contains invalid types.
+    Returns a dictionary of calculated weights.
+    """
+    if not isinstance(features, dict):
+        raise TypeError("Input features must be a dictionary")
+
+    weights = {}
+    for key, value in features.items():
+        if not isinstance(key, str):
+            raise TypeError("Feature keys must be strings")
+        if not (isinstance(value, (int, float)) and not isinstance(value, bool)):
+            raise TypeError("Feature values must be int or float (not bool)")
+
+        # Calculate weight based on predefined weights or default to value
+        urgency_weight = URGENCY_FEATURE_WEIGHTS.get(key, 0)
+        importance_weight = IMPORTANCE_FEATURE_WEIGHTS.get(key, 0)
+        combined_weight = (urgency_weight + importance_weight) * value
+        weights[key] = combined_weight
+
+    return weights
