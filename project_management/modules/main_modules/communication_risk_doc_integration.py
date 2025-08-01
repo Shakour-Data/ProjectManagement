@@ -1,4 +1,4 @@
-from project_management.modules.github_integration import GitHubIntegration
+from project_management.modules.services.github_integration import GitHubIntegration
 from project_management.modules.risk_management import RiskManagement
 from project_management.modules.documentation_automation import DocumentationAutomation
 
