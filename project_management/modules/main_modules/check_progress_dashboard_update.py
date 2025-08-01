@@ -1,5 +1,5 @@
-from task_management import TaskManagement
-from progress_report import generate_progress_dashboard_report
+from project_management.modules.main_modules.task_management import TaskManagement
+from project_management.modules.main_modules.progress_report import generate_report
 
 def read_file(path):
     try:
@@ -15,7 +15,7 @@ def main():
 
     tm = TaskManagement()
     tm.generate_wbs_from_idea("Develop Project Management Tool")
-    generate_progress_dashboard_report(tm)
+    generate_report(tm)
 
     after = read_file(path)
     print("Content length after update:", len(after))
