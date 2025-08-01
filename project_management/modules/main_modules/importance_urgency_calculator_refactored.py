@@ -51,18 +51,44 @@ class ImportanceUrgencyCalculator:
         - Stakeholder priority (normalized)
         Weights can be adjusted as needed.
         """
+        if task is None:
+            raise TypeError("Task cannot be None")
         try:
             dependencies = task.get('dependencies', [])
+            if not isinstance(dependencies, list):
+                raise TypeError("dependencies must be a list")
             dependency_factor = min(1, len(dependencies) / 10)
 
             critical_path = task.get('critical_path', False)
             critical_path_factor = 1 if critical_path else 0
 
             cost_impact = task.get('cost_impact', 0)
+            if isinstance(cost_impact, bool):
+                raise TypeError("cost_impact must not be a boolean")
+            if not (isinstance(cost_impact, int) or isinstance(cost_impact, float)):
+                raise TypeError("cost_impact must be a number")
             cost_factor = min(1, cost_impact / 100000)  # assuming cost in currency units
 
             priority = task.get('priority', 0)
-            priority_factor = min(1, priority / 10)
+            if priority is None:
+                raise TypeError("priority must not be None")
+            if isinstance(priority, bool):
+                raise TypeError("priority must not be a boolean")
+            if isinstance(priority, str):
+                priority_map = {
+                    "low": 1,
+                    "medium": 5,
+                    "high": 10,
+                    "بالا": 10,
+                    "اهم": 10,
+                }
+                priority_factor = priority_map.get(priority.lower(), 0) / 10
+            elif isinstance(priority, (int, float)) and not isinstance(priority, bool):
+                if priority < 0 or priority > 10:
+                    raise TypeError("priority numeric value out of range")
+                priority_factor = min(1, priority / 10)
+            else:
+                raise TypeError("priority must be a number or recognized string")
 
             w_dep, w_cp, w_cost, w_prio = 0.3, 0.3, 0.2, 0.2
 
@@ -73,8 +99,9 @@ class ImportanceUrgencyCalculator:
             importance_score = round(importance * 100, 2)
             return importance_score
         except Exception as e:
-            logger.error(f"Error calculating importance for task {task.get('id')}: {e}")
-            return 50  # default importance
+            task_id = task.get('id') if task and isinstance(task, dict) else 'unknown'
+            logger.error(f"Error calculating importance for task {task_id}: {e}")
+            raise
 
     def calculate_urgency(self, task):
         """
@@ -84,11 +111,25 @@ class ImportanceUrgencyCalculator:
         - Stakeholder pressure (normalized)
         Weights can be adjusted as needed.
         """
+        if task is None:
+            raise TypeError("Task cannot be None")
         try:
             import datetime
             now = datetime.datetime.now()
-            deadline_str = task.get('deadline')
-            if deadline_str:
+            deadline_str = task.get('deadline', None)
+            if deadline_str is None:
+                # Treat missing or None deadline as no deadline, urgency time factor 0
+                time_factor = 0
+            elif deadline_str:
+                if not isinstance(deadline_str, str):
+                    if isinstance(deadline_str, bool):
+                        raise TypeError("deadline must be a string in ISO format")
+                    if isinstance(deadline_str, float) or isinstance(deadline_str, int):
+                        raise TypeError("deadline must be a string in ISO format")
+                    try:
+                        deadline_str = str(deadline_str)
+                    except Exception:
+                        raise TypeError("deadline must be a string in ISO format")
                 try:
                     deadline = datetime.datetime.fromisoformat(deadline_str)
                     total_time = (deadline - now).total_seconds()
@@ -96,13 +137,19 @@ class ImportanceUrgencyCalculator:
                     time_factor = 1 - normalized_time
                 except Exception:
                     time_factor = 0
-            else:
-                time_factor = 0
 
             risk_of_delay = task.get('risk_of_delay', 0)
+            if isinstance(risk_of_delay, bool):
+                raise TypeError("risk_of_delay must not be a boolean")
+            if not (isinstance(risk_of_delay, int) or isinstance(risk_of_delay, float)):
+                raise TypeError("risk_of_delay must be a number")
             risk_factor = min(1, risk_of_delay / 10)
 
             stakeholder_pressure = task.get('stakeholder_pressure', 0)
+            if isinstance(stakeholder_pressure, bool):
+                raise TypeError("stakeholder_pressure must not be a boolean")
+            if not (isinstance(stakeholder_pressure, int) or isinstance(stakeholder_pressure, float)):
+                raise TypeError("stakeholder_pressure must be a number")
             pressure_factor = min(1, stakeholder_pressure / 10)
 
             w_time, w_risk, w_pressure = 0.5, 0.3, 0.2
@@ -113,8 +160,9 @@ class ImportanceUrgencyCalculator:
             urgency_score = round(urgency * 100, 2)
             return urgency_score
         except Exception as e:
-            logger.error(f"Error calculating urgency for task {task.get('id')}: {e}")
-            return 50  # default urgency
+            task_id = task.get('id') if task and isinstance(task, dict) else 'unknown'
+            logger.error(f"Error calculating urgency for task {task_id}: {e}")
+            raise
 
     def calculate_all(self):
         for task in self.wbs_data:
