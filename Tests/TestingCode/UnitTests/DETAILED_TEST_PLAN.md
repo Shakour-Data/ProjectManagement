@@ -12,11 +12,12 @@ To verify the correctness of individual components, functions, and methods in is
 
 ## Activities
 
-- Develop unit tests covering all core functions and classes.
-- Include tests for normal cases, boundary conditions, and error handling.
-- Use automated test runners to execute tests frequently.
+- Develop unit tests covering all core functions and classes in both `main_modules` and `services` directories.
+- Include tests for normal cases, boundary conditions, error handling, and edge cases.
+- Use automated test runners (e.g., pytest, unittest) to execute tests frequently.
 - Maintain and update tests as code evolves.
 - Record test results and update documentation after each run.
+- Organize test files mirroring the source code folder structure for clarity (`test_main_modules`, `test_services`).
 
 ---
 
@@ -26,16 +27,18 @@ To verify the correctness of individual components, functions, and methods in is
 - Output correctness tests.
 - Exception and error handling tests.
 - Performance of critical functions (if applicable).
+- Integration points within modules where applicable.
 
 ---
 
 ## Execution Steps
 
-1. Set up the test environment.
+1. Set up the test environment with virtual environment and dependencies.
 2. Run all unit tests using the test runner.
 3. Analyze test results and fix any failures.
 4. Update test documentation and checklists.
 5. Repeat until all tests pass.
+6. After successful runs, update `DETAILED_TEST_PLAN.md` and `README.md` accordingly.
 
 ---
 
