@@ -22760,5 +22760,56 @@
         "parent_commits": [
             "4fdd3eeba02672d93396052f9507d8dc2628816b"
         ]
+    },
+    "06aa48a6678a6e5dc040eb7e302a469442bc5614": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_importance_urgency_calculator_refactored.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-08-02 01:17:40):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_importance_urgency_calculator_refactored.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_importance_urgency_calculator_refactored.py b/Tests/TestingCode/UnitTests/test_main_modules/test_importance_urgency_calculator_refactored.py\\n    index 759927d3..c29abf11 100644\\n    --- a/Tests/TestingCode/UnitTests/test_main_modules/test_importance_urgency_calculator_refactored.py\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_importance_urgency_calculator_refactored.py\\n    @@ -1,305 +1,209 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-01 21:47:41",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Sat Aug 2 01:17:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e8e0da4f25adc8756cae712b96ec7915a29f6d44"
+        ]
+    },
+    "f7fc164b884e7d019a2c5c95bde59dfa438f14df": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/main_modules/importance_urgency_calculator_refactored.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-08-02 01:17:43):\\n- project_management/modules/main_modules/importance_urgency_calculator_refactored.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/main_modules/importance_urgency_calculator_refactored.py b/project_management/modules/main_modules/importance_urgency_calculator_refactored.py\\n    index 9be51260..f76a5315 100644\\n    --- a/project_management/modules/main_modules/importance_urgency_calculator_refactored.py\\n    +++ b/project_management/modules/main_modules/importance_urgency_calculator_refactored.py\\n    @@ -51,18 +51,44 @@ class ImportanceUrgencyCalculator:\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-01 21:47:43",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Sat Aug 2 01:17:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "06aa48a6678a6e5dc040eb7e302a469442bc5614"
+        ]
+    },
+    "2f2ce3d2a1173dec5de8a69ca9aede37bcadca96": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250802_011740/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-08-02 01:17:45):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250802_011740/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250802_011740/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250802_011740/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250802_011740/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-01 21:47:45",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Sat Aug 2 01:17:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "f7fc164b884e7d019a2c5c95bde59dfa438f14df"
+        ]
     }
 }
