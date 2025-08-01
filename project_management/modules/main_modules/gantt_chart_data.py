@@ -67,6 +67,45 @@ class GanttChartData:
 
         return gantt_data
 
+def generate_gantt_chart(tasks):
+    """Generate Gantt chart data from a list of tasks."""
+    if tasks is None:
+        raise TypeError("Tasks input cannot be None")
+    if not isinstance(tasks, list):
+        raise TypeError("Tasks input must be a list")
+    for task in tasks:
+        if task is None:
+            raise TypeError("Task cannot be None")
+        if not isinstance(task, dict):
+            raise TypeError("Each task must be a dict")
+        if 'id' not in task:
+            raise KeyError("Task missing 'id'")
+        if 'start' not in task:
+            raise KeyError("Task missing 'start'")
+        if 'end' not in task:
+            raise KeyError("Task missing 'end'")
+        # Validate date format
+        start = task['start']
+        end = task['end']
+        if not isinstance(start, str) or not isinstance(end, str):
+            raise TypeError("Start and end dates must be strings")
+        try:
+            from datetime import datetime
+            start_date = datetime.fromisoformat(start)
+            end_date = datetime.fromisoformat(end)
+        except Exception:
+            raise ValueError("Invalid date format, expected ISO format YYYY-MM-DD")
+        if start_date > end_date:
+            raise ValueError("Start date cannot be after end date")
+        # Validate name type if present
+        name = task.get('name', '')
+        if name is not None and not isinstance(name, (str, type(None))):
+            raise TypeError("Task name must be a string or None")
+    generator = GanttChartData()
+    generator.tasks = tasks
+    processed_tasks = generator.build_gantt_data()
+    return {"tasks": processed_tasks}
+
 if __name__ == "__main__":
     generator = GanttChartData()
     generator.load_tasks()
