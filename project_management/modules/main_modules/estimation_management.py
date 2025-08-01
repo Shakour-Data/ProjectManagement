@@ -38,6 +38,62 @@ class BaseManagement:
         self.save_json(self.output, self.output_path)
         print(f"{self.__class__.__name__} output saved to {self.output_path}")
 
+
+def estimate_task_duration(task):
+    if task is None:
+        raise TypeError("Task cannot be None")
+    if not isinstance(task, dict):
+        raise TypeError("Task must be a dictionary")
+    complexity = task.get("complexity", "medium")
+    # Simple mapping for complexity to duration
+    mapping = {
+        "low": 1,
+        "medium": 3,
+        "high": 5,
+        "extreme": 8
+    }
+    duration = mapping.get(complexity, 3)
+    return duration
+
+def estimate_task_cost(task):
+    if task is None:
+        raise TypeError("Task cannot be None")
+    if not isinstance(task, dict):
+        raise TypeError("Task must be a dictionary")
+    resources = task.get("resources", 1)
+    if not isinstance(resources, (int, float)):
+        raise TypeError("Resources must be a number")
+    duration = estimate_task_duration(task)
+    cost_per_resource_per_unit = 100  # arbitrary cost factor
+    cost = duration * resources * cost_per_resource_per_unit
+    return cost
+
+def estimate_project_duration(project):
+    if project is None:
+        raise TypeError("Project cannot be None")
+    if not isinstance(project, dict):
+        raise TypeError("Project must be a dictionary")
+    tasks = project.get("tasks", [])
+    if not tasks:
+        return 0
+    total_duration = 0
+    for task in tasks:
+        total_duration += estimate_task_duration(task)
+    return total_duration
+
+def estimate_project_cost(project):
+    if project is None:
+        raise TypeError("Project cannot be None")
+    if not isinstance(project, dict):
+        raise TypeError("Project must be a dictionary")
+    tasks = project.get("tasks", [])
+    if not tasks:
+        return 0
+    total_cost = 0
+    for task in tasks:
+        total_cost += estimate_task_cost(task)
+    return total_cost
+
 class EstimationManagement(BaseManagement):
     def __init__(self,
                  detailed_wbs_path='project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
