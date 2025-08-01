@@ -215,6 +215,7 @@ Rewrite the Project Management software to ensure all components (installer, bac
 - Verify inter-module communication exclusively via JSON files.
 - Validate completeness and correctness of report and dashboard JSON outputs.
 - Refer to Docs/SystemDesign/Testing/test_plan_and_testing_instructions.md for detailed test plans and instructions.
+- Refer to `Tests/Test_Execution_Plan.md` and detailed test plans in each `Tests/TestingCode/*/DETAILED_TEST_PLAN.md` for comprehensive testing guidance.
 
 - Define and document test cases based on validation checklist:
   - Backend API endpoint tests (happy path, error cases, edge cases).
