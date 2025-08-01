@@ -1,4 +1,4 @@
-# Project Architecture Document
+م # Project Architecture Document
 
 ## Overview
 This document provides a comprehensive overview of the architecture of the Project Management tool. It covers the main components, their responsibilities, interactions, and deployment considerations.
@@ -8,19 +8,42 @@ This document provides a comprehensive overview of the architecture of the Proje
 ## 1. High-Level System Architecture
 
 ```mermaid
-graph TD
-    FE(Frontend_React) --> BE(Backend_API)
-    BE --> SL(Services_Layer)
-    SL --> RP(Repositories)
-    RP --> JD(JSON_Files_Data_Storage)
-    BE --> MD(Models)
-    FE --> IG(Installer_GUI)
-    IG --> IS(Installer_Scripts)
-    SL --> LG(Logging_Service)
-    SL --> AU(Authentication_Service)
-    RP --> CF(Configuration_Files)
-    FE --> ST(State_Management_Context_API)
+graph LR
+    linkStyle default stroke:#000,stroke-width:1.5px
+    subgraph Frontend
+        style Frontend fill:#f9f,stroke:#333,stroke-width:2px,color:#800000
+        FE(Frontend React)
+        ST([State Management Context API])
+        IG([Installer GUI])
+        IS([Installer Scripts])
+    end
+
+    subgraph Backend
+        style Backend fill:#bbf,stroke:#333,stroke-width:2px,color:#004080
+        BE([Backend API])
+        SL([Services Layer])
+        RP([Repositories])
+        MD([Models])
+        LG([Logging Service])
+        AU([Authentication Service])
+        CF([Configuration Files])
+        JD[[JSON Files Data Storage]]
+    end
+
+    FE --> BE
+    BE --> SL
+    SL --> RP
+    RP --> JD
+    BE --> MD
+    FE --> IG
+    IG --> IS
+    SL --> LG
+    SL --> AU
+    RP --> CF
+    FE --> ST
 ```
+
+@enduml
 
 ### Description
 - The **Frontend** is a React application responsible for the user interface and user interactions.
@@ -36,18 +59,40 @@ graph TD
 
 ```mermaid
 graph TD
-    FE_UI[UI Components] --> FE_CTX[Context Providers]
-    FE_CTX --> FE_STM[State Management]
-    FE_STM --> FE_API[API Service Layer]
-    FE_API --> BE_API[Backend API]
-    BE_API --> SV_AUTH[Authentication Service]
-    BE_API --> SV_LOG[Logging Service]
-    BE_API --> SV_BUS[Business Logic Services]
-    SV_BUS --> RP_PRJ[Project Repository]
-    SV_BUS --> RP_USR[User Repository]
-    RP_PRJ --> DS_JSON[JSON Data Storage]
+    linkStyle default stroke:#000,stroke-width:1.5px
+    subgraph Frontend
+        style Frontend fill:#f9f,stroke:#333,stroke-width:2px,color:#800000
+        FE_UI(UI Components)
+        FE_CTX(Context Providers)
+        FE_STM(State Management)
+        FE_API(API Service Layer)
+    end
+
+    subgraph Backend
+        style Backend fill:#bbf,stroke:#333,stroke-width:2px,color:#004080
+        BE_API([Backend API])
+        SV_AUTH([Authentication Service])
+        SV_LOG([Logging Service])
+        SV_BUS([Business Logic Services])
+        RP_PRJ([Project Repository])
+        RP_USR([User Repository])
+        DS_JSON[[JSON Data Storage]]
+        FS([File System])
+    end
+
+    FE_UI --> FE_CTX
+    FE_CTX --> FE_STM
+    FE_STM --> FE_API
+    FE_API --> BE_API
+    BE_API --> SV_AUTH
+    BE_API --> SV_LOG
+    BE_API --> SV_BUS
+    SV_BUS --> RP_PRJ
+    SV_BUS --> RP_USR
+    RP_PRJ --> DS_JSON
     RP_USR --> DS_JSON
-    DS_JSON --> FS[File System]
+    DS_JSON --> FS
+    FS --> BE_API   
 ```
 
 ### Description
@@ -70,16 +115,35 @@ graph TD
 
 ```mermaid
 graph TD
-    API[API Layer] --> api_py[api.py]
-    API --> api_setup_py[api_setup.py]
-    API --> api_inputs_py[api_inputs.py]
-    api_py --> project_service[project_service.py]
-    api_py --> setup_service[setup_service.py]
-    project_service --> project_repository[project_repository.py]
-    setup_service --> project_repository
-    project_repository --> DS_JSON[JSON Data Storage]
-    project_repository --> CF[Configuration Files]
-    DS_JSON --> FS[File System]
+    linkStyle default stroke:#000,stroke-width:1.5px
+    subgraph API_Layer
+        style API_Layer fill:#bbf,stroke:#333,stroke-width:2px,color:#004080
+        API(api.py)
+        API_SETUP(api_setup.py)
+        API_INPUTS(api_inputs.py)
+    end
+
+    subgraph Services
+        style Services fill:#bfb,stroke:#333,stroke-width:2px,color:#006400
+        PROJ_SVC(project_service.py)
+        SETUP_SVC(setup_service.py)
+    end
+
+    subgraph Repositories
+        style Repositories fill:#fbf,stroke:#333,stroke-width:2px,color:#800080
+        PROJ_REPO(project_repository.py)
+        JSON_DS[[JSON Data Storage]]
+        CONF_FILES([Configuration Files])
+        FILE_SYS([File System])
+    end
+
+    API --> PROJ_SVC
+    API --> SETUP_SVC
+    PROJ_SVC --> PROJ_REPO
+    SETUP_SVC --> PROJ_REPO
+    PROJ_REPO --> JSON_DS
+    PROJ_REPO --> CONF_FILES
+    JSON_DS --> FILE_SYS
 ```
 
 ### Description
@@ -90,6 +154,16 @@ graph TD
 - The **JSON Data Storage** represents the JSON files used as the data store.
 - The **Configuration Files** store application configuration.
 - The **File System** is the underlying storage mechanism for JSON files and configuration.
+
+#### Data Repositories (مخازن داده)
+The system uses several folders as data repositories where JSON files are stored and managed. These folders serve as the primary data storage locations for the application:
+
+- `project_management/data/PM_JSON/`: Contains core project management JSON data files.
+- `SystemInputs/system_generated/`: Stores system-generated JSON files used for internal processing.
+- `SystemInputs/User_Completed/`: Holds JSON files completed and submitted by users.
+- `SystemInputs/user_inputs/`: Contains user input JSON files, including detailed subfolders such as `wbs_parts/` for work breakdown structure components.
+
+These data repositories are accessed and managed by the repository layer in the backend, providing structured and organized data storage using JSON files.
 
 ---
 
@@ -109,21 +183,40 @@ graph TD
 
 ```mermaid
 graph TD
-    IDX[index.js] --> APP[App.js]
-    APP --> APPC[AppContent]
-    APP --> APPCONTX[AppContext Provider]
-    APP --> SUSP[React Suspense]
-    APPC --> PM[ProjectManager Component]
-    APPC --> SW[SetupWizard Component]
-    APPC --> JFU[JsonFileUploader Component]
-    APPC --> GC[GanttChart Component]
-    APPC --> EB[ErrorBoundary Component]
-    APPCONTX --> STATE[State: step, selectedProject, error]
-    APPCONTX --> HANDLERS[Handlers: handleProjectSelect, handleSetupComplete, handleUploadComplete, handleReset]
+    linkStyle default stroke:#000,stroke-width:1.5px
+    subgraph Frontend
+        style Frontend fill:#f9f,stroke:#333,stroke-width:2px,color:#800000
+        IDX(index.js)
+        APP(App.js)
+        APPC(AppContent)
+        APPCONTX(AppContext Provider)
+        SUSP(React Suspense)
+        PM(ProjectManager Component)
+        SW(SetupWizard Component)
+        JFU(JsonFileUploader Component)
+        GC(GanttChart Component)
+        EB(ErrorBoundary Component)
+        STATE(State: step, selectedProject, error)
+        HANDLERS(Handlers: handleProjectSelect, handleSetupComplete, handleUploadComplete, handleReset)
+    end
+
+    IDX --> APP
+    APP --> APPC
+    APP --> APPCONTX
+    APP --> SUSP
+    APPC --> PM
+    APPC --> SW
+    APPC --> JFU
+    APPC --> GC
+    APPC --> EB
+    APPCONTX --> STATE
+    APPCONTX --> HANDLERS
+    APPCONTX --> HANDLERS
 ```
 
 ### Description
 - `index.js` bootstraps the React application.
+    APPCONTX --> HANDLERS
 - `App.js` is the root component that wraps `AppContent` with `AppContext` provider and React `Suspense` for lazy loading.
 - `AppContent` renders different components based on the current UI step managed in context:
   - `ProjectManager` for project selection and management.
@@ -198,7 +291,7 @@ To prevent injection attacks, especially in JSON inputs, the system employs stri
 ```mermaid
 graph TD
     JSONFiles[Current JSON File Storage] --> Backend[Backend Services]
-    Backend --> FutureDB[Future Database Migration (SQLite/SQLAlchemy)]
+    Backend --> FutureDB[Future Database Migration - SQLite/SQLAlchemy]
     Frontend[Frontend Application] --> IndexedDB[IndexedDB Caching]
 ```
 
@@ -215,7 +308,7 @@ To optimize frontend performance and reduce server load, the use of IndexedDB is
 ```mermaid
 graph TD
     ReactApp[React Application] --> ReactQuery[React Query for API State]
-    ReactApp --> LazyLoad[Lazy Loading Components (e.g., GanttChart)]
+    ReactApp --> LazyLoad[Lazy Loading Components - e.g. GanttChart]
 ```
 
 ### React Query for API State Management
