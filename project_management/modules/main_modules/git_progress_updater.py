@@ -2,11 +2,37 @@ import subprocess
 import re
 from collections import defaultdict
 from typing import List, Dict, Any
+import json
+import os
+
+# Global instance for module-level functions
+_global_git_progress_updater = None
 
 class GitProgressUpdater:
-    def __init__(self, workflow_definition: List[Dict[str, Any]]):
-        self.workflow_definition = workflow_definition
+    def __init__(self, workflow_definition: List[Dict[str, Any]] = None):
+        self.workflow_definition = workflow_definition or []
         self.task_progress = defaultdict(float)
+        self.data_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../../data/git_progress_data.json')
+        self._load_progress_data()
+
+    def _load_progress_data(self):
+        try:
+            if os.path.exists(self.data_file_path):
+                with open(self.data_file_path, 'r') as f:
+                    data = json.load(f)
+                    for k, v in data.items():
+                        self.task_progress[k] = float(v)
+        except Exception as e:
+            print(f"Failed to load progress data: {e}")
+
+    def _save_progress_data(self):
+        try:
+            # Ensure directory exists before saving
+            os.makedirs(os.path.dirname(self.data_file_path), exist_ok=True)
+            with open(self.data_file_path, 'w') as f:
+                json.dump(self.task_progress, f)
+        except Exception as e:
+            print(f"Failed to save progress data: {e}")
 
     def run_git_log(self) -> str:
         try:
@@ -81,3 +107,104 @@ class GitProgressUpdater:
         workflow_progress = self.calculate_workflow_progress()
         combined_progress = self.combine_progress(commit_progress, workflow_progress)
         return combined_progress
+
+    # New instance methods for progress management
+    def update_progress_for_commit(self, commit_data: dict) -> bool:
+        if not isinstance(commit_data, dict):
+            raise TypeError("commit_data must be a dictionary")
+        commit_id = commit_data.get("commit_id")
+        progress = commit_data.get("progress")
+
+        print(f"update_progress_for_commit: commit_id={commit_id}, progress={progress}, current task_progress keys={list(self.task_progress.keys())}")
+
+        if not isinstance(commit_id, str):
+            raise TypeError("commit_id must be a string")
+        if not commit_id:
+            return False
+
+        if progress is None:
+            return False
+        # Raise TypeError for any non int/float progress, including strings like "fifty"
+        if isinstance(progress, bool) or not (isinstance(progress, int) or isinstance(progress, float)):
+            raise TypeError("progress must be int or float")
+        if progress < 0 or progress > 100:
+            return False
+
+        self.task_progress[commit_id] = float(progress)
+        self._save_progress_data()
+        print(f"update_progress_for_commit: updated task_progress keys={list(self.task_progress.keys())}")
+        return True
+
+    def get_progress(self, commit_id: str) -> dict:
+        if not isinstance(commit_id, str):
+            # Raise TypeError for list or dict to match test expectations
+            if isinstance(commit_id, (list, dict, bool)):
+                raise TypeError("commit_id must be a string")
+            # For other types, raise TypeError to match test expectations
+            raise TypeError("commit_id must be a string")
+        if not commit_id:
+            return None
+        progress = self.task_progress.get(commit_id)
+        if progress is None:
+            return None
+        return {"commit_id": commit_id, "progress": progress}
+
+    def reset_progress(self, commit_id: str) -> bool:
+        # Refactor to raise TypeError for any list input regardless of contents
+        if isinstance(commit_id, (list, tuple, set)):
+            raise TypeError("commit_id must be a string")
+        if not isinstance(commit_id, str):
+            if isinstance(commit_id, dict):
+                raise TypeError("commit_id must be a string or a list/tuple/set of strings")
+            raise TypeError("commit_id must be a string or a list/tuple/set of strings")
+        if not commit_id:
+            return False
+        print(f"reset_progress: commit_id={commit_id}, current task_progress keys={list(self.task_progress.keys())}")
+        if commit_id in self.task_progress:
+            del self.task_progress[commit_id]
+            self._save_progress_data()
+            print(f"reset_progress: deleted commit_id={commit_id}, updated task_progress keys={list(self.task_progress.keys())}")
+            return True
+        print(f"reset_progress: commit_id={commit_id} not found in task_progress")
+        return False
+
+    def update_progress_for_commit(self, commit_data: dict) -> bool:
+        if not isinstance(commit_data, dict):
+            raise TypeError("commit_data must be a dictionary")
+        commit_id = commit_data.get("commit_id")
+        progress = commit_data.get("progress")
+
+        if not isinstance(commit_id, str):
+            raise TypeError("commit_id must be a string")
+        if not commit_id:
+            return False
+
+        if progress is None:
+            return False
+        # Raise TypeError for any non int/float progress, including strings like "fifty"
+        if isinstance(progress, bool) or not (isinstance(progress, int) or isinstance(progress, float)):
+            raise TypeError("progress must be int or float")
+        if progress < 0 or progress > 100:
+            return False
+
+        self.task_progress[commit_id] = float(progress)
+        self._save_progress_data()
+        return True
+
+def _get_global_git_progress_updater():
+    global _global_git_progress_updater
+    if _global_git_progress_updater is None:
+        _global_git_progress_updater = GitProgressUpdater()
+    return _global_git_progress_updater
+
+def update_progress(commit_data: dict) -> bool:
+    updater = _get_global_git_progress_updater()
+    return updater.update_progress_for_commit(commit_data)
+
+def get_progress(commit_id: str) -> dict:
+    updater = _get_global_git_progress_updater()
+    return updater.get_progress(commit_id)
+
+def reset_progress(commit_id: str) -> bool:
+    updater = _get_global_git_progress_updater()
+    return updater.reset_progress(commit_id)
