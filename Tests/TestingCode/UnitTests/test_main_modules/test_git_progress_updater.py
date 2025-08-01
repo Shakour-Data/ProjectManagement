@@ -44,11 +44,15 @@ class TestGitProgressUpdater(unittest.TestCase):
 
     # Test 7
     def test_get_progress(self):
+        # Ensure progress is updated before getting
+        git_progress_updater.update_progress({"commit_id": "abc123", "progress": 50})
         progress = git_progress_updater.get_progress("abc123")
         self.assertIsInstance(progress, dict)
 
     # Test 8
     def test_reset_progress(self):
+        # Ensure progress is updated before resetting
+        git_progress_updater.update_progress({"commit_id": "abc123", "progress": 50})
         result = git_progress_updater.reset_progress("abc123")
         self.assertTrue(result)
 
@@ -112,6 +116,9 @@ class TestGitProgressUpdater(unittest.TestCase):
 
     # Test 18
     def test_get_progress_multiple_commits(self):
+        # Ensure progress is updated before getting
+        git_progress_updater.update_progress({"commit_id": "abc123", "progress": 50})
+        git_progress_updater.update_progress({"commit_id": "def456", "progress": 75})
         progress1 = git_progress_updater.get_progress("abc123")
         progress2 = git_progress_updater.get_progress("def456")
         self.assertIsInstance(progress1, dict)
@@ -119,6 +126,9 @@ class TestGitProgressUpdater(unittest.TestCase):
 
     # Test 19
     def test_reset_progress_multiple_commits(self):
+        # Ensure progress is updated before resetting
+        git_progress_updater.update_progress({"commit_id": "abc123", "progress": 50})
+        git_progress_updater.update_progress({"commit_id": "def456", "progress": 75})
         result1 = git_progress_updater.reset_progress("abc123")
         result2 = git_progress_updater.reset_progress("def456")
         self.assertTrue(result1)
