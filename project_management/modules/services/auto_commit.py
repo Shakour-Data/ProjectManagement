@@ -182,7 +182,7 @@ class AutoCommit:
         message = f"{subject}\\n\\n{body}\\n{footer}"
         return message
 
-    def load_linked_wbs_resources(self, filepath="project_inputs/PM_JSON/intermediate/linked_wbs_resources.json"):
+    def load_linked_wbs_resources(self, filepath="JSonDataBase/Inputs/UserInputs/linked_wbs_resources.json"):
         if not os.path.exists(filepath):
             print(f"Linked WBS resources file not found: {filepath}")
             return []
@@ -279,7 +279,7 @@ class AutoCommit:
         urgency = min(max(urgency, 0), 1)
         return round(urgency, 3)
 
-    def update_commit_task_database(self, commit_hash, task_id, file_path, commit_message, workflow_stage=None, progress_change=0.0, importance_change=0, priority_change=0, db_path="project_management/PM_SystemOutputs/system_outputs/commit_task_database.json"):
+    def update_commit_task_database(self, commit_hash, task_id, file_path, commit_message, workflow_stage=None, progress_change=0.0, importance_change=0, priority_change=0, db_path="JSonDataBase/OutPuts/commit_task_database.json"):
         try:
             with open(db_path, "r", encoding="utf-8") as f:
                 db = json.load(f)
@@ -350,7 +350,7 @@ class AutoCommit:
 
         return progress_data
 
-    def write_commit_progress_to_json(self, file_path="project_management/PM_SystemOutputs/system_outputs/commit_progress.json"):
+    def write_commit_progress_to_json(self, file_path="JSonDataBase/OutPuts/commit_progress.json"):
         progress_data = self.collect_commit_progress()
         if not progress_data:
             print("No commit progress data to write.")
@@ -377,6 +377,7 @@ class AutoCommit:
             print(f"Commit progress data written to {file_path}")
         except Exception as e:
             print(f"Failed to write commit progress data to {file_path}: {e}")
+
 
     def commit_and_push(self):
         linked_wbs = self.load_linked_wbs_resources()
