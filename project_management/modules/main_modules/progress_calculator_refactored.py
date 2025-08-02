@@ -156,3 +156,31 @@ class ProgressCalculator:
     def get_enriched_tasks(self) -> List[Dict[str, Any]]:
         """Return the list of enriched tasks."""
         return self.tasks
+
+def calculate_progress(data: dict) -> float:
+    """
+    Calculate progress percentage based on tasks_completed and total_tasks.
+    Raises:
+        KeyError: if required keys are missing.
+        TypeError: if input types are invalid.
+        ValueError: if values are negative or tasks_completed > total_tasks.
+        ZeroDivisionError: if total_tasks is zero.
+    """
+    if not isinstance(data, dict):
+        raise TypeError("Input data must be a dictionary.")
+    if 'tasks_completed' not in data or 'total_tasks' not in data:
+        raise KeyError("Missing required keys: 'tasks_completed' and/or 'total_tasks'.")
+    tasks_completed = data['tasks_completed']
+    total_tasks = data['total_tasks']
+    if not (isinstance(tasks_completed, (int, float)) and isinstance(total_tasks, (int, float))):
+        raise TypeError("Values for 'tasks_completed' and 'total_tasks' must be int or float.")
+    if isinstance(tasks_completed, bool) or isinstance(total_tasks, bool):
+        raise TypeError("Boolean values are not allowed for 'tasks_completed' or 'total_tasks'.")
+    if tasks_completed < 0 or total_tasks < 0:
+        raise ValueError("Values for 'tasks_completed' and 'total_tasks' must be non-negative.")
+    if total_tasks == 0:
+        raise ZeroDivisionError("Total tasks cannot be zero.")
+    if tasks_completed > total_tasks:
+        raise ValueError("'tasks_completed' cannot be greater than 'total_tasks'.")
+    progress = (tasks_completed / total_tasks) * 100
+    return progress
