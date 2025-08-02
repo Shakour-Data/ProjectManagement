@@ -3,7 +3,7 @@ from typing import Dict, Any, List, Optional
 from .progress_calculator_refactored import ProgressCalculator
 
 class DashboardReports:
-    def __init__(self, input_dir: str = 'SystemInputs/user_inputs'):
+    def __init__(self, input_dir: str = 'JSonDataBase/Inputs/UserInputs'):
         self.input_dir = input_dir
         self.data = {}
         self.progress_calculator = ProgressCalculator(input_dir)
@@ -11,7 +11,7 @@ class DashboardReports:
     def load_json_file(self, filename: str) -> Optional[Any]:
         # Override to load wbs_scores.json from fixed path
         if filename == 'wbs_scores.json':
-            path = 'SystemInputs/system_generated/wbs_scores.json'
+            path = 'JSonDataBase/OutPuts/wbs_scores.json'
         else:
             path = f"{self.input_dir}/{filename}"
         try:
