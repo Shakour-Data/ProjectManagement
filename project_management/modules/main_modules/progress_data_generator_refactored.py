@@ -17,12 +17,14 @@ class ProgressDataGenerator:
         commit_task_id_pattern: str = r'\\b\\d+\\.\\d+\\b',
         commit_weight: float = 0.6,
         workflow_weight: float = 0.4,
+        commit_json_path: str = None,
     ):
         self.db_progress_json_path = db_progress_json_path
         self.workflow_definition_path = workflow_definition_path
         self.commit_task_id_pattern = commit_task_id_pattern
         self.commit_weight = commit_weight
         self.workflow_weight = workflow_weight
+        self.commit_json_path = commit_json_path
 
     def run_git_log(self) -> Optional[str]:
         """Run git log to get commit history with messages and files changed."""
@@ -132,6 +134,10 @@ class ProgressDataGenerator:
 
     def save_progress_to_json(self, progress_data: Dict[str, float]) -> None:
         try:
+            # Ensure directory exists
+            dir_path = os.path.dirname(self.db_progress_json_path)
+            if not os.path.exists(dir_path):
+                os.makedirs(dir_path)
             with open(self.db_progress_json_path, 'w', encoding='utf-8') as f:
                 json.dump(progress_data, f, indent=2, ensure_ascii=False)
             logger.info(f"Task progress data saved to {self.db_progress_json_path}")
@@ -148,6 +154,43 @@ class ProgressDataGenerator:
         workflow_progress = self.calculate_workflow_progress()
         combined_progress = self.combine_progress(commit_progress, workflow_progress)
         self.save_progress_to_json(combined_progress)
+
+def generate_progress_data(input_data):
+    if not isinstance(input_data, dict):
+        raise TypeError("Input data must be a dictionary.")
+    tasks = input_data.get("tasks", [])
+    if not isinstance(tasks, list):
+        raise TypeError("Tasks must be a list.")
+
+    # Instantiate ProgressDataGenerator and generate progress data from git logs and workflow
+    generator = ProgressDataGenerator()
+    generator.generate_progress()
+    # Load the generated progress data from the JSON file
+    try:
+        with open(generator.db_progress_json_path, 'r', encoding='utf-8') as f:
+            generated_progress = json.load(f)
+    except Exception as e:
+        raise RuntimeError(f"Failed to load generated progress data: {e}")
+
+    # Validate and process input tasks, override or merge with generated progress
+    for task in tasks:
+        if task is None:
+            raise TypeError("Task cannot be None.")
+        if not isinstance(task, dict):
+            raise TypeError("Each task must be a dictionary.")
+        task_id = task.get("id")
+        status = task.get("status", "")
+        if not isinstance(status, (str, type(None))):
+            raise TypeError("Status must be a string or None.")
+        # Normalize status to string
+        if status is None:
+            status_str = ""
+        else:
+            status_str = str(status)
+        # Override or add to generated progress
+        generated_progress[str(task_id)] = status_str
+
+    return generated_progress
 
 if __name__ == "__main__":
     generator = ProgressDataGenerator()
