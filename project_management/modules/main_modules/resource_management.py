@@ -40,8 +40,8 @@ class BaseManagement:
 
 class ResourceManagement(BaseManagement):
     def __init__(self,
-                 resource_allocation_path='SystemInputs/user_inputs/resource_allocation_enriched.json',
-                 output_path='SystemInputs/system_generated/resource_management.json'):
+                 resource_allocation_path='JSonDataBase/OutPuts/resource_allocation_enriched.json',
+                 output_path='JSonDataBase/OutPuts/resource_management.json'):
         input_paths = {
             'resource_allocations': resource_allocation_path
         }
