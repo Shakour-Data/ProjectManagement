@@ -41,9 +41,9 @@ class BaseManagement:
 
 class QualityManagement(BaseManagement):
     def __init__(self,
-                 detailed_wbs_path='SystemInputs/user_inputs/detailed_wbs.json',
-                 quality_standards_path='SystemInputs/user_inputs/quality_standards.json',
-                 output_path='SystemInputs/system_generated/quality_management.json'):
+                 detailed_wbs_path='JSonDataBase/Inputs/UserInputs/detailed_wbs.json',
+                 quality_standards_path='JSonDataBase/Inputs/UserInputs/quality_standards.json',
+                 output_path='JSonDataBase/OutPuts/quality_management.json'):
         input_paths = {
             'detailed_wbs': detailed_wbs_path,
             'quality_standards': quality_standards_path
