@@ -23950,5 +23950,753 @@
         "parent_commits": [
             "b299b30fbe256e10c877ea303fffb82ee04c7122"
         ]
+    },
+    "2dae49f49ffedb0a389612d419d5db51665215f6": {
+        "task_id": "JSonDataBase",
+        "file_path": "JSonDataBase/OutPuts/progress_report.md",
+        "commit_message": "🐛 fix(JSonDataBase): Modified files updated\\n\\nChanges included (as of 2025-08-03 01:24:57):\\n- JSonDataBase/OutPuts/progress_report.md: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/JSonDataBase/OutPuts/progress_report.md b/JSonDataBase/OutPuts/progress_report.md\\n    index 5eaca7f8..d22a1696 100644\\n    --- a/JSonDataBase/OutPuts/progress_report.md\\n    +++ b/JSonDataBase/OutPuts/progress_report.md\\n    @@ -1,11 +1,11 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:54:58",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:24:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "28031fa6245ed3bb798006c65c7da7c3a50f84ac"
+        ]
+    },
+    "a66c295bb2daad928b0c1fe0ed27286c8b3f0c3f": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_estimation_management_main.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-08-03 01:25:00):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_estimation_management_main.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_estimation_management_main.py b/Tests/TestingCode/UnitTests/test_main_modules/test_estimation_management_main.py\\n    index abcb05f1..d05daf25 100644\\n    --- a/Tests/TestingCode/UnitTests/test_main_modules/test_estimation_management_main.py\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_estimation_management_main.py\\n    @@ -42,3 +42,6 @@ class TestEstimationManagementMain(unittest.TestCase):\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:00",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:00 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2dae49f49ffedb0a389612d419d5db51665215f6"
+        ]
+    },
+    "da3c8d3ff5a4fca55762295c79fa1f48d9111a85": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update.py",
+        "commit_message": "🗑️ remove(Tests): Deleted files updated\\n\\nChanges included (as of 2025-08-03 01:25:03):\\n- Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update.py b/Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update.py\\n    deleted file mode 100644\\n    index 365b28fd..00000000\\n    --- a/Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:03 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a66c295bb2daad928b0c1fe0ed27286c8b3f0c3f"
+        ]
+    },
+    "d44e7e049ae76088e9a632aaf601b15513fa74f1": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager.py",
+        "commit_message": "🗑️ remove(Tests): Deleted files updated\\n\\nChanges included (as of 2025-08-03 01:25:05):\\n- Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager.py b/Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager.py\\n    deleted file mode 100644\\n    index af6c01d6..00000000\\n    --- a/Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:05",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:05 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "da3c8d3ff5a4fca55762295c79fa1f48d9111a85"
+        ]
+    },
+    "0f5ab1cf353e380e5421feb65591cf9df18ad902": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration.py",
+        "commit_message": "🗑️ remove(Tests): Deleted files updated\\n\\nChanges included (as of 2025-08-03 01:25:08):\\n- Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration.py b/Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration.py\\n    deleted file mode 100644\\n    index f9a6d5e0..00000000\\n    --- a/Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d44e7e049ae76088e9a632aaf601b15513fa74f1"
+        ]
+    },
+    "ba7ef7724bffb988d4e1514633157286f1bd4447": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_dashboards_reports.py",
+        "commit_message": "🗑️ remove(Tests): Deleted files updated\\n\\nChanges included (as of 2025-08-03 01:25:12):\\n- Tests/TestingCode/UnitTests/test_services/test_dashboards_reports.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_dashboards_reports.py b/Tests/TestingCode/UnitTests/test_services/test_dashboards_reports.py\\n    deleted file mode 100644\\n    index 8c81f3c1..00000000\\n    --- a/Tests/TestingCode/UnitTests/test_services/test_dashboards_reports.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:13",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:13 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0f5ab1cf353e380e5421feb65591cf9df18ad902"
+        ]
+    },
+    "6f3eeb26b7b15867938710c5646357a6428fc9e4": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_db_data_collector.py",
+        "commit_message": "🗑️ remove(Tests): Deleted files updated\\n\\nChanges included (as of 2025-08-03 01:25:15):\\n- Tests/TestingCode/UnitTests/test_services/test_db_data_collector.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_db_data_collector.py b/Tests/TestingCode/UnitTests/test_services/test_db_data_collector.py\\n    deleted file mode 100644\\n    index 1eaae305..00000000\\n    --- a/Tests/TestingCode/UnitTests/test_services/test_db_data_collector.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:15 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ba7ef7724bffb988d4e1514633157286f1bd4447"
+        ]
+    },
+    "6674cd09ddc3b84311c69b9ed8a070e36c7f1b50": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_do_important_tasks.py",
+        "commit_message": "🗑️ remove(Tests): Deleted files updated\\n\\nChanges included (as of 2025-08-03 01:25:20):\\n- Tests/TestingCode/UnitTests/test_services/test_do_important_tasks.py: This file was removed from the project.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_do_important_tasks.py b/Tests/TestingCode/UnitTests/test_services/test_do_important_tasks.py\\n    deleted file mode 100644\\n    index 7d0db14a..00000000\\n    --- a/Tests/TestingCode/UnitTests/test_services/test_do_important_tasks.py\\n    +++ /dev/null\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:20",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:20 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6f3eeb26b7b15867938710c5646357a6428fc9e4"
+        ]
+    },
+    "63c3bb09f8904fed0c398c1e3ab56a03af7410b5": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/ReorganizedTests/",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:24):\\n- Tests/TestingCode/ReorganizedTests/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/ReorganizedTests/Backend/DataValidationTests/test_auto_commit_validation.py b/Tests/TestingCode/ReorganizedTests/Backend/DataValidationTests/test_auto_commit_validation.py\\n    new file mode 100644\\n    index 00000000..7a204073\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/ReorganizedTests/Backend/DataValidationTests/test_auto_commit_validation.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:24 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6674cd09ddc3b84311c69b9ed8a070e36c7f1b50"
+        ]
+    },
+    "d9f48cff5e68bd069d09efed468ce3789b1a8793": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_check_progress_dashboard_update.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:29):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_check_progress_dashboard_update.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_check_progress_dashboard_update.py b/Tests/TestingCode/UnitTests/test_main_modules/test_check_progress_dashboard_update.py\\n    new file mode 100644\\n    index 00000000..dc4076d7\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_check_progress_dashboard_update.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "63c3bb09f8904fed0c398c1e3ab56a03af7410b5"
+        ]
+    },
+    "68c335bff4cc67949c6d993475aa89b7f174ce6d": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_commit_progress_manager.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:32):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_commit_progress_manager.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_commit_progress_manager.py b/Tests/TestingCode/UnitTests/test_main_modules/test_commit_progress_manager.py\\n    new file mode 100644\\n    index 00000000..981ba009\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_commit_progress_manager.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:32",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:32 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d9f48cff5e68bd069d09efed468ce3789b1a8793"
+        ]
+    },
+    "6b164243efa3bb971c1970c4534832fbf3aee4f3": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_communication_management.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:34):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_communication_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management.py b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management.py\\n    new file mode 100644\\n    index 00000000..7bffb009\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "68c335bff4cc67949c6d993475aa89b7f174ce6d"
+        ]
+    },
+    "d1772477a021cca6dbeb96763bd94101913ab238": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_extended.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:37):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_extended.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_extended.py b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_extended.py\\n    new file mode 100644\\n    index 00000000..e0215f89\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_extended.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:37",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:37 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6b164243efa3bb971c1970c4534832fbf3aee4f3"
+        ]
+    },
+    "85c14af8d05819f7227b5fbaf0385c8d30c0dbf1": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_main.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:39):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_main.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_main.py b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_main.py\\n    new file mode 100644\\n    index 00000000..00867593\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_main.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:40",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d1772477a021cca6dbeb96763bd94101913ab238"
+        ]
+    },
+    "803c4ca7e957b0c0ea54be2d0a6c384c8df0b038": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_script.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:42):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_script.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_script.py b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_script.py\\n    new file mode 100644\\n    index 00000000..47294ac5\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_management_script.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:43",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:43 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "85c14af8d05819f7227b5fbaf0385c8d30c0dbf1"
+        ]
+    },
+    "9c63bb4d2817aa339a5a6c5b5b61316aad6602f3": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_communication_risk_doc_integration.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:45):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_communication_risk_doc_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_communication_risk_doc_integration.py b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_risk_doc_integration.py\\n    new file mode 100644\\n    index 00000000..dedb759b\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_communication_risk_doc_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:45",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:45 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "803c4ca7e957b0c0ea54be2d0a6c384c8df0b038"
+        ]
+    },
+    "7f72f6817b17427560cf9a2da7c2acc58d6a04a8": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_dashboards_reports.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:50):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_dashboards_reports.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_dashboards_reports.py b/Tests/TestingCode/UnitTests/test_main_modules/test_dashboards_reports.py\\n    new file mode 100644\\n    index 00000000..2d8252e3\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_dashboards_reports.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:50",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:50 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9c63bb4d2817aa339a5a6c5b5b61316aad6602f3"
+        ]
+    },
+    "5e033555f5047e6772c7ab7c4e67ebd5c97d5c9a": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_db_data_collector.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:54):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_db_data_collector.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_db_data_collector.py b/Tests/TestingCode/UnitTests/test_main_modules/test_db_data_collector.py\\n    new file mode 100644\\n    index 00000000..47413f8e\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_db_data_collector.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:54",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:54 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "7f72f6817b17427560cf9a2da7c2acc58d6a04a8"
+        ]
+    },
+    "ce602893e3e51d16c035e82bec17d92bb7c190dd": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:25:57):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks.py b/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks.py\\n    new file mode 100644\\n    index 00000000..dd07d615\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:55:57",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:25:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5e033555f5047e6772c7ab7c4e67ebd5c97d5c9a"
+        ]
+    },
+    "66e6ec99e58ceede6d34225babf74d800bea5803": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_main.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:01):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_main.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_main.py b/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_main.py\\n    new file mode 100644\\n    index 00000000..532c8499\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_main.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:02",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:01 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ce602893e3e51d16c035e82bec17d92bb7c190dd"
+        ]
+    },
+    "6f2259abf0c0e313667cd7f33ba07bd7ec7bd932": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_script.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:04):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_script.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_script.py b/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_script.py\\n    new file mode 100644\\n    index 00000000..2ed7e8af\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_do_important_tasks_script.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:04",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "66e6ec99e58ceede6d34225babf74d800bea5803"
+        ]
+    },
+    "b26b579cd3a5e51a966058e95162c690c0b0a2f0": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_do_urgent_tasks.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:07):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_do_urgent_tasks.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_do_urgent_tasks.py b/Tests/TestingCode/UnitTests/test_main_modules/test_do_urgent_tasks.py\\n    new file mode 100644\\n    index 00000000..168bb722\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_do_urgent_tasks.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:07",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6f2259abf0c0e313667cd7f33ba07bd7ec7bd932"
+        ]
+    },
+    "df09c9300faf4936a1769b94850425b803e3d391": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_resource_leveling.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:12):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_resource_leveling.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_resource_leveling.py b/Tests/TestingCode/UnitTests/test_main_modules/test_resource_leveling.py\\n    new file mode 100644\\n    index 00000000..5a76e975\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_resource_leveling.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:12 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b26b579cd3a5e51a966058e95162c690c0b0a2f0"
+        ]
+    },
+    "b89b70244eea328a449d9704062738cbdf7ce1aa": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_resource_management.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:14):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_resource_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_resource_management.py b/Tests/TestingCode/UnitTests/test_main_modules/test_resource_management.py\\n    new file mode 100644\\n    index 00000000..6deabc46\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_resource_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:14",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "df09c9300faf4936a1769b94850425b803e3d391"
+        ]
+    },
+    "2321e0dfd6570796150f030baa0eb5003ab056ca": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_scheduler.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:17):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_scheduler.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_scheduler.py b/Tests/TestingCode/UnitTests/test_main_modules/test_scheduler.py\\n    new file mode 100644\\n    index 00000000..16155a71\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_scheduler.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:17",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:17 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "b89b70244eea328a449d9704062738cbdf7ce1aa"
+        ]
+    },
+    "bb33501ef67b76947c5318039b846f8c012148e1": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_scope_management.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:19):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_scope_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_scope_management.py b/Tests/TestingCode/UnitTests/test_main_modules/test_scope_management.py\\n    new file mode 100644\\n    index 00000000..2b41c303\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_scope_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2321e0dfd6570796150f030baa0eb5003ab056ca"
+        ]
+    },
+    "726f3a790d58056ef06fe155264e1efbde05388a": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_setup_automation.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:24):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_setup_automation.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_setup_automation.py b/Tests/TestingCode/UnitTests/test_main_modules/test_setup_automation.py\\n    new file mode 100644\\n    index 00000000..481704f9\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_setup_automation.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:24",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:24 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bb33501ef67b76947c5318039b846f8c012148e1"
+        ]
+    },
+    "686f131109e0db6c136be991f01259e2747f6a71": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_setup_initialization.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:27):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_setup_initialization.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_setup_initialization.py b/Tests/TestingCode/UnitTests/test_main_modules/test_setup_initialization.py\\n    new file mode 100644\\n    index 00000000..5a5044bc\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_setup_initialization.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:27",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:27 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "726f3a790d58056ef06fe155264e1efbde05388a"
+        ]
+    },
+    "8a424331081baae3c5392b197034612b03125a33": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_task_executor.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:29):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_task_executor.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_task_executor.py b/Tests/TestingCode/UnitTests/test_main_modules/test_task_executor.py\\n    new file mode 100644\\n    index 00000000..0c85cecf\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_task_executor.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:29",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:29 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "686f131109e0db6c136be991f01259e2747f6a71"
+        ]
+    },
+    "1e4b243b5f3ff702db6744e46ac9b47530d44dbd": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_task_management_integration.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:34):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_task_management_integration.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_task_management_integration.py b/Tests/TestingCode/UnitTests/test_main_modules/test_task_management_integration.py\\n    new file mode 100644\\n    index 00000000..23fd61f5\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_task_management_integration.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:34",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "8a424331081baae3c5392b197034612b03125a33"
+        ]
+    },
+    "edfdc5f1d2b338d8ccc77411e092613aa7105205": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_time_management.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:36):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_time_management.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_time_management.py b/Tests/TestingCode/UnitTests/test_main_modules/test_time_management.py\\n    new file mode 100644\\n    index 00000000..52ccf98f\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_time_management.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:36",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:36 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "1e4b243b5f3ff702db6744e46ac9b47530d44dbd"
+        ]
+    },
+    "ba2603cb10df6d1e223977e6dec870502c8707b4": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_wbs_aggregator.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:39):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_wbs_aggregator.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_aggregator.py b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_aggregator.py\\n    new file mode 100644\\n    index 00000000..d74eea17\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_aggregator.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:39",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:39 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "edfdc5f1d2b338d8ccc77411e092613aa7105205"
+        ]
+    },
+    "6e23f2011d5eb1501da95fc16afe5c9e2ea16812": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:41):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py\\n    new file mode 100644\\n    index 00000000..495c91bf\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:41",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:41 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ba2603cb10df6d1e223977e6dec870502c8707b4"
+        ]
+    },
+    "9da8c17dfe1bfd6ddbdd8b01b1c0df0a5c944dba": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:46):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py\\n    new file mode 100644\\n    index 00000000..61515121\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:46",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:46 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6e23f2011d5eb1501da95fc16afe5c9e2ea16812"
+        ]
+    },
+    "53f6710c1573df30396f4411ed77e101fa05b9b2": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_workflow_data_collector.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:48):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_workflow_data_collector.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_workflow_data_collector.py b/Tests/TestingCode/UnitTests/test_main_modules/test_workflow_data_collector.py\\n    new file mode 100644\\n    index 00000000..0e97f68c\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_workflow_data_collector.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:49",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:49 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "9da8c17dfe1bfd6ddbdd8b01b1c0df0a5c944dba"
+        ]
+    },
+    "86ebdacbaf474f552b1ca45c4b64d00558bbaacb": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update_service.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:53):\\n- Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update_service.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update_service.py b/Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update_service.py\\n    new file mode 100644\\n    index 00000000..365b28fd\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_services/test_check_progress_dashboard_update_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:53",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:53 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "53f6710c1573df30396f4411ed77e101fa05b9b2"
+        ]
+    },
+    "06b8e970ed783df730c52f6bed094d717487a136": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager_service.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:56):\\n- Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager_service.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager_service.py b/Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager_service.py\\n    new file mode 100644\\n    index 00000000..af6c01d6\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_services/test_commit_progress_manager_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:56",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:56 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "86ebdacbaf474f552b1ca45c4b64d00558bbaacb"
+        ]
+    },
+    "926dced3904d1fc423640978a9b68d818614581b": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration_service.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:26:58):\\n- Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration_service.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration_service.py b/Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration_service.py\\n    new file mode 100644\\n    index 00000000..f9a6d5e0\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_services/test_communication_risk_doc_integration_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:56:59",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:26:58 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "06b8e970ed783df730c52f6bed094d717487a136"
+        ]
+    },
+    "5b847d55d53588cf68da43282bb6fe8abf29bf86": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_dashboards_reports_service.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:27:03):\\n- Tests/TestingCode/UnitTests/test_services/test_dashboards_reports_service.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_dashboards_reports_service.py b/Tests/TestingCode/UnitTests/test_services/test_dashboards_reports_service.py\\n    new file mode 100644\\n    index 00000000..8c81f3c1\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_services/test_dashboards_reports_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:57:03",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:27:03 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "926dced3904d1fc423640978a9b68d818614581b"
+        ]
+    },
+    "70ce9517ce7bb5fea8e1fe460c0823bf2fc15cc8": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_db_data_collector_service.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:27:07):\\n- Tests/TestingCode/UnitTests/test_services/test_db_data_collector_service.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_db_data_collector_service.py b/Tests/TestingCode/UnitTests/test_services/test_db_data_collector_service.py\\n    new file mode 100644\\n    index 00000000..1eaae305\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_services/test_db_data_collector_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:57:08",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:27:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "5b847d55d53588cf68da43282bb6fe8abf29bf86"
+        ]
+    },
+    "2ee4ed19560cc6e67e4d9e7ab8cfc7f2064f719a": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_services/test_do_important_tasks_service.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:27:12):\\n- Tests/TestingCode/UnitTests/test_services/test_do_important_tasks_service.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_services/test_do_important_tasks_service.py b/Tests/TestingCode/UnitTests/test_services/test_do_important_tasks_service.py\\n    new file mode 100644\\n    index 00000000..7d0db14a\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_services/test_do_important_tasks_service.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.007,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:57:12",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:27:12 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "70ce9517ce7bb5fea8e1fe460c0823bf2fc15cc8"
+        ]
+    },
+    "29475cf272bd643f40016162251b2b0064bb5e56": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/main_modules/communication_risk_doc_integration.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-08-03 01:27:14):\\n- project_management/modules/main_modules/communication_risk_doc_integration.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/main_modules/communication_risk_doc_integration.py b/project_management/modules/main_modules/communication_risk_doc_integration.py\\n    index 83b31f9c..dff161c0 100644\\n    --- a/project_management/modules/main_modules/communication_risk_doc_integration.py\\n    +++ b/project_management/modules/main_modules/communication_risk_doc_integration.py\\n    @@ -1,6 +1,6 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:57:15",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:27:14 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "2ee4ed19560cc6e67e4d9e7ab8cfc7f2064f719a"
+        ]
+    },
+    "08e4de7c9c14a9a25db886eb22ee5ea0703a9f8b": {
+        "task_id": "project_management",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_012456/",
+        "commit_message": "📝 docs(project_management): Untracked files updated\\n\\nChanges included (as of 2025-08-03 01:27:19):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_012456/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_012456/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_012456/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..234e0c1d\\n    --- /dev/null\\n    +++ b/project_management/PM_Backups/user_inputs_backup/backup_20250803_012456/detailed_wbs.json\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-02 21:57:19",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:27:19 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "29475cf272bd643f40016162251b2b0064bb5e56"
+        ]
+    },
+    "c310f4307b2663381bd057a1a6823d443c5e73c1": {
+        "task_id": "root",
+        "file_path": "run_all_tests_with_coverage.sh",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-08-03 01:27:22):\\n- run_all_tests_with_coverage.sh: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/run_all_tests_with_coverage.sh b/run_all_tests_with_coverage.sh\\n    index 8c17b15d..c6d3808b 100755\\n    --- a/run_all_tests_with_coverage.sh\\n    +++ b/run_all_tests_with_coverage.sh\\n    @@ -4,19 +4,14 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-02 21:57:22",
+        "author": "GravityWavesOrg",
+        "email": "gravitywaves2000@gmail.com",
+        "date": "Sun Aug 3 01:27:22 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "08e4de7c9c14a9a25db886eb22ee5ea0703a9f8b"
+        ]
     }
 }
