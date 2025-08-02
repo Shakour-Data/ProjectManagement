@@ -3,12 +3,13 @@ import os
 from datetime import datetime
 
 class CommitProgressManager:
-    def __init__(self, commit_task_db_path='project_inputs/PM_JSON/system_outputs/commit_task_database.json',
-                 commit_progress_path='project_inputs/PM_JSON/system_outputs/commit_progress.json'):
+    def __init__(self, commit_task_db_path='JSonDataBase/OutPuts/commit_task_database.json',
+                 commit_progress_path='JSonDataBase/OutPuts/commit_progress.json'):
         self.commit_task_db_path = commit_task_db_path
         self.commit_progress_path = commit_progress_path
         self.commit_task_db = {}
         self.commit_progress = {}
+
 
     def load_commit_task_db(self):
         if os.path.exists(self.commit_task_db_path):
