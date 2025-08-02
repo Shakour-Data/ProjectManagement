@@ -1,0 +1,32 @@
+[run]
+source = project_management
+omit = 
+    */venv/*
+    */env/*
+    */.venv/*
+    */tests/*
+    */test_*
+    */__pycache__/*
+    */migrations/*
+    */settings/*
+    */manage.py
+    */setup.py
+    */run_*
+    */.tox/*
+    */.eggs/*
+    */build/*
+    */dist/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if settings.DEBUG
+    if DEBUG
+    if TESTING
+
+[html]
+directory = htmlcov_all
