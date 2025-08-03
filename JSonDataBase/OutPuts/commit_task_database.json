@@ -24885,5 +24885,141 @@
         "parent_commits": [
             "776811806f7de037fbe0131a402b2d67829447ea"
         ]
+    },
+    "ff380d161a2968d4d57632c9a46abded2c478c08": {
+        "task_id": "root",
+        "file_path": "JSonDataBase/OutPuts/commit_task_database.json",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-08-03 11:29:20):\\n- JSonDataBase/OutPuts/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-03 07:59:26",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:29:24 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "a9423ad1bb2d21c61bd0eef99a75e97c390aec4e"
+        ]
+    },
+    "e82d942c6c410f7abb15dc402a76319b43c365ab": {
+        "task_id": "root",
+        "file_path": "project_management/modules/services/backup_manager.py",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-08-03 11:29:31):\\n- project_management/modules/services/backup_manager.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/services/backup_manager.py b/project_management/modules/services/backup_manager.py\\n    index 8b17c328..7a9f5741 100644\\n    --- a/project_management/modules/services/backup_manager.py\\n    +++ b/project_management/modules/services/backup_manager.py\\n    @@ -66,8 +66,9 @@ class BackupManager:\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-03 07:59:35",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:29:34 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ff380d161a2968d4d57632c9a46abded2c478c08"
+        ]
+    },
+    "bbf387990f53c78a3ff1563a8d7e4a3f15cd1739": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112025918/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:29:44):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112025918/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112025918/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112025918/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112025918/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112025918/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 07:59:49",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:29:48 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e82d942c6c410f7abb15dc402a76319b43c365ab"
+        ]
+    },
+    "3edb44fc3acc65e8a40515b4a8bde5fde0df2cb6": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112039151/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:29:55):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112039151/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112039151/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112039151/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112039151/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112039151/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 07:59:59",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:29:57 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bbf387990f53c78a3ff1563a8d7e4a3f15cd1739"
+        ]
+    },
+    "854e93e6c3df0288d37394fe0096b722e6ec441a": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112052521/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:30:04):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112052521/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112052521/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112052521/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112052521/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112052521/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 08:00:07",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:30:07 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "3edb44fc3acc65e8a40515b4a8bde5fde0df2cb6"
+        ]
+    },
+    "413af864058f59ecb4ccc1aa1d765eabfc8233f5": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112104221/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:30:11):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112104221/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112104221/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112104221/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112104221/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112104221/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 08:00:14",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:30:13 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "854e93e6c3df0288d37394fe0096b722e6ec441a"
+        ]
+    },
+    "bde1352bbcbdbda481582547db7049ac35ae4713": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112116719/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:30:19):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112116719/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112116719/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112116719/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112116719/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112116719/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 08:00:23",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:30:21 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "413af864058f59ecb4ccc1aa1d765eabfc8233f5"
+        ]
+    },
+    "77e9ca9ee78e5bc14316b92240944893655c4443": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112129601/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:30:29):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112129601/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112129601/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112129601/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112129601/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112129601/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.025,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 08:00:34",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:30:32 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "bde1352bbcbdbda481582547db7049ac35ae4713"
+        ]
     }
 }
