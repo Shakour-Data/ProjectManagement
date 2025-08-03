@@ -25055,5 +25055,56 @@
         "parent_commits": [
             "f3b4e677a94ea6641a396d378ffe0479b061aa4b"
         ]
+    },
+    "e8395b885955dccefe350e1509490c10406b75e6": {
+        "task_id": "root",
+        "file_path": "JSonDataBase/OutPuts/commit_task_database.json",
+        "commit_message": "🐛 fix: Modified files updated\\n\\nChanges included (as of 2025-08-03 11:35:03):\\n- JSonDataBase/OutPuts/commit_task_database.json: This file was modified with updates or fixes.\\n  Summary:\\n    No diff available.\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.033,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-03 08:05:12",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:35:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "d997a3dcf5ea9ea8619e8300d6671d74860f4e94"
+        ]
+    },
+    "ba613ee5db60b7c5ec18b77ae1d5fcdffc46f7e4": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112150531/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:35:26):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112150531/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112150531/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112150531/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112150531/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112150531/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.033,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 08:05:33",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:35:30 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "e8395b885955dccefe350e1509490c10406b75e6"
+        ]
+    },
+    "737d207bcadb03588b8dfde5ec8453e15a9a5bc9": {
+        "task_id": "root",
+        "file_path": "project_management/PM_Backups/user_inputs_backup/backup_20250803_112201536/",
+        "commit_message": "📝 docs: Untracked files updated\\n\\nChanges included (as of 2025-08-03 11:35:43):\\n- project_management/PM_Backups/user_inputs_backup/backup_20250803_112201536/: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112201536/backup_20250724_202824/detailed_wbs.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112201536/backup_20250724_202824/detailed_wbs.json\\n    new file mode 100644\\n    index 00000000..e69de29b\\n    diff --git a/project_management/PM_Backups/user_inputs_backup/backup_20250803_112201536/backup_20250724_202824/task_resource_allocation.json b/project_management/PM_Backups/user_inputs_backup/backup_20250803_112201536/backup_20250724_202824/task_resource_allocation.json\\n    new file mode 100644\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.033,
+        "importance_change": 1,
+        "priority_change": 1.0,
+        "timestamp": "2025-08-03 08:05:50",
+        "author": "Shakour",
+        "email": "81189779+Shakour-Data@users.noreply.github.com",
+        "date": "Sun Aug 3 11:35:47 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "ba613ee5db60b7c5ec18b77ae1d5fcdffc46f7e4"
+        ]
     }
 }
