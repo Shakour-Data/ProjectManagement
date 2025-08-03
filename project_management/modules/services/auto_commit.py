@@ -4,10 +4,50 @@ import datetime
 from collections import defaultdict
 import sys
 import os
+import re
 # from project_management.modules.services.backup_manager import BackupManager
 import json
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+
+def format_commit_message(message):
+    """
+    Format a commit message by cleaning and normalizing it.
+    
+    Args:
+        message (str): The raw commit message
+        
+    Returns:
+        str: The formatted commit message
+    """
+    if message is None:
+        raise TypeError("Commit message cannot be None")
+    
+    if not isinstance(message, str):
+        raise TypeError("Commit message must be a string")
+    
+    # Remove leading and trailing whitespace
+    message = message.strip()
+    
+    # Replace multiple consecutive whitespace characters with single spaces
+    message = re.sub(r'\s+', ' ', message)
+    
+    # Remove control characters except for spaces and tabs
+    message = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', message)
+    
+    # Remove literal escape sequences like \n, \t, \r (but not other backslashes)
+    # Use word boundaries to avoid partial matches
+    message = re.sub(r'\\n(?=\s|$)', ' ', message)  # newline followed by space or end of string
+    message = re.sub(r'\\t(?=\s|$)', ' ', message)  # tab followed by space or end of string
+    message = re.sub(r'\\r(?=\s|$)', ' ', message)  # carriage return followed by space or end of string
+    # Remove extra spaces that may have been created
+    message = re.sub(r'\s+', ' ', message).strip()
+    
+    # Limit message length to 255 characters
+    if len(message) > 255:
+        message = message[:255]
+    
+    return message
 
 class AutoCommit:
     def __init__(self):
