@@ -57,7 +57,8 @@ class AutoCommit:
     def run_git_command(self, args, cwd=None):
         """Run a git command and return (success, output)."""
         try:
-            result = subprocess.run(["git"] + args, capture_output=True, text=True, check=True, cwd=cwd)
+            # Use UTF-8 encoding to avoid UnicodeDecodeError
+            result = subprocess.run(["git"] + args, capture_output=True, text=True, check=True, cwd=cwd, encoding='utf-8', errors='ignore')
             if result.stdout is None:
                 return True, ""
             return True, result.stdout.strip()
