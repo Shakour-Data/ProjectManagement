@@ -123,4 +123,7 @@ venv_test/
 # Project specific ignores
 frontend/node_modules/
 duplicate_hashes.txt
+project_management/PM_Backups/
+
+
 
