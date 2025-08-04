@@ -47,19 +47,19 @@ To verify the correctness of individual components, functions, and methods in is
 Use this checklist to track the completion status of unit tests for each test file. Check the box when all tests in that file pass.
 
 ### Main Modules Tests (test_main_modules directory)
-- [ ] test_check_progress_dashboard_update.py
-- [ ] test_commit_progress_manager.py
-- [ ] test_communication_management_extended.py
-- [ ] test_communication_management_main.py
-- [ ] test_communication_management_script.py
-- [ ] test_communication_management.py
-- [ ] test_communication_risk_doc_integration.py
-- [ ] test_dashboards_reports.py
-- [ ] test_db_data_collector.py
+- [x] test_check_progress_dashboard_update.py
+- [x] test_commit_progress_manager.py
+- [x] test_communication_management_extended.py
+- [x] test_communication_management_main.py
+- [x] test_communication_management_script.py
+- [x] test_communication_management.py
+- [x] test_communication_risk_doc_integration.py
+- [x] test_dashboards_reports.py
+- [x] test_db_data_collector.py
 - [ ] test_do_important_tasks_main.py
 - [ ] test_do_important_tasks_script.py
-- [ ] test_do_important_tasks.py
-- [ ] test_do_urgent_tasks.py
+- [x] test_do_important_tasks.py
+- [x] test_do_urgent_tasks.py
 - [ ] test_estimation_management_extended.py
 - [ ] test_estimation_management_main.py
 - [ ] test_estimation_management_script.py
@@ -77,7 +77,7 @@ Use this checklist to track the completion status of unit tests for each test fi
 - [ ] test_reporting.py
 - [ ] test_resource_allocation_manager.py
 - [ ] test_resource_leveling.py
-- [ ] test_resource_management.py
+- [x] test_resource_management.py
 - [ ] test_risk_management.py
 - [ ] test_scheduler.py
 - [ ] test_scope_management.py
@@ -93,16 +93,16 @@ Use this checklist to track the completion status of unit tests for each test fi
 - [ ] test_workflow_data_collector.py
 
 ### Services Tests (test_services directory)
-- [ ] test_auto_commit.py
-- [ ] test_backup_manager.py
-- [ ] test_check_progress_dashboard_update_service.py
-- [ ] test_commit_progress_manager_service.py
-- [ ] test_communication_management.py.disabled
-- [ ] test_communication_risk_doc_integration_service.py
-- [ ] test_dashboards_reports_service.py
-- [ ] test_db_data_collector_service.py
-- [ ] test_do_important_tasks_service.py
-- [ ] test_do_urgent_tasks.py
+- [x] test_auto_commit.py
+- [x] test_backup_manager.py
+- [x] test_check_progress_dashboard_update_service.py
+- [x] test_commit_progress_manager_service.py
+- [x] test_communication_management.py.disabled
+- [x] test_communication_risk_doc_integration_service.py
+- [x] test_dashboards_reports_service.py
+- [x] test_db_data_collector_service.py
+- [x] test_do_important_tasks_service.py
+- [x] test_do_urgent_tasks.py
 
 ---
 
