@@ -61,7 +61,7 @@ Use this checklist to track the completion status of unit tests for each test fi
 - [x] test_do_important_tasks.py
 - [x] test_do_urgent_tasks.py
 - [x] test_estimation_management_extended.py
-- [ ] test_estimation_management_main.py
+- [x] test_estimation_management_main.py
 - [ ] test_estimation_management_script.py
 - [x] test_estimation_management.py
 - [x] test_feature_weights.py
