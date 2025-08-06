@@ -71,7 +71,7 @@ Use this checklist to track the completion status of unit tests for each test fi
 - [x] test_input_handler.py
 - [x] test_progress_calculator_refactored.py
 - [x] test_progress_data_generator_refactored.py
-- [ ] test_progress_report.py
+- [x] test_progress_report.py
 - [ ] test_project_management_system.py
 - [ ] test_quality_management.py
 - [ ] test_reporting.py
