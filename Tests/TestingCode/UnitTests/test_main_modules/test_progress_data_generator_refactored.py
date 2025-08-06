@@ -1,309 +1,244 @@
-import unittest
-from project_management.modules.main_modules import progress_data_generator_refactored
+"""
+Unit tests for progress_data_generator_refactored module.
 
-class TestProgressDataGeneratorRefactored(unittest.TestCase):
-    def setUp(self):
-        # Setup any necessary test data or state
-        pass
+Tests data generation logic and output format validation.
+"""
 
-    # Test 1
-    def test_generate_progress_data_basic(self):
-        input_data = {"tasks": [{"id": 1, "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
+import pytest
+import sys
+import os
+from unittest.mock import Mock, patch
+from datetime import datetime, timedelta
 
-    # Test 2
-    def test_generate_progress_data_empty_tasks(self):
-        input_data = {"tasks": []}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
+# Add project root to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
 
-    # Test 3
-    def test_generate_progress_data_with_invalid_input(self):
-        with self.assertRaises(TypeError):
-            progress_data_generator_refactored.generate_progress_data(None)
+from project_management.modules.main_modules.progress_data_generator_refactored import ProgressDataGenerator
 
-    # Test 4
-    def test_generate_progress_data_with_missing_tasks(self):
-        input_data = {}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
 
-    # Test 5
-    def test_generate_progress_data_with_large_number_of_tasks(self):
-        input_data = {"tasks": [{"id": i, "status": "completed"} for i in range(1000)]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 6
-    def test_generate_progress_data_with_unicode_task_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "وظیفه", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 7
-    def test_generate_progress_data_with_special_characters(self):
-        input_data = {"tasks": [{"id": 1, "name": "!@#$%^&*()", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 8
-    def test_generate_progress_data_with_none_task(self):
-        input_data = {"tasks": [None]}
-        with self.assertRaises(TypeError):
-            progress_data_generator_refactored.generate_progress_data(input_data)
-
-    # Test 9
-    def test_generate_progress_data_with_missing_status(self):
-        input_data = {"tasks": [{"id": 1}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 10
-    def test_generate_progress_data_with_invalid_status(self):
-        input_data = {"tasks": [{"id": 1, "status": 123}]}
-        with self.assertRaises(TypeError):
-            progress_data_generator_refactored.generate_progress_data(input_data)
-
-    # Test 11
-    def test_generate_progress_data_with_mixed_statuses(self):
-        input_data = {"tasks": [{"id": 1, "status": "completed"}, {"id": 2, "status": "pending"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 12
-    def test_generate_progress_data_with_empty_strings(self):
-        input_data = {"tasks": [{"id": 1, "status": ""}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 13
-    def test_generate_progress_data_with_boolean_status(self):
-        input_data = {"tasks": [{"id": 1, "status": True}]}
-        with self.assertRaises(TypeError):
-            progress_data_generator_refactored.generate_progress_data(input_data)
-
-    # Test 14
-    def test_generate_progress_data_with_list_status(self):
-        input_data = {"tasks": [{"id": 1, "status": ["completed"]}]}
-        with self.assertRaises(TypeError):
-            progress_data_generator_refactored.generate_progress_data(input_data)
-
-    # Test 15
-    def test_generate_progress_data_with_dict_status(self):
-        input_data = {"tasks": [{"id": 1, "status": {"state": "completed"}}]}
-        with self.assertRaises(TypeError):
-            progress_data_generator_refactored.generate_progress_data(input_data)
-
-    # Test 16
-    def test_generate_progress_data_with_long_task_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "a"*1000, "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 17
-    def test_generate_progress_data_with_special_unicode_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "😊🚀✨", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 18
-    def test_generate_progress_data_with_html_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "<b>Task</b>", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 19
-    def test_generate_progress_data_with_sql_keywords_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "SELECT", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 20
-    def test_generate_progress_data_with_json_like_names(self):
-        input_data = {"tasks": [{"id": 1, "name": '{"key": "value"}', "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 21
-    def test_generate_progress_data_with_xml_like_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "<note><to>User</to></note>", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 22
-    def test_generate_progress_data_with_markdown_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "**Task**", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 23
-    def test_generate_progress_data_with_code_snippet_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "def func(): pass", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 24
-    def test_generate_progress_data_with_url_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "http://example.com", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 25
-    def test_generate_progress_data_with_email_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "user@example.com", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 26
-    def test_generate_progress_data_with_multilingual_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "Hello و سلام", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 27
-    def test_generate_progress_data_with_long_multiline_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "Hello\nWorld\nTest", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 28
-    def test_generate_progress_data_with_whitespace_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "   ", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 29
-    def test_generate_progress_data_with_empty_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 30
-    def test_generate_progress_data_with_none_names(self):
-        input_data = {"tasks": [{"id": 1, "name": None, "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 31
-    def test_generate_progress_data_with_special_unicode_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "😊🚀✨", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 32
-    def test_generate_progress_data_with_html_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "<b>Task</b>", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 33
-    def test_generate_progress_data_with_sql_keywords_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "SELECT", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 34
-    def test_generate_progress_data_with_json_like_names(self):
-        input_data = {"tasks": [{"id": 1, "name": '{"key": "value"}', "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 35
-    def test_generate_progress_data_with_xml_like_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "<note><to>User</to></note>", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 36
-    def test_generate_progress_data_with_markdown_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "**Task**", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 37
-    def test_generate_progress_data_with_code_snippet_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "def func(): pass", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 38
-    def test_generate_progress_data_with_url_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "http://example.com", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 39
-    def test_generate_progress_data_with_email_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "user@example.com", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 40
-    def test_generate_progress_data_with_multilingual_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "Hello و سلام", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 41
-    def test_generate_progress_data_with_long_multiline_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "Hello\nWorld\nTest", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 42
-    def test_generate_progress_data_with_whitespace_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "   ", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 43
-    def test_generate_progress_data_with_empty_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 44
-    def test_generate_progress_data_with_none_names(self):
-        input_data = {"tasks": [{"id": 1, "name": None, "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 45
-    def test_generate_progress_data_with_special_unicode_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "😊🚀✨", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 46
-    def test_generate_progress_data_with_html_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "<b>Task</b>", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 47
-    def test_generate_progress_data_with_sql_keywords_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "SELECT", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 48
-    def test_generate_progress_data_with_json_like_names(self):
-        input_data = {"tasks": [{"id": 1, "name": '{"key": "value"}', "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 49
-    def test_generate_progress_data_with_xml_like_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "<note><to>User</to></note>", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-    # Test 50
-    def test_generate_progress_data_with_markdown_names(self):
-        input_data = {"tasks": [{"id": 1, "name": "**Task**", "status": "completed"}]}
-        result = progress_data_generator_refactored.generate_progress_data(input_data)
-        self.assertIsInstance(result, dict)
-
-if __name__ == "__main__":
-    unittest.main()
+class TestProgressDataGenerator:
+    """Test cases for ProgressDataGenerator class."""
+    
+    def setup_method(self):
+        """Set up test fixtures."""
+        self.generator = ProgressDataGenerator()
+    
+    def test_generate_progress_summary_valid_data(self):
+        """Test progress summary generation with valid data."""
+        tasks = [
+            {"id": 1, "name": "Task 1", "status": "completed", "progress": 100},
+            {"id": 2, "name": "Task 2", "status": "in_progress", "progress": 50},
+            {"id": 3, "name": "Task 3", "status": "not_started", "progress": 0}
+        ]
+        
+        result = self.generator.generate_progress_summary(tasks)
+        
+        assert "total_tasks" in result
+        assert "completed_tasks" in result
+        assert "in_progress_tasks" in result
+        assert "not_started_tasks" in result
+        assert "overall_progress" in result
+        assert result["total_tasks"] == 3
+    
+    def test_generate_task_progress_report(self):
+        """Test task progress report generation."""
+        tasks = [
+            {"id": 1, "name": "Task 1", "status": "completed", "progress": 100, "estimated_hours": 10, "actual_hours": 8},
+            {"id": 2, "name": "Task 2", "status": "in_progress", "progress": 75, "estimated_hours": 20, "actual_hours": 15}
+        ]
+        
+        result = self.generator.generate_task_progress_report(tasks)
+        
+        assert isinstance(result, dict)
+        assert "tasks" in result
+        assert "summary" in result
+    
+    def test_generate_milestone_report(self):
+        """Test milestone report generation."""
+        milestones = [
+            {"id": 1, "name": "Milestone 1", "status": "completed", "due_date": "2023-12-01", "completion_date": "2023-11-30"},
+            {"id": 2, "name": "Milestone 2", "status": "in_progress", "due_date": "2024-01-15", "completion_date": None}
+        ]
+        
+        result = self.generator.generate_milestone_report(milestones)
+        
+        assert isinstance(result, dict)
+        assert "milestones" in result
+        assert "summary" in result
+    
+    def test_generate_resource_utilization_report(self):
+        """Test resource utilization report generation."""
+        resources = [
+            {"id": 1, "name": "Resource 1", "allocated_hours": 40, "used_hours": 30},
+            {"id": 2, "name": "Resource 2", "allocated_hours": 60, "used_hours": 45}
+        ]
+        
+        result = self.generator.generate_resource_utilization_report(resources)
+        
+        assert isinstance(result, dict)
+        assert "resources" in result
+        assert "summary" in result
+    
+    def test_generate_time_tracking_report(self):
+        """Test time tracking report generation."""
+        time_entries = [
+            {"task_id": 1, "hours": 5, "date": "2023-12-01"},
+            {"task_id": 2, "hours": 3, "date": "2023-12-02"},
+            {"task_id": 1, "hours": 2, "date": "2023-12-03"}
+        ]
+        
+        result = self.generator.generate_time_tracking_report(time_entries)
+        
+        assert isinstance(result, dict)
+        assert "time_entries" in result
+        assert "summary" in result
+    
+    def test_generate_burndown_chart_data(self):
+        """Test burndown chart data generation."""
+        sprint_data = {
+            "start_date": "2023-12-01",
+            "end_date": "2023-12-15",
+            "total_story_points": 100,
+            "daily_progress": [
+                {"date": "2023-12-01", "remaining_points": 100},
+                {"date": "2023-12-02", "remaining_points": 90},
+                {"date": "2023-12-03", "remaining_points": 80}
+            ]
+        }
+        
+        result = self.generator.generate_burndown_chart_data(sprint_data)
+        
+        assert isinstance(result, dict)
+        assert "chart_data" in result
+        assert "ideal_line" in result
+        assert "actual_line" in result
+    
+    def test_generate_velocity_chart_data(self):
+        """Test velocity chart data generation."""
+        velocity_data = {
+            "sprints": [
+                {"name": "Sprint 1", "completed_points": 40},
+                {"name": "Sprint 2", "completed_points": 50},
+                {"name": "Sprint 3", "completed_points": 45}
+            ]
+        }
+        
+        result = self.generator.generate_velocity_chart_data(velocity_data)
+        
+        assert isinstance(result, dict)
+        assert "chart_data" in result
+        assert "average_velocity" in result
+    
+    def test_generate_cumulative_flow_diagram_data(self):
+        """Test cumulative flow diagram data generation."""
+        cfd_data = {
+            "dates": ["2023-12-01", "2023-12-02", "2023-12-03"],
+            "status_counts": {
+                "todo": [10, 8, 6],
+                "in_progress": [5, 7, 8],
+                "done": [15, 20, 25]
+            }
+        }
+        
+        result = self.generator.generate_cumulative_flow_diagram_data(cfd_data)
+        
+        assert isinstance(result, dict)
+        assert "chart_data" in result
+        assert "dates" in result
+    
+    def test_generate_workload_distribution_report(self):
+        """Test workload distribution report generation."""
+        workload_data = {
+            "team_members": [
+                {"name": "Alice", "assigned_tasks": 5, "estimated_hours": 40},
+                {"name": "Bob", "assigned_tasks": 3, "estimated_hours": 24},
+                {"name": "Charlie", "assigned_tasks": 7, "estimated_hours": 56}
+            ]
+        }
+        
+        result = self.generator.generate_workload_distribution_report(workload_data)
+        
+        assert isinstance(result, dict)
+        assert "team_members" in result
+        assert "distribution" in result
+    
+    def test_generate_risk_assessment_report(self):
+        """Test risk assessment report generation."""
+        risks = [
+            {"id": 1, "description": "Risk 1", "probability": 0.3, "impact": "high"},
+            {"id": 2, "description": "Risk 2", "probability": 0.7, "impact": "medium"}
+        ]
+        
+        result = self.generator.generate_risk_assessment_report(risks)
+        
+        assert isinstance(result, dict)
+        assert "risks" in result
+        assert "summary" in result
+    
+    def test_generate_quality_metrics_report(self):
+        """Test quality metrics report generation."""
+        quality_data = {
+            "defects": [
+                {"severity": "high", "count": 5},
+                {"severity": "medium", "count": 15},
+                {"severity": "low", "count": 25}
+            ],
+            "test_coverage": 85,
+            "code_quality_score": 7.5
+        }
+        
+        result = self.generator.generate_quality_metrics_report(quality_data)
+        
+        assert isinstance(result, dict)
+        assert "metrics" in result
+        assert "summary" in result
+    
+    def test_generate_sprint_retrospective_data(self):
+        """Test sprint retrospective data generation."""
+        retrospective_data = {
+            "sprint_name": "Sprint 1",
+            "completed_stories": 10,
+            "planned_stories": 12,
+            "team_feedback": ["Good communication", "Need better estimation"],
+            "improvements": ["Improve story estimation", "Better daily standups"]
+        }
+        
+        result = self.generator.generate_sprint_retrospective_data(retrospective_data)
+        
+        assert isinstance(result, dict)
+        assert "sprint_name" in result
+        assert "completed_stories" in result
+        assert "improvements" in result
+    
+    def test_generate_project_health_report(self):
+        """Test project health report generation."""
+        health_data = {
+            "schedule_variance": 0.1,
+            "cost_variance": -0.05,
+            "quality_score": 8.5,
+            "team_satisfaction": 9.0,
+            "stakeholder_satisfaction": 8.0
+        }
+        
+        result = self.generator.generate_project_health_report(health_data)
+        
+        assert isinstance(result, dict)
+        assert "health_score" in result
+        assert "status" in result
+        assert "recommendations" in result
+    
+    def test_generate_performance_dashboard_data(self):
+        """Test performance dashboard data generation."""
+        dashboard_data = {
+            "kpis": [
+                {"name": "Task Completion Rate", "value": 85, "target": 90},
+                {"name": "On-time Delivery", "value": 92, "target": 95},
+                {"name": "Quality Score", "value": 8.5, "target": 9.0}
+            ]
+        }
+        
+        result = self.generator.generate_performance_dashboard_data(dashboard_data)
+        
+        assert isinstance(result, dict)
+        assert "kpis" in result
+        assert "dashboard" in result

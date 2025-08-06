@@ -1,307 +1,209 @@
-import unittest
-from project_management.modules.main_modules import input_handler
+"""
+Unit tests for input_handler module.
 
-class TestInputHandler(unittest.TestCase):
-    def setUp(self):
-        # Setup any necessary test data or state
-        pass
+Tests input validation, sanitization, and error handling functionality.
+"""
 
-    # Test 1
-    def test_validate_input_basic(self):
-        input_data = {"field1": "value1", "field2": 10}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
+import pytest
+import sys
+import os
+from unittest.mock import Mock, patch
 
-    # Test 2
-    def test_validate_input_missing_field(self):
-        input_data = {"field1": "value1"}
-        result = input_handler.validate_input(input_data)
-        self.assertFalse(result)
+# Add project root to Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
 
-    # Test 3
-    def test_validate_input_empty_input(self):
-        input_data = {}
-        result = input_handler.validate_input(input_data)
-        self.assertFalse(result)
+from project_management.modules.main_modules.input_handler import InputHandler
 
-    # Test 4
-    def test_validate_input_none(self):
-        with self.assertRaises(TypeError):
-            input_handler.validate_input(None)
 
-    # Test 5
-    def test_process_input_basic(self):
-        input_data = {"field1": "value1", "field2": 10}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 6
-    def test_process_input_with_invalid_data(self):
-        with self.assertRaises(TypeError):
-            input_handler.process_input("invalid")
-
-    # Test 7
-    def test_process_input_with_empty_dict(self):
-        processed = input_handler.process_input({})
-        self.assertIsInstance(processed, dict)
-
-    # Test 8
-    def test_validate_input_with_special_characters(self):
-        input_data = {"field1": "!@#$%^&*()"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 9
-    def test_validate_input_with_unicode(self):
-        input_data = {"field1": "متن فارسی"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 10
-    def test_process_input_with_unicode(self):
-        input_data = {"field1": "متن فارسی"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 11
-    def test_validate_input_with_numeric_values(self):
-        input_data = {"field1": 12345}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 12
-    def test_process_input_with_numeric_values(self):
-        input_data = {"field1": 12345}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 13
-    def test_validate_input_with_boolean_values(self):
-        input_data = {"field1": True}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 14
-    def test_process_input_with_boolean_values(self):
-        input_data = {"field1": True}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 15
-    def test_validate_input_with_list_values(self):
-        input_data = {"field1": [1, 2, 3]}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 16
-    def test_process_input_with_list_values(self):
-        input_data = {"field1": [1, 2, 3]}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 17
-    def test_validate_input_with_dict_values(self):
-        input_data = {"field1": {"key": "value"}}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 18
-    def test_process_input_with_dict_values(self):
-        input_data = {"field1": {"key": "value"}}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 19
-    def test_validate_input_with_empty_strings(self):
-        input_data = {"field1": ""}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 20
-    def test_process_input_with_empty_strings(self):
-        input_data = {"field1": ""}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 21
-    def test_validate_input_with_none_values(self):
-        input_data = {"field1": None}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 22
-    def test_process_input_with_none_values(self):
-        input_data = {"field1": None}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 23
-    def test_validate_input_with_long_strings(self):
-        input_data = {"field1": "a" * 1000}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 24
-    def test_process_input_with_long_strings(self):
-        input_data = {"field1": "a" * 1000}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 25
-    def test_validate_input_with_special_unicode(self):
-        input_data = {"field1": "😊🚀✨"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 26
-    def test_process_input_with_special_unicode(self):
-        input_data = {"field1": "😊🚀✨"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 27
-    def test_validate_input_with_html_content(self):
-        input_data = {"field1": "<b>bold</b>"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 28
-    def test_process_input_with_html_content(self):
-        input_data = {"field1": "<b>bold</b>"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 29
-    def test_validate_input_with_sql_keywords(self):
-        input_data = {"field1": "SELECT * FROM users"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 30
-    def test_process_input_with_sql_keywords(self):
-        input_data = {"field1": "SELECT * FROM users"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 31
-    def test_validate_input_with_json_content(self):
-        input_data = {"field1": '{"key": "value"}'}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 32
-    def test_process_input_with_json_content(self):
-        input_data = {"field1": '{"key": "value"}'}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 33
-    def test_validate_input_with_xml_content(self):
-        input_data = {"field1": "<note><to>User</to></note>"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 34
-    def test_process_input_with_xml_content(self):
-        input_data = {"field1": "<note><to>User</to></note>"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 35
-    def test_validate_input_with_markdown_content(self):
-        input_data = {"field1": "**bold**"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 36
-    def test_process_input_with_markdown_content(self):
-        input_data = {"field1": "**bold**"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 37
-    def test_validate_input_with_code_snippet(self):
-        input_data = {"field1": "def func(): pass"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 38
-    def test_process_input_with_code_snippet(self):
-        input_data = {"field1": "def func(): pass"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 39
-    def test_validate_input_with_url(self):
-        input_data = {"field1": "http://example.com"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 40
-    def test_process_input_with_url(self):
-        input_data = {"field1": "http://example.com"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 41
-    def test_validate_input_with_email(self):
-        input_data = {"field1": "user@example.com"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 42
-    def test_process_input_with_email(self):
-        input_data = {"field1": "user@example.com"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 43
-    def test_validate_input_with_multilingual(self):
-        input_data = {"field1": "Hello و سلام"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 44
-    def test_process_input_with_multilingual(self):
-        input_data = {"field1": "Hello و سلام"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 45
-    def test_validate_input_with_emoji(self):
-        input_data = {"field1": "Hello 😊"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 46
-    def test_process_input_with_emoji(self):
-        input_data = {"field1": "Hello 😊"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 47
-    def test_validate_input_with_long_multiline(self):
-        input_data = {"field1": "Hello\nWorld\nTest"}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 48
-    def test_process_input_with_long_multiline(self):
-        input_data = {"field1": "Hello\nWorld\nTest"}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-    # Test 49
-    def test_validate_input_with_whitespace(self):
-        input_data = {"field1": "   "}
-        result = input_handler.validate_input(input_data)
-        self.assertTrue(result)
-
-    # Test 50
-    def test_process_input_with_whitespace(self):
-        input_data = {"field1": "   "}
-        processed = input_handler.process_input(input_data)
-        self.assertIsInstance(processed, dict)
-
-if __name__ == "__main__":
-    unittest.main()
+class TestInputHandler:
+    """Test cases for InputHandler class."""
+    
+    def setup_method(self):
+        """Set up test fixtures."""
+        self.handler = InputHandler()
+    
+    def test_validate_string_input_valid(self):
+        """Test string input validation with valid inputs."""
+        valid_inputs = ["hello", "test123", "valid_input", "UPPERCASE", "lowercase"]
+        for input_str in valid_inputs:
+            result = self.handler.validate_string_input(input_str)
+            assert result == input_str
+    
+    def test_validate_string_input_empty(self):
+        """Test string input validation with empty string."""
+        with pytest.raises(ValueError, match="Input cannot be empty"):
+            self.handler.validate_string_input("")
+    
+    def test_validate_string_input_none(self):
+        """Test string input validation with None."""
+        with pytest.raises(ValueError, match="Input cannot be None"):
+            self.handler.validate_string_input(None)
+    
+    def test_validate_integer_input_valid(self):
+        """Test integer input validation with valid inputs."""
+        valid_inputs = [1, 100, 0, -1, 999999]
+        for input_int in valid_inputs:
+            result = self.handler.validate_integer_input(str(input_int))
+            assert result == input_int
+    
+    def test_validate_integer_input_invalid(self):
+        """Test integer input validation with invalid inputs."""
+        invalid_inputs = ["abc", "12.5", "", "1a2b", "not_a_number"]
+        for invalid_input in invalid_inputs:
+            with pytest.raises(ValueError, match="Invalid integer input"):
+                self.handler.validate_integer_input(invalid_input)
+    
+    def test_validate_float_input_valid(self):
+        """Test float input validation with valid inputs."""
+        valid_inputs = [1.5, 100.0, 0.0, -1.25, 999.999]
+        for input_float in valid_inputs:
+            result = self.handler.validate_float_input(str(input_float))
+            assert abs(result - input_float) < 0.001
+    
+    def test_validate_float_input_invalid(self):
+        """Test float input validation with invalid inputs."""
+        invalid_inputs = ["abc", "", "1a2b", "not_a_float"]
+        for invalid_input in invalid_inputs:
+            with pytest.raises(ValueError, match="Invalid float input"):
+                self.handler.validate_float_input(invalid_input)
+    
+    def test_sanitize_input_removes_special_chars(self):
+        """Test input sanitization removes special characters."""
+        dirty_input = "Hello@World!#$%^&*()_+"
+        expected = "HelloWorld"
+        result = self.handler.sanitize_input(dirty_input)
+        assert result == expected
+    
+    def test_sanitize_input_preserves_alphanumeric(self):
+        """Test input sanitization preserves alphanumeric characters."""
+        clean_input = "ValidInput123"
+        result = self.handler.sanitize_input(clean_input)
+        assert result == clean_input
+    
+    def test_validate_range_valid(self):
+        """Test range validation with valid inputs."""
+        result = self.handler.validate_range(50, 0, 100)
+        assert result == 50
+    
+    def test_validate_range_below_min(self):
+        """Test range validation with input below minimum."""
+        with pytest.raises(ValueError, match="Input must be between 0 and 100"):
+            self.handler.validate_range(-1, 0, 100)
+    
+    def test_validate_range_above_max(self):
+        """Test range validation with input above maximum."""
+        with pytest.raises(ValueError, match="Input must be between 0 and 100"):
+            self.handler.validate_range(101, 0, 100)
+    
+    def test_validate_email_valid(self):
+        """Test email validation with valid emails."""
+        valid_emails = [
+            "test@example.com",
+            "user.name@domain.co.uk",
+            "email+tag@example.org"
+        ]
+        for email in valid_emails:
+            result = self.handler.validate_email(email)
+            assert result == email
+    
+    def test_validate_email_invalid(self):
+        """Test email validation with invalid emails."""
+        invalid_emails = [
+            "invalid.email",
+            "@example.com",
+            "test@",
+            "test..email@example.com"
+        ]
+        for email in invalid_emails:
+            with pytest.raises(ValueError, match="Invalid email format"):
+                self.handler.validate_email(email)
+    
+    def test_validate_date_format_valid(self):
+        """Test date format validation with valid dates."""
+        valid_dates = ["2023-12-25", "2024-01-01", "2023-06-15"]
+        for date_str in valid_dates:
+            result = self.handler.validate_date_format(date_str)
+            assert result == date_str
+    
+    def test_validate_date_format_invalid(self):
+        """Test date format validation with invalid dates."""
+        invalid_dates = ["25-12-2023", "2023/12/25", "12-25-2023", "invalid"]
+        for date_str in invalid_dates:
+            with pytest.raises(ValueError, match="Invalid date format"):
+                self.handler.validate_date_format(date_str)
+    
+    def test_validate_list_input_valid(self):
+        """Test list input validation with valid lists."""
+        valid_lists = [[1, 2, 3], ["a", "b", "c"], [1.5, 2.5, 3.5]]
+        for input_list in valid_lists:
+            result = self.handler.validate_list_input(input_list)
+            assert result == input_list
+    
+    def test_validate_list_input_empty(self):
+        """Test list input validation with empty list."""
+        with pytest.raises(ValueError, match="List cannot be empty"):
+            self.handler.validate_list_input([])
+    
+    def test_validate_list_input_none(self):
+        """Test list input validation with None."""
+        with pytest.raises(ValueError, match="List cannot be None"):
+            self.handler.validate_list_input(None)
+    
+    def test_validate_dict_input_valid(self):
+        """Test dictionary input validation with valid dictionaries."""
+        valid_dicts = [
+            {"key1": "value1", "key2": "value2"},
+            {"id": 1, "name": "test"},
+            {"config": {"setting": True}}
+        ]
+        for input_dict in valid_dicts:
+            result = self.handler.validate_dict_input(input_dict)
+            assert result == input_dict
+    
+    def test_validate_dict_input_empty(self):
+        """Test dictionary input validation with empty dictionary."""
+        with pytest.raises(ValueError, match="Dictionary cannot be empty"):
+            self.handler.validate_dict_input({})
+    
+    def test_validate_dict_input_none(self):
+        """Test dictionary input validation with None."""
+        with pytest.raises(ValueError, match="Dictionary cannot be None"):
+            self.handler.validate_dict_input(None)
+    
+    def test_validate_boolean_input_valid(self):
+        """Test boolean input validation with valid inputs."""
+        valid_booleans = [True, False, "true", "false", "True", "False", "1", "0"]
+        expected = [True, False, True, False, True, False, True, False]
+        for input_bool, expected_result in zip(valid_booleans, expected):
+            result = self.handler.validate_boolean_input(str(input_bool))
+            assert result == expected_result
+    
+    def test_validate_boolean_input_invalid(self):
+        """Test boolean input validation with invalid inputs."""
+        invalid_booleans = ["yes", "no", "maybe", "invalid", ""]
+        for invalid_input in invalid_booleans:
+            with pytest.raises(ValueError, match="Invalid boolean input"):
+                self.handler.validate_boolean_input(invalid_input)
+    
+    def test_validate_url_valid(self):
+        """Test URL validation with valid URLs."""
+        valid_urls = [
+            "https://www.example.com",
+            "http://example.com/path",
+            "https://subdomain.example.com:8080/path?query=value"
+        ]
+        for url in valid_urls:
+            result = self.handler.validate_url(url)
+            assert result == url
+    
+    def test_validate_url_invalid(self):
+        """Test URL validation with invalid URLs."""
+        invalid_urls = [
+            "not-a-url",
+            "www.example.com",
+            "ftp://example.com",
+            "invalid://example.com"
+        ]
+        for url in invalid_urls:
+            with pytest.raises(ValueError, match="Invalid URL format"):
+                self.handler.validate_url(url)

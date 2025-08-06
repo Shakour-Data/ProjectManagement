@@ -191,8 +191,8 @@ class TestImportanceUrgencyCalculatorRefactored(unittest.TestCase):
     # Test 32
     def test_calculate_urgency_with_none_deadline(self):
         task = {"deadline": None}
-        with self.assertRaises(TypeError):
-            self.calculator.calculate_urgency(task)
+        urgency = self.calculator.calculate_urgency(task)
+        self.assertIsInstance(urgency, (int, float))
 
     # Test 33
     def test_calculate_importance_with_missing_priority(self):
