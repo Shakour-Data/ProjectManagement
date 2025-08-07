@@ -1,36 +1,28 @@
 import React from 'react';
-import { Card, CardContent, Typography, Box } from '@mui/material';
 import { motion } from 'framer-motion';
+import { Card, CardContent, Box } from '@mui/material';
+import { animations } from '../../styles/animations';
 
-const EnhancedCard = ({ 
-  children, 
-  title, 
-  subtitle, 
-  elevation = 1, 
-  hoverEffect = true,
-  ...props 
-}) => {
+const EnhancedCard = ({ children, hoverEffect = true, ...props }) => {
   return (
     <motion.div
-      whileHover={hoverEffect ? { scale: 1.02, y: -2 } : {}}
-      transition={{ duration: 0.2 }}
+      {...(hoverEffect ? animations.cardHover : {})}
+      transition={animations.transitions.smooth}
     >
-      <Card elevation={elevation} {...props}>
-        {(title || subtitle) && (
-          <Box p={3} pb={0}>
-            {title && (
-              <Typography variant="h6" gutterBottom>
-                {title}
-              </Typography>
-            )}
-            {subtitle && (
-              <Typography variant="body2" color="text.secondary">
-                {subtitle}
-              </Typography>
-            )}
-          </Box>
-        )}
-        <CardContent>
+      <Card
+        {...props}
+        sx={{
+          ...props.sx,
+          borderRadius: 3,
+          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+          transition: 'all 0.3s ease',
+          '&:hover': hoverEffect ? {
+            boxShadow: '0 12px 40px rgba(0, 0, 0, 0.12)',
+            transform: 'translateY(-2px)',
+          } : {},
+        }}
+      >
+        <CardContent sx={{ p: 3 }}>
           {children}
         </CardContent>
       </Card>
