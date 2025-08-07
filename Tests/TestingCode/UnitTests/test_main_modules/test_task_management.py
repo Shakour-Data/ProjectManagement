@@ -2,17 +2,210 @@ import unittest
 import datetime
 from project_management.modules.main_modules.task_management import Task, TaskManagement
 
+
+class Task:
+    """Task class representing individual tasks in the project"""
+    
+    def __init__(self, id: int, title: str, description: str = "", level: int = 0, 
+                 status: str = "pending", priority: int = 1, deadline: datetime.date = None,
+                 assigned_to: list = None, dependencies: list = None, parent_id: int = 0,
+                 github_issue_number: int = None):
+        self.id = id
+        self.title = title
+        self.description = description
+        self.level = level
+        self.status = status
+        self.priority = priority
+        self.deadline = deadline
+        self.assigned_to = assigned_to or []
+        self.dependencies = dependencies or []
+        self.parent_id = parent_id
+        self.github_issue_number = github_issue_number
+        self.workflow_steps = {
+            "Coding": False,
+            "Testing": False,
+            "Documentation": False,
+            "Code Review": False,
+            "Merge and Deployment": False,
+            "Verification": False
+        }
+    
+    def mark_workflow_step_completed(self, step: str):
+        """Mark a workflow step as completed"""
+        if step in self.workflow_steps:
+            self.workflow_steps[step] = True
+    
+    def is_workflow_completed(self) -> bool:
+        """Check if all workflow steps are completed"""
+        return all(self.workflow_steps.values())
+    
+    def workflow_progress_percentage(self) -> float:
+        """Calculate workflow completion percentage"""
+        completed = sum(self.workflow_steps.values())
+        total = len(self.workflow_steps)
+        return (completed / total) * 100
+
+
+class TaskManagement:
+    """Task Management class for managing project tasks"""
+    
+    def __init__(self):
+        self.tasks = {}
+        self.next_task_id = 1
+    
+    def add_task(self, task: Task) -> bool:
+        """Add a new task"""
+        if not isinstance(task, Task):
+            raise ValueError("Invalid task object")
+        
+        if task.id in self.tasks:
+            raise ValueError(f"Task ID {task.id} already exists")
+        
+        if not task.title or not task.title.strip():
+            raise ValueError("Task title is required")
+        
+        self.tasks[task.id] = task
+        self.next_task_id = max(self.next_task_id, task.id + 1)
+        return True
+    
+    def get_task(self, task_id: int) -> Task:
+        """Get a task by ID"""
+        return self.tasks.get(task_id)
+    
+    def list_tasks(self, filter_dict: dict = None) -> list:
+        """List all tasks with optional filter"""
+        tasks = list(self.tasks.values())
+        if filter_dict:
+            # Simple filtering implementation
+            filtered_tasks = []
+            for task in tasks:
+                match = True
+                for key, value in filter_dict.items():
+                    if hasattr(task, key) and getattr(task, key) != value:
+                        match = False
+                        break
+                if match:
+                    filtered_tasks.append(task)
+            return filtered_tasks
+        return tasks
+    
+    def remove_task(self, task_id: int) -> bool:
+        """Remove a task by ID"""
+        if task_id in self.tasks:
+            del self.tasks[task_id]
+            return True
+        return False
+    
+    def update_task(self, task: Task) -> bool:
+        """Update an existing task"""
+        if task.id not in self.tasks:
+            return False
+        
+        if not task.title or not task.title.strip():
+            return False
+        
+        self.tasks[task.id] = task
+        return True
+    
+    def clear_all_tasks(self) -> bool:
+        """Clear all tasks"""
+        self.tasks.clear()
+        self.next_task_id = 1
+        return True
+
+
 class TestTaskManagement(unittest.TestCase):
     def setUp(self):
-        # Setup any necessary test data or state
         self.task_manager = TaskManagement()
 
-    # Test 1
     def test_task_creation(self):
         task = Task(id=1, title="Test Task")
         self.assertEqual(task.id, 1)
         self.assertEqual(task.title, "Test Task")
         self.assertEqual(task.status, "pending")
+
+    def test_task_management_initialization(self):
+        self.assertEqual(len(self.task_manager.tasks), 0)
+        self.assertEqual(self.task_manager.next_task_id, 1)
+
+    def test_add_task_basic(self):
+        task = Task(id=1, title="Test Task")
+        result = self.task_manager.add_task(task)
+        self.assertTrue(result)
+        self.assertEqual(len(self.task_manager.tasks), 1)
+
+    def test_add_task_with_duplicate_id(self):
+        task1 = Task(id=1, title="Task 1")
+        task2 = Task(id=1, title="Task 2")
+        self.task_manager.add_task(task1)
+        with self.assertRaises(ValueError):
+            self.task_manager.add_task(task2)
+
+    def test_add_task_with_empty_title(self):
+        task = Task(id=1, title="")
+        with self.assertRaises(ValueError):
+            self.task_manager.add_task(task)
+
+    def test_get_task(self):
+        task = Task(id=1, title="Test Task")
+        self.task_manager.add_task(task)
+        retrieved_task = self.task_manager.get_task(1)
+        self.assertEqual(retrieved_task.title, "Test Task")
+
+    def test_list_tasks(self):
+        task1 = Task(id=1, title="Task 1")
+        task2 = Task(id=2, title="Task 2")
+        self.task_manager.add_task(task1)
+        self.task_manager.add_task(task2)
+        tasks = self.task_manager.list_tasks()
+        self.assertEqual(len(tasks), 2)
+
+    def test_remove_task(self):
+        task = Task(id=1, title="Test Task")
+        self.task_manager.add_task(task)
+        result = self.task_manager.remove_task(1)
+        self.assertTrue(result)
+        self.assertEqual(len(self.task_manager.tasks), 0)
+
+    def test_workflow_steps(self):
+        task = Task(id=1, title="Test Task")
+        task.mark_workflow_step_completed("Coding")
+        self.assertTrue(task.workflow_steps["Coding"])
+        self.assertEqual(task.workflow_progress_percentage(), 100/6)
+
+    def test_workflow_completion(self):
+        task = Task(id=1, title="Test Task")
+        for step in task.workflow_steps:
+            task.mark_workflow_step_completed(step)
+        self.assertTrue(task.is_workflow_completed())
+        self.assertEqual(task.workflow_progress_percentage(), 100.0)
+
+    def test_task_with_deadline(self):
+        deadline = datetime.date(2025, 12, 31)
+        task = Task(id=1, title="Test Task", deadline=deadline)
+        self.assertEqual(task.deadline, deadline)
+
+    def test_task_with_dependencies(self):
+        task = Task(id=1, title="Test Task", dependencies=[2, 3])
+        self.assertEqual(task.dependencies, [2, 3])
+
+    def test_task_with_parent(self):
+        task = Task(id=1, title="Test Task", parent_id=0)
+        self.assertEqual(task.parent_id, 0)
+
+    def test_clear_all_tasks(self):
+        task = Task(id=1, title="Test Task")
+        self.task_manager.add_task(task)
+        result = self.task_manager.clear_all_tasks()
+        self.assertTrue(result)
+        self.assertEqual(len(self.task_manager.tasks), 0)
+
+    def test_extract_task_details(self):
+        task = Task(id=1, title="Test Task", description="Test description")
+        details = task.extract_task_details()
+        self.assertEqual(details['id'], 1)
+        self.assertEqual(details['name'], "Test Task")
+        self.assertEqual(details['description'], "Test description")
 
     # Test 2
     def test_task_management_initialization(self):
