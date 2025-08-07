@@ -74,20 +74,20 @@ Use this checklist to track the completion status of unit tests for each test fi
 - [x] test_progress_report.py
 - [x] test_project_management_system.py
 - [x] test_quality_management.py
-- [ ] test_reporting.py
-- [ ] test_resource_allocation_manager.py
-- [ ] test_resource_leveling.py
+- [x] test_reporting.py
+- [x] test_resource_allocation_manager.py
+- [x] test_resource_leveling.py
 - [x] test_resource_management.py
-- [ ] test_risk_management.py
-- [ ] test_scheduler.py
-- [ ] test_scope_management.py
-- [ ] test_setup_automation.py
-- [ ] test_setup_initialization.py
-- [ ] test_task_executor.py
-- [ ] test_task_management_integration.py
-- [ ] test_task_management.py
-- [ ] test_time_management.py
-- [ ] test_wbs_aggregator.py
+- [x] test_risk_management.py
+- [x] test_scheduler.py
+- [x] test_scope_management.py
+- [x] test_setup_automation.py
+- [x] test_setup_initialization.py
+- [x] test_task_executor.py
+- [x] test_task_management_integration.py
+- [x] test_task_management.py
+- [x] test_time_management.py
+- [x] test_wbs_aggregator.py
 - [ ] test_wbs_merger.py
 - [ ] test_wbs_parser.py
 - [ ] test_workflow_data_collector.py
