@@ -1,79 +1,92 @@
-import React, { Suspense, lazy, useContext, useEffect, useState } from 'react';
-import ErrorBoundary from './components/ErrorBoundary';
+import React, { Suspense, lazy, useContext, useState } from 'react';
+import { ThemeProvider, CssBaseline, Box, IconButton, Typography } from '@mui/material';
+import { Toaster } from 'react-hot-toast';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { lightTheme, darkTheme } from './styles/theme';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { AppContext, AppProvider } from './context/AppContext';
 
+// Lazy load components
 const SetupWizard = lazy(() => import('./components/SetupWizard'));
 const JsonFileUploader = lazy(() => import('./components/JsonFileUploader'));
 const ProjectManager = lazy(() => import('./components/ProjectManager'));
 const GanttChart = lazy(() => import('./components/GanttChart'));
 
+// Create a client
+const queryClient = new QueryClient();
+
 function AppContent() {
   const {
     step,
     selectedProject,
-    error,
-    setError,
     handleProjectSelect,
     handleSetupComplete,
     handleUploadComplete,
     handleReset,
   } = useContext(AppContext);
 
-  const [showGantt, setShowGantt] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
-  useEffect(() => {
-    // Clear error on step change
-    setError(null);
-  }, [step, setError]);
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
 
-  if (showGantt) {
-    return (
-      <div>
-        <button onClick={() => setShowGantt(false)} style={{ marginBottom: '20px' }}>
-          Back to Dashboard
-        </button>
-        <GanttChart />
-      </div>
-    );
-  }
+  const renderContent = () => {
+    switch (step) {
+      case 'projectManager':
+        return <ProjectManager onSelectProject={handleProjectSelect} />;
+      case 'setup':
+        return <SetupWizard onComplete={handleSetupComplete} projectId={selectedProject} onCancel={handleReset} />;
+      case 'upload':
+        return <JsonFileUploader onComplete={handleUploadComplete} projectId={selectedProject} onCancel={handleReset} />;
+      default:
+        return (
+          <Box sx={{ p: 3 }}>
+            <Typography variant="h4" component="h1" gutterBottom>
+              Welcome to Project Management Dashboard
+            </Typography>
+            <Typography variant="body1" color="text.secondary">
+              Select a project to get started or create a new one.
+            </Typography>
+          </Box>
+        );
+    }
+  };
 
-  if (step === 'projectManager') {
-    return <ProjectManager onSelectProject={handleProjectSelect} onError={setError} />;
-  }
-
-  if (step === 'setup') {
-    return <SetupWizard onComplete={handleSetupComplete} projectId={selectedProject} onCancel={handleReset} onError={setError} />;
-  }
-
-  if (step === 'upload') {
-    return <JsonFileUploader onComplete={handleUploadComplete} projectId={selectedProject} onCancel={handleReset} onError={setError} />;
-  }
-
-  // Dashboard placeholder - can be expanded with existing dashboard code
   return (
-    <ErrorBoundary>
-      <div className="container py-4">
-        <h1 className="mb-4">Project Management Dashboard</h1>
-        <button onClick={handleReset} style={{ marginBottom: '20px', marginRight: '10px' }}>
-          Back to Project Manager
-        </button>
-        <button onClick={() => setShowGantt(true)} style={{ marginBottom: '20px' }}>
-          View Gantt Chart
-        </button>
-        {error && <div style={{ color: 'red', marginBottom: '10px' }}>{error}</div>}
-        <p>Dashboard content goes here.</p>
-      </div>
-    </ErrorBoundary>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      <CssBaseline />
+      <Box sx={{ position: 'fixed', top: 16, right: 16, zIndex: 1000 }}>
+        <IconButton onClick={toggleDarkMode} color="inherit">
+          {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+        </IconButton>
+      </Box>
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          duration: 4000,
+          style: {
+            borderRadius: '10px',
+            background: darkMode ? '#1e293b' : '#ffffff',
+            color: darkMode ? '#f1f5f9' : '#111827',
+          },
+        }}
+      />
+      <Suspense fallback={<div>Loading...</div>}>
+        {renderContent()}
+      </Suspense>
+    </ThemeProvider>
   );
 }
 
 function App() {
   return (
-    <AppProvider>
-      <Suspense fallback={<div>Loading...</div>}>
+    <QueryClientProvider client={queryClient}>
+      <AppProvider>
         <AppContent />
-      </Suspense>
-    </AppProvider>
+      </AppProvider>
+    </QueryClientProvider>
   );
 }
 
