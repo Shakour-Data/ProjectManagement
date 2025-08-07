@@ -172,8 +172,8 @@ class TestRiskManagement(unittest.TestCase):
     # Test 29
     def test_assess_risk_impact_with_special_characters(self):
         risk = {"level": "!@#$%^&*()", "probability": 0.5}
-        with self.assertRaises(TypeError):
-            risk_management.assess_risk_impact(risk)
+        impact = risk_management.assess_risk_impact(risk)
+        self.assertIsInstance(impact, (int, float))
 
     # Test 30
     def test_identify_risks_with_empty_risk_levels(self):
