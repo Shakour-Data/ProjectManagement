@@ -25650,5 +25650,141 @@
         "parent_commits": [
             "f77d574f15594841951fdd2c942e252e9ffcc5c6"
         ]
+    },
+    "6857e4ecf3fcf48ebcc49ddfc41e43806121beca": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_task_management.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-08-07 13:03:53):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_task_management.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_task_management.py b/Tests/TestingCode/UnitTests/test_main_modules/test_task_management.py\\n    index 00bb1fef..6c55f3da 100644\\n    --- a/Tests/TestingCode/UnitTests/test_main_modules/test_task_management.py\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_task_management.py\\n    @@ -2,18 +2,211 @@ import unittest\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:33:55",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:03:55 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "60f3a6d73facd8f178ddde05bd60c392f0c7417f"
+        ]
+    },
+    "60b5e3b0965d906005a4324067eb5aa6289ffaa3": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-08-07 13:03:58):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py\\n    index 495c91bf..2ddcf515 100644\\n    --- a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_merger.py\\n    @@ -1,608 +1,195 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:00",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:03:59 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6857e4ecf3fcf48ebcc49ddfc41e43806121beca"
+        ]
+    },
+    "21e7896035cf026ec908348761f2dfaa012cd1d4": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py",
+        "commit_message": "🐛 fix(Tests): Modified files updated\\n\\nChanges included (as of 2025-08-07 13:04:03):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py\\n    index 61515121..2503a325 100644\\n    --- a/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_wbs_parser.py\\n    @@ -1,406 +1,218 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:04",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:04:04 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "60b5e3b0965d906005a4324067eb5aa6289ffaa3"
+        ]
+    },
+    "c7ad3eb5d62b3641d4acab8d0b0ea66199dba79e": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_main_modules/test_task_management_fixed.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-07 13:04:07):\\n- Tests/TestingCode/UnitTests/test_main_modules/test_task_management_fixed.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_main_modules/test_task_management_fixed.py b/Tests/TestingCode/UnitTests/test_main_modules/test_task_management_fixed.py\\n    new file mode 100644\\n    index 00000000..de8e4df2\\n    --- /dev/null\\n    +++ b/Tests/TestingCode/UnitTests/test_main_modules/test_task_management_fixed.py\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:08",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:04:08 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "21e7896035cf026ec908348761f2dfaa012cd1d4"
+        ]
+    },
+    "6cd478cedc34f68c7b22de1b022680eac30866b6": {
+        "task_id": "Tests",
+        "file_path": "Tests/TestingCode/UnitTests/test_wbs_merger.py",
+        "commit_message": "📝 docs(Tests): Untracked files updated\\n\\nChanges included (as of 2025-08-07 13:04:11):\\n- Tests/TestingCode/UnitTests/test_wbs_merger.py: This file is new and not yet tracked by git.\\n  Summary:\\n    diff --git a/Tests/TestingCode/UnitTests/test_wbs_merger.py b/Tests/TestingCode/UnitTests/test_wbs_merger.py\\n    new file mode 100644\\n    index 00000000..e69de29b\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:13",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:04:12 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "c7ad3eb5d62b3641d4acab8d0b0ea66199dba79e"
+        ]
+    },
+    "0517292804c76b811b778a728dbe83e3be588616": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/main_modules/task_management.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-08-07 13:04:15):\\n- project_management/modules/main_modules/task_management.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/main_modules/task_management.py b/project_management/modules/main_modules/task_management.py\\n    index 22214652..593f7378 100644\\n    --- a/project_management/modules/main_modules/task_management.py\\n    +++ b/project_management/modules/main_modules/task_management.py\\n    @@ -212,19 +212,6 @@ class TaskManagement:\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:17",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:04:16 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "6cd478cedc34f68c7b22de1b022680eac30866b6"
+        ]
+    },
+    "54b4d7debf280162932bbb0c60fe22e499c9659b": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/main_modules/wbs_merger.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-08-07 13:04:20):\\n- project_management/modules/main_modules/wbs_merger.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/main_modules/wbs_merger.py b/project_management/modules/main_modules/wbs_merger.py\\n    index cd4d9688..9613554a 100644\\n    --- a/project_management/modules/main_modules/wbs_merger.py\\n    +++ b/project_management/modules/main_modules/wbs_merger.py\\n    @@ -1,65 +1,125 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:21",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:04:21 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "0517292804c76b811b778a728dbe83e3be588616"
+        ]
+    },
+    "7d445f6d3046e34e88d2b655a9fa75a1233070b2": {
+        "task_id": "project_management",
+        "file_path": "project_management/modules/main_modules/wbs_parser.py",
+        "commit_message": "🐛 fix(project_management): Modified files updated\\n\\nChanges included (as of 2025-08-07 13:04:24):\\n- project_management/modules/main_modules/wbs_parser.py: This file was modified with updates or fixes.\\n  Summary:\\n    diff --git a/project_management/modules/main_modules/wbs_parser.py b/project_management/modules/main_modules/wbs_parser.py\\n    index 9b596b4e..011deb04 100644\\n    --- a/project_management/modules/main_modules/wbs_parser.py\\n    +++ b/project_management/modules/main_modules/wbs_parser.py\\n    @@ -1,59 +1,178 @@\\n\\n\\nPlease describe the reason or issue addressed by these changes.",
+        "workflow_stage": "Implementation",
+        "progress_change": 0.05,
+        "importance_change": 1,
+        "priority_change": 0.0,
+        "timestamp": "2025-08-07 09:34:27",
+        "author": "GravityWavesPr",
+        "email": "GravityWavesProgramming@gmail.com",
+        "date": "Thu Aug 7 13:04:26 2025 +0330",
+        "branch": "* main",
+        "parent_commits": [
+            "54b4d7debf280162932bbb0c60fe22e499c9659b"
+        ]
     }
 }
