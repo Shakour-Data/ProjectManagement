@@ -1,406 +1,218 @@
-import unittest
-from unittest.mock import patch, mock_open
-import os
-import re
-import json
+"""
+Unit tests for WBS Parser module
+"""
 
-# Add the project root to the path so we can import the module
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', '..')))
+import unittest
+import json
+import os
+import tempfile
+from project_management.modules.main_modules.wbs_parser import WBSParser
+
 
 class TestWBSParser(unittest.TestCase):
+    """Test cases for WBSParser class"""
+    
     def setUp(self):
-        # Setup any necessary test data or state
-        self.test_wbs_text = """1 Project Management Tool
-1.1 Requirements Analysis
-1.1.1 Gather User Requirements
-1.1.2 Define System Requirements
-1.2 Design Phase
-1.2.1 System Architecture Design
-1.2.2 UI/UX Design
-1.3 Implementation
-1.3.1 Backend Development
-1.3.2 Frontend Development
-1.4 Testing
-1.4.1 Unit Testing
-1.4.2 Integration Testing
-1.5 Deployment
-1.5.1 Production Deployment
-1.5.2 Post-Deployment Support"""
+        """Set up test environment"""
+        self.parser = WBSParser()
+    
+    def test_init(self):
+        """Test WBSParser initialization"""
+        self.assertIsNotNone(self.parser)
+    
+    def test_parse_json_wbs_valid_structure(self):
+        """Test parsing valid JSON WBS structure"""
+        test_data = {
+            "id": 1,
+            "name": "Test Project",
+            "level": 0,
+            "subtasks": [
+                {
+                    "id": 2,
+                    "name": "Task 1",
+                    "level": 1,
+                    "subtasks": []
+                }
+            ]
+        }
+        
+        parsed = self.parser.parse_json_wbs(test_data)
+        self.assertEqual(parsed["id"], 1)
+        self.assertEqual(parsed["name"], "Test Project")
+        self.assertEqual(len(parsed["subtasks"]), 1)
+    
+    def test_parse_json_wbs_missing_required_fields(self):
+        """Test parsing JSON WBS with missing required fields"""
+        test_data = {"id": 1, "name": "Test"}  # Missing 'level'
+        
+        with self.assertRaises(ValueError):
+            self.parser.parse_json_wbs(test_data)
+    
+    def test_parse_json_wbs_invalid_type(self):
+        """Test parsing non-dictionary JSON data"""
+        with self.assertRaises(ValueError):
+            self.parser.parse_json_wbs("invalid")
+    
+    def test_parse_text_wbs_simple_structure(self):
+        """Test parsing simple text WBS structure"""
+        text = """Project
+    Task 1
+        Subtask 1.1
+    Task 2"""
+        
+        parsed = self.parser.parse_text_wbs(text)
+        self.assertEqual(parsed["name"], "Project")
+        self.assertEqual(len(parsed["subtasks"]), 2)
+        self.assertEqual(parsed["subtasks"][0]["name"], "Task 1")
+        self.assertEqual(len(parsed["subtasks"][0]["subtasks"]), 1)
+    
+    def test_parse_text_wbs_empty_text(self):
+        """Test parsing empty text"""
+        parsed = self.parser.parse_text_wbs("")
+        self.assertEqual(parsed["name"], "Project")
+        self.assertEqual(parsed["subtasks"], [])
+    
+    def test_parse_text_wbs_single_line(self):
+        """Test parsing single line text"""
+        parsed = self.parser.parse_text_wbs("Single Task")
+        self.assertEqual(parsed["name"], "Single Task")
+        self.assertEqual(parsed["subtasks"], [])
+    
+    def test_extract_task_details_complete_task(self):
+        """Test extracting details from complete task"""
+        task = {
+            "id": 1,
+            "name": "Test Task",
+            "description": "Test description",
+            "deadline": "2025-12-31",
+            "assigned_to": ["user1", "user2"],
+            "dependencies": [2, 3],
+            "status": "in_progress",
+            "priority": 5,
+            "subtasks": [{"id": 2, "name": "Subtask", "subtasks": []}]
+        }
+        
+        details = self.parser.extract_task_details(task)
+        self.assertEqual(details["id"], 1)
+        self.assertEqual(details["name"], "Test Task")
+        self.assertEqual(details["description"], "Test description")
+        self.assertEqual(details["deadline"], "2025-12-31")
+        self.assertEqual(details["assigned_to"], ["user1", "user2"])
+        self.assertEqual(details["dependencies"], [2, 3])
+        self.assertEqual(details["status"], "in_progress")
+        self.assertEqual(details["priority"], 5)
+        self.assertEqual(details["subtasks_count"], 1)
+    
+    def test_extract_task_details_minimal_task(self):
+        """Test extracting details from minimal task"""
+        task = {"id": 1, "name": "Minimal Task"}
+        
+        details = self.parser.extract_task_details(task)
+        self.assertEqual(details["id"], 1)
+        self.assertEqual(details["name"], "Minimal Task")
+        self.assertEqual(details["description"], "")
+        self.assertEqual(details["assigned_to"], [])
+        self.assertEqual(details["dependencies"], [])
+        self.assertEqual(details["status"], "pending")
+        self.assertEqual(details["priority"], 1)
+        self.assertEqual(details["subtasks_count"], 0)
+    
+    def test_validate_wbs_integrity_valid_structure(self):
+        """Test validating valid WBS structure"""
+        wbs = {
+            "id": 1,
+            "name": "Test Project",
+            "level": 0,
+            "subtasks": [
+                {"id": 2, "name": "Task 1", "level": 1, "subtasks": []}
+            ]
+        }
+        
+        is_valid = self.parser.validate_wbs_integrity(wbs)
+        self.assertTrue(is_valid)
+    
+    def test_validate_wbs_integrity_invalid_structure(self):
+        """Test validating invalid WBS structure"""
+        wbs = {"id": 1, "name": "Test"}  # Missing required fields
+        
+        is_valid = self.parser.validate_wbs_integrity(wbs)
+        self.assertFalse(is_valid)
+    
+    def test_get_task_hierarchy_flat_list(self):
+        """Test getting flat list of all tasks in hierarchy"""
+        wbs = {
+            "id": 1,
+            "name": "Root",
+            "level": 0,
+            "subtasks": [
+                {
+                    "id": 2,
+                    "name": "Task 1",
+                    "level": 1,
+                    "subtasks": [
+                        {"id": 3, "name": "Subtask 1.1", "level": 2, "subtasks": []}
+                    ]
+                },
+                {"id": 4, "name": "Task 2", "level": 1, "subtasks": []}
+            ]
+        }
+        
+        hierarchy = self.parser.get_task_hierarchy(wbs)
+        self.assertEqual(len(hierarchy), 4)
+        self.assertEqual(hierarchy[0]["name"], "Root")
+        self.assertEqual(hierarchy[1]["name"], "Task 1")
+        self.assertEqual(hierarchy[2]["name"], "Subtask 1.1")
+        self.assertEqual(hierarchy[3]["name"], "Task 2")
+    
+    def test_get_task_hierarchy_empty_wbs(self):
+        """Test getting hierarchy from empty WBS"""
+        wbs = {"id": 1, "name": "Empty", "level": 0, "subtasks": []}
+        
+        hierarchy = self.parser.get_task_hierarchy(wbs)
+        self.assertEqual(len(hierarchy), 1)
+        self.assertEqual(hierarchy[0]["name"], "Empty")
+    
+    def test_parse_text_wbs_complex_structure(self):
+        """Test parsing complex text WBS structure"""
+        text = """Project
+    Phase 1
+        Task 1.1
+            Subtask 1.1.1
+        Task 1.2
+    Phase 2
+        Task 2.1
+            Subtask 2.1.1
+            Subtask 2.1.2"""
+        
+        parsed = self.parser.parse_text_wbs(text)
+        self.assertEqual(parsed["name"], "Project")
+        self.assertEqual(len(parsed["subtasks"]), 2)
+        self.assertEqual(parsed["subtasks"][0]["name"], "Phase 1")
+        self.assertEqual(len(parsed["subtasks"][0]["subtasks"]), 2)
+        self.assertEqual(len(parsed["subtasks"][0]["subtasks"][0]["subtasks"]), 1)
+    
+    def test_parse_text_wbs_unicode_characters(self):
+        """Test parsing text WBS with Unicode characters"""
+        text = """پروژه
+    وظیفه ۱
+        زیروظیفه ۱.۱"""
+        
+        parsed = self.parser.parse_text_wbs(text)
+        self.assertEqual(parsed["name"], "پروژه")
+        self.assertEqual(len(parsed["subtasks"]), 1)
+        self.assertEqual(parsed["subtasks"][0]["name"], "وظیفه ۱")
+    
+    def test_parse_text_wbs_special_characters(self):
+        """Test parsing text WBS with special characters"""
+        text = """Project!
+    Task @#$%
+        Sub-task &*()"""
+        
+        parsed = self.parser.parse_text_wbs(text)
+        self.assertEqual(parsed["name"], "Project!")
+        self.assertEqual(parsed["subtasks"][0]["name"], "Task @#$%")
+        self.assertEqual(parsed["subtasks"][0]["subtasks"][0]["name"], "Sub-task &*()")
 
-        self.test_wbs_text_with_empty_lines = """1 Project Management Tool
 
-1.1 Requirements Analysis
-
-1.1.1 Gather User Requirements
-1.1.2 Define System Requirements
-
-1.2 Design Phase
-
-1.2.1 System Architecture Design
-1.2.2 UI/UX Design"""
-
-    # Test 1: Test parse_detailed_implementation_plan with valid data
-    @patch("builtins.open", new_callable=mock_open, read_data="1 Project Management Tool\n1.1 Requirements Analysis\n1.1.1 Gather User Requirements")
-    def test_parse_detailed_implementation_plan_valid_data(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that the result is a list
-        self.assertIsInstance(result, list)
-        
-        # Verify that the first task has the correct structure
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'Project Management Tool')
-        self.assertEqual(result[0]['level'], 1)
-
-    # Test 2: Test parse_detailed_implementation_plan with hierarchical data
-    @patch("builtins.open", new_callable=mock_open, read_data="1 Project Management Tool\n1.1 Requirements Analysis\n1.1.1 Gather User Requirements")
-    def test_parse_detailed_implementation_plan_hierarchical_data(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that the hierarchical structure is correct
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'Project Management Tool')
-        self.assertEqual(result[0]['level'], 1)
-        
-        # Verify subtasks
-        self.assertIn('subtasks', result[0])
-        self.assertEqual(len(result[0]['subtasks']), 1)
-        self.assertEqual(result[0]['subtasks'][0]['id'], '1.1')
-        self.assertEqual(result[0]['subtasks'][0]['title'], 'Requirements Analysis')
-        self.assertEqual(result[0]['subtasks'][0]['level'], 2)
-        
-        # Verify nested subtasks
-        self.assertIn('subtasks', result[0]['subtasks'][0])
-        self.assertEqual(len(result[0]['subtasks'][0]['subtasks']), 1)
-        self.assertEqual(result[0]['subtasks'][0]['subtasks'][0]['id'], '1.1.1')
-        self.assertEqual(result[0]['subtasks'][0]['subtasks'][0]['title'], 'Gather User Requirements')
-        self.assertEqual(result[0]['subtasks'][0]['subtasks'][0]['level'], 3)
-
-    # Test 3: Test parse_detailed_implementation_plan with empty lines
-    @patch("builtins.open", new_callable=mock_open, read_data="1 Project Management Tool\n\n1.1 Requirements Analysis\n\n1.1.1 Gather User Requirements")
-    def test_parse_detailed_implementation_plan_empty_lines(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that empty lines are ignored
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'Project Management Tool')
-        self.assertEqual(result[0]['level'], 1)
-        
-        # Verify subtasks
-        self.assertEqual(len(result[0]['subtasks']), 1)
-        self.assertEqual(result[0]['subtasks'][0]['id'], '1.1')
-        self.assertEqual(result[0]['subtasks'][0]['title'], 'Requirements Analysis')
-        self.assertEqual(result[0]['subtasks'][0]['level'], 2)
-
-    # Test 4: Test parse_detailed_implementation_plan with no data
-    @patch("builtins.open", new_callable=mock_open, read_data="")
-    def test_parse_detailed_implementation_plan_no_data(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that an empty list is returned
-        self.assertEqual(result, [])
-
-    # Test 5: Test parse_detailed_implementation_plan with invalid format
-    @patch("builtins.open", new_callable=mock_open, read_data="Invalid line format\nAnother invalid line")
-    def test_parse_detailed_implementation_plan_invalid_format(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that no tasks are parsed from invalid format
-        self.assertEqual(result, [])
-
-    # Test 6: Test parse_detailed_implementation_plan with unicode data
-    @patch("builtins.open", new_callable=mock_open, read_data="1 مشروع\n1.1 تحليل المتطلبات")
-    def test_parse_detailed_implementation_plan_unicode_data(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that unicode data is handled correctly
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'مشروع')
-        self.assertEqual(result[0]['level'], 1)
-        
-        # Verify subtasks
-        self.assertEqual(len(result[0]['subtasks']), 1)
-        self.assertEqual(result[0]['subtasks'][0]['id'], '1.1')
-        self.assertEqual(result[0]['subtasks'][0]['title'], 'تحليل المتطلبات')
-        self.assertEqual(result[0]['subtasks'][0]['level'], 2)
-
-    # Test 7: Test parse_detailed_implementation_plan with special characters
-    @patch("builtins.open", new_callable=mock_open, read_data="1 Task!@#$%^&*()\n1.1 Subtask\nwith\nnewlines")
-    def test_parse_detailed_implementation_plan_special_characters(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that special characters are handled correctly
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'Task!@#$%^&*()')
-        self.assertEqual(result[0]['level'], 1)
-        
-        # Verify subtasks
-        self.assertEqual(len(result[0]['subtasks']), 1)
-        self.assertEqual(result[0]['subtasks'][0]['id'], '1.1')
-        self.assertEqual(result[0]['subtasks'][0]['title'], 'Subtask')
-        self.assertEqual(result[0]['subtasks'][0]['level'], 2)
-
-    # Test 8: Test parse_detailed_implementation_plan with large data
-    @patch("builtins.open", new_callable=mock_open)
-    def test_parse_detailed_implementation_plan_large_data(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        
-        # Create large WBS text with 100 tasks
-        large_wbs_text = ""
-        for i in range(100):
-            large_wbs_text += f"{i+1} Task {i+1}\n"
-            for j in range(5):
-                large_wbs_text += f"{i+1}.{j+1} Subtask {i+1}.{j+1}\n"
-        
-        mock_open_file.return_value.read.return_value = large_wbs_text
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that all tasks are parsed
-        self.assertEqual(len(result), 100)
-        # Verify that subtasks are parsed for the first task
-        self.assertEqual(len(result[0]['subtasks']), 5)
-
-    # Test 9: Test parse_detailed_implementation_plan with file not found
-    @patch("builtins.open", side_effect=FileNotFoundError("File not found"))
-    def test_parse_detailed_implementation_plan_file_not_found(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        
-        # Verify that the exception is raised
-        with self.assertRaises(FileNotFoundError) as context:
-            parse_detailed_implementation_plan('nonexistent.txt')
-        
-        self.assertIn("File not found", str(context.exception))
-
-    # Test 10: Test parse_detailed_implementation_plan with permission error
-    @patch("builtins.open", side_effect=PermissionError("Permission denied"))
-    def test_parse_detailed_implementation_plan_permission_error(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        
-        # Verify that the exception is raised
-        with self.assertRaises(PermissionError) as context:
-            parse_detailed_implementation_plan('protected.txt')
-        
-        self.assertIn("Permission denied", str(context.exception))
-
-    # Test 11: Test save_wbs_to_json with valid data
-    @patch("builtins.open", new_callable=mock_open)
-    @patch("json.dump")
-    def test_save_wbs_to_json_valid_data(self, mock_json_dump, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import save_wbs_to_json
-        
-        test_wbs = [
-            {
-                "id": "1",
-                "title": "Project Management Tool",
-                "level": 1,
-                "subtasks": [
-                    {
-                        "id": "1.1",
-                        "title": "Requirements Analysis",
-                        "level": 2,
-                        "subtasks": []
-                    }
-                ]
-            }
-        ]
-        
-        save_wbs_to_json(test_wbs, 'output.json')
-        
-        # Verify that open was called with correct parameters
-        mock_open_file.assert_called_once_with('output.json', 'w', encoding='utf-8')
-        
-        # Verify that json.dump was called with correct parameters
-        mock_json_dump.assert_called_once()
-
-    # Test 12: Test save_wbs_to_json with empty data
-    @patch("builtins.open", new_callable=mock_open)
-    @patch("json.dump")
-    def test_save_wbs_to_json_empty_data(self, mock_json_dump, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import save_wbs_to_json
-        
-        save_wbs_to_json([], 'output.json')
-        
-        # Verify that open was called with correct parameters
-        mock_open_file.assert_called_once_with('output.json', 'w', encoding='utf-8')
-        
-        # Verify that json.dump was called with correct parameters
-        mock_json_dump.assert_called_once_with([], mock_open_file(), ensure_ascii=False, indent=2)
-
-    # Test 13: Test save_wbs_to_json with unicode data
-    @patch("builtins.open", new_callable=mock_open)
-    @patch("json.dump")
-    def test_save_wbs_to_json_unicode_data(self, mock_json_dump, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import save_wbs_to_json
-        
-        test_wbs = [
-            {
-                "id": "1",
-                "title": "مشروع",  # "Project" in Arabic
-                "level": 1,
-                "subtasks": []
-            }
-        ]
-        
-        save_wbs_to_json(test_wbs, 'output.json')
-        
-        # Verify that open was called with correct parameters
-        mock_open_file.assert_called_once_with('output.json', 'w', encoding='utf-8')
-        
-        # Verify that json.dump was called with correct parameters
-        mock_json_dump.assert_called_once()
-
-    # Test 14: Test save_wbs_to_json with special characters
-    @patch("builtins.open", new_callable=mock_open)
-    @patch("json.dump")
-    def test_save_wbs_to_json_special_characters(self, mock_json_dump, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import save_wbs_to_json
-        
-        test_wbs = [
-            {
-                "id": "1",
-                "title": "Task!@#$%^&*()",
-                "level": 1,
-                "subtasks": [
-                    {
-                        "id": "1.1",
-                        "title": "Subtask\nwith\nnewlines",
-                        "level": 2,
-                        "subtasks": []
-                    }
-                ]
-            }
-        ]
-        
-        save_wbs_to_json(test_wbs, 'output.json')
-        
-        # Verify that open was called with correct parameters
-        mock_open_file.assert_called_once_with('output.json', 'w', encoding='utf-8')
-        
-        # Verify that json.dump was called with correct parameters
-        mock_json_dump.assert_called_once()
-
-    # Test 15: Test save_wbs_to_json with permission error
-    @patch("builtins.open", side_effect=PermissionError("Permission denied"))
-    def test_save_wbs_to_json_permission_error(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import save_wbs_to_json
-        
-        test_wbs = [
-            {
-                "id": "1",
-                "title": "Project Management Tool",
-                "level": 1,
-                "subtasks": []
-            }
-        ]
-        
-        # Verify that the exception is raised
-        with self.assertRaises(PermissionError) as context:
-            save_wbs_to_json(test_wbs, 'protected.json')
-        
-        self.assertIn("Permission denied", str(context.exception))
-
-    # Test 16: Test save_wbs_to_json with disk full error
-    @patch("builtins.open", side_effect=OSError("No space left on device"))
-    def test_save_wbs_to_json_disk_full_error(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import save_wbs_to_json
-        
-        test_wbs = [
-            {
-                "id": "1",
-                "title": "Project Management Tool",
-                "level": 1,
-                "subtasks": []
-            }
-        ]
-        
-        # Verify that the exception is raised
-        with self.assertRaises(OSError) as context:
-            save_wbs_to_json(test_wbs, 'full_disk.json')
-        
-        self.assertIn("No space left on device", str(context.exception))
-
-    # Test 17: Test parse_detailed_implementation_plan with complex hierarchy
-    @patch("builtins.open", new_callable=mock_open, read_data="1 Project\n1.1 Phase 1\n1.1.1 Task 1.1.1\n1.1.2 Task 1.1.2\n1.2 Phase 2\n1.2.1 Task 1.2.1\n1.2.1.1 Subtask 1.2.1.1\n1.3 Phase 3")
-    def test_parse_detailed_implementation_plan_complex_hierarchy(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify the complex hierarchy structure
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'Project')
-        
-        # Verify Phase 1 and its subtasks
-        phase1 = result[0]['subtasks'][0]
-        self.assertEqual(phase1['id'], '1.1')
-        self.assertEqual(phase1['title'], 'Phase 1')
-        self.assertEqual(len(phase1['subtasks']), 2)
-        
-        # Verify Phase 2 and its subtasks
-        phase2 = result[0]['subtasks'][1]
-        self.assertEqual(phase2['id'], '1.2')
-        self.assertEqual(phase2['title'], 'Phase 2')
-        self.assertEqual(len(phase2['subtasks']), 1)
-        
-        # Verify nested subtask in Phase 2
-        subtask = phase2['subtasks'][0]['subtasks'][0]
-        self.assertEqual(subtask['id'], '1.2.1.1')
-        self.assertEqual(subtask['title'], 'Subtask 1.2.1.1')
-
-    # Test 18: Test parse_detailed_implementation_plan with mixed level numbering
-    @patch("builtins.open", new_callable=mock_open, read_data="1 Project\n1.1 Task 1.1\n1.1.1 Task 1.1.1\n1.2 Task 1.2\n2 Another Project\n2.1 Task 2.1")
-    def test_parse_detailed_implementation_plan_mixed_level_numbering(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that multiple top-level tasks are handled correctly
-        self.assertEqual(len(result), 2)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], 'Project')
-        self.assertEqual(result[1]['id'], '2')
-        self.assertEqual(result[1]['title'], 'Another Project')
-
-    # Test 19: Test parse_detailed_implementation_plan with zero-padded numbering
-    @patch("builtins.open", new_callable=mock_open, read_data="01 Project\n01.01 Task 1.1\n01.01.01 Task 1.1.1")
-    def test_parse_detailed_implementation_plan_zero_padded_numbering(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that zero-padded numbering is handled correctly
-        # Note: The regex in the original code expects standard numbering format
-        # So this test will verify that such lines are ignored or handled gracefully
-        self.assertEqual(result, [])
-
-    # Test 20: Test parse_detailed_implementation_plan with very long task titles
-    @patch("builtins.open", new_callable=mock_open)
-    def test_parse_detailed_implementation_plan_very_long_task_titles(self, mock_open_file):
-        from project_management.modules.main_modules.wbs_parser import parse_detailed_implementation_plan
-        
-        # Create a very long task title
-        long_title = "Task " + "A" * 1000  # 1000 'A' characters
-        test_data = f"1 {long_title}\n1.1 Subtask"
-        mock_open_file.return_value.read.return_value = test_data
-        
-        result = parse_detailed_implementation_plan('test.txt')
-        
-        # Verify that long titles are handled correctly
-        self.assertEqual(len(result), 1)
-        self.assertEqual(result[0]['id'], '1')
-        self.assertEqual(result[0]['title'], long_title)
-        self.assertEqual(len(result[0]['subtasks']), 1)
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
