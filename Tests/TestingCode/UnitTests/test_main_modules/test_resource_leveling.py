@@ -163,7 +163,7 @@ class TestResourceLeveling(unittest.TestCase):
         self.assertIn(2, result)
         self.assertIn(3, result)
         # Check that optimistic hours were used
-        self.assertEqual(result[1]['end'] - result[1]['start'], 1)  # 1 hour for subtask
+        self.assertEqual(result[2]['end'] - result[2]['start'], 1)  # 1 hour for subtask 2
 
     # Test 9: Test resource_leveling method with pessimistic duration
     def test_resource_leveling_pessimistic_duration(self):
@@ -176,7 +176,7 @@ class TestResourceLeveling(unittest.TestCase):
         self.assertIn(2, result)
         self.assertIn(3, result)
         # Check that pessimistic hours were used
-        self.assertEqual(result[1]['end'] - result[1]['start'], 3)  # 3 hours for subtask
+        self.assertEqual(result[2]['end'] - result[2]['start'], 3)  # 3 hours for subtask 2
 
     # Test 10: Test resource_leveling with missing duration fields
     def test_resource_leveling_missing_duration_fields(self):
