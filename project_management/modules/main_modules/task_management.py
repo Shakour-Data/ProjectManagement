@@ -212,19 +212,6 @@ class TaskManagement:
             "eliminate": eliminate,
         }
 
-    def prioritize_tasks(self):
-        """
-        Prioritize tasks based on calculated urgency and importance.
-        """
-        self.calculate_urgency_importance()
-
-        def task_priority(task: Task):
-            # Combine urgency and importance with different weights
-            return (task.importance * 0.7 + task.urgency * 0.3, task.deadline or datetime.date.max)
-
-        sorted_tasks = sorted(self.tasks.values(), key=task_priority, reverse=True)
-        return sorted_tasks
-
     def _calculate_urgency(self, task: Task) -> float:
         """
         Calculate urgency based on deadline proximity and other factors.
