@@ -1,307 +1,291 @@
+"""
+Unit tests for the reporting module.
+This test suite covers the actual Reporting class functionality.
+"""
+
 import unittest
-from project_management.modules.main_modules import reporting
+import json
+import os
+import tempfile
+import shutil
+from unittest.mock import patch, MagicMock
+from project_management.modules.main_modules.reporting import Reporting, BaseManagement
+
+class TestBaseManagement(unittest.TestCase):
+    """Test cases for BaseManagement class."""
+    
+    def setUp(self):
+        """Set up test fixtures."""
+        self.temp_dir = tempfile.mkdtemp()
+        self.input_file = os.path.join(self.temp_dir, 'input.json')
+        self.output_file = os.path.join(self.temp_dir, 'output.json')
+        
+        # Create test input data
+        self.test_data = {
+            "test_key": "test_value",
+            "nested": {"inner": "data"}
+        }
+        
+    def tearDown(self):
+        """Clean up test fixtures."""
+        shutil.rmtree(self.temp_dir)
+        
+    def test_init(self):
+        """Test BaseManagement initialization."""
+        input_paths = {"test": self.input_file}
+        base_mgmt = BaseManagement(input_paths, self.output_file)
+        
+        self.assertEqual(base_mgmt.input_paths, input_paths)
+        self.assertEqual(base_mgmt.output_path, self.output_file)
+        self.assertEqual(base_mgmt.inputs, {})
+        self.assertEqual(base_mgmt.output, {})
+        
+    def test_load_json_existing_file(self):
+        """Test loading JSON from existing file."""
+        with open(self.input_file, 'w') as f:
+            json.dump(self.test_data, f)
+            
+        base_mgmt = BaseManagement({}, self.output_file)
+        result = base_mgmt.load_json(self.input_file)
+        
+        self.assertEqual(result, self.test_data)
+        
+    def test_load_json_nonexistent_file(self):
+        """Test loading JSON from non-existent file."""
+        base_mgmt = BaseManagement({}, self.output_file)
+        result = base_mgmt.load_json("nonexistent.json")
+        
+        self.assertIsNone(result)
+        
+    def test_save_json(self):
+        """Test saving JSON data."""
+        base_mgmt = BaseManagement({}, self.output_file)
+        test_data = {"key": "value"}
+        
+        base_mgmt.save_json(test_data, self.output_file)
+        
+        self.assertTrue(os.path.exists(self.output_file))
+        with open(self.output_file, 'r') as f:
+            loaded_data = json.load(f)
+        self.assertEqual(loaded_data, test_data)
+        
+    def test_load_inputs(self):
+        """Test loading multiple input files."""
+        # Create test input files
+        input1_path = os.path.join(self.temp_dir, 'input1.json')
+        input2_path = os.path.join(self.temp_dir, 'input2.json')
+        
+        with open(input1_path, 'w') as f:
+            json.dump({"data1": "value1"}, f)
+        with open(input2_path, 'w') as f:
+            json.dump({"data2": "value2"}, f)
+            
+        input_paths = {
+            "input1": input1_path,
+            "input2": input2_path
+        }
+        
+        base_mgmt = BaseManagement(input_paths, self.output_file)
+        base_mgmt.load_inputs()
+        
+        self.assertEqual(base_mgmt.inputs["input1"], {"data1": "value1"})
+        self.assertEqual(base_mgmt.inputs["input2"], {"data2": "value2"})
+        
+    def test_analyze_not_implemented(self):
+        """Test that analyze method raises NotImplementedError."""
+        base_mgmt = BaseManagement({}, self.output_file)
+        
+        with self.assertRaises(NotImplementedError):
+            base_mgmt.analyze()
+
 
 class TestReporting(unittest.TestCase):
+    """Test cases for Reporting class."""
+    
     def setUp(self):
-        # Setup any necessary test data or state
-        pass
+        """Set up test fixtures."""
+        self.temp_dir = tempfile.mkdtemp()
+        
+        # Create test input files
+        self.test_files = {
+            'detailed_wbs.json': {
+                "project_name": "Test Project",
+                "tasks": [
+                    {"id": 1, "name": "Task 1", "duration": 5},
+                    {"id": 2, "name": "Task 2", "duration": 3}
+                ]
+            },
+            'resource_allocation_summary.json': {
+                "resources": [
+                    {"name": "Developer", "allocated_hours": 40},
+                    {"name": "Designer", "allocated_hours": 20}
+                ]
+            },
+            'time_management.json': {
+                "total_hours": 100,
+                "completed_hours": 50
+            },
+            'risk_management.json': {
+                "risks": [
+                    {"id": 1, "probability": 0.3, "impact": "high"},
+                    {"id": 2, "probability": 0.1, "impact": "medium"}
+                ]
+            },
+            'quality_management.json': {
+                "quality_score": 85,
+                "issues": []
+            }
+        }
+        
+        # Create test files
+        for filename, content in self.test_files.items():
+            filepath = os.path.join(self.temp_dir, filename)
+            with open(filepath, 'w') as f:
+                json.dump(content, f)
+                
+        self.output_file = os.path.join(self.temp_dir, 'project_reports.json')
+        
+    def tearDown(self):
+        """Clean up test fixtures."""
+        shutil.rmtree(self.temp_dir)
+        
+    def test_init_default_paths(self):
+        """Test Reporting initialization with default paths."""
+        reporting = Reporting()
+        
+        expected_input_paths = {
+            'detailed_wbs': 'project_inputs/PM_JSON/user_inputs/detailed_wbs.json',
+            'resource_allocation_summary': 'project_inputs/PM_JSON/system_outputs/resource_allocation_summary.json',
+            'time_management': 'project_inputs/PM_JSON/system_outputs/time_management.json',
+            'risk_management': 'project_inputs/PM_JSON/system_outputs/risk_management.json',
+            'quality_management': 'project_inputs/PM_JSON/system_outputs/quality_management.json'
+        }
+        
+        self.assertEqual(reporting.input_paths, expected_input_paths)
+        self.assertEqual(reporting.output_path, 'project_inputs/PM_JSON/system_outputs/project_reports.json')
+        
+    def test_init_custom_paths(self):
+        """Test Reporting initialization with custom paths."""
+        custom_paths = {
+            'detailed_wbs': os.path.join(self.temp_dir, 'detailed_wbs.json'),
+            'resource_allocation_summary': os.path.join(self.temp_dir, 'resource_allocation_summary.json'),
+            'time_management': os.path.join(self.temp_dir, 'time_management.json'),
+            'risk_management': os.path.join(self.temp_dir, 'risk_management.json'),
+            'quality_management': os.path.join(self.temp_dir, 'quality_management.json'),
+            'output': self.output_file
+        }
+        
+        reporting = Reporting(
+            detailed_wbs_path=custom_paths['detailed_wbs'],
+            resource_allocation_summary_path=custom_paths['resource_allocation_summary'],
+            time_management_path=custom_paths['time_management'],
+            risk_management_path=custom_paths['risk_management'],
+            quality_management_path=custom_paths['quality_management'],
+            output_path=custom_paths['output']
+        )
+        
+        self.assertEqual(reporting.input_paths['detailed_wbs'], custom_paths['detailed_wbs'])
+        self.assertEqual(reporting.output_path, custom_paths['output'])
+        
+    def test_analyze_basic(self):
+        """Test analyze method with basic data."""
+        reporting = Reporting(
+            detailed_wbs_path=os.path.join(self.temp_dir, 'detailed_wbs.json'),
+            resource_allocation_summary_path=os.path.join(self.temp_dir, 'resource_allocation_summary.json'),
+            time_management_path=os.path.join(self.temp_dir, 'time_management.json'),
+            risk_management_path=os.path.join(self.temp_dir, 'risk_management.json'),
+            quality_management_path=os.path.join(self.temp_dir, 'quality_management.json'),
+            output_path=self.output_file
+        )
+        
+        reporting.analyze()
+        
+        self.assertEqual(reporting.output['summary'], 'Project reports generation not yet implemented')
+        self.assertIsInstance(reporting.output['details'], dict)
+        
+    def test_analyze_empty_inputs(self):
+        """Test analyze method with empty input files."""
+        # Create empty files
+        empty_files = ['empty_wbs.json', 'empty_resources.json', 'empty_time.json', 'empty_risk.json', 'empty_quality.json']
+        for filename in empty_files:
+            filepath = os.path.join(self.temp_dir, filename)
+            with open(filepath, 'w') as f:
+                json.dump({}, f)
+                
+        reporting = Reporting(
+            detailed_wbs_path=os.path.join(self.temp_dir, 'empty_wbs.json'),
+            resource_allocation_summary_path=os.path.join(self.temp_dir, 'empty_resources.json'),
+            time_management_path=os.path.join(self.temp_dir, 'empty_time.json'),
+            risk_management_path=os.path.join(self.temp_dir, 'empty_risk.json'),
+            quality_management_path=os.path.join(self.temp_dir, 'empty_quality.json'),
+            output_path=self.output_file
+        )
+        
+        reporting.analyze()
+        
+        self.assertEqual(reporting.output['summary'], 'Project reports generation not yet implemented')
+        
+    def test_analyze_missing_files(self):
+        """Test analyze method with missing input files."""
+        reporting = Reporting(
+            detailed_wbs_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            resource_allocation_summary_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            time_management_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            risk_management_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            quality_management_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            output_path=self.output_file
+        )
+        
+        reporting.load_inputs()
+        
+        # Should load empty dicts for missing files
+        for key in reporting.inputs:
+            self.assertEqual(reporting.inputs[key], {})
+            
+    def test_run_method(self):
+        """Test the complete run method."""
+        reporting = Reporting(
+            detailed_wbs_path=os.path.join(self.temp_dir, 'detailed_wbs.json'),
+            resource_allocation_summary_path=os.path.join(self.temp_dir, 'resource_allocation_summary.json'),
+            time_management_path=os.path.join(self.temp_dir, 'time_management.json'),
+            risk_management_path=os.path.join(self.temp_dir, 'risk_management.json'),
+            quality_management_path=os.path.join(self.temp_dir, 'quality_management.json'),
+            output_path=self.output_file
+        )
+        
+        reporting.run()
+        
+        # Check that output file was created
+        self.assertTrue(os.path.exists(self.output_file))
+        
+        # Check that output file contains expected data
+        with open(self.output_file, 'r') as f:
+            output_data = json.load(f)
+            
+        self.assertEqual(output_data['summary'], 'Project reports generation not yet implemented')
+        self.assertIsInstance(output_data['details'], dict)
+        
+    def test_run_with_missing_files(self):
+        """Test run method with missing input files."""
+        reporting = Reporting(
+            detailed_wbs_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            resource_allocation_summary_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            time_management_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            risk_management_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            quality_management_path=os.path.join(self.temp_dir, 'nonexistent.json'),
+            output_path=self.output_file
+        )
+        
+        reporting.run()
+        
+        # Should still create output file
+        self.assertTrue(os.path.exists(self.output_file))
+        
+        with open(self.output_file, 'r') as f:
+            output_data = json.load(f)
+            
+        self.assertEqual(output_data['summary'], 'Project reports generation not yet implemented')
 
-    # Test 1
-    def test_generate_report_basic(self):
-        data = {"metrics": {"value": 100}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 2
-    def test_generate_report_empty_data(self):
-        data = {}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 3
-    def test_generate_report_with_invalid_data(self):
-        with self.assertRaises(TypeError):
-            reporting.generate_report(None)
-
-    # Test 4
-    def test_generate_report_with_large_data(self):
-        data = {"metrics": list(range(1000))}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 5
-    def test_generate_report_with_special_characters(self):
-        data = {"metrics": "!@#$%^&*()"}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 6
-    def test_generate_report_with_unicode(self):
-        data = {"metrics": "تست"}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 7
-    def test_generate_report_with_none_data(self):
-        with self.assertRaises(TypeError):
-            reporting.generate_report(None)
-
-    # Test 8
-    def test_generate_report_with_extra_fields(self):
-        data = {"metrics": {"value": 100}, "extra": "field"}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 9
-    def test_generate_report_with_nested_data(self):
-        data = {"metrics": {"value": 100}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 10
-    def test_generate_report_with_empty_metrics(self):
-        data = {"metrics": {}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 11
-    def test_generate_report_with_float_values(self):
-        data = {"metrics": {"value": 100.5}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 12
-    def test_generate_report_with_boolean_values(self):
-        data = {"metrics": {"value": True}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 13
-    def test_generate_report_with_list_values(self):
-        data = {"metrics": {"value": [100]}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 14
-    def test_generate_report_with_dict_values(self):
-        data = {"metrics": {"value": {"number": 100}}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 15
-    def test_generate_report_with_string_values(self):
-        data = {"metrics": {"value": "100"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 16
-    def test_generate_report_with_negative_values(self):
-        data = {"metrics": {"value": -10}}
-        with self.assertRaises(ValueError):
-            reporting.generate_report(data)
-
-    # Test 17
-    def test_generate_report_with_large_values(self):
-        data = {"metrics": {"value": 1e10}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 18
-    def test_generate_report_with_zero_value(self):
-        data = {"metrics": {"value": 0}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 19
-    def test_generate_report_with_max_value(self):
-        data = {"metrics": {"value": 100}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 20
-    def test_generate_report_with_min_value(self):
-        data = {"metrics": {"value": 1}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 21
-    def test_generate_report_with_none_value(self):
-        data = {"metrics": {"value": None}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 22
-    def test_generate_report_with_invalid_type(self):
-        data = {"metrics": {"value": object()}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 23
-    def test_generate_report_with_special_characters_in_value(self):
-        data = {"metrics": {"value": "!@#$%^&*()"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 24
-    def test_generate_report_with_unicode_characters_in_value(self):
-        data = {"metrics": {"value": "تست"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 25
-    def test_generate_report_with_empty_string_value(self):
-        data = {"metrics": {"value": ""}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 26
-    def test_generate_report_with_whitespace_string_value(self):
-        data = {"metrics": {"value": " "}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 27
-    def test_generate_report_with_html_content(self):
-        data = {"metrics": {"value": "<b>100</b>"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 28
-    def test_generate_report_with_sql_keywords(self):
-        data = {"metrics": {"value": "SELECT * FROM users"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 29
-    def test_generate_report_with_json_content(self):
-        data = {"metrics": {"value": '{"key": "value"}'}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 30
-    def test_generate_report_with_xml_content(self):
-        data = {"metrics": {"value": "<note><to>User</to></note>"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 31
-    def test_generate_report_with_markdown_content(self):
-        data = {"metrics": {"value": "**100**"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 32
-    def test_generate_report_with_code_snippet(self):
-        data = {"metrics": {"value": "def func(): pass"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 33
-    def test_generate_report_with_url(self):
-        data = {"metrics": {"value": "http://example.com"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 34
-    def test_generate_report_with_email(self):
-        data = {"metrics": {"value": "user@example.com"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 35
-    def test_generate_report_with_multilingual_content(self):
-        data = {"metrics": {"value": "Hello و سلام"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 36
-    def test_generate_report_with_emoji_content(self):
-        data = {"metrics": {"value": "Hello 😊"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 37
-    def test_generate_report_with_long_multiline_content(self):
-        data = {"metrics": {"value": "Hello\nWorld\nTest"}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 38
-    def test_generate_report_with_whitespace_content(self):
-        data = {"metrics": {"value": "   "}}
-        with self.assertRaises(TypeError):
-            reporting.generate_report(data)
-
-    # Test 39
-    def test_generate_report_with_none(self):
-        with self.assertRaises(TypeError):
-            reporting.generate_report(None)
-
-    # Test 40
-    def test_generate_report_with_empty_dict(self):
-        data = {}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 41
-    def test_generate_report_with_extra_unexpected_fields(self):
-        data = {"metrics": {"value": 100}, "unexpected": "field"}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 42
-    def test_generate_report_with_nested_dict(self):
-        data = {"metrics": {"value": 100}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 43
-    def test_generate_report_with_empty_metrics(self):
-        data = {"metrics": {}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 44
-    def test_generate_report_with_large_numbers(self):
-        data = {"metrics": {"value": 1e10}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 45
-    def test_generate_report_with_zero_value(self):
-        data = {"metrics": {"value": 0}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 46
-    def test_generate_report_with_max_value(self):
-        data = {"metrics": {"value": 100}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 47
-    def test_generate_report_with_min_value(self):
-        data = {"metrics": {"value": 1}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 48
-    def test_generate_report_with_fractional_value(self):
-        data = {"metrics": {"value": 50.5}}
-        report = reporting.generate_report(data)
-        self.assertIsInstance(report, dict)
-
-    # Test 49
-    def test_generate_report_with_negative_value(self):
-        data = {"metrics": {"value": -10}}
-        with self.assertRaises(ValueError):
-            reporting.generate_report(data)
-
-    # Test 50
-    def test_generate_report_with_value_over_max(self):
-        data = {"metrics": {"value": 110}}
-        with self.assertRaises(ValueError):
-            reporting.generate_report(data)
 
 if __name__ == "__main__":
     unittest.main()
